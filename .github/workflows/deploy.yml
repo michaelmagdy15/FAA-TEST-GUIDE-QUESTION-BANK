@@ -1,0 +1,57 @@
+name: Deploy to Cloud Run
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'pilot-test-guide/**'
+      - '.github/workflows/deploy.yml'
+
+env:
+  PROJECT_ID: egyptian-aviation-academy
+  REGION: us-central1
+  IMAGE: us-central1-docker.pkg.dev/egyptian-aviation-academy/faa-app/faa-test-guide
+  SERVICE: faa-test-guide
+
+jobs:
+  deploy:
+    name: Build & Deploy
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Authenticate to Google Cloud
+        uses: google-github-actions/auth@v2
+        with:
+          credentials_json: ${{ secrets.GCP_SA_KEY }}
+
+      - name: Set up Cloud SDK
+        uses: google-github-actions/setup-gcloud@v2
+
+      - name: Configure Docker for Artifact Registry
+        run: gcloud auth configure-docker ${{ env.REGION }}-docker.pkg.dev --quiet
+
+      - name: Build & push Docker image
+        working-directory: pilot-test-guide
+        run: |
+          docker build -t ${{ env.IMAGE }}:${{ github.sha }} -t ${{ env.IMAGE }}:latest .
+          docker push ${{ env.IMAGE }}:${{ github.sha }}
+          docker push ${{ env.IMAGE }}:latest
+
+      - name: Deploy to Cloud Run
+        run: |
+          gcloud run deploy ${{ env.SERVICE }} \
+            --image=${{ env.IMAGE }}:${{ github.sha }} \
+            --platform=managed \
+            --region=${{ env.REGION }} \
+            --allow-unauthenticated \
+            --port=80 \
+            --project=${{ env.PROJECT_ID }}
+
+      - name: Show Live URL
+        run: |
+          echo "✅ Deployed! Live at:"
+          gcloud run services describe ${{ env.SERVICE }} --region=${{ env.REGION }} --project=${{ env.PROJECT_ID }} --format='value(status.url)'
