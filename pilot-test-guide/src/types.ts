@@ -6,7 +6,10 @@ export interface Question {
         A: string;
         B: string;
         C: string;
+        D?: string;
     };
     correct: string;
     explanation: string;
 }
+
+export type TestMode = 'ppl' | 'ir' | 'cpl';

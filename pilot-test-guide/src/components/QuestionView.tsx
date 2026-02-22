@@ -13,9 +13,16 @@ interface QuestionViewProps {
     chapter: string;
     questions: Question[];
     onBack: () => void;
+    mode?: 'ppl' | 'ir' | 'cpl';
+    progressPrefix?: string;
 }
 
-export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, onBack }) => {
+export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, onBack, mode = 'ppl', progressPrefix = 'progress' }) => {
+    const isIR = mode === 'ir';
+    const isCPL = mode === 'cpl';
+    const accentColor = isIR ? '#0d7a5f' : isCPL ? '#b45309' : 'var(--accent-color)';
+    const modeLabel = isIR ? '🛩️ IR' : isCPL ? '🎖️ CPL' : '✈️ PPL';
+    const storageKey = `${progressPrefix}_${chapter}`;
     const [currentIndex, setCurrentIndex] = useState(0);
     const [selectedAnswers, setSelectedAnswers] = useState<Record<string, string>>({});
     const [showConfetti, setShowConfetti] = useState(false);
@@ -28,21 +35,21 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
 
     // Load progress
     useEffect(() => {
-        const saved = localStorage.getItem(`progress_${chapter}`);
+        const saved = localStorage.getItem(storageKey);
         if (saved) {
             setSelectedAnswers(JSON.parse(saved));
         } else {
             setSelectedAnswers({});
         }
         setCurrentIndex(0);
-    }, [chapter]);
+    }, [chapter, storageKey]);
 
     // Save progress
     useEffect(() => {
         if (Object.keys(selectedAnswers).length > 0) {
-            localStorage.setItem(`progress_${chapter}`, JSON.stringify(selectedAnswers));
+            localStorage.setItem(storageKey, JSON.stringify(selectedAnswers));
         }
-    }, [selectedAnswers, chapter]);
+    }, [selectedAnswers, chapter, storageKey]);
 
     const question = questions[currentIndex];
     if (!question) return null;
@@ -80,7 +87,7 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                 handlePrev();
             } else if (!answered) {
                 const key = e.key.toUpperCase();
-                if (['A', 'B', 'C'].includes(key) && question.options[key as keyof typeof question.options]) {
+                if (['A', 'B', 'C', 'D'].includes(key) && question.options[key as keyof typeof question.options]) {
                     handleSelect(key);
                 }
             }
@@ -123,9 +130,14 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                             <ConfettiExplosion force={0.6} duration={2200} particleCount={80} width={1000} colors={['#2ea043', '#58a6ff', '#e3b341', '#f85149']} />
                         </div>
                     )}
-                    <button className="btn-secondary" onClick={() => { sfx.playSelect(); onBack(); }} onMouseEnter={() => sfx.playHover()}>&larr; Back to Chapters</button>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                        <button className="btn-secondary" onClick={() => { sfx.playSelect(); onBack(); }} onMouseEnter={() => sfx.playHover()}>&larr; Back to Chapters</button>
+                        <span style={{ padding: '0.25rem 0.75rem', borderRadius: '6px', fontSize: '0.8rem', fontWeight: 600, background: `${accentColor}22`, color: accentColor, border: `1px solid ${accentColor}` }}>
+                            {modeLabel}
+                        </span>
+                    </div>
                     <div className="progress-info" style={{ fontWeight: 500, color: 'var(--text-secondary)' }}>
-                        {chapter === "REVIEW" ? "Reviewing Incorrect" : `Chapter ${chapter}`} - {currentIndex + 1} / {total}
+                        {chapter === "REVIEW" ? "Reviewing Incorrect" : `${isIR ? 'Module' : isCPL ? 'Chapter' : 'Chapter'} ${chapter}`} - {currentIndex + 1} / {total}
                     </div>
                 </div>
 
