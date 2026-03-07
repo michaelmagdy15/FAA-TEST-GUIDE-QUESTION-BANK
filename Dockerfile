@@ -16,28 +16,25 @@ RUN npm run build
 # Production stage
 FROM nginx:stable-alpine
 
-# Use an envsubst template for Cloud Run to dynamically bind to the PORT environment variable.
-# We create it safely so nginx's entrypoint script will automatically inject the runtime $PORT variable
-# into the configuration file on startup.
-RUN cat <<'EOF' > /etc/nginx/templates/default.conf.template
-server {
-    listen ${PORT};
-    server_name localhost;
-
-    location / {
-        root   /usr/share/nginx/html;
-        index  index.html index.htm;
-        try_files $uri $uri/ /index.html;
-    }
-
-    # Optional: Cache static assets
-    location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg)$ {
-        root /usr/share/nginx/html;
-        expires 30d;
-        add_header Cache-Control "public, no-transform";
-    }
-}
-EOF
+# Create nginx configuration safely as a single long string using echo and single quotes.
+# This avoids any Dockerfile heredoc parsing errors on older Docker versions.
+RUN echo 'server { \
+    listen 8080; \
+    server_name localhost; \
+    \
+    location / { \
+    root   /usr/share/nginx/html; \
+    index  index.html index.htm; \
+    try_files $uri $uri/ /index.html; \
+    } \
+    \
+    # Optional: Cache static assets \
+    location ~* \.(js|css|png|jpg|jpeg|gif|ico|svg)$ { \
+    root /usr/share/nginx/html; \
+    expires 30d; \
+    add_header Cache-Control "public, no-transform"; \
+    } \
+    }' > /etc/nginx/conf.d/default.conf
 
 # Copy built assets from the build stage
 COPY --from=build /app/dist /usr/share/nginx/html
@@ -46,4 +43,5 @@ COPY --from=build /app/dist /usr/share/nginx/html
 ENV PORT=8080
 EXPOSE 8080
 
-CMD ["nginx", "-g", "daemon off;"]
+# Replace the port dynamically on container startup and then boot Nginx
+CMD ["/bin/sh", "-c", "sed -i -e 's/8080/'\"$PORT\"'/g' /etc/nginx/conf.d/default.conf && nginx -g 'daemon off;'"]
