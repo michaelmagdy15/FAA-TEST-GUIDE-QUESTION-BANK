@@ -1,0 +1,12 @@
+.git
+.github
+*.pdf
+node_modules
+dist
+.gitignore
+.dockerignore
+package-lock.json
+*.log
+pilot-test-guide/node_modules
+pilot-test-guide/dist
+pilot-test-guide/package-lock.json

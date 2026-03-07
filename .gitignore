@@ -1,1 +1,6 @@
 ﻿*.pdf
+
+.agent/
+result.md
+*.log
+

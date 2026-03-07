@@ -1,6 +1,7 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import { LandingView } from './components/LandingView';
 import { QuestionView } from './components/QuestionView';
+import { useTestProgress } from './hooks/useTestProgress';
 import pplQuestionsData from './data/questions.json';
 import irQuestionsData from './data/ir_questions.json';
 import cplQuestionsData from './data/cpl_questions.json';
@@ -45,9 +46,9 @@ const cplChapterTitles: Record<string, string> = {
   "8": "Aeromedical Factors & Human Performance",
 };
 
-const getChapters = (data: any[], titleMap: Record<string, string>) => {
+const getChapters = (data: Question[], titleMap: Record<string, string>) => {
   const chapterMap = new Map<string, number>();
-  data.forEach((q: any) => {
+  data.forEach((q: Question) => {
     const chap = q.id.split('-')[0];
     chapterMap.set(chap, (chapterMap.get(chap) || 0) + 1);
   });
@@ -60,10 +61,10 @@ const getChapters = (data: any[], titleMap: Record<string, string>) => {
     .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 };
 
-const dataMap: Record<TestMode, any[]> = {
-  ppl: pplQuestionsData as any[],
-  ir: irQuestionsData as any[],
-  cpl: cplQuestionsData as any[],
+const dataMap: Record<TestMode, Question[]> = {
+  ppl: pplQuestionsData as Question[],
+  ir: irQuestionsData as Question[],
+  cpl: cplQuestionsData as Question[],
 };
 
 const titleMap: Record<TestMode, Record<string, string>> = {
@@ -82,29 +83,18 @@ export const App: React.FC = () => {
   const [mode, setMode] = useState<TestMode>('ppl');
   const [selectedChapter, setSelectedChapter] = useState<string | null>(null);
   const [reviewMode, setReviewMode] = useState(false);
-  const [reviewQuestions, setReviewQuestions] = useState<Question[]>([]);
-
   const questionsData = dataMap[mode];
   const progressPrefix = prefixMap[mode];
   const chapters = getChapters(questionsData, titleMap[mode]);
 
-  useEffect(() => {
-    if (!selectedChapter && !reviewMode) {
-      const allProgress: Record<string, string> = {};
-      for (let i = 0; i < localStorage.length; i++) {
-        const key = localStorage.key(i);
-        if (key && key.startsWith(`${progressPrefix}_`) && key !== `${progressPrefix}_REVIEW`) {
-          const data = JSON.parse(localStorage.getItem(key) || '{}');
-          Object.assign(allProgress, data);
-        }
-      }
-      const incorrect = questionsData.filter((q: any) => {
-        const ans = allProgress[q.id];
-        return ans !== undefined && ans !== q.correct;
-      }) as Question[];
-      setReviewQuestions(incorrect);
-    }
-  }, [selectedChapter, reviewMode, mode]);
+  const { chapterProgress, reviewQuestions, resetAllProgress, resetChapterProgress } = useTestProgress(
+    progressPrefix,
+    questionsData,
+    selectedChapter,
+    reviewMode
+  );
+
+
 
   const handleModeSwitch = (newMode: TestMode) => {
     setMode(newMode);
@@ -133,9 +123,9 @@ export const App: React.FC = () => {
   if (reviewMode) {
     currentQuestions = reviewQuestions;
   } else if (selectedChapter) {
-    currentQuestions = questionsData.filter((q: any) =>
+    currentQuestions = questionsData.filter((q: Question) =>
       q.id.startsWith(`${selectedChapter}-`)
-    ) as Question[];
+    );
   }
 
   return (
@@ -149,7 +139,9 @@ export const App: React.FC = () => {
           onReview={handleSelectReview}
           totalQuestions={questionsData.length}
           reviewCount={reviewQuestions.length}
-          progressPrefix={progressPrefix}
+          chapterProgress={chapterProgress}
+          onResetAll={resetAllProgress}
+          onResetChapter={resetChapterProgress}
         />
       ) : (
         <QuestionView
