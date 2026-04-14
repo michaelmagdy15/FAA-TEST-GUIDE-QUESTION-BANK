@@ -18,7 +18,8 @@ const pplChapterTitles: Record<string, string> = {
   "8": "Airplane Performance",
   "9": "Navigation",
   "10": "Human Factors",
-  "11": "Flying Cross-Country"
+  "11": "Flying Cross-Country",
+  "12": "Regulations & Airspace"
 };
 
 // IR chapter titles
@@ -33,22 +34,25 @@ const irChapterTitles: Record<string, string> = {
   "8": "Aeromedical Factors & ADM",
 };
 
-// CPL chapter titles
+// CPL chapter titles (chapters match source PDF chapter numbers)
 const cplChapterTitles: Record<string, string> = {
-  "1": "Building Professional Experience",
-  "2": "Airplane Systems",
-  "3": "Meteorology for Commercial Pilots",
-  "4": "IFR En Route & Navigation",
-  "5": "Aerodynamics & Performance",
-  "6": "Takeoff, Landing & Ground Operations",
-  "7": "Emergency Procedures",
-  "8": "Aeromedical Factors & Human Performance",
+  "1":  "Pilot Qualifications & Regulations",
+  "2":  "Aircraft Systems",
+  "3":  "Preflight & Weather Services",
+  "9":  "Flight Planning & Performance",
+  "11": "Advanced Systems",
+  "12": "Aerodynamics & Performance Limitations",
+  "13": "Navigation & Cross-Country",
+  "14": "Maneuvers & Emergency Procedures",
 };
+
+// IDs are prefixed: "ppl-4-59" → chapter "4"
+const getChapter = (id: string) => id.split('-')[1] ?? id.split('-')[0];
 
 const getChapters = (data: Question[], titleMap: Record<string, string>) => {
   const chapterMap = new Map<string, number>();
   data.forEach((q: Question) => {
-    const chap = q.id.split('-')[0];
+    const chap = getChapter(q.id);
     chapterMap.set(chap, (chapterMap.get(chap) || 0) + 1);
   });
   return Array.from(chapterMap.entries())
@@ -93,15 +97,9 @@ export const App: React.FC = () => {
     const fetchQuestions = async () => {
       setLoading(true);
       try {
-        const q = query(collection(db, 'questions'), where('test_mode', '==', mode));
+        const q = query(collection(db, 'questions'), where('bank', '==', mode));
         const querySnapshot = await getDocs(q);
-        const docs = querySnapshot.docs.map(doc => {
-          const data = doc.data();
-          return {
-            id: data.json_id, // Map back to original ID for compatibility
-            ...data
-          } as Question;
-        });
+        const docs = querySnapshot.docs.map(doc => doc.data() as Question);
         setQuestionsData(docs);
       } catch (error) {
         console.error("Error fetching questions:", error);
@@ -151,7 +149,7 @@ export const App: React.FC = () => {
     currentQuestions = reviewQuestions;
   } else if (selectedChapter) {
     currentQuestions = questionsData.filter((q: Question) =>
-      q.id.startsWith(`${selectedChapter}-`)
+      getChapter(q.id) === selectedChapter
     );
   }
 

@@ -4,3 +4,14 @@
 result.md
 *.log
 
+# Firebase admin service account — never commit
+*firebase-adminsdk*.json
+
+# Python/node artifacts
+__pycache__/
+*.pyc
+node_modules/
+dist/
+cleaned/
+scratch/
+

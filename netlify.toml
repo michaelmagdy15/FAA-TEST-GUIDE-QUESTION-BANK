@@ -1,0 +1,13 @@
+[build]
+  base    = "pilot-test-guide"
+  command = "npm run build"
+  publish = "pilot-test-guide/dist"
+
+[build.environment]
+  NODE_VERSION = "20"
+
+# SPA: redirect all paths to index.html so React Router handles them
+[[redirects]]
+  from   = "/*"
+  to     = "/index.html"
+  status = 200
