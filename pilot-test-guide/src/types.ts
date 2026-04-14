@@ -10,6 +10,8 @@ export interface Question {
     };
     correct: string;
     explanation: string;
+    category?: string;
+    figureRef?: number;
 }
 
 export type TestMode = 'ppl' | 'ir' | 'cpl';

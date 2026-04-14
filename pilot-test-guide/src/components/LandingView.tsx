@@ -2,6 +2,7 @@ import React from 'react';
 import { Plane, Navigation, Zap, AlertCircle } from 'lucide-react';
 import { sfx } from '../utils/sfx';
 import { TestMode } from '../types';
+import { AuthButton } from './AuthButton';
 
 interface ChapterData {
     id: string;
@@ -35,6 +36,9 @@ export const LandingView: React.FC<LandingViewProps> = ({
 
     return (
         <div className="landing-view animate-in" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', paddingBottom: '3rem' }}>
+            <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1rem' }}>
+                <AuthButton />
+            </div>
             <header style={{ textAlign: 'center', marginBottom: '4rem' }}>
                 <h1 className="title">Pilot Test Guide</h1>
                 <p className="subtitle" style={{ opacity: 0.8, marginBottom: '2rem' }}>Master your aviation knowledge with our interactive question bank.</p>

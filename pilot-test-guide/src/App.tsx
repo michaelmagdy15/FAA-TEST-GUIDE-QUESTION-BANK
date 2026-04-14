@@ -1,11 +1,10 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { LandingView } from './components/LandingView';
 import { QuestionView } from './components/QuestionView';
 import { useTestProgress } from './hooks/useTestProgress';
-import pplQuestionsData from './data/questions.json';
-import irQuestionsData from './data/ir_questions.json';
-import cplQuestionsData from './data/cpl_questions.json';
 import { Question, TestMode } from './types';
+import { db } from './lib/firebase';
+import { collection, query, where, getDocs } from 'firebase/firestore';
 
 // PPL chapter titles
 const pplChapterTitles: Record<string, string> = {
@@ -61,12 +60,6 @@ const getChapters = (data: Question[], titleMap: Record<string, string>) => {
     .sort((a, b) => parseInt(a.id) - parseInt(b.id));
 };
 
-const dataMap: Record<TestMode, Question[]> = {
-  ppl: pplQuestionsData as Question[],
-  ir: irQuestionsData as Question[],
-  cpl: cplQuestionsData as Question[],
-};
-
 const titleMap: Record<TestMode, Record<string, string>> = {
   ppl: pplChapterTitles,
   ir: irChapterTitles,
@@ -83,7 +76,9 @@ export const App: React.FC = () => {
   const [mode, setMode] = useState<TestMode>('ppl');
   const [selectedChapter, setSelectedChapter] = useState<string | null>(null);
   const [reviewMode, setReviewMode] = useState(false);
-  const questionsData = dataMap[mode];
+  const [questionsData, setQuestionsData] = useState<Question[]>([]);
+  const [loading, setLoading] = useState(true);
+
   const progressPrefix = prefixMap[mode];
   const chapters = getChapters(questionsData, titleMap[mode]);
 
@@ -94,7 +89,29 @@ export const App: React.FC = () => {
     reviewMode
   );
 
+  useEffect(() => {
+    const fetchQuestions = async () => {
+      setLoading(true);
+      try {
+        const q = query(collection(db, 'questions'), where('test_mode', '==', mode));
+        const querySnapshot = await getDocs(q);
+        const docs = querySnapshot.docs.map(doc => {
+          const data = doc.data();
+          return {
+            id: data.json_id, // Map back to original ID for compatibility
+            ...data
+          } as Question;
+        });
+        setQuestionsData(docs);
+      } catch (error) {
+        console.error("Error fetching questions:", error);
+      } finally {
+        setLoading(false);
+      }
+    };
 
+    fetchQuestions();
+  }, [mode]);
 
   const handleModeSwitch = (newMode: TestMode) => {
     setMode(newMode);
@@ -118,6 +135,16 @@ export const App: React.FC = () => {
     setSelectedChapter(null);
     setReviewMode(false);
   };
+
+  if (loading) {
+    return (
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: 'var(--text-primary)' }}>
+        <div className="glass-card" style={{ padding: '2rem' }}>
+          Initializing FAA Question Bank...
+        </div>
+      </div>
+    );
+  }
 
   let currentQuestions: Question[] = [];
   if (reviewMode) {

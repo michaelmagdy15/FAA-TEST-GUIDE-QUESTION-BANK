@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(node -e ':*)",
+      "Bash(ls \"h:/FAA TEST GUIDE QUESTION BANK/\"*.py)",
+      "Bash(py --version)",
+      "Bash(winget install:*)",
+      "Bash(node -e \"require\\('pdf-parse'\\)\")",
+      "Bash(npm list:*)",
+      "Bash(where python:*)",
+      "Bash(where python3:*)",
+      "Read(//c/Users/Mi5a/AppData/Local/Programs/Python/Python312/**)",
+      "Read(//c/Program Files/Python312/**)",
+      "Bash(cmd.exe /c \"where python\")",
+      "Bash(/c/Users/Mi5a/AppData/Local/Programs/Python/Python312/python.exe --version)",
+      "Bash(/c/Users/Mi5a/AppData/Local/Programs/Python/Python312/python.exe -m pip install pymupdf --quiet)",
+      "Bash(/c/Users/Mi5a/AppData/Local/Programs/Python/Python312/python.exe -c 'import fitz; print\\('\\\\''fitz OK, version:'\\\\'', fitz.version\\)')",
+      "Bash(/c/Users/Mi5a/AppData/Local/Programs/Python/Python312/python.exe -)",
+      "Bash(ls \"h:/FAA TEST GUIDE QUESTION BANK/\"*.pdf)",
+      "Bash(PYTHONIOENCODING=utf-8 /c/Users/Mi5a/AppData/Local/Programs/Python/Python312/python.exe extract_cpl.py)",
+      "Bash(/c/Users/Mi5a/AppData/Local/Programs/Python/Python312/python.exe parse_v2.py)"
+    ]
+  }
+}

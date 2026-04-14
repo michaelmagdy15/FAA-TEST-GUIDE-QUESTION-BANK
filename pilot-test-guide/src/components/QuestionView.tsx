@@ -3,10 +3,14 @@ import { Question } from '../types';
 import { sfx } from '../utils/sfx';
 import ConfettiExplosion from 'react-confetti-explosion';
 import { Plane, Navigation, Zap, ArrowLeft } from 'lucide-react';
+import figureImages from '../assets/figures/index';
 
 import { QuestionNavigator } from './QuestionNavigator';
 import { QuestionOptions } from './QuestionOptions';
 import { QuestionExplanation } from './QuestionExplanation';
+import { useAuth } from '../context/AuthContext';
+import { db } from '../lib/firebase';
+import { doc, getDoc, setDoc } from 'firebase/firestore';
 
 interface QuestionViewProps {
     chapter: string;
@@ -17,6 +21,7 @@ interface QuestionViewProps {
 }
 
 export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, onBack, mode = 'ppl', progressPrefix = 'progress' }) => {
+    const { user } = useAuth();
     const isIR = mode === 'ir';
     const isCPL = mode === 'cpl';
     const accentColor = isIR ? '#10b981' : isCPL ? '#f59e0b' : 'var(--accent-color)';
@@ -34,21 +39,47 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
 
     // Load progress
     useEffect(() => {
-        const saved = localStorage.getItem(storageKey);
-        if (saved) {
-            setSelectedAnswers(JSON.parse(saved));
-        } else {
-            setSelectedAnswers({});
-        }
-        setCurrentIndex(0);
-    }, [chapter, storageKey]);
+        const loadProgress = async () => {
+            const localSaved = localStorage.getItem(storageKey);
+            let merged = localSaved ? JSON.parse(localSaved) : {};
+
+            if (user) {
+                try {
+                    const docRef = doc(db, 'users', user.uid, 'progress', storageKey);
+                    const docSnap = await getDoc(docRef);
+                    if (docSnap.exists()) {
+                        const cloudData = docSnap.data();
+                        // Merge Cloud into Local (Cloud wins for existing keys, Local adds new)
+                        merged = { ...merged, ...cloudData };
+                        // Update local storage with merged data
+                        localStorage.setItem(storageKey, JSON.stringify(merged));
+                    }
+                } catch (error) {
+                    console.error("Error fetching cloud progress:", error);
+                }
+            }
+            
+            setSelectedAnswers(merged);
+            setCurrentIndex(0);
+        };
+
+        loadProgress();
+    }, [chapter, storageKey, user]);
 
     // Save progress
     useEffect(() => {
         if (Object.keys(selectedAnswers).length > 0) {
             localStorage.setItem(storageKey, JSON.stringify(selectedAnswers));
+            
+            // Sync to Firestore
+            if (user) {
+                const docRef = doc(db, 'users', user.uid, 'progress', storageKey);
+                setDoc(docRef, selectedAnswers).catch(err => {
+                    console.error("Error saving to cloud:", err);
+                });
+            }
         }
-    }, [selectedAnswers, chapter, storageKey]);
+    }, [selectedAnswers, chapter, storageKey, user]);
 
     const question = questions[currentIndex];
 
@@ -145,8 +176,20 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                 <div className="glass-card question-content animate-in delay-1" style={{ flex: 1 }}>
                     <div className="question-meta" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
                         <span>ID: {question.id}</span>
-                        <span>PLT: {question.plt}</span>
+                        <span>{question.category ?? question.plt}</span>
                     </div>
+                    {question.figureRef && figureImages[question.figureRef] && (
+                        <div style={{ marginBottom: '1.5rem', textAlign: 'center' }}>
+                            <img
+                                src={figureImages[question.figureRef]}
+                                alt={`FAA Figure ${question.figureRef}`}
+                                style={{ maxWidth: '100%', maxHeight: '420px', objectFit: 'contain', borderRadius: '8px', border: '1px solid var(--glass-border)' }}
+                            />
+                            <div style={{ marginTop: '0.4rem', fontSize: '0.8rem', color: 'var(--text-secondary)' }}>
+                                Figure {question.figureRef}
+                            </div>
+                        </div>
+                    )}
                     <h2 style={{ fontSize: '1.5rem', lineHeight: 1.5, marginBottom: '2rem' }}>{question.text}</h2>
 
                     <QuestionOptions
