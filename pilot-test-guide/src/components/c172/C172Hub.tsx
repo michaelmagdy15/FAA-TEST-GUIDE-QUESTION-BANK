@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Plane, Navigation, Zap, Gauge, Wind, Activity, Fuel, Siren, BookOpenCheck, Globe } from 'lucide-react';
 import { sfx } from '../../utils/sfx';
 import { TestMode } from '../../types';
-import { AuthButton } from '../AuthButton';
 import { AirspeedIndicator } from './AirspeedIndicator';
 import { VSpeedExplorer } from './VSpeedExplorer';
 import { PowerplantPanel } from './PowerplantPanel';
@@ -25,7 +24,7 @@ const SECTIONS = [
 ];
 
 const MODES: { id: TestMode; label: string; icon: React.ReactNode; accent: string; rgb: string }[] = [
-    { id: 'ppl', label: 'PPL', icon: <Plane size={15} />, accent: '#3b82f6', rgb: '59, 130, 246' },
+    { id: 'ppl', label: 'PPL', icon: <Plane size={15} />, accent: '#38bdf8', rgb: '56, 189, 248' },
     { id: 'ir', label: 'IR', icon: <Navigation size={15} />, accent: '#10b981', rgb: '16, 185, 129' },
     { id: 'cpl', label: 'CPL', icon: <Zap size={15} />, accent: '#f59e0b', rgb: '245, 158, 11' },
     { id: 'c172', label: 'C172', icon: <Plane size={15} />, accent: '#06b6d4', rgb: '6, 182, 212' },
@@ -91,7 +90,6 @@ export const C172Hub: React.FC<C172HubProps> = ({ onModeSwitch }) => {
                         </button>
                     ))}
                 </div>
-                <AuthButton />
             </div>
 
             {/* Title */}

@@ -77,7 +77,7 @@ export const QuizTab: React.FC = () => {
             </div>
 
             <div style={{ height: '6px', borderRadius: '999px', background: 'var(--glass-border)', overflow: 'hidden', marginBottom: '1.25rem' }}>
-                <div style={{ width: `${progress}%`, height: '100%', background: 'linear-gradient(90deg,#06b6d4,#3b82f6)', transition: 'width 0.3s ease' }} />
+                <div style={{ width: `${progress}%`, height: '100%', background: 'linear-gradient(90deg,#06b6d4,#38bdf8)', transition: 'width 0.3s ease' }} />
             </div>
 
             {!finished ? (

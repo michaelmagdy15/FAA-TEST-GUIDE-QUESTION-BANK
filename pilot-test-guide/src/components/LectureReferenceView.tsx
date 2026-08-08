@@ -121,13 +121,13 @@ export const LectureReferenceView: React.FC<Props> = ({ references, questionText
                 className="glass-card"
                 style={{
                   padding: '1rem', display: 'flex', flexDirection: 'column', gap: '0.6rem',
-                  borderColor: 'rgba(59,130,246,0.25)', transition: 'all 0.2s ease',
+                  borderColor: 'rgba(56,189,248,0.25)', transition: 'all 0.2s ease',
                 }}
-                onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#3b82f6'; e.currentTarget.style.transform = 'translateX(3px)'; }}
-                onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(59,130,246,0.25)'; e.currentTarget.style.transform = 'none'; }}
+                onMouseEnter={(e) => { e.currentTarget.style.borderColor = '#38bdf8'; e.currentTarget.style.transform = 'translateX(3px)'; }}
+                onMouseLeave={(e) => { e.currentTarget.style.borderColor = 'rgba(56,189,248,0.25)'; e.currentTarget.style.transform = 'none'; }}
               >
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', flexWrap: 'wrap' }}>
-                  <span className="chip" style={{ fontSize: '0.7rem', background: 'rgba(59,130,246,0.15)', color: '#3b82f6', borderColor: 'rgba(59,130,246,0.3)' }}>
+                  <span className="chip" style={{ fontSize: '0.7rem', background: 'rgba(56,189,248,0.15)', color: '#38bdf8', borderColor: 'rgba(56,189,248,0.3)' }}>
                     <Play size={10} style={{ marginRight: '2px' }} />
                     External
                   </span>
@@ -142,9 +142,9 @@ export const LectureReferenceView: React.FC<Props> = ({ references, questionText
                   onClick={(e) => e.stopPropagation()}
                   style={{
                     display: 'inline-flex', alignItems: 'center', gap: '0.4rem',
-                    color: '#3b82f6', textDecoration: 'none', fontWeight: 600,
+                    color: '#38bdf8', textDecoration: 'none', fontWeight: 600,
                     fontSize: '0.85rem', padding: '0.3rem 0.6rem', borderRadius: '6px',
-                    background: 'rgba(59,130,246,0.1)', transition: 'all 0.15s ease',
+                    background: 'rgba(56,189,248,0.1)', transition: 'all 0.15s ease',
                     width: 'fit-content',
                   }}
                   onMouseEnter={(e) => { e.currentTarget.style.background = 'rgba(59,130,246,0.2)'; }}

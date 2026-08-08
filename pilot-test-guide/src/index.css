@@ -7,23 +7,28 @@
 }
 
 :root {
-  --bg-color: #06090e;
-  --bg-gradient: radial-gradient(circle at top, #0f172a 0%, #06090e 100%);
+  --bg-color: #030712;
+  --bg-gradient: radial-gradient(at 0% 0%, rgba(56, 189, 248, 0.08) 0px, transparent 50%),
+    radial-gradient(at 100% 0%, rgba(139, 92, 246, 0.08) 0px, transparent 50%),
+    radial-gradient(circle at top, #0f172a 0%, #030712 100%);
   --text-primary: #f8fafc;
   --text-secondary: #94a3b8;
 
-  --accent-color: #3b82f6;
-  --accent-glow: rgba(59, 130, 246, 0.5);
-  --accent-hover: #60a5fa;
-  --accent-soft: rgba(59, 130, 246, 0.12);
+  --accent-color: #38bdf8;
+  --accent-glow: rgba(56, 189, 248, 0.4);
+  --accent-hover: #7dd3fc;
+  --accent-soft: rgba(56, 189, 248, 0.12);
+
+  --accent-purple: #a78bfa;
+  --accent-purple-soft: rgba(139, 92, 246, 0.12);
 
   --success-color: #10b981;
   --error-color: #ef4444;
 
-  --glass-bg: rgba(15, 23, 42, 0.45);
-  --glass-border: rgba(255, 255, 255, 0.06);
-  --glass-hover-bg: rgba(30, 41, 59, 0.65);
-  --glass-hover-border: rgba(255, 255, 255, 0.18);
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.08);
+  --glass-hover-bg: rgba(30, 41, 59, 0.6);
+  --glass-hover-border: rgba(255, 255, 255, 0.12);
 
   --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
   --radius: 16px;
@@ -37,7 +42,7 @@
 
 body {
   font-family: 'Archivo', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  background-color: var(--bg-color);
+  background-color: #030712;
   background-image: var(--bg-gradient);
   color: var(--text-primary);
   height: 100vh;
@@ -46,7 +51,6 @@ body {
   display: flex;
   flex-direction: column;
   background-attachment: fixed;
-  animation: bgBreathing 60s ease-in-out infinite alternate;
   letter-spacing: -0.01em;
 }
 
@@ -132,14 +136,13 @@ body::before {
 
 /* Glassmorphism Card Utilities */
 .glass-card {
-  background: var(--glass-bg);
-  backdrop-filter: blur(16px);
-  -webkit-backdrop-filter: blur(16px);
-  border: 1px solid var(--glass-border);
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.4) 0%, rgba(15, 23, 42, 0.6) 100%);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.05);
   border-radius: var(--radius);
   padding: 2rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06),
-    inset 0 1px 0 0 rgba(255, 255, 255, 0.04);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
   transition: var(--transition);
 }
 
@@ -222,7 +225,7 @@ body::before {
   letter-spacing: 0.01em;
   background: var(--accent-soft);
   color: var(--accent-hover);
-  border: 1px solid rgba(59, 130, 246, 0.25);
+  border: 1px solid rgba(56, 189, 248, 0.25);
 }
 
 .option-letter {
@@ -255,10 +258,10 @@ body::before {
 }
 
 .topic-card:hover {
-  transform: translateY(-4px);
-  background: var(--glass-hover-bg);
-  border-color: var(--accent-color);
-  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3), 0 0 24px rgba(59, 130, 246, 0.15);
+  transform: translateY(-2px);
+  background: linear-gradient(180deg, rgba(30, 41, 59, 0.6) 0%, rgba(15, 23, 42, 0.8) 100%);
+  border-color: rgba(255, 255, 255, 0.1);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
 }
 
 .topic-header {

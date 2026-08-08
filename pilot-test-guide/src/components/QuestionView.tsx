@@ -2,15 +2,20 @@ import React, { useState, useEffect, useRef } from 'react';
 import { Question } from '../types';
 import { sfx } from '../utils/sfx';
 import ConfettiExplosion from 'react-confetti-explosion';
-import { Plane, Navigation, Zap, ArrowLeft } from 'lucide-react';
+import { Plane, Navigation, Zap, ArrowLeft, Bookmark, BookmarkCheck, Search, X } from 'lucide-react';
 import figureImages from '../assets/figures/index';
+import { toggleBookmark, isBookmarked } from '../lib/bookmarks';
 
 import { QuestionNavigator } from './QuestionNavigator';
 import { QuestionOptions } from './QuestionOptions';
 import { QuestionExplanation } from './QuestionExplanation';
-import { useAuth } from '../context/AuthContext';
-import { db } from '../lib/firebase';
-import { doc, getDoc, setDoc } from 'firebase/firestore';
+import { StudyBanner } from './StudyBanner';
+import { MistakeTracker } from './MistakeTracker';
+import { Achievements } from './Achievements';
+import { ConceptExplorer } from './ConceptExplorer';
+import { StudyTimer } from './StudyTimer';
+import { ExplainItPrompt } from './ExplainItPrompt';
+import { recordChapterComplete } from '../lib/progressTracker';
 
 interface QuestionViewProps {
     chapter: string;
@@ -21,7 +26,6 @@ interface QuestionViewProps {
 }
 
 export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, onBack, mode = 'ppl', progressPrefix = 'progress' }) => {
-    const { user } = useAuth();
     const isIR = mode === 'ir';
     const isCPL = mode === 'cpl';
     const accentColor = isIR ? '#10b981' : isCPL ? '#f59e0b' : 'var(--accent-color)';
@@ -33,86 +37,51 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
     const [showConfetti, setShowConfetti] = useState(false);
     const [isMobileNavOpen, setIsMobileNavOpen] = useState(false);
     const loadedRef = useRef(false);
+    const [questionStartTime, setQuestionStartTime] = useState<number>(Date.now());
+    const [timeSpent, setTimeSpent] = useState(0);
+    const [bookmarked, setBookmarked] = useState(false);
+    const [searchQuery, setSearchQuery] = useState('');
+    const [showSearch, setShowSearch] = useState(false);
+
+    const question = questions[currentIndex];
 
     // Reset confetti on question change
     useEffect(() => {
         setShowConfetti(false);
-    }, [currentIndex]);
+        setQuestionStartTime(Date.now());
+        setBookmarked(isBookmarked(question?.id || '', mode));
+    }, [currentIndex, question?.id, mode]);
 
     // Load progress
     useEffect(() => {
-        const loadProgress = async () => {
-            loadedRef.current = false;
+        loadedRef.current = false;
 
-            const localSaved = localStorage.getItem(storageKey);
-            let merged = localSaved ? JSON.parse(localSaved) : {};
-            let savedIndex = 0;
-            const localPos = localStorage.getItem(positionKey);
-            if (localPos) {
-                const parsed = parseInt(localPos, 10);
-                if (!isNaN(parsed)) savedIndex = parsed;
-            }
+        const localSaved = localStorage.getItem(storageKey);
+        const merged = localSaved ? JSON.parse(localSaved) : {};
+        let savedIndex = 0;
+        const localPos = localStorage.getItem(positionKey);
+        if (localPos) {
+            const parsed = parseInt(localPos, 10);
+            if (!isNaN(parsed)) savedIndex = parsed;
+        }
 
-            if (user) {
-                try {
-                    const docRef = doc(db, 'users', user.uid, 'progress', storageKey);
-                    const docSnap = await getDoc(docRef);
-                    if (docSnap.exists()) {
-                        const cloudData = docSnap.data();
-                        // Merge Cloud into Local (Cloud wins for existing keys, Local adds new)
-                        merged = { ...merged, ...cloudData };
-                        // Update local storage with merged data
-                        localStorage.setItem(storageKey, JSON.stringify(merged));
-                    }
-
-                    const posRef = doc(db, 'users', user.uid, 'progress', positionKey);
-                    const posSnap = await getDoc(posRef);
-                    if (posSnap.exists() && typeof posSnap.data().index === 'number') {
-                        savedIndex = posSnap.data().index as number;
-                        localStorage.setItem(positionKey, String(savedIndex));
-                    }
-                } catch (error) {
-                    console.error("Error fetching cloud progress:", error);
-                }
-            }
-
-            setSelectedAnswers(merged);
-            setCurrentIndex(Math.max(0, Math.min(savedIndex, questions.length - 1)));
-            loadedRef.current = true;
-        };
-
-        loadProgress();
-    }, [chapter, storageKey, positionKey, user]);
+        setSelectedAnswers(merged);
+        setCurrentIndex(Math.max(0, Math.min(savedIndex, questions.length - 1)));
+        loadedRef.current = true;
+    }, [chapter, storageKey, positionKey]);
 
     // Save progress
     useEffect(() => {
         if (!loadedRef.current || Object.keys(selectedAnswers).length === 0) return;
         localStorage.setItem(storageKey, JSON.stringify(selectedAnswers));
-
-        // Sync to Firestore
-        if (user) {
-            const docRef = doc(db, 'users', user.uid, 'progress', storageKey);
-            setDoc(docRef, selectedAnswers).catch(err => {
-                console.error("Error saving to cloud:", err);
-            });
-        }
-    }, [selectedAnswers, chapter, storageKey, user]);
+    }, [selectedAnswers, chapter, storageKey]);
 
     // Save current position
     useEffect(() => {
         if (!loadedRef.current || questions.length === 0) return;
         const safeIndex = Math.max(0, Math.min(currentIndex, questions.length - 1));
         localStorage.setItem(positionKey, String(safeIndex));
-
-        if (user) {
-            const posRef = doc(db, 'users', user.uid, 'progress', positionKey);
-            setDoc(posRef, { index: safeIndex }).catch(err => {
-                console.error("Error saving position to cloud:", err);
-            });
-        }
-    }, [currentIndex, questions.length, positionKey, user]);
-
-    const question = questions[currentIndex];
+    }, [currentIndex, questions.length, positionKey]);
 
     const total = questions.length;
     const progress = total > 0 ? ((currentIndex + 1) / total) * 100 : 0;
@@ -131,8 +100,21 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
             sfx.playIncorrect();
         }
 
-        setSelectedAnswers(prev => ({ ...prev, [question.id]: key }));
-    }, [answered, question]);
+        const elapsed = Math.round((Date.now() - questionStartTime) / 1000);
+        setTimeSpent(elapsed);
+        setSelectedAnswers(prev => {
+            const updated = { ...prev, [question.id]: key };
+            // Check if chapter is complete with all correct
+            const allAnswered = questions.every(q => updated[q.id] !== undefined);
+            if (allAnswered && chapter !== "REVIEW") {
+                const allCorrect = questions.every(q => updated[q.id] === q.correct);
+                if (allCorrect) {
+                    recordChapterComplete(chapter, questions.length, questions.length);
+                }
+            }
+            return updated;
+        });
+    }, [answered, question, questionStartTime, questions, chapter]);
 
     const handleNext = React.useCallback(() => {
         if (currentIndex < total - 1) {
@@ -175,14 +157,14 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
 
 
     return (
-        <div className="question-view animate-in" style={{ display: 'flex', gap: '2rem', flex: 1, minHeight: 0 }}>
+        <div className="question-view animate-in" style={{ display: 'flex', gap: '1.5rem', flex: 1, minHeight: 0 }}>
             {/* Main Content Area */}
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0, overflowY: 'auto' }}>
                 {/* Top Bar */}
                 <div className="top-bar" style={{ position: 'relative' }}>
                     {showConfetti && (
                         <div style={{ position: 'absolute', top: '20px', left: '50%', transform: 'translateX(-50%)', zIndex: 100, pointerEvents: 'none' }}>
-                            <ConfettiExplosion force={0.6} duration={2200} particleCount={80} width={1000} colors={['#10b981', '#3b82f6', '#f59e0b', '#ef4444']} />
+                            <ConfettiExplosion force={0.6} duration={2200} particleCount={80} width={1000} colors={['#10b981', '#38bdf8', '#f59e0b', '#ef4444']} />
                         </div>
                     )}
                     <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -195,6 +177,24 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                         <span className="chip">
                             Q {currentIndex + 1} / {total}
                         </span>
+                        {/* Search toggle */}
+                        <button
+                            onClick={() => { setShowSearch(!showSearch); if (showSearch) setSearchQuery(''); sfx.playSelect(); }}
+                            onMouseEnter={() => sfx.playHover()}
+                            style={{
+                                display: 'flex', alignItems: 'center', gap: '4px',
+                                padding: '4px 8px', borderRadius: '6px',
+                                background: showSearch ? 'rgba(56, 189, 248, 0.15)' : 'transparent',
+                                border: `1px solid ${showSearch ? 'rgba(56, 189, 248, 0.4)' : 'var(--glass-border)'}`,
+                                color: showSearch ? '#38bdf8' : 'var(--text-secondary)',
+                                cursor: 'pointer', fontSize: '0.8rem', fontWeight: 500,
+                                transition: 'all 0.15s ease',
+                            }}
+                            title="Search questions"
+                        >
+                            {showSearch ? <X size={14} /> : <Search size={14} />}
+                            Search
+                        </button>
                     </div>
                     <div className="progress-info" style={{ fontWeight: 500, color: 'var(--text-secondary)' }}>
                         {chapter === "REVIEW" ? "Reviewing Incorrect" : `${isIR ? 'Module' : isCPL ? 'Chapter' : 'Chapter'} ${chapter}`}
@@ -204,20 +204,141 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                     </div>
                 </div>
 
+                {/* Search Bar */}
+                {showSearch && (
+                    <div style={{
+                        marginBottom: '1rem',
+                        animation: 'fadeIn 0.2s ease',
+                    }}>
+                        <div style={{
+                            display: 'flex', alignItems: 'center', gap: '0.5rem',
+                            padding: '0.5rem 0.75rem',
+                            borderRadius: '10px',
+                            border: '1px solid rgba(56, 189, 248, 0.3)',
+                            background: 'rgba(56, 189, 248, 0.05)',
+                        }}>
+                            <Search size={16} style={{ color: '#38bdf8', flexShrink: 0 }} />
+                            <input
+                                type="text"
+                                value={searchQuery}
+                                onChange={e => setSearchQuery(e.target.value)}
+                                placeholder="Search by question text, answer options, or explanation..."
+                                autoFocus
+                                style={{
+                                    flex: 1, background: 'transparent', border: 'none',
+                                    color: 'var(--text-primary)', fontSize: '0.9rem',
+                                    outline: 'none', fontFamily: 'inherit',
+                                }}
+                            />
+                            {searchQuery && (
+                                <button
+                                    onClick={() => setSearchQuery('')}
+                                    style={{
+                                        background: 'transparent', border: 'none',
+                                        color: 'var(--text-secondary)', cursor: 'pointer',
+                                        padding: '2px',
+                                    }}
+                                >
+                                    <X size={14} />
+                                </button>
+                            )}
+                        </div>
+                        {searchQuery && (
+                            <div style={{
+                                marginTop: '0.5rem',
+                                maxHeight: '200px',
+                                overflowY: 'auto',
+                                borderRadius: '8px',
+                                border: '1px solid var(--glass-border)',
+                                background: 'rgba(2, 6, 23, 0.6)',
+                            }}>
+                                {(() => {
+                                    const query = searchQuery.toLowerCase();
+                                    const matches = questions
+                                        .map((q, i) => ({ q, i }))
+                                        .filter(({ q }) =>
+                                            q.text.toLowerCase().includes(query) ||
+                                            q.explanation.toLowerCase().includes(query) ||
+                                            Object.values(q.options).some(opt => opt?.toLowerCase().includes(query))
+                                        );
+                                    if (matches.length === 0) {
+                                        return (
+                                            <div style={{ padding: '1rem', textAlign: 'center', color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
+                                                No questions match "{searchQuery}"
+                                            </div>
+                                        );
+                                    }
+                                    return matches.map(({ q, i }) => (
+                                        <button
+                                            key={q.id}
+                                            onClick={() => {
+                                                setCurrentIndex(i);
+                                                setSearchQuery('');
+                                                setShowSearch(false);
+                                                sfx.playSelect();
+                                            }}
+                                            style={{
+                                                display: 'block', width: '100%', textAlign: 'left',
+                                                padding: '0.6rem 0.75rem', borderRadius: '0',
+                                                background: i === currentIndex ? 'rgba(56, 189, 248, 0.1)' : 'transparent',
+                                                border: 'none', borderBottom: '1px solid var(--glass-border)',
+                                                color: 'var(--text-primary)', cursor: 'pointer',
+                                                fontSize: '0.85rem', fontFamily: 'inherit',
+                                                transition: 'background 0.1s ease',
+                                            }}
+                                            onMouseOver={e => e.currentTarget.style.background = 'rgba(56, 189, 248, 0.08)'}
+                                            onMouseOut={e => e.currentTarget.style.background = i === currentIndex ? 'rgba(56, 189, 248, 0.1)' : 'transparent'}
+                                        >
+                                            <span style={{ color: '#38bdf8', fontWeight: 600, marginRight: '0.5rem' }}>Q{i + 1}</span>
+                                            {q.text.length > 80 ? q.text.slice(0, 80) + '...' : q.text}
+                                        </button>
+                                    ));
+                                })()}
+                            </div>
+                        )}
+                    </div>
+                )}
+
                 {/* Progress Bar */}
                 <div className="progress-bar-container glass-card" style={{ padding: '0', height: '6px', marginBottom: '1rem', overflow: 'hidden', flexShrink: 0 }}>
                     <div className="progress-fill" style={{ width: `${progress}%`, background: 'var(--accent-color)', height: '100%', transition: 'width 0.3s ease', backgroundImage: 'linear-gradient(90deg, var(--accent-color), var(--accent-hover))' }} />
                 </div>
 
+                {/* Study Banner (streak, daily goal, accuracy) */}
+                {mode === 'ppl' && <StudyBanner />}
+
                 {/* Question Card */}
                 <div className="glass-card question-content animate-in delay-1" style={{ flex: 1 }}>
                     <div className="question-meta" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
                         <span className="chip">{question.plt}</span>
-                        {question.figureRef && (
-                            <span className="chip" style={{ background: 'rgba(16, 185, 129, 0.12)', color: 'var(--success-color)', borderColor: 'rgba(16, 185, 129, 0.25)' }}>
-                                Figure {question.figureRef}
-                            </span>
-                        )}
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            {question.figureRef && (
+                                <span className="chip" style={{ background: 'rgba(16, 185, 129, 0.12)', color: 'var(--success-color)', borderColor: 'rgba(16, 185, 129, 0.25)' }}>
+                                    Figure {question.figureRef}
+                                </span>
+                            )}
+                            <button
+                                onClick={() => {
+                                    const nowBookmarked = toggleBookmark(question.id, mode);
+                                    setBookmarked(nowBookmarked);
+                                    sfx.playSelect();
+                                }}
+                                onMouseEnter={() => sfx.playHover()}
+                                style={{
+                                    display: 'flex', alignItems: 'center', gap: '4px',
+                                    padding: '4px 8px', borderRadius: '6px',
+                                    background: bookmarked ? 'rgba(245, 158, 11, 0.15)' : 'transparent',
+                                    border: `1px solid ${bookmarked ? 'rgba(245, 158, 11, 0.4)' : 'var(--glass-border)'}`,
+                                    color: bookmarked ? '#f59e0b' : 'var(--text-secondary)',
+                                    cursor: 'pointer', fontSize: '0.8rem', fontWeight: 500,
+                                    transition: 'all 0.15s ease',
+                                }}
+                                title={bookmarked ? "Remove bookmark" : "Bookmark this question"}
+                            >
+                                {bookmarked ? <BookmarkCheck size={14} /> : <Bookmark size={14} />}
+                                {bookmarked ? 'Saved' : 'Save'}
+                            </button>
+                        </div>
                     </div>
                     {question.figureRef && figureImages[question.figureRef] && (
                         <div style={{ marginBottom: '1rem', textAlign: 'center' }}>
@@ -243,10 +364,14 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
 
                 {/* Explanation Area */}
                 {answered && (
-                    <QuestionExplanation
-                        question={question}
-                        isCorrect={isCorrect}
-                    />
+                    <>
+                        <QuestionExplanation
+                            question={question}
+                            isCorrect={isCorrect}
+                            timeSpentSeconds={timeSpent}
+                        />
+                        <ExplainItPrompt question={question} />
+                    </>
                 )}
 
                 {/* Navigation Controls */}
@@ -281,6 +406,16 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                 setIsMobileNavOpen={setIsMobileNavOpen}
                 setCurrentIndex={setCurrentIndex}
             />
+
+            {/* Right Sidebar: Learning Tools */}
+            {mode === 'ppl' && (
+                <div style={{ width: '300px', flexShrink: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem', overflowY: 'auto', paddingBottom: '1rem' }}>
+                    <StudyTimer />
+                    <MistakeTracker />
+                    <Achievements />
+                    <ConceptExplorer />
+                </div>
+            )}
 
             <style>{`
                 .option-card.interactive:hover {

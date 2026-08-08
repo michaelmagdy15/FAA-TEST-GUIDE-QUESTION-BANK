@@ -1,8 +1,5 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Question } from '../types';
-import { useAuth } from '../context/AuthContext';
-import { db } from '../lib/firebase';
-import { doc, setDoc } from 'firebase/firestore';
 
 export const useTestProgress = (
     progressPrefix: string,
@@ -10,7 +7,6 @@ export const useTestProgress = (
     selectedChapter: string | null,
     reviewMode: boolean
 ) => {
-    const { user } = useAuth();
     const [chapterProgress, setChapterProgress] = useState<Record<string, number>>({});
     const [reviewQuestions, setReviewQuestions] = useState<Question[]>([]);
 
@@ -41,14 +37,9 @@ export const useTestProgress = (
         setReviewQuestions(incorrect);
     }, [progressPrefix, questionsData]);
 
-    // Firestore Sync Logic
     useEffect(() => {
-        if (!user) return;
-
-        // Listen to progress changes for all chapters (simplified for now to basic fetch on load)
-        // In a real app, we might want a more granular listener
         loadProgress();
-    }, [user, loadProgress]);
+    }, [loadProgress]);
 
     useEffect(() => {
         if (!selectedChapter && !reviewMode) {
@@ -56,23 +47,15 @@ export const useTestProgress = (
         }
     }, [selectedChapter, reviewMode, loadProgress]);
 
-    const resetChapterProgress = useCallback(async (chapterId: string) => {
+    const resetChapterProgress = useCallback((chapterId: string) => {
         const key = `${progressPrefix}_${chapterId}`;
         const posKey = `${key}_pos`;
         localStorage.removeItem(key);
         localStorage.removeItem(posKey);
-
-        if (user) {
-            const docRef = doc(db, 'users', user.uid, 'progress', key);
-            await setDoc(docRef, {});
-            const posRef = doc(db, 'users', user.uid, 'progress', posKey);
-            await setDoc(posRef, {});
-        }
-
         loadProgress();
-    }, [progressPrefix, loadProgress, user]);
+    }, [progressPrefix, loadProgress]);
 
-    const resetAllProgress = useCallback(async () => {
+    const resetAllProgress = useCallback(() => {
         const keysToRemove: string[] = [];
         for (let i = 0; i < localStorage.length; i++) {
             const key = localStorage.key(i);
@@ -83,14 +66,10 @@ export const useTestProgress = (
         
         for (const key of keysToRemove) {
             localStorage.removeItem(key);
-            if (user) {
-                const docRef = doc(db, 'users', user.uid, 'progress', key);
-                await setDoc(docRef, {});
-            }
         }
         
         loadProgress();
-    }, [progressPrefix, loadProgress, user]);
+    }, [progressPrefix, loadProgress]);
 
     return { chapterProgress, reviewQuestions, resetChapterProgress, resetAllProgress, loadProgress };
 };
