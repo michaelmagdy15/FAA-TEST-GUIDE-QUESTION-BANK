@@ -125,51 +125,54 @@ export const QuizMode: React.FC<QuizModeProps> = ({ questions, category, mode, o
   return (
     <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0, overflow: 'hidden' }}>
       {/* Header */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexShrink: 0 }}>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <button className="btn-secondary" onClick={onBack} style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.5rem 1rem' }}>
+      <div className="quiz-header" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem', flexShrink: 0, flexWrap: 'wrap', gap: '0.5rem' }}>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+          <button className="btn-secondary" onClick={onBack} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
             <ArrowLeft size={14} /> Exit
           </button>
-          <span className="chip" style={{ background: 'rgba(56, 189, 248, 0.12)', color: '#38bdf8', borderColor: 'rgba(56, 189, 248, 0.25)' }}>
-            Quiz: {category === 'all' ? 'All Categories' : category}
+          <span className="chip" style={{ background: 'rgba(56, 189, 248, 0.12)', color: '#38bdf8', borderColor: 'rgba(56, 189, 248, 0.25)', fontSize: '0.75rem' }}>
+            {category === 'all' ? 'All Categories' : category}
           </span>
         </div>
-        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-          <span className="chip"><Clock size={12} /> {minutes}:{seconds.toString().padStart(2, '0')}</span>
-          <span className="chip">{currentIndex + 1} / {questions.length}</span>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+          <span className="chip" style={{ fontSize: '0.75rem' }}><Clock size={11} /> {minutes}:{seconds.toString().padStart(2, '0')}</span>
+          <span className="chip" style={{ fontSize: '0.75rem' }}>{currentIndex + 1}/{questions.length}</span>
         </div>
       </div>
 
       {/* Progress bar */}
-      <div style={{ height: '4px', borderRadius: '2px', background: 'rgba(255,255,255,0.05)', marginBottom: '1.5rem', overflow: 'hidden', flexShrink: 0 }}>
+      <div style={{ height: '4px', borderRadius: '2px', background: 'rgba(255,255,255,0.05)', marginBottom: '1rem', overflow: 'hidden', flexShrink: 0 }}>
         <div style={{ width: `${((currentIndex + 1) / questions.length) * 100}%`, height: '100%', background: 'linear-gradient(90deg, #38bdf8, #a78bfa)', transition: 'width 0.3s ease' }} />
       </div>
 
       {/* Question */}
-      <div className="glass-card" style={{ flex: 1, overflowY: 'auto' }}>
-        <div style={{ marginBottom: '0.75rem' }}>
-          <span className="chip">{question.plt}</span>
+      <div className="glass-card" style={{ flex: 1, overflowY: 'auto', padding: '1rem' }}>
+        <div style={{ marginBottom: '0.5rem', display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
+          <span className="chip" style={{ fontSize: '0.75rem' }}>{question.plt}</span>
           {question.figureRef && (
-            <span className="chip" style={{ marginLeft: '0.5rem', background: 'rgba(16, 185, 129, 0.12)', color: 'var(--success-color)', borderColor: 'rgba(16, 185, 129, 0.25)' }}>
+            <span className="chip" style={{ fontSize: '0.75rem', background: 'rgba(16, 185, 129, 0.12)', color: 'var(--success-color)', borderColor: 'rgba(16, 185, 129, 0.25)' }}>
               Figure {question.figureRef}
             </span>
           )}
         </div>
-        <h2 style={{ fontSize: '1.2rem', lineHeight: 1.4, marginBottom: '1.25rem' }}>{question.text}</h2>
+        <h2 style={{ fontSize: '1.1rem', lineHeight: 1.4, marginBottom: '1rem' }}>{question.text}</h2>
         <QuestionOptions question={question} answered={answered} selectedAnswers={answers} handleSelect={handleSelect} />
       </div>
 
       {/* Navigation */}
-      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1rem', flexShrink: 0 }}>
-        <button className="btn-secondary" onClick={handlePrev} disabled={currentIndex === 0} style={{ opacity: currentIndex === 0 ? 0.5 : 1 }}>
+      <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0.75rem', flexShrink: 0, gap: '0.5rem' }}>
+        <button className="btn-secondary" onClick={handlePrev} disabled={currentIndex === 0}
+          style={{ opacity: currentIndex === 0 ? 0.5 : 1, flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
           Previous
         </button>
         {allAnswered ? (
-          <button className="btn-primary" onClick={() => { setShowResults(true); sfx.playCorrect(); }} style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+          <button className="btn-primary" onClick={() => { setShowResults(true); sfx.playCorrect(); }}
+            style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.3rem', padding: '0.6rem' }}>
             Finish Quiz
           </button>
         ) : (
-          <button className="btn-primary" onClick={handleNext} disabled={currentIndex === questions.length - 1} style={{ opacity: currentIndex === questions.length - 1 ? 0.5 : 1 }}>
+          <button className="btn-primary" onClick={handleNext} disabled={currentIndex === questions.length - 1}
+            style={{ opacity: currentIndex === questions.length - 1 ? 0.5 : 1, flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
             Next
           </button>
         )}

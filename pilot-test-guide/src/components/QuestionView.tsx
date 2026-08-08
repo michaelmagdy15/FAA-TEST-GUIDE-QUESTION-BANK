@@ -161,23 +161,22 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
             {/* Main Content Area */}
             <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0, overflowY: 'auto' }}>
                 {/* Top Bar */}
-                <div className="top-bar" style={{ position: 'relative' }}>
+                <div className="top-bar" style={{ position: 'relative', display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '1rem', flexWrap: 'wrap', gap: '0.5rem' }}>
                     {showConfetti && (
                         <div style={{ position: 'absolute', top: '20px', left: '50%', transform: 'translateX(-50%)', zIndex: 100, pointerEvents: 'none' }}>
                             <ConfettiExplosion force={0.6} duration={2200} particleCount={80} width={1000} colors={['#10b981', '#38bdf8', '#f59e0b', '#ef4444']} />
                         </div>
                     )}
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                        <button className="btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }} onClick={() => { sfx.playSelect(); onBack(); }} onMouseEnter={() => sfx.playHover()}>
-                            <ArrowLeft size={16} /> Back
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flexWrap: 'wrap' }}>
+                        <button className="btn-secondary" style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.4rem 0.8rem' }} onClick={() => { sfx.playSelect(); onBack(); }} onMouseEnter={() => sfx.playHover()}>
+                            <ArrowLeft size={14} /> <span>Back</span>
                         </button>
-                        <span style={{ padding: '0.4rem 0.8rem', borderRadius: '6px', fontSize: '0.85rem', fontWeight: 600, background: `${accentColor}22`, color: accentColor, border: `1px solid ${accentColor}` }}>
+                        <span style={{ padding: '0.3rem 0.6rem', borderRadius: '6px', fontSize: '0.75rem', fontWeight: 600, background: `${accentColor}22`, color: accentColor, border: `1px solid ${accentColor}` }}>
                             {modeLabel}
                         </span>
                         <span className="chip">
                             Q {currentIndex + 1} / {total}
                         </span>
-                        {/* Search toggle */}
                         <button
                             onClick={() => { setShowSearch(!showSearch); if (showSearch) setSearchQuery(''); sfx.playSelect(); }}
                             onMouseEnter={() => sfx.playHover()}
@@ -193,13 +192,13 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                             title="Search questions"
                         >
                             {showSearch ? <X size={14} /> : <Search size={14} />}
-                            Search
+                            <span>Search</span>
                         </button>
                     </div>
-                    <div className="progress-info" style={{ fontWeight: 500, color: 'var(--text-secondary)' }}>
+                    <div className="progress-info" style={{ fontWeight: 500, color: 'var(--text-secondary)', fontSize: '0.85rem' }}>
                         {chapter === "REVIEW" ? "Reviewing Incorrect" : `${isIR ? 'Module' : isCPL ? 'Chapter' : 'Chapter'} ${chapter}`}
                         <span style={{ color: 'var(--text-secondary)', opacity: 0.7, marginLeft: '0.4rem' }}>
-                            {Math.round(progress)}% complete
+                            {Math.round(progress)}%
                         </span>
                     </div>
                 </div>
@@ -308,10 +307,10 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                 {mode === 'ppl' && <StudyBanner />}
 
                 {/* Question Card */}
-                <div className="glass-card question-content animate-in delay-1" style={{ flex: 1 }}>
-                    <div className="question-meta" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '1rem', color: 'var(--text-secondary)', fontSize: '0.9rem' }}>
+                <div className="glass-card question-content animate-in delay-1" style={{ flex: 1, padding: '1rem' }}>
+                    <div className="question-meta" style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.75rem', color: 'var(--text-secondary)', fontSize: '0.8rem', flexWrap: 'wrap', gap: '0.4rem' }}>
                         <span className="chip">{question.plt}</span>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
                             {question.figureRef && (
                                 <span className="chip" style={{ background: 'rgba(16, 185, 129, 0.12)', color: 'var(--success-color)', borderColor: 'rgba(16, 185, 129, 0.25)' }}>
                                     Figure {question.figureRef}
@@ -325,17 +324,17 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                                 }}
                                 onMouseEnter={() => sfx.playHover()}
                                 style={{
-                                    display: 'flex', alignItems: 'center', gap: '4px',
-                                    padding: '4px 8px', borderRadius: '6px',
+                                    display: 'flex', alignItems: 'center', gap: '3px',
+                                    padding: '3px 6px', borderRadius: '6px',
                                     background: bookmarked ? 'rgba(245, 158, 11, 0.15)' : 'transparent',
                                     border: `1px solid ${bookmarked ? 'rgba(245, 158, 11, 0.4)' : 'var(--glass-border)'}`,
                                     color: bookmarked ? '#f59e0b' : 'var(--text-secondary)',
-                                    cursor: 'pointer', fontSize: '0.8rem', fontWeight: 500,
+                                    cursor: 'pointer', fontSize: '0.75rem', fontWeight: 500,
                                     transition: 'all 0.15s ease',
                                 }}
                                 title={bookmarked ? "Remove bookmark" : "Bookmark this question"}
                             >
-                                {bookmarked ? <BookmarkCheck size={14} /> : <Bookmark size={14} />}
+                                {bookmarked ? <BookmarkCheck size={13} /> : <Bookmark size={13} />}
                                 {bookmarked ? 'Saved' : 'Save'}
                             </button>
                         </div>
@@ -352,7 +351,7 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                             </div>
                         </div>
                     )}
-                    <h2 style={{ fontSize: '1.35rem', lineHeight: 1.4, marginBottom: '1.25rem' }}>{question.text}</h2>
+                    <h2 style={{ fontSize: '1.15rem', lineHeight: 1.4, marginBottom: '1rem' }}>{question.text}</h2>
 
                     <QuestionOptions
                         question={question}
@@ -375,13 +374,13 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                 )}
 
                 {/* Navigation Controls */}
-                <div className="navigation-controls" style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1.25rem', paddingTop: '1.25rem', borderTop: '1px solid var(--glass-border)', flexShrink: 0, paddingBottom: '1rem' }}>
+                <div className="navigation-controls" style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1rem', paddingTop: '1rem', borderTop: '1px solid var(--glass-border)', flexShrink: 0, paddingBottom: '0.5rem', gap: '0.5rem' }}>
                     <button
                         className="btn-secondary"
                         onClick={() => { sfx.playSelect(); handlePrev(); }}
                         onMouseEnter={() => sfx.playHover()}
                         disabled={currentIndex === 0}
-                        style={{ opacity: currentIndex === 0 ? 0.5 : 1 }}
+                        style={{ opacity: currentIndex === 0 ? 0.5 : 1, flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}
                     >
                         Previous
                     </button>
@@ -390,9 +389,9 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
                         onClick={() => { sfx.playSelect(); handleNext(); }}
                         onMouseEnter={() => sfx.playHover()}
                         disabled={currentIndex === total - 1}
-                        style={{ opacity: currentIndex === total - 1 ? 0.5 : 1 }}
+                        style={{ opacity: currentIndex === total - 1 ? 0.5 : 1, flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}
                     >
-                        Next Question
+                        Next
                     </button>
                 </div>
             </div>
@@ -409,7 +408,7 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
 
             {/* Right Sidebar: Learning Tools */}
             {mode === 'ppl' && (
-                <div style={{ width: '300px', flexShrink: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem', overflowY: 'auto', paddingBottom: '1rem' }}>
+                <div className="sidebar-desktop" style={{ width: '300px', flexShrink: 0, display: 'flex', flexDirection: 'column', gap: '0.75rem', overflowY: 'auto', paddingBottom: '1rem' }}>
                     <StudyTimer />
                     <MistakeTracker />
                     <Achievements />

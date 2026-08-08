@@ -189,78 +189,80 @@ export const PracticeExam: React.FC<PracticeExamProps> = ({ questions, mode, exa
       {/* Main content */}
       <div style={{ flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0 }}>
         {/* Header */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem', flexShrink: 0 }}>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <button className="btn-secondary" onClick={() => { if (window.confirm('Exit exam? Progress will be saved.')) onBack(); }} style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.5rem 1rem' }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.5rem', flexShrink: 0, flexWrap: 'wrap', gap: '0.4rem' }}>
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+            <button className="btn-secondary" onClick={() => { if (window.confirm('Exit exam? Progress will be saved.')) onBack(); }} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', padding: '0.4rem 0.8rem', fontSize: '0.85rem' }}>
               <ArrowLeft size={14} /> Exit
             </button>
-            <span className="chip" style={{ background: 'rgba(167, 139, 250, 0.12)', color: '#a78bfa', borderColor: 'rgba(167, 139, 250, 0.25)' }}>
+            <span className="chip" style={{ background: 'rgba(167, 139, 250, 0.12)', color: '#a78bfa', borderColor: 'rgba(167, 139, 250, 0.25)', fontSize: '0.75rem' }}>
               {config.title}
             </span>
           </div>
-          <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-            <span className="chip" style={{ background: timeWarning ? 'rgba(239, 68, 68, 0.12)' : undefined, color: timeWarning ? '#ef4444' : undefined, borderColor: timeWarning ? 'rgba(239, 68, 68, 0.25)' : undefined }}>
-              <Clock size={12} /> {mins}:{secs.toString().padStart(2, '0')}
+          <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', flexWrap: 'wrap' }}>
+            <span className="chip" style={{ fontSize: '0.75rem', background: timeWarning ? 'rgba(239, 68, 68, 0.12)' : undefined, color: timeWarning ? '#ef4444' : undefined, borderColor: timeWarning ? 'rgba(239, 68, 68, 0.25)' : undefined }}>
+              <Clock size={11} /> {mins}:{secs.toString().padStart(2, '0')}
             </span>
-            <span className="chip">{currentIndex + 1} / {examQuestions.length}</span>
+            <span className="chip" style={{ fontSize: '0.75rem' }}>{currentIndex + 1}/{examQuestions.length}</span>
             <button
               onClick={handleFlag}
               style={{
-                display: 'flex', alignItems: 'center', gap: '4px',
-                padding: '4px 8px', borderRadius: '6px', fontSize: '0.8rem', fontWeight: 500,
+                display: 'flex', alignItems: 'center', gap: '3px',
+                padding: '3px 6px', borderRadius: '6px', fontSize: '0.75rem', fontWeight: 500,
                 background: flagged.has(question.id) ? 'rgba(245, 158, 11, 0.15)' : 'transparent',
                 border: `1px solid ${flagged.has(question.id) ? 'rgba(245, 158, 11, 0.4)' : 'var(--glass-border)'}`,
                 color: flagged.has(question.id) ? '#f59e0b' : 'var(--text-secondary)',
                 cursor: 'pointer', fontFamily: 'inherit',
               }}
             >
-              <Flag size={12} fill={flagged.has(question.id) ? '#f59e0b' : 'none'} />
+              <Flag size={11} fill={flagged.has(question.id) ? '#f59e0b' : 'none'} />
               Flag
             </button>
           </div>
         </div>
 
         {/* Progress bar */}
-        <div style={{ height: '4px', borderRadius: '2px', background: 'rgba(255,255,255,0.05)', marginBottom: '1rem', overflow: 'hidden', flexShrink: 0 }}>
+        <div style={{ height: '4px', borderRadius: '2px', background: 'rgba(255,255,255,0.05)', marginBottom: '0.75rem', overflow: 'hidden', flexShrink: 0 }}>
           <div style={{ width: `${((currentIndex + 1) / examQuestions.length) * 100}%`, height: '100%', background: 'linear-gradient(90deg, #a78bfa, #38bdf8)', transition: 'width 0.3s ease' }} />
         </div>
 
         {/* Question */}
-        <div className="glass-card" style={{ flex: 1, overflowY: 'auto' }}>
-          <div style={{ marginBottom: '0.75rem' }}>
-            <span className="chip">Q{currentIndex + 1}</span>
-            {question.figureRef && <span className="chip" style={{ marginLeft: '0.5rem', background: 'rgba(16, 185, 129, 0.12)', color: 'var(--success-color)', borderColor: 'rgba(16, 185, 129, 0.25)' }}>Figure {question.figureRef}</span>}
-            {flagged.has(question.id) && <span className="chip" style={{ marginLeft: '0.5rem', background: 'rgba(245, 158, 11, 0.12)', color: '#f59e0b', borderColor: 'rgba(245, 158, 11, 0.25)' }}>Flagged</span>}
+        <div className="glass-card" style={{ flex: 1, overflowY: 'auto', padding: '1rem' }}>
+          <div style={{ marginBottom: '0.5rem', display: 'flex', gap: '0.4rem', flexWrap: 'wrap' }}>
+            <span className="chip" style={{ fontSize: '0.75rem' }}>Q{currentIndex + 1}</span>
+            {question.figureRef && <span className="chip" style={{ fontSize: '0.75rem', background: 'rgba(16, 185, 129, 0.12)', color: 'var(--success-color)', borderColor: 'rgba(16, 185, 129, 0.25)' }}>Figure {question.figureRef}</span>}
+            {flagged.has(question.id) && <span className="chip" style={{ fontSize: '0.75rem', background: 'rgba(245, 158, 11, 0.12)', color: '#f59e0b', borderColor: 'rgba(245, 158, 11, 0.25)' }}>Flagged</span>}
           </div>
-          <h2 style={{ fontSize: '1.15rem', lineHeight: 1.4, marginBottom: '1.25rem' }}>{question.text}</h2>
+          <h2 style={{ fontSize: '1.1rem', lineHeight: 1.4, marginBottom: '1rem' }}>{question.text}</h2>
           <QuestionOptions question={question} answered={answered} selectedAnswers={answers} handleSelect={handleSelect} />
         </div>
 
         {/* Navigation */}
-        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '1rem', flexShrink: 0 }}>
-          <button className="btn-secondary" onClick={() => { setCurrentIndex(prev => Math.max(0, prev - 1)); sfx.playSelect(); }} disabled={currentIndex === 0} style={{ opacity: currentIndex === 0 ? 0.5 : 1 }}>
+        <div style={{ display: 'flex', justifyContent: 'space-between', marginTop: '0.75rem', flexShrink: 0, gap: '0.5rem' }}>
+          <button className="btn-secondary" onClick={() => { setCurrentIndex(prev => Math.max(0, prev - 1)); sfx.playSelect(); }} disabled={currentIndex === 0}
+            style={{ opacity: currentIndex === 0 ? 0.5 : 1, flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
             Previous
           </button>
-          <div style={{ display: 'flex', gap: '0.5rem' }}>
+          <div style={{ display: 'flex', gap: '0.5rem', flex: 1 }}>
             {currentIndex < examQuestions.length - 1 ? (
-              <button className="btn-primary" onClick={() => { setCurrentIndex(prev => prev + 1); sfx.playSelect(); }}>
+              <button className="btn-primary" onClick={() => { setCurrentIndex(prev => prev + 1); sfx.playSelect(); }}
+                style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
                 Next <ArrowRight size={14} />
               </button>
             ) : allAnswered ? (
-              <button className="btn-primary" onClick={handleSubmit} style={{ background: 'var(--success-color)' }}>
+              <button className="btn-primary" onClick={handleSubmit} style={{ flex: 1, background: 'var(--success-color)', display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
                 Submit Exam
               </button>
             ) : (
-              <button className="btn-primary" disabled style={{ opacity: 0.5 }}>
-                {examQuestions.length - Object.keys(answers).length} remaining
+              <button className="btn-primary" disabled style={{ flex: 1, opacity: 0.5, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
+                {examQuestions.length - Object.keys(answers).length} left
               </button>
             )}
           </div>
         </div>
       </div>
 
-      {/* Question navigator sidebar */}
-      <div style={{ width: '200px', flexShrink: 0, overflowY: 'auto' }} className="glass-card">
+      {/* Question navigator sidebar - hidden on mobile */}
+      <div className="glass-card sidebar-desktop" style={{ width: '200px', flexShrink: 0, overflowY: 'auto' }}>
         <div style={{ fontSize: '0.8rem', fontWeight: 600, color: 'var(--text-secondary)', marginBottom: '0.5rem' }}>
           Questions ({Object.keys(answers).length}/{examQuestions.length})
         </div>
