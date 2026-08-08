@@ -1,0 +1,2426 @@
+{
+  "videoId": "MNIYBTHc6mg",
+  "lectureNum": 11,
+  "title": "Aircraft Ownership and Maintenance",
+  "topics": [
+    "maintenance",
+    "inspection",
+    "airworthiness",
+    "AD",
+    "logbook",
+    "annual",
+    "100-hour"
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "duration": 3.96,
+      "text": "[SOUND EFFECTS]"
+    },
+    {
+      "start": 16.36,
+      "duration": 1.53,
+      "text": "PHILIP GREENSPUN: All right."
+    },
+    {
+      "start": 17.89,
+      "duration": 2.91,
+      "text": "Let's talk about aircraft\nownership and maintenance."
+    },
+    {
+      "start": 25.18,
+      "duration": 4.53,
+      "text": "Some of this stuff actually,\noddly enough, is on the test."
+    },
+    {
+      "start": 29.71,
+      "duration": 1.75,
+      "text": "What does it cost\nto own an airplane?"
+    },
+    {
+      "start": 31.46,
+      "duration": 1.54,
+      "text": "Most people say, I\ncan't afford that."
+    },
+    {
+      "start": 33.0,
+      "duration": 2.25,
+      "text": "But then you see them\nbuy a brand new car"
+    },
+    {
+      "start": 35.25,
+      "duration": 4.34,
+      "text": "or renovate their\nkitchen for $200,000."
+    },
+    {
+      "start": 39.59,
+      "duration": 1.54,
+      "text": "So I don't know what\ntheir excuse is."
+    },
+    {
+      "start": 41.13,
+      "duration": 3.87,
+      "text": "It's actually not expensive\nto own a four-seat airplane."
+    },
+    {
+      "start": 45.0,
+      "duration": 1.89,
+      "text": "There's so many out there."
+    },
+    {
+      "start": 46.89,
+      "duration": 1.89,
+      "text": "There were more pilots\nin the '70s and '80s,"
+    },
+    {
+      "start": 48.78,
+      "duration": 3.54,
+      "text": "when these airplanes were\nbuilt in large quantities."
+    },
+    {
+      "start": 52.32,
+      "duration": 2.73,
+      "text": "The owner of East\nCoast Aero Club, Mark,"
+    },
+    {
+      "start": 55.05,
+      "duration": 4.14,
+      "text": "he says that, in the '80s,\nthere was a waiting list even"
+    },
+    {
+      "start": 59.19,
+      "duration": 1.44,
+      "text": "for a tie down at Hanscom."
+    },
+    {
+      "start": 60.63,
+      "duration": 2.7,
+      "text": "Now there's ample parking."
+    },
+    {
+      "start": 63.33,
+      "duration": 2.08,
+      "text": "The hangar space is\nstill a little bit tight,"
+    },
+    {
+      "start": 65.41,
+      "duration": 2.57,
+      "text": "but if you just want to\nget a Cessna and pay,"
+    },
+    {
+      "start": 67.98,
+      "duration": 3.48,
+      "text": "it's actually a lot cheaper to\ntie a Cessna down at Hanscom"
+    },
+    {
+      "start": 71.46,
+      "duration": 3.03,
+      "text": "than it is to park\na car in Cambridge."
+    },
+    {
+      "start": 74.49,
+      "duration": 1.38,
+      "text": "And there's plenty of room."
+    },
+    {
+      "start": 75.87,
+      "duration": 3.24,
+      "text": "He said every\nfirefighter, every teacher"
+    },
+    {
+      "start": 79.11,
+      "duration": 1.86,
+      "text": "used to have a family airplane."
+    },
+    {
+      "start": 80.97,
+      "duration": 2.19,
+      "text": "So the airplanes are\nrelatively inexpensive to buy--"
+    },
+    {
+      "start": 83.16,
+      "duration": 4.5,
+      "text": "$20,000, $30,000 for something\nthat's airworthy for VFR use,"
+    },
+    {
+      "start": 87.66,
+      "duration": 1.48,
+      "text": "for basic VFR use."
+    },
+    {
+      "start": 89.14,
+      "duration": 2.56,
+      "text": "And you can see the prices here."
+    },
+    {
+      "start": 91.7,
+      "duration": 1.99,
+      "text": "The depreciation would\nbe pretty close to zero"
+    },
+    {
+      "start": 93.69,
+      "duration": 4.2,
+      "text": "for those lower-end airplanes."
+    },
+    {
+      "start": 97.89,
+      "duration": 4.14,
+      "text": "Anyway, all that said,\nit's still cheaper"
+    },
+    {
+      "start": 102.03,
+      "duration": 3.21,
+      "text": "to rent from a flight\nschool if you're"
+    },
+    {
+      "start": 105.24,
+      "duration": 5.24,
+      "text": "going to fly 100 hours a year,\npaying $150 or $200 an hour"
+    },
+    {
+      "start": 110.48,
+      "duration": 4.69,
+      "text": "to a flight school is still\ncheaper, and it's a lot easier."
+    },
+    {
+      "start": 115.17,
+      "duration": 2.13,
+      "text": "For people for whom\nowning may actually"
+    },
+    {
+      "start": 117.3,
+      "duration": 2.97,
+      "text": "make a little bit\nof rational sense,"
+    },
+    {
+      "start": 120.27,
+      "duration": 1.47,
+      "text": "it never truly\nmakes sense compared"
+    },
+    {
+      "start": 121.74,
+      "duration": 3.65,
+      "text": "to just getting everywhere\nin your Toyota Camry."
+    },
+    {
+      "start": 125.39,
+      "duration": 5.44,
+      "text": "That if you fly a whole ton,\nmore than 100 hours a year,"
+    },
+    {
+      "start": 130.83,
+      "duration": 3.18,
+      "text": "and the fixed costs of\ninsurance and storage and stuff"
+    },
+    {
+      "start": 134.01,
+      "duration": 4.17,
+      "text": "won't kill you, if you\nhave to use the airplane"
+    },
+    {
+      "start": 138.18,
+      "duration": 3.66,
+      "text": "to make regular long trips\nsomewhere and then just park it"
+    },
+    {
+      "start": 141.84,
+      "duration": 3.27,
+      "text": "away from the home airport,\nthen it makes sense."
+    },
+    {
+      "start": 145.11,
+      "duration": 2.76,
+      "text": "And a lot of people,\nalso, you know"
+    },
+    {
+      "start": 147.87,
+      "duration": 2.85,
+      "text": "you can't fly, if you\nhave multiple airplanes,"
+    },
+    {
+      "start": 150.72,
+      "duration": 2.82,
+      "text": "you can't fly them\nall at the same time."
+    },
+    {
+      "start": 153.54,
+      "duration": 2.19,
+      "text": "And even one airplane,\nit's a little bit hard"
+    },
+    {
+      "start": 155.73,
+      "duration": 3.27,
+      "text": "to use everyday the way\nyou would use a car."
+    },
+    {
+      "start": 159.0,
+      "duration": 4.65,
+      "text": "So partnerships with two to\nfour people are pretty common."
+    },
+    {
+      "start": 163.65,
+      "duration": 2.91,
+      "text": "And that cuts the\ncost dramatically"
+    },
+    {
+      "start": 166.56,
+      "duration": 3.09,
+      "text": "without really\nimpairing the utility."
+    },
+    {
+      "start": 169.65,
+      "duration": 2.1,
+      "text": "I shared an airplane\nfor years with a guy,"
+    },
+    {
+      "start": 171.75,
+      "duration": 2.94,
+      "text": "and I don't think we\never conflicted on when"
+    },
+    {
+      "start": 174.69,
+      "duration": 2.01,
+      "text": "we wanted to use the plane."
+    },
+    {
+      "start": 176.7,
+      "duration": 1.98,
+      "text": "All right."
+    },
+    {
+      "start": 178.68,
+      "duration": 3.09,
+      "text": "This is some stuff that you\nwant to know a little bit."
+    },
+    {
+      "start": 181.77,
+      "duration": 2.08,
+      "text": "If you're an owner,\nit's really critical."
+    },
+    {
+      "start": 183.85,
+      "duration": 4.62,
+      "text": "And if you're a renter, some\nof the stuff is still relevant."
+    },
+    {
+      "start": 188.47,
+      "duration": 3.29,
+      "text": "So the owner or operator, if\nyou think about a leaseback"
+    },
+    {
+      "start": 191.76,
+      "duration": 3.69,
+      "text": "airplane to the flight\nschool, the leaseback owner"
+    },
+    {
+      "start": 195.45,
+      "duration": 2.97,
+      "text": "is any individual, perhaps."
+    },
+    {
+      "start": 198.42,
+      "duration": 2.23,
+      "text": "And the flight school\nbecomes the operator."
+    },
+    {
+      "start": 200.65,
+      "duration": 1.58,
+      "text": "And they're the ones\nwho are primarily"
+    },
+    {
+      "start": 202.23,
+      "duration": 5.19,
+      "text": "responsible for making sure\nthe airplane is airworthy,"
+    },
+    {
+      "start": 207.42,
+      "duration": 3.09,
+      "text": "that it gets its\nannual inspection,"
+    },
+    {
+      "start": 210.51,
+      "duration": 3.15,
+      "text": "and that it has a logbook."
+    },
+    {
+      "start": 213.66,
+      "duration": 2.95,
+      "text": "However, the pilot\nis also responsible."
+    },
+    {
+      "start": 216.61,
+      "duration": 3.17,
+      "text": "And if the pilot knows that\nsomething's inoperative,"
+    },
+    {
+      "start": 219.78,
+      "duration": 4.47,
+      "text": "and it's not required,\nthen it's still"
+    },
+    {
+      "start": 224.25,
+      "duration": 3.45,
+      "text": "legal to fly the airplane\nin a lot of circumstances"
+    },
+    {
+      "start": 227.7,
+      "duration": 5.62,
+      "text": "as long as that piece of\nequipment is placarded inop."
+    },
+    {
+      "start": 233.32,
+      "duration": 3.62,
+      "text": "And maybe the breaker\nis pulled, for example,"
+    },
+    {
+      "start": 236.94,
+      "duration": 5.3,
+      "text": "on a GPS unit\nthat's not working."
+    },
+    {
+      "start": 242.24,
+      "duration": 4.8,
+      "text": "After maintenance,\nthen a private pilot"
+    },
+    {
+      "start": 247.04,
+      "duration": 3.54,
+      "text": "with no passengers\ncan make entry"
+    },
+    {
+      "start": 250.58,
+      "duration": 3.21,
+      "text": "in the logbook saying that\nthe test flight was done."
+    },
+    {
+      "start": 256.61,
+      "duration": 4.16,
+      "text": "The core inspection\nis every 12 months."
+    },
+    {
+      "start": 260.77,
+      "duration": 1.42,
+      "text": "For a privately\nowned airplane, it"
+    },
+    {
+      "start": 262.19,
+      "duration": 2.21,
+      "text": "has to have an\nannual inspection."
+    },
+    {
+      "start": 264.4,
+      "duration": 1.42,
+      "text": "Typically it won't\nfly a whole lot"
+    },
+    {
+      "start": 265.82,
+      "duration": 3.15,
+      "text": "more than 100 hours during that\nyear if it's just one person"
+    },
+    {
+      "start": 268.97,
+      "duration": 0.99,
+      "text": "flying it."
+    },
+    {
+      "start": 269.96,
+      "duration": 3.12,
+      "text": "But the 100-hour\nrequirement only"
+    },
+    {
+      "start": 273.08,
+      "duration": 1.5,
+      "text": "becomes necessary\nwhen the airplane"
+    },
+    {
+      "start": 274.58,
+      "duration": 3.54,
+      "text": "is operated commercially,\nlike at a flight school."
+    },
+    {
+      "start": 278.12,
+      "duration": 3.89,
+      "text": "So that's 100 hours of flight\ntime, not engine running time."
+    },
+    {
+      "start": 282.01,
+      "duration": 2.71,
+      "text": "So if it's taxiing\naround the airport,"
+    },
+    {
+      "start": 284.72,
+      "duration": 4.2,
+      "text": "the engine might be running\nfor 120 or 130 hours"
+    },
+    {
+      "start": 288.92,
+      "duration": 4.11,
+      "text": "to build up 100\nhours of flight time."
+    },
+    {
+      "start": 293.03,
+      "duration": 1.83,
+      "text": "You say, well,\ngod, these airlines"
+    },
+    {
+      "start": 294.86,
+      "duration": 3.06,
+      "text": "must have to tear\nthe airplane apart,"
+    },
+    {
+      "start": 297.92,
+      "duration": 3.93,
+      "text": "open all the inspection\npanels every week or two."
+    },
+    {
+      "start": 301.85,
+      "duration": 2.22,
+      "text": "Jets have their own\nmaintenance schedule that"
+    },
+    {
+      "start": 304.07,
+      "duration": 3.18,
+      "text": "supersedes this FAA guidance."
+    },
+    {
+      "start": 307.25,
+      "duration": 2.48,
+      "text": "Even modest-sized\njets often have a 300"
+    },
+    {
+      "start": 309.73,
+      "duration": 2.81,
+      "text": "or a 600-hour service Interval."
+    },
+    {
+      "start": 312.53,
+      "duration": 5.4,
+      "text": "The Pilatus PC-12, it was\nrecently extended to 300 hours,"
+    },
+    {
+      "start": 317.93,
+      "duration": 2.28,
+      "text": "for example."
+    },
+    {
+      "start": 320.21,
+      "duration": 2.87,
+      "text": "OK, Tina covered this before."
+    },
+    {
+      "start": 323.08,
+      "duration": 2.83,
+      "text": "The transponder has to\nbe inspected and sort of"
+    },
+    {
+      "start": 325.91,
+      "duration": 2.94,
+      "text": "recertified every\ncouple of years."
+    },
+    {
+      "start": 328.85,
+      "duration": 4.98,
+      "text": "Emergency locator transmitters--\nif it's a civil airplane,"
+    },
+    {
+      "start": 333.83,
+      "duration": 3.12,
+      "text": "91.207 says it\nhas to have an ELT"
+    },
+    {
+      "start": 336.95,
+      "duration": 1.54,
+      "text": "except in certain circumstances."
+    },
+    {
+      "start": 338.49,
+      "duration": 3.33,
+      "text": "So gliders, helicopters, things\nlike that don't really need it,"
+    },
+    {
+      "start": 341.82,
+      "duration": 0.96,
+      "text": "I don't think."
+    },
+    {
+      "start": 342.78,
+      "duration": 0.92,
+      "text": "Maybe the glider does."
+    },
+    {
+      "start": 343.7,
+      "duration": 0.71,
+      "text": "I don't think so."
+    },
+    {
+      "start": 350.83,
+      "duration": 5.08,
+      "text": "So the FAA really\nwants to ensure"
+    },
+    {
+      "start": 355.91,
+      "duration": 2.08,
+      "text": "that every aircraft that's\nflying around in the US"
+    },
+    {
+      "start": 357.99,
+      "duration": 2.37,
+      "text": "has a comprehensive\nlogbook going back"
+    },
+    {
+      "start": 360.36,
+      "duration": 4.83,
+      "text": "to the birth of the aircraft,\nthe birth of the propeller,"
+    },
+    {
+      "start": 365.19,
+      "duration": 1.92,
+      "text": "and the birth of the engine."
+    },
+    {
+      "start": 367.11,
+      "duration": 2.37,
+      "text": "Engines, when they get\nremanufactured by somebody"
+    },
+    {
+      "start": 369.48,
+      "duration": 3.9,
+      "text": "like Lycoming or Continental,\nthey get a zero-time logbook."
+    },
+    {
+      "start": 373.38,
+      "duration": 3.63,
+      "text": "So that logbook might only\ngo back four or five years."
+    },
+    {
+      "start": 377.01,
+      "duration": 3.12,
+      "text": "But the logbook for the\nairframe should go back"
+    },
+    {
+      "start": 380.13,
+      "duration": 3.86,
+      "text": "to when it was made."
+    },
+    {
+      "start": 383.99,
+      "duration": 1.84,
+      "text": "If the logbook ever\ngets lost, the airplane"
+    },
+    {
+      "start": 385.83,
+      "duration": 2.76,
+      "text": "is significantly\ndevalued, because stuff"
+    },
+    {
+      "start": 388.59,
+      "duration": 1.53,
+      "text": "has to be reconstructed."
+    },
+    {
+      "start": 390.12,
+      "duration": 4.33,
+      "text": "And you can never really be\nsure what's happened to it."
+    },
+    {
+      "start": 394.45,
+      "duration": 0.93,
+      "text": "OK."
+    },
+    {
+      "start": 395.38,
+      "duration": 5.99,
+      "text": "There are airworthiness\ndirectives that legally"
+    },
+    {
+      "start": 401.37,
+      "duration": 3.75,
+      "text": "have to be applied to aircraft."
+    },
+    {
+      "start": 405.12,
+      "duration": 2.85,
+      "text": "If the manufacturer\nissues a service bulletin,"
+    },
+    {
+      "start": 407.97,
+      "duration": 3.06,
+      "text": "you don't have to do that,\nespecially if you're not"
+    },
+    {
+      "start": 411.03,
+      "duration": 1.54,
+      "text": "operating the\nairplane commercially,"
+    },
+    {
+      "start": 412.57,
+      "duration": 2.56,
+      "text": "like as an airline or a charter."
+    },
+    {
+      "start": 415.14,
+      "duration": 5.61,
+      "text": "But airworthiness\ndirectives are mandatory."
+    },
+    {
+      "start": 420.75,
+      "duration": 2.91,
+      "text": "So let's see if I can\nthink of an example."
+    },
+    {
+      "start": 423.66,
+      "duration": 3.96,
+      "text": "I think there were some Cessna\nseats that were sliding back,"
+    },
+    {
+      "start": 427.62,
+      "duration": 1.78,
+      "text": "so people were trying\nto fly their Cessna"
+    },
+    {
+      "start": 429.4,
+      "duration": 2.53,
+      "text": "and the seat wasn't really\nlocked into position."
+    },
+    {
+      "start": 431.93,
+      "duration": 2.08,
+      "text": "So that's the kind of thing\nwhere an airworthiness"
+    },
+    {
+      "start": 434.01,
+      "duration": 4.59,
+      "text": "directive would be negotiated\nbetween Cessna and the FAA."
+    },
+    {
+      "start": 438.6,
+      "duration": 2.76,
+      "text": "And it would be issued, and they\nmight say, within the next 10"
+    },
+    {
+      "start": 441.36,
+      "duration": 3.99,
+      "text": "flight hours, you have to\ngo and get new seat rails"
+    },
+    {
+      "start": 445.35,
+      "duration": 3.33,
+      "text": "for your Cessna to make sure\nthat it doesn't slide back"
+    },
+    {
+      "start": 448.68,
+      "duration": 2.41,
+      "text": "inadvertently."
+    },
+    {
+      "start": 451.09,
+      "duration": 1.61,
+      "text": "If there's a plane--"
+    },
+    {
+      "start": 452.7,
+      "duration": 1.61,
+      "text": "if there's something\nreally serious,"
+    },
+    {
+      "start": 454.32,
+      "duration": 2.94,
+      "text": "they may issue an emergency\nairworthiness directive"
+    },
+    {
+      "start": 457.26,
+      "duration": 2.1,
+      "text": "and say, everything's\ngrounded until you"
+    },
+    {
+      "start": 459.36,
+      "duration": 3.04,
+      "text": "apply this fix or change."
+    },
+    {
+      "start": 462.4,
+      "duration": 1.43,
+      "text": "Here is just an\nexample, actually."
+    },
+    {
+      "start": 463.83,
+      "duration": 0.92,
+      "text": "What did we find here?"
+    },
+    {
+      "start": 467.73,
+      "duration": 1.38,
+      "text": "This was for Cirruses."
+    },
+    {
+      "start": 473.88,
+      "duration": 1.86,
+      "text": "Ah."
+    },
+    {
+      "start": 475.74,
+      "duration": 3.33,
+      "text": "In-flight cabin\ndoor separation--"
+    },
+    {
+      "start": 479.07,
+      "duration": 0.69,
+      "text": "that's not good."
+    },
+    {
+      "start": 479.76,
+      "duration": 3.9,
+      "text": "[LAUGHS] One was\ntotal separation."
+    },
+    {
+      "start": 483.66,
+      "duration": 2.67,
+      "text": "One was retained\nby the door strut."
+    },
+    {
+      "start": 486.33,
+      "duration": 4.78,
+      "text": "We're issuing this AD to prevent\nin-flight failure of the cabin"
+    },
+    {
+      "start": 491.11,
+      "duration": 1.05,
+      "text": "door."
+    },
+    {
+      "start": 492.16,
+      "duration": 4.56,
+      "text": "OK, well, it's nice to\nhave two doors, I guess."
+    },
+    {
+      "start": 496.72,
+      "duration": 1.89,
+      "text": "That's the takeaway\nfrom this one."
+    },
+    {
+      "start": 498.61,
+      "duration": 2.67,
+      "text": "I don't know what they said that\nyou have to do-- yeah, threads,"
+    },
+    {
+      "start": 501.28,
+      "duration": 1.53,
+      "text": "leaves, blah, blah, blah."
+    },
+    {
+      "start": 502.81,
+      "duration": 1.62,
+      "text": "Oh, but it says within 50 hours."
+    },
+    {
+      "start": 504.43,
+      "duration": 1.86,
+      "text": "See that?"
+    },
+    {
+      "start": 506.29,
+      "duration": 2.73,
+      "text": "Within the next 50\nhours time in service."
+    },
+    {
+      "start": 509.02,
+      "duration": 2.31,
+      "text": "So they don't consider\nthat an emergency."
+    },
+    {
+      "start": 511.33,
+      "duration": 3.15,
+      "text": "And actually, if you\never do take off,"
+    },
+    {
+      "start": 514.48,
+      "duration": 1.31,
+      "text": "don't slam an aircraft door."
+    },
+    {
+      "start": 515.79,
+      "duration": 2.08,
+      "text": "They tend to be fragile."
+    },
+    {
+      "start": 517.87,
+      "duration": 3.96,
+      "text": "The latches, various techniques\nhave been tried over the years"
+    },
+    {
+      "start": 521.83,
+      "duration": 1.32,
+      "text": "by various manufacturers."
+    },
+    {
+      "start": 523.15,
+      "duration": 2.85,
+      "text": "None of them are as\nfoolproof as car doors,"
+    },
+    {
+      "start": 526.0,
+      "duration": 3.97,
+      "text": "because they don't have the\nweight budget that a car has."
+    },
+    {
+      "start": 529.97,
+      "duration": 2.34,
+      "text": "So if a door does\npop open in flight,"
+    },
+    {
+      "start": 532.31,
+      "duration": 2.15,
+      "text": "it's actually not\nhazardous as long"
+    },
+    {
+      "start": 534.46,
+      "duration": 2.64,
+      "text": "as you're not so\nstartled that you"
+    },
+    {
+      "start": 537.1,
+      "duration": 1.56,
+      "text": "do something crazy on takeoff."
+    },
+    {
+      "start": 538.66,
+      "duration": 2.52,
+      "text": "They'll usually pop open\njust as you're climbing out,"
+    },
+    {
+      "start": 541.18,
+      "duration": 2.12,
+      "text": "and you're like, whoa,\nwhat's that noise?"
+    },
+    {
+      "start": 543.3,
+      "duration": 4.87,
+      "text": "Anyway, just remember, as Tina\nsaid, keep flying the airplane."
+    },
+    {
+      "start": 548.17,
+      "duration": 4.8,
+      "text": "And don't over-focus\non something"
+    },
+    {
+      "start": 552.97,
+      "duration": 3.08,
+      "text": "that's not related to the\naircraft attitude and power."
+    },
+    {
+      "start": 556.05,
+      "duration": 6.46,
+      "text": "OK, part 43 is mostly stuff\nthat certified AMT mechanics"
+    },
+    {
+      "start": 562.51,
+      "duration": 2.06,
+      "text": "need to know."
+    },
+    {
+      "start": 564.57,
+      "duration": 1.75,
+      "text": "It's illegal, actually for--"
+    },
+    {
+      "start": 566.32,
+      "duration": 3.18,
+      "text": "this is one reason\nwhy owning an airplane"
+    },
+    {
+      "start": 569.5,
+      "duration": 1.23,
+      "text": "is better than owning a boat."
+    },
+    {
+      "start": 570.73,
+      "duration": 2.27,
+      "text": "It's illegal for you to\nwork on your own airplane,"
+    },
+    {
+      "start": 573.0,
+      "duration": 0.72,
+      "text": "more or less."
+    },
+    {
+      "start": 573.72,
+      "duration": 4.39,
+      "text": "[LAUGHS] So you have to have an\nFAA-certified mechanic do it."
+    },
+    {
+      "start": 578.11,
+      "duration": 3.87,
+      "text": "You can't spend every weekend\nmonkeying with your airplane."
+    },
+    {
+      "start": 581.98,
+      "duration": 4.68,
+      "text": "There are a handful of things\npilots are allowed to do."
+    },
+    {
+      "start": 586.66,
+      "duration": 2.35,
+      "text": "You can replace a tire."
+    },
+    {
+      "start": 589.01,
+      "duration": 1.28,
+      "text": "You can add oil."
+    },
+    {
+      "start": 590.29,
+      "duration": 6.66,
+      "text": "You can-- there's an\nenumerated list, 31 items."
+    },
+    {
+      "start": 596.95,
+      "duration": 1.38,
+      "text": "A lot of those\nare kind of more--"
+    },
+    {
+      "start": 598.32,
+      "duration": 1.69,
+      "text": "you can change a spark plug--"
+    },
+    {
+      "start": 600.01,
+      "duration": 1.53,
+      "text": "related to bush pilots."
+    },
+    {
+      "start": 601.54,
+      "duration": 3.3,
+      "text": "If you're up in Alaska, or\nnorthern Minnesota, or out"
+    },
+    {
+      "start": 604.84,
+      "duration": 4.05,
+      "text": "in the middle of Maine, and\nyou want to change something,"
+    },
+    {
+      "start": 608.89,
+      "duration": 3.57,
+      "text": "instead of being stuck, you can\ncarry a spark plug and a wrench"
+    },
+    {
+      "start": 612.46,
+      "duration": 3.18,
+      "text": "and get yourself\nback to the hangar."
+    },
+    {
+      "start": 615.64,
+      "duration": 2.85,
+      "text": "But it's unconventional for\npeople with certified airplanes"
+    },
+    {
+      "start": 618.49,
+      "duration": 2.97,
+      "text": "to do much in the\nway of maintenance."
+    },
+    {
+      "start": 621.46,
+      "duration": 1.83,
+      "text": "One exception is\nowner-assisted annuals."
+    },
+    {
+      "start": 623.29,
+      "duration": 2.05,
+      "text": "Some people who are very\nmechanically inclined"
+    },
+    {
+      "start": 625.34,
+      "duration": 3.2,
+      "text": "like to work with\nan AMT and help out."
+    },
+    {
+      "start": 636.35,
+      "duration": 3.0,
+      "text": "If you do this stuff,\nyou have to sign it off"
+    },
+    {
+      "start": 639.35,
+      "duration": 6.97,
+      "text": "by making a logbook entry\nwith your certificate number"
+    },
+    {
+      "start": 646.32,
+      "duration": 1.32,
+      "text": "and what kind of certificate."
+    },
+    {
+      "start": 647.64,
+      "duration": 1.84,
+      "text": "So if you change\nthe oil, you still"
+    },
+    {
+      "start": 649.48,
+      "duration": 2.04,
+      "text": "have to log it even though\nyou're not a mechanic."
+    },
+    {
+      "start": 651.52,
+      "duration": 2.42,
+      "text": "You just say, I'm a pilot, and\nhere's my pilot certificate"
+    },
+    {
+      "start": 653.94,
+      "duration": 0.9,
+      "text": "number."
+    },
+    {
+      "start": 654.84,
+      "duration": 1.71,
+      "text": "All right, if that's\ntoo much work,"
+    },
+    {
+      "start": 656.55,
+      "duration": 2.54,
+      "text": "and you still really just want\nto own an airplane because you"
+    },
+    {
+      "start": 659.09,
+      "duration": 2.59,
+      "text": "want to say that\nI own an airplane,"
+    },
+    {
+      "start": 661.68,
+      "duration": 1.91,
+      "text": "you can buy an airplane."
+    },
+    {
+      "start": 663.59,
+      "duration": 2.29,
+      "text": "And then if you're not going\nto fly it 200 hours a year"
+    },
+    {
+      "start": 665.88,
+      "duration": 2.13,
+      "text": "or more, you can lease\nit to a flight school"
+    },
+    {
+      "start": 668.01,
+      "duration": 2.4,
+      "text": "and let the flight\nschool be responsible"
+    },
+    {
+      "start": 670.41,
+      "duration": 1.71,
+      "text": "for the maintenance."
+    },
+    {
+      "start": 672.12,
+      "duration": 4.45,
+      "text": "A lot of people do this to\ntake advantage of depreciation."
+    },
+    {
+      "start": 676.57,
+      "duration": 2.03,
+      "text": "Let's say they're\na medical doctor."
+    },
+    {
+      "start": 678.6,
+      "duration": 3.99,
+      "text": "They start a side business\nworking with a flight school,"
+    },
+    {
+      "start": 682.59,
+      "duration": 2.49,
+      "text": "and they're now in the\naircraft rental business."
+    },
+    {
+      "start": 685.08,
+      "duration": 3.3,
+      "text": "And they take a 100%\ndeduction for their airplane."
+    },
+    {
+      "start": 688.38,
+      "duration": 2.58,
+      "text": "It hasn't really been\ncompletely tested by the IRS."
+    },
+    {
+      "start": 690.96,
+      "duration": 2.13,
+      "text": "Leasing is supposed\nto be a passive loss,"
+    },
+    {
+      "start": 693.09,
+      "duration": 1.5,
+      "text": "and you're not\nsupposed to offset it"
+    },
+    {
+      "start": 694.59,
+      "duration": 2.73,
+      "text": "against active income."
+    },
+    {
+      "start": 697.32,
+      "duration": 2.97,
+      "text": "So people come up with various\ngimmicks where the flight"
+    },
+    {
+      "start": 700.29,
+      "duration": 2.46,
+      "text": "school is marketing\ntheir aircraft for rental"
+    },
+    {
+      "start": 702.75,
+      "duration": 1.52,
+      "text": "to other people."
+    },
+    {
+      "start": 704.27,
+      "duration": 6.04,
+      "text": "Anyway, they're taking\n$700,000 or $800,000 write-off"
+    },
+    {
+      "start": 710.31,
+      "duration": 3.51,
+      "text": "in one year against their\nmillion dollar income"
+    },
+    {
+      "start": 713.82,
+      "duration": 1.38,
+      "text": "as a physician."
+    },
+    {
+      "start": 715.2,
+      "duration": 1.98,
+      "text": "And now they have\na free airplane."
+    },
+    {
+      "start": 717.18,
+      "duration": 2.07,
+      "text": "And that's why you can\ngo to the flight school"
+    },
+    {
+      "start": 719.25,
+      "duration": 3.71,
+      "text": "and rent one of these beautiful\nnew airplanes for $250 an hour."
+    },
+    {
+      "start": 722.96,
+      "duration": 1.96,
+      "text": "It sounds like a lot,\nbut take advantage of it,"
+    },
+    {
+      "start": 724.92,
+      "duration": 3.57,
+      "text": "because they're basically giving\nyou the airplane for free."
+    },
+    {
+      "start": 728.49,
+      "duration": 2.49,
+      "text": "OK, what if that's\nnot enough work?"
+    },
+    {
+      "start": 730.98,
+      "duration": 2.13,
+      "text": "Well, go to Oshkosh in July."
+    },
+    {
+      "start": 733.11,
+      "duration": 0.96,
+      "text": "I'll be there."
+    },
+    {
+      "start": 734.07,
+      "duration": 3.42,
+      "text": "And we can go check out\nall the kit airplanes,"
+    },
+    {
+      "start": 737.49,
+      "duration": 1.83,
+      "text": "and you can meet\npeople who say they've"
+    },
+    {
+      "start": 739.32,
+      "duration": 2.55,
+      "text": "spent 13 years building\ntheir airplane,"
+    },
+    {
+      "start": 741.87,
+      "duration": 3.81,
+      "text": "and now they're\nfinally flying it."
+    },
+    {
+      "start": 745.68,
+      "duration": 6.18,
+      "text": "So in theory, the airplane\nhas to be built by this--"
+    },
+    {
+      "start": 751.86,
+      "duration": 2.28,
+      "text": "the intent was some\nperson who was then"
+    },
+    {
+      "start": 754.14,
+      "duration": 2.22,
+      "text": "going to fly it had\nto build half of it."
+    },
+    {
+      "start": 756.36,
+      "duration": 3.06,
+      "text": "But you know, LLCs\nare also people,"
+    },
+    {
+      "start": 759.42,
+      "duration": 3.61,
+      "text": "as far as the regulations\nare concerned."
+    },
+    {
+      "start": 763.03,
+      "duration": 3.32,
+      "text": "So basically, the LLC becomes\nthe builder of record."
+    },
+    {
+      "start": 766.35,
+      "duration": 5.34,
+      "text": "And the LLC is formed between\nsomebody who actually knows"
+    },
+    {
+      "start": 771.69,
+      "duration": 2.61,
+      "text": "what he or she is\ndoing and the pilot who"
+    },
+    {
+      "start": 774.3,
+      "duration": 2.73,
+      "text": "just wants to fly the cool\nexperimental airplane."
+    },
+    {
+      "start": 777.03,
+      "duration": 1.8,
+      "text": "And then when the\nbuilder's finished,"
+    },
+    {
+      "start": 778.83,
+      "duration": 2.73,
+      "text": "the pilot buys out the builder."
+    },
+    {
+      "start": 781.56,
+      "duration": 3.27,
+      "text": "There are a lot of\nlimitations on experimentals."
+    },
+    {
+      "start": 784.83,
+      "duration": 3.03,
+      "text": "Oh yeah, another technique\nis the factory-assist build."
+    },
+    {
+      "start": 787.86,
+      "duration": 2.43,
+      "text": "So to show that people\nhave done a lot of work,"
+    },
+    {
+      "start": 790.29,
+      "duration": 3.03,
+      "text": "they'll go down to the\nfactory, and they'll change"
+    },
+    {
+      "start": 793.32,
+      "duration": 1.57,
+      "text": "their clothing every two hours."
+    },
+    {
+      "start": 794.89,
+      "duration": 2.3,
+      "text": "And they'll have all these\npictures of themselves doing"
+    },
+    {
+      "start": 797.19,
+      "duration": 2.56,
+      "text": "various work on the aircraft."
+    },
+    {
+      "start": 799.75,
+      "duration": 1.58,
+      "text": "And then they can\nshow that to the FAA"
+    },
+    {
+      "start": 801.33,
+      "duration": 2.91,
+      "text": "and say, look, I was\nputting on the wings."
+    },
+    {
+      "start": 804.24,
+      "duration": 0.72,
+      "text": "I was doing this."
+    },
+    {
+      "start": 804.96,
+      "duration": 1.63,
+      "text": "I was doing that."
+    },
+    {
+      "start": 806.59,
+      "duration": 1.31,
+      "text": "[LAUGHS]"
+    },
+    {
+      "start": 807.9,
+      "duration": 5.25,
+      "text": "All right, you can't use\nthe aircraft commercially."
+    },
+    {
+      "start": 813.15,
+      "duration": 3.84,
+      "text": "And if your passenger\ngets into the airplane,"
+    },
+    {
+      "start": 816.99,
+      "duration": 2.22,
+      "text": "right in front of\nthe passenger will"
+    },
+    {
+      "start": 819.21,
+      "duration": 3.12,
+      "text": "be this scary-looking sign that\nsays, this is experimental,"
+    },
+    {
+      "start": 822.33,
+      "duration": 2.2,
+      "text": "doesn't meet FAA standards."
+    },
+    {
+      "start": 824.53,
+      "duration": 3.53,
+      "text": "So the passenger is warned\nthat there's a lot more risk"
+    },
+    {
+      "start": 828.06,
+      "duration": 1.53,
+      "text": "than flying a Cessna."
+    },
+    {
+      "start": 829.59,
+      "duration": 3.78,
+      "text": "So you might say,\nwell, why is it riskier"
+    },
+    {
+      "start": 833.37,
+      "duration": 2.49,
+      "text": "than a Cessna or a Cirrus?"
+    },
+    {
+      "start": 835.86,
+      "duration": 5.6,
+      "text": "And I talked to Alan\nKlapmeier about this,"
+    },
+    {
+      "start": 841.46,
+      "duration": 1.25,
+      "text": "one of the founders of Cirrus."
+    },
+    {
+      "start": 842.71,
+      "duration": 1.71,
+      "text": "I said, how come these\nexperimentals have"
+    },
+    {
+      "start": 844.42,
+      "duration": 3.38,
+      "text": "so much better numbers\nfor payload or speed"
+    },
+    {
+      "start": 847.8,
+      "duration": 2.93,
+      "text": "than certified planes\nlike the Cirrus?"
+    },
+    {
+      "start": 850.73,
+      "duration": 2.68,
+      "text": "So part of it is\nthat they're relieved"
+    },
+    {
+      "start": 853.41,
+      "duration": 2.46,
+      "text": "of a lot of the\nforgivingness requirements"
+    },
+    {
+      "start": 855.87,
+      "duration": 1.11,
+      "text": "of certified airplanes."
+    },
+    {
+      "start": 856.98,
+      "duration": 2.1,
+      "text": "So they're a little\nbit trickier to handle."
+    },
+    {
+      "start": 859.08,
+      "duration": 3.73,
+      "text": "You might have a\nhigher stall speed."
+    },
+    {
+      "start": 862.81,
+      "duration": 5.51,
+      "text": "They're just not as\nidiot-proof and as stable"
+    },
+    {
+      "start": 868.32,
+      "duration": 3.3,
+      "text": "as a Cessna Piper or Cirrus."
+    },
+    {
+      "start": 871.62,
+      "duration": 2.31,
+      "text": "The other issue is\nthat they don't have"
+    },
+    {
+      "start": 873.93,
+      "duration": 1.29,
+      "text": "as much redundant structure."
+    },
+    {
+      "start": 875.22,
+      "duration": 2.28,
+      "text": "With an experimental,\nyou're allowed"
+    },
+    {
+      "start": 877.5,
+      "duration": 2.61,
+      "text": "to assume that the construction\nprocess was perfect,"
+    },
+    {
+      "start": 880.11,
+      "duration": 2.85,
+      "text": "that there were no defects,\nthere were no missing screws,"
+    },
+    {
+      "start": 882.96,
+      "duration": 4.08,
+      "text": "that nobody dropped a tool and\ndamaged part of the structure"
+    },
+    {
+      "start": 887.04,
+      "duration": 1.52,
+      "text": "during construction."
+    },
+    {
+      "start": 888.56,
+      "duration": 2.94,
+      "text": "But a certified airplane,\nyou have to show to the FAA"
+    },
+    {
+      "start": 891.5,
+      "duration": 2.08,
+      "text": "that even if all\nkinds of bad stuff"
+    },
+    {
+      "start": 893.58,
+      "duration": 3.84,
+      "text": "goes on during manufacturing,\nand then the airplane's"
+    },
+    {
+      "start": 897.42,
+      "duration": 1.83,
+      "text": "buttoned up so that\nthose parts can't really"
+    },
+    {
+      "start": 899.25,
+      "duration": 2.25,
+      "text": "be inspected\nafterwards, it still"
+    },
+    {
+      "start": 901.5,
+      "duration": 2.1,
+      "text": "meets all of the\nstructural requirements."
+    },
+    {
+      "start": 903.6,
+      "duration": 2.22,
+      "text": "That's why you see\nthese crazy YouTube"
+    },
+    {
+      "start": 905.82,
+      "duration": 2.56,
+      "text": "videos of wings being tested."
+    },
+    {
+      "start": 908.38,
+      "duration": 1.88,
+      "text": "The transport category\naircraft are only"
+    },
+    {
+      "start": 910.26,
+      "duration": 2.61,
+      "text": "supposed to be\ncertified to 2.5 Gs,"
+    },
+    {
+      "start": 912.87,
+      "duration": 3.57,
+      "text": "and the wings don't break\nuntil they put 9 Gs on them."
+    },
+    {
+      "start": 916.44,
+      "duration": 2.79,
+      "text": "Partly they're over-designing\nbecause it's good engineering"
+    },
+    {
+      "start": 919.23,
+      "duration": 3.06,
+      "text": "practice, but also\nbecause they have"
+    },
+    {
+      "start": 922.29,
+      "duration": 1.68,
+      "text": "to over-design to\nsome extent because it"
+    },
+    {
+      "start": 923.97,
+      "duration": 3.36,
+      "text": "has to do 2.5 G's even\nif a lot of mistakes"
+    },
+    {
+      "start": 927.33,
+      "duration": 2.23,
+      "text": "were made during\nthe manufacturing."
+    },
+    {
+      "start": 934.24,
+      "duration": 2.16,
+      "text": "So experimentals-- there's\nnot really a free lunch."
+    },
+    {
+      "start": 936.4,
+      "duration": 2.8,
+      "text": "It's not like they're better\nthan a Cessna or Piper."
+    },
+    {
+      "start": 939.2,
+      "duration": 6.23,
+      "text": "They're subject to kind\nof different rules."
+    },
+    {
+      "start": 945.43,
+      "duration": 3.3,
+      "text": "The one element where\nthey are arguably better"
+    },
+    {
+      "start": 948.73,
+      "duration": 2.95,
+      "text": "is that, with composites,\nyou're allowed to--"
+    },
+    {
+      "start": 951.68,
+      "duration": 3.83,
+      "text": "it becomes practical to\nmake arbitrary shapes."
+    },
+    {
+      "start": 955.51,
+      "duration": 1.78,
+      "text": "If you're fabricating\nsheet metal,"
+    },
+    {
+      "start": 957.29,
+      "duration": 2.66,
+      "text": "there's a limit\nto how exotic you"
+    },
+    {
+      "start": 959.95,
+      "duration": 3.99,
+      "text": "can get at a reasonable price,\nwhereas planes like the Cirrus"
+    },
+    {
+      "start": 963.94,
+      "duration": 1.9,
+      "text": "and then some of these\nexperimentalists,"
+    },
+    {
+      "start": 965.84,
+      "duration": 1.67,
+      "text": "you can have a nice\nsmooth skin, and you"
+    },
+    {
+      "start": 967.51,
+      "duration": 2.1,
+      "text": "can make any shape you want."
+    },
+    {
+      "start": 969.61,
+      "duration": 3.99,
+      "text": "It's closer to an ideal airflow."
+    },
+    {
+      "start": 973.6,
+      "duration": 1.65,
+      "text": "But otherwise,\nthere's no free lunch."
+    },
+    {
+      "start": 975.25,
+      "duration": 2.25,
+      "text": "If it has better payload,\nthat's because they took out"
+    },
+    {
+      "start": 977.5,
+      "duration": 3.72,
+      "text": "all the redundant structure\nthat makes a certified airplane"
+    },
+    {
+      "start": 981.22,
+      "duration": 1.53,
+      "text": "a little safer."
+    },
+    {
+      "start": 982.75,
+      "duration": 3.06,
+      "text": "All right, renter pilots\nare still responsible,"
+    },
+    {
+      "start": 985.81,
+      "duration": 1.85,
+      "text": "to some extent, for this stuff."
+    },
+    {
+      "start": 987.66,
+      "duration": 2.29,
+      "text": "You've got to make sure\nthe aircraft is airworthy."
+    },
+    {
+      "start": 989.95,
+      "duration": 2.31,
+      "text": "You can't pin it all\non the flight school."
+    },
+    {
+      "start": 992.26,
+      "duration": 4.2,
+      "text": "If you see something hanging\nloose, or there's no oil in it,"
+    },
+    {
+      "start": 996.46,
+      "duration": 4.41,
+      "text": "then it's your responsibility\nto call the mechanic over"
+    },
+    {
+      "start": 1000.87,
+      "duration": 4.35,
+      "text": "to re-secure the panel\nor put some oil in."
+    },
+    {
+      "start": 1005.22,
+      "duration": 3.01,
+      "text": "You want to make sure\nthat the airplane has"
+    },
+    {
+      "start": 1008.23,
+      "duration": 1.57,
+      "text": "airworthiness certificate."
+    },
+    {
+      "start": 1009.8,
+      "duration": 1.63,
+      "text": "The registration\nused to last forever."
+    },
+    {
+      "start": 1011.43,
+      "duration": 1.63,
+      "text": "Now it expires\nevery three years."
+    },
+    {
+      "start": 1013.06,
+      "duration": 2.33,
+      "text": "So I guess if you're in a\nbrand new flight school,"
+    },
+    {
+      "start": 1015.39,
+      "duration": 1.71,
+      "text": "and you don't know\neverybody there,"
+    },
+    {
+      "start": 1017.1,
+      "duration": 4.59,
+      "text": "it's worth at least paying some\nattention to the registration."
+    },
+    {
+      "start": 1021.69,
+      "duration": 4.5,
+      "text": "The AFM/POH, or owner's\nmanual, if you want"
+    },
+    {
+      "start": 1026.19,
+      "duration": 1.44,
+      "text": "to be colloquial about it--"
+    },
+    {
+      "start": 1027.63,
+      "duration": 1.58,
+      "text": "that has to be\nonboard the aircraft."
+    },
+    {
+      "start": 1029.21,
+      "duration": 2.29,
+      "text": "Usually the weight and balance\nis not a separate thing."
+    },
+    {
+      "start": 1031.5,
+      "duration": 3.69,
+      "text": "It's just inside the POH."
+    },
+    {
+      "start": 1035.19,
+      "duration": 2.01,
+      "text": "And you have to also\nreport accidents."
+    },
+    {
+      "start": 1037.2,
+      "duration": 3.1,
+      "text": "We'll talk about that more in\nthe seaplane lecture, [LAUGHS]"
+    },
+    {
+      "start": 1040.3,
+      "duration": 4.25,
+      "text": "since sloppiness in\nthe seaplane tends"
+    },
+    {
+      "start": 1044.55,
+      "duration": 2.73,
+      "text": "to be more likely to\nlead to an accident."
+    },
+    {
+      "start": 1047.28,
+      "duration": 4.53,
+      "text": "All right, so you are\nresponsible for the operation"
+    },
+    {
+      "start": 1051.81,
+      "duration": 1.47,
+      "text": "of the aircraft."
+    },
+    {
+      "start": 1053.28,
+      "duration": 4.17,
+      "text": "And with responsibility comes\nthe authority and ability"
+    },
+    {
+      "start": 1057.45,
+      "duration": 2.07,
+      "text": "to deviate from the\nrules in an emergency."
+    },
+    {
+      "start": 1059.52,
+      "duration": 4.14,
+      "text": "You can just say,\nyou know, Cirrus"
+    },
+    {
+      "start": 1063.66,
+      "duration": 5.88,
+      "text": "707 whiskey tango emergency\nlanding at this nearby Air"
+    },
+    {
+      "start": 1069.54,
+      "duration": 0.9,
+      "text": "Force base."
+    },
+    {
+      "start": 1070.44,
+      "duration": 3.72,
+      "text": "And they can't really\nbust you for that."
+    },
+    {
+      "start": 1074.16,
+      "duration": 2.85,
+      "text": "If later they come\nand say, well, we"
+    },
+    {
+      "start": 1077.01,
+      "duration": 2.46,
+      "text": "want to know why you landed\nat the Air Force base,"
+    },
+    {
+      "start": 1079.47,
+      "duration": 4.63,
+      "text": "then you have to you\nrespond with what"
+    },
+    {
+      "start": 1084.11,
+      "duration": 1.12,
+      "text": "led you to want to do that."
+    },
+    {
+      "start": 1085.23,
+      "duration": 4.44,
+      "text": "But if they don't request you to\ndo that, then there's no need."
+    },
+    {
+      "start": 1092.55,
+      "duration": 2.91,
+      "text": "So basically, you can\njust read the slide."
+    },
+    {
+      "start": 1095.46,
+      "duration": 4.78,
+      "text": "But abort the mission\nif you see something"
+    },
+    {
+      "start": 1100.24,
+      "duration": 2.28,
+      "text": "broken during the pre-flight."
+    },
+    {
+      "start": 1102.52,
+      "duration": 4.04,
+      "text": "All right, here's a standard\nairworthiness certificate"
+    },
+    {
+      "start": 1106.56,
+      "duration": 2.0,
+      "text": "there on the bottom right."
+    },
+    {
+      "start": 1108.56,
+      "duration": 0.98,
+      "text": "When was it issued?"
+    },
+    {
+      "start": 1109.54,
+      "duration": 0.9,
+      "text": "1995."
+    },
+    {
+      "start": 1110.44,
+      "duration": 1.92,
+      "text": "So I think that's when\nthe airplane was built."
+    },
+    {
+      "start": 1112.36,
+      "duration": 3.39,
+      "text": "The airworthiness\ncertificate should tell you"
+    },
+    {
+      "start": 1115.75,
+      "duration": 4.11,
+      "text": "when the manufacturing\nprocess terminated."
+    },
+    {
+      "start": 1119.86,
+      "duration": 1.21,
+      "text": "Start shopping."
+    },
+    {
+      "start": 1121.07,
+      "duration": 2.0,
+      "text": "So if you look at\nController.com,"
+    },
+    {
+      "start": 1123.07,
+      "duration": 4.56,
+      "text": "that's where your\nhigher-end aircraft are."
+    },
+    {
+      "start": 1127.63,
+      "duration": 3.99,
+      "text": "And Trade-a-Plane is\nthat big yellow book"
+    },
+    {
+      "start": 1131.62,
+      "duration": 2.4,
+      "text": "that some of you guys may\nhave seen at flight schools."
+    },
+    {
+      "start": 1136.6,
+      "duration": 4.38,
+      "text": "Barnstormers.com is\nthe homebuilt center."
+    },
+    {
+      "start": 1140.98,
+      "duration": 2.73,
+      "text": "Before we take\nquestions, I'll just"
+    },
+    {
+      "start": 1143.71,
+      "duration": 9.18,
+      "text": "close by telling\nyou all that's fine."
+    },
+    {
+      "start": 1152.89,
+      "duration": 1.21,
+      "text": "But it's not really rational."
+    },
+    {
+      "start": 1156.81,
+      "duration": 4.49,
+      "text": "Having done one aileron roll\nand one loop in my life,"
+    },
+    {
+      "start": 1161.3,
+      "duration": 1.98,
+      "text": "do I need a GameBird?"
+    },
+    {
+      "start": 1163.28,
+      "duration": 1.59,
+      "text": "No."
+    },
+    {
+      "start": 1164.87,
+      "duration": 2.01,
+      "text": "But it's only $400 grand,\nand I want a GameBird."
+    },
+    {
+      "start": 1166.88,
+      "duration": 6.17,
+      "text": "[LAUGHS] And wouldn't it be\ncool to arrive in a GameBird?"
+    },
+    {
+      "start": 1173.06,
+      "duration": 1.12,
+      "text": "Look at that luggage space."
+    },
+    {
+      "start": 1174.18,
+      "duration": 3.77,
+      "text": "You could put in probably three\npacks of crush-proof cigarettes"
+    },
+    {
+      "start": 1177.95,
+      "duration": 10.69,
+      "text": "[LAUGHS] and a\nspare pair of socks,"
+    },
+    {
+      "start": 1188.64,
+      "duration": 2.76,
+      "text": "like Charles Lindbergh\nused to travel with."
+    },
+    {
+      "start": 1191.4,
+      "duration": 2.79,
+      "text": "So anyway, yeah that\nownership stuff--"
+    },
+    {
+      "start": 1194.19,
+      "duration": 4.99,
+      "text": "it's never a rational\ndecision to buy an aircraft"
+    },
+    {
+      "start": 1199.18,
+      "duration": 2.0,
+      "text": "unless you're planning\non dying rich."
+    },
+    {
+      "start": 1201.18,
+      "duration": 0.72,
+      "text": "Why not?"
+    },
+    {
+      "start": 1201.9,
+      "duration": 1.61,
+      "text": "Actually jetAVIVA\nhas this thing."
+    },
+    {
+      "start": 1203.51,
+      "duration": 2.87,
+      "text": "Their whole tagline for\nthis airplane brokerage"
+    },
+    {
+      "start": 1206.38,
+      "duration": 2.37,
+      "text": "is life is short, fly a jet."
+    },
+    {
+      "start": 1208.74,
+      "duration": 2.12,
+      "text": "[LAUGHS]"
+    },
+    {
+      "start": 1210.87,
+      "duration": 2.97,
+      "text": "Does anyone have any exciting\nquestions about maintenance"
+    },
+    {
+      "start": 1213.84,
+      "duration": 2.4,
+      "text": "and your responsibilities\nas a pilot?"
+    },
+    {
+      "start": 1216.23,
+      "duration": 1.62,
+      "text": "OK, there's a little\nbit of interaction"
+    },
+    {
+      "start": 1217.86,
+      "duration": 3.75,
+      "text": "there between the\npilot and the mechanic."
+    },
+    {
+      "start": 1221.61,
+      "duration": 1.62,
+      "text": "You can't practically\ncheck everything."
+    },
+    {
+      "start": 1223.23,
+      "duration": 2.52,
+      "text": "You have to rely\non mechanics, who"
+    },
+    {
+      "start": 1225.75,
+      "duration": 1.72,
+      "text": "are generally quite reliable."
+    },
+    {
+      "start": 1227.47,
+      "duration": 2.75,
+      "text": "And they're FAA-certificated."
+    },
+    {
+      "start": 1230.22,
+      "duration": 1.38,
+      "text": "But you have to\nhave a little bit"
+    },
+    {
+      "start": 1231.6,
+      "duration": 3.93,
+      "text": "of common sense about not\naccepting a broken airplane"
+    },
+    {
+      "start": 1235.53,
+      "duration": 0.92,
+      "text": "or helicopter."
+    },
+    {
+      "start": 1236.44,
+      "duration": 0.62,
+      "text": "Oh, [INAUDIBLE]"
+    },
+    {
+      "start": 1237.07,
+      "duration": 1.88,
+      "text": "AUDIENCE: [INAUDIBLE]\nbuild your own airplane"
+    },
+    {
+      "start": 1238.94,
+      "duration": 4.0,
+      "text": "how [INAUDIBLE] does the process\nof [INAUDIBLE] certification"
+    },
+    {
+      "start": 1242.94,
+      "duration": 0.59,
+      "text": "[INAUDIBLE]"
+    },
+    {
+      "start": 1243.54,
+      "duration": 2.04,
+      "text": "PHILIP GREENSPUN: If you\nbuild your own airplane?"
+    },
+    {
+      "start": 1245.58,
+      "duration": 0.9,
+      "text": "AUDIENCE: Yeah."
+    },
+    {
+      "start": 1246.48,
+      "duration": 3.05,
+      "text": "PHILIP GREENSPUN: My friend\nChristian can answer that."
+    },
+    {
+      "start": 1249.53,
+      "duration": 1.21,
+      "text": "There may be a YouTube video."
+    },
+    {
+      "start": 1250.74,
+      "duration": 4.68,
+      "text": "But anyway, I think\nthe FAA is supposed"
+    },
+    {
+      "start": 1255.42,
+      "duration": 2.66,
+      "text": "to inspect at one or two\npoints during the construction."
+    },
+    {
+      "start": 1258.08,
+      "duration": 1.54,
+      "text": "I'm not 100% sure\nabout that, But I"
+    },
+    {
+      "start": 1259.62,
+      "duration": 3.27,
+      "text": "think that they may come in."
+    },
+    {
+      "start": 1262.89,
+      "duration": 2.16,
+      "text": "More importantly,\nthere is, like,"
+    },
+    {
+      "start": 1265.05,
+      "duration": 2.36,
+      "text": "40 hours of flight testing\nthat has to be done."
+    },
+    {
+      "start": 1267.41,
+      "duration": 1.99,
+      "text": "And you can't go\nover populated areas"
+    },
+    {
+      "start": 1269.4,
+      "duration": 1.71,
+      "text": "during that flight testing."
+    },
+    {
+      "start": 1271.11,
+      "duration": 3.99,
+      "text": "And you get cut loose, I\nthink, after 40 or 50 hours"
+    },
+    {
+      "start": 1275.1,
+      "duration": 1.69,
+      "text": "in the experimental world."
+    },
+    {
+      "start": 1276.79,
+      "duration": 1.38,
+      "text": "It's never been\nattractive to me."
+    },
+    {
+      "start": 1278.16,
+      "duration": 3.43,
+      "text": "I mean, if you talk to the\npeople who do experimentals,"
+    },
+    {
+      "start": 1281.59,
+      "duration": 2.45,
+      "text": "they're really passionate\nabout building and tinkering."
+    },
+    {
+      "start": 1284.04,
+      "duration": 3.51,
+      "text": "They actually have very\nfew hours of flight time"
+    },
+    {
+      "start": 1287.55,
+      "duration": 1.17,
+      "text": "accumulated."
+    },
+    {
+      "start": 1288.72,
+      "duration": 2.28,
+      "text": "And that becomes a problem,\nbecause their pilot--"
+    },
+    {
+      "start": 1291.0,
+      "duration": 2.79,
+      "text": "even if they were a good\npilot when they started,"
+    },
+    {
+      "start": 1293.79,
+      "duration": 4.29,
+      "text": "after spending 13 years\nin a garage building,"
+    },
+    {
+      "start": 1298.08,
+      "duration": 1.5,
+      "text": "their pilot skills\nare pretty rusty."
+    },
+    {
+      "start": 1299.58,
+      "duration": 1.77,
+      "text": "[LAUGHS]"
+    },
+    {
+      "start": 1301.35,
+      "duration": 1.77,
+      "text": "TINA SRIVASTAVA: I\nwould also recommend"
+    },
+    {
+      "start": 1303.12,
+      "duration": 1.84,
+      "text": "that you ask Sebastian."
+    },
+    {
+      "start": 1304.96,
+      "duration": 2.6,
+      "text": "If you guys remember, Sebastian\ncame yesterday afternoon"
+    },
+    {
+      "start": 1307.56,
+      "duration": 1.02,
+      "text": "from the flying club."
+    },
+    {
+      "start": 1308.58,
+      "duration": 1.98,
+      "text": "And he was discussing\nhow they're"
+    },
+    {
+      "start": 1310.56,
+      "duration": 1.8,
+      "text": "getting that plane refurbished."
+    },
+    {
+      "start": 1312.36,
+      "duration": 1.88,
+      "text": "He had a picture with\nthe wing not attached,"
+    },
+    {
+      "start": 1314.24,
+      "duration": 1.87,
+      "text": "and now the wing is attached."
+    },
+    {
+      "start": 1316.11,
+      "duration": 2.49,
+      "text": "So I believe that he's going\nthrough that airworthiness"
+    },
+    {
+      "start": 1318.6,
+      "duration": 1.33,
+      "text": "process right now."
+    },
+    {
+      "start": 1319.93,
+      "duration": 2.02,
+      "text": "So definitely recommend\nyou talk to Sebastian."
+    },
+    {
+      "start": 1321.95,
+      "duration": 1.54,
+      "text": "And then the other\nthing I would just"
+    },
+    {
+      "start": 1323.49,
+      "duration": 2.34,
+      "text": "add to aircraft\nownership in general"
+    },
+    {
+      "start": 1325.83,
+      "duration": 3.36,
+      "text": "is that there are also a lot of\nopportunities where there are--"
+    },
+    {
+      "start": 1329.19,
+      "duration": 2.82,
+      "text": "basically, you can become\npart of a group that"
+    },
+    {
+      "start": 1332.01,
+      "duration": 2.1,
+      "text": "partially owns an airplane."
+    },
+    {
+      "start": 1334.11,
+      "duration": 3.0,
+      "text": "So there's a bunch\nof clubs around here"
+    },
+    {
+      "start": 1337.11,
+      "duration": 2.88,
+      "text": "where, for example, there\nare three planes that"
+    },
+    {
+      "start": 1339.99,
+      "duration": 2.64,
+      "text": "are owned by 60 people."
+    },
+    {
+      "start": 1342.63,
+      "duration": 3.21,
+      "text": "And so you kind of\ntimeshare those planes."
+    },
+    {
+      "start": 1345.84,
+      "duration": 3.03,
+      "text": "And a number of the other\ninstructors of this course"
+    },
+    {
+      "start": 1348.87,
+      "duration": 1.03,
+      "text": "have done that."
+    },
+    {
+      "start": 1349.9,
+      "duration": 4.5,
+      "text": "So you might have heard Luke\nor Marissa talk about that."
+    },
+    {
+      "start": 1354.4,
+      "duration": 2.18,
+      "text": "And so they have some\nplanes, for example,"
+    },
+    {
+      "start": 1356.58,
+      "duration": 1.71,
+      "text": "in Beverly, where\nthere are three planes,"
+    },
+    {
+      "start": 1358.29,
+      "duration": 1.23,
+      "text": "and a bunch of people own it."
+    },
+    {
+      "start": 1359.52,
+      "duration": 2.58,
+      "text": "And so you can\ntimeshare the plane,"
+    },
+    {
+      "start": 1362.1,
+      "duration": 3.51,
+      "text": "and they have to be very\nmindful about these types"
+    },
+    {
+      "start": 1365.61,
+      "duration": 1.93,
+      "text": "of maintenance aspects, as well."
+    },
+    {
+      "start": 1367.54,
+      "duration": 4.73,
+      "text": "So it's kind of an in-between\ncost of renting versus owning"
+    },
+    {
+      "start": 1372.27,
+      "duration": 1.85,
+      "text": "your own airplane by yourself."
+    },
+    {
+      "start": 1374.12,
+      "duration": 2.71,
+      "text": "PHILIP GREENSPUN: Yeah,\nand if you want to--"
+    },
+    {
+      "start": 1376.83,
+      "duration": 1.83,
+      "text": "the Experimental\nAircraft Association,"
+    },
+    {
+      "start": 1378.66,
+      "duration": 2.57,
+      "text": "which runs Oshkosh, they\nhave chapter meetings"
+    },
+    {
+      "start": 1381.23,
+      "duration": 1.42,
+      "text": "all over the country\nall the time."
+    },
+    {
+      "start": 1382.65,
+      "duration": 3.75,
+      "text": "They're kind of the most social\nfolks in the aviation world."
+    },
+    {
+      "start": 1386.4,
+      "duration": 3.3,
+      "text": "So if you want to find out what\nit's like to build your own kit"
+    },
+    {
+      "start": 1389.7,
+      "duration": 2.31,
+      "text": "airplane or design your\nown airplane from scratch,"
+    },
+    {
+      "start": 1392.01,
+      "duration": 1.58,
+      "text": "those people will\nbe happy to hang out"
+    },
+    {
+      "start": 1393.59,
+      "duration": 4.54,
+      "text": "with you, at least every\nmonth, all over the country--"
+    },
+    {
+      "start": 1398.13,
+      "duration": 1.55,
+      "text": "EAA."
+    }
+  ]
+}

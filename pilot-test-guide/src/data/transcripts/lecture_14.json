@@ -1,0 +1,5017 @@
+{
+  "videoId": "RSuztJUlgOM",
+  "lectureNum": 14,
+  "title": "Human Factors",
+  "topics": [
+    "human factors",
+    "aeronautical decision making",
+    "ADM",
+    "CRM",
+    "fatigue",
+    "stress",
+    "IMSAFE",
+    " hazardous attitudes"
+  ],
+  "segments": [
+    {
+      "start": 15.92,
+      "duration": 2.46,
+      "text": "TINA SRIVASTAVA: So we're going\nto dive into human factors."
+    },
+    {
+      "start": 18.38,
+      "duration": 1.46,
+      "text": "There are kind of\ntwo halves to it."
+    },
+    {
+      "start": 19.84,
+      "duration": 2.11,
+      "text": "So about halfway through\nwe'll take a break."
+    },
+    {
+      "start": 21.95,
+      "duration": 1.58,
+      "text": "But let's just do\nthe first half of it"
+    },
+    {
+      "start": 23.53,
+      "duration": 3.92,
+      "text": "now, because I don't want to\nrun over into Mark's upcoming"
+    },
+    {
+      "start": 27.45,
+      "duration": 2.63,
+      "text": "talk at 4:00."
+    },
+    {
+      "start": 30.08,
+      "duration": 2.07,
+      "text": "So human factors\nis something that's"
+    },
+    {
+      "start": 32.15,
+      "duration": 1.5,
+      "text": "kind of near and dear to me."
+    },
+    {
+      "start": 33.66,
+      "duration": 1.71,
+      "text": "I actually really\nlike this subject."
+    },
+    {
+      "start": 35.36,
+      "duration": 3.39,
+      "text": "When I was an undergrad,\nI took the course 16.400."
+    },
+    {
+      "start": 38.75,
+      "duration": 1.98,
+      "text": "I really strongly recommend it."
+    },
+    {
+      "start": 40.73,
+      "duration": 2.33,
+      "text": "We can only cover a\nvery small amount today."
+    },
+    {
+      "start": 43.06,
+      "duration": 1.42,
+      "text": "You know, I have\nless than an hour"
+    },
+    {
+      "start": 44.48,
+      "duration": 2.1,
+      "text": "to get through all\nof this for you."
+    },
+    {
+      "start": 46.58,
+      "duration": 2.28,
+      "text": "But I think it's really\nan interesting class,"
+    },
+    {
+      "start": 48.86,
+      "duration": 2.61,
+      "text": "and it's very pertinent\nto everything related"
+    },
+    {
+      "start": 51.47,
+      "duration": 2.52,
+      "text": "to aircraft and aerodynamics."
+    },
+    {
+      "start": 53.99,
+      "duration": 4.41,
+      "text": "And this class 16.400 was\none of my favorite classes."
+    },
+    {
+      "start": 58.4,
+      "duration": 2.12,
+      "text": "Still today, I refer back to it."
+    },
+    {
+      "start": 60.52,
+      "duration": 1.54,
+      "text": "And one of the things\nwe did was also"
+    },
+    {
+      "start": 62.06,
+      "duration": 2.42,
+      "text": "go through different\nNTSB reports."
+    },
+    {
+      "start": 64.48,
+      "duration": 3.67,
+      "text": "So I gave a link there as well."
+    },
+    {
+      "start": 68.15,
+      "duration": 3.12,
+      "text": "And you can read through\naccident investigations."
+    },
+    {
+      "start": 71.27,
+      "duration": 1.46,
+      "text": "And not all of them are scary."
+    },
+    {
+      "start": 72.73,
+      "duration": 3.25,
+      "text": "You know, many of these reports,\nnobody actually got injured."
+    },
+    {
+      "start": 75.98,
+      "duration": 2.67,
+      "text": "But it's good to just read\nthrough what happened."
+    },
+    {
+      "start": 78.65,
+      "duration": 1.32,
+      "text": "What was the decision making?"
+    },
+    {
+      "start": 79.97,
+      "duration": 2.16,
+      "text": "What led to the issue?"
+    },
+    {
+      "start": 82.13,
+      "duration": 2.88,
+      "text": "It's a really\ninteresting exercise."
+    },
+    {
+      "start": 85.01,
+      "duration": 4.68,
+      "text": "And one thing in particular that\nwe did in that course, 16.400,"
+    },
+    {
+      "start": 89.69,
+      "duration": 3.99,
+      "text": "was really interesting is that\nthey have you be on basically"
+    },
+    {
+      "start": 93.68,
+      "duration": 0.79,
+      "text": "a flight simulator."
+    },
+    {
+      "start": 94.47,
+      "duration": 1.94,
+      "text": "So you're pretending\nto be a pilot."
+    },
+    {
+      "start": 96.41,
+      "duration": 1.64,
+      "text": "And then there's\nall kinds of inputs"
+    },
+    {
+      "start": 98.05,
+      "duration": 1.54,
+      "text": "coming into you,\nwhich is really what"
+    },
+    {
+      "start": 99.59,
+      "duration": 2.54,
+      "text": "you're going to experience in\nthe cockpit when you're flying."
+    },
+    {
+      "start": 102.13,
+      "duration": 2.33,
+      "text": "You know, you've got people\ntalking to you on the radio."
+    },
+    {
+      "start": 104.46,
+      "duration": 1.94,
+      "text": "You have your passengers\ninside the plane."
+    },
+    {
+      "start": 106.4,
+      "duration": 2.4,
+      "text": "You have all kinds of inputs\ncoming up on the screen."
+    },
+    {
+      "start": 108.8,
+      "duration": 1.8,
+      "text": "You're looking for\nother aircraft."
+    },
+    {
+      "start": 110.6,
+      "duration": 1.56,
+      "text": "You're trying to\nidentify an airport"
+    },
+    {
+      "start": 112.16,
+      "duration": 1.17,
+      "text": "that you're coming up on."
+    },
+    {
+      "start": 113.33,
+      "duration": 2.83,
+      "text": "There's a lot happening,\na lot of information."
+    },
+    {
+      "start": 116.16,
+      "duration": 4.13,
+      "text": "And then we had to basically\ntalk about if a light went out,"
+    },
+    {
+      "start": 120.29,
+      "duration": 3.78,
+      "text": "the absence of a light, trying\nto expect a pilot to identify"
+    },
+    {
+      "start": 124.07,
+      "duration": 2.84,
+      "text": "that is totally unreasonable."
+    },
+    {
+      "start": 126.91,
+      "duration": 1.21,
+      "text": "So it was really interesting."
+    },
+    {
+      "start": 128.12,
+      "duration": 3.39,
+      "text": "And taking this course as\nan aerospace engineering"
+    },
+    {
+      "start": 131.51,
+      "duration": 2.88,
+      "text": "student at MIT\nthe lesson was you"
+    },
+    {
+      "start": 134.39,
+      "duration": 2.97,
+      "text": "need to design these\nthings to be better,"
+    },
+    {
+      "start": 137.36,
+      "duration": 3.96,
+      "text": "because if you engineered\nthis system such that somebody"
+    },
+    {
+      "start": 141.32,
+      "duration": 2.48,
+      "text": "under that much stress and\nlooking at those many inputs"
+    },
+    {
+      "start": 143.8,
+      "duration": 1.75,
+      "text": "were supposed to notice\na light going out,"
+    },
+    {
+      "start": 145.55,
+      "duration": 1.77,
+      "text": "that's totally unreasonable."
+    },
+    {
+      "start": 147.32,
+      "duration": 3.75,
+      "text": "Now, on the other hand,\ntalking about a pilot,"
+    },
+    {
+      "start": 151.07,
+      "duration": 2.94,
+      "text": "we will talk a little\nbit about how many inputs"
+    },
+    {
+      "start": 154.01,
+      "duration": 3.21,
+      "text": "are on a person with a\npilot, how a lot of things"
+    },
+    {
+      "start": 157.22,
+      "duration": 1.59,
+      "text": "are attributed to pilot error."
+    },
+    {
+      "start": 158.81,
+      "duration": 2.25,
+      "text": "The whole purpose of this\ncourse and the whole purpose"
+    },
+    {
+      "start": 161.06,
+      "duration": 4.05,
+      "text": "of learning to fly is how you\ncan minimize the pilot error"
+    },
+    {
+      "start": 165.11,
+      "duration": 2.58,
+      "text": "aspect, not the\nengineering design aspect."
+    },
+    {
+      "start": 167.69,
+      "duration": 2.79,
+      "text": "But certainly, it's good\nto experience both sides,"
+    },
+    {
+      "start": 170.48,
+      "duration": 1.89,
+      "text": "designing the aircraft\nand the avionics,"
+    },
+    {
+      "start": 172.37,
+      "duration": 2.94,
+      "text": "as well as flying the aircraft."
+    },
+    {
+      "start": 175.31,
+      "duration": 2.38,
+      "text": "So one thing I really want to\npoint out-- it's little bit"
+    },
+    {
+      "start": 177.69,
+      "duration": 2.55,
+      "text": "morbid, but I just want\nto talk about accidents"
+    },
+    {
+      "start": 180.24,
+      "duration": 1.35,
+      "text": "and what causes them."
+    },
+    {
+      "start": 181.59,
+      "duration": 3.63,
+      "text": "Well, a very large\nnumber of accidents"
+    },
+    {
+      "start": 185.22,
+      "duration": 4.23,
+      "text": "are what's called controlled\nflight into terrain."
+    },
+    {
+      "start": 189.45,
+      "duration": 2.64,
+      "text": "Does anyone know what controlled\nflight into terrain means?"
+    },
+    {
+      "start": 195.05,
+      "duration": 3.46,
+      "text": "AUDIENCE: There's no instrument\nerror or adverse weather,"
+    },
+    {
+      "start": 198.51,
+      "duration": 3.49,
+      "text": "but mostly human error\nthat would be playing"
+    },
+    {
+      "start": 202.0,
+      "duration": 1.69,
+      "text": "into [INAUDIBLE] something."
+    },
+    {
+      "start": 203.69,
+      "duration": 1.58,
+      "text": "TINA SRIVASTAVA:\nYeah, so what he said"
+    },
+    {
+      "start": 205.27,
+      "duration": 4.47,
+      "text": "was that there's no instrument\nerror and it's pilot error."
+    },
+    {
+      "start": 209.74,
+      "duration": 2.5,
+      "text": "So it's not necessarily that\nit means that it's pilot error."
+    },
+    {
+      "start": 212.24,
+      "duration": 2.12,
+      "text": "But what it's saying is that\nthere's nothing physically"
+    },
+    {
+      "start": 214.36,
+      "duration": 1.0,
+      "text": "wrong with the aircraft."
+    },
+    {
+      "start": 215.36,
+      "duration": 2.3,
+      "text": "So it's not that\nthe engine broke."
+    },
+    {
+      "start": 217.66,
+      "duration": 1.71,
+      "text": "It's not like the case\nwith Captain Sully"
+    },
+    {
+      "start": 219.37,
+      "duration": 2.74,
+      "text": "where birds were\ningested into the engines"
+    },
+    {
+      "start": 222.11,
+      "duration": 1.68,
+      "text": "and the engine stopped working."
+    },
+    {
+      "start": 223.79,
+      "duration": 3.23,
+      "text": "But it is the case that a\nfully functional aircraft"
+    },
+    {
+      "start": 227.02,
+      "duration": 3.81,
+      "text": "was flown into terrain, into a\nmountain, or into the ground."
+    },
+    {
+      "start": 230.83,
+      "duration": 1.38,
+      "text": "So why does that happen?"
+    },
+    {
+      "start": 236.65,
+      "duration": 3.41,
+      "text": "So as we just heard,\nit's the pilot's fault"
+    },
+    {
+      "start": 240.06,
+      "duration": 3.09,
+      "text": "is one of the most\ncommon answers."
+    },
+    {
+      "start": 243.15,
+      "duration": 2.1,
+      "text": "They attribute things\nto pilot error."
+    },
+    {
+      "start": 245.25,
+      "duration": 2.52,
+      "text": "And the NTSB does this a lot."
+    },
+    {
+      "start": 247.77,
+      "duration": 2.52,
+      "text": "If you watch the movie\nabout Captain Sully,"
+    },
+    {
+      "start": 250.29,
+      "duration": 2.94,
+      "text": "it made it seem like the NTSB\nwas out to get him as well."
+    },
+    {
+      "start": 253.23,
+      "duration": 2.19,
+      "text": "I've heard the reality is\nthat they were much more"
+    },
+    {
+      "start": 255.42,
+      "duration": 1.71,
+      "text": "friendly towards him."
+    },
+    {
+      "start": 257.13,
+      "duration": 3.39,
+      "text": "But the situation is that\nthat's kind of a natural thing"
+    },
+    {
+      "start": 260.52,
+      "duration": 1.92,
+      "text": "that they have to explore."
+    },
+    {
+      "start": 262.44,
+      "duration": 2.07,
+      "text": "They ultimately found\nthat he wasn't at fault,"
+    },
+    {
+      "start": 264.51,
+      "duration": 4.78,
+      "text": "but that becomes a big issue."
+    },
+    {
+      "start": 269.29,
+      "duration": 3.06,
+      "text": "So I don't think that it's\nalways the case, again,"
+    },
+    {
+      "start": 272.35,
+      "duration": 1.36,
+      "text": "that it's pilot error."
+    },
+    {
+      "start": 273.71,
+      "duration": 2.91,
+      "text": "Please take 16.400\nand look into that."
+    },
+    {
+      "start": 276.62,
+      "duration": 3.5,
+      "text": "But for the purposes of this\nclass, for being a pilot,"
+    },
+    {
+      "start": 280.12,
+      "duration": 1.8,
+      "text": "you need to be aware\nof all the things"
+    },
+    {
+      "start": 281.92,
+      "duration": 1.17,
+      "text": "that are under your control."
+    },
+    {
+      "start": 283.09,
+      "duration": 2.0,
+      "text": "How do you get a really\ngood weather briefing?"
+    },
+    {
+      "start": 285.09,
+      "duration": 1.54,
+      "text": "How do you make sure\nyou're prepared,"
+    },
+    {
+      "start": 286.63,
+      "duration": 4.59,
+      "text": "so that it is not your fault and\nyou don't have any accidents?"
+    },
+    {
+      "start": 291.22,
+      "duration": 3.21,
+      "text": "So just to get you in the\nzone for the types of things"
+    },
+    {
+      "start": 294.43,
+      "duration": 3.42,
+      "text": "we're going to discuss today,\nhere's a practice question."
+    },
+    {
+      "start": 297.85,
+      "duration": 1.97,
+      "text": "I just want to see where\npeople are on this."
+    },
+    {
+      "start": 299.82,
+      "duration": 1.75,
+      "text": "I know I haven't taught\nit yet, but I just"
+    },
+    {
+      "start": 301.57,
+      "duration": 2.25,
+      "text": "want to know what you\nthink the answer is"
+    },
+    {
+      "start": 303.82,
+      "duration": 2.4,
+      "text": "so I know how much time\nto spend on these topics"
+    },
+    {
+      "start": 306.22,
+      "duration": 2.23,
+      "text": "in the next couple slides."
+    },
+    {
+      "start": 308.45,
+      "duration": 1.42,
+      "text": "I'll give you a\nchance to read it."
+    },
+    {
+      "start": 325.87,
+      "duration": 1.78,
+      "text": "OK, so how many\npeople think it's A?"
+    },
+    {
+      "start": 330.89,
+      "duration": 2.2,
+      "text": "All right, how many\npeople think it's B?"
+    },
+    {
+      "start": 336.1,
+      "duration": 4.3,
+      "text": "We had movement on B, but nobody\nfully raised the arm on B."
+    },
+    {
+      "start": 340.4,
+      "duration": 2.68,
+      "text": "All right, C?"
+    },
+    {
+      "start": 343.08,
+      "duration": 5.77,
+      "text": "Lot of hands raised on C.\nAll right, how about D?"
+    },
+    {
+      "start": 348.85,
+      "duration": 1.75,
+      "text": "Now that everybody\nraise their hands on C,"
+    },
+    {
+      "start": 350.6,
+      "duration": 3.09,
+      "text": "almost no one wants\nto admit D. All right,"
+    },
+    {
+      "start": 353.69,
+      "duration": 3.7,
+      "text": "so it is, in fact,\nspatial disorientation."
+    },
+    {
+      "start": 357.39,
+      "duration": 3.42,
+      "text": "So we're going to talk about the\nfirst half aeromedical factors."
+    },
+    {
+      "start": 360.81,
+      "duration": 1.2,
+      "text": "And then we'll take a break."
+    },
+    {
+      "start": 362.01,
+      "duration": 3.15,
+      "text": "And then we'll get into the\naeronautical decision-making."
+    },
+    {
+      "start": 365.16,
+      "duration": 2.7,
+      "text": "All right, so\naeromedical factors,"
+    },
+    {
+      "start": 367.86,
+      "duration": 1.95,
+      "text": "so Philip has already\ntalked about some"
+    },
+    {
+      "start": 369.81,
+      "duration": 1.89,
+      "text": "of the regulations\nassociated with getting"
+    },
+    {
+      "start": 371.7,
+      "duration": 4.8,
+      "text": "your medical certificate and\nhaving an EMT or an aviation"
+    },
+    {
+      "start": 376.5,
+      "duration": 4.33,
+      "text": "medical examiner\nbasically check you out."
+    },
+    {
+      "start": 380.83,
+      "duration": 3.98,
+      "text": "So there are a lot of\nphysiological factors"
+    },
+    {
+      "start": 384.81,
+      "duration": 1.53,
+      "text": "that can affect a pilot."
+    },
+    {
+      "start": 386.34,
+      "duration": 3.3,
+      "text": "And some of those you know are\nunrelated to that medical exam"
+    },
+    {
+      "start": 389.64,
+      "duration": 2.27,
+      "text": "that can happen to any of us."
+    },
+    {
+      "start": 391.91,
+      "duration": 3.87,
+      "text": "So we're going to go through\nthe ones that are listed here."
+    },
+    {
+      "start": 395.78,
+      "duration": 4.22,
+      "text": "So hypoxia, it\nbasically is related"
+    },
+    {
+      "start": 400.0,
+      "duration": 3.36,
+      "text": "to not having enough\noxygen, or having a reduced"
+    },
+    {
+      "start": 403.36,
+      "duration": 2.43,
+      "text": "amount of oxygen.\nAnd there are a lot"
+    },
+    {
+      "start": 405.79,
+      "duration": 1.74,
+      "text": "of different types of hypoxia."
+    },
+    {
+      "start": 407.53,
+      "duration": 2.64,
+      "text": "And it results in a\nlot of disorientation."
+    },
+    {
+      "start": 410.17,
+      "duration": 2.43,
+      "text": "A lot of things that you\nwould be able to do normally,"
+    },
+    {
+      "start": 412.6,
+      "duration": 2.89,
+      "text": "you won't be able to do in\nthose types of conditions."
+    },
+    {
+      "start": 415.49,
+      "duration": 3.53,
+      "text": "So impaired judgment, visual\nimpairment drowsiness,"
+    },
+    {
+      "start": 419.02,
+      "duration": 6.61,
+      "text": "a lot of issues can happen if\nyou're under that situation."
+    },
+    {
+      "start": 425.63,
+      "duration": 2.14,
+      "text": "So let's see if we've\ngot this video going."
+    },
+    {
+      "start": 427.77,
+      "duration": 0.67,
+      "text": "[VIDEO PLAYBACK]"
+    },
+    {
+      "start": 428.44,
+      "duration": 1.71,
+      "text": "- And as you feel your\nsymptoms, go ahead"
+    },
+    {
+      "start": 430.15,
+      "duration": 1.29,
+      "text": "and list what they are."
+    },
+    {
+      "start": 431.43,
+      "duration": 2.0,
+      "text": "- Six of spades."
+    },
+    {
+      "start": 433.43,
+      "duration": 1.5,
+      "text": "Six of spades."
+    },
+    {
+      "start": 434.93,
+      "duration": 2.19,
+      "text": "No symptoms yet."
+    },
+    {
+      "start": 437.12,
+      "duration": 1.75,
+      "text": "TINA SRIVASTAVA: He's\ntaking off his mask."
+    },
+    {
+      "start": 438.87,
+      "duration": 1.47,
+      "text": "So he doesn't have the oxygen."
+    },
+    {
+      "start": 440.34,
+      "duration": 3.98,
+      "text": "- Two of hearts."
+    },
+    {
+      "start": 444.32,
+      "duration": 7.46,
+      "text": "- Do you have any\nof air [INAUDIBLE]"
+    },
+    {
+      "start": 451.77,
+      "duration": 4.76,
+      "text": "- I think I have tinkling in\nmy toes, in my toes, in my..."
+    },
+    {
+      "start": 456.53,
+      "duration": 3.19,
+      "text": "- What was the last question?"
+    },
+    {
+      "start": 459.72,
+      "duration": 1.99,
+      "text": "- What was the last card?"
+    },
+    {
+      "start": 466.68,
+      "duration": 1.76,
+      "text": "- Four of spades."
+    },
+    {
+      "start": 468.44,
+      "duration": 1.79,
+      "text": "Tingling in the toes right now."
+    },
+    {
+      "start": 470.23,
+      "duration": 6.37,
+      "text": "- [INAUDIBLE]"
+    },
+    {
+      "start": 476.6,
+      "duration": 2.12,
+      "text": "TINA SRIVASTAVA: So if you\nheard what he just said,"
+    },
+    {
+      "start": 478.72,
+      "duration": 3.54,
+      "text": "he's feeling tinkling in his\ntoes, tingling in his toes."
+    },
+    {
+      "start": 487.04,
+      "duration": 1.92,
+      "text": "- Four of spades."
+    },
+    {
+      "start": 488.96,
+      "duration": 2.29,
+      "text": "- What are you symptoms."
+    },
+    {
+      "start": 491.25,
+      "duration": 1.47,
+      "text": "- Four-- Four of spades."
+    },
+    {
+      "start": 492.72,
+      "duration": 1.33,
+      "text": "Four of spades."
+    },
+    {
+      "start": 496.76,
+      "duration": 1.73,
+      "text": "- What are your symptoms?"
+    },
+    {
+      "start": 504.93,
+      "duration": 3.09,
+      "text": "- What are you\nfeeling right now, 14?"
+    },
+    {
+      "start": 508.02,
+      "duration": 2.01,
+      "text": "- Five of spades,\nfive of spades."
+    },
+    {
+      "start": 510.03,
+      "duration": 0.56,
+      "text": "- Good."
+    },
+    {
+      "start": 510.59,
+      "duration": 2.24,
+      "text": "[INAUDIBLE]"
+    },
+    {
+      "start": 512.83,
+      "duration": 1.27,
+      "text": "- What do you feel, Sir?"
+    },
+    {
+      "start": 517.18,
+      "duration": 0.71,
+      "text": "- Four of spades."
+    },
+    {
+      "start": 517.89,
+      "duration": 1.24,
+      "text": "Four of spades."
+    },
+    {
+      "start": 522.45,
+      "duration": 2.86,
+      "text": "- What's your symptoms, sir?"
+    },
+    {
+      "start": 525.31,
+      "duration": 2.3,
+      "text": "- What are you feeling, 14?"
+    },
+    {
+      "start": 527.61,
+      "duration": 3.84,
+      "text": "- Four-- four of\nspades, four of spades."
+    },
+    {
+      "start": 531.45,
+      "duration": 3.16,
+      "text": "- What's your symptoms, sir?"
+    },
+    {
+      "start": 534.61,
+      "duration": 1.87,
+      "text": "- Four of spades, four\nof spades right now."
+    },
+    {
+      "start": 539.96,
+      "duration": 2.98,
+      "text": "- Where did you get the\ncard that you're looking at."
+    },
+    {
+      "start": 549.4,
+      "duration": 1.99,
+      "text": "What card is that?"
+    },
+    {
+      "start": 551.39,
+      "duration": 2.48,
+      "text": "- This is four of spades."
+    },
+    {
+      "start": 553.88,
+      "duration": 1.99,
+      "text": "- [INAUDIBLE]"
+    },
+    {
+      "start": 555.86,
+      "duration": 1.91,
+      "text": "- Four of spades,\nfour of spades."
+    },
+    {
+      "start": 557.78,
+      "duration": 0.58,
+      "text": "[END PLAYBACK]"
+    },
+    {
+      "start": 558.36,
+      "duration": 2.57,
+      "text": "TINA SRIVASTAVA: I'll let\nyou watch the whole thing."
+    },
+    {
+      "start": 560.93,
+      "duration": 1.81,
+      "text": "It basically just\ngets a lot worse."
+    },
+    {
+      "start": 562.74,
+      "duration": 1.62,
+      "text": "But you can see--"
+    },
+    {
+      "start": 564.36,
+      "duration": 2.4,
+      "text": "and one of the biggest\nproblems is also maybe"
+    },
+    {
+      "start": 566.76,
+      "duration": 2.77,
+      "text": "not being able to realize\nthat there is a problem."
+    },
+    {
+      "start": 569.53,
+      "duration": 4.76,
+      "text": "So that's what makes it\neven more of an issue."
+    },
+    {
+      "start": 574.29,
+      "duration": 2.94,
+      "text": "Another issue is carbon\nmonoxide poisoning."
+    },
+    {
+      "start": 577.23,
+      "duration": 3.51,
+      "text": "So this can actually\nhappen in the aircraft"
+    },
+    {
+      "start": 580.74,
+      "duration": 4.11,
+      "text": "that you fly just based on\nwhere the heat comes in."
+    },
+    {
+      "start": 584.85,
+      "duration": 3.81,
+      "text": "And you get\nheadache, drowsiness,"
+    },
+    {
+      "start": 588.66,
+      "duration": 2.05,
+      "text": "a lot of issues\nthere, blurred vision."
+    },
+    {
+      "start": 590.71,
+      "duration": 1.4,
+      "text": "The way to detect\nthat is there's"
+    },
+    {
+      "start": 592.11,
+      "duration": 4.98,
+      "text": "actually a CO detector, a\ncarbon monoxide detector,"
+    },
+    {
+      "start": 597.09,
+      "duration": 1.39,
+      "text": "inside the aircraft."
+    },
+    {
+      "start": 598.48,
+      "duration": 3.56,
+      "text": "And so when that middle\npart becomes very dark,"
+    },
+    {
+      "start": 602.04,
+      "duration": 3.55,
+      "text": "then you'll know that\nthere's an issue."
+    },
+    {
+      "start": 605.59,
+      "duration": 2.66,
+      "text": "And so it's good to know\nwhat the symptoms are."
+    },
+    {
+      "start": 608.25,
+      "duration": 3.33,
+      "text": "So if you're starting to\nexperience those symptoms,"
+    },
+    {
+      "start": 611.58,
+      "duration": 1.72,
+      "text": "you know what the problem is."
+    },
+    {
+      "start": 613.3,
+      "duration": 2.87,
+      "text": "And you can, for\nexample, open your window"
+    },
+    {
+      "start": 616.17,
+      "duration": 3.12,
+      "text": "to get some fresh air\ninto the aircraft."
+    },
+    {
+      "start": 619.29,
+      "duration": 3.66,
+      "text": "Some aircraft, even\ncertain Cirruses"
+    },
+    {
+      "start": 622.95,
+      "duration": 3.67,
+      "text": "have supplemental oxygen. So\nyou can use that as an option"
+    },
+    {
+      "start": 626.62,
+      "duration": 0.5,
+      "text": "as well."
+    },
+    {
+      "start": 631.85,
+      "duration": 1.68,
+      "text": "There's another video."
+    },
+    {
+      "start": 633.53,
+      "duration": 1.92,
+      "text": "Just for time, I'm not\ngoing to go through it."
+    },
+    {
+      "start": 635.45,
+      "duration": 3.88,
+      "text": "But there's a lot of issues\nassociated with high G-force."
+    },
+    {
+      "start": 639.33,
+      "duration": 4.77,
+      "text": "And you might have seen some\nthings with the Top Gun, which"
+    },
+    {
+      "start": 644.1,
+      "duration": 2.84,
+      "text": "we heard from Laz is a\nterrible representation."
+    },
+    {
+      "start": 646.94,
+      "duration": 1.42,
+      "text": "But even on that\none, when they're"
+    },
+    {
+      "start": 648.36,
+      "duration": 3.51,
+      "text": "pulling high-G maneuvers, we've\nseen loss of consciousness"
+    },
+    {
+      "start": 651.87,
+      "duration": 2.31,
+      "text": "and other issues."
+    },
+    {
+      "start": 654.18,
+      "duration": 2.25,
+      "text": "Another one that you might\nhave actually heard of this"
+    },
+    {
+      "start": 656.43,
+      "duration": 2.04,
+      "text": "before is hyperventilation."
+    },
+    {
+      "start": 658.47,
+      "duration": 3.79,
+      "text": "Some people here on the\nground experience this."
+    },
+    {
+      "start": 662.26,
+      "duration": 4.22,
+      "text": "And so you might just be over\nanxious, breathing too quickly."
+    },
+    {
+      "start": 666.48,
+      "duration": 2.25,
+      "text": "It makes you not be able\nto breathe properly."
+    },
+    {
+      "start": 668.73,
+      "duration": 1.83,
+      "text": "You might need to just\nsort of take a break,"
+    },
+    {
+      "start": 670.56,
+      "duration": 1.38,
+      "text": "breathe into a bag."
+    },
+    {
+      "start": 671.94,
+      "duration": 5.25,
+      "text": "Another good reason to\nhave a co-pilot with you."
+    },
+    {
+      "start": 677.19,
+      "duration": 3.81,
+      "text": "So a lot of the issues in terms\nof the disorientation that you"
+    },
+    {
+      "start": 681.0,
+      "duration": 4.15,
+      "text": "face are somehow related to\nhow your inner ear works."
+    },
+    {
+      "start": 685.15,
+      "duration": 2.93,
+      "text": "So the fluid in your inner\near is sort of related"
+    },
+    {
+      "start": 688.08,
+      "duration": 4.62,
+      "text": "to how you feel motion."
+    },
+    {
+      "start": 692.7,
+      "duration": 2.01,
+      "text": "So I won't get into the details."
+    },
+    {
+      "start": 694.71,
+      "duration": 4.51,
+      "text": "You don't actually have to\nknow a ton of detail about it."
+    },
+    {
+      "start": 699.22,
+      "duration": 5.09,
+      "text": "But one thing to know in\nterms of how you feel motion"
+    },
+    {
+      "start": 704.31,
+      "duration": 5.22,
+      "text": "is that you have fluid\nmoving in your ear canal."
+    },
+    {
+      "start": 709.53,
+      "duration": 2.23,
+      "text": "You can't actually\nreally detect the fluid."
+    },
+    {
+      "start": 711.76,
+      "duration": 5.13,
+      "text": "What happens is you have these\nlittle hairs that come up."
+    },
+    {
+      "start": 716.89,
+      "duration": 4.43,
+      "text": "And so when the fluid\nchanges direction--"
+    },
+    {
+      "start": 721.32,
+      "duration": 2.37,
+      "text": "so let's say that the\nfluid starts moving"
+    },
+    {
+      "start": 723.69,
+      "duration": 1.95,
+      "text": "in a particular direction."
+    },
+    {
+      "start": 725.64,
+      "duration": 5.89,
+      "text": "Then all these hair\npieces start moving,"
+    },
+    {
+      "start": 731.53,
+      "duration": 2.98,
+      "text": "and so you feel that motion."
+    },
+    {
+      "start": 734.51,
+      "duration": 4.64,
+      "text": "Now, the fluid can continue\nto move in that direction."
+    },
+    {
+      "start": 739.15,
+      "duration": 6.39,
+      "text": "But over time,\nthe hair follicles"
+    },
+    {
+      "start": 745.54,
+      "duration": 3.09,
+      "text": "will basically resume\nwhere they are."
+    },
+    {
+      "start": 748.63,
+      "duration": 3.06,
+      "text": "They won't feel\nmotion occurring."
+    },
+    {
+      "start": 751.69,
+      "duration": 2.83,
+      "text": "Or they'll basically\nbe stagnant."
+    },
+    {
+      "start": 754.52,
+      "duration": 2.19,
+      "text": "So it could be the case\nthat the fluid is moving,"
+    },
+    {
+      "start": 756.71,
+      "duration": 3.68,
+      "text": "and the hair is\nsitting like this."
+    },
+    {
+      "start": 760.39,
+      "duration": 8.67,
+      "text": "Now, all of a sudden, when\nthe fluid stops moving,"
+    },
+    {
+      "start": 769.06,
+      "duration": 5.37,
+      "text": "the hair tries to just\nreturn to its previous state."
+    },
+    {
+      "start": 774.43,
+      "duration": 2.25,
+      "text": "And when that happens,\nyou might actually"
+    },
+    {
+      "start": 776.68,
+      "duration": 4.51,
+      "text": "think that you've started\nmoving in the other direction."
+    },
+    {
+      "start": 781.19,
+      "duration": 2.9,
+      "text": "So this is an issue\nwhere, basically,"
+    },
+    {
+      "start": 784.09,
+      "duration": 3.69,
+      "text": "if you are flying along\nand you start turning"
+    },
+    {
+      "start": 787.78,
+      "duration": 3.42,
+      "text": "and you're in a\nconstant rate turn,"
+    },
+    {
+      "start": 791.2,
+      "duration": 4.14,
+      "text": "you might start feeling\nlike you're not turning."
+    },
+    {
+      "start": 795.34,
+      "duration": 3.24,
+      "text": "And then, when you come out\nof that turn-- so you roll out"
+    },
+    {
+      "start": 798.58,
+      "duration": 2.01,
+      "text": "and now you're straight\nand level again,"
+    },
+    {
+      "start": 800.59,
+      "duration": 4.35,
+      "text": "you feel like you have just\nstarted turning to the right."
+    },
+    {
+      "start": 804.94,
+      "duration": 2.28,
+      "text": "So even though now you're\nflying straight and level,"
+    },
+    {
+      "start": 807.22,
+      "duration": 3.6,
+      "text": "your ear is telling you that\nyou've turned to the right."
+    },
+    {
+      "start": 810.82,
+      "duration": 3.36,
+      "text": "And so you tried to correct that\nby turning back to the left."
+    },
+    {
+      "start": 814.18,
+      "duration": 3.3,
+      "text": "So it might be the case that\nyour airplane's actual motion"
+    },
+    {
+      "start": 817.48,
+      "duration": 3.14,
+      "text": "was constant rate turned to the\nleft and then it flattened out,"
+    },
+    {
+      "start": 820.62,
+      "duration": 1.42,
+      "text": "but you don't\nrealize you're flat."
+    },
+    {
+      "start": 822.04,
+      "duration": 2.29,
+      "text": "So you start turning again."
+    },
+    {
+      "start": 824.33,
+      "duration": 2.18,
+      "text": "So these are reasons\nwhy you don't"
+    },
+    {
+      "start": 826.51,
+      "duration": 2.13,
+      "text": "want to rely on your inner ear."
+    },
+    {
+      "start": 828.64,
+      "duration": 3.33,
+      "text": "People refer to it as flying\nby the seat of your pants--"
+    },
+    {
+      "start": 831.97,
+      "duration": 1.83,
+      "text": "basically, what\nyou feel as opposed"
+    },
+    {
+      "start": 833.8,
+      "duration": 1.35,
+      "text": "to looking at the instruments."
+    },
+    {
+      "start": 835.15,
+      "duration": 1.59,
+      "text": "But actually, the\nseat of your pants"
+    },
+    {
+      "start": 836.74,
+      "duration": 2.4,
+      "text": "is primarily your inner\near is what's giving you"
+    },
+    {
+      "start": 839.14,
+      "duration": 2.52,
+      "text": "all these indications."
+    },
+    {
+      "start": 841.66,
+      "duration": 1.53,
+      "text": "So there's a lot\nof things that can"
+    },
+    {
+      "start": 843.19,
+      "duration": 1.96,
+      "text": "contribute to disorientation."
+    },
+    {
+      "start": 845.14,
+      "duration": 1.38,
+      "text": "So we already\ntalked a little bit"
+    },
+    {
+      "start": 846.52,
+      "duration": 1.83,
+      "text": "about spatial disorientation."
+    },
+    {
+      "start": 848.35,
+      "duration": 1.71,
+      "text": "Well, there are a lot\nof things that-- we"
+    },
+    {
+      "start": 850.06,
+      "duration": 2.46,
+      "text": "talked about the\nvestibular system, which"
+    },
+    {
+      "start": 852.52,
+      "duration": 1.08,
+      "text": "is that inner ear."
+    },
+    {
+      "start": 853.6,
+      "duration": 4.77,
+      "text": "But also even visual\ncues can cause"
+    },
+    {
+      "start": 858.37,
+      "duration": 2.97,
+      "text": "you to have spatial\ndisorientation, and then"
+    },
+    {
+      "start": 861.34,
+      "duration": 1.95,
+      "text": "the feeling on your\nskin, so, you know,"
+    },
+    {
+      "start": 863.29,
+      "duration": 4.66,
+      "text": "how much you're pressuring\nagainst the seat, for example."
+    },
+    {
+      "start": 867.95,
+      "duration": 3.17,
+      "text": "So one thing about\nspatial disorientation"
+    },
+    {
+      "start": 871.12,
+      "duration": 4.17,
+      "text": "is that when you're flying and\nyou're looking out the window,"
+    },
+    {
+      "start": 875.29,
+      "duration": 2.73,
+      "text": "your eyes are a big part\nof your orientation."
+    },
+    {
+      "start": 878.02,
+      "duration": 1.71,
+      "text": "So you're looking\nat the horizon,"
+    },
+    {
+      "start": 879.73,
+      "duration": 2.31,
+      "text": "and if the horizon is tilted,\nyou think you're turning."
+    },
+    {
+      "start": 882.04,
+      "duration": 2.89,
+      "text": "That's how you determine\nwhat's going on."
+    },
+    {
+      "start": 884.93,
+      "duration": 1.43,
+      "text": "But there are a\nlot of false cues"
+    },
+    {
+      "start": 886.36,
+      "duration": 3.42,
+      "text": "you can get from\nlooking outside."
+    },
+    {
+      "start": 889.78,
+      "duration": 3.29,
+      "text": "So one thing is that--"
+    },
+    {
+      "start": 893.07,
+      "duration": 3.55,
+      "text": "and we spent a little bit of\ntime talking about IFR flight"
+    },
+    {
+      "start": 896.62,
+      "duration": 3.03,
+      "text": "earlier today, where you\ncan't see outside the airplane"
+    },
+    {
+      "start": 899.65,
+      "duration": 2.1,
+      "text": "and you're just relying\non your instruments."
+    },
+    {
+      "start": 901.75,
+      "duration": 2.28,
+      "text": "Well, it's also good\nto do a reference"
+    },
+    {
+      "start": 904.03,
+      "duration": 2.88,
+      "text": "check of your instruments\nbecause of some of the tricks"
+    },
+    {
+      "start": 906.91,
+      "duration": 2.59,
+      "text": "your eyes can play on you."
+    },
+    {
+      "start": 909.5,
+      "duration": 4.22,
+      "text": "So, for example, if there\nis a low cloud layer that's"
+    },
+    {
+      "start": 913.72,
+      "duration": 3.18,
+      "text": "kind of tilted, the\nhorizon might look tilted"
+    },
+    {
+      "start": 916.9,
+      "duration": 1.05,
+      "text": "and may not look flat."
+    },
+    {
+      "start": 917.96,
+      "duration": 2.12,
+      "text": "And you might think you're\ntilted when you're flat."
+    },
+    {
+      "start": 920.08,
+      "duration": 2.66,
+      "text": "Or you might think you're\nflat when you're tilted."
+    },
+    {
+      "start": 922.74,
+      "duration": 1.88,
+      "text": "There is also other--"
+    },
+    {
+      "start": 924.62,
+      "duration": 4.95,
+      "text": "because of the motion in your\ninner ear when you actually"
+    },
+    {
+      "start": 929.57,
+      "duration": 2.85,
+      "text": "have a motion in one direction,\nif you actually turn over,"
+    },
+    {
+      "start": 932.42,
+      "duration": 3.78,
+      "text": "if you bend your head down,\nso let's say you're writing"
+    },
+    {
+      "start": 936.2,
+      "duration": 1.92,
+      "text": "with a pencil\nwhile you're flying"
+    },
+    {
+      "start": 938.12,
+      "duration": 2.88,
+      "text": "and you dropped your pencil,\nwell, when you bend down,"
+    },
+    {
+      "start": 941.0,
+      "duration": 3.55,
+      "text": "you actually feel emotions\nthat don't actually exist."
+    },
+    {
+      "start": 944.55,
+      "duration": 2.21,
+      "text": "You might think you're\nsort of tumbling."
+    },
+    {
+      "start": 946.76,
+      "duration": 2.76,
+      "text": "And so that's really not good."
+    },
+    {
+      "start": 949.52,
+      "duration": 1.5,
+      "text": "Actually, if you\nfly out of Hanscom,"
+    },
+    {
+      "start": 951.02,
+      "duration": 1.98,
+      "text": "you have to wear a badge anyway."
+    },
+    {
+      "start": 953.0,
+      "duration": 1.38,
+      "text": "And so you have a lanyard."
+    },
+    {
+      "start": 954.38,
+      "duration": 3.12,
+      "text": "Maybe you clip your\npencil to that lanyard"
+    },
+    {
+      "start": 957.5,
+      "duration": 1.5,
+      "text": "or do whatever you\ncan such that you"
+    },
+    {
+      "start": 959.0,
+      "duration": 2.67,
+      "text": "can reach everything you need\nto reach without physically"
+    },
+    {
+      "start": 961.67,
+      "duration": 1.35,
+      "text": "bending over."
+    },
+    {
+      "start": 963.02,
+      "duration": 3.51,
+      "text": "Or if you have a\nco-pilot that is also"
+    },
+    {
+      "start": 966.53,
+      "duration": 2.22,
+      "text": "could be a pilot in\ncommand or safety pilot,"
+    },
+    {
+      "start": 968.75,
+      "duration": 2.34,
+      "text": "you can ask them\nto take control."
+    },
+    {
+      "start": 971.09,
+      "duration": 2.4,
+      "text": "And we talked about positive\nexchange of controls."
+    },
+    {
+      "start": 973.49,
+      "duration": 1.95,
+      "text": "Ask them to take\ncontrol of the aircraft"
+    },
+    {
+      "start": 975.44,
+      "duration": 2.31,
+      "text": "before you reach down\nto pick up something,"
+    },
+    {
+      "start": 977.75,
+      "duration": 2.46,
+      "text": "because it can have a more\nsignificant effect than you"
+    },
+    {
+      "start": 980.21,
+      "duration": 2.6,
+      "text": "think it will."
+    },
+    {
+      "start": 982.81,
+      "duration": 4.83,
+      "text": "And I will reserve some of\nthe aerobatic talk for Mark"
+    },
+    {
+      "start": 987.64,
+      "duration": 3.12,
+      "text": "to discuss some of these\nwith you in more detail."
+    },
+    {
+      "start": 993.14,
+      "duration": 1.67,
+      "text": "PHILIP GREENSPUN:\nTina was talking trash"
+    },
+    {
+      "start": 994.81,
+      "duration": 0.97,
+      "text": "about the autopilot."
+    },
+    {
+      "start": 995.78,
+      "duration": 3.5,
+      "text": "But that's also a good\nargument for if you"
+    },
+    {
+      "start": 999.28,
+      "duration": 1.86,
+      "text": "have to bend down and\nget something, take"
+    },
+    {
+      "start": 1001.14,
+      "duration": 1.92,
+      "text": "your hands off the\ncontrols completely, that's"
+    },
+    {
+      "start": 1003.06,
+      "duration": 3.27,
+      "text": "better than leaving them on\nwhile you're fishing around"
+    },
+    {
+      "start": 1006.33,
+      "duration": 0.82,
+      "text": "for something."
+    },
+    {
+      "start": 1007.15,
+      "duration": 2.51,
+      "text": "And if you have an\nautopilot, yet better."
+    },
+    {
+      "start": 1011.86,
+      "duration": 2.42,
+      "text": "TINA SRIVASTAVA: I think the\nautopilot is a very important"
+    },
+    {
+      "start": 1014.28,
+      "duration": 1.77,
+      "text": "tool to use when you're flying."
+    },
+    {
+      "start": 1016.05,
+      "duration": 1.98,
+      "text": "I was just cautioning\nagainst it--"
+    },
+    {
+      "start": 1018.03,
+      "duration": 3.87,
+      "text": "again, when I was flying on my\ncheck ride with Mark up there,"
+    },
+    {
+      "start": 1021.9,
+      "duration": 2.92,
+      "text": "mysteriously, the\nautopilot stopped working."
+    },
+    {
+      "start": 1024.82,
+      "duration": 2.36,
+      "text": "And I had to perform\neverything without it."
+    },
+    {
+      "start": 1027.18,
+      "duration": 1.52,
+      "text": "So you can't rely on that."
+    },
+    {
+      "start": 1028.7,
+      "duration": 1.75,
+      "text": "When you're flying,\nit could stop working."
+    },
+    {
+      "start": 1030.45,
+      "duration": 4.02,
+      "text": "But also your check ride pilot\nwill not let you use one."
+    },
+    {
+      "start": 1034.47,
+      "duration": 1.74,
+      "text": "So this is something\nonce you're flying,"
+    },
+    {
+      "start": 1036.21,
+      "duration": 1.5,
+      "text": "and you can even\nask your instructor"
+    },
+    {
+      "start": 1037.71,
+      "duration": 1.71,
+      "text": "to help you with\nthat, to actually get"
+    },
+    {
+      "start": 1039.42,
+      "duration": 2.19,
+      "text": "a sense of these\ndisorientation, you"
+    },
+    {
+      "start": 1041.61,
+      "duration": 3.15,
+      "text": "can try you know climbing\nwhile accelerating, climbing"
+    },
+    {
+      "start": 1044.76,
+      "duration": 2.34,
+      "text": "while turning, these\ndifferent types of motions,"
+    },
+    {
+      "start": 1047.1,
+      "duration": 2.06,
+      "text": "and also consider\nmoving your head,"
+    },
+    {
+      "start": 1049.16,
+      "duration": 2.17,
+      "text": "making sure the other person\nhas the flight controls"
+    },
+    {
+      "start": 1051.33,
+      "duration": 2.97,
+      "text": "to experience some\nof these motions."
+    },
+    {
+      "start": 1054.3,
+      "duration": 1.89,
+      "text": "Or if you like,\nover near, I think,"
+    },
+    {
+      "start": 1056.19,
+      "duration": 3.06,
+      "text": "Building 33 or Building\n35, they have a centrifuge,"
+    },
+    {
+      "start": 1059.25,
+      "duration": 4.43,
+      "text": "and you can experience a\nlot of these things as well."
+    },
+    {
+      "start": 1063.68,
+      "duration": 2.73,
+      "text": "So how do you deal with\nall these disorientation"
+    },
+    {
+      "start": 1066.41,
+      "duration": 1.3,
+      "text": "that are happening?"
+    },
+    {
+      "start": 1067.71,
+      "duration": 2.45,
+      "text": "One is just being aware of\nthe causes of them help,"
+    },
+    {
+      "start": 1070.16,
+      "duration": 2.91,
+      "text": "making sure you know\nthat they're there,"
+    },
+    {
+      "start": 1073.07,
+      "duration": 4.03,
+      "text": "getting briefings in advance\nso you know what's happening."
+    },
+    {
+      "start": 1077.1,
+      "duration": 2.99,
+      "text": "And, really, try to avoid\nsudden head movements"
+    },
+    {
+      "start": 1080.09,
+      "duration": 0.79,
+      "text": "when you're flying."
+    },
+    {
+      "start": 1080.88,
+      "duration": 2.54,
+      "text": "So we've talked about scanning\nand looking for traffic,"
+    },
+    {
+      "start": 1083.42,
+      "duration": 3.0,
+      "text": "but avoid very sudden head\nmovements while you're flying,"
+    },
+    {
+      "start": 1086.42,
+      "duration": 1.29,
+      "text": "because you are moving."
+    },
+    {
+      "start": 1087.71,
+      "duration": 2.52,
+      "text": "And it can cause you to\nhave a lot of effects."
+    },
+    {
+      "start": 1090.23,
+      "duration": 2.12,
+      "text": "And then the other thing\nis just being well rested,"
+    },
+    {
+      "start": 1092.36,
+      "duration": 0.96,
+      "text": "eating properly."
+    },
+    {
+      "start": 1093.32,
+      "duration": 1.92,
+      "text": "If you're hungry,\nif you're tired,"
+    },
+    {
+      "start": 1095.24,
+      "duration": 2.04,
+      "text": "your body is not at its best."
+    },
+    {
+      "start": 1097.28,
+      "duration": 1.98,
+      "text": "It can also contribute."
+    },
+    {
+      "start": 1099.26,
+      "duration": 1.95,
+      "text": "So here are just\nsome more examples"
+    },
+    {
+      "start": 1101.21,
+      "duration": 2.69,
+      "text": "of the visual illusions."
+    },
+    {
+      "start": 1103.9,
+      "duration": 1.42,
+      "text": "And then there are\nalso times when"
+    },
+    {
+      "start": 1105.32,
+      "duration": 1.53,
+      "text": "the visual illusions are worse."
+    },
+    {
+      "start": 1106.85,
+      "duration": 2.55,
+      "text": "So nighttime, we're going to\nhave a whole section of night"
+    },
+    {
+      "start": 1109.4,
+      "duration": 1.02,
+      "text": "flying tomorrow."
+    },
+    {
+      "start": 1110.42,
+      "duration": 2.04,
+      "text": "But as it relates\nto human factors,"
+    },
+    {
+      "start": 1112.46,
+      "duration": 3.03,
+      "text": "I will say that you might\nthink you're coming in"
+    },
+    {
+      "start": 1115.49,
+      "duration": 2.43,
+      "text": "towards the airport,\nbut you're actually"
+    },
+    {
+      "start": 1117.92,
+      "duration": 3.18,
+      "text": "seeing a cluster of lights\nthat's a city somewhere else."
+    },
+    {
+      "start": 1121.1,
+      "duration": 2.24,
+      "text": "You might start going\nto the wrong place."
+    },
+    {
+      "start": 1123.34,
+      "duration": 1.96,
+      "text": "If you don't keep\nreferencing your instruments,"
+    },
+    {
+      "start": 1125.3,
+      "duration": 2.88,
+      "text": "you might not notice that\nyou're kind of off track."
+    },
+    {
+      "start": 1128.18,
+      "duration": 2.4,
+      "text": "I'll give you one tip, though."
+    },
+    {
+      "start": 1130.58,
+      "duration": 1.44,
+      "text": "I was flying to Hyannis."
+    },
+    {
+      "start": 1132.02,
+      "duration": 4.35,
+      "text": "Hyannis is a city right\nat the base of the Cape"
+    },
+    {
+      "start": 1136.37,
+      "duration": 2.52,
+      "text": "before you go all the way\ndown the arm of the Cape."
+    },
+    {
+      "start": 1138.89,
+      "duration": 2.49,
+      "text": "And there's a great\nrestaurant there right next"
+    },
+    {
+      "start": 1141.38,
+      "duration": 2.91,
+      "text": "to the Hyannis airport, a\nlittle French restaurant."
+    },
+    {
+      "start": 1144.29,
+      "duration": 2.58,
+      "text": "During the day, they have\nkind of little sandwiches"
+    },
+    {
+      "start": 1146.87,
+      "duration": 0.66,
+      "text": "and pastries."
+    },
+    {
+      "start": 1147.53,
+      "duration": 3.1,
+      "text": "And at night, it becomes kind\nof a nicer French restaurant."
+    },
+    {
+      "start": 1150.63,
+      "duration": 2.09,
+      "text": "So I was actually\nflying there at night."
+    },
+    {
+      "start": 1152.72,
+      "duration": 3.24,
+      "text": "And coming into Hyannis, I was\nhaving a little bit of issue"
+    },
+    {
+      "start": 1155.96,
+      "duration": 2.25,
+      "text": "because my heading\nindicator kept processing"
+    },
+    {
+      "start": 1158.21,
+      "duration": 1.66,
+      "text": "and I wasn't sure exactly--"
+    },
+    {
+      "start": 1159.87,
+      "duration": 1.38,
+      "text": "and things happened\nvery quickly,"
+    },
+    {
+      "start": 1161.24,
+      "duration": 2.61,
+      "text": "because I'd been talking\nabout the Bravo clearance,"
+    },
+    {
+      "start": 1163.85,
+      "duration": 1.58,
+      "text": "because going from\nBedford over there,"
+    },
+    {
+      "start": 1165.43,
+      "duration": 2.35,
+      "text": "you're talking to\nall these controllers"
+    },
+    {
+      "start": 1167.78,
+      "duration": 1.8,
+      "text": "and worrying about\nyour altitude."
+    },
+    {
+      "start": 1169.58,
+      "duration": 1.29,
+      "text": "And so there's a lot happening."
+    },
+    {
+      "start": 1170.87,
+      "duration": 2.79,
+      "text": "And as I got close to\nthe Hyannis airport,"
+    },
+    {
+      "start": 1173.66,
+      "duration": 3.18,
+      "text": "I wasn't exactly sure that I was\ngoing for the-- they have two"
+    },
+    {
+      "start": 1176.84,
+      "duration": 1.83,
+      "text": "different intersecting runways."
+    },
+    {
+      "start": 1178.67,
+      "duration": 1.71,
+      "text": "I wasn't exactly\nsure I was lined up"
+    },
+    {
+      "start": 1180.38,
+      "duration": 1.41,
+      "text": "for the correct runway."
+    },
+    {
+      "start": 1181.79,
+      "duration": 2.01,
+      "text": "So I just talked to\nthe tower controller."
+    },
+    {
+      "start": 1183.8,
+      "duration": 2.29,
+      "text": "And I told them that I\nwas having this issue."
+    },
+    {
+      "start": 1186.09,
+      "duration": 2.81,
+      "text": "And so they lit up\nthe runway that I"
+    },
+    {
+      "start": 1188.9,
+      "duration": 2.28,
+      "text": "was trying to land at very\nbright just for a moment"
+    },
+    {
+      "start": 1191.18,
+      "duration": 3.86,
+      "text": "so I could get oriented\nand get myself situated."
+    },
+    {
+      "start": 1195.04,
+      "duration": 0.83,
+      "text": "That was very great."
+    },
+    {
+      "start": 1195.87,
+      "duration": 4.25,
+      "text": "So good also to use other\npeople, whether it's the flight"
+    },
+    {
+      "start": 1200.12,
+      "duration": 2.91,
+      "text": "service folks or the\ntower folks to give you"
+    },
+    {
+      "start": 1203.03,
+      "duration": 1.05,
+      "text": "help when you need it."
+    },
+    {
+      "start": 1209.16,
+      "duration": 2.93,
+      "text": "So this is also just another\nthing that happens at night."
+    },
+    {
+      "start": 1212.09,
+      "duration": 1.96,
+      "text": "And we'll talk about this\nwith the night flying"
+    },
+    {
+      "start": 1214.05,
+      "duration": 3.92,
+      "text": "that sometimes a stationary\nlight can appear to move."
+    },
+    {
+      "start": 1217.97,
+      "duration": 1.25,
+      "text": "And so you have to be careful."
+    },
+    {
+      "start": 1219.22,
+      "duration": 2.98,
+      "text": "Don't trust everything you see."
+    },
+    {
+      "start": 1222.2,
+      "duration": 2.04,
+      "text": "A big one in terms of\nan optical illusion,"
+    },
+    {
+      "start": 1224.24,
+      "duration": 4.63,
+      "text": "whether it's day or night, is\nthat if a runway is not flat,"
+    },
+    {
+      "start": 1228.87,
+      "duration": 3.83,
+      "text": "but it's actually inclined\ngoing up or inclined going down,"
+    },
+    {
+      "start": 1232.7,
+      "duration": 2.43,
+      "text": "not only as it relates to\nperformance when we're talking"
+    },
+    {
+      "start": 1235.13,
+      "duration": 1.98,
+      "text": "about how long it\ntakes you to land,"
+    },
+    {
+      "start": 1237.11,
+      "duration": 1.89,
+      "text": "but also as you're\ncoming in, you"
+    },
+    {
+      "start": 1239.0,
+      "duration": 3.46,
+      "text": "might think that you're a\ndifferent place than you are."
+    },
+    {
+      "start": 1242.46,
+      "duration": 4.16,
+      "text": "This is also the case if the\nrunway is wider or narrower"
+    },
+    {
+      "start": 1246.62,
+      "duration": 0.99,
+      "text": "than you're used to."
+    },
+    {
+      "start": 1247.61,
+      "duration": 2.4,
+      "text": "So at Hanscom, you might\nhave very wide runways."
+    },
+    {
+      "start": 1250.01,
+      "duration": 3.21,
+      "text": "If you fly out of Beverly,\nyou have narrower runways."
+    },
+    {
+      "start": 1253.22,
+      "duration": 2.1,
+      "text": "So just that\ndifference can make you"
+    },
+    {
+      "start": 1255.32,
+      "duration": 1.98,
+      "text": "think you're at a\ndifferent orientation"
+    },
+    {
+      "start": 1257.3,
+      "duration": 2.2,
+      "text": "or you're higher or\nlower than where you are."
+    },
+    {
+      "start": 1259.5,
+      "duration": 1.04,
+      "text": "PHILIP GREENSPUN: Tina, can\nyou go back to that one?"
+    },
+    {
+      "start": 1260.54,
+      "duration": 2.55,
+      "text": "So basically, they're saying\nif the runway is sloped"
+    },
+    {
+      "start": 1263.09,
+      "duration": 1.83,
+      "text": "and you rely on your\nordinary sight picture,"
+    },
+    {
+      "start": 1264.92,
+      "duration": 4.52,
+      "text": "you might follow a higher or\nlower than standard guide path."
+    },
+    {
+      "start": 1269.44,
+      "duration": 1.42,
+      "text": "TINA SRIVASTAVA:\nYeah, absolutely."
+    },
+    {
+      "start": 1270.86,
+      "duration": 3.87,
+      "text": "So what it's saying,\nthe top one is"
+    },
+    {
+      "start": 1274.73,
+      "duration": 1.71,
+      "text": "showing that, you\nknow, obviously,"
+    },
+    {
+      "start": 1276.44,
+      "duration": 1.35,
+      "text": "that's just when it's flat."
+    },
+    {
+      "start": 1277.79,
+      "duration": 2.85,
+      "text": "And so when it's\ninclined up, you"
+    },
+    {
+      "start": 1280.64,
+      "duration": 2.6,
+      "text": "might you might try\nto be farther away,"
+    },
+    {
+      "start": 1283.23,
+      "duration": 1.38,
+      "text": "so that you get\nthe same picture."
+    },
+    {
+      "start": 1284.61,
+      "duration": 3.39,
+      "text": "So that the dotted aircraft\nis where you should be."
+    },
+    {
+      "start": 1288.0,
+      "duration": 3.05,
+      "text": "But the solid aircraft is\nwhere you might actually be,"
+    },
+    {
+      "start": 1291.05,
+      "duration": 1.56,
+      "text": "where you're trying\nto compensate"
+    },
+    {
+      "start": 1292.61,
+      "duration": 1.0,
+      "text": "because of the illusion."
+    },
+    {
+      "start": 1297.38,
+      "duration": 2.85,
+      "text": "And then, if there's\na featureless terrain,"
+    },
+    {
+      "start": 1300.23,
+      "duration": 1.89,
+      "text": "it can really\naffect you as well."
+    },
+    {
+      "start": 1302.12,
+      "duration": 2.26,
+      "text": "So like right now, we\nhave a snowy condition."
+    },
+    {
+      "start": 1304.38,
+      "duration": 2.57,
+      "text": "So it's harder to\nsee what's happening."
+    },
+    {
+      "start": 1306.95,
+      "duration": 2.67,
+      "text": "It makes it difficult.\nAnd in general, it"
+    },
+    {
+      "start": 1309.62,
+      "duration": 5.46,
+      "text": "makes you fly a lower\napproach, which is not good."
+    },
+    {
+      "start": 1315.08,
+      "duration": 2.06,
+      "text": "OK, and then just\na couple more--"
+    },
+    {
+      "start": 1317.14,
+      "duration": 1.29,
+      "text": "I won't dive into each of them."
+    },
+    {
+      "start": 1318.43,
+      "duration": 4.08,
+      "text": "But fog or haze, different types\nof things, can cause a mirage"
+    },
+    {
+      "start": 1322.51,
+      "duration": 1.53,
+      "text": "or can cause an illusion."
+    },
+    {
+      "start": 1324.04,
+      "duration": 3.33,
+      "text": "And so you really want to keep\nreferencing your instruments"
+    },
+    {
+      "start": 1327.37,
+      "duration": 2.7,
+      "text": "to make sure you are in\nfact holding the altitude,"
+    },
+    {
+      "start": 1330.07,
+      "duration": 3.8,
+      "text": "or use your autopilot\nto help you out."
+    },
+    {
+      "start": 1333.87,
+      "duration": 1.92,
+      "text": "And, of course, any\nreference system,"
+    },
+    {
+      "start": 1335.79,
+      "duration": 2.64,
+      "text": "so if you have a\nVASI or a PAPI, those"
+    },
+    {
+      "start": 1338.43,
+      "duration": 3.27,
+      "text": "are great tools that even if\nit looks like the runways, one"
+    },
+    {
+      "start": 1341.7,
+      "duration": 2.82,
+      "text": "place or the other, if\nthe lights are all red,"
+    },
+    {
+      "start": 1344.52,
+      "duration": 3.18,
+      "text": "you're too low."
+    },
+    {
+      "start": 1347.7,
+      "duration": 1.72,
+      "text": "OK, another one is\nmotion sickness."
+    },
+    {
+      "start": 1349.42,
+      "duration": 3.2,
+      "text": "So one thing I want to tell\nyou about motion sickness"
+    },
+    {
+      "start": 1352.62,
+      "duration": 2.54,
+      "text": "is when you go up and you take\nyour first discovery flight,"
+    },
+    {
+      "start": 1355.16,
+      "duration": 1.96,
+      "text": "you come out of this\nclass, you're ready to go,"
+    },
+    {
+      "start": 1357.12,
+      "duration": 1.95,
+      "text": "you might feel a\nlittle bit motion sick."
+    },
+    {
+      "start": 1359.07,
+      "duration": 0.6,
+      "text": "And that's OK."
+    },
+    {
+      "start": 1359.67,
+      "duration": 1.11,
+      "text": "You're in a tiny airplane."
+    },
+    {
+      "start": 1360.78,
+      "duration": 2.31,
+      "text": "It might be bouncing\naround a little bit."
+    },
+    {
+      "start": 1363.09,
+      "duration": 2.34,
+      "text": "What I'm here to say\nis that that goes away."
+    },
+    {
+      "start": 1365.43,
+      "duration": 2.64,
+      "text": "You can actually train\nyour body to get used to it"
+    },
+    {
+      "start": 1368.07,
+      "duration": 2.64,
+      "text": "and kind of get over\nthat motion sickness."
+    },
+    {
+      "start": 1370.71,
+      "duration": 3.18,
+      "text": "But, unfortunately, you\ncan lose that tolerance"
+    },
+    {
+      "start": 1373.89,
+      "duration": 1.83,
+      "text": "that you built up\nif you wait a really"
+    },
+    {
+      "start": 1375.72,
+      "duration": 1.38,
+      "text": "long time between flights."
+    },
+    {
+      "start": 1381.18,
+      "duration": 1.89,
+      "text": "I'm at MIT, so I\ndon't know how much I"
+    },
+    {
+      "start": 1383.07,
+      "duration": 1.47,
+      "text": "need to tell you about stress."
+    },
+    {
+      "start": 1384.54,
+      "duration": 2.28,
+      "text": "I think we all\nknow about stress."
+    },
+    {
+      "start": 1386.82,
+      "duration": 2.47,
+      "text": "We have different ways\nof dealing with it."
+    },
+    {
+      "start": 1389.29,
+      "duration": 2.03,
+      "text": "But just as much as it\naffects your ability"
+    },
+    {
+      "start": 1391.32,
+      "duration": 2.37,
+      "text": "to take an exam at\nMIT, that stress"
+    },
+    {
+      "start": 1393.69,
+      "duration": 3.33,
+      "text": "can also affect your ability\nto fly and think logically"
+    },
+    {
+      "start": 1397.02,
+      "duration": 3.37,
+      "text": "as you might need to to do\naeronautical decision making."
+    },
+    {
+      "start": 1400.39,
+      "duration": 1.67,
+      "text": "PHILIP GREENSPUN: And\nthat's a good time"
+    },
+    {
+      "start": 1402.06,
+      "duration": 1.62,
+      "text": "to think about whether\nyou should bring"
+    },
+    {
+      "start": 1403.68,
+      "duration": 1.61,
+      "text": "an instructor along on a trip."
+    },
+    {
+      "start": 1405.3,
+      "duration": 3.82,
+      "text": "You know, if you're tired or\nyou're upset about something,"
+    },
+    {
+      "start": 1409.12,
+      "duration": 4.1,
+      "text": "then be part of\na two-pilot crew."
+    },
+    {
+      "start": 1413.22,
+      "duration": 1.04,
+      "text": "TINA SRIVASTAVA: Exactly."
+    },
+    {
+      "start": 1414.26,
+      "duration": 2.02,
+      "text": "Fatigue is a big one."
+    },
+    {
+      "start": 1416.28,
+      "duration": 3.78,
+      "text": "If you do take my advice and\nlook at those NTSB reports,"
+    },
+    {
+      "start": 1420.06,
+      "duration": 1.82,
+      "text": "a large number of\nthem are talking"
+    },
+    {
+      "start": 1421.88,
+      "duration": 5.04,
+      "text": "about airline pilots that have\njust been flying for 22 hours"
+    },
+    {
+      "start": 1426.92,
+      "duration": 3.54,
+      "text": "and something happens, whereas\nif you really think through it,"
+    },
+    {
+      "start": 1430.46,
+      "duration": 2.8,
+      "text": "you know, maybe that issue\nwouldn't have happened,"
+    },
+    {
+      "start": 1433.26,
+      "duration": 4.25,
+      "text": "but they're so tired that those\nthings result in an issue."
+    },
+    {
+      "start": 1437.51,
+      "duration": 4.02,
+      "text": "So really be mindful of how much\nfatigue can affect your ability"
+    },
+    {
+      "start": 1441.53,
+      "duration": 2.9,
+      "text": "to fly and what stresses\nit puts on the pilot."
+    },
+    {
+      "start": 1447.75,
+      "duration": 2.55,
+      "text": "Dehydration and heat\nstroke are big ones."
+    },
+    {
+      "start": 1450.3,
+      "duration": 3.48,
+      "text": "Here, in this area, it gets\nvery hot in the summers."
+    },
+    {
+      "start": 1453.78,
+      "duration": 1.68,
+      "text": "Make sure to bring\na bottle of water"
+    },
+    {
+      "start": 1455.46,
+      "duration": 1.47,
+      "text": "with you when you go flying."
+    },
+    {
+      "start": 1456.93,
+      "duration": 1.98,
+      "text": "It can be a big issue."
+    },
+    {
+      "start": 1458.91,
+      "duration": 2.61,
+      "text": "And, you know, if you're\nfeeling kind of lightheaded,"
+    },
+    {
+      "start": 1461.52,
+      "duration": 1.5,
+      "text": "take a drink of water."
+    },
+    {
+      "start": 1463.02,
+      "duration": 3.58,
+      "text": "It can make a big difference."
+    },
+    {
+      "start": 1466.6,
+      "duration": 2.82,
+      "text": "All right, so no\nalcohol or drugs"
+    },
+    {
+      "start": 1469.42,
+      "duration": 2.87,
+      "text": "while flying or before flying."
+    },
+    {
+      "start": 1472.29,
+      "duration": 2.55,
+      "text": "There are some\nspecific regulations."
+    },
+    {
+      "start": 1474.84,
+      "duration": 2.02,
+      "text": "They're much more\nstrict than driving,"
+    },
+    {
+      "start": 1476.86,
+      "duration": 1.51,
+      "text": "which I think is a good thing."
+    },
+    {
+      "start": 1478.37,
+      "duration": 4.16,
+      "text": "So please take a look at that,\n14 CFR Part 91, the blood"
+    },
+    {
+      "start": 1482.53,
+      "duration": 3.27,
+      "text": "alcohol level and the\ntime since the last drink."
+    },
+    {
+      "start": 1485.8,
+      "duration": 1.12,
+      "text": "It's really not worth it."
+    },
+    {
+      "start": 1486.92,
+      "duration": 1.72,
+      "text": "You're flying as\na hobby, for fun,"
+    },
+    {
+      "start": 1488.63,
+      "duration": 1.38,
+      "text": "don't do something\nthat's unsafe."
+    },
+    {
+      "start": 1493.3,
+      "duration": 2.19,
+      "text": "Some of these are\nways to remember,"
+    },
+    {
+      "start": 1495.49,
+      "duration": 2.99,
+      "text": "the bottle to throttle\nexamples here."
+    },
+    {
+      "start": 1498.48,
+      "duration": 1.54,
+      "text": "So I'll let you take\na look at those."
+    },
+    {
+      "start": 1503.22,
+      "duration": 1.26,
+      "text": "Also, don't carry drugs."
+    },
+    {
+      "start": 1504.48,
+      "duration": 1.83,
+      "text": "I don't know if I need\nto elaborate on that."
+    },
+    {
+      "start": 1509.12,
+      "duration": 1.68,
+      "text": "OK, so we talked about vision."
+    },
+    {
+      "start": 1510.8,
+      "duration": 3.49,
+      "text": "Vision is one of the things\nthat in your medical exam,"
+    },
+    {
+      "start": 1514.29,
+      "duration": 1.76,
+      "text": "you're AME is going\nto look at your vision"
+    },
+    {
+      "start": 1516.05,
+      "duration": 2.76,
+      "text": "and test your ability to see."
+    },
+    {
+      "start": 1518.81,
+      "duration": 1.86,
+      "text": "One thing to keep\nin mind is that when"
+    },
+    {
+      "start": 1520.67,
+      "duration": 2.55,
+      "text": "you're looking out\nyour windshield,"
+    },
+    {
+      "start": 1523.22,
+      "duration": 2.76,
+      "text": "you can basically\nkind of zone out."
+    },
+    {
+      "start": 1525.98,
+      "duration": 2.23,
+      "text": "And so you think you're\nlooking out your windshield"
+    },
+    {
+      "start": 1528.2,
+      "duration": 1.38,
+      "text": "and you're scanning\nfor aircraft,"
+    },
+    {
+      "start": 1529.58,
+      "duration": 2.92,
+      "text": "but you've sort of\nstopped paying attention."
+    },
+    {
+      "start": 1532.5,
+      "duration": 2.75,
+      "text": "So one thing that they\nrecommend you do is actually"
+    },
+    {
+      "start": 1535.25,
+      "duration": 2.76,
+      "text": "have a series of very\nspecific eye movements."
+    },
+    {
+      "start": 1538.01,
+      "duration": 0.88,
+      "text": "I just moved my head."
+    },
+    {
+      "start": 1538.89,
+      "duration": 1.38,
+      "text": "But, again, don't\nmove your head."
+    },
+    {
+      "start": 1540.27,
+      "duration": 3.75,
+      "text": "But kind of look with\nyour eyes to scan across,"
+    },
+    {
+      "start": 1544.01,
+      "duration": 3.33,
+      "text": "so that you're actually\nspecifically deciding"
+    },
+    {
+      "start": 1547.34,
+      "duration": 2.49,
+      "text": "and you're specifically\nlooking and scanning"
+    },
+    {
+      "start": 1549.83,
+      "duration": 1.41,
+      "text": "the air for other aircraft."
+    },
+    {
+      "start": 1551.24,
+      "duration": 1.59,
+      "text": "And tell this to\nyour passengers."
+    },
+    {
+      "start": 1552.83,
+      "duration": 4.05,
+      "text": "You don't have to be a trained\npilot to look for aircraft."
+    },
+    {
+      "start": 1556.88,
+      "duration": 2.28,
+      "text": "I always tell all\nof my passengers."
+    },
+    {
+      "start": 1559.16,
+      "duration": 1.11,
+      "text": "Look out the window."
+    },
+    {
+      "start": 1560.27,
+      "duration": 3.22,
+      "text": "Tell me if you see\nother aircraft."
+    },
+    {
+      "start": 1563.49,
+      "duration": 4.57,
+      "text": "OK, so we're going to dive into\naeronautical decision-making."
+    },
+    {
+      "start": 1568.06,
+      "duration": 5.12,
+      "text": "One quick thing I'll say is that\nI brought a couple of magazines"
+    },
+    {
+      "start": 1573.18,
+      "duration": 0.87,
+      "text": "here."
+    },
+    {
+      "start": 1574.05,
+      "duration": 3.19,
+      "text": "Although some of them are older,\nthey have some good content."
+    },
+    {
+      "start": 1577.24,
+      "duration": 3.2,
+      "text": "So this one is about\naviation safety."
+    },
+    {
+      "start": 1580.44,
+      "duration": 2.91,
+      "text": "For folks today that we're\ninterested in the talk"
+    },
+    {
+      "start": 1583.35,
+      "duration": 2.37,
+      "text": "about instrument\nflight, there's actually"
+    },
+    {
+      "start": 1585.72,
+      "duration": 4.14,
+      "text": "a magazine called IFR Refresher\nand specifically focuses"
+    },
+    {
+      "start": 1589.86,
+      "duration": 2.64,
+      "text": "on topics related to\ninstrument flight."
+    },
+    {
+      "start": 1592.5,
+      "duration": 4.56,
+      "text": "And then a number of\nthese Aviation Safety"
+    },
+    {
+      "start": 1597.06,
+      "duration": 2.74,
+      "text": "that talk about topics\nthat I felt were relevant,"
+    },
+    {
+      "start": 1599.8,
+      "duration": 3.14,
+      "text": "such as flying with\nicing is one of the ones"
+    },
+    {
+      "start": 1602.94,
+      "duration": 2.97,
+      "text": "here and flying at night."
+    },
+    {
+      "start": 1605.91,
+      "duration": 2.76,
+      "text": "And then there's a\ngeneral IFR magazine"
+    },
+    {
+      "start": 1608.67,
+      "duration": 3.03,
+      "text": "that just talks about some\ngood articles about how"
+    },
+    {
+      "start": 1611.7,
+      "duration": 3.87,
+      "text": "you handle your skills in\nflying instrument approaches,"
+    },
+    {
+      "start": 1615.57,
+      "duration": 2.1,
+      "text": "such as ILS."
+    },
+    {
+      "start": 1617.67,
+      "duration": 4.98,
+      "text": "So these are kind of first\ncome, first serve over here."
+    },
+    {
+      "start": 1622.65,
+      "duration": 2.25,
+      "text": "So aeronautical\ndecision-making--"
+    },
+    {
+      "start": 1624.9,
+      "duration": 3.76,
+      "text": "so how you make decisions\nwhen you're in the cockpit"
+    },
+    {
+      "start": 1628.66,
+      "duration": 4.25,
+      "text": "can really affect how\nyou successfully exit"
+    },
+    {
+      "start": 1632.91,
+      "duration": 3.48,
+      "text": "a very negative situations."
+    },
+    {
+      "start": 1636.39,
+      "duration": 2.49,
+      "text": "So whether it's what we were\njust talking about with regard"
+    },
+    {
+      "start": 1638.88,
+      "duration": 4.17,
+      "text": "to having spatial disorientation\nor having carbon monoxide"
+    },
+    {
+      "start": 1643.05,
+      "duration": 2.71,
+      "text": "poisoning versus\nan engine failure"
+    },
+    {
+      "start": 1645.76,
+      "duration": 2.63,
+      "text": "or specific issue\nor a weather issue,"
+    },
+    {
+      "start": 1648.39,
+      "duration": 2.52,
+      "text": "the way that you go\nabout making a decision"
+    },
+    {
+      "start": 1650.91,
+      "duration": 4.03,
+      "text": "can significantly\nimpact the outcome."
+    },
+    {
+      "start": 1654.94,
+      "duration": 3.29,
+      "text": "So we're going to talk about\ndecision-making, hazards,"
+    },
+    {
+      "start": 1658.23,
+      "duration": 3.72,
+      "text": "how we go about evaluating\nrisks, and having"
+    },
+    {
+      "start": 1661.95,
+      "duration": 3.26,
+      "text": "personal checklists."
+    },
+    {
+      "start": 1665.21,
+      "duration": 2.95,
+      "text": "So in aeronautical\ndecision-making,"
+    },
+    {
+      "start": 1668.16,
+      "duration": 2.0,
+      "text": "one thing to think\nabout is just that there"
+    },
+    {
+      "start": 1670.16,
+      "duration": 2.73,
+      "text": "is a way that you\ncan teach someone"
+    },
+    {
+      "start": 1672.89,
+      "duration": 1.96,
+      "text": "how to make good decisions."
+    },
+    {
+      "start": 1674.85,
+      "duration": 2.09,
+      "text": "So in addition to learning\nabout your airplane"
+    },
+    {
+      "start": 1676.94,
+      "duration": 2.67,
+      "text": "and learning how to\nfly, one thing that"
+    },
+    {
+      "start": 1679.61,
+      "duration": 1.92,
+      "text": "throughout your pilot\ntraining is that you'll"
+    },
+    {
+      "start": 1681.53,
+      "duration": 4.12,
+      "text": "learn how to make decisions."
+    },
+    {
+      "start": 1685.65,
+      "duration": 3.7,
+      "text": "So crew resource management\nis one specific aspect."
+    },
+    {
+      "start": 1689.35,
+      "duration": 2.21,
+      "text": "And we've been alluding\nto that all day,"
+    },
+    {
+      "start": 1691.56,
+      "duration": 3.51,
+      "text": "talking about how to\nuse either your co-pilot"
+    },
+    {
+      "start": 1695.07,
+      "duration": 2.07,
+      "text": "or whoever it is that's\nsitting next to you"
+    },
+    {
+      "start": 1697.14,
+      "duration": 4.02,
+      "text": "in the plane or your\nother passengers as well."
+    },
+    {
+      "start": 1701.16,
+      "duration": 2.28,
+      "text": "There are a number of\naircraft that we talk about,"
+    },
+    {
+      "start": 1703.44,
+      "duration": 2.37,
+      "text": "and we discuss the\nFAA regulations"
+    },
+    {
+      "start": 1705.81,
+      "duration": 2.16,
+      "text": "earlier about\nmandated requirements"
+    },
+    {
+      "start": 1707.97,
+      "duration": 3.06,
+      "text": "to have a co-pilot or\nsometimes other folks."
+    },
+    {
+      "start": 1711.03,
+      "duration": 2.61,
+      "text": "But there even people\noutside your cockpit"
+    },
+    {
+      "start": 1713.64,
+      "duration": 2.61,
+      "text": "that you could rely on--\nair traffic controllers,"
+    },
+    {
+      "start": 1716.25,
+      "duration": 2.94,
+      "text": "we talked about, flight\nservice stations, for example."
+    },
+    {
+      "start": 1721.8,
+      "duration": 2.97,
+      "text": "So again really think\nabout when you're"
+    },
+    {
+      "start": 1724.77,
+      "duration": 4.74,
+      "text": "flying, although the FAA might\nrequire just a crew of one,"
+    },
+    {
+      "start": 1729.51,
+      "duration": 2.45,
+      "text": "whether you really are\nall alone or there are"
+    },
+    {
+      "start": 1731.96,
+      "duration": 1.54,
+      "text": "other people you can rely on."
+    },
+    {
+      "start": 1736.28,
+      "duration": 3.33,
+      "text": "So there are a lot of aspects\nto making good decisions."
+    },
+    {
+      "start": 1739.61,
+      "duration": 3.9,
+      "text": "And this is part of why pilots\nlove talking to other pilots."
+    },
+    {
+      "start": 1743.51,
+      "duration": 2.52,
+      "text": "They also just like\ndiscussing if they"
+    },
+    {
+      "start": 1746.03,
+      "duration": 1.8,
+      "text": "encountered an\nissue, how they went"
+    },
+    {
+      "start": 1747.83,
+      "duration": 1.77,
+      "text": "about dealing with that issue."
+    },
+    {
+      "start": 1749.6,
+      "duration": 2.49,
+      "text": "And talking to other people\nabout their experiences"
+    },
+    {
+      "start": 1752.09,
+      "duration": 2.43,
+      "text": "is actually a good way to learn."
+    },
+    {
+      "start": 1754.52,
+      "duration": 1.56,
+      "text": "One thing you\nshould also know is"
+    },
+    {
+      "start": 1756.08,
+      "duration": 2.37,
+      "text": "about your personal attitudes."
+    },
+    {
+      "start": 1758.45,
+      "duration": 3.12,
+      "text": "I think that might have\nbeen another reason Laz,"
+    },
+    {
+      "start": 1761.57,
+      "duration": 4.32,
+      "text": "our F-22 pilot yesterday was\nso against Top Gun, the concept"
+    },
+    {
+      "start": 1765.89,
+      "duration": 5.04,
+      "text": "of being a very arrogant person\nthat violates the rules is"
+    },
+    {
+      "start": 1770.93,
+      "duration": 3.63,
+      "text": "really not a good stereotype\nfor a pilot because people"
+    },
+    {
+      "start": 1774.56,
+      "duration": 3.57,
+      "text": "that fly like that are more\nlikely to have accidents."
+    },
+    {
+      "start": 1778.13,
+      "duration": 2.34,
+      "text": "How you can modify\nyour behavior,"
+    },
+    {
+      "start": 1780.47,
+      "duration": 2.68,
+      "text": "how to recognize and\ncope with stress,"
+    },
+    {
+      "start": 1783.15,
+      "duration": 2.54,
+      "text": "we could certainly\nuse that here at MIT."
+    },
+    {
+      "start": 1785.69,
+      "duration": 2.67,
+      "text": "And then how to really\nassess risks properly,"
+    },
+    {
+      "start": 1788.36,
+      "duration": 2.28,
+      "text": "we talked about\nweather as an example."
+    },
+    {
+      "start": 1790.64,
+      "duration": 2.79,
+      "text": "How do you know if you have\nthe right weather information?"
+    },
+    {
+      "start": 1793.43,
+      "duration": 2.55,
+      "text": "Have you evaluated a\nrisk appropriately?"
+    },
+    {
+      "start": 1795.98,
+      "duration": 3.22,
+      "text": "And we've really tried to give\nyou pointers and cues for that."
+    },
+    {
+      "start": 1799.2,
+      "duration": 3.38,
+      "text": "Especially if they tell you\nVFR flight not advisable,"
+    },
+    {
+      "start": 1802.58,
+      "duration": 0.96,
+      "text": "it's not advisable."
+    },
+    {
+      "start": 1803.54,
+      "duration": 3.93,
+      "text": "That means it's\nprobably a bad idea."
+    },
+    {
+      "start": 1807.47,
+      "duration": 1.95,
+      "text": "So hazards and risks--"
+    },
+    {
+      "start": 1809.42,
+      "duration": 4.11,
+      "text": "so a hazard is\nbasically a condition"
+    },
+    {
+      "start": 1813.53,
+      "duration": 3.57,
+      "text": "or an event, something\nthat you might encounter,"
+    },
+    {
+      "start": 1817.1,
+      "duration": 2.82,
+      "text": "whereas risk is\nbasically your assessment"
+    },
+    {
+      "start": 1819.92,
+      "duration": 3.01,
+      "text": "of how likely is that risk?"
+    },
+    {
+      "start": 1822.93,
+      "duration": 2.45,
+      "text": "How likely is that hazard\ngoing to come to be?"
+    },
+    {
+      "start": 1825.38,
+      "duration": 2.87,
+      "text": "What impact could that\nhazard have on your outcome?"
+    },
+    {
+      "start": 1831.03,
+      "duration": 2.76,
+      "text": "So one thing, again,\nis about your attitude."
+    },
+    {
+      "start": 1833.79,
+      "duration": 3.2,
+      "text": "So don't be like\nthose Top Gun pilots."
+    },
+    {
+      "start": 1836.99,
+      "duration": 3.0,
+      "text": "If you're very\nanti-authority and you say,"
+    },
+    {
+      "start": 1839.99,
+      "duration": 3.06,
+      "text": "you know, I don't care\neven if the weather"
+    },
+    {
+      "start": 1843.05,
+      "duration": 3.72,
+      "text": "folks said VFR flight not\nadvisable, I'm a great pilot."
+    },
+    {
+      "start": 1846.77,
+      "duration": 1.32,
+      "text": "I can do it any way."
+    },
+    {
+      "start": 1848.09,
+      "duration": 1.71,
+      "text": "That type of\nattitude is probably"
+    },
+    {
+      "start": 1849.8,
+      "duration": 2.1,
+      "text": "going to lead you\nin unsafe condition."
+    },
+    {
+      "start": 1851.9,
+      "duration": 3.06,
+      "text": "It's really not a good idea."
+    },
+    {
+      "start": 1854.96,
+      "duration": 2.96,
+      "text": "We also discussed the\nconcept of personal minimums"
+    },
+    {
+      "start": 1857.92,
+      "duration": 2.41,
+      "text": "and setting personal\nminimums for yourself."
+    },
+    {
+      "start": 1860.33,
+      "duration": 4.82,
+      "text": "The reason is that today,\nfor example, or after you've"
+    },
+    {
+      "start": 1865.15,
+      "duration": 2.4,
+      "text": "done a little bit\nof flying, you might"
+    },
+    {
+      "start": 1867.55,
+      "duration": 2.52,
+      "text": "have a good sense of what\nyou're comfortable with."
+    },
+    {
+      "start": 1870.07,
+      "duration": 3.78,
+      "text": "You might have gone up with\na lot of gusting winds."
+    },
+    {
+      "start": 1873.85,
+      "duration": 1.83,
+      "text": "And so you might\ndecide that, hey, I"
+    },
+    {
+      "start": 1875.68,
+      "duration": 3.78,
+      "text": "was a little bit uncomfortable\nwith winds gusting to 20 knots."
+    },
+    {
+      "start": 1879.46,
+      "duration": 2.49,
+      "text": "Even if my aircraft\nis capable of it,"
+    },
+    {
+      "start": 1881.95,
+      "duration": 2.25,
+      "text": "I think that's something\nthat until I get a little bit"
+    },
+    {
+      "start": 1884.2,
+      "duration": 2.81,
+      "text": "more experience, I'm going to\nset as a personal minimum I"
+    },
+    {
+      "start": 1887.01,
+      "duration": 3.01,
+      "text": "don't want winds\ngusting over 15 knots"
+    },
+    {
+      "start": 1890.02,
+      "duration": 2.67,
+      "text": "before I decide to take\na flight by myself."
+    },
+    {
+      "start": 1892.69,
+      "duration": 1.89,
+      "text": "So you can set your\npersonal minimums."
+    },
+    {
+      "start": 1894.58,
+      "duration": 1.83,
+      "text": "Why are we talking about that?"
+    },
+    {
+      "start": 1896.41,
+      "duration": 3.81,
+      "text": "Well, the reason is on the\nactual day that you're flying,"
+    },
+    {
+      "start": 1900.22,
+      "duration": 2.67,
+      "text": "you may re-evaluate\nthe situation."
+    },
+    {
+      "start": 1902.89,
+      "duration": 2.34,
+      "text": "You might really want\nto go flying that day."
+    },
+    {
+      "start": 1905.23,
+      "duration": 3.33,
+      "text": "Maybe you've already arranged\nwith a friend to come with you."
+    },
+    {
+      "start": 1908.56,
+      "duration": 3.09,
+      "text": "Maybe you have a destination\nyou're really trying to reach."
+    },
+    {
+      "start": 1911.65,
+      "duration": 1.86,
+      "text": "Philip described a\nnumber of situations"
+    },
+    {
+      "start": 1913.51,
+      "duration": 1.74,
+      "text": "where he's flying cross-country."
+    },
+    {
+      "start": 1915.25,
+      "duration": 0.97,
+      "text": "He has a plan."
+    },
+    {
+      "start": 1916.22,
+      "duration": 1.19,
+      "text": "He has to follow it."
+    },
+    {
+      "start": 1917.41,
+      "duration": 3.91,
+      "text": "And he can't really be\naway missing several days"
+    },
+    {
+      "start": 1921.32,
+      "duration": 1.37,
+      "text": "where he was trying to go."
+    },
+    {
+      "start": 1922.69,
+      "duration": 3.27,
+      "text": "And so sometimes\nin the moment you"
+    },
+    {
+      "start": 1925.96,
+      "duration": 2.88,
+      "text": "might have an impulsive nature."
+    },
+    {
+      "start": 1928.84,
+      "duration": 2.16,
+      "text": "You might decide that\nI think I can do it."
+    },
+    {
+      "start": 1931.0,
+      "duration": 1.87,
+      "text": "I'm sure it's fine."
+    },
+    {
+      "start": 1932.87,
+      "duration": 2.12,
+      "text": "So having personal\nminimums and actually"
+    },
+    {
+      "start": 1934.99,
+      "duration": 2.61,
+      "text": "writing those down\nare a really good way"
+    },
+    {
+      "start": 1937.6,
+      "duration": 2.16,
+      "text": "to hold yourself\naccountable to what"
+    },
+    {
+      "start": 1939.76,
+      "duration": 7.24,
+      "text": "you had decided in a calm state\nof mind was a good restriction."
+    },
+    {
+      "start": 1947.0,
+      "duration": 2.94,
+      "text": "So one thing to keep in mind\nis the assessment of risk."
+    },
+    {
+      "start": 1949.94,
+      "duration": 3.93,
+      "text": "You also shouldn't be\noverly risk averse."
+    },
+    {
+      "start": 1953.87,
+      "duration": 3.24,
+      "text": "The FAA has guidance on\nwhat type of equipment"
+    },
+    {
+      "start": 1957.11,
+      "duration": 1.65,
+      "text": "is required in your aircraft."
+    },
+    {
+      "start": 1958.76,
+      "duration": 1.95,
+      "text": "So certain things\nare that's required."
+    },
+    {
+      "start": 1960.71,
+      "duration": 2.28,
+      "text": "If it's not there,\nyou can't fly."
+    },
+    {
+      "start": 1962.99,
+      "duration": 2.46,
+      "text": "But there are other\nthings that are optional."
+    },
+    {
+      "start": 1965.45,
+      "duration": 2.52,
+      "text": "And so if there's a piece of\nequipment that's optional,"
+    },
+    {
+      "start": 1967.97,
+      "duration": 3.49,
+      "text": "that's not functional."
+    },
+    {
+      "start": 1971.46,
+      "duration": 2.3,
+      "text": "There's a lot of importance\naround understanding"
+    },
+    {
+      "start": 1973.76,
+      "duration": 2.31,
+      "text": "what is the risk of that\nnot being operational"
+    },
+    {
+      "start": 1976.07,
+      "duration": 0.85,
+      "text": "as an example."
+    },
+    {
+      "start": 1976.92,
+      "duration": 3.89,
+      "text": "And we'll go through a\nchecklist in a little bit"
+    },
+    {
+      "start": 1980.81,
+      "duration": 2.58,
+      "text": "to assess both your\npersonal state of being,"
+    },
+    {
+      "start": 1983.39,
+      "duration": 2.1,
+      "text": "your aircraft state of\nbeing, the environment,"
+    },
+    {
+      "start": 1985.49,
+      "duration": 3.37,
+      "text": "and assessing all\nthose risks together."
+    },
+    {
+      "start": 1988.86,
+      "duration": 3.86,
+      "text": "But for a given risk, you want\nto know, one, how likely is it?"
+    },
+    {
+      "start": 1992.72,
+      "duration": 3.03,
+      "text": "So maybe if you're\ntalking about weather,"
+    },
+    {
+      "start": 1995.75,
+      "duration": 3.45,
+      "text": "there is a chance that\na storm will come in."
+    },
+    {
+      "start": 1999.2,
+      "duration": 2.04,
+      "text": "There's a chance that it won't."
+    },
+    {
+      "start": 2001.24,
+      "duration": 3.78,
+      "text": "Then also the severity, are we\ntalking about some light rain"
+    },
+    {
+      "start": 2005.02,
+      "duration": 0.69,
+      "text": "showers?"
+    },
+    {
+      "start": 2005.71,
+      "duration": 3.57,
+      "text": "Or are we talking about a\nvery, very dangerous front"
+    },
+    {
+      "start": 2009.28,
+      "duration": 2.39,
+      "text": "with icing or thunderstorms?"
+    },
+    {
+      "start": 2011.67,
+      "duration": 1.96,
+      "text": "So that's the difference\nbetween the likelihood"
+    },
+    {
+      "start": 2013.63,
+      "duration": 1.2,
+      "text": "and the severity."
+    },
+    {
+      "start": 2014.83,
+      "duration": 4.26,
+      "text": "Both of those have to be\nassessed for a given hazard"
+    },
+    {
+      "start": 2019.09,
+      "duration": 3.28,
+      "text": "that you encounter when\nyou assess its risk."
+    },
+    {
+      "start": 2022.37,
+      "duration": 3.12,
+      "text": "So there's this way\nof checking yourself."
+    },
+    {
+      "start": 2025.49,
+      "duration": 1.5,
+      "text": "It's called IMSAFE."
+    },
+    {
+      "start": 2026.99,
+      "duration": 3.47,
+      "text": "So this is just\ndetermining just you--"
+    },
+    {
+      "start": 2030.46,
+      "duration": 3.0,
+      "text": "not the airplane, not the\nenvironment-- as a pilot"
+    },
+    {
+      "start": 2033.46,
+      "duration": 1.47,
+      "text": "if you're safe to fly."
+    },
+    {
+      "start": 2034.93,
+      "duration": 1.51,
+      "text": "So do you have an illness?"
+    },
+    {
+      "start": 2036.44,
+      "duration": 3.26,
+      "text": "Or are you taking medications\nthat might affect your ability"
+    },
+    {
+      "start": 2039.7,
+      "duration": 0.54,
+      "text": "to fly?"
+    },
+    {
+      "start": 2040.24,
+      "duration": 1.92,
+      "text": "Are you very stressed out?"
+    },
+    {
+      "start": 2042.16,
+      "duration": 2.37,
+      "text": "Do you have your\nthermodynamics final coming up"
+    },
+    {
+      "start": 2044.53,
+      "duration": 3.51,
+      "text": "and you're really\nnervous about it?"
+    },
+    {
+      "start": 2048.04,
+      "duration": 3.04,
+      "text": "Again, we talked about there\nare also legal regulations."
+    },
+    {
+      "start": 2051.08,
+      "duration": 2.6,
+      "text": "You can't have alcohol or drugs\nthat could affect your ability"
+    },
+    {
+      "start": 2053.68,
+      "duration": 0.93,
+      "text": "to fly."
+    },
+    {
+      "start": 2054.61,
+      "duration": 1.68,
+      "text": "Are you just very tired?"
+    },
+    {
+      "start": 2056.29,
+      "duration": 2.34,
+      "text": "Or really, just are you\nvery distracted by something"
+    },
+    {
+      "start": 2058.63,
+      "duration": 2.82,
+      "text": "that's happening?"
+    },
+    {
+      "start": 2061.45,
+      "duration": 2.31,
+      "text": "The PAVE checklist\nis the one I was"
+    },
+    {
+      "start": 2063.76,
+      "duration": 2.22,
+      "text": "referring to that\nactually considers"
+    },
+    {
+      "start": 2065.98,
+      "duration": 1.89,
+      "text": "all of these different things."
+    },
+    {
+      "start": 2067.87,
+      "duration": 2.76,
+      "text": "So the IMSAFE is just the pilot."
+    },
+    {
+      "start": 2070.63,
+      "duration": 2.76,
+      "text": "A is referring to the aircraft."
+    },
+    {
+      "start": 2073.39,
+      "duration": 2.64,
+      "text": "So this is when we're talking\nabout are certain things"
+    },
+    {
+      "start": 2076.03,
+      "duration": 1.26,
+      "text": "different about the aircraft?"
+    },
+    {
+      "start": 2077.29,
+      "duration": 1.71,
+      "text": "Maybe it's a new\naircraft that you're not"
+    },
+    {
+      "start": 2079.0,
+      "duration": 1.32,
+      "text": "really comfortable with."
+    },
+    {
+      "start": 2080.32,
+      "duration": 1.38,
+      "text": "Maybe you're\nchecked out, but you"
+    },
+    {
+      "start": 2081.7,
+      "duration": 2.56,
+      "text": "don't have that many hours\nin that particular aircraft."
+    },
+    {
+      "start": 2084.26,
+      "duration": 2.12,
+      "text": "Or maybe you know we've\ntalked about the difference"
+    },
+    {
+      "start": 2086.38,
+      "duration": 1.92,
+      "text": "between steam gauge and G1000."
+    },
+    {
+      "start": 2088.3,
+      "duration": 2.4,
+      "text": "Maybe you're really used\nto flying steam gauge"
+    },
+    {
+      "start": 2090.7,
+      "duration": 1.22,
+      "text": "and this is a G1000."
+    },
+    {
+      "start": 2091.92,
+      "duration": 2.17,
+      "text": "So there's nothing actually\nwrong with the airplane,"
+    },
+    {
+      "start": 2094.09,
+      "duration": 1.86,
+      "text": "but you may be less comfortable."
+    },
+    {
+      "start": 2095.95,
+      "duration": 1.89,
+      "text": "Environmental, so\nthat could be weather."
+    },
+    {
+      "start": 2097.84,
+      "duration": 2.0,
+      "text": "That could be flying\nto a new airport."
+    },
+    {
+      "start": 2099.84,
+      "duration": 1.62,
+      "text": "That could be flying\nto an airport that"
+    },
+    {
+      "start": 2101.47,
+      "duration": 1.44,
+      "text": "has some special conditions."
+    },
+    {
+      "start": 2102.91,
+      "duration": 1.35,
+      "text": "Maybe it's a grass strip."
+    },
+    {
+      "start": 2104.26,
+      "duration": 4.41,
+      "text": "You're flying to\nKatama, which is a grass"
+    },
+    {
+      "start": 2108.67,
+      "duration": 3.25,
+      "text": "runway out at Martha's Vineyard\nright next to the beach."
+    },
+    {
+      "start": 2111.92,
+      "duration": 0.92,
+      "text": "It's really beautiful."
+    },
+    {
+      "start": 2112.84,
+      "duration": 0.87,
+      "text": "I recommend it."
+    },
+    {
+      "start": 2113.71,
+      "duration": 3.87,
+      "text": "But maybe if it's your first\ntime, flying to a soft field,"
+    },
+    {
+      "start": 2117.58,
+      "duration": 2.04,
+      "text": "that could be a concern."
+    },
+    {
+      "start": 2119.62,
+      "duration": 3.33,
+      "text": "External pressures, that's what\nwe were just talking about."
+    },
+    {
+      "start": 2122.95,
+      "duration": 1.38,
+      "text": "You're already\ncommitted to being"
+    },
+    {
+      "start": 2124.33,
+      "duration": 1.79,
+      "text": "somewhere later in the day."
+    },
+    {
+      "start": 2126.12,
+      "duration": 1.87,
+      "text": "You've met up with somebody."
+    },
+    {
+      "start": 2127.99,
+      "duration": 0.96,
+      "text": "You're with a friend."
+    },
+    {
+      "start": 2128.95,
+      "duration": 1.77,
+      "text": "You had decided to\ntake them flying."
+    },
+    {
+      "start": 2130.72,
+      "duration": 2.01,
+      "text": "They really wanted to go."
+    },
+    {
+      "start": 2132.73,
+      "duration": 2.64,
+      "text": "But the weather is\nlooking a little bit iffy."
+    },
+    {
+      "start": 2135.37,
+      "duration": 2.76,
+      "text": "So one thing that's good\nabout this PAVE checklist"
+    },
+    {
+      "start": 2138.13,
+      "duration": 2.34,
+      "text": "is to kind of put\nthings in perspective."
+    },
+    {
+      "start": 2140.47,
+      "duration": 4.53,
+      "text": "That maybe you're feeling\na little bit stressed out"
+    },
+    {
+      "start": 2145.0,
+      "duration": 3.9,
+      "text": "or distracted about an MIT exam,\nbut the aircraft is the one"
+    },
+    {
+      "start": 2148.9,
+      "duration": 1.63,
+      "text": "that you've been flying a lot."
+    },
+    {
+      "start": 2150.53,
+      "duration": 1.25,
+      "text": "You're very familiar with it."
+    },
+    {
+      "start": 2151.78,
+      "duration": 1.62,
+      "text": "You have a lot of\ntime on the aircraft."
+    },
+    {
+      "start": 2153.41,
+      "duration": 1.25,
+      "text": "Everything is working well."
+    },
+    {
+      "start": 2154.66,
+      "duration": 1.5,
+      "text": "You have a good amount of fuel."
+    },
+    {
+      "start": 2156.16,
+      "duration": 0.96,
+      "text": "The weather's great."
+    },
+    {
+      "start": 2157.12,
+      "duration": 1.17,
+      "text": "It's a beautiful day."
+    },
+    {
+      "start": 2158.29,
+      "duration": 1.86,
+      "text": "You're flying to\nfamiliar airports."
+    },
+    {
+      "start": 2160.15,
+      "duration": 2.15,
+      "text": "And you don't have any\nexternal pressures that day."
+    },
+    {
+      "start": 2162.3,
+      "duration": 1.54,
+      "text": "There's no one you're\ntrying to meet."
+    },
+    {
+      "start": 2163.84,
+      "duration": 1.75,
+      "text": "There's nothing you're\ntrying to get done."
+    },
+    {
+      "start": 2165.59,
+      "duration": 2.66,
+      "text": "So that might be a good day\nthat, OK, one of these things"
+    },
+    {
+      "start": 2168.25,
+      "duration": 3.84,
+      "text": "is a little bit iffy, nothing\ncrossed your minimums,"
+    },
+    {
+      "start": 2172.09,
+      "duration": 2.01,
+      "text": "but it's just something\nthat maybe you"
+    },
+    {
+      "start": 2174.1,
+      "duration": 1.8,
+      "text": "could still go ahead and fly."
+    },
+    {
+      "start": 2175.9,
+      "duration": 1.71,
+      "text": "However, if it's\nmultiple things,"
+    },
+    {
+      "start": 2177.61,
+      "duration": 2.08,
+      "text": "if it's a different aircraft."
+    },
+    {
+      "start": 2179.69,
+      "duration": 1.19,
+      "text": "It's a different location."
+    },
+    {
+      "start": 2180.88,
+      "duration": 1.26,
+      "text": "You're having stresses."
+    },
+    {
+      "start": 2182.14,
+      "duration": 1.98,
+      "text": "These start becoming\ntimes that you"
+    },
+    {
+      "start": 2184.12,
+      "duration": 2.92,
+      "text": "want to take these risks even\nmore seriously, because as they"
+    },
+    {
+      "start": 2187.04,
+      "duration": 1.79,
+      "text": "come together, it could\naffect your ability"
+    },
+    {
+      "start": 2188.83,
+      "duration": 2.86,
+      "text": "to have a safe flight."
+    },
+    {
+      "start": 2191.69,
+      "duration": 2.54,
+      "text": "So just these types\nof personal checklists"
+    },
+    {
+      "start": 2194.23,
+      "duration": 4.05,
+      "text": "are a great way to assess\nrisk and make decisions"
+    },
+    {
+      "start": 2198.28,
+      "duration": 1.92,
+      "text": "as you're trying to\ndecide whether or not"
+    },
+    {
+      "start": 2200.2,
+      "duration": 3.04,
+      "text": "to go on a flight."
+    },
+    {
+      "start": 2203.24,
+      "duration": 2.17,
+      "text": "And these are just a breakdown\nof some of the things"
+    },
+    {
+      "start": 2205.41,
+      "duration": 2.61,
+      "text": "I just said on the\nenvironmental condition."
+    },
+    {
+      "start": 2208.02,
+      "duration": 1.98,
+      "text": "So nighttime is also on there."
+    },
+    {
+      "start": 2210.0,
+      "duration": 1.98,
+      "text": "Tomorrow, we'll talk\nabout night flying"
+    },
+    {
+      "start": 2211.98,
+      "duration": 2.52,
+      "text": "in particular and the\nfact that basically"
+    },
+    {
+      "start": 2214.5,
+      "duration": 3.21,
+      "text": "in the US with just your\nprivate pilot's license,"
+    },
+    {
+      "start": 2217.71,
+      "duration": 1.26,
+      "text": "you can fly at night."
+    },
+    {
+      "start": 2218.97,
+      "duration": 1.74,
+      "text": "A lot of other\ncountries consider"
+    },
+    {
+      "start": 2220.71,
+      "duration": 4.83,
+      "text": "night flying just as advanced\nas instrument flying."
+    },
+    {
+      "start": 2225.54,
+      "duration": 1.65,
+      "text": "And you need your\ninstrument rating"
+    },
+    {
+      "start": 2227.19,
+      "duration": 2.37,
+      "text": "to fly at night because\nof all the concerns"
+    },
+    {
+      "start": 2229.56,
+      "duration": 3.0,
+      "text": "about not being able to see\nmuch outside your airplane."
+    },
+    {
+      "start": 2232.56,
+      "duration": 1.74,
+      "text": "So be mindful that,\nyou know, it's"
+    },
+    {
+      "start": 2234.3,
+      "duration": 2.61,
+      "text": "a slightly more challenging\ncondition to fly in."
+    },
+    {
+      "start": 2236.91,
+      "duration": 1.89,
+      "text": "And how does that\naffect your ability"
+    },
+    {
+      "start": 2238.8,
+      "duration": 2.21,
+      "text": "to assess the other risks\nthat might be taking place?"
+    },
+    {
+      "start": 2243.67,
+      "duration": 2.07,
+      "text": "I really would\nrecommend, especially"
+    },
+    {
+      "start": 2245.74,
+      "duration": 2.49,
+      "text": "when you're first\ngetting certified,"
+    },
+    {
+      "start": 2248.23,
+      "duration": 3.15,
+      "text": "you don't really make plans\nanywhere near the time"
+    },
+    {
+      "start": 2251.38,
+      "duration": 3.16,
+      "text": "that you're supposed\nto be done flying."
+    },
+    {
+      "start": 2254.54,
+      "duration": 2.0,
+      "text": "Most flight schools will\ngive you a flight block"
+    },
+    {
+      "start": 2256.54,
+      "duration": 1.23,
+      "text": "of 2 and 1/2 hours."
+    },
+    {
+      "start": 2257.77,
+      "duration": 2.04,
+      "text": "Make sure that you don't\nhave to be anywhere even"
+    },
+    {
+      "start": 2259.81,
+      "duration": 1.8,
+      "text": "for a few hours after that."
+    },
+    {
+      "start": 2261.61,
+      "duration": 2.73,
+      "text": "In case the weather got bad,\nyou had to land somewhere else,"
+    },
+    {
+      "start": 2264.34,
+      "duration": 1.62,
+      "text": "you don't want those\nexternal pressures"
+    },
+    {
+      "start": 2265.96,
+      "duration": 2.43,
+      "text": "affecting your decision-making\nwhen you're in the cockpit."
+    },
+    {
+      "start": 2271.45,
+      "duration": 2.25,
+      "text": "This is another way to\nthink about it in terms"
+    },
+    {
+      "start": 2273.7,
+      "duration": 3.27,
+      "text": "of this 5 \"P\" checklist."
+    },
+    {
+      "start": 2276.97,
+      "duration": 4.67,
+      "text": "So there are certain\nkind of different parts"
+    },
+    {
+      "start": 2281.64,
+      "duration": 0.79,
+      "text": "through the flight."
+    },
+    {
+      "start": 2282.43,
+      "duration": 2.16,
+      "text": "We discussed the\npre-flight, take-off,"
+    },
+    {
+      "start": 2284.59,
+      "duration": 3.21,
+      "text": "while you're kind of cruising\nalong, you're descending"
+    },
+    {
+      "start": 2287.8,
+      "duration": 1.47,
+      "text": "and you're flying,\nand it might be"
+    },
+    {
+      "start": 2289.27,
+      "duration": 5.25,
+      "text": "good to kind of look through\nall of these different aspects"
+    },
+    {
+      "start": 2294.52,
+      "duration": 2.58,
+      "text": "about when you're flying\nand kind of checklist"
+    },
+    {
+      "start": 2297.1,
+      "duration": 2.23,
+      "text": "for yourself to understand\nwhat's happening."
+    },
+    {
+      "start": 2299.33,
+      "duration": 1.58,
+      "text": "There are a lot of\ndifferent resources"
+    },
+    {
+      "start": 2300.91,
+      "duration": 2.7,
+      "text": "that talk about aeronautical\ndecision-making."
+    },
+    {
+      "start": 2303.61,
+      "duration": 1.95,
+      "text": "I think one of\nthe best resources"
+    },
+    {
+      "start": 2305.56,
+      "duration": 3.36,
+      "text": "is really talking to other\npilots about experiences"
+    },
+    {
+      "start": 2308.92,
+      "duration": 2.04,
+      "text": "that they've gone\nthrough and learning"
+    },
+    {
+      "start": 2310.96,
+      "duration": 2.73,
+      "text": "after you go through an\nexperience reflecting"
+    },
+    {
+      "start": 2313.69,
+      "duration": 2.25,
+      "text": "afterwards whether it's\nthrough your instructor,"
+    },
+    {
+      "start": 2315.94,
+      "duration": 0.94,
+      "text": "with your friends."
+    },
+    {
+      "start": 2316.88,
+      "duration": 1.04,
+      "text": "You know, what happened?"
+    },
+    {
+      "start": 2317.92,
+      "duration": 2.07,
+      "text": "What could I have\ndone differently?"
+    },
+    {
+      "start": 2319.99,
+      "duration": 1.59,
+      "text": "Was that the right\ndecision to make?"
+    },
+    {
+      "start": 2321.58,
+      "duration": 1.71,
+      "text": "So even these little\nthings, like Phillip"
+    },
+    {
+      "start": 2323.29,
+      "duration": 2.31,
+      "text": "was talking about\nflying with Oxana,"
+    },
+    {
+      "start": 2325.6,
+      "duration": 1.92,
+      "text": "trying to avoid some weather."
+    },
+    {
+      "start": 2327.52,
+      "duration": 0.98,
+      "text": "There was rain."
+    },
+    {
+      "start": 2328.5,
+      "duration": 3.49,
+      "text": "Thinking about how he evaluated\nthat risk of that thunderstorm."
+    },
+    {
+      "start": 2331.99,
+      "duration": 1.5,
+      "text": "What could he have\ndone differently?"
+    },
+    {
+      "start": 2333.49,
+      "duration": 1.32,
+      "text": "Was that the right decision?"
+    },
+    {
+      "start": 2334.81,
+      "duration": 2.37,
+      "text": "And in general, making\na conservative decision"
+    },
+    {
+      "start": 2337.18,
+      "duration": 1.74,
+      "text": "is good, because it's\nyour life at stake"
+    },
+    {
+      "start": 2338.92,
+      "duration": 1.04,
+      "text": "that we're talking about."
+    },
+    {
+      "start": 2342.71,
+      "duration": 3.02,
+      "text": "All right, so I think we've\ntalked a lot about this."
+    },
+    {
+      "start": 2345.73,
+      "duration": 3.58,
+      "text": "Are there any specific questions\non aeronautical decision-making"
+    },
+    {
+      "start": 2349.31,
+      "duration": 1.32,
+      "text": "or human factors in general?"
+    },
+    {
+      "start": 2350.63,
+      "duration": 0.61,
+      "text": "Yes."
+    },
+    {
+      "start": 2351.24,
+      "duration": 1.44,
+      "text": "AUDIENCE: You\nmentioned currency."
+    },
+    {
+      "start": 2352.68,
+      "duration": 2.9,
+      "text": "Is there like a recommended\nfrequency, or like rule"
+    },
+    {
+      "start": 2355.59,
+      "duration": 3.06,
+      "text": "of thumb, like how often\nyou should be flying"
+    },
+    {
+      "start": 2358.64,
+      "duration": 1.77,
+      "text": "to be maintaining your skills?"
+    },
+    {
+      "start": 2360.41,
+      "duration": 2.5,
+      "text": "PHILIP GREENSPUN: We're going\nto cover that at the very end."
+    },
+    {
+      "start": 2362.91,
+      "duration": 3.32,
+      "text": "There's a Cirrus that we put\ntogether this big matrix."
+    },
+    {
+      "start": 2366.23,
+      "duration": 2.31,
+      "text": "They don't tell you how\noften to fly to practice."
+    },
+    {
+      "start": 2368.54,
+      "duration": 1.59,
+      "text": "But they tell you\ngiven how recently"
+    },
+    {
+      "start": 2370.13,
+      "duration": 2.04,
+      "text": "you've been flying\nand practicing,"
+    },
+    {
+      "start": 2372.17,
+      "duration": 2.41,
+      "text": "here's the kind of weather\nthat should be challenging."
+    },
+    {
+      "start": 2374.58,
+      "duration": 3.05,
+      "text": "TINA SRIVASTAVA: So the question\nfor those who couldn't hear"
+    },
+    {
+      "start": 2377.63,
+      "duration": 1.89,
+      "text": "was just about the currency."
+    },
+    {
+      "start": 2379.52,
+      "duration": 4.62,
+      "text": "So are there rules about\nhow often you need to fly?"
+    },
+    {
+      "start": 2384.14,
+      "duration": 2.34,
+      "text": "And there are rules,\nespecially related"
+    },
+    {
+      "start": 2386.48,
+      "duration": 3.85,
+      "text": "to carrying passengers\nat night, for example."
+    },
+    {
+      "start": 2390.33,
+      "duration": 2.63,
+      "text": "There are certain legal\ncurrency requirements."
+    },
+    {
+      "start": 2392.96,
+      "duration": 3.54,
+      "text": "But just as Philip said, there's\nalso just personal minimums"
+    },
+    {
+      "start": 2396.5,
+      "duration": 1.71,
+      "text": "that you might want\nto set for yourself."
+    },
+    {
+      "start": 2398.21,
+      "duration": 2.28,
+      "text": "If you haven't gone\nflying for a month,"
+    },
+    {
+      "start": 2400.49,
+      "duration": 2.28,
+      "text": "you may be legally\ncurrent, but may not"
+    },
+    {
+      "start": 2402.77,
+      "duration": 2.37,
+      "text": "be a good time to take\na bunch of passengers"
+    },
+    {
+      "start": 2405.14,
+      "duration": 3.03,
+      "text": "to a new destination that\nyou haven't flown to before."
+    },
+    {
+      "start": 2408.17,
+      "duration": 1.23,
+      "text": "PHILIP GREENSPUN: Yeah, so\nyou remember from yesterday,"
+    },
+    {
+      "start": 2409.4,
+      "duration": 2.04,
+      "text": "there's that 90 day, three\ntakeoffs and landings"
+    },
+    {
+      "start": 2411.44,
+      "duration": 1.62,
+      "text": "within the preceding\n90 days before you"
+    },
+    {
+      "start": 2413.07,
+      "duration": 1.39,
+      "text": "can carry passengers."
+    },
+    {
+      "start": 2414.45,
+      "duration": 1.13,
+      "text": "That's a good minimum."
+    },
+    {
+      "start": 2415.58,
+      "duration": 3.93,
+      "text": "A lot depends on\nthe type of aircraft"
+    },
+    {
+      "start": 2419.51,
+      "duration": 1.6,
+      "text": "and how familiar\nyou are with it."
+    },
+    {
+      "start": 2421.11,
+      "duration": 3.05,
+      "text": "So if you have 500 hours in\na very logically designed"
+    },
+    {
+      "start": 2424.16,
+      "duration": 3.15,
+      "text": "airplane like the\nCirrus, you know,"
+    },
+    {
+      "start": 2427.31,
+      "duration": 2.4,
+      "text": "then you're going\nto be safe probably"
+    },
+    {
+      "start": 2429.71,
+      "duration": 1.75,
+      "text": "without flying too often."
+    },
+    {
+      "start": 2431.46,
+      "duration": 2.16,
+      "text": "In a more complicated\naircraft, you know,"
+    },
+    {
+      "start": 2433.62,
+      "duration": 2.84,
+      "text": "that has buttons and\nlevers just randomly strewn"
+    },
+    {
+      "start": 2436.46,
+      "duration": 3.75,
+      "text": "across the panel, which seems\nto be the industry standard, you"
+    },
+    {
+      "start": 2440.21,
+      "duration": 1.8,
+      "text": "know, if you haven't\nflown it for a month,"
+    },
+    {
+      "start": 2442.01,
+      "duration": 1.77,
+      "text": "you may actually be\na little bit at sea"
+    },
+    {
+      "start": 2443.78,
+      "duration": 2.28,
+      "text": "as to where are the flaps?"
+    },
+    {
+      "start": 2446.06,
+      "duration": 1.6,
+      "text": "Where is the gear?"
+    },
+    {
+      "start": 2447.66,
+      "duration": 2.99,
+      "text": "So a lot depends on how\nmany hours of experience"
+    },
+    {
+      "start": 2450.65,
+      "duration": 2.34,
+      "text": "you have in the type of\naircraft you're going to fly"
+    },
+    {
+      "start": 2452.99,
+      "duration": 3.78,
+      "text": "and just how inherently\nchallenging it is to fly."
+    },
+    {
+      "start": 2456.77,
+      "duration": 3.75,
+      "text": "The practical\ncurrency requirements"
+    },
+    {
+      "start": 2460.52,
+      "duration": 2.13,
+      "text": "for a multi-engine\npiston airplane"
+    },
+    {
+      "start": 2462.65,
+      "duration": 2.85,
+      "text": "are going to be very\ndifferent from those"
+    },
+    {
+      "start": 2465.5,
+      "duration": 2.03,
+      "text": "that you might use\nin the Piper cub."
+    },
+    {
+      "start": 2467.53,
+      "duration": 2.77,
+      "text": "TINA SRIVASTAVA: Yeah, when\nwe polled the class earlier,"
+    },
+    {
+      "start": 2470.3,
+      "duration": 3.0,
+      "text": "I think there were\n70 of you have really"
+    },
+    {
+      "start": 2473.3,
+      "duration": 2.4,
+      "text": "only flown once or not at all."
+    },
+    {
+      "start": 2475.7,
+      "duration": 2.04,
+      "text": "And so that's a\nlot of people that"
+    },
+    {
+      "start": 2477.74,
+      "duration": 1.93,
+      "text": "don't have flying experience."
+    },
+    {
+      "start": 2479.67,
+      "duration": 2.6,
+      "text": "So I would say, you know,\nback before I had 200 hours,"
+    },
+    {
+      "start": 2482.27,
+      "duration": 2.89,
+      "text": "or even before I had 100\nhours of flying experience,"
+    },
+    {
+      "start": 2485.16,
+      "duration": 2.6,
+      "text": "I actually set very strict\ncurrency requirements."
+    },
+    {
+      "start": 2487.76,
+      "duration": 3.09,
+      "text": "I had to fly, you know, two\ntimes a week before I really"
+    },
+    {
+      "start": 2490.85,
+      "duration": 2.54,
+      "text": "felt comfortable\ntaking up a passenger,"
+    },
+    {
+      "start": 2493.39,
+      "duration": 3.46,
+      "text": "when I wanted to fly relatively\nfrequently with an instructor"
+    },
+    {
+      "start": 2496.85,
+      "duration": 3.04,
+      "text": "and practice stall recovery,\nthese types of things."
+    },
+    {
+      "start": 2499.89,
+      "duration": 1.07,
+      "text": "And I think that's good."
+    },
+    {
+      "start": 2500.96,
+      "duration": 3.28,
+      "text": "Make it as much as you need\nto in order to be safe."
+    },
+    {
+      "start": 2504.24,
+      "duration": 0.96,
+      "text": "PHILIP GREENSPUN: Yeah."
+    },
+    {
+      "start": 2505.2,
+      "duration": 2.84,
+      "text": "You could also decide again, if\nyou haven't flown for a while,"
+    },
+    {
+      "start": 2508.04,
+      "duration": 1.8,
+      "text": "are you going to fly\nan IFR approach down"
+    },
+    {
+      "start": 2509.84,
+      "duration": 4.77,
+      "text": "to minimums, down at 200 feet\nabove the runway in the clouds"
+    },
+    {
+      "start": 2514.61,
+      "duration": 4.68,
+      "text": "by yourself in an airplane with\nno autopilot, would be legal?"
+    },
+    {
+      "start": 2519.29,
+      "duration": 2.4,
+      "text": "Or you're going to say,\nlook, I'm a little bit rusty,"
+    },
+    {
+      "start": 2521.69,
+      "duration": 4.29,
+      "text": "so I'm going to only fly\non a fairly calm VFR day"
+    },
+    {
+      "start": 2525.98,
+      "duration": 1.32,
+      "text": "and get back into it?"
+    },
+    {
+      "start": 2527.3,
+      "duration": 3.08,
+      "text": "So a lot depends on the\nchallenge of the flight"
+    },
+    {
+      "start": 2530.38,
+      "duration": 1.39,
+      "text": "that you're considering."
+    },
+    {
+      "start": 2534.57,
+      "duration": 1.0,
+      "text": "Who else has a question?"
+    },
+    {
+      "start": 2538.18,
+      "duration": 1.75,
+      "text": "I'll tell you one\nmore little story."
+    },
+    {
+      "start": 2539.93,
+      "duration": 3.62,
+      "text": "A friend of mine had a twin\nengine airplane, a Cessna 340,"
+    },
+    {
+      "start": 2543.55,
+      "duration": 1.86,
+      "text": "which is a very\ncomplicated airplane with--"
+    },
+    {
+      "start": 2545.41,
+      "duration": 3.97,
+      "text": "I think it has six fuel tanks\nand all kinds of levers."
+    },
+    {
+      "start": 2549.38,
+      "duration": 3.32,
+      "text": "It's pressurized off\nthe turbo chargers."
+    },
+    {
+      "start": 2552.7,
+      "duration": 2.73,
+      "text": "Anyway, one engine\ncaught on fire."
+    },
+    {
+      "start": 2555.43,
+      "duration": 1.59,
+      "text": "So an engine caught on fire."
+    },
+    {
+      "start": 2557.02,
+      "duration": 4.26,
+      "text": "He's got four or five people\nfrom his family in the back."
+    },
+    {
+      "start": 2561.28,
+      "duration": 3.36,
+      "text": "And he manages to get the fire\nout by cutting off the fuel,"
+    },
+    {
+      "start": 2564.64,
+      "duration": 2.16,
+      "text": "I guess, to the burning engine."
+    },
+    {
+      "start": 2566.8,
+      "duration": 2.34,
+      "text": "He's right above Bradley\nField in Connecticut."
+    },
+    {
+      "start": 2569.14,
+      "duration": 3.18,
+      "text": "So that's one of the largest\nairports actually in the world."
+    },
+    {
+      "start": 2572.32,
+      "duration": 2.92,
+      "text": "It's probably among\nthe top few percent"
+    },
+    {
+      "start": 2575.24,
+      "duration": 2.95,
+      "text": "of big airports in the world\nin terms of physical size."
+    },
+    {
+      "start": 2578.19,
+      "duration": 1.42,
+      "text": "They have regular\nairline service."
+    },
+    {
+      "start": 2579.61,
+      "duration": 1.58,
+      "text": "They have a full-time\nfire department."
+    },
+    {
+      "start": 2581.19,
+      "duration": 1.24,
+      "text": "They have a control tower."
+    },
+    {
+      "start": 2582.43,
+      "duration": 2.54,
+      "text": "They have a runway that's about\nas long as Logan's, you know,"
+    },
+    {
+      "start": 2584.97,
+      "duration": 3.79,
+      "text": "like close to 1\nmiles long runway."
+    },
+    {
+      "start": 2588.76,
+      "duration": 3.53,
+      "text": "So he decides, well,\nI've got one engine."
+    },
+    {
+      "start": 2592.29,
+      "duration": 0.62,
+      "text": "It's nighttime."
+    },
+    {
+      "start": 2592.91,
+      "duration": 1.6,
+      "text": "It was night."
+    },
+    {
+      "start": 2594.52,
+      "duration": 1.29,
+      "text": "The controllers are right here."
+    },
+    {
+      "start": 2595.81,
+      "duration": 3.65,
+      "text": "Should I just, you know,\nspiral down and land"
+    },
+    {
+      "start": 2599.46,
+      "duration": 1.95,
+      "text": "on one of these huge\nrunways at Bradley"
+    },
+    {
+      "start": 2601.41,
+      "duration": 3.25,
+      "text": "and the fire department come\nup and meet the airplane?"
+    },
+    {
+      "start": 2604.66,
+      "duration": 2.19,
+      "text": "Or-- that's option 1."
+    },
+    {
+      "start": 2606.85,
+      "duration": 2.01,
+      "text": "Let's see what you guys think."
+    },
+    {
+      "start": 2608.86,
+      "duration": 2.91,
+      "text": "Option 2, let me continue\nto my home airport"
+    },
+    {
+      "start": 2611.77,
+      "duration": 2.72,
+      "text": "at Fitchburg, which\nis unattended."
+    },
+    {
+      "start": 2614.49,
+      "duration": 3.31,
+      "text": "I don't think there's a fire\ndepartment that's there."
+    },
+    {
+      "start": 2617.8,
+      "duration": 1.59,
+      "text": "There's no control tower."
+    },
+    {
+      "start": 2619.39,
+      "duration": 2.46,
+      "text": "The runway is pretty\nshort, 4,500 feet."
+    },
+    {
+      "start": 2621.85,
+      "duration": 1.92,
+      "text": "But on the other hand,\nit is the home airport."
+    },
+    {
+      "start": 2623.77,
+      "duration": 1.26,
+      "text": "So it's very familiar."
+    },
+    {
+      "start": 2625.03,
+      "duration": 2.58,
+      "text": "And he's got one engine left."
+    },
+    {
+      "start": 2627.61,
+      "duration": 3.6,
+      "text": "You only need one\nengine to descend."
+    },
+    {
+      "start": 2631.21,
+      "duration": 1.98,
+      "text": "So what do you\nguys think, A or B?"
+    },
+    {
+      "start": 2633.19,
+      "duration": 4.51,
+      "text": "Land it at Bradley\nor go to Pittsburgh?"
+    },
+    {
+      "start": 2637.7,
+      "duration": 1.46,
+      "text": "OK, what do you\nthink this guy did?"
+    },
+    {
+      "start": 2639.16,
+      "duration": 1.41,
+      "text": "AUDIENCE: He went to Fitchburg."
+    },
+    {
+      "start": 2640.57,
+      "duration": 1.13,
+      "text": "PHILIP GREENSPUN: He\nwent to Fitchburg."
+    },
+    {
+      "start": 2641.7,
+      "duration": 1.33,
+      "text": "And he wrecked the airplane."
+    },
+    {
+      "start": 2643.03,
+      "duration": 0.87,
+      "text": "You know, he landed."
+    },
+    {
+      "start": 2643.9,
+      "duration": 2.65,
+      "text": "But I don't know-- it's\ntwins with one engine."
+    },
+    {
+      "start": 2646.55,
+      "duration": 1.88,
+      "text": "They always say the\nsecond engine carries you"
+    },
+    {
+      "start": 2648.43,
+      "duration": 1.21,
+      "text": "to the scene of the accident."
+    },
+    {
+      "start": 2649.64,
+      "duration": 2.39,
+      "text": "We'll talk about that tomorrow."
+    },
+    {
+      "start": 2652.03,
+      "duration": 3.04,
+      "text": "So they just are hard--\nit's hard to maintain--"
+    },
+    {
+      "start": 2655.07,
+      "duration": 2.0,
+      "text": "it's hard to keep them\ngoing perfectly straight."
+    },
+    {
+      "start": 2657.07,
+      "duration": 1.92,
+      "text": "So, of course, he didn't\ngo perfectly straight"
+    },
+    {
+      "start": 2658.99,
+      "duration": 2.55,
+      "text": "down the runway, went off\nthe side of the runway,"
+    },
+    {
+      "start": 2661.54,
+      "duration": 1.71,
+      "text": "did some damage to the airplane."
+    },
+    {
+      "start": 2663.25,
+      "duration": 1.44,
+      "text": "Nobody was hurt, fortunately."
+    },
+    {
+      "start": 2664.69,
+      "duration": 3.0,
+      "text": "The punchline of the story\nis he doesn't tell this"
+    },
+    {
+      "start": 2667.69,
+      "duration": 3.45,
+      "text": "as an example of bad\naeronautical decision-making he"
+    },
+    {
+      "start": 2671.14,
+      "duration": 3.93,
+      "text": "tells this as a story\nof good decisions"
+    },
+    {
+      "start": 2675.07,
+      "duration": 1.95,
+      "text": "and making good\ndecisions as a pilot."
+    },
+    {
+      "start": 2677.02,
+      "duration": 1.95,
+      "text": "And I'm not really sure why."
+    },
+    {
+      "start": 2678.97,
+      "duration": 1.71,
+      "text": "But anyway, I just\nwanted to tell you,"
+    },
+    {
+      "start": 2680.68,
+      "duration": 2.04,
+      "text": "like despite all\nthose checklists,"
+    },
+    {
+      "start": 2682.72,
+      "duration": 3.24,
+      "text": "people can have very\ndifferent perspectives on what"
+    },
+    {
+      "start": 2685.96,
+      "duration": 2.07,
+      "text": "constitutes a wise decision."
+    },
+    {
+      "start": 2688.03,
+      "duration": 3.21,
+      "text": "But personally, I try to\ndo-- you know, I have an ATP."
+    },
+    {
+      "start": 2691.24,
+      "duration": 3.24,
+      "text": "But I try to do flights whenever\npossible that require only"
+    },
+    {
+      "start": 2694.48,
+      "duration": 1.99,
+      "text": "a student pilot level of skill."
+    },
+    {
+      "start": 2696.47,
+      "duration": 2.53,
+      "text": "And that gives me a nice margin."
+    }
+  ]
+}

@@ -20,8 +20,8 @@ export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
     setCurrentIndex
 }) => {
     return (
-        <div className="sidebar" style={{ width: '300px', display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-            <div className="glass-card" style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column', maxHeight: 'calc(100vh - 4rem)', overflowY: 'auto' }}>
+        <div className="sidebar" style={{ width: '300px', display: 'flex', flexDirection: 'column', gap: '1rem', height: '100%', minHeight: 0 }}>
+            <div className="glass-card" style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column', minHeight: 0, overflowY: 'auto' }}>
                 {/* Collapsible Header */}
                 <div
                     className="sidebar-header"
@@ -63,21 +63,39 @@ export const QuestionNavigator: React.FC<QuestionNavigatorProps> = ({
                                 }}
                                 style={{
                                     padding: '0.5rem',
-                                    borderRadius: '4px',
+                                    borderRadius: '8px',
                                     background: bgColor,
                                     border: `1px solid ${borderColor}`,
                                     color: 'var(--text-primary)',
                                     cursor: 'pointer',
                                     fontWeight: idx === currentIndex ? 'bold' : 'normal',
-                                    transition: 'all 0.2s ease',
+                                    transition: 'all 0.15s ease',
                                     minWidth: '40px',
-                                    textAlign: 'center'
+                                    textAlign: 'center',
+                                    boxShadow: idx === currentIndex ? '0 0 0 2px var(--accent-color)' : 'none',
                                 }}
+                                onMouseEnter={(e) => { if (idx !== currentIndex) e.currentTarget.style.transform = 'translateY(-2px)'; }}
+                                onMouseLeave={(e) => { e.currentTarget.style.transform = 'translateY(0)'; }}
                             >
                                 {idx + 1}
                             </button>
                         );
                     })}
+                </div>
+
+                {/* Legend */}
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.75rem', marginTop: '1.25rem', paddingTop: '1rem', borderTop: '1px solid var(--glass-border)', fontSize: '0.75rem', color: 'var(--text-secondary)' }}>
+                    {[
+                        { color: 'var(--success-color)', label: 'Correct' },
+                        { color: 'var(--error-color)', label: 'Incorrect' },
+                        { color: 'var(--accent-color)', label: 'Current' },
+                        { color: 'var(--glass-border)', label: 'Unanswered' },
+                    ].map(item => (
+                        <div key={item.label} style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                            <span style={{ width: '12px', height: '12px', borderRadius: '4px', background: item.color, display: 'inline-block', opacity: 0.9 }} />
+                            {item.label}
+                        </div>
+                    ))}
                 </div>
             </div>
         </div>

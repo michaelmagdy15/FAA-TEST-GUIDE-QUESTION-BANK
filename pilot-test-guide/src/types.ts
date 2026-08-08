@@ -14,4 +14,4 @@ export interface Question {
     figureRef?: number;
 }
 
-export type TestMode = 'ppl' | 'ir' | 'cpl';
+export type TestMode = 'ppl' | 'ir' | 'cpl' | 'c172';

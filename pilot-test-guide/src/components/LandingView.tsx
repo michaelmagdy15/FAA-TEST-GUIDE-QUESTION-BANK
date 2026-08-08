@@ -1,5 +1,5 @@
 import React from 'react';
-import { Plane, Navigation, Zap, AlertCircle } from 'lucide-react';
+import { Plane, Navigation, Zap, AlertCircle, BookOpen, RotateCcw, CheckCircle2 } from 'lucide-react';
 import { sfx } from '../utils/sfx';
 import { TestMode } from '../types';
 import { AuthButton } from './AuthButton';
@@ -27,6 +27,7 @@ const MODE_CONFIG: Record<TestMode, { label: string; icon: React.ReactNode; acce
     ppl: { label: 'Private Pilot (PPL)', icon: <Plane size={18} />, accent: 'var(--accent-color)', accentRgb: '59, 130, 246', subtitle: 'Private Pilot Test Guide' },
     ir: { label: 'Instrument Rating (IR)', icon: <Navigation size={18} />, accent: '#10b981', accentRgb: '16, 185, 129', subtitle: 'Instrument Rating Test Guide' },
     cpl: { label: 'Commercial Pilot (CPL)', icon: <Zap size={18} />, accent: '#f59e0b', accentRgb: '245, 158, 11', subtitle: 'Commercial Pilot Test Guide' },
+    c172: { label: 'Cessna 172R', icon: <Plane size={18} />, accent: '#06b6d4', accentRgb: '6, 182, 212', subtitle: 'Limitations & Emergency Procedures' },
 };
 
 export const LandingView: React.FC<LandingViewProps> = ({
@@ -35,19 +36,26 @@ export const LandingView: React.FC<LandingViewProps> = ({
     const cfg = MODE_CONFIG[mode];
 
     return (
-        <div className="landing-view animate-in" style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh', paddingBottom: '3rem' }}>
+        <div className="landing-view animate-in" style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0, overflowY: 'auto', paddingBottom: '1.5rem' }}>
             <div style={{ display: 'flex', justifyContent: 'flex-end', marginBottom: '1rem' }}>
                 <AuthButton />
             </div>
             <header style={{ textAlign: 'center', marginBottom: '4rem' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '1.75rem' }}>
+                    <img
+                        src="/favicon.svg"
+                        alt="Pilot Test Guide logo"
+                        style={{ width: '76px', height: '76px', filter: 'drop-shadow(0 10px 28px rgba(59, 130, 246, 0.4))' }}
+                    />
+                </div>
                 <h1 className="title">Pilot Test Guide</h1>
-                <p className="subtitle" style={{ opacity: 0.8, marginBottom: '2rem' }}>Master your aviation knowledge with our interactive question bank.</p>
+                <p className="subtitle" style={{ opacity: 0.8, marginBottom: '2rem' }}>Master your aviation knowledge with our interactive question bank. Progress is saved on this device automatically.</p>
 
                 {/* 3-Tab Mode Toggle */}
                 <div style={{ display: 'flex', justifyContent: 'center', marginBottom: '3rem' }}>
                     <div
                         className="glass-card"
-                        style={{ display: 'flex', gap: '0.25rem', padding: '6px', borderRadius: '12px' }}
+                        style={{ display: 'flex', gap: '0.25rem', padding: '6px', borderRadius: '14px' }}
                     >
                         {(Object.entries(MODE_CONFIG) as [TestMode, typeof cfg][]).map(([m, c]) => {
                             const isActive = mode === m;
@@ -61,7 +69,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
                                         alignItems: 'center',
                                         gap: '0.5rem',
                                         padding: '0.75rem 1.5rem',
-                                        borderRadius: '8px',
+                                        borderRadius: '10px',
                                         border: 'none',
                                         cursor: 'pointer',
                                         fontWeight: isActive ? 600 : 500,
@@ -81,8 +89,14 @@ export const LandingView: React.FC<LandingViewProps> = ({
                     </div>
                 </div>
 
-                <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem' }}>
-                    <div className="glass-card" style={{ padding: '1.5rem 2.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                <div style={{ display: 'flex', justifyContent: 'center', gap: '2rem', flexWrap: 'wrap' }}>
+                    <div
+                        className="glass-card"
+                        style={{ padding: '1.5rem 2.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}
+                    >
+                        <div style={{ width: '44px', height: '44px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(59, 130, 246, 0.15)', color: cfg.accent, marginBottom: '0.75rem' }}>
+                            <BookOpen size={22} />
+                        </div>
                         <span style={{ fontSize: '2.5rem', fontWeight: 700, color: cfg.accent, lineHeight: 1 }}>{totalQuestions}</span>
                         <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginTop: '0.5rem' }}>Questions Available</span>
                     </div>
@@ -101,15 +115,20 @@ export const LandingView: React.FC<LandingViewProps> = ({
                         onClick={reviewCount > 0 ? () => { sfx.playSelect(); onReview(); } : undefined}
                         onMouseEnter={() => reviewCount > 0 && sfx.playHover()}
                     >
-                        <span style={{ fontSize: '2.5rem', fontWeight: 700, color: reviewCount > 0 ? 'var(--error-color)' : 'var(--text-secondary)', lineHeight: 1, display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                            {reviewCount > 0 && <AlertCircle size={28} />}
+                        <div style={{ width: '44px', height: '44px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(239, 68, 68, 0.15)', color: reviewCount > 0 ? 'var(--error-color)' : 'var(--text-secondary)', marginBottom: '0.75rem' }}>
+                            <AlertCircle size={22} />
+                        </div>
+                        <span style={{ fontSize: '2.5rem', fontWeight: 700, color: reviewCount > 0 ? 'var(--error-color)' : 'var(--text-secondary)', lineHeight: 1 }}>
                             {reviewCount}
                         </span>
                         <span style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginTop: '0.5rem' }}>Needs Review</span>
                     </div>
 
                     {/* Reset All Progress Button */}
-                    <div className="glass-card" style={{ padding: '0.5rem', display: 'flex', flexDirection: 'column', justifyContent: 'center' }}>
+                    <div className="glass-card" style={{ padding: '1.5rem 1rem', display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                        <div style={{ width: '44px', height: '44px', borderRadius: '14px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(239, 68, 68, 0.12)', color: 'var(--error-color)', marginBottom: '0.75rem' }}>
+                            <RotateCcw size={22} />
+                        </div>
                         <button
                             onClick={() => {
                                 if (onResetAll && window.confirm("Are you sure you want to reset all progress for this subject?")) {
@@ -121,12 +140,9 @@ export const LandingView: React.FC<LandingViewProps> = ({
                                 padding: '0.5rem 1rem',
                                 background: 'transparent',
                                 color: 'var(--error-color)',
-                                borderColor: 'var(--error-color)',
+                                borderColor: 'rgba(239, 68, 68, 0.35)',
                                 fontSize: '0.8rem',
-                                opacity: 0.8
                             }}
-                            onMouseEnter={(e) => (e.currentTarget.style.opacity = '1')}
-                            onMouseLeave={(e) => (e.currentTarget.style.opacity = '0.8')}
                         >
                             Reset Progress
                         </button>
@@ -139,6 +155,7 @@ export const LandingView: React.FC<LandingViewProps> = ({
                 {chapters.map((chapter, index) => {
                     const completed = chapterProgress[chapter.id] || 0;
                     const progressPercent = chapter.total > 0 ? (completed / chapter.total) * 100 : 0;
+                    const isDone = completed >= chapter.total && chapter.total > 0;
 
                     return (
                         <div
@@ -148,15 +165,26 @@ export const LandingView: React.FC<LandingViewProps> = ({
                             onMouseEnter={() => sfx.playHover()}
                             style={{ position: 'relative', overflow: 'hidden', padding: '1.5rem' }}
                         >
-                            <div className="topic-header">Ch {chapter.id}: {chapter.title}</div>
+                            <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '0.9rem' }}>
+                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', minWidth: 0 }}>
+                                    <span className="chip">
+                                        {isDone ? <CheckCircle2 size={13} /> : `Ch ${chapter.id}`}
+                                    </span>
+                                    <div className="topic-header" style={{ marginBottom: 0, overflow: 'hidden', textOverflow: 'ellipsis', whiteSpace: 'nowrap' }}>{chapter.title}</div>
+                                </div>
+                                <span style={{ color: cfg.accent, fontSize: '1.3rem', flexShrink: 0, transition: 'var(--transition)' }}>→</span>
+                            </div>
                             <div className="topic-meta" style={{ marginBottom: '0.5rem' }}>
-                                <span>{completed > 0 ? `${completed} / ${chapter.total} completed` : `${chapter.total} questions`}</span>
-                                <span style={{ color: cfg.accent, fontSize: '1.2rem' }}>&rarr;</span>
+                                {completed > 0 ? (
+                                    <span>{completed} / {chapter.total} completed · {Math.round(progressPercent)}%</span>
+                                ) : (
+                                    <span>{chapter.total} questions</span>
+                                )}
                             </div>
 
                             {/* Progress Bar */}
                             <div style={{ position: 'absolute', bottom: 0, left: 0, width: '100%', height: '4px', background: 'var(--glass-border)' }}>
-                                <div style={{ width: `${progressPercent}%`, height: '100%', background: cfg.accent, transition: 'width 0.3s ease' }} />
+                                <div style={{ width: `${progressPercent}%`, height: '100%', background: isDone ? 'var(--success-color)' : cfg.accent, transition: 'width 0.3s ease' }} />
                             </div>
 
                             {completed > 0 && (

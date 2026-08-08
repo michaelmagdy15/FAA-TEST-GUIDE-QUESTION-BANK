@@ -1,0 +1,3524 @@
+{
+  "videoId": "802a1jvk5Ck",
+  "lectureNum": 18,
+  "title": "Weight and Balance",
+  "topics": [
+    "weight and balance",
+    "CG",
+    "center of gravity",
+    "loading",
+    "moment"
+  ],
+  "segments": [
+    {
+      "start": 0.0,
+      "duration": 1.95,
+      "text": "[CLICKING]"
+    },
+    {
+      "start": 13.35,
+      "duration": 1.46,
+      "text": "PHILIP GREENSPUN:\nAll right, folks."
+    },
+    {
+      "start": 14.81,
+      "duration": 1.07,
+      "text": "Tina is going to tell you more."
+    },
+    {
+      "start": 15.88,
+      "duration": 1.3,
+      "text": "We had a little bit\nof weight and balance"
+    },
+    {
+      "start": 17.18,
+      "duration": 1.67,
+      "text": "before that flight\nplanning example,"
+    },
+    {
+      "start": 18.85,
+      "duration": 3.12,
+      "text": "but Tina is now going to\ngive you the real story."
+    },
+    {
+      "start": 24.81,
+      "duration": 2.33,
+      "text": "TINA SRIVASTAVA: So are guys\nall ready to go out and get"
+    },
+    {
+      "start": 27.14,
+      "duration": 2.82,
+      "text": "your drone license?"
+    },
+    {
+      "start": 29.96,
+      "duration": 0.73,
+      "text": "Good."
+    },
+    {
+      "start": 30.69,
+      "duration": 0.79,
+      "text": "I'm really glad."
+    },
+    {
+      "start": 31.48,
+      "duration": 3.52,
+      "text": "PHILIP GREENSPUN: [INAUDIBLE]"
+    },
+    {
+      "start": 34.99,
+      "duration": 1.12,
+      "text": "TINA SRIVASTAVA: All right."
+    },
+    {
+      "start": 36.12,
+      "duration": 4.9,
+      "text": "Weight and balance So\nwe talked a little bit."
+    },
+    {
+      "start": 41.02,
+      "duration": 2.24,
+      "text": "We've actually had quite a\nfew discussions throughout"
+    },
+    {
+      "start": 43.26,
+      "duration": 4.05,
+      "text": "about stability, about\nwhere the center of G"
+    },
+    {
+      "start": 47.31,
+      "duration": 2.49,
+      "text": "is, how that affects\nyour controllability"
+    },
+    {
+      "start": 49.8,
+      "duration": 1.27,
+      "text": "of the aircraft."
+    },
+    {
+      "start": 51.07,
+      "duration": 2.84,
+      "text": "So weight and balance is\nnot only an important thing"
+    },
+    {
+      "start": 53.91,
+      "duration": 1.86,
+      "text": "to know, but it's\na required thing"
+    },
+    {
+      "start": 55.77,
+      "duration": 3.31,
+      "text": "that you have to do before\nyou go flying each time."
+    },
+    {
+      "start": 59.08,
+      "duration": 2.18,
+      "text": "And one thing\nthat's also relevant"
+    },
+    {
+      "start": 61.26,
+      "duration": 2.83,
+      "text": "is to understand the\ncenter of gravity,"
+    },
+    {
+      "start": 64.09,
+      "duration": 2.0,
+      "text": "and you want to make sure\nthat center of gravity"
+    },
+    {
+      "start": 66.09,
+      "duration": 4.34,
+      "text": "is within the limits\nfor your given aircraft."
+    },
+    {
+      "start": 70.43,
+      "duration": 2.93,
+      "text": "So we talked about--"
+    },
+    {
+      "start": 73.36,
+      "duration": 3.3,
+      "text": "yesterday, when we were talking\nabout aerodynamic flight,"
+    },
+    {
+      "start": 76.66,
+      "duration": 2.67,
+      "text": "that certain aircraft\nhave to be reinforced"
+    },
+    {
+      "start": 79.33,
+      "duration": 1.72,
+      "text": "to do certain operations."
+    },
+    {
+      "start": 81.05,
+      "duration": 1.81,
+      "text": "So again, it really\nhas to do with that."
+    },
+    {
+      "start": 82.86,
+      "duration": 2.5,
+      "text": "And by the way,\nfrom yesterday, mark"
+    },
+    {
+      "start": 85.36,
+      "duration": 4.46,
+      "text": "left behind some of his\naerodynamic procedure diagrams."
+    },
+    {
+      "start": 89.81,
+      "duration": 3.52,
+      "text": "So if you want to take a look\nat that, those are up front."
+    },
+    {
+      "start": 93.34,
+      "duration": 1.5,
+      "text": "Well, one thing\nthat really you have"
+    },
+    {
+      "start": 94.84,
+      "duration": 3.06,
+      "text": "to keep in mind in terms of\nwhat the aircraft can handle"
+    },
+    {
+      "start": 97.9,
+      "duration": 2.64,
+      "text": "is just what is the\nmax gross weight."
+    },
+    {
+      "start": 100.54,
+      "duration": 5.16,
+      "text": "So what can this airframe\nsustain, in terms of stresses"
+    },
+    {
+      "start": 105.7,
+      "duration": 1.87,
+      "text": "on its body."
+    },
+    {
+      "start": 107.57,
+      "duration": 3.78,
+      "text": "We also talked this\nmorning about performance"
+    },
+    {
+      "start": 111.35,
+      "duration": 4.92,
+      "text": "and discussed certain\nthings like the distance--"
+    },
+    {
+      "start": 116.27,
+      "duration": 3.21,
+      "text": "the length of the runway and the\ndistance you need to take off"
+    },
+    {
+      "start": 119.48,
+      "duration": 3.48,
+      "text": "are affected by how the\nairplane is weighted."
+    },
+    {
+      "start": 122.96,
+      "duration": 3.45,
+      "text": "So we're going to talk about\nthose things specifically,"
+    },
+    {
+      "start": 126.41,
+      "duration": 2.37,
+      "text": "and then one thing\nI have on here"
+    },
+    {
+      "start": 128.78,
+      "duration": 2.52,
+      "text": "is if you go over\nyour gross weight,"
+    },
+    {
+      "start": 131.3,
+      "duration": 3.3,
+      "text": "then you get into\ntest pilot territory,"
+    },
+    {
+      "start": 134.6,
+      "duration": 1.96,
+      "text": "and right after this--"
+    },
+    {
+      "start": 136.56,
+      "duration": 1.58,
+      "text": "we'll grab lunch and\ncome back-- we'll"
+    },
+    {
+      "start": 138.14,
+      "duration": 2.61,
+      "text": "hear from [INAUDIBLE],,\na test pilot who's"
+    },
+    {
+      "start": 140.75,
+      "duration": 3.7,
+      "text": "going to tell you some\nreally cool things as well."
+    },
+    {
+      "start": 144.45,
+      "duration": 3.02,
+      "text": "All right, so it's just some\nbasic terms to get started off."
+    },
+    {
+      "start": 147.47,
+      "duration": 2.85,
+      "text": "So when you're thinking\nabout an aircraft,"
+    },
+    {
+      "start": 150.32,
+      "duration": 3.6,
+      "text": "one piece of information is\nits standard empty weight."
+    },
+    {
+      "start": 153.92,
+      "duration": 2.22,
+      "text": "So that's the weight\nof the airplane,"
+    },
+    {
+      "start": 156.14,
+      "duration": 2.97,
+      "text": "and there's also\nsome fuel in the tank"
+    },
+    {
+      "start": 159.11,
+      "duration": 4.56,
+      "text": "that sometimes it's hard to\ndrain, and when you refill,"
+    },
+    {
+      "start": 163.67,
+      "duration": 3.42,
+      "text": "that fuel sits at the bottom and\ncan't be used by the aircraft,"
+    },
+    {
+      "start": 167.09,
+      "duration": 2.28,
+      "text": "so that's the unusable\nfuel, and then"
+    },
+    {
+      "start": 169.37,
+      "duration": 2.28,
+      "text": "there's some different\nfluids and fuel"
+    },
+    {
+      "start": 171.65,
+      "duration": 1.29,
+      "text": "oil inside the aircraft."
+    },
+    {
+      "start": 172.94,
+      "duration": 2.55,
+      "text": "So all those count\nin the calculation"
+    },
+    {
+      "start": 175.49,
+      "duration": 1.92,
+      "text": "of the standard empty weight."
+    },
+    {
+      "start": 177.41,
+      "duration": 1.98,
+      "text": "There's also the\nbasic empty weight,"
+    },
+    {
+      "start": 179.39,
+      "duration": 2.94,
+      "text": "where you have some\noptional equipment inside,"
+    },
+    {
+      "start": 182.33,
+      "duration": 5.64,
+      "text": "and we'll go to a aircraft's POH\nto look into what it actually"
+    },
+    {
+      "start": 187.97,
+      "duration": 1.4,
+      "text": "reports about what it contains."
+    },
+    {
+      "start": 192.38,
+      "duration": 1.41,
+      "text": "There's also a\ngood rule of thumb"
+    },
+    {
+      "start": 193.79,
+      "duration": 3.66,
+      "text": "to know about what weight\nyou're going to associate"
+    },
+    {
+      "start": 197.45,
+      "duration": 2.26,
+      "text": "with the per gallon of fuel."
+    },
+    {
+      "start": 199.71,
+      "duration": 3.53,
+      "text": "So it's generally a good\nnumber is six pounds."
+    },
+    {
+      "start": 203.24,
+      "duration": 1.47,
+      "text": "For the fuel that\nyou'll be using,"
+    },
+    {
+      "start": 204.71,
+      "duration": 4.25,
+      "text": "it's slightly more for\ndifferent types of fuel."
+    },
+    {
+      "start": 208.97,
+      "duration": 1.62,
+      "text": "So right at the\nbeginning of the class,"
+    },
+    {
+      "start": 210.59,
+      "duration": 3.3,
+      "text": "we talked about weight,\nwhich is the force pulling"
+    },
+    {
+      "start": 213.89,
+      "duration": 5.28,
+      "text": "the aircraft down, which has to\noppose the lift pulling it up."
+    },
+    {
+      "start": 219.17,
+      "duration": 4.48,
+      "text": "So the weight actually\nbecomes less as you burn fuel."
+    },
+    {
+      "start": 223.65,
+      "duration": 3.02,
+      "text": "So when you take off, you have\nall the fuel on the aircraft."
+    },
+    {
+      "start": 226.67,
+      "duration": 1.89,
+      "text": "As you've been flying\nfor a while, that"
+    },
+    {
+      "start": 228.56,
+      "duration": 4.26,
+      "text": "fuel is used in the\naircraft has less weight."
+    },
+    {
+      "start": 232.82,
+      "duration": 3.14,
+      "text": "So there's a fully\nloaded aircraft."
+    },
+    {
+      "start": 235.96,
+      "duration": 3.06,
+      "text": "Has something called\nthe maximum ramp weight."
+    },
+    {
+      "start": 239.02,
+      "duration": 3.51,
+      "text": "So that has fuel that\nwill be expended even"
+    },
+    {
+      "start": 242.53,
+      "duration": 2.91,
+      "text": "when it's just taxiing\nover to the runway,"
+    },
+    {
+      "start": 245.44,
+      "duration": 3.15,
+      "text": "and so you make certain\nassumptions about how"
+    },
+    {
+      "start": 248.59,
+      "duration": 1.65,
+      "text": "much fuel you'll\nactually burn off"
+    },
+    {
+      "start": 250.24,
+      "duration": 4.47,
+      "text": "just taxiing up to the runway\nand then before you take off."
+    },
+    {
+      "start": 254.71,
+      "duration": 2.4,
+      "text": "And so when you're calculating\nthe weight of the airplane"
+    },
+    {
+      "start": 257.11,
+      "duration": 1.92,
+      "text": "when it takes off,\nit'll be slightly"
+    },
+    {
+      "start": 259.03,
+      "duration": 2.91,
+      "text": "different than how you fueled\nit when it was sitting parking"
+    },
+    {
+      "start": 261.94,
+      "duration": 2.64,
+      "text": "on the ramp."
+    },
+    {
+      "start": 264.58,
+      "duration": 2.92,
+      "text": "OK, some of the\nbiggest things that you"
+    },
+    {
+      "start": 267.5,
+      "duration": 2.37,
+      "text": "would keep in mind that\nyou change every time you"
+    },
+    {
+      "start": 269.87,
+      "duration": 1.29,
+      "text": "get into the airplane."
+    },
+    {
+      "start": 271.16,
+      "duration": 1.89,
+      "text": "So there's the weight\nof the passengers,"
+    },
+    {
+      "start": 273.05,
+      "duration": 1.71,
+      "text": "the baggage you take\nwith you, and then"
+    },
+    {
+      "start": 274.76,
+      "duration": 4.5,
+      "text": "how much fuel you fill the\nplane with before you take off."
+    },
+    {
+      "start": 279.26,
+      "duration": 4.63,
+      "text": "So the payload in this case is\nthe passengers and the cargo."
+    },
+    {
+      "start": 283.89,
+      "duration": 2.3,
+      "text": "So whatever baggage and\nthe weight of those bags"
+    },
+    {
+      "start": 286.19,
+      "duration": 3.0,
+      "text": "that you take with you."
+    },
+    {
+      "start": 289.19,
+      "duration": 3.97,
+      "text": "So one thing to keep in mind\nin addition to just the weight,"
+    },
+    {
+      "start": 293.16,
+      "duration": 4.29,
+      "text": "we have to figure out where\nthat vector, that force vector,"
+    },
+    {
+      "start": 297.45,
+      "duration": 1.81,
+      "text": "acts on the aircraft."
+    },
+    {
+      "start": 299.26,
+      "duration": 1.99,
+      "text": "If all of the weight\nis really at the front,"
+    },
+    {
+      "start": 301.25,
+      "duration": 1.42,
+      "text": "you might have a\ncenter of gravity"
+    },
+    {
+      "start": 302.67,
+      "duration": 3.69,
+      "text": "at the front, which will create\na moment on the airplane."
+    },
+    {
+      "start": 306.36,
+      "duration": 2.68,
+      "text": "So it'll cause it to bend\nin a particular direction."
+    },
+    {
+      "start": 309.04,
+      "duration": 1.61,
+      "text": "And if all that\nweight was acting"
+    },
+    {
+      "start": 310.65,
+      "duration": 1.38,
+      "text": "at the back of\nthe plane, you had"
+    },
+    {
+      "start": 312.02,
+      "duration": 2.79,
+      "text": "a lot of really heavy bricks\nat your tail, which is not"
+    },
+    {
+      "start": 314.82,
+      "duration": 2.7,
+      "text": "a good idea, it would\ncause that force vector"
+    },
+    {
+      "start": 317.52,
+      "duration": 2.22,
+      "text": "to act over here\nand create a moment."
+    },
+    {
+      "start": 319.74,
+      "duration": 3.43,
+      "text": "So that's all related to torque,\nwhich we talked about before."
+    },
+    {
+      "start": 323.17,
+      "duration": 2.54,
+      "text": "So it's also important,\nnot just to calculate"
+    },
+    {
+      "start": 325.71,
+      "duration": 1.86,
+      "text": "what the weight\nis of the airplane"
+    },
+    {
+      "start": 327.57,
+      "duration": 2.34,
+      "text": "once everybody and\neverything is inside,"
+    },
+    {
+      "start": 329.91,
+      "duration": 3.63,
+      "text": "but also how that weight is\ndistributed in the airplane"
+    },
+    {
+      "start": 333.54,
+      "duration": 2.34,
+      "text": "and how it affects the\nairplane's center of gravity."
+    },
+    {
+      "start": 338.78,
+      "duration": 3.19,
+      "text": "All right, so I think that\nmany of you have already--"
+    },
+    {
+      "start": 341.97,
+      "duration": 2.3,
+      "text": "It looks like most\nfolks in the rooms"
+    },
+    {
+      "start": 344.27,
+      "duration": 3.09,
+      "text": "were either MIT undergrad\nor grad student, which"
+    },
+    {
+      "start": 347.36,
+      "duration": 2.88,
+      "text": "means you already understand\nsome of these basic physics"
+    },
+    {
+      "start": 350.24,
+      "duration": 2.58,
+      "text": "terms about torque\nand moment, so we'll"
+    },
+    {
+      "start": 352.82,
+      "duration": 2.4,
+      "text": "discover them very briefly."
+    },
+    {
+      "start": 355.22,
+      "duration": 3.57,
+      "text": "The moment is the\nweight times the arm."
+    },
+    {
+      "start": 358.79,
+      "duration": 4.11,
+      "text": "So basically where the wait\nis times how far away it"
+    },
+    {
+      "start": 362.9,
+      "duration": 3.0,
+      "text": "is from a particular location\nthat you're calculating it"
+    },
+    {
+      "start": 365.9,
+      "duration": 0.9,
+      "text": "from."
+    },
+    {
+      "start": 366.8,
+      "duration": 3.34,
+      "text": "So we're going to do a\ncouple basic examples."
+    },
+    {
+      "start": 370.14,
+      "duration": 1.95,
+      "text": "So we have a seesaw here."
+    },
+    {
+      "start": 372.09,
+      "duration": 3.89,
+      "text": "So in this case, whenever\nyou're calculating your moment,"
+    },
+    {
+      "start": 375.98,
+      "duration": 1.65,
+      "text": "you have to pick\na reference point"
+    },
+    {
+      "start": 377.63,
+      "duration": 4.06,
+      "text": "and make sure you're\nconsistent as you use it."
+    },
+    {
+      "start": 381.69,
+      "duration": 3.52,
+      "text": "So in this case, they have a--"
+    },
+    {
+      "start": 385.21,
+      "duration": 2.41,
+      "text": "their data point\nis at that triangle"
+    },
+    {
+      "start": 387.62,
+      "duration": 2.37,
+      "text": "at that fulcrum in the\nmiddle, and so they"
+    },
+    {
+      "start": 389.99,
+      "duration": 3.27,
+      "text": "have a moment on the right\nand a moment on the left."
+    },
+    {
+      "start": 393.26,
+      "duration": 2.58,
+      "text": "So you see various\nrectangles that"
+    },
+    {
+      "start": 395.84,
+      "duration": 3.6,
+      "text": "represent different objects\nor different weight,"
+    },
+    {
+      "start": 399.44,
+      "duration": 1.23,
+      "text": "and then they calculate it."
+    },
+    {
+      "start": 400.67,
+      "duration": 4.62,
+      "text": "So that blue box that's five\npounds is 10 inches away."
+    },
+    {
+      "start": 405.29,
+      "duration": 2.88,
+      "text": "So to figure out what the\nmoment is that it applies,"
+    },
+    {
+      "start": 408.17,
+      "duration": 4.16,
+      "text": "you just calculate the\nweight times how far away is."
+    },
+    {
+      "start": 412.33,
+      "duration": 4.02,
+      "text": "OK, so in order to figure out\nwhat the center of gravity is,"
+    },
+    {
+      "start": 416.35,
+      "duration": 2.94,
+      "text": "you might want to\nconsider where you're"
+    },
+    {
+      "start": 419.29,
+      "duration": 1.54,
+      "text": "doing that reference point."
+    },
+    {
+      "start": 420.83,
+      "duration": 2.06,
+      "text": "So rather than doing\nthe reference point"
+    },
+    {
+      "start": 422.89,
+      "duration": 2.69,
+      "text": "from right in the middle of\nthe aircraft, in this case,"
+    },
+    {
+      "start": 425.58,
+      "duration": 1.17,
+      "text": "they're starting at the end."
+    },
+    {
+      "start": 426.75,
+      "duration": 1.75,
+      "text": "So where that yellow\nline is where it says"
+    },
+    {
+      "start": 428.5,
+      "duration": 3.21,
+      "text": "datum is where they're\nstarting, and then they're"
+    },
+    {
+      "start": 431.71,
+      "duration": 2.95,
+      "text": "using the length from\nthat same reference point."
+    },
+    {
+      "start": 434.66,
+      "duration": 2.99,
+      "text": "So now you have a purple\nbox of five pounds"
+    },
+    {
+      "start": 437.65,
+      "duration": 3.63,
+      "text": "that's 10 inches from that\ndatum, and then three pounds"
+    },
+    {
+      "start": 441.28,
+      "duration": 2.37,
+      "text": "then a green weight\nthat's father,"
+    },
+    {
+      "start": 443.65,
+      "duration": 3.18,
+      "text": "and the red box that's\nthe farthest away."
+    },
+    {
+      "start": 446.83,
+      "duration": 4.01,
+      "text": "So here they've listed\nall those different boxes"
+    },
+    {
+      "start": 450.84,
+      "duration": 3.82,
+      "text": "and the weight of each of those\nboxes times how far it is."
+    },
+    {
+      "start": 454.66,
+      "duration": 3.12,
+      "text": "You multiply that to get\nthe moment that it applies."
+    },
+    {
+      "start": 457.78,
+      "duration": 2.64,
+      "text": "And use that to\ncalculate the location"
+    },
+    {
+      "start": 460.42,
+      "duration": 1.47,
+      "text": "of the center of gravity."
+    },
+    {
+      "start": 465.14,
+      "duration": 4.02,
+      "text": "And just in terms of if you've\nbeen on a seesaw before,"
+    },
+    {
+      "start": 469.16,
+      "duration": 2.73,
+      "text": "who has been on a seesaw before?"
+    },
+    {
+      "start": 471.89,
+      "duration": 0.67,
+      "text": "All right, good."
+    },
+    {
+      "start": 472.56,
+      "duration": 1.47,
+      "text": "I'm glad."
+    },
+    {
+      "start": 474.03,
+      "duration": 3.06,
+      "text": "So as you know that\nthat fulcrum or where"
+    },
+    {
+      "start": 477.09,
+      "duration": 2.43,
+      "text": "that triangle is, if\nyou put that triangle"
+    },
+    {
+      "start": 479.52,
+      "duration": 1.63,
+      "text": "at the center of gravity."
+    },
+    {
+      "start": 481.15,
+      "duration": 3.19,
+      "text": "So all the kids sitting\non one side of the seesaw"
+    },
+    {
+      "start": 484.34,
+      "duration": 1.42,
+      "text": "weigh the same as\nthe kids sitting"
+    },
+    {
+      "start": 485.76,
+      "duration": 2.88,
+      "text": "on the other side of the seesaw\nat the appropriate lengths"
+    },
+    {
+      "start": 488.64,
+      "duration": 2.19,
+      "text": "away, so they're\napplying the same moment."
+    },
+    {
+      "start": 490.83,
+      "duration": 2.11,
+      "text": "Then the fulcrum balances."
+    },
+    {
+      "start": 492.94,
+      "duration": 2.81,
+      "text": "So if we determined what\nthe center of gravity"
+    },
+    {
+      "start": 495.75,
+      "duration": 2.87,
+      "text": "of this airplane was and\nI put my finger there,"
+    },
+    {
+      "start": 498.62,
+      "duration": 1.54,
+      "text": "then it would balance\nand it wouldn't"
+    },
+    {
+      "start": 500.16,
+      "duration": 2.24,
+      "text": "tilt one way or the other."
+    },
+    {
+      "start": 502.4,
+      "duration": 2.98,
+      "text": "So that's the whole idea."
+    },
+    {
+      "start": 505.38,
+      "duration": 3.6,
+      "text": "So for a given aircraft,\nthere is not only"
+    },
+    {
+      "start": 508.98,
+      "duration": 4.23,
+      "text": "the center of gravity, but\nin the testing process,"
+    },
+    {
+      "start": 513.21,
+      "duration": 3.27,
+      "text": "they understand what is\nthat approved range of where"
+    },
+    {
+      "start": 516.48,
+      "duration": 3.3,
+      "text": "that center of gravity can be\nsuch that the aircraft is still"
+    },
+    {
+      "start": 519.78,
+      "duration": 1.32,
+      "text": "stable."
+    },
+    {
+      "start": 521.1,
+      "duration": 3.12,
+      "text": "So if you're thinking about\nputting a lot of weight"
+    },
+    {
+      "start": 524.22,
+      "duration": 3.6,
+      "text": "at the front of the\naircraft and less weight"
+    },
+    {
+      "start": 527.82,
+      "duration": 2.43,
+      "text": "at the back of the aircraft,\nthen the center of gravity"
+    },
+    {
+      "start": 530.25,
+      "duration": 2.34,
+      "text": "moves forward, and\nthere's a limit"
+    },
+    {
+      "start": 532.59,
+      "duration": 2.76,
+      "text": "to how far forward\nthat center of gravity"
+    },
+    {
+      "start": 535.35,
+      "duration": 3.81,
+      "text": "can be that allows the\nplane still to be stable."
+    },
+    {
+      "start": 539.16,
+      "duration": 2.58,
+      "text": "So that's the forward\nCG limit, and then you"
+    },
+    {
+      "start": 541.74,
+      "duration": 1.38,
+      "text": "see the same thing at the back."
+    },
+    {
+      "start": 543.12,
+      "duration": 3.21,
+      "text": "Aft just means back, so how\nfar back the center of gravity"
+    },
+    {
+      "start": 546.33,
+      "duration": 2.68,
+      "text": "can be."
+    },
+    {
+      "start": 549.01,
+      "duration": 1.83,
+      "text": "All right, so we've\nalready discussed some"
+    },
+    {
+      "start": 550.84,
+      "duration": 3.48,
+      "text": "of the performance things, but\njust to just to remind you,"
+    },
+    {
+      "start": 554.32,
+      "duration": 3.96,
+      "text": "what are some of the things that\ncan happen if your air plane is"
+    },
+    {
+      "start": 558.28,
+      "duration": 2.26,
+      "text": "overloaded?"
+    },
+    {
+      "start": 560.54,
+      "duration": 2.13,
+      "text": "You want to just a\nshout out some things"
+    },
+    {
+      "start": 562.67,
+      "duration": 1.56,
+      "text": "that you would\nexperience if you have"
+    },
+    {
+      "start": 564.23,
+      "duration": 3.08,
+      "text": "a very, very heavy airplane."
+    },
+    {
+      "start": 567.31,
+      "duration": 1.8,
+      "text": "AUDIENCE: Longer take off."
+    },
+    {
+      "start": 569.11,
+      "duration": 2.49,
+      "text": "TINA SRIVASTAVA: Yes, very good."
+    },
+    {
+      "start": 571.6,
+      "duration": 2.16,
+      "text": "Just to repeat it,\nlonger to take off."
+    },
+    {
+      "start": 573.76,
+      "duration": 3.25,
+      "text": "So we have takeoff and\nlanding distances increase."
+    },
+    {
+      "start": 577.01,
+      "duration": 2.27,
+      "text": "So if you have a\nvery heavy airplane,"
+    },
+    {
+      "start": 579.28,
+      "duration": 4.8,
+      "text": "you may not be able to take\noff from a short field runway."
+    },
+    {
+      "start": 584.09,
+      "duration": 1.38,
+      "text": "And then of course\nit was talking"
+    },
+    {
+      "start": 585.46,
+      "duration": 4.53,
+      "text": "about if your aircraft gets\noutside the approved envelope,"
+    },
+    {
+      "start": 589.99,
+      "duration": 2.39,
+      "text": "it will talk about what\nwe mean by envelope,"
+    },
+    {
+      "start": 592.38,
+      "duration": 5.26,
+      "text": "then it hasn't been tested\nto be stable at those areas,"
+    },
+    {
+      "start": 597.64,
+      "duration": 2.7,
+      "text": "and so now you've become a\ntest pilot, which you may not"
+    },
+    {
+      "start": 600.34,
+      "duration": 1.15,
+      "text": "want to do."
+    },
+    {
+      "start": 601.49,
+      "duration": 4.14,
+      "text": "Again, we're going to hear\nfrom a test pilot very soon."
+    },
+    {
+      "start": 605.63,
+      "duration": 1.93,
+      "text": "OK, so what happens\nif-- not just"
+    },
+    {
+      "start": 607.56,
+      "duration": 1.92,
+      "text": "that it's overloaded,\nmaybe it's still"
+    },
+    {
+      "start": 609.48,
+      "duration": 3.43,
+      "text": "within the envelope for\nthe total amount of weight,"
+    },
+    {
+      "start": 612.91,
+      "duration": 2.3,
+      "text": "but what if the\ncenter of gravity"
+    },
+    {
+      "start": 615.21,
+      "duration": 3.87,
+      "text": "has moved too far forward and\npass that forward CG limit."
+    },
+    {
+      "start": 619.08,
+      "duration": 3.42,
+      "text": "So your plane naturally\nwants to be nose down."
+    },
+    {
+      "start": 622.5,
+      "duration": 1.56,
+      "text": "So what is the impact of that?"
+    },
+    {
+      "start": 628.24,
+      "duration": 2.21,
+      "text": "Well, it'd be harder\nto climb, right?"
+    },
+    {
+      "start": 630.45,
+      "duration": 2.45,
+      "text": "It's harder to climb\nbecause your nose keeps"
+    },
+    {
+      "start": 632.9,
+      "duration": 3.45,
+      "text": "pulling it down, for example."
+    },
+    {
+      "start": 636.35,
+      "duration": 3.3,
+      "text": "What does it mean to have\na stall speed increased?"
+    },
+    {
+      "start": 639.65,
+      "duration": 1.77,
+      "text": "Is that a good thing?"
+    },
+    {
+      "start": 641.42,
+      "duration": 1.9,
+      "text": "AUDIENCE: No."
+    },
+    {
+      "start": 643.32,
+      "duration": 1.21,
+      "text": "TINA SRIVASTAVA: And why not?"
+    },
+    {
+      "start": 644.53,
+      "duration": 1.29,
+      "text": "Why is it not a good thing?"
+    },
+    {
+      "start": 649.54,
+      "duration": 2.33,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 651.87,
+      "duration": 2.58,
+      "text": "TINA SRIVASTAVA: Yeah, so\nbasically, if your stall speed"
+    },
+    {
+      "start": 654.45,
+      "duration": 4.14,
+      "text": "has increased, that means you're\nlikely to stall at a higher"
+    },
+    {
+      "start": 658.59,
+      "duration": 0.94,
+      "text": "speed."
+    },
+    {
+      "start": 659.53,
+      "duration": 4.49,
+      "text": "So if traditionally\ncan fly at 60 knots"
+    },
+    {
+      "start": 664.02,
+      "duration": 3.24,
+      "text": "without stalling but that\nstall speed has increased from"
+    },
+    {
+      "start": 667.26,
+      "duration": 2.64,
+      "text": "say 40 knots up\nto 60 knots, that"
+    },
+    {
+      "start": 669.9,
+      "duration": 1.56,
+      "text": "means that when\nyou traditionally"
+    },
+    {
+      "start": 671.46,
+      "duration": 1.86,
+      "text": "have been able to fly\nsafely at 60 knots,"
+    },
+    {
+      "start": 673.32,
+      "duration": 1.68,
+      "text": "you could actually\nstall at 60 knots."
+    },
+    {
+      "start": 675.0,
+      "duration": 4.25,
+      "text": "So an increased\nstall speed is bad."
+    },
+    {
+      "start": 679.25,
+      "duration": 1.71,
+      "text": "And what about an aft CG?"
+    },
+    {
+      "start": 680.96,
+      "duration": 3.21,
+      "text": "Having the weight\ntoo far to the back."
+    },
+    {
+      "start": 684.17,
+      "duration": 3.75,
+      "text": "What is the impact there?"
+    },
+    {
+      "start": 687.91,
+      "duration": 1.48,
+      "text": "AUDIENCE: They pitch up."
+    },
+    {
+      "start": 689.39,
+      "duration": 0.87,
+      "text": "TINA SRIVASTAVA: They\ntend to pitch up."
+    },
+    {
+      "start": 690.26,
+      "duration": 0.5,
+      "text": "Right."
+    },
+    {
+      "start": 690.76,
+      "duration": 4.39,
+      "text": "And so one thing that they are\ntalking about here is flare."
+    },
+    {
+      "start": 695.15,
+      "duration": 3.66,
+      "text": "So this is when you're coming\ninto land, you go down,"
+    },
+    {
+      "start": 698.81,
+      "duration": 4.59,
+      "text": "but then you flare up, and\nit could actually over flare,"
+    },
+    {
+      "start": 703.4,
+      "duration": 2.82,
+      "text": "and that can cause some really\nstrange things when you're"
+    },
+    {
+      "start": 706.22,
+      "duration": 1.65,
+      "text": "trying to land,\nsuch as bouncing,"
+    },
+    {
+      "start": 707.87,
+      "duration": 1.85,
+      "text": "and you definitely\ndon't want to do that."
+    },
+    {
+      "start": 709.72,
+      "duration": 1.75,
+      "text": "But all of these things\nyou might actually"
+    },
+    {
+      "start": 711.47,
+      "duration": 2.79,
+      "text": "just notice when you're\nfeeling the airplane."
+    },
+    {
+      "start": 714.26,
+      "duration": 2.67,
+      "text": "It acts differently\nthan you want it to act."
+    },
+    {
+      "start": 719.66,
+      "duration": 3.18,
+      "text": "So here's just basically\na cross section."
+    },
+    {
+      "start": 722.84,
+      "duration": 3.06,
+      "text": "If you took off the wings\nand the top of the fuselage"
+    },
+    {
+      "start": 725.9,
+      "duration": 1.44,
+      "text": "and you were looking\nat the plane,"
+    },
+    {
+      "start": 727.34,
+      "duration": 2.8,
+      "text": "it shows you the pilot\nsitting in the left seat,"
+    },
+    {
+      "start": 730.14,
+      "duration": 3.35,
+      "text": "a passenger in the right seat,\ntwo passengers in the back."
+    },
+    {
+      "start": 733.49,
+      "duration": 3.72,
+      "text": "This one actually has a third\nrow of passengers, and then"
+    },
+    {
+      "start": 737.21,
+      "duration": 2.07,
+      "text": "two baggage compartments."
+    },
+    {
+      "start": 739.28,
+      "duration": 1.68,
+      "text": "So this is just showing--"
+    },
+    {
+      "start": 740.96,
+      "duration": 2.25,
+      "text": "traditionally, when you're\nloading up an airplane,"
+    },
+    {
+      "start": 743.21,
+      "duration": 3.09,
+      "text": "they payload again is your\npassengers and your baggage,"
+    },
+    {
+      "start": 746.3,
+      "duration": 1.93,
+      "text": "where do they sit?"
+    },
+    {
+      "start": 748.23,
+      "duration": 2.12,
+      "text": "So now I'm going to go over\nto this document viewer"
+    },
+    {
+      "start": 750.35,
+      "duration": 1.78,
+      "text": "and talk about\nspecific airplane."
+    },
+    {
+      "start": 752.13,
+      "duration": 7.09,
+      "text": "The plane I like to\nfly, a Cessna 172."
+    },
+    {
+      "start": 759.22,
+      "duration": 5.09,
+      "text": "OK, so this book is talking\nabout a particular aircraft,"
+    },
+    {
+      "start": 764.31,
+      "duration": 4.21,
+      "text": "a Skyhawk, so it's a Cessna 172."
+    },
+    {
+      "start": 768.52,
+      "duration": 1.77,
+      "text": "This is a plane that\nmany of you guys"
+    },
+    {
+      "start": 770.29,
+      "duration": 2.82,
+      "text": "might use as a flying aircraft."
+    },
+    {
+      "start": 773.11,
+      "duration": 1.53,
+      "text": "We've also talked\nabout for example"
+    },
+    {
+      "start": 774.64,
+      "duration": 3.12,
+      "text": "a Piper, which is a low wing\nairplane that you might use."
+    },
+    {
+      "start": 777.76,
+      "duration": 1.5,
+      "text": "So this is what a\nCessna looks like,"
+    },
+    {
+      "start": 779.26,
+      "duration": 3.51,
+      "text": "and it has a tricycle\ngear at the bottom."
+    },
+    {
+      "start": 782.77,
+      "duration": 2.78,
+      "text": "Whatever plane you are\nusing for training,"
+    },
+    {
+      "start": 785.55,
+      "duration": 2.41,
+      "text": "I would get very\nfamiliar with this book,"
+    },
+    {
+      "start": 787.96,
+      "duration": 3.59,
+      "text": "and in particular, remember\nwhat the table of contents is."
+    },
+    {
+      "start": 791.55,
+      "duration": 4.89,
+      "text": "Because when you get your oral\nexam on your FAA examination,"
+    },
+    {
+      "start": 796.44,
+      "duration": 1.95,
+      "text": "it's OK if you don't\nremember everything."
+    },
+    {
+      "start": 798.39,
+      "duration": 2.79,
+      "text": "What's really great is if you\nknow how to find information,"
+    },
+    {
+      "start": 801.18,
+      "duration": 3.45,
+      "text": "and you can say, hey, if\nI didn't remember this,"
+    },
+    {
+      "start": 804.63,
+      "duration": 2.85,
+      "text": "I would go look at my\nPOH, and I would go look"
+    },
+    {
+      "start": 807.48,
+      "duration": 3.37,
+      "text": "at the weight and balance\nsection, section 6 of my book,"
+    },
+    {
+      "start": 810.85,
+      "duration": 3.02,
+      "text": "and I'd be able to flip and find\nthis information very quickly."
+    },
+    {
+      "start": 813.87,
+      "duration": 2.24,
+      "text": "So oftentimes, you'll get\nquestions in that oral exam"
+    },
+    {
+      "start": 816.11,
+      "duration": 1.42,
+      "text": "where they would\nask how you would"
+    },
+    {
+      "start": 817.53,
+      "duration": 2.1,
+      "text": "go about finding information."
+    },
+    {
+      "start": 819.63,
+      "duration": 2.22,
+      "text": "We discussed that a lot\nwith regard to weather data."
+    },
+    {
+      "start": 821.85,
+      "duration": 1.75,
+      "text": "What are the sources\nof weather data,"
+    },
+    {
+      "start": 823.6,
+      "duration": 1.85,
+      "text": "so with regard to\nweight and balance,"
+    },
+    {
+      "start": 825.45,
+      "duration": 2.13,
+      "text": "the information\nabout your airplane"
+    },
+    {
+      "start": 827.58,
+      "duration": 4.14,
+      "text": "is found with a book made\nabout your particular airplane."
+    },
+    {
+      "start": 831.72,
+      "duration": 2.5,
+      "text": "And if you're at a\nparticular flight school,"
+    },
+    {
+      "start": 834.22,
+      "duration": 2.62,
+      "text": "and we'll show you\nthat in an example,"
+    },
+    {
+      "start": 836.84,
+      "duration": 2.5,
+      "text": "they might have a-- they most\nlikely have all of this weight"
+    },
+    {
+      "start": 839.34,
+      "duration": 2.7,
+      "text": "and balance information\nlisted in a spreadsheet,"
+    },
+    {
+      "start": 842.04,
+      "duration": 2.07,
+      "text": "sometimes it's\naccessible online so you"
+    },
+    {
+      "start": 844.11,
+      "duration": 3.27,
+      "text": "know for your exact airplane\nwhat its gross weight is."
+    },
+    {
+      "start": 850.04,
+      "duration": 4.28,
+      "text": "So if we flip to\nthat section 6, it"
+    },
+    {
+      "start": 854.32,
+      "duration": 2.34,
+      "text": "has a fair amount of\ninformation, including"
+    },
+    {
+      "start": 856.66,
+      "duration": 1.68,
+      "text": "the picture we just showed you."
+    },
+    {
+      "start": 861.21,
+      "duration": 2.85,
+      "text": "So it talks about--"
+    },
+    {
+      "start": 864.06,
+      "duration": 2.67,
+      "text": "in this case, there are\nonly two rows of seats."
+    },
+    {
+      "start": 866.73,
+      "duration": 2.73,
+      "text": "So that the pilot and\npassenger, one row of seats,"
+    },
+    {
+      "start": 869.46,
+      "duration": 3.45,
+      "text": "so it seats four people, and\nthen it has a baggage area."
+    },
+    {
+      "start": 872.91,
+      "duration": 1.71,
+      "text": "But what's really\nimportant to understand"
+    },
+    {
+      "start": 874.62,
+      "duration": 3.18,
+      "text": "is that even though the\nCessna can fit four people,"
+    },
+    {
+      "start": 877.8,
+      "duration": 5.82,
+      "text": "it will show you that if you put\nfour 200 pound people in there"
+    },
+    {
+      "start": 883.62,
+      "duration": 3.23,
+      "text": "with a bunch of bags, you'll\nactually exceed the allotment."
+    },
+    {
+      "start": 886.85,
+      "duration": 1.54,
+      "text": "So just because\nthere are four seats,"
+    },
+    {
+      "start": 888.39,
+      "duration": 3.27,
+      "text": "doesn't mean you can take\nfour large people on a flight."
+    },
+    {
+      "start": 891.66,
+      "duration": 3.27,
+      "text": "Some of it is something\nwe'll keep in mind,"
+    },
+    {
+      "start": 894.93,
+      "duration": 3.72,
+      "text": "and maybe you can reduce bags\nand reduce fuel such that you"
+    },
+    {
+      "start": 898.65,
+      "duration": 1.32,
+      "text": "can make that weight workout."
+    },
+    {
+      "start": 902.73,
+      "duration": 1.49,
+      "text": "So we talked about envelopes."
+    },
+    {
+      "start": 908.58,
+      "duration": 3.93,
+      "text": "So the envelope is\nbasically a line"
+    },
+    {
+      "start": 912.51,
+      "duration": 4.83,
+      "text": "on this graph that shows where\nthe center of gravity can be,"
+    },
+    {
+      "start": 917.34,
+      "duration": 2.43,
+      "text": "and the envelope is\nwhere is it safe to be."
+    },
+    {
+      "start": 919.77,
+      "duration": 2.49,
+      "text": "So if you're inside\nthe envelope,"
+    },
+    {
+      "start": 922.26,
+      "duration": 4.2,
+      "text": "so inside this line, if\nyour calculations result"
+    },
+    {
+      "start": 926.46,
+      "duration": 2.16,
+      "text": "in a center of gravity\ninside, then you're"
+    },
+    {
+      "start": 928.62,
+      "duration": 1.3,
+      "text": "within the envelope."
+    },
+    {
+      "start": 929.92,
+      "duration": 2.83,
+      "text": "If you're outside of\nit, then you're not."
+    },
+    {
+      "start": 932.75,
+      "duration": 3.92,
+      "text": "You can see a little\npencil mark towards the top"
+    },
+    {
+      "start": 936.66,
+      "duration": 2.19,
+      "text": "where I took a flight\nrecently, and I"
+    },
+    {
+      "start": 938.85,
+      "duration": 2.97,
+      "text": "was trying to calculate\nwhether or not I was inside"
+    },
+    {
+      "start": 941.82,
+      "duration": 1.32,
+      "text": "and in fact I was."
+    },
+    {
+      "start": 943.14,
+      "duration": 2.79,
+      "text": "And it's OK that I'm right\nat the edge of the envelope."
+    },
+    {
+      "start": 945.93,
+      "duration": 1.74,
+      "text": "As long as you're\ninside, you're still"
+    },
+    {
+      "start": 947.67,
+      "duration": 2.52,
+      "text": "with inside the tested limits."
+    },
+    {
+      "start": 950.19,
+      "duration": 2.04,
+      "text": "Now, there are two\ndifferent categories"
+    },
+    {
+      "start": 952.23,
+      "duration": 1.41,
+      "text": "or two different lines here."
+    },
+    {
+      "start": 953.64,
+      "duration": 2.88,
+      "text": "There's a bigger line\nthat says normal category,"
+    },
+    {
+      "start": 956.52,
+      "duration": 2.34,
+      "text": "and then there's\na smaller line--"
+    },
+    {
+      "start": 958.86,
+      "duration": 3.52,
+      "text": "smaller envelope-- that's\ntalking about utility category."
+    },
+    {
+      "start": 962.38,
+      "duration": 1.5,
+      "text": "Does anyone know\nwhat the difference"
+    },
+    {
+      "start": 963.88,
+      "duration": 2.46,
+      "text": "is between normal and utility?"
+    },
+    {
+      "start": 966.34,
+      "duration": 1.95,
+      "text": "AUDIENCE: G limits."
+    },
+    {
+      "start": 968.29,
+      "duration": 1.65,
+      "text": "TINA SRIVASTAVA: G limits."
+    },
+    {
+      "start": 969.94,
+      "duration": 2.17,
+      "text": "Is that what you're\ngoing to say?"
+    },
+    {
+      "start": 972.11,
+      "duration": 2.09,
+      "text": "So there's different\nrestrictions."
+    },
+    {
+      "start": 976.56,
+      "duration": 1.96,
+      "text": "One question you might\nget asked is, how do you"
+    },
+    {
+      "start": 978.52,
+      "duration": 1.38,
+      "text": "find out where the answer is?"
+    },
+    {
+      "start": 989.31,
+      "duration": 0.96,
+      "text": "And it's right in here."
+    },
+    {
+      "start": 990.27,
+      "duration": 1.17,
+      "text": "Right where you think it is."
+    },
+    {
+      "start": 994.33,
+      "duration": 3.2,
+      "text": "And I'm actually going to\nshow you real examples,"
+    },
+    {
+      "start": 997.53,
+      "duration": 4.96,
+      "text": "so we're going to go through\nan example of loading up"
+    },
+    {
+      "start": 1002.49,
+      "duration": 1.6,
+      "text": "an airplane."
+    },
+    {
+      "start": 1004.09,
+      "duration": 1.58,
+      "text": "Don't want to embarrass\nanyone, but we"
+    },
+    {
+      "start": 1005.67,
+      "duration": 2.12,
+      "text": "might ask some of you\nwhat your weight is."
+    },
+    {
+      "start": 1007.79,
+      "duration": 0.5,
+      "text": "So beware."
+    },
+    {
+      "start": 1011.47,
+      "duration": 3.26,
+      "text": "So every time you have\nto calculate your weight"
+    },
+    {
+      "start": 1014.73,
+      "duration": 1.84,
+      "text": "and balance, you\ncan do it by hand,"
+    },
+    {
+      "start": 1016.57,
+      "duration": 2.42,
+      "text": "or you can use a\ncomputer to do it,"
+    },
+    {
+      "start": 1018.99,
+      "duration": 3.57,
+      "text": "and I would just caution\nthat you have to double check"
+    },
+    {
+      "start": 1022.56,
+      "duration": 0.93,
+      "text": "all the information."
+    },
+    {
+      "start": 1023.49,
+      "duration": 3.33,
+      "text": "So here's a great\nlink that tells you"
+    },
+    {
+      "start": 1026.82,
+      "duration": 5.05,
+      "text": "for a particular Cessna 172, a\nweight and balance calculator."
+    },
+    {
+      "start": 1031.87,
+      "duration": 3.92,
+      "text": "So here, you can actually\ntype in the empty weight."
+    },
+    {
+      "start": 1035.79,
+      "duration": 3.36,
+      "text": "Now, there's a big Warning\nhere, use your own AC data."
+    },
+    {
+      "start": 1039.15,
+      "duration": 0.83,
+      "text": "What is that saying?"
+    },
+    {
+      "start": 1043.8,
+      "duration": 0.82,
+      "text": "What is AC?"
+    },
+    {
+      "start": 1044.62,
+      "duration": 0.81,
+      "text": "AUDIENCE: Aircraft."
+    },
+    {
+      "start": 1045.43,
+      "duration": 0.57,
+      "text": "TINA SRIVASTAVA: Aircraft."
+    },
+    {
+      "start": 1046.0,
+      "duration": 1.38,
+      "text": "Use your own aircraft's data."
+    },
+    {
+      "start": 1047.38,
+      "duration": 3.06,
+      "text": "So look at your\nactual information"
+    },
+    {
+      "start": 1050.44,
+      "duration": 3.45,
+      "text": "from your school to\nfigure out for the plane"
+    },
+    {
+      "start": 1053.89,
+      "duration": 4.38,
+      "text": "that you're renting what those\npieces of information are."
+    },
+    {
+      "start": 1058.27,
+      "duration": 3.75,
+      "text": "So here is a link from\neast coast aero club"
+    },
+    {
+      "start": 1062.02,
+      "duration": 2.01,
+      "text": "just as an example,\nand they have"
+    },
+    {
+      "start": 1064.03,
+      "duration": 2.85,
+      "text": "provided for every\naircraft that they"
+    },
+    {
+      "start": 1066.88,
+      "duration": 2.86,
+      "text": "have a bunch of information."
+    },
+    {
+      "start": 1073.39,
+      "duration": 3.92,
+      "text": "So for each aircraft, they\nhave provided the empty weight"
+    },
+    {
+      "start": 1077.31,
+      "duration": 4.14,
+      "text": "and the CG, the moment,\ngross weight, useful load,"
+    },
+    {
+      "start": 1081.45,
+      "duration": 3.36,
+      "text": "and then they also talk\nabout two different settings"
+    },
+    {
+      "start": 1084.81,
+      "duration": 0.94,
+      "text": "for fuel."
+    },
+    {
+      "start": 1085.75,
+      "duration": 3.95,
+      "text": "So you can have full\nfuel or fuel to tabs."
+    },
+    {
+      "start": 1089.7,
+      "duration": 3.87,
+      "text": "So that is something you'll\nhear pretty frequently."
+    },
+    {
+      "start": 1093.57,
+      "duration": 1.63,
+      "text": "Fill the fuel to tabs."
+    },
+    {
+      "start": 1095.2,
+      "duration": 4.58,
+      "text": "So if you want to have\nextra mass, extra weight"
+    },
+    {
+      "start": 1099.78,
+      "duration": 3.34,
+      "text": "in your plane, you have some\nheavier folks flying with you,"
+    },
+    {
+      "start": 1103.12,
+      "duration": 2.36,
+      "text": "you might only want\nthe fuel to tabs."
+    },
+    {
+      "start": 1105.48,
+      "duration": 2.07,
+      "text": "But if it's just you or\nyou and your instructor"
+    },
+    {
+      "start": 1107.55,
+      "duration": 2.04,
+      "text": "and you want to fly a\ncross-country flight,"
+    },
+    {
+      "start": 1109.59,
+      "duration": 1.77,
+      "text": "you might want to fuel full."
+    },
+    {
+      "start": 1111.36,
+      "duration": 3.4,
+      "text": "So these are all\nthings you can change."
+    },
+    {
+      "start": 1114.76,
+      "duration": 2.2,
+      "text": "This calculator has\nsome restrictions,"
+    },
+    {
+      "start": 1116.96,
+      "duration": 6.65,
+      "text": "which is that the weight is\nidentified here in terms of--"
+    },
+    {
+      "start": 1123.61,
+      "duration": 1.33,
+      "text": "so they have the oil."
+    },
+    {
+      "start": 1124.94,
+      "duration": 3.35,
+      "text": "So you might want to\ncheck what is the oil"
+    },
+    {
+      "start": 1128.29,
+      "duration": 2.31,
+      "text": "level inside your engine."
+    },
+    {
+      "start": 1130.6,
+      "duration": 4.04,
+      "text": "For a Cessna 172, six quarts is\na really good number to have,"
+    },
+    {
+      "start": 1134.64,
+      "duration": 2.29,
+      "text": "but you check it every time\nand during your pre-flight."
+    },
+    {
+      "start": 1136.93,
+      "duration": 2.44,
+      "text": "It could be five quarts,\nit could be seven quarts,"
+    },
+    {
+      "start": 1139.37,
+      "duration": 1.38,
+      "text": "so you want to\ndouble check that."
+    },
+    {
+      "start": 1140.74,
+      "duration": 2.24,
+      "text": "And of course, if you\nsee that it's low,"
+    },
+    {
+      "start": 1142.98,
+      "duration": 2.02,
+      "text": "four quarts, you really\nwant to ask someone"
+    },
+    {
+      "start": 1145.0,
+      "duration": 2.7,
+      "text": "to fill that up\nbefore you go flying."
+    },
+    {
+      "start": 1147.7,
+      "duration": 2.28,
+      "text": "But the other thing\nhere is you actually"
+    },
+    {
+      "start": 1149.98,
+      "duration": 3.99,
+      "text": "list the weight of the\npeople that are sitting"
+    },
+    {
+      "start": 1153.97,
+      "duration": 1.71,
+      "text": "in the front and the back."
+    },
+    {
+      "start": 1155.68,
+      "duration": 2.73,
+      "text": "So I talked about\nembarrassing folks."
+    },
+    {
+      "start": 1158.41,
+      "duration": 2.49,
+      "text": "Well, let's not let's not\nembarrass folks right now."
+    },
+    {
+      "start": 1160.9,
+      "duration": 3.09,
+      "text": "So let's say the\npilot and let's say"
+    },
+    {
+      "start": 1163.99,
+      "duration": 2.34,
+      "text": "you're doing some great\nresource management."
+    },
+    {
+      "start": 1166.33,
+      "duration": 2.06,
+      "text": "You have another pilot\nsitting next to you,"
+    },
+    {
+      "start": 1168.38,
+      "duration": 4.16,
+      "text": "so your co-pilot is\nthere, and you also"
+    },
+    {
+      "start": 1172.54,
+      "duration": 4.68,
+      "text": "have some big folks sitting\nin the back, both the left"
+    },
+    {
+      "start": 1177.22,
+      "duration": 1.32,
+      "text": "and the right side."
+    },
+    {
+      "start": 1178.54,
+      "duration": 3.51,
+      "text": "And you want to take a\nbunch of pictures and stuff,"
+    },
+    {
+      "start": 1182.05,
+      "duration": 2.29,
+      "text": "but you want to get\nas low as you want,"
+    },
+    {
+      "start": 1184.34,
+      "duration": 2.09,
+      "text": "so you put in some bags."
+    },
+    {
+      "start": 1186.43,
+      "duration": 3.44,
+      "text": "So this-- it's actually\nhard to see because there's"
+    },
+    {
+      "start": 1189.87,
+      "duration": 1.17,
+      "text": "too much weight."
+    },
+    {
+      "start": 1191.04,
+      "duration": 3.93,
+      "text": "This red little\nplus sign is showing"
+    },
+    {
+      "start": 1194.97,
+      "duration": 2.85,
+      "text": "where your center\nof gravity fell"
+    },
+    {
+      "start": 1197.82,
+      "duration": 4.74,
+      "text": "and whether it's within that\nutility or normal category."
+    },
+    {
+      "start": 1202.56,
+      "duration": 3.1,
+      "text": "So in this case, we\nhave three people."
+    },
+    {
+      "start": 1205.66,
+      "duration": 2.69,
+      "text": "Front two are 200\npounds each, one person"
+    },
+    {
+      "start": 1208.35,
+      "duration": 4.76,
+      "text": "in the rear with 200, and bags\nthere weighing about 10 pounds."
+    },
+    {
+      "start": 1213.11,
+      "duration": 3.52,
+      "text": "Is this safe to fly?"
+    },
+    {
+      "start": 1216.63,
+      "duration": 3.93,
+      "text": "No, so you're a little red\ndot went outside the limits."
+    },
+    {
+      "start": 1220.56,
+      "duration": 2.91,
+      "text": "If you have a much\nsmaller person sitting"
+    },
+    {
+      "start": 1223.47,
+      "duration": 3.03,
+      "text": "in the back seat, you\ncross over that line,"
+    },
+    {
+      "start": 1226.5,
+      "duration": 2.46,
+      "text": "and now you're back into\nthe normal categories"
+    },
+    {
+      "start": 1228.96,
+      "duration": 1.53,
+      "text": "so you can fly."
+    },
+    {
+      "start": 1230.49,
+      "duration": 2.58,
+      "text": "Again, another\nthing you can alter"
+    },
+    {
+      "start": 1233.07,
+      "duration": 5.8,
+      "text": "is, of course, you\nfill the fuel to tabs."
+    },
+    {
+      "start": 1238.87,
+      "duration": 2.14,
+      "text": "So this is also talking about--"
+    },
+    {
+      "start": 1241.01,
+      "duration": 6.13,
+      "text": "so most of the time in the\nPOH book, so the section 6"
+    },
+    {
+      "start": 1247.14,
+      "duration": 1.17,
+      "text": "is about weight and balance."
+    },
+    {
+      "start": 1248.31,
+      "duration": 1.51,
+      "text": "So although the\none example I just"
+    },
+    {
+      "start": 1249.82,
+      "duration": 3.84,
+      "text": "showed you was for a Cessna\n172, the Piper Warrior"
+    },
+    {
+      "start": 1253.66,
+      "duration": 2.55,
+      "text": "also has that\nconsistent, so really"
+    },
+    {
+      "start": 1256.21,
+      "duration": 5.58,
+      "text": "recommend just memorizing the\ntable of contents for your POH."
+    },
+    {
+      "start": 1261.79,
+      "duration": 4.14,
+      "text": "So the way that you go\nabout calculating it"
+    },
+    {
+      "start": 1265.93,
+      "duration": 2.61,
+      "text": "is the same way we entered it\ninto their little calculator."
+    },
+    {
+      "start": 1268.54,
+      "duration": 3.33,
+      "text": "So first you have to determine\nthe basic empty weight"
+    },
+    {
+      "start": 1271.87,
+      "duration": 3.24,
+      "text": "of the aircraft and\nthen the moment."
+    },
+    {
+      "start": 1275.11,
+      "duration": 3.63,
+      "text": "Section 6 almost always\nalso has a place for you"
+    },
+    {
+      "start": 1278.74,
+      "duration": 2.28,
+      "text": "to do that calculation,\nand so they"
+    },
+    {
+      "start": 1281.02,
+      "duration": 2.22,
+      "text": "have a place right\nthere where you"
+    },
+    {
+      "start": 1283.24,
+      "duration": 3.51,
+      "text": "can enter in your\nairplane, the moment,"
+    },
+    {
+      "start": 1286.75,
+      "duration": 2.82,
+      "text": "and it does the same steps\nthat we just saw on the slide."
+    },
+    {
+      "start": 1289.57,
+      "duration": 2.28,
+      "text": "So you start with that\nbasic empty weight,"
+    },
+    {
+      "start": 1291.85,
+      "duration": 3.33,
+      "text": "then you focus on the\nfuel, and it gives you"
+    },
+    {
+      "start": 1295.18,
+      "duration": 3.15,
+      "text": "the 6 pounds per\ngallon is what you're"
+    },
+    {
+      "start": 1298.33,
+      "duration": 3.04,
+      "text": "going to most likely be using."
+    },
+    {
+      "start": 1301.37,
+      "duration": 2.34,
+      "text": "What is the max\nnumber of gallons?"
+    },
+    {
+      "start": 1303.71,
+      "duration": 2.73,
+      "text": "What is the amount for tabs?"
+    },
+    {
+      "start": 1306.44,
+      "duration": 2.76,
+      "text": "You want to actually look\nthis up for your airplane."
+    },
+    {
+      "start": 1309.2,
+      "duration": 2.76,
+      "text": "The weight of the pilot\nin the front passenger,"
+    },
+    {
+      "start": 1311.96,
+      "duration": 3.36,
+      "text": "rear passengers, and the\nbaggage area, and then you"
+    },
+    {
+      "start": 1315.32,
+      "duration": 2.31,
+      "text": "get this ramp weight."
+    },
+    {
+      "start": 1317.63,
+      "duration": 1.95,
+      "text": "And as I talked about,\nyou can actually"
+    },
+    {
+      "start": 1319.58,
+      "duration": 3.15,
+      "text": "have your plane be a little\nheavier than the envelope right"
+    },
+    {
+      "start": 1322.73,
+      "duration": 1.95,
+      "text": "when it's fueled on the\nramp because there's"
+    },
+    {
+      "start": 1324.68,
+      "duration": 4.22,
+      "text": "some allowance for the fuel that\nyou'll burn off during a taxi,"
+    },
+    {
+      "start": 1328.9,
+      "duration": 1.04,
+      "text": "and so that's right here."
+    },
+    {
+      "start": 1329.94,
+      "duration": 3.17,
+      "text": "So fuel allowance for engine\nstart, taxi, and run up."
+    },
+    {
+      "start": 1333.11,
+      "duration": 3.27,
+      "text": "So they took off about\neight pounds over there,"
+    },
+    {
+      "start": 1336.38,
+      "duration": 1.59,
+      "text": "and then you can calculate it."
+    },
+    {
+      "start": 1337.97,
+      "duration": 2.1,
+      "text": "And once you locate\nthe point, then you"
+    },
+    {
+      "start": 1340.07,
+      "duration": 3.4,
+      "text": "go to that diagram right here."
+    },
+    {
+      "start": 1343.47,
+      "duration": 2.22,
+      "text": "So you go to the\nweight and the moment,"
+    },
+    {
+      "start": 1345.69,
+      "duration": 4.01,
+      "text": "and you figure out whether\nor not you're in the safe--"
+    },
+    {
+      "start": 1349.7,
+      "duration": 1.54,
+      "text": "whether or not you're\nin the envelope"
+    },
+    {
+      "start": 1351.24,
+      "duration": 4.52,
+      "text": "for that normal\ncategory of aircraft."
+    },
+    {
+      "start": 1355.76,
+      "duration": 2.22,
+      "text": "So what we just went through\nis the same procedure"
+    },
+    {
+      "start": 1357.98,
+      "duration": 1.14,
+      "text": "that's listed right here."
+    },
+    {
+      "start": 1363.02,
+      "duration": 2.88,
+      "text": "And so here is it just\ndoing that same example"
+    },
+    {
+      "start": 1365.9,
+      "duration": 1.91,
+      "text": "for a particular Piper Warrior."
+    },
+    {
+      "start": 1367.81,
+      "duration": 3.6,
+      "text": "So they have the basic empty\nweight of the aircraft."
+    },
+    {
+      "start": 1371.41,
+      "duration": 3.25,
+      "text": "Just as a hint, if it's\nsomething round like 1,500,"
+    },
+    {
+      "start": 1374.66,
+      "duration": 2.81,
+      "text": "then you probably didn't get\nthe exact accurate amount."
+    },
+    {
+      "start": 1377.47,
+      "duration": 2.85,
+      "text": "So again, if you look\nat the real thing,"
+    },
+    {
+      "start": 1380.32,
+      "duration": 5.84,
+      "text": "you're getting it down to some\nvery specific accurate numbers."
+    },
+    {
+      "start": 1386.16,
+      "duration": 3.9,
+      "text": "So 1,196.63."
+    },
+    {
+      "start": 1390.06,
+      "duration": 1.47,
+      "text": "That means you\ngot a real number."
+    },
+    {
+      "start": 1394.24,
+      "duration": 2.45,
+      "text": "Here's our Piper Warrior."
+    },
+    {
+      "start": 1396.69,
+      "duration": 3.81,
+      "text": "And so they have the basic\nempty weight, the passengers"
+    },
+    {
+      "start": 1400.5,
+      "duration": 2.03,
+      "text": "in the front and the rear."
+    },
+    {
+      "start": 1402.53,
+      "duration": 2.53,
+      "text": "They don't have any\nbags here right now,"
+    },
+    {
+      "start": 1405.06,
+      "duration": 4.17,
+      "text": "and they basically multiplied\nthe weight times the arm."
+    },
+    {
+      "start": 1409.23,
+      "duration": 2.7,
+      "text": "The arm is really\nindicated in the book"
+    },
+    {
+      "start": 1411.93,
+      "duration": 2.58,
+      "text": "and in these\ncalculators as to where"
+    },
+    {
+      "start": 1414.51,
+      "duration": 2.01,
+      "text": "the location is of the chair."
+    },
+    {
+      "start": 1416.52,
+      "duration": 2.18,
+      "text": "Now, of course, the seats\nslide forward and back,"
+    },
+    {
+      "start": 1418.7,
+      "duration": 2.25,
+      "text": "but they usually don't--\nthey don't get into that many"
+    },
+    {
+      "start": 1420.95,
+      "duration": 3.37,
+      "text": "specifics, and then you can\ncalculate here the moment."
+    },
+    {
+      "start": 1424.32,
+      "duration": 2.34,
+      "text": "So next, we do the\nramp condition."
+    },
+    {
+      "start": 1426.66,
+      "duration": 2.49,
+      "text": "So ramp condition\nis basically, what's"
+    },
+    {
+      "start": 1429.15,
+      "duration": 2.34,
+      "text": "the weight and loading\nof your airplane"
+    },
+    {
+      "start": 1431.49,
+      "duration": 2.28,
+      "text": "once it's fueled up and\nsitting on the ramp?"
+    },
+    {
+      "start": 1433.77,
+      "duration": 1.83,
+      "text": "Then you, in this\ncase, they took off"
+    },
+    {
+      "start": 1435.6,
+      "duration": 3.09,
+      "text": "seven pounds for\nthat taxi, and run up"
+    },
+    {
+      "start": 1438.69,
+      "duration": 3.21,
+      "text": "and then you're takeoff\ncondition, in this case,"
+    },
+    {
+      "start": 1441.9,
+      "duration": 8.52,
+      "text": "is 2,440 pounds, and it has\na moment here as calculated."
+    },
+    {
+      "start": 1450.42,
+      "duration": 2.55,
+      "text": "So you basically do the\nsame thing we just showed."
+    },
+    {
+      "start": 1452.97,
+      "duration": 2.79,
+      "text": "So you you look at the\nweight on the left,"
+    },
+    {
+      "start": 1455.76,
+      "duration": 2.61,
+      "text": "and the CG location\nas the vertical line,"
+    },
+    {
+      "start": 1458.37,
+      "duration": 2.22,
+      "text": "and you see where those\ntwo lines intersect"
+    },
+    {
+      "start": 1460.59,
+      "duration": 3.09,
+      "text": "and you see whether or not\nit's inside the envelope."
+    },
+    {
+      "start": 1466.39,
+      "duration": 2.25,
+      "text": "You can also check\nthe landing condition."
+    },
+    {
+      "start": 1468.64,
+      "duration": 4.81,
+      "text": "In general, you will have\nburned fuel during your flight,"
+    },
+    {
+      "start": 1473.45,
+      "duration": 2.84,
+      "text": "and so your landing\ncondition will be lower,"
+    },
+    {
+      "start": 1476.29,
+      "duration": 3.09,
+      "text": "but you might have\nheard big jets,"
+    },
+    {
+      "start": 1479.38,
+      "duration": 3.72,
+      "text": "and you've heard that sometimes\nthey have to do a fuel dump."
+    },
+    {
+      "start": 1483.1,
+      "duration": 1.74,
+      "text": "Why did they have\nto do a fuel dump?"
+    },
+    {
+      "start": 1484.84,
+      "duration": 2.82,
+      "text": "Well, maybe they\ncalculated their landing"
+    },
+    {
+      "start": 1487.66,
+      "duration": 1.72,
+      "text": "based on having flown\nacross the country,"
+    },
+    {
+      "start": 1489.38,
+      "duration": 1.46,
+      "text": "but their flight\nacross the country"
+    },
+    {
+      "start": 1490.84,
+      "duration": 1.98,
+      "text": "was canceled because\nof weather or whatever,"
+    },
+    {
+      "start": 1492.82,
+      "duration": 2.97,
+      "text": "and so they had to dump\ntheir fuel in order to land,"
+    },
+    {
+      "start": 1495.79,
+      "duration": 2.58,
+      "text": "which you don't like to hear is\nonce they've dumped their fuel"
+    },
+    {
+      "start": 1498.37,
+      "duration": 2.13,
+      "text": "then you have another delay in\nthe air, and you're like, hey,"
+    },
+    {
+      "start": 1500.5,
+      "duration": 0.58,
+      "text": "what happened?"
+    },
+    {
+      "start": 1501.08,
+      "duration": 2.48,
+      "text": "I thought we dumped\nall of our fuel."
+    },
+    {
+      "start": 1503.56,
+      "duration": 2.46,
+      "text": "But of course, as a\nsmall little airplane,"
+    },
+    {
+      "start": 1506.02,
+      "duration": 2.04,
+      "text": "dumping fuel is not\nreally a procedure"
+    },
+    {
+      "start": 1508.06,
+      "duration": 2.97,
+      "text": "you're going to be doing,\nso it might be a good idea"
+    },
+    {
+      "start": 1511.03,
+      "duration": 3.72,
+      "text": "to just calculate the landing\nand the runway lengths"
+    },
+    {
+      "start": 1514.75,
+      "duration": 4.47,
+      "text": "with the full fuel in case you\nhave to make it landing right"
+    },
+    {
+      "start": 1519.22,
+      "duration": 2.79,
+      "text": "then and there before you've\nflown all the distance you"
+    },
+    {
+      "start": 1522.01,
+      "duration": 3.29,
+      "text": "thought you were\ngoing to get to fly."
+    },
+    {
+      "start": 1525.3,
+      "duration": 5.41,
+      "text": "So in general, as you can see\nthat where we were beforehand"
+    },
+    {
+      "start": 1530.71,
+      "duration": 1.91,
+      "text": "was higher and the\nweight goes down,"
+    },
+    {
+      "start": 1532.62,
+      "duration": 2.32,
+      "text": "so your landing condition\nis almost always"
+    },
+    {
+      "start": 1534.94,
+      "duration": 2.77,
+      "text": "going to stay\nwithin the envelope."
+    },
+    {
+      "start": 1537.71,
+      "duration": 2.74,
+      "text": "There's some places,\nwhere if you're CG"
+    },
+    {
+      "start": 1540.45,
+      "duration": 2.38,
+      "text": "is too far aft or\ntoo far forward,"
+    },
+    {
+      "start": 1542.83,
+      "duration": 2.1,
+      "text": "where actually that\nreduction in weight"
+    },
+    {
+      "start": 1544.93,
+      "duration": 2.24,
+      "text": "could cause you to come\noutside the envelope."
+    },
+    {
+      "start": 1549.82,
+      "duration": 2.71,
+      "text": "All right, so there are also a\nlot of spreadsheets available."
+    },
+    {
+      "start": 1552.53,
+      "duration": 2.88,
+      "text": "You can make your own\nspreadsheet pretty quickly"
+    },
+    {
+      "start": 1555.41,
+      "duration": 3.51,
+      "text": "in Excel using the data\nfrom the particular aircraft"
+    },
+    {
+      "start": 1558.92,
+      "duration": 1.5,
+      "text": "that you're renting or buying."
+    },
+    {
+      "start": 1563.78,
+      "duration": 3.44,
+      "text": "All right, and these\nare just some snapshots"
+    },
+    {
+      "start": 1567.22,
+      "duration": 1.8,
+      "text": "from the book that\nwe just looked at"
+    },
+    {
+      "start": 1569.02,
+      "duration": 2.52,
+      "text": "and the show pictures\nof where the seats are"
+    },
+    {
+      "start": 1571.54,
+      "duration": 3.81,
+      "text": "in the airplane in order\nfor you to calculate that."
+    },
+    {
+      "start": 1575.35,
+      "duration": 4.56,
+      "text": "You could also calculate\nthe moment left to right."
+    },
+    {
+      "start": 1579.91,
+      "duration": 1.89,
+      "text": "It's pretty easy to\nthink about, though,"
+    },
+    {
+      "start": 1581.8,
+      "duration": 1.95,
+      "text": "that in that tiny\nlittle airplane,"
+    },
+    {
+      "start": 1583.75,
+      "duration": 2.54,
+      "text": "if you're sitting on the\nfront in the left and no one's"
+    },
+    {
+      "start": 1586.29,
+      "duration": 2.08,
+      "text": "sitting on your right and\nyou have someone sitting"
+    },
+    {
+      "start": 1588.37,
+      "duration": 3.24,
+      "text": "in the back on the left, then\nyou're going to be tilted over."
+    },
+    {
+      "start": 1591.61,
+      "duration": 1.76,
+      "text": "It's very easy to\nfix that problem,"
+    },
+    {
+      "start": 1593.37,
+      "duration": 3.31,
+      "text": "just make sure you have someone\nsitting on the other side."
+    },
+    {
+      "start": 1596.68,
+      "duration": 2.86,
+      "text": "I have noticed some of\nthese effects before."
+    },
+    {
+      "start": 1599.54,
+      "duration": 2.54,
+      "text": "I'm a little bit of\na smaller person,"
+    },
+    {
+      "start": 1602.08,
+      "duration": 3.06,
+      "text": "and there was a very, very large\ninstructor sitting next to me,"
+    },
+    {
+      "start": 1605.14,
+      "duration": 2.61,
+      "text": "and I actually could tell\nas I was flying that it"
+    },
+    {
+      "start": 1607.75,
+      "duration": 1.62,
+      "text": "was a little bit tilted."
+    },
+    {
+      "start": 1609.37,
+      "duration": 2.73,
+      "text": "And so with the future\nflights, we put some more bags"
+    },
+    {
+      "start": 1612.1,
+      "duration": 3.15,
+      "text": "on my side, and it was a\nlittle bit more evened out."
+    },
+    {
+      "start": 1615.25,
+      "duration": 2.88,
+      "text": "Usually, you won't run into\nthat too much as an issue."
+    },
+    {
+      "start": 1618.13,
+      "duration": 4.44,
+      "text": "In some of the small puddle\njumper aircraft and so"
+    },
+    {
+      "start": 1622.57,
+      "duration": 4.08,
+      "text": "a commercial aircraft, they\nhave sometimes a situation"
+    },
+    {
+      "start": 1626.65,
+      "duration": 3.67,
+      "text": "where there's only one\nrow of seats on one side"
+    },
+    {
+      "start": 1630.32,
+      "duration": 1.46,
+      "text": "and then there's\nthe aisle and then"
+    },
+    {
+      "start": 1631.78,
+      "duration": 1.63,
+      "text": "two seats on the other side."
+    },
+    {
+      "start": 1633.41,
+      "duration": 1.58,
+      "text": "Have you guys seen\nthat configuration?"
+    },
+    {
+      "start": 1634.99,
+      "duration": 1.72,
+      "text": "I'm getting a lot of head nods."
+    },
+    {
+      "start": 1636.71,
+      "duration": 3.56,
+      "text": "So in that situation,\nthey might enforce"
+    },
+    {
+      "start": 1640.27,
+      "duration": 2.67,
+      "text": "that you have to sit in the\nseat that was assigned to you."
+    },
+    {
+      "start": 1642.94,
+      "duration": 3.48,
+      "text": "And when people try to\nmove from the side that"
+    },
+    {
+      "start": 1646.42,
+      "duration": 2.37,
+      "text": "only had one seat in\nthe row to the side that"
+    },
+    {
+      "start": 1648.79,
+      "duration": 2.58,
+      "text": "has two seats because they just\nwant more space to spread out,"
+    },
+    {
+      "start": 1651.37,
+      "duration": 2.17,
+      "text": "they might say, hey, for\nweight and balance reasons,"
+    },
+    {
+      "start": 1653.54,
+      "duration": 3.5,
+      "text": "you have to sit in the seat\nthat was assigned for takeoff"
+    },
+    {
+      "start": 1657.04,
+      "duration": 3.25,
+      "text": "and so that's what\nthey're talking about."
+    },
+    {
+      "start": 1660.29,
+      "duration": 2.19,
+      "text": "There any questions\nabout weight and balance?"
+    },
+    {
+      "start": 1671.23,
+      "duration": 2.05,
+      "text": "Do you guys think you\ncould do weight and balance"
+    },
+    {
+      "start": 1673.28,
+      "duration": 1.3,
+      "text": "calculations?"
+    },
+    {
+      "start": 1674.58,
+      "duration": 0.5,
+      "text": "Yes?"
+    },
+    {
+      "start": 1675.08,
+      "duration": 2.46,
+      "text": "OK, I'm getting a lot of head\nnods, so everyone took physics."
+    },
+    {
+      "start": 1677.54,
+      "duration": 0.5,
+      "text": "That's good."
+    },
+    {
+      "start": 1678.04,
+      "duration": 0.58,
+      "text": "Good job."
+    },
+    {
+      "start": 1678.62,
+      "duration": 0.5,
+      "text": "Yes?"
+    },
+    {
+      "start": 1679.12,
+      "duration": 4.01,
+      "text": "AUDIENCE: So I assume that\n[INAUDIBLE] the helicopter has"
+    },
+    {
+      "start": 1683.13,
+      "duration": 2.4,
+      "text": "lateral elements in the chart."
+    },
+    {
+      "start": 1685.52,
+      "duration": 2.88,
+      "text": "[INAUDIBLE]"
+    },
+    {
+      "start": 1688.4,
+      "duration": 1.83,
+      "text": "TINA SRIVASTAVA:\nHelicopter question."
+    },
+    {
+      "start": 1690.23,
+      "duration": 3.09,
+      "text": "I will actually defer to\nPhilip, who flies helicopters"
+    },
+    {
+      "start": 1693.32,
+      "duration": 1.09,
+      "text": "quite frequently."
+    },
+    {
+      "start": 1694.41,
+      "duration": 3.89,
+      "text": "So once he's back, we'll ask\nhim about helicopter CG limits."
+    },
+    {
+      "start": 1698.3,
+      "duration": 2.31,
+      "text": "Good question."
+    },
+    {
+      "start": 1700.61,
+      "duration": 2.46,
+      "text": "Anything else?"
+    },
+    {
+      "start": 1703.07,
+      "duration": 0.95,
+      "text": "Yes?"
+    },
+    {
+      "start": 1704.03,
+      "duration": 8.7,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 1712.73,
+      "duration": 2.3,
+      "text": "TINA SRIVASTAVA:\nSo the question is,"
+    },
+    {
+      "start": 1715.03,
+      "duration": 1.68,
+      "text": "when you're actually\nflying, do you"
+    },
+    {
+      "start": 1716.71,
+      "duration": 1.89,
+      "text": "do this calculation\nevery single time,"
+    },
+    {
+      "start": 1718.6,
+      "duration": 1.92,
+      "text": "or do you mostly only\ndo it when you're really"
+    },
+    {
+      "start": 1720.52,
+      "duration": 1.17,
+      "text": "loading the aircraft?"
+    },
+    {
+      "start": 1721.69,
+      "duration": 2.1,
+      "text": "So it's actually\nrequired that you have"
+    },
+    {
+      "start": 1723.79,
+      "duration": 1.87,
+      "text": "the weight and balance done."
+    },
+    {
+      "start": 1725.66,
+      "duration": 2.21,
+      "text": "The reason you don't do it\nevery single time, though,"
+    },
+    {
+      "start": 1727.87,
+      "duration": 2.47,
+      "text": "is you frequently fly in\nthe same configuration."
+    },
+    {
+      "start": 1730.34,
+      "duration": 2.21,
+      "text": "So if you rent from\na flight school,"
+    },
+    {
+      "start": 1732.55,
+      "duration": 3.39,
+      "text": "you might frequently rent\nyou know a couple aircraft,"
+    },
+    {
+      "start": 1735.94,
+      "duration": 4.02,
+      "text": "and you might frequently\nfly just yourself,"
+    },
+    {
+      "start": 1739.96,
+      "duration": 2.61,
+      "text": "doing a solo flight, or\nfly with your instructor."
+    },
+    {
+      "start": 1742.57,
+      "duration": 2.58,
+      "text": "So you might just keep\nit stored that you"
+    },
+    {
+      "start": 1745.15,
+      "duration": 3.09,
+      "text": "have a couple of pieces of\npaper in your flight bag"
+    },
+    {
+      "start": 1748.24,
+      "duration": 2.76,
+      "text": "that are the weight and balance\ncalculations for what you"
+    },
+    {
+      "start": 1751.0,
+      "duration": 2.52,
+      "text": "almost always fly\nand is almost always"
+    },
+    {
+      "start": 1753.52,
+      "duration": 3.06,
+      "text": "within the normal\ncategory envelope."
+    },
+    {
+      "start": 1756.58,
+      "duration": 3.09,
+      "text": "But you definitely want\nto do those calculations"
+    },
+    {
+      "start": 1759.67,
+      "duration": 2.79,
+      "text": "if you're getting\npassengers in the back seat."
+    },
+    {
+      "start": 1762.46,
+      "duration": 2.43,
+      "text": "Whenever we go on\nthese MIT fly outs,"
+    },
+    {
+      "start": 1764.89,
+      "duration": 3.19,
+      "text": "we actually ask people\nfor their weights,"
+    },
+    {
+      "start": 1768.08,
+      "duration": 2.99,
+      "text": "and it's actually a\nbig restriction too."
+    },
+    {
+      "start": 1771.07,
+      "duration": 2.37,
+      "text": "So when we're trying to\nget passengers to sit down,"
+    },
+    {
+      "start": 1773.44,
+      "duration": 1.92,
+      "text": "just because I fly\nassessment with four seats,"
+    },
+    {
+      "start": 1775.36,
+      "duration": 3.62,
+      "text": "as we just saw from the example,\nI don't have four pass--"
+    },
+    {
+      "start": 1778.98,
+      "duration": 1.83,
+      "text": "I don't have three\npassengers to offer."
+    },
+    {
+      "start": 1780.81,
+      "duration": 3.88,
+      "text": "I often say, I have\n220 pounds available,"
+    },
+    {
+      "start": 1784.69,
+      "duration": 4.47,
+      "text": "and so they then have to sort\nout, Sebastian and his team,"
+    },
+    {
+      "start": 1789.16,
+      "duration": 3.8,
+      "text": "as to who to assign to my\nplane versus another plane."
+    },
+    {
+      "start": 1792.96,
+      "duration": 1.42,
+      "text": "And also, if people\naren't being--"
+    },
+    {
+      "start": 1794.38,
+      "duration": 2.36,
+      "text": "if you notice people aren't\nbeing overly forthcoming"
+    },
+    {
+      "start": 1796.74,
+      "duration": 1.42,
+      "text": "about their weight,\nyou might want"
+    },
+    {
+      "start": 1798.16,
+      "duration": 2.28,
+      "text": "to increase the amount\nthat they gave you."
+    },
+    {
+      "start": 1800.44,
+      "duration": 2.43,
+      "text": "PHILIP GREENSPUN:\nYeah, let me add that--"
+    },
+    {
+      "start": 1802.87,
+      "duration": 2.31,
+      "text": "obviously, have a\nlot more experience"
+    },
+    {
+      "start": 1805.18,
+      "duration": 7.04,
+      "text": "being over overweight than\nTina might have, but also--"
+    },
+    {
+      "start": 1812.22,
+      "duration": 1.71,
+      "text": "actually, these pants\nare a good example."
+    },
+    {
+      "start": 1813.93,
+      "duration": 3.13,
+      "text": "20 years ago, some\nfriends and I,"
+    },
+    {
+      "start": 1817.06,
+      "duration": 3.06,
+      "text": "we made a web front end to\na Levi Strauss factory that"
+    },
+    {
+      "start": 1820.12,
+      "duration": 2.01,
+      "text": "could make custom cut khakis."
+    },
+    {
+      "start": 1822.13,
+      "duration": 1.53,
+      "text": "So we asked people\nin the web form"
+    },
+    {
+      "start": 1823.66,
+      "duration": 2.16,
+      "text": "when they ordered what's\nyour waist size, what's"
+    },
+    {
+      "start": 1825.82,
+      "duration": 2.7,
+      "text": "your inseam, what's\nyour height and weight."
+    },
+    {
+      "start": 1828.52,
+      "duration": 3.48,
+      "text": "And from that, we\nhad software to try"
+    },
+    {
+      "start": 1832.0,
+      "duration": 3.29,
+      "text": "to infer their actual weight,\ntheir actual waist size,"
+    },
+    {
+      "start": 1835.29,
+      "duration": 2.08,
+      "text": "and then we make them--\nyou can't really see this,"
+    },
+    {
+      "start": 1837.37,
+      "duration": 2.42,
+      "text": "but these pants just\nsay pair number 7."
+    },
+    {
+      "start": 1839.79,
+      "duration": 2.7,
+      "text": "They don't say anything about\nwhat size it actually is."
+    },
+    {
+      "start": 1842.49,
+      "duration": 1.33,
+      "text": "They would get their pants--"
+    },
+    {
+      "start": 1843.82,
+      "duration": 1.84,
+      "text": "this was in 1997."
+    },
+    {
+      "start": 1845.66,
+      "duration": 2.06,
+      "text": "They would get their\npants, if they didn't fit,"
+    },
+    {
+      "start": 1847.72,
+      "duration": 2.58,
+      "text": "they'd say, look, it needs to\nbe a little looser in the waist."
+    },
+    {
+      "start": 1850.3,
+      "duration": 2.07,
+      "text": "It needs to be a little\nshorter, and then"
+    },
+    {
+      "start": 1852.37,
+      "duration": 3.15,
+      "text": "a revised pair would be\nmade and sent to them,"
+    },
+    {
+      "start": 1855.52,
+      "duration": 2.61,
+      "text": "but we never relied\non their stated weight"
+    },
+    {
+      "start": 1858.13,
+      "duration": 2.74,
+      "text": "or their stated\nwaist size, exactly."
+    },
+    {
+      "start": 1860.87,
+      "duration": 2.21,
+      "text": "TINA SRIVASTAVA: Philip,\nthere was a question for you"
+    },
+    {
+      "start": 1863.08,
+      "duration": 3.87,
+      "text": "that I wasn't able to\nanswer about helicopter CGs,"
+    },
+    {
+      "start": 1866.95,
+      "duration": 2.26,
+      "text": "and really thinking\nit was the lateral CG."
+    },
+    {
+      "start": 1869.21,
+      "duration": 1.5,
+      "text": "What was your\nquestion specifically?"
+    },
+    {
+      "start": 1870.71,
+      "duration": 2.52,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 1873.23,
+      "duration": 3.02,
+      "text": "PHILIP GREENSPUN: It's very\nhard to get a-- the question is"
+    },
+    {
+      "start": 1876.25,
+      "duration": 2.99,
+      "text": "it's very hard to get a\nhelicopter out of lateral CG,"
+    },
+    {
+      "start": 1879.24,
+      "duration": 0.99,
+      "text": "as with an aircraft."
+    },
+    {
+      "start": 1880.23,
+      "duration": 3.12,
+      "text": "If you have to have you people\nin the back and a light person"
+    },
+    {
+      "start": 1883.35,
+      "duration": 6.35,
+      "text": "in the front, it's easy to\nget out of front back CG,"
+    },
+    {
+      "start": 1889.7,
+      "duration": 2.46,
+      "text": "longitudinal CG, but--"
+    },
+    {
+      "start": 1892.16,
+      "duration": 2.5,
+      "text": "TINA SRIVASTAVA: He's talking\nabout, what we just discussed,"
+    },
+    {
+      "start": 1894.66,
+      "duration": 1.83,
+      "text": "it's frequently the\ncase that you might have"
+    },
+    {
+      "start": 1896.49,
+      "duration": 3.0,
+      "text": "a forward CG or an aft\nCG, but you don't usually"
+    },
+    {
+      "start": 1899.49,
+      "duration": 4.32,
+      "text": "have an issue with the CG on\nthe left or the right, unless--"
+    },
+    {
+      "start": 1903.81,
+      "duration": 3.28,
+      "text": "it's very visible in\na four seat aircraft"
+    },
+    {
+      "start": 1907.09,
+      "duration": 1.46,
+      "text": "how to fix those\ntypes of problems."
+    },
+    {
+      "start": 1908.55,
+      "duration": 1.88,
+      "text": "PHILIP GREENSPUN: One\nissue with the Robinson"
+    },
+    {
+      "start": 1910.42,
+      "duration": 2.09,
+      "text": "is they put the main\nfuel tank on the left,"
+    },
+    {
+      "start": 1912.51,
+      "duration": 1.46,
+      "text": "so they're budgeting for--"
+    },
+    {
+      "start": 1913.97,
+      "duration": 3.52,
+      "text": "in a solo situation, a pilot\nof at least a certain minimum"
+    },
+    {
+      "start": 1917.49,
+      "duration": 1.95,
+      "text": "weight in the front right."
+    },
+    {
+      "start": 1919.44,
+      "duration": 2.88,
+      "text": "So very lightweight,\nsometimes when"
+    },
+    {
+      "start": 1922.32,
+      "duration": 2.31,
+      "text": "teenagers are learning\nto fly helicopters,"
+    },
+    {
+      "start": 1924.63,
+      "duration": 2.16,
+      "text": "they have to add a\nlittle bit of ballast,"
+    },
+    {
+      "start": 1926.79,
+      "duration": 3.45,
+      "text": "let's say like a big\nheavy gym weight."
+    },
+    {
+      "start": 1930.24,
+      "duration": 3.57,
+      "text": "A 50 pound gym\nweight in the front"
+    },
+    {
+      "start": 1933.81,
+      "duration": 1.98,
+      "text": "left footwell or something."
+    },
+    {
+      "start": 1935.79,
+      "duration": 2.85,
+      "text": "AUDIENCE: The other thing\nthat could go wrong is--"
+    },
+    {
+      "start": 1938.64,
+      "duration": 3.21,
+      "text": "so when you do your pre-flight,\none of the things that you do"
+    },
+    {
+      "start": 1941.85,
+      "duration": 3.04,
+      "text": "is that if you're sitting\nin the pilot's seat, so"
+    },
+    {
+      "start": 1944.89,
+      "duration": 2.15,
+      "text": "on the left side,\nso to your right"
+    },
+    {
+      "start": 1947.04,
+      "duration": 1.77,
+      "text": "in the middle at\nthe bottom, there's"
+    },
+    {
+      "start": 1948.81,
+      "duration": 2.49,
+      "text": "a little knob where you\ncan say whether you want"
+    },
+    {
+      "start": 1951.3,
+      "duration": 3.69,
+      "text": "the fuel to be coming from\nthe left tank, the right tank,"
+    },
+    {
+      "start": 1954.99,
+      "duration": 0.87,
+      "text": "or both."
+    },
+    {
+      "start": 1955.86,
+      "duration": 2.97,
+      "text": "And pretty much, all\nthe time, the checklist"
+    },
+    {
+      "start": 1958.83,
+      "duration": 1.83,
+      "text": "says that after you've\nparked the plane,"
+    },
+    {
+      "start": 1960.66,
+      "duration": 1.92,
+      "text": "you want to twist it to\nthe left or the right,"
+    },
+    {
+      "start": 1962.58,
+      "duration": 1.53,
+      "text": "and the reason is\nyou don't want--"
+    },
+    {
+      "start": 1964.11,
+      "duration": 1.74,
+      "text": "while it's sitting\nthere, fuel to be"
+    },
+    {
+      "start": 1965.85,
+      "duration": 4.11,
+      "text": "sloshing across the plane,\nand so you set it to left,"
+    },
+    {
+      "start": 1969.96,
+      "duration": 1.06,
+      "text": "for example."
+    },
+    {
+      "start": 1971.02,
+      "duration": 2.57,
+      "text": "Now, if you skipped that\nstep, even though it comes up"
+    },
+    {
+      "start": 1973.59,
+      "duration": 2.43,
+      "text": "several times throughout\nyour pre-flight"
+    },
+    {
+      "start": 1976.02,
+      "duration": 4.14,
+      "text": "and then your run up check,\nif you didn't put the fuel"
+    },
+    {
+      "start": 1980.16,
+      "duration": 3.27,
+      "text": "to draw from both tanks and\nit's only drawing from one tank,"
+    },
+    {
+      "start": 1983.43,
+      "duration": 4.17,
+      "text": "then you might experience\nthat instability."
+    },
+    {
+      "start": 1987.6,
+      "duration": 1.79,
+      "text": "PHILIP GREENSPUN: All\nright, why don't we--"
+    },
+    {
+      "start": 1989.39,
+      "duration": 2.89,
+      "text": "should we take a 15-minute\nbreak so people can run out,"
+    },
+    {
+      "start": 1992.28,
+      "duration": 2.61,
+      "text": "grab food, bring it back,\nand then we'll hear from"
+    },
+    {
+      "start": 1994.89,
+      "duration": 1.26,
+      "text": "[INAUDIBLE] about--"
+    },
+    {
+      "start": 1996.15,
+      "duration": 3.72,
+      "text": "TINA SRIVASTAVA: The test pilot\nand life potentially outside"
+    },
+    {
+      "start": 1999.87,
+      "duration": 1.7,
+      "text": "of the limits."
+    }
+  ]
+}

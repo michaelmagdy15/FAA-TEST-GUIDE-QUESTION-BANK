@@ -1,0 +1,5161 @@
+{
+  "videoId": "AYF3spOVbBk",
+  "lectureNum": 4,
+  "title": "Aircraft Systems",
+  "topics": [
+    "engine",
+    "fuel system",
+    "electrical",
+    "hydraulic",
+    "propeller",
+    "piston engine",
+    "lycoming"
+  ],
+  "segments": [
+    {
+      "start": 16.72,
+      "duration": 2.4,
+      "text": "PHILIP GREENSPUN: All right,\nso a complicated aircraft"
+    },
+    {
+      "start": 19.12,
+      "duration": 1.81,
+      "text": "will have a lot of systems."
+    },
+    {
+      "start": 20.93,
+      "duration": 2.27,
+      "text": "These are the systems from\nthe Canadair Regional Jet."
+    },
+    {
+      "start": 28.49,
+      "duration": 1.14,
+      "text": "How well did that I fly it?"
+    },
+    {
+      "start": 29.63,
+      "duration": 2.63,
+      "text": "We landed it once in Toronto,\nand I was doing this,"
+    },
+    {
+      "start": 32.26,
+      "duration": 1.88,
+      "text": "and the captain\nsaid to me, well--"
+    },
+    {
+      "start": 34.14,
+      "duration": 1.88,
+      "text": "he was a young guy--"
+    },
+    {
+      "start": 36.02,
+      "duration": 2.64,
+      "text": "he said, well, you know nobody\nwas born knowing how to fly"
+    },
+    {
+      "start": 38.66,
+      "duration": 1.91,
+      "text": "a 53,000-pound jet."
+    },
+    {
+      "start": 40.57,
+      "duration": 1.69,
+      "text": "But anyway, this is\nthe kind of stuff"
+    },
+    {
+      "start": 42.26,
+      "duration": 2.31,
+      "text": "you have to learn\nfor the big aircraft."
+    },
+    {
+      "start": 44.57,
+      "duration": 1.83,
+      "text": "Here are these\nsystems that we're"
+    },
+    {
+      "start": 46.4,
+      "duration": 2.29,
+      "text": "going to talk about that you\nhave on a small aircraft."
+    },
+    {
+      "start": 52.26,
+      "duration": 1.9,
+      "text": "The engine, first of\nall, what are the types?"
+    },
+    {
+      "start": 54.16,
+      "duration": 2.36,
+      "text": "You might remember\nthe cool old days."
+    },
+    {
+      "start": 56.52,
+      "duration": 2.82,
+      "text": "You had these big\nradio engines, and they"
+    },
+    {
+      "start": 59.34,
+      "duration": 4.2,
+      "text": "went up to 3,500 horsepower,\nI think, was the biggest one."
+    },
+    {
+      "start": 63.54,
+      "duration": 1.95,
+      "text": "But your typical\nWorld War Ii fighter"
+    },
+    {
+      "start": 65.49,
+      "duration": 3.24,
+      "text": "might have a 2000\nhorsepower-ish radial engine."
+    },
+    {
+      "start": 68.73,
+      "duration": 2.88,
+      "text": "Turboprops, so we'll\nget into this more."
+    },
+    {
+      "start": 71.61,
+      "duration": 3.84,
+      "text": "I have a special lecture on\nturbines and multi-engine."
+    },
+    {
+      "start": 75.45,
+      "duration": 4.23,
+      "text": "But it's a jet engine that's\nhooked into a propeller,"
+    },
+    {
+      "start": 79.68,
+      "duration": 3.57,
+      "text": "and that lets you land\non shorter runways,"
+    },
+    {
+      "start": 83.25,
+      "duration": 4.14,
+      "text": "and it's more fuel-efficient\nat lower altitudes."
+    },
+    {
+      "start": 87.39,
+      "duration": 2.76,
+      "text": "The popular examples,\nthe Pratt & Whitney PT6"
+    },
+    {
+      "start": 90.15,
+      "duration": 2.45,
+      "text": "has been around since the 50s."
+    },
+    {
+      "start": 92.6,
+      "duration": 3.61,
+      "text": "A competitor from the similar\nera was designed by Garrett."
+    },
+    {
+      "start": 96.21,
+      "duration": 2.16,
+      "text": "Those have typically\nslugged it out."
+    },
+    {
+      "start": 98.37,
+      "duration": 4.71,
+      "text": "One of them is a free\nturbine, so you have the PT6."
+    },
+    {
+      "start": 103.08,
+      "duration": 3.33,
+      "text": "And this is a GE Walter\nderivative, that they now"
+    },
+    {
+      "start": 106.41,
+      "duration": 2.22,
+      "text": "call the GE Advanced Turboprop."
+    },
+    {
+      "start": 108.63,
+      "duration": 2.01,
+      "text": "So the cold air comes in."
+    },
+    {
+      "start": 110.64,
+      "duration": 3.09,
+      "text": "It gets burned."
+    },
+    {
+      "start": 113.73,
+      "duration": 5.19,
+      "text": "And the hot exhaust\ngases spin this power"
+    },
+    {
+      "start": 118.92,
+      "duration": 5.1,
+      "text": "turbine which has a shaft\nthat drives the compressor."
+    },
+    {
+      "start": 124.02,
+      "duration": 2.31,
+      "text": "And it also goes back this way."
+    },
+    {
+      "start": 130.54,
+      "duration": 1.55,
+      "text": "There's a second."
+    },
+    {
+      "start": 132.09,
+      "duration": 2.37,
+      "text": "I think one of them\ndrives the compressor,"
+    },
+    {
+      "start": 134.46,
+      "duration": 2.07,
+      "text": "and there's a second\nwheel there that"
+    },
+    {
+      "start": 136.53,
+      "duration": 4.59,
+      "text": "is exposed to the hot gases and\nit will drive the propeller."
+    },
+    {
+      "start": 141.12,
+      "duration": 3.66,
+      "text": "So there's kind of a fluid\ncoupling there through the air."
+    },
+    {
+      "start": 144.78,
+      "duration": 5.76,
+      "text": "Whereas the Garrett Honeywell\nproduct has a direct drive"
+    },
+    {
+      "start": 150.54,
+      "duration": 2.23,
+      "text": "transmission that's more\ncomplicated but also"
+    },
+    {
+      "start": 152.78,
+      "duration": 1.38,
+      "text": "a little bit more\nfuel-efficient."
+    },
+    {
+      "start": 154.15,
+      "duration": 3.32,
+      "text": "So those are the\ntwo big designs."
+    },
+    {
+      "start": 157.47,
+      "duration": 4.47,
+      "text": "You get a lot more\nreliability with a turboprop"
+    },
+    {
+      "start": 161.94,
+      "duration": 1.12,
+      "text": "if you need power."
+    },
+    {
+      "start": 163.06,
+      "duration": 3.53,
+      "text": "It's hard to make a piston\nengine reliable if it generates"
+    },
+    {
+      "start": 166.59,
+      "duration": 1.68,
+      "text": "a lot of horsepower."
+    },
+    {
+      "start": 168.27,
+      "duration": 3.09,
+      "text": "The disadvantage is\nnobody's really figured out"
+    },
+    {
+      "start": 171.36,
+      "duration": 2.94,
+      "text": "how to make these things\nfor less than half a million"
+    },
+    {
+      "start": 174.3,
+      "duration": 2.38,
+      "text": "dollars new in a box."
+    },
+    {
+      "start": 176.68,
+      "duration": 3.11,
+      "text": "And the most popular\nairframes for the turboprop"
+    },
+    {
+      "start": 179.79,
+      "duration": 3.18,
+      "text": "for things that you might\nfly, the Beechcraft King"
+    },
+    {
+      "start": 182.97,
+      "duration": 2.36,
+      "text": "Air which is twin-engine,\nand the Pilatus"
+    },
+    {
+      "start": 185.33,
+      "duration": 2.08,
+      "text": "PC-12 which is a single."
+    },
+    {
+      "start": 187.41,
+      "duration": 4.44,
+      "text": "Turbojets, which-- well, the\nFAA calls them turbojets."
+    },
+    {
+      "start": 191.85,
+      "duration": 2.94,
+      "text": "They're really turbofans\nbecause of the bypass air."
+    },
+    {
+      "start": 194.79,
+      "duration": 2.92,
+      "text": "We'll see that in\nthe next slide."
+    },
+    {
+      "start": 197.71,
+      "duration": 2.0,
+      "text": "These are-- one thing\nto remember about them"
+    },
+    {
+      "start": 199.71,
+      "duration": 1.36,
+      "text": "is they're normally aspirated."
+    },
+    {
+      "start": 201.07,
+      "duration": 2.45,
+      "text": "They actually do produce\nless and less power"
+    },
+    {
+      "start": 203.52,
+      "duration": 2.43,
+      "text": "as you get up to\nhigher altitudes which"
+    },
+    {
+      "start": 205.95,
+      "duration": 4.95,
+      "text": "is important for taking off, you\nknow, in Colorado on a hot day."
+    },
+    {
+      "start": 210.9,
+      "duration": 2.37,
+      "text": "You have much lower\nnoise and vibration--"
+    },
+    {
+      "start": 213.27,
+      "duration": 3.12,
+      "text": "maybe not if you mount one\nof them right over your ear."
+    },
+    {
+      "start": 216.39,
+      "duration": 2.1,
+      "text": "That's a Cirrus\njet which is kind"
+    },
+    {
+      "start": 218.49,
+      "duration": 4.98,
+      "text": "of a cool simple personal jet."
+    },
+    {
+      "start": 223.47,
+      "duration": 2.7,
+      "text": "They actually have sort of\ntaken over the market starting"
+    },
+    {
+      "start": 226.17,
+      "duration": 3.51,
+      "text": "in model airplanes going all\nthe way up to the Boeing's"
+    },
+    {
+      "start": 229.68,
+      "duration": 1.08,
+      "text": "and the airbuses."
+    },
+    {
+      "start": 230.76,
+      "duration": 3.93,
+      "text": "And the only gap where\nturbojets have not taken over"
+    },
+    {
+      "start": 234.69,
+      "duration": 2.16,
+      "text": "is in your family\nairplane, right?"
+    },
+    {
+      "start": 236.85,
+      "duration": 2.04,
+      "text": "Your four-seater,\nyour six-seater,"
+    },
+    {
+      "start": 238.89,
+      "duration": 1.8,
+      "text": "that's where\nnobody's figured out"
+    },
+    {
+      "start": 240.69,
+      "duration": 2.4,
+      "text": "how to make a\nturbojet that really"
+    },
+    {
+      "start": 243.09,
+      "duration": 2.97,
+      "text": "makes economic sense or\neven sense for the range."
+    },
+    {
+      "start": 246.06,
+      "duration": 3.99,
+      "text": "They tend not to be as efficient\nat these low-power settings."
+    },
+    {
+      "start": 250.05,
+      "duration": 3.55,
+      "text": "The smaller the turbojet, the\nless efficient it has been,"
+    },
+    {
+      "start": 253.6,
+      "duration": 1.26,
+      "text": "unfortunately."
+    },
+    {
+      "start": 254.86,
+      "duration": 1.67,
+      "text": "So you wouldn't get\nthe kind of range"
+    },
+    {
+      "start": 256.53,
+      "duration": 2.13,
+      "text": "that you'd get out of\na Cirrus or a Cessna"
+    },
+    {
+      "start": 258.66,
+      "duration": 3.4,
+      "text": "if you stuck a jet\nengine in there."
+    },
+    {
+      "start": 262.06,
+      "duration": 1.35,
+      "text": "These are more vulnerable."
+    },
+    {
+      "start": 263.41,
+      "duration": 4.34,
+      "text": "A bird will usually just get\nCuisinarted by a propeller,"
+    },
+    {
+      "start": 267.75,
+      "duration": 4.41,
+      "text": "but if it goes into the jet\nengine then it can destroy it."
+    },
+    {
+      "start": 272.16,
+      "duration": 5.03,
+      "text": "So the single-engine jet,\nwell, some single-engine jets"
+    },
+    {
+      "start": 277.19,
+      "duration": 2.79,
+      "text": "like fighters they should\nhave an ejection seat."
+    },
+    {
+      "start": 279.98,
+      "duration": 2.58,
+      "text": "The Cirrus single-engine\njet has a parachute"
+    },
+    {
+      "start": 282.56,
+      "duration": 2.61,
+      "text": "for the whole aircraft\nto float you down."
+    },
+    {
+      "start": 285.17,
+      "duration": 3.12,
+      "text": "All right, turbojet, again,\nthis is not really on the exam"
+    },
+    {
+      "start": 288.29,
+      "duration": 1.73,
+      "text": "but it's just good\ngeneral knowledge."
+    },
+    {
+      "start": 292.75,
+      "duration": 1.66,
+      "text": "The fresh air, it comes in here."
+    },
+    {
+      "start": 294.41,
+      "duration": 1.62,
+      "text": "It gets compressed\nby the compressor."
+    },
+    {
+      "start": 296.03,
+      "duration": 1.77,
+      "text": "Once again, that's\nnormal aspiration,"
+    },
+    {
+      "start": 297.8,
+      "duration": 1.86,
+      "text": "and so it's just a\nfixed-compression ratio."
+    },
+    {
+      "start": 299.66,
+      "duration": 4.31,
+      "text": "It doesn't get more extreme\nlike with the turbocharger"
+    },
+    {
+      "start": 303.97,
+      "duration": 2.29,
+      "text": "in a piston engine\nat higher altitude."
+    },
+    {
+      "start": 306.26,
+      "duration": 1.29,
+      "text": "Notice this bypass air."
+    },
+    {
+      "start": 307.55,
+      "duration": 1.83,
+      "text": "It's being spun, and\nthat blade in the front"
+    },
+    {
+      "start": 309.38,
+      "duration": 3.35,
+      "text": "is really acting\nlike a propeller."
+    },
+    {
+      "start": 312.73,
+      "duration": 2.62,
+      "text": "Here is where the compressed\nair gets burned and drives"
+    },
+    {
+      "start": 315.35,
+      "duration": 3.99,
+      "text": "these power turbines\nthat drive the compressor"
+    },
+    {
+      "start": 319.34,
+      "duration": 1.65,
+      "text": "and the fan in front."
+    },
+    {
+      "start": 320.99,
+      "duration": 2.85,
+      "text": "So it seems like a\nreally simple design,"
+    },
+    {
+      "start": 323.84,
+      "duration": 4.15,
+      "text": "but there's a tremendous amount\nof engineering in the blades."
+    },
+    {
+      "start": 327.99,
+      "duration": 3.05,
+      "text": "And if anything is fabricated\njust slightly wrong, you know,"
+    },
+    {
+      "start": 331.04,
+      "duration": 2.41,
+      "text": "the whole thing comes\napart and explodes."
+    },
+    {
+      "start": 333.45,
+      "duration": 1.91,
+      "text": "So that's one reason\nI think they're"
+    },
+    {
+      "start": 335.36,
+      "duration": 5.2,
+      "text": "in the million-dollar range for\na typical business jet engine."
+    },
+    {
+      "start": 340.56,
+      "duration": 2.52,
+      "text": "All right, so let's go\nback to our world, which,"
+    },
+    {
+      "start": 343.08,
+      "duration": 3.69,
+      "text": "unfortunately, is going to be\nthe reciprocating piston engine"
+    },
+    {
+      "start": 346.77,
+      "duration": 1.69,
+      "text": "kind of like in your car."
+    },
+    {
+      "start": 348.46,
+      "duration": 2.56,
+      "text": "The designs-- I don't know--"
+    },
+    {
+      "start": 351.02,
+      "duration": 1.42,
+      "text": "the fundamentalists\nmay or may not"
+    },
+    {
+      "start": 352.44,
+      "duration": 1.62,
+      "text": "have changed that\nmuch since the Wright"
+    },
+    {
+      "start": 354.06,
+      "duration": 2.81,
+      "text": "brothers, but\ncertainly, the designs"
+    },
+    {
+      "start": 356.88,
+      "duration": 1.98,
+      "text": "that are in your modern\nCessna or a Piper--"
+    },
+    {
+      "start": 358.86,
+      "duration": 2.84,
+      "text": "the basic geometry,\nthe engine design--"
+    },
+    {
+      "start": 361.7,
+      "duration": 1.93,
+      "text": "is really all from the 1950s."
+    },
+    {
+      "start": 363.62,
+      "duration": 2.38,
+      "text": "The good news is that with\nnumerically-controlled machine"
+    },
+    {
+      "start": 366.0,
+      "duration": 1.62,
+      "text": "tools and such,\nthey're much more"
+    },
+    {
+      "start": 367.62,
+      "duration": 2.34,
+      "text": "reliable than they used to be."
+    },
+    {
+      "start": 369.96,
+      "duration": 2.49,
+      "text": "Engine failure was\nan everyday event"
+    },
+    {
+      "start": 372.45,
+      "duration": 1.89,
+      "text": "at a busy airport\nin the old days."
+    },
+    {
+      "start": 374.34,
+      "duration": 4.05,
+      "text": "And now, you know, I've\nflown for, I don't know,"
+    },
+    {
+      "start": 378.39,
+      "duration": 4.8,
+      "text": "4,000-plus hours with Pistons\nand have never had any kind"
+    },
+    {
+      "start": 383.19,
+      "duration": 1.71,
+      "text": "of real engine problem."
+    },
+    {
+      "start": 384.9,
+      "duration": 3.16,
+      "text": "The horizontal opposition\nsupposedly smooths things out."
+    },
+    {
+      "start": 388.06,
+      "duration": 2.24,
+      "text": "They may ask you about\nthat on the test."
+    },
+    {
+      "start": 390.3,
+      "duration": 2.58,
+      "text": "Like the turbojet, it's\nnormally aspirated,"
+    },
+    {
+      "start": 392.88,
+      "duration": 2.76,
+      "text": "so the performance\ndegrades as you"
+    },
+    {
+      "start": 395.64,
+      "duration": 4.38,
+      "text": "go to hot and high elevations\nwhere the air is thinner."
+    },
+    {
+      "start": 400.02,
+      "duration": 4.14,
+      "text": "We'll talk about that in the\nperformance calculations."
+    },
+    {
+      "start": 404.16,
+      "duration": 2.67,
+      "text": "You directly drive\nthe propeller."
+    },
+    {
+      "start": 406.83,
+      "duration": 3.39,
+      "text": "So if the engine's\nspinning at 2,500 RPM,"
+    },
+    {
+      "start": 410.22,
+      "duration": 1.92,
+      "text": "the propeller's\nspinning at 2,500 RPM."
+    },
+    {
+      "start": 412.14,
+      "duration": 2.23,
+      "text": "There's no transmission."
+    },
+    {
+      "start": 414.37,
+      "duration": 3.05,
+      "text": "The cooling is the air,\nit's called air-cooled."
+    },
+    {
+      "start": 417.42,
+      "duration": 2.19,
+      "text": "And the air flows\nover the cylinders,"
+    },
+    {
+      "start": 419.61,
+      "duration": 2.37,
+      "text": "but there's also a lot of\noil circulating which has"
+    },
+    {
+      "start": 421.98,
+      "duration": 3.79,
+      "text": "a significant cooling function."
+    },
+    {
+      "start": 425.77,
+      "duration": 2.22,
+      "text": "The lowest cost and\nsimplest airplanes"
+    },
+    {
+      "start": 427.99,
+      "duration": 3.09,
+      "text": "have a carburetor rather\nthan fuel injection."
+    },
+    {
+      "start": 431.08,
+      "duration": 4.02,
+      "text": "And you'll get 200\nhorsepower or less out of a--"
+    },
+    {
+      "start": 435.1,
+      "duration": 1.74,
+      "text": "well, I guess the\nlatest Lycoming's can"
+    },
+    {
+      "start": 436.84,
+      "duration": 3.24,
+      "text": "do to 215 out of a 4-cylinder."
+    },
+    {
+      "start": 440.08,
+      "duration": 2.21,
+      "text": "You can get a\nlittle bit fancier."
+    },
+    {
+      "start": 442.29,
+      "duration": 2.57,
+      "text": "A plane like a Cirrus\nor the latest Cessnas"
+    },
+    {
+      "start": 444.86,
+      "duration": 2.06,
+      "text": "will have fuel injection."
+    },
+    {
+      "start": 446.92,
+      "duration": 3.04,
+      "text": "Turbocharging sounds like the\nideal thing for an aircraft."
+    },
+    {
+      "start": 449.96,
+      "duration": 2.42,
+      "text": "Why wouldn't you want\nthat for a machine that"
+    },
+    {
+      "start": 452.38,
+      "duration": 3.12,
+      "text": "goes through airs of all\nkinds of different densities?"
+    },
+    {
+      "start": 455.5,
+      "duration": 1.44,
+      "text": "It seems like the ideal thing."
+    },
+    {
+      "start": 456.94,
+      "duration": 2.31,
+      "text": "Just make the density\nback to sea level at least"
+    },
+    {
+      "start": 459.25,
+      "duration": 3.3,
+      "text": "all the time, which is\ncalled turbo-normalization."
+    },
+    {
+      "start": 462.55,
+      "duration": 3.72,
+      "text": "The problem is that\nthey share an oil system"
+    },
+    {
+      "start": 466.27,
+      "duration": 2.88,
+      "text": "with the rest of the engine, so\nwhen the turbocharger breaks,"
+    },
+    {
+      "start": 469.15,
+      "duration": 2.6,
+      "text": "it tends to cause all of the\noil to leak out of the engine."
+    },
+    {
+      "start": 471.75,
+      "duration": 1.12,
+      "text": "And now you have a broken--"
+    },
+    {
+      "start": 472.87,
+      "duration": 2.22,
+      "text": "you know, what had been\na perfectly good engine"
+    },
+    {
+      "start": 475.09,
+      "duration": 4.35,
+      "text": "with a broken turbocharger\nbecomes a real emergency."
+    },
+    {
+      "start": 479.44,
+      "duration": 2.73,
+      "text": "So people's-- you know, except\nout west where you really need"
+    },
+    {
+      "start": 482.17,
+      "duration": 3.21,
+      "text": "the performance because\nyou are going up high a lot"
+    },
+    {
+      "start": 485.38,
+      "duration": 3.69,
+      "text": "or you're starting\nfrom high and hot,"
+    },
+    {
+      "start": 489.07,
+      "duration": 2.38,
+      "text": "the turbochargers\ntend to be unpopular,"
+    },
+    {
+      "start": 491.45,
+      "duration": 1.83,
+      "text": "although it's an ideal\nengineering solution."
+    },
+    {
+      "start": 496.18,
+      "duration": 2.32,
+      "text": "The more cylinders also\nthe less vibration,"
+    },
+    {
+      "start": 498.5,
+      "duration": 2.06,
+      "text": "so if you have higher\nhorsepower or if you just"
+    },
+    {
+      "start": 500.56,
+      "duration": 1.26,
+      "text": "want it to be smooth."
+    },
+    {
+      "start": 501.82,
+      "duration": 2.04,
+      "text": "Like the original\nSR20s came with"
+    },
+    {
+      "start": 503.86,
+      "duration": 1.89,
+      "text": "six-cylinder,\n200-horsepower engines"
+    },
+    {
+      "start": 505.75,
+      "duration": 2.19,
+      "text": "because they wanted\nit to be smoother."
+    },
+    {
+      "start": 510.72,
+      "duration": 2.56,
+      "text": "Rotax is the most popular\nengine in the light sport"
+    },
+    {
+      "start": 513.28,
+      "duration": 1.61,
+      "text": "and experimental world."
+    },
+    {
+      "start": 514.89,
+      "duration": 3.27,
+      "text": "That's an engine that's a little\nbit more like a car engine."
+    },
+    {
+      "start": 518.16,
+      "duration": 1.53,
+      "text": "It revs pretty high."
+    },
+    {
+      "start": 519.69,
+      "duration": 5.43,
+      "text": "It's got a water-cooling\nradiator with antifreeze"
+    },
+    {
+      "start": 525.12,
+      "duration": 5.67,
+      "text": "and the transmission gears that\nprop down to a lower speed."
+    },
+    {
+      "start": 530.79,
+      "duration": 1.83,
+      "text": "All right, here's\nyour basic engine."
+    },
+    {
+      "start": 539.02,
+      "duration": 3.12,
+      "text": "So up here in the\ncylinder head, you"
+    },
+    {
+      "start": 542.14,
+      "duration": 3.81,
+      "text": "have your intake, an exhaust\nvalve, and your spark plug."
+    },
+    {
+      "start": 545.95,
+      "duration": 3.93,
+      "text": "Down here, there's the\ncrankcase and crankshaft."
+    },
+    {
+      "start": 554.22,
+      "duration": 3.31,
+      "text": "Here's an exciting-- this\nis kind of an inline-four,"
+    },
+    {
+      "start": 557.53,
+      "duration": 3.88,
+      "text": "but you get an idea\nof the power strokes."
+    },
+    {
+      "start": 561.41,
+      "duration": 1.79,
+      "text": "Everybody used to know\nthis in the old days"
+    },
+    {
+      "start": 563.2,
+      "duration": 2.29,
+      "text": "because they were\nexcited about cars,"
+    },
+    {
+      "start": 565.49,
+      "duration": 1.79,
+      "text": "so they had a lot of\ncar-related knowledge,"
+    },
+    {
+      "start": 567.28,
+      "duration": 1.54,
+      "text": "and it's basically\nthe same idea."
+    },
+    {
+      "start": 568.82,
+      "duration": 4.37,
+      "text": "But now in the Uber age, we\ncan't take that for granted."
+    },
+    {
+      "start": 573.19,
+      "duration": 4.41,
+      "text": "So you've got your\nintake stroke top left,"
+    },
+    {
+      "start": 577.6,
+      "duration": 2.95,
+      "text": "and then the cylinder."
+    },
+    {
+      "start": 580.55,
+      "duration": 5.36,
+      "text": "The piston is pushed back up to\ncompress the air-fuel mixture."
+    },
+    {
+      "start": 585.91,
+      "duration": 1.53,
+      "text": "The spark plugs ignite."
+    },
+    {
+      "start": 587.44,
+      "duration": 2.7,
+      "text": "Notice how there's\ntwo of them here."
+    },
+    {
+      "start": 590.14,
+      "duration": 3.69,
+      "text": "That gives you some redundancy\nas well as more uniformity"
+    },
+    {
+      "start": 593.83,
+      "duration": 4.56,
+      "text": "of combustion, which pushes\nthe piston back down generating"
+    },
+    {
+      "start": 598.39,
+      "duration": 0.9,
+      "text": "the power."
+    },
+    {
+      "start": 599.29,
+      "duration": 2.46,
+      "text": "And then finally,\nthe piston rotates up"
+    },
+    {
+      "start": 601.75,
+      "duration": 0.97,
+      "text": "and pushes the air out."
+    },
+    {
+      "start": 602.72,
+      "duration": 1.83,
+      "text": "I think this might be\ncalled the Otto cycle."
+    },
+    {
+      "start": 604.55,
+      "duration": 2.45,
+      "text": "I think a German\nguy invented this--"
+    },
+    {
+      "start": 607.0,
+      "duration": 3.06,
+      "text": "or actually, a French\nguy patented it first,"
+    },
+    {
+      "start": 610.06,
+      "duration": 3.09,
+      "text": "but maybe Otto reduced\nit to practice first."
+    },
+    {
+      "start": 613.15,
+      "duration": 3.21,
+      "text": "But anyway, it's a European\ninvention from the late 1800s,"
+    },
+    {
+      "start": 616.36,
+      "duration": 2.82,
+      "text": "and it really hasn't\nchanged much--"
+    },
+    {
+      "start": 619.18,
+      "duration": 1.51,
+      "text": "four-stroke cycle."
+    },
+    {
+      "start": 620.69,
+      "duration": 4.54,
+      "text": "OK, cooling, as I said it's\na combination of the air"
+    },
+    {
+      "start": 625.23,
+      "duration": 1.92,
+      "text": "and the oil circulation."
+    },
+    {
+      "start": 627.15,
+      "duration": 4.14,
+      "text": "The FAA wants you to know that\nif you're getting the engine"
+    },
+    {
+      "start": 631.29,
+      "duration": 0.99,
+      "text": "is going hot--"
+    },
+    {
+      "start": 632.28,
+      "duration": 1.38,
+      "text": "again, this is\nprobably not going"
+    },
+    {
+      "start": 633.66,
+      "duration": 2.02,
+      "text": "to happen to you here at level."
+    },
+    {
+      "start": 635.68,
+      "duration": 4.13,
+      "text": "But if you're climbing in your\nlittle airplane out of Wyoming"
+    },
+    {
+      "start": 639.81,
+      "duration": 2.16,
+      "text": "on a hot day, you\nmight end up having"
+    },
+    {
+      "start": 641.97,
+      "duration": 4.54,
+      "text": "to accept a slightly\nlower climb rate,"
+    },
+    {
+      "start": 646.5,
+      "duration": 1.38,
+      "text": "boost your airspeed\na little bit,"
+    },
+    {
+      "start": 647.88,
+      "duration": 3.78,
+      "text": "and lower the nose to\nget more cooling air."
+    },
+    {
+      "start": 651.66,
+      "duration": 2.49,
+      "text": "The mixture control, you\ndon't see this in cars"
+    },
+    {
+      "start": 654.15,
+      "duration": 1.62,
+      "text": "because they have\nautomatic systems"
+    },
+    {
+      "start": 655.77,
+      "duration": 3.99,
+      "text": "to adjust the air-fuel\nmixture and get"
+    },
+    {
+      "start": 659.76,
+      "duration": 2.16,
+      "text": "the right amount of fuel\nin there corresponding"
+    },
+    {
+      "start": 661.92,
+      "duration": 4.14,
+      "text": "to the density of the air."
+    },
+    {
+      "start": 666.06,
+      "duration": 3.39,
+      "text": "But in aviation, you know\nthere's your little mixture"
+    },
+    {
+      "start": 669.45,
+      "duration": 2.61,
+      "text": "knob where you can\nlean out the mixture."
+    },
+    {
+      "start": 676.22,
+      "duration": 2.51,
+      "text": "The fuel-air mixture,\nyou start out"
+    },
+    {
+      "start": 678.73,
+      "duration": 2.31,
+      "text": "rich when you're taking\noff because you're"
+    },
+    {
+      "start": 681.04,
+      "duration": 2.94,
+      "text": "at a very high power setting,\nand the extra rich mixture"
+    },
+    {
+      "start": 683.98,
+      "duration": 2.7,
+      "text": "cools the engine."
+    },
+    {
+      "start": 686.68,
+      "duration": 2.25,
+      "text": "If you go really\nextreme with this,"
+    },
+    {
+      "start": 688.93,
+      "duration": 2.85,
+      "text": "like you just taxi\naround for half an hour"
+    },
+    {
+      "start": 691.78,
+      "duration": 2.94,
+      "text": "with the mixture control at\nfull rich, in some engines"
+    },
+    {
+      "start": 694.72,
+      "duration": 2.34,
+      "text": "you may end up getting lead\nfouling on the spark plugs."
+    },
+    {
+      "start": 700.6,
+      "duration": 4.14,
+      "text": "If you're up cruising and\nyou lean it out too much"
+    },
+    {
+      "start": 704.74,
+      "duration": 2.43,
+      "text": "then the engine's going\nto get a little bit rough,"
+    },
+    {
+      "start": 707.17,
+      "duration": 3.0,
+      "text": "and some of the temperatures\nwill go too high."
+    },
+    {
+      "start": 710.17,
+      "duration": 3.69,
+      "text": "On the modern aircraft, you\nhave very sophisticated engine"
+    },
+    {
+      "start": 713.86,
+      "duration": 3.48,
+      "text": "monitors that tell you all\nkinds of information about what"
+    },
+    {
+      "start": 717.35,
+      "duration": 0.88,
+      "text": "the temperatures are."
+    },
+    {
+      "start": 718.22,
+      "duration": 4.31,
+      "text": "They may help you lean\nto the optimum mixture."
+    },
+    {
+      "start": 722.53,
+      "duration": 3.38,
+      "text": "If you have an autopilot,\nit's kind of a good way"
+    },
+    {
+      "start": 725.9,
+      "duration": 2.25,
+      "text": "to invest some of your time\nonce you're in the cruise."
+    },
+    {
+      "start": 731.05,
+      "duration": 2.58,
+      "text": "Carburetors, how do they work?"
+    },
+    {
+      "start": 733.63,
+      "duration": 3.66,
+      "text": "If you fly a Piper or a Cessna\nyou can say that you have"
+    },
+    {
+      "start": 737.29,
+      "duration": 3.65,
+      "text": "a jet-powered aircraft\nbecause there is a jet"
+    },
+    {
+      "start": 740.94,
+      "duration": 4.65,
+      "text": "in the carburetor that's letting\nthe low-pressure air and this"
+    },
+    {
+      "start": 745.59,
+      "duration": 5.47,
+      "text": "venturi pull little bits of\nfuel vapor out into the--"
+    },
+    {
+      "start": 751.06,
+      "duration": 2.21,
+      "text": "well, I guess that throttle\nlooks pretty well closed,"
+    },
+    {
+      "start": 753.27,
+      "duration": 2.88,
+      "text": "but ideally the throttle\nwould be kind of open,"
+    },
+    {
+      "start": 756.15,
+      "duration": 5.49,
+      "text": "and the air-fuel mixture would\nbe going into the cylinders."
+    },
+    {
+      "start": 765.94,
+      "duration": 5.44,
+      "text": "Carb icing, so remember,\nlower pressure--"
+    },
+    {
+      "start": 771.38,
+      "duration": 3.42,
+      "text": "as the pressure falls the\ntemperature will also fall."
+    },
+    {
+      "start": 774.8,
+      "duration": 2.76,
+      "text": "So even if it's not\nbelow freezing outside"
+    },
+    {
+      "start": 777.56,
+      "duration": 3.48,
+      "text": "it can become below freezing in\nthe middle of the carburetor,"
+    },
+    {
+      "start": 781.04,
+      "duration": 4.08,
+      "text": "and, therefore, water vapor\nthat has been in the air"
+    },
+    {
+      "start": 785.12,
+      "duration": 4.8,
+      "text": "can turn into ice and\neventually block the airflow"
+    },
+    {
+      "start": 789.92,
+      "duration": 2.61,
+      "text": "to the engine."
+    },
+    {
+      "start": 792.53,
+      "duration": 1.77,
+      "text": "So they tell you,\nlook, well, just"
+    },
+    {
+      "start": 794.3,
+      "duration": 1.71,
+      "text": "detect that by loss of RPM."
+    },
+    {
+      "start": 796.01,
+      "duration": 1.54,
+      "text": "You know, you're flying along."
+    },
+    {
+      "start": 797.55,
+      "duration": 2.07,
+      "text": "You should be watching\nthe RPM gauge."
+    },
+    {
+      "start": 799.62,
+      "duration": 1.46,
+      "text": "So obviously, you\nwould notice this"
+    },
+    {
+      "start": 801.08,
+      "duration": 2.29,
+      "text": "and take the correct\naction, instead"
+    },
+    {
+      "start": 803.37,
+      "duration": 2.33,
+      "text": "of having a machine that would\nfigure this out and do it"
+    },
+    {
+      "start": 805.7,
+      "duration": 1.88,
+      "text": "for you."
+    },
+    {
+      "start": 807.58,
+      "duration": 1.75,
+      "text": "I guess one reason\nthey don't want to just"
+    },
+    {
+      "start": 809.33,
+      "duration": 1.98,
+      "text": "have carb heat on\nall the time is"
+    },
+    {
+      "start": 811.31,
+      "duration": 7.92,
+      "text": "that it robs the engine of some\nof its last 10 or 15 horsepower"
+    },
+    {
+      "start": 819.23,
+      "duration": 0.87,
+      "text": "or whatever."
+    },
+    {
+      "start": 820.1,
+      "duration": 3.93,
+      "text": "So the carb heat because\nit makes the air hotter,"
+    },
+    {
+      "start": 824.03,
+      "duration": 3.99,
+      "text": "it's just like going\nup to a higher altitude"
+    },
+    {
+      "start": 828.02,
+      "duration": 1.42,
+      "text": "or flying on a hotter day."
+    },
+    {
+      "start": 829.44,
+      "duration": 2.21,
+      "text": "The air is going to be\nthinner, and, therefore, there"
+    },
+    {
+      "start": 831.65,
+      "duration": 2.91,
+      "text": "are fewer molecules\nof air to combust,"
+    },
+    {
+      "start": 834.56,
+      "duration": 1.33,
+      "text": "and you won't get as much power."
+    },
+    {
+      "start": 835.89,
+      "duration": 0.5,
+      "text": "Question."
+    },
+    {
+      "start": 836.39,
+      "duration": 3.41,
+      "text": "AUDIENCE: What generates\nthe carb heat of the engine?"
+    },
+    {
+      "start": 839.8,
+      "duration": 1.96,
+      "text": "PHILIP GREENSPUN: What\ngenerates the carb heat?"
+    },
+    {
+      "start": 841.76,
+      "duration": 0.99,
+      "text": "That's a good question."
+    },
+    {
+      "start": 842.75,
+      "duration": 1.71,
+      "text": "Same thing that\ngenerates the cabin heat."
+    },
+    {
+      "start": 844.46,
+      "duration": 3.23,
+      "text": "You basically run the air\nover the exhaust system"
+    },
+    {
+      "start": 847.68,
+      "duration": 1.88,
+      "text": "before it goes to the\ncarburetor or before it"
+    },
+    {
+      "start": 849.56,
+      "duration": 1.74,
+      "text": "comes into the cabin."
+    },
+    {
+      "start": 851.3,
+      "duration": 2.58,
+      "text": "Good question."
+    },
+    {
+      "start": 853.88,
+      "duration": 2.37,
+      "text": "Yes, so I think 1950s\ncars had some kind"
+    },
+    {
+      "start": 856.25,
+      "duration": 1.76,
+      "text": "of automatic\nmechanism for this--"
+    },
+    {
+      "start": 858.01,
+      "duration": 4.31,
+      "text": "it was, you know, buy a metal\nvalve, and I don't know."
+    },
+    {
+      "start": 862.32,
+      "duration": 2.75,
+      "text": "The mixture control hasn't\nbeen seen in automobiles"
+    },
+    {
+      "start": 865.07,
+      "duration": 1.41,
+      "text": "for quite a long time."
+    },
+    {
+      "start": 866.48,
+      "duration": 1.95,
+      "text": "The ignition systems\nof aircraft is actually"
+    },
+    {
+      "start": 868.43,
+      "duration": 1.47,
+      "text": "pretty well designed."
+    },
+    {
+      "start": 869.9,
+      "duration": 2.43,
+      "text": "You have magnetos."
+    },
+    {
+      "start": 872.33,
+      "duration": 3.21,
+      "text": "You can see them here and here."
+    },
+    {
+      "start": 875.54,
+      "duration": 1.66,
+      "text": "You can see him\nhere at the bottom."
+    },
+    {
+      "start": 877.2,
+      "duration": 3.11,
+      "text": "The left and right magnetos\nare geared into the engine,"
+    },
+    {
+      "start": 880.31,
+      "duration": 4.38,
+      "text": "and they generate\ntheir own voltage."
+    },
+    {
+      "start": 884.69,
+      "duration": 3.09,
+      "text": "So basically, you don't need\nto have a working battery"
+    },
+    {
+      "start": 887.78,
+      "duration": 4.65,
+      "text": "or working alternator to have a\nrunning engine unlike in a car."
+    },
+    {
+      "start": 892.43,
+      "duration": 1.86,
+      "text": "All you need is these."
+    },
+    {
+      "start": 894.29,
+      "duration": 3.82,
+      "text": "One of the magnetos is still\nconnected and working properly."
+    },
+    {
+      "start": 898.11,
+      "duration": 1.61,
+      "text": "So it's totally\nseparate from what"
+    },
+    {
+      "start": 899.72,
+      "duration": 4.92,
+      "text": "you might think of as the\naircraft's electrical system."
+    },
+    {
+      "start": 904.64,
+      "duration": 4.14,
+      "text": "And for further\nredundancy, each magneto"
+    },
+    {
+      "start": 908.78,
+      "duration": 3.6,
+      "text": "is connected to half\nof the spark plugs"
+    },
+    {
+      "start": 912.38,
+      "duration": 3.15,
+      "text": "such that if you lose\na magneto, you still"
+    },
+    {
+      "start": 915.53,
+      "duration": 4.92,
+      "text": "have one working spark\nplug in each cylinder."
+    },
+    {
+      "start": 920.45,
+      "duration": 1.69,
+      "text": "Does that make sense?"
+    },
+    {
+      "start": 922.14,
+      "duration": 2.6,
+      "text": "You can see that in\nthis drawing here where"
+    },
+    {
+      "start": 924.74,
+      "duration": 2.04,
+      "text": "each cylinder is being\nfed either from the green"
+    },
+    {
+      "start": 926.78,
+      "duration": 3.33,
+      "text": "or the blue magneto to one\nof the two spark plugs."
+    },
+    {
+      "start": 930.11,
+      "duration": 2.16,
+      "text": "And you can test to\nsee if it runs smoothly"
+    },
+    {
+      "start": 932.27,
+      "duration": 2.06,
+      "text": "on either magneto."
+    },
+    {
+      "start": 934.33,
+      "duration": 1.72,
+      "text": "Your ignition switch\non the airplane"
+    },
+    {
+      "start": 936.05,
+      "duration": 3.84,
+      "text": "will have a right mag only\nswitch, a left mag only switch,"
+    },
+    {
+      "start": 939.89,
+      "duration": 2.94,
+      "text": "or both mags, which is where\nyou have normal operation."
+    },
+    {
+      "start": 942.83,
+      "duration": 1.98,
+      "text": "But when you're\ntesting on the ground"
+    },
+    {
+      "start": 944.81,
+      "duration": 3.75,
+      "text": "you'll typically see if it\nworks on either magneto."
+    },
+    {
+      "start": 948.56,
+      "duration": 3.15,
+      "text": "OK, abnormal combustion,\nwhat can you get?"
+    },
+    {
+      "start": 951.71,
+      "duration": 7.97,
+      "text": "You can get detonation\nwhich is the mixture ignites"
+    },
+    {
+      "start": 959.68,
+      "duration": 5.52,
+      "text": "before the spark ignites."
+    },
+    {
+      "start": 965.2,
+      "duration": 6.67,
+      "text": "Or pre-ignition, which is the\nslow burn before the spark."
+    },
+    {
+      "start": 971.87,
+      "duration": 3.11,
+      "text": "And detonation I\nthink is probably"
+    },
+    {
+      "start": 974.98,
+      "duration": 2.26,
+      "text": "the one that's more common."
+    },
+    {
+      "start": 977.24,
+      "duration": 4.41,
+      "text": "And it could be caused\nby improper leaning."
+    },
+    {
+      "start": 984.68,
+      "duration": 3.98,
+      "text": "Aviation fuel,\nbasically 100 low led"
+    },
+    {
+      "start": 988.66,
+      "duration": 1.79,
+      "text": "which is dyed blue is\nall that you're going"
+    },
+    {
+      "start": 990.45,
+      "duration": 4.51,
+      "text": "to see in the continental US."
+    },
+    {
+      "start": 994.96,
+      "duration": 2.19,
+      "text": "In the future though--"
+    },
+    {
+      "start": 997.15,
+      "duration": 2.58,
+      "text": "so low that means it's\nlower in less than the stuff"
+    },
+    {
+      "start": 999.73,
+      "duration": 3.94,
+      "text": "that they were making in\nthe 1930s or whatever."
+    },
+    {
+      "start": 1003.67,
+      "duration": 1.25,
+      "text": "It's still pretty high in led."
+    },
+    {
+      "start": 1004.92,
+      "duration": 1.95,
+      "text": "It's like the super--"
+    },
+    {
+      "start": 1006.87,
+      "duration": 1.65,
+      "text": "it's like the premium\nleaded gasoline,"
+    },
+    {
+      "start": 1008.52,
+      "duration": 3.04,
+      "text": "I think, of the 1970s."
+    },
+    {
+      "start": 1011.56,
+      "duration": 2.51,
+      "text": "Most engines actually\ndon't require this."
+    },
+    {
+      "start": 1014.07,
+      "duration": 4.14,
+      "text": "It's just that it takes so\nlong to get anything done"
+    },
+    {
+      "start": 1018.21,
+      "duration": 3.78,
+      "text": "in aviation that they can't put\nan alternative certify and get"
+    },
+    {
+      "start": 1021.99,
+      "duration": 3.18,
+      "text": "an alternative fuel\nto the airports."
+    },
+    {
+      "start": 1025.17,
+      "duration": 3.96,
+      "text": "But, you know, your typical\nCessna or your Robinson R44"
+    },
+    {
+      "start": 1029.13,
+      "duration": 2.61,
+      "text": "with the carburetor,\nit doesn't need"
+    },
+    {
+      "start": 1031.74,
+      "duration": 3.21,
+      "text": "this lead that's in\nthe fuel and then"
+    },
+    {
+      "start": 1034.95,
+      "duration": 2.41,
+      "text": "gets spewed out\nin the atmosphere."
+    },
+    {
+      "start": 1037.36,
+      "duration": 1.38,
+      "text": "It's kind of a tragedy."
+    },
+    {
+      "start": 1038.74,
+      "duration": 2.75,
+      "text": "And it's been made worse\nby this ethanol stuff."
+    },
+    {
+      "start": 1041.49,
+      "duration": 3.27,
+      "text": "So the government says you have\nto put ethanol in car gasoline."
+    },
+    {
+      "start": 1044.76,
+      "duration": 2.94,
+      "text": "So you can't just go\nand take premium car gas"
+    },
+    {
+      "start": 1047.7,
+      "duration": 2.82,
+      "text": "from the gas station and\npour it into your aircraft"
+    },
+    {
+      "start": 1050.52,
+      "duration": 1.45,
+      "text": "from a technical point of view--"
+    },
+    {
+      "start": 1051.97,
+      "duration": 2.33,
+      "text": "even if it were legal\nregulatory-wise--"
+    },
+    {
+      "start": 1054.3,
+      "duration": 3.09,
+      "text": "because the ethanol will\ndestroy a lot of the fuel system"
+    },
+    {
+      "start": 1057.39,
+      "duration": 2.35,
+      "text": "in the aircraft which\nwasn't engineered for it."
+    },
+    {
+      "start": 1059.74,
+      "duration": 2.22,
+      "text": "But if you did\nhave ethanol-free--"
+    },
+    {
+      "start": 1061.96,
+      "duration": 2.06,
+      "text": "there are a few places\nthat have mogas."
+    },
+    {
+      "start": 1064.02,
+      "duration": 2.67,
+      "text": "They get special\nethanol-free car gas,"
+    },
+    {
+      "start": 1066.69,
+      "duration": 3.24,
+      "text": "and lower-performance\naircraft engines"
+    },
+    {
+      "start": 1069.93,
+      "duration": 1.59,
+      "text": "will run just fine on them."
+    },
+    {
+      "start": 1071.52,
+      "duration": 1.7,
+      "text": "There have been\ncommittees-- you know"
+    },
+    {
+      "start": 1073.22,
+      "duration": 2.62,
+      "text": "20 years is kind of like\nthe standard unit of time"
+    },
+    {
+      "start": 1075.84,
+      "duration": 0.69,
+      "text": "in aviation."
+    },
+    {
+      "start": 1076.53,
+      "duration": 1.83,
+      "text": "So for about 20\nyears, people have"
+    },
+    {
+      "start": 1078.36,
+      "duration": 3.06,
+      "text": "been working on some kind of\ncertified unleaded gasoline"
+    },
+    {
+      "start": 1081.42,
+      "duration": 2.19,
+      "text": "that will work\nwith most engines."
+    },
+    {
+      "start": 1083.61,
+      "duration": 4.68,
+      "text": "If you see clear\nfuel in the sump,"
+    },
+    {
+      "start": 1088.29,
+      "duration": 2.58,
+      "text": "it usually means the airplane's\nbeen left out in the rain,"
+    },
+    {
+      "start": 1090.87,
+      "duration": 1.95,
+      "text": "and some water has\ngotten in there."
+    },
+    {
+      "start": 1092.82,
+      "duration": 2.52,
+      "text": "And you got to make sure\nthat you drain that out."
+    },
+    {
+      "start": 1095.34,
+      "duration": 3.7,
+      "text": "So there's drain plugs on the\nbottom of the wings typically,"
+    },
+    {
+      "start": 1099.04,
+      "duration": 2.58,
+      "text": "and maybe one near the\nbottom of the engine"
+    },
+    {
+      "start": 1101.62,
+      "duration": 1.4,
+      "text": "that you can see\nif any water has"
+    },
+    {
+      "start": 1103.02,
+      "duration": 1.89,
+      "text": "gotten into the fuel system."
+    },
+    {
+      "start": 1104.91,
+      "duration": 4.98,
+      "text": "Jet fuel is hazardous\nto piston engines."
+    },
+    {
+      "start": 1109.89,
+      "duration": 2.07,
+      "text": "The nozzles are\ndesigned so that they're"
+    },
+    {
+      "start": 1111.96,
+      "duration": 1.45,
+      "text": "physically incompatible."
+    },
+    {
+      "start": 1113.41,
+      "duration": 3.29,
+      "text": "You shouldn't be able to put\njet fuel into a piston engine."
+    },
+    {
+      "start": 1116.7,
+      "duration": 1.61,
+      "text": "Occasionally it does happen."
+    },
+    {
+      "start": 1118.31,
+      "duration": 1.54,
+      "text": "I know a guy who\nwas flying his Piper"
+    },
+    {
+      "start": 1119.85,
+      "duration": 2.34,
+      "text": "Malibu all around\nthe world, and he"
+    },
+    {
+      "start": 1122.19,
+      "duration": 3.75,
+      "text": "got some barrels of\nfuel delivered to him,"
+    },
+    {
+      "start": 1125.94,
+      "duration": 1.41,
+      "text": "and he had to pump it himself."
+    },
+    {
+      "start": 1127.35,
+      "duration": 2.61,
+      "text": "And I don't know,\nfor whatever reason,"
+    },
+    {
+      "start": 1129.96,
+      "duration": 1.17,
+      "text": "there was jet fuel in there."
+    },
+    {
+      "start": 1131.13,
+      "duration": 1.49,
+      "text": "AUDIENCE: So Philip,\nyou might want"
+    },
+    {
+      "start": 1132.62,
+      "duration": 1.22,
+      "text": "to kind of stop [INAUDIBLE]."
+    },
+    {
+      "start": 1133.84,
+      "duration": 1.5,
+      "text": "PHILIP GREENSPUN:\nIs the pizza here?"
+    },
+    {
+      "start": 1135.34,
+      "duration": 1.79,
+      "text": "AUDIENCE: No, not\nyet, but it's noon."
+    },
+    {
+      "start": 1137.13,
+      "duration": 2.38,
+      "text": "PHILIP GREENSPUN: Yeah, well,\nwhenever the pizza is here."
+    },
+    {
+      "start": 1142.35,
+      "duration": 3.72,
+      "text": "I think we're-- yeah, we'll take\na break as soon as the pizza"
+    },
+    {
+      "start": 1146.07,
+      "duration": 1.11,
+      "text": "shows up."
+    },
+    {
+      "start": 1147.18,
+      "duration": 3.66,
+      "text": "All right, fixed-pitch\npropellers."
+    },
+    {
+      "start": 1150.84,
+      "duration": 4.86,
+      "text": "So your most basic trainer\nhas a regular propeller"
+    },
+    {
+      "start": 1155.7,
+      "duration": 5.52,
+      "text": "that its angle relative\nto the hub never changes."
+    },
+    {
+      "start": 1161.22,
+      "duration": 3.09,
+      "text": "There's also in\nhigher-performance aircraft,"
+    },
+    {
+      "start": 1164.31,
+      "duration": 4.5,
+      "text": "constant-speed propellers where\nthere's an adjustment mechanism"
+    },
+    {
+      "start": 1168.81,
+      "duration": 1.65,
+      "text": "that you can read about--"
+    },
+    {
+      "start": 1170.46,
+      "duration": 3.42,
+      "text": "a mechanical\ncollection of springs"
+    },
+    {
+      "start": 1173.88,
+      "duration": 2.19,
+      "text": "and spinning weights\nthat will try"
+    },
+    {
+      "start": 1176.07,
+      "duration": 3.87,
+      "text": "to keep the propeller\nat 1RPM, and that"
+    },
+    {
+      "start": 1179.94,
+      "duration": 2.97,
+      "text": "can be a lot more efficient\nin different phases of flight."
+    },
+    {
+      "start": 1182.91,
+      "duration": 1.98,
+      "text": "You can see from\nthis that if you"
+    },
+    {
+      "start": 1184.89,
+      "duration": 3.3,
+      "text": "have a constant-speed\npropeller, the efficiency"
+    },
+    {
+      "start": 1188.19,
+      "duration": 3.72,
+      "text": "across a huge range of\nspeeds is roughly constant,"
+    },
+    {
+      "start": 1191.91,
+      "duration": 4.17,
+      "text": "whereas if you have a\nclimb prop or a cruise"
+    },
+    {
+      "start": 1196.08,
+      "duration": 6.6,
+      "text": "prop it's only working\noptimally at certain airspeeds."
+    },
+    {
+      "start": 1202.68,
+      "duration": 3.18,
+      "text": "All right, so if you have\na constant-speed propeller"
+    },
+    {
+      "start": 1205.86,
+      "duration": 1.89,
+      "text": "you're now going to\nhave free power levers."
+    },
+    {
+      "start": 1207.75,
+      "duration": 2.46,
+      "text": "That's the business end of\nit and from a pilot's point"
+    },
+    {
+      "start": 1210.21,
+      "duration": 0.75,
+      "text": "of view."
+    },
+    {
+      "start": 1210.96,
+      "duration": 3.54,
+      "text": "You'll have throttle\nwhich is the black one"
+    },
+    {
+      "start": 1214.5,
+      "duration": 8.3,
+      "text": "on the left, the blue\nprop-speed control, and then"
+    },
+    {
+      "start": 1222.8,
+      "duration": 2.07,
+      "text": "the red mixture."
+    },
+    {
+      "start": 1224.87,
+      "duration": 2.34,
+      "text": "The FAA, they may\nask you about this."
+    },
+    {
+      "start": 1227.21,
+      "duration": 1.47,
+      "text": "You know they have\nthis doctrine."
+    },
+    {
+      "start": 1228.68,
+      "duration": 1.5,
+      "text": "It's not really\ntrue of all engines,"
+    },
+    {
+      "start": 1230.18,
+      "duration": 3.15,
+      "text": "but the idea is that you don't\nwant like a high power setting"
+    },
+    {
+      "start": 1233.33,
+      "duration": 1.94,
+      "text": "and a really low RPM setting."
+    },
+    {
+      "start": 1235.27,
+      "duration": 2.41,
+      "text": "They claim that that's\nmaking the propeller take"
+    },
+    {
+      "start": 1237.68,
+      "duration": 3.57,
+      "text": "such big bites of the air to\nkeep the low speed that it's"
+    },
+    {
+      "start": 1241.25,
+      "duration": 2.52,
+      "text": "somehow stressing the engine."
+    },
+    {
+      "start": 1243.77,
+      "duration": 3.81,
+      "text": "But, again, not every engine\nmanufacturer agrees with that."
+    },
+    {
+      "start": 1247.58,
+      "duration": 1.8,
+      "text": "All right, let's talk about--"
+    },
+    {
+      "start": 1249.38,
+      "duration": 2.02,
+      "text": "we'll start in on\nflight instruments"
+    },
+    {
+      "start": 1251.4,
+      "duration": 2.6,
+      "text": "until our pizza arrives."
+    },
+    {
+      "start": 1254.0,
+      "duration": 5.37,
+      "text": "So this is going to be\nyour reality I would say."
+    },
+    {
+      "start": 1259.37,
+      "duration": 5.94,
+      "text": "Some of the test stuff concerns\nthe steam gauges of the past"
+    },
+    {
+      "start": 1265.31,
+      "duration": 1.65,
+      "text": "that you still see\nat flight schools."
+    },
+    {
+      "start": 1266.96,
+      "duration": 4.21,
+      "text": "And that there are some things\nthat we can learn from this"
+    },
+    {
+      "start": 1271.17,
+      "duration": 1.12,
+      "text": "though that we'll get into."
+    },
+    {
+      "start": 1272.3,
+      "duration": 1.74,
+      "text": "There are some advantages."
+    },
+    {
+      "start": 1274.04,
+      "duration": 2.37,
+      "text": "But anyway, let's start\nwith this six-pack"
+    },
+    {
+      "start": 1276.41,
+      "duration": 2.49,
+      "text": "because actually,\nthe electronic stuff"
+    },
+    {
+      "start": 1278.9,
+      "duration": 2.1,
+      "text": "is mostly trying\nto replicate what"
+    },
+    {
+      "start": 1281.0,
+      "duration": 3.02,
+      "text": "was done during World War II."
+    },
+    {
+      "start": 1284.02,
+      "duration": 1.88,
+      "text": "There's very little in\na modern aircraft that"
+    },
+    {
+      "start": 1285.89,
+      "duration": 2.82,
+      "text": "isn't some kind of upgraded\nversion of what was in a Boeing"
+    },
+    {
+      "start": 1288.71,
+      "duration": 4.81,
+      "text": "B29 bomber, so it's worth kind\nof knowing where it came from."
+    },
+    {
+      "start": 1293.52,
+      "duration": 1.17,
+      "text": "So you've got your six-pack."
+    },
+    {
+      "start": 1294.69,
+      "duration": 3.2,
+      "text": "You've got your\nairspeed indicator."
+    },
+    {
+      "start": 1297.89,
+      "duration": 2.31,
+      "text": "On the top left, you've\ngot your attitude indicator"
+    },
+    {
+      "start": 1300.2,
+      "duration": 2.1,
+      "text": "or artificial horizon."
+    },
+    {
+      "start": 1302.3,
+      "duration": 2.85,
+      "text": "You've got your altimeter\non the top right,"
+    },
+    {
+      "start": 1305.15,
+      "duration": 1.65,
+      "text": "vertical speed\ncoming down around"
+    },
+    {
+      "start": 1306.8,
+      "duration": 3.39,
+      "text": "to the lower right, which tells\nyou how fast you're going up"
+    },
+    {
+      "start": 1310.19,
+      "duration": 4.98,
+      "text": "or how fast you're going\ndown, a directional gyro which"
+    },
+    {
+      "start": 1315.17,
+      "duration": 3.18,
+      "text": "is like a stabilized\ncompass showing you"
+    },
+    {
+      "start": 1318.35,
+      "duration": 3.4,
+      "text": "where you're pointed assuming\nit's been adjusted properly."
+    },
+    {
+      "start": 1321.75,
+      "duration": 2.48,
+      "text": "It has to be reset to\nthe compass in flight"
+    },
+    {
+      "start": 1324.23,
+      "duration": 1.09,
+      "text": "every now and then."
+    },
+    {
+      "start": 1325.32,
+      "duration": 2.23,
+      "text": "Ah-ha, is our pizza here?"
+    },
+    {
+      "start": 1327.54,
+      "duration": 1.21,
+      "text": "AUDIENCE: I wish I had pizza."
+    },
+    {
+      "start": 1328.75,
+      "duration": 0.73,
+      "text": "PHILIP GREENSPUN:\nYou didn't see any?"
+    },
+    {
+      "start": 1329.48,
+      "duration": 0.69,
+      "text": "AUDIENCE: No."
+    },
+    {
+      "start": 1330.17,
+      "duration": 1.04,
+      "text": "PHILIP GREENSPUN: Oh, no."
+    },
+    {
+      "start": 1333.53,
+      "duration": 6.93,
+      "text": "OK, and then you have\na turn coordinator"
+    },
+    {
+      "start": 1340.46,
+      "duration": 2.43,
+      "text": "which is another backup\ngyro that tells you"
+    },
+    {
+      "start": 1342.89,
+      "duration": 4.2,
+      "text": "whether you're turning\nleft or right and also"
+    },
+    {
+      "start": 1347.09,
+      "duration": 0.72,
+      "text": "the coordination."
+    },
+    {
+      "start": 1347.81,
+      "duration": 0.66,
+      "text": "That's just a ball."
+    },
+    {
+      "start": 1348.47,
+      "duration": 1.54,
+      "text": "We'll get into that\nin a little bit--"
+    },
+    {
+      "start": 1350.01,
+      "duration": 5.0,
+      "text": "about whether the airplane\nis kind of pitched--"
+    },
+    {
+      "start": 1355.01,
+      "duration": 2.49,
+      "text": "improperly yawed."
+    },
+    {
+      "start": 1357.5,
+      "duration": 3.98,
+      "text": "All right, so it says electric."
+    },
+    {
+      "start": 1361.48,
+      "duration": 2.34,
+      "text": "For a gyroscope to keep\nspinning that means"
+    },
+    {
+      "start": 1363.82,
+      "duration": 1.29,
+      "text": "it's being powered by electric."
+    },
+    {
+      "start": 1365.11,
+      "duration": 1.38,
+      "text": "What else could\nit be powered by?"
+    },
+    {
+      "start": 1366.48,
+      "duration": 1.39,
+      "text": "Does anybody know?"
+    },
+    {
+      "start": 1367.88,
+      "duration": 1.89,
+      "text": "What else is there\nbesides electricity"
+    },
+    {
+      "start": 1369.76,
+      "duration": 2.46,
+      "text": "that can make this thing spin?"
+    },
+    {
+      "start": 1372.22,
+      "duration": 0.79,
+      "text": "AUDIENCE: A vacuum."
+    },
+    {
+      "start": 1373.01,
+      "duration": 1.38,
+      "text": "PHILIP GREENSPUN:\nYeah, a vacuum."
+    },
+    {
+      "start": 1374.39,
+      "duration": 1.93,
+      "text": "So in the old days--\nyou know, again, this"
+    },
+    {
+      "start": 1376.32,
+      "duration": 2.58,
+      "text": "is not as common-- you'd have a\nvacuum pump on the engine that"
+    },
+    {
+      "start": 1378.9,
+      "duration": 7.08,
+      "text": "would generate a force to\nkeep these gyros spinning."
+    },
+    {
+      "start": 1385.98,
+      "duration": 2.91,
+      "text": "And those were often failing\nwhich had some pretty bad--"
+    },
+    {
+      "start": 1388.89,
+      "duration": 1.75,
+      "text": "AUDIENCE: So these are\nthe current reality"
+    },
+    {
+      "start": 1390.64,
+      "duration": 1.55,
+      "text": "of many of our planes?"
+    },
+    {
+      "start": 1392.19,
+      "duration": 1.41,
+      "text": "PHILIP GREENSPUN: I don't know\nof how many-- yeah, I guess"
+    },
+    {
+      "start": 1393.6,
+      "duration": 1.21,
+      "text": "there's a few Piper Warriors."
+    },
+    {
+      "start": 1394.81,
+      "duration": 2.42,
+      "text": "Yeah, that's a good reason not\nto take like the most basic"
+    },
+    {
+      "start": 1397.23,
+      "duration": 1.04,
+      "text": "airplane into the clouds."
+    },
+    {
+      "start": 1398.27,
+      "duration": 3.61,
+      "text": "Because the idea is that you're\nsupposed to sort of notice."
+    },
+    {
+      "start": 1401.88,
+      "duration": 1.17,
+      "text": "Do they have-- I don't know."
+    },
+    {
+      "start": 1403.05,
+      "duration": 1.71,
+      "text": "I guess some of them have\na little warning light when"
+    },
+    {
+      "start": 1404.76,
+      "duration": 1.2,
+      "text": "the vacuum pump fails."
+    },
+    {
+      "start": 1405.96,
+      "duration": 3.42,
+      "text": "But in the most\nclassic situation,"
+    },
+    {
+      "start": 1409.38,
+      "duration": 3.03,
+      "text": "you're supposed to notice\nas the pilot in the clouds"
+    },
+    {
+      "start": 1412.41,
+      "duration": 1.89,
+      "text": "that this artificial\nhorizon is failing"
+    },
+    {
+      "start": 1414.3,
+      "duration": 3.13,
+      "text": "and it's inconsistent\nwith this instrument."
+    },
+    {
+      "start": 1417.43,
+      "duration": 2.75,
+      "text": "And then you decide which\nof the two to believe."
+    },
+    {
+      "start": 1420.18,
+      "duration": 2.73,
+      "text": "Generally, it's this one\nbecause it's more viable."
+    },
+    {
+      "start": 1422.91,
+      "duration": 2.04,
+      "text": "And then you continue\nyour flight to the cloud"
+    },
+    {
+      "start": 1424.95,
+      "duration": 2.08,
+      "text": "without the artificial horizon."
+    },
+    {
+      "start": 1427.03,
+      "duration": 2.39,
+      "text": "Anyway, that's\nridiculous obviously."
+    },
+    {
+      "start": 1429.42,
+      "duration": 3.48,
+      "text": "So, you know the real\nIFR airplanes these days"
+    },
+    {
+      "start": 1432.9,
+      "duration": 4.52,
+      "text": "have two attitude indicators,\nboth powered by electric."
+    },
+    {
+      "start": 1437.42,
+      "duration": 2.5,
+      "text": "And you don't have to sort of\nnotice the subtle sign of them"
+    },
+    {
+      "start": 1439.92,
+      "duration": 0.78,
+      "text": "failing."
+    },
+    {
+      "start": 1440.7,
+      "duration": 2.97,
+      "text": "There's just a big flag that\npops up when they fail--"
+    },
+    {
+      "start": 1443.67,
+      "duration": 2.77,
+      "text": "you know, if they lose power\nfor some reason, for example."
+    },
+    {
+      "start": 1449.44,
+      "duration": 2.66,
+      "text": "All right, the\npitot-static system."
+    },
+    {
+      "start": 1452.1,
+      "duration": 3.36,
+      "text": "So how do you know anything\nabout your airspeed?"
+    },
+    {
+      "start": 1455.46,
+      "duration": 3.32,
+      "text": "There's a tube somewhere on the\nairplane usually hanging out"
+    },
+    {
+      "start": 1458.78,
+      "duration": 3.64,
+      "text": "under the wing in your typical\ntrainer or next to the nose."
+    },
+    {
+      "start": 1462.42,
+      "duration": 4.67,
+      "text": "You see them on jets where\nthe ram air comes in,"
+    },
+    {
+      "start": 1467.09,
+      "duration": 3.2,
+      "text": "and the more ram air\npressure there is, then"
+    },
+    {
+      "start": 1470.29,
+      "duration": 1.78,
+      "text": "the faster you're going."
+    },
+    {
+      "start": 1472.07,
+      "duration": 4.4,
+      "text": "That can be compared to\nthe static pressure which"
+    },
+    {
+      "start": 1476.47,
+      "duration": 2.94,
+      "text": "comes in from a\nstatic port usually"
+    },
+    {
+      "start": 1479.41,
+      "duration": 1.17,
+      "text": "on the side of the airplane."
+    },
+    {
+      "start": 1480.58,
+      "duration": 2.55,
+      "text": "It has to be in some\npart of the airplane"
+    },
+    {
+      "start": 1483.13,
+      "duration": 4.92,
+      "text": "where the airflow is\nsuitable for a static port."
+    },
+    {
+      "start": 1488.05,
+      "duration": 3.46,
+      "text": "So the ram air feeds only\nthe airspeed indicator,"
+    },
+    {
+      "start": 1491.51,
+      "duration": 3.29,
+      "text": "and the static source\nhas to feed the altimeter"
+    },
+    {
+      "start": 1494.8,
+      "duration": 1.92,
+      "text": "and the vertical speed."
+    },
+    {
+      "start": 1496.72,
+      "duration": 1.44,
+      "text": "You've got to read this book."
+    },
+    {
+      "start": 1498.16,
+      "duration": 1.67,
+      "text": "There's a couple of\nquestions about what"
+    },
+    {
+      "start": 1499.83,
+      "duration": 2.62,
+      "text": "happens if the pitot\ntube gets clogged"
+    },
+    {
+      "start": 1502.45,
+      "duration": 2.69,
+      "text": "or if the static port is\nblocked and taped over,"
+    },
+    {
+      "start": 1505.14,
+      "duration": 2.69,
+      "text": "and that makes the\ninstruments read inaccurately."
+    },
+    {
+      "start": 1507.83,
+      "duration": 3.15,
+      "text": "So I'd read about\nthat for the test."
+    },
+    {
+      "start": 1510.98,
+      "duration": 1.74,
+      "text": "OK, airspeed\nindicator, here's what"
+    },
+    {
+      "start": 1512.72,
+      "duration": 4.26,
+      "text": "I was talking about how in some\nways the old stuff is better."
+    },
+    {
+      "start": 1516.98,
+      "duration": 5.53,
+      "text": "So, look, here's a good example\nof how you get more information"
+    },
+    {
+      "start": 1522.51,
+      "duration": 1.38,
+      "text": "out of this than\nout of the speed"
+    },
+    {
+      "start": 1523.88,
+      "duration": 1.25,
+      "text": "tape on the modern instrument."
+    },
+    {
+      "start": 1525.13,
+      "duration": 2.75,
+      "text": "This gives you all of the\naircraft's performance"
+    },
+    {
+      "start": 1527.88,
+      "duration": 0.5,
+      "text": "basically."
+    },
+    {
+      "start": 1528.38,
+      "duration": 2.85,
+      "text": "You don't really need\nto refer to the manual"
+    },
+    {
+      "start": 1531.23,
+      "duration": 2.19,
+      "text": "to see a lot of\nimportant information."
+    },
+    {
+      "start": 1533.42,
+      "duration": 4.05,
+      "text": "Well, don't fly-- you know, the\nspeed tape might only show you"
+    },
+    {
+      "start": 1537.47,
+      "duration": 2.52,
+      "text": "from here to here--"
+    },
+    {
+      "start": 1539.99,
+      "duration": 4.54,
+      "text": "from like 120 knots up\nto 150 or something."
+    },
+    {
+      "start": 1544.53,
+      "duration": 2.18,
+      "text": "But here you're seeing,\nOK, let's not fly faster"
+    },
+    {
+      "start": 1546.71,
+      "duration": 2.91,
+      "text": "than about 208 knots."
+    },
+    {
+      "start": 1549.62,
+      "duration": 2.22,
+      "text": "Unless we have the\nflaps out, let's not"
+    },
+    {
+      "start": 1551.84,
+      "duration": 3.09,
+      "text": "fly slower than about 58 knots."
+    },
+    {
+      "start": 1554.93,
+      "duration": 3.57,
+      "text": "And even with the\nflaps hanging down,"
+    },
+    {
+      "start": 1558.5,
+      "duration": 2.51,
+      "text": "we don't want to fly\nslower than 55 knots"
+    },
+    {
+      "start": 1561.01,
+      "duration": 1.54,
+      "text": "because that's going\nto be where it's"
+    },
+    {
+      "start": 1562.55,
+      "duration": 3.21,
+      "text": "going to stall at\ncertain CG configurations"
+    },
+    {
+      "start": 1565.76,
+      "duration": 1.35,
+      "text": "and at gross weight."
+    },
+    {
+      "start": 1567.11,
+      "duration": 1.14,
+      "text": "OK, the yellow arc."
+    },
+    {
+      "start": 1568.25,
+      "duration": 2.85,
+      "text": "Well, the yellow\narc is to be avoided"
+    },
+    {
+      "start": 1571.1,
+      "duration": 2.28,
+      "text": "unless the air is smooth."
+    },
+    {
+      "start": 1573.38,
+      "duration": 3.03,
+      "text": "So that was actually a\ngreat user interface."
+    },
+    {
+      "start": 1576.41,
+      "duration": 3.3,
+      "text": "And because cool jets\nhave the speed tape"
+    },
+    {
+      "start": 1579.71,
+      "duration": 3.97,
+      "text": "when they make the glass\npanels for little airplanes"
+    },
+    {
+      "start": 1583.68,
+      "duration": 2.33,
+      "text": "which really don't need that\nkind of precision and speed"
+    },
+    {
+      "start": 1586.01,
+      "duration": 2.34,
+      "text": "control, they said,\nwell, let's just"
+    },
+    {
+      "start": 1588.35,
+      "duration": 3.45,
+      "text": "have this thing that\nthe jet pilots have."
+    },
+    {
+      "start": 1591.8,
+      "duration": 3.11,
+      "text": "All right, how does the\nairspeed indicator work?"
+    },
+    {
+      "start": 1594.91,
+      "duration": 4.9,
+      "text": "There's brass in there, so\nit's a cool old-school Sherlock"
+    },
+    {
+      "start": 1599.81,
+      "duration": 2.23,
+      "text": "Holmes-style brass instrument."
+    },
+    {
+      "start": 1602.04,
+      "duration": 3.14,
+      "text": "The ram air is coming in."
+    },
+    {
+      "start": 1605.18,
+      "duration": 4.23,
+      "text": "There's a diaphragm that moves\nsome levers, and eventually"
+    },
+    {
+      "start": 1609.41,
+      "duration": 1.96,
+      "text": "the needle swings."
+    },
+    {
+      "start": 1611.37,
+      "duration": 3.19,
+      "text": "Again, you know, you don't have\nto design one for your test."
+    },
+    {
+      "start": 1614.56,
+      "duration": 2.44,
+      "text": "You just have to\nknow that it's going"
+    },
+    {
+      "start": 1617.0,
+      "duration": 1.14,
+      "text": "to respond to the ram air."
+    },
+    {
+      "start": 1621.14,
+      "duration": 3.78,
+      "text": "Some of these little\nsymbols are worth knowing."
+    },
+    {
+      "start": 1624.92,
+      "duration": 3.6,
+      "text": "Probably Va is\nthe most important"
+    },
+    {
+      "start": 1628.52,
+      "duration": 1.79,
+      "text": "because it's on the\ntest, I believe,"
+    },
+    {
+      "start": 1630.31,
+      "duration": 1.42,
+      "text": "as something that\nis not indicated"
+    },
+    {
+      "start": 1631.73,
+      "duration": 1.35,
+      "text": "on the airspeed indicator."
+    },
+    {
+      "start": 1633.08,
+      "duration": 1.5,
+      "text": "That's the maneuvering speed."
+    },
+    {
+      "start": 1634.58,
+      "duration": 4.53,
+      "text": "That's the speed at which you\ncan do extreme control inputs"
+    },
+    {
+      "start": 1639.11,
+      "duration": 1.5,
+      "text": "and not bend the airplane."
+    },
+    {
+      "start": 1640.61,
+      "duration": 2.33,
+      "text": "Any faster than\nmaneuvering speed"
+    },
+    {
+      "start": 1642.94,
+      "duration": 2.89,
+      "text": "it's possible that you\ncould yank the yoke back so"
+    },
+    {
+      "start": 1645.83,
+      "duration": 3.96,
+      "text": "hard that you'd bend the wings\na little bit or overstress them."
+    },
+    {
+      "start": 1649.79,
+      "duration": 2.67,
+      "text": "The reason it's not indicated\non the airspeed indicator"
+    },
+    {
+      "start": 1652.46,
+      "duration": 2.02,
+      "text": "is it varies by weight."
+    },
+    {
+      "start": 1654.48,
+      "duration": 1.22,
+      "text": "And it's actually higher--"
+    },
+    {
+      "start": 1655.7,
+      "duration": 1.81,
+      "text": "that's something\nworth reading about--"
+    },
+    {
+      "start": 1657.51,
+      "duration": 1.67,
+      "text": "it's higher if the\nairplane is heavier."
+    },
+    {
+      "start": 1659.18,
+      "duration": 4.08,
+      "text": "It's one of the few speeds\nwhere weight is helpful"
+    },
+    {
+      "start": 1663.26,
+      "duration": 1.83,
+      "text": "because if it's\nreally heavy, it's"
+    },
+    {
+      "start": 1665.09,
+      "duration": 2.94,
+      "text": "just harder to get the\nairplane to perform"
+    },
+    {
+      "start": 1668.03,
+      "duration": 4.02,
+      "text": "in some extreme manner."
+    },
+    {
+      "start": 1672.05,
+      "duration": 1.7,
+      "text": "VSO is also worth looking at."
+    },
+    {
+      "start": 1673.75,
+      "duration": 2.5,
+      "text": "That's basically\nthe speed that's"
+    },
+    {
+      "start": 1676.25,
+      "duration": 1.71,
+      "text": "going to determine\nhow fast you land."
+    },
+    {
+      "start": 1677.96,
+      "duration": 2.04,
+      "text": "That's the speed that\nthe airplane will"
+    },
+    {
+      "start": 1680.0,
+      "duration": 1.8,
+      "text": "stall on landing configuration."
+    },
+    {
+      "start": 1681.8,
+      "duration": 1.9,
+      "text": "So you usually want to\nbe going at least 20%"
+    },
+    {
+      "start": 1683.7,
+      "duration": 4.38,
+      "text": "faster than that to give\nyourself a safety margin."
+    },
+    {
+      "start": 1688.08,
+      "duration": 2.28,
+      "text": "OK, here's something from\nthe New England Air Museum"
+    },
+    {
+      "start": 1690.36,
+      "duration": 2.15,
+      "text": "in Bradley, Connecticut--\nanother great destination"
+    },
+    {
+      "start": 1692.51,
+      "duration": 3.1,
+      "text": "about half an hour's flight\naway, huge airport, great FBO."
+    },
+    {
+      "start": 1695.61,
+      "duration": 2.63,
+      "text": "They will give you a free car\nto use while you're there."
+    },
+    {
+      "start": 1698.24,
+      "duration": 2.16,
+      "text": "It's called Signature\nFlight Support there."
+    },
+    {
+      "start": 1700.4,
+      "duration": 2.65,
+      "text": "Anyway, so this aircraft--"
+    },
+    {
+      "start": 1703.05,
+      "duration": 2.25,
+      "text": "I think it's a P40\nfrom World War II,"
+    },
+    {
+      "start": 1705.3,
+      "duration": 3.93,
+      "text": "and it can go up to\n500 miles an hour."
+    },
+    {
+      "start": 1709.23,
+      "duration": 4.35,
+      "text": "All right, altimeter,\nthis aircraft"
+    },
+    {
+      "start": 1713.58,
+      "duration": 2.17,
+      "text": "is at about 10,000 feet."
+    },
+    {
+      "start": 1715.75,
+      "duration": 5.62,
+      "text": "So notice it has this\nlittle triangular"
+    },
+    {
+      "start": 1721.37,
+      "duration": 3.72,
+      "text": "needle at 1 that's telling\nyou that it's at 10,000 feet."
+    },
+    {
+      "start": 1725.09,
+      "duration": 5.4,
+      "text": "And then the longer needle\nis reading in hundreds,"
+    },
+    {
+      "start": 1730.49,
+      "duration": 2.7,
+      "text": "so we're at about 10,200."
+    },
+    {
+      "start": 1733.19,
+      "duration": 2.28,
+      "text": "And sure enough, we can\nsee this is indicating"
+    },
+    {
+      "start": 1735.47,
+      "duration": 4.53,
+      "text": "you know 10,180, so 3 needles."
+    },
+    {
+      "start": 1740.0,
+      "duration": 2.1,
+      "text": "Usually, the ones you're\ngoing to deal with"
+    },
+    {
+      "start": 1742.1,
+      "duration": 6.74,
+      "text": "are this one at the top\nhere for thousands of feet"
+    },
+    {
+      "start": 1748.84,
+      "duration": 3.87,
+      "text": "and this one for\nhundreds of feet."
+    },
+    {
+      "start": 1752.71,
+      "duration": 2.36,
+      "text": "OK, so back in the\nold days before we"
+    },
+    {
+      "start": 1755.07,
+      "duration": 4.95,
+      "text": "decided to dig up all the coal\nand the oil and set it on fire,"
+    },
+    {
+      "start": 1760.02,
+      "duration": 1.71,
+      "text": "this was our\nstandard atmosphere,"
+    },
+    {
+      "start": 1761.73,
+      "duration": 1.47,
+      "text": "and it was wonderful."
+    },
+    {
+      "start": 1763.2,
+      "duration": 2.82,
+      "text": "And it was always 15\ndegrees at sea level."
+    },
+    {
+      "start": 1766.02,
+      "duration": 2.4,
+      "text": "And it was always 29 or\nniner two for pressure,"
+    },
+    {
+      "start": 1768.42,
+      "duration": 2.56,
+      "text": "but now we've ruined it."
+    },
+    {
+      "start": 1770.98,
+      "duration": 2.3,
+      "text": "The standard\natmosphere is the basis"
+    },
+    {
+      "start": 1773.28,
+      "duration": 3.78,
+      "text": "for a huge number\nof calculations."
+    },
+    {
+      "start": 1777.06,
+      "duration": 4.53,
+      "text": "The altimeter, we're going\nto look at this again."
+    },
+    {
+      "start": 1781.59,
+      "duration": 5.22,
+      "text": "It has these android\nwafers that, I guess,"
+    },
+    {
+      "start": 1786.81,
+      "duration": 3.03,
+      "text": "provide a reference pressure."
+    },
+    {
+      "start": 1789.84,
+      "duration": 2.73,
+      "text": "And somehow the difference\nbetween what's in there"
+    },
+    {
+      "start": 1792.57,
+      "duration": 2.79,
+      "text": "and what's coming in will\nmake the needles move."
+    },
+    {
+      "start": 1795.36,
+      "duration": 2.01,
+      "text": "That's about as\nmuch as I know not"
+    },
+    {
+      "start": 1797.37,
+      "duration": 3.73,
+      "text": "being a mechanical engineer."
+    },
+    {
+      "start": 1801.1,
+      "duration": 2.28,
+      "text": "An important factor though\nwith all these altimeters"
+    },
+    {
+      "start": 1803.38,
+      "duration": 3.39,
+      "text": "is you can set it to correct\nit for whatever the prevailing"
+    },
+    {
+      "start": 1806.77,
+      "duration": 1.02,
+      "text": "pressure is locally."
+    },
+    {
+      "start": 1807.79,
+      "duration": 2.12,
+      "text": "So that's what you really\nneed to know as a pilot--"
+    },
+    {
+      "start": 1809.91,
+      "duration": 2.02,
+      "text": "that if they tell you\nthe altimeter setting"
+    },
+    {
+      "start": 1811.93,
+      "duration": 7.48,
+      "text": "is 3053, that you turn it until\nyou see 3053 in the window."
+    },
+    {
+      "start": 1819.41,
+      "duration": 2.21,
+      "text": "It's worth knowing these\naltitude definitions."
+    },
+    {
+      "start": 1821.62,
+      "duration": 4.38,
+      "text": "The most important for\ndetermining aircraft"
+    },
+    {
+      "start": 1826.0,
+      "duration": 2.46,
+      "text": "performance is going\nto be density altitude."
+    },
+    {
+      "start": 1828.46,
+      "duration": 2.79,
+      "text": "That kind of tracks\nthe actual number"
+    },
+    {
+      "start": 1831.25,
+      "duration": 4.32,
+      "text": "of molecules that are in\na given volume of air."
+    },
+    {
+      "start": 1835.57,
+      "duration": 2.37,
+      "text": "If you're flying\nalong, you'll be"
+    },
+    {
+      "start": 1837.94,
+      "duration": 1.68,
+      "text": "looking at indicated altitude."
+    },
+    {
+      "start": 1839.62,
+      "duration": 4.41,
+      "text": "That's kind of how aircraft\ntend to be separated."
+    },
+    {
+      "start": 1844.03,
+      "duration": 2.01,
+      "text": "Everything else is\nkind of nice to know."
+    },
+    {
+      "start": 1846.04,
+      "duration": 2.53,
+      "text": "Pressure altitude, we\ntalk about it a lot,"
+    },
+    {
+      "start": 1848.57,
+      "duration": 2.3,
+      "text": "but I don't think\nit's really often used"
+    },
+    {
+      "start": 1850.87,
+      "duration": 2.44,
+      "text": "in practice for much."
+    },
+    {
+      "start": 1853.31,
+      "duration": 1.46,
+      "text": "Actually above it--\nI shouldn't say"
+    },
+    {
+      "start": 1854.77,
+      "duration": 3.27,
+      "text": "that because above\n18,000 feet it's used."
+    },
+    {
+      "start": 1858.04,
+      "duration": 4.18,
+      "text": "You always set the\naltimeter to flight level--"
+    },
+    {
+      "start": 1862.22,
+      "duration": 4.51,
+      "text": "you know, 220 instead\nof 22,000 feet."
+    },
+    {
+      "start": 1866.73,
+      "duration": 2.38,
+      "text": "If the temperature standard\npressure altitude and density"
+    },
+    {
+      "start": 1869.11,
+      "duration": 2.47,
+      "text": "altitude are going\nto be the same--"
+    },
+    {
+      "start": 1871.58,
+      "duration": 2.78,
+      "text": "so that would be, again, 15\ndegrees at sea level and cooler"
+    },
+    {
+      "start": 1874.36,
+      "duration": 0.63,
+      "text": "as you go up--"
+    },
+    {
+      "start": 1877.76,
+      "duration": 4.09,
+      "text": "the pressure altitude will\nalso equal the true altitude."
+    },
+    {
+      "start": 1881.85,
+      "duration": 2.63,
+      "text": "So that's the actual\nheight above sea level,"
+    },
+    {
+      "start": 1884.48,
+      "duration": 2.23,
+      "text": "again, in standard\natmospheric conditions."
+    },
+    {
+      "start": 1886.71,
+      "duration": 2.85,
+      "text": "We'll talk about this at\na few times in this class."
+    },
+    {
+      "start": 1889.56,
+      "duration": 3.71,
+      "text": "But when it's hot the entire\nEarth's atmosphere expands,"
+    },
+    {
+      "start": 1893.27,
+      "duration": 3.36,
+      "text": "and if we were to cool the\nearth down near absolute zero,"
+    },
+    {
+      "start": 1896.63,
+      "duration": 2.07,
+      "text": "the atmosphere would contract."
+    },
+    {
+      "start": 1898.7,
+      "duration": 3.18,
+      "text": "We might read on our altimeter\nthat we were at 18,000 feet"
+    },
+    {
+      "start": 1901.88,
+      "duration": 1.89,
+      "text": "when we were only,\nyou know, an inch"
+    },
+    {
+      "start": 1903.77,
+      "duration": 3.48,
+      "text": "above the ground because the\nEarth's atmosphere had shrunk"
+    },
+    {
+      "start": 1907.25,
+      "duration": 3.57,
+      "text": "to only two inches in size."
+    },
+    {
+      "start": 1910.82,
+      "duration": 6.0,
+      "text": "All right, when you're flying\nindicated altitude there's"
+    },
+    {
+      "start": 1916.82,
+      "duration": 3.21,
+      "text": "an expression called \"high\nto low, look out below.\""
+    },
+    {
+      "start": 1920.03,
+      "duration": 2.13,
+      "text": "Because if you go\nfrom an area where"
+    },
+    {
+      "start": 1922.16,
+      "duration": 3.42,
+      "text": "there's a high-pressure setting\nto an area where there's"
+    },
+    {
+      "start": 1925.58,
+      "duration": 3.15,
+      "text": "a low-pressure setting,\nyou'll inadvertently"
+    },
+    {
+      "start": 1928.73,
+      "duration": 2.79,
+      "text": "descend by 1,000\nfeet if you just"
+    },
+    {
+      "start": 1931.52,
+      "duration": 4.83,
+      "text": "follow what the altimeter is\ntelling you without resetting"
+    },
+    {
+      "start": 1936.35,
+      "duration": 1.89,
+      "text": "the altimeter."
+    },
+    {
+      "start": 1938.24,
+      "duration": 6.06,
+      "text": "Same issue when you go from high\ntemperature to low temperature."
+    },
+    {
+      "start": 1944.3,
+      "duration": 2.44,
+      "text": "So I just came back from\nJacksonville, Florida,"
+    },
+    {
+      "start": 1946.74,
+      "duration": 2.94,
+      "text": "in the Cirrus, so I went\nfrom high temperature."
+    },
+    {
+      "start": 1949.68,
+      "duration": 2.78,
+      "text": "And at an indicated\naltitude of 3,500 feet,"
+    },
+    {
+      "start": 1952.46,
+      "duration": 3.75,
+      "text": "I was actually a bit higher\nabove the earth than here"
+    },
+    {
+      "start": 1956.21,
+      "duration": 1.46,
+      "text": "in cold New England."
+    },
+    {
+      "start": 1957.66,
+      "duration": 1.62,
+      "text": "So that's another\nthing to be aware of,"
+    },
+    {
+      "start": 1959.29,
+      "duration": 1.75,
+      "text": "and this becomes\nimportant for instrument"
+    },
+    {
+      "start": 1961.04,
+      "duration": 4.8,
+      "text": "flying in very cold conditions\nlike up in the Canadian Arctic."
+    },
+    {
+      "start": 1965.84,
+      "duration": 3.15,
+      "text": "If you fly indicated altitudes\nwhen it's extremely cold,"
+    },
+    {
+      "start": 1968.99,
+      "duration": 2.91,
+      "text": "you'll be closer to the ground\nthan they budgeted for when"
+    },
+    {
+      "start": 1971.9,
+      "duration": 2.43,
+      "text": "they designed the procedure."
+    },
+    {
+      "start": 1974.33,
+      "duration": 3.63,
+      "text": "OK, vertical speed, if\nyou want to maintain"
+    },
+    {
+      "start": 1977.96,
+      "duration": 2.67,
+      "text": "500 feet per minute\nclimb rate or descent"
+    },
+    {
+      "start": 1980.63,
+      "duration": 2.14,
+      "text": "rate for your\npassenger's comfort,"
+    },
+    {
+      "start": 1982.77,
+      "duration": 2.93,
+      "text": "then this instrument\nis your friend."
+    },
+    {
+      "start": 1985.7,
+      "duration": 4.56,
+      "text": "It does lag so you can't\nreally use this to--"
+    },
+    {
+      "start": 1990.26,
+      "duration": 2.16,
+      "text": "all these instruments\nare outputs, not inputs."
+    },
+    {
+      "start": 1992.42,
+      "duration": 2.85,
+      "text": "Your inputs as a pilot are\nthe attitude and the power."
+    },
+    {
+      "start": 1995.27,
+      "duration": 1.56,
+      "text": "So you set a power."
+    },
+    {
+      "start": 1996.83,
+      "duration": 2.34,
+      "text": "You set an attitude like\na little bit three degrees"
+    },
+    {
+      "start": 1999.17,
+      "duration": 2.85,
+      "text": "nose up, and then you\nuse these instruments"
+    },
+    {
+      "start": 2002.02,
+      "duration": 3.19,
+      "text": "to verify that you're getting\nthe performance that you want."
+    },
+    {
+      "start": 2005.21,
+      "duration": 2.33,
+      "text": "Especially true for the\nvertical-speed indicator"
+    },
+    {
+      "start": 2007.54,
+      "duration": 2.67,
+      "text": "because the instrument\nitself has lag in addition"
+    },
+    {
+      "start": 2010.21,
+      "duration": 3.92,
+      "text": "to the lags that come from just\nthe inertia of the aircraft."
+    },
+    {
+      "start": 2014.13,
+      "duration": 5.92,
+      "text": "OK, under the hood it's\ngotten this calibrated leak."
+    },
+    {
+      "start": 2020.05,
+      "duration": 7.17,
+      "text": "I don't really-- anyway,\nit's another fancy instrument"
+    },
+    {
+      "start": 2027.22,
+      "duration": 3.06,
+      "text": "than a mechanical engineer\nshould tell you about."
+    },
+    {
+      "start": 2030.28,
+      "duration": 1.89,
+      "text": "All right, gyroscopes,\nthe main property"
+    },
+    {
+      "start": 2032.17,
+      "duration": 2.07,
+      "text": "is you can use them for\nan aircraft instrument"
+    },
+    {
+      "start": 2034.24,
+      "duration": 5.4,
+      "text": "because it will try to stay\nwhere it is relative to space."
+    },
+    {
+      "start": 2039.64,
+      "duration": 1.8,
+      "text": "It has to be corrected."
+    },
+    {
+      "start": 2041.44,
+      "duration": 4.02,
+      "text": "In the instruments, it's really\nwhere gyroscopic precession has"
+    },
+    {
+      "start": 2045.46,
+      "duration": 1.8,
+      "text": "to be considered\nbecause think about it,"
+    },
+    {
+      "start": 2047.26,
+      "duration": 2.49,
+      "text": "you're going to be showing\nthe pilot various things"
+    },
+    {
+      "start": 2049.75,
+      "duration": 1.82,
+      "text": "on the face of the instruments."
+    },
+    {
+      "start": 2051.57,
+      "duration": 3.25,
+      "text": "So you want to sure\nthat the deflections"
+    },
+    {
+      "start": 2054.82,
+      "duration": 3.27,
+      "text": "correspond to what's happening\nout there in the real world."
+    },
+    {
+      "start": 2058.09,
+      "duration": 4.62,
+      "text": "Again, this is covered\nin the Pilot's Handbook."
+    },
+    {
+      "start": 2062.71,
+      "duration": 5.67,
+      "text": "This just tells you, again, if\nyou kick a gyro up at the top,"
+    },
+    {
+      "start": 2068.38,
+      "duration": 4.53,
+      "text": "instead of the axis of the\ngyroscope rotating downward,"
+    },
+    {
+      "start": 2072.91,
+      "duration": 2.19,
+      "text": "it's actually going\nto yaw to the left."
+    },
+    {
+      "start": 2075.1,
+      "duration": 3.95,
+      "text": "That's gyroscopic precession."
+    },
+    {
+      "start": 2079.05,
+      "duration": 4.29,
+      "text": "Turn coordinator, it\nhas a gyro to tell you"
+    },
+    {
+      "start": 2083.34,
+      "duration": 3.33,
+      "text": "that little airplane, if you're\ndoing a standard rate turn,"
+    },
+    {
+      "start": 2086.67,
+      "duration": 6.24,
+      "text": "it'll go to this point here."
+    },
+    {
+      "start": 2092.91,
+      "duration": 2.55,
+      "text": "That's a two-minute\nturn that'll take you"
+    },
+    {
+      "start": 2095.46,
+      "duration": 1.74,
+      "text": "two minutes to go 360 degrees."
+    },
+    {
+      "start": 2100.0,
+      "duration": 3.47,
+      "text": "And it's a backup to a\nvacuum-powered attitude"
+    },
+    {
+      "start": 2103.47,
+      "duration": 1.2,
+      "text": "indicator."
+    },
+    {
+      "start": 2104.67,
+      "duration": 2.76,
+      "text": "It also has this completely\nseparate function"
+    },
+    {
+      "start": 2107.43,
+      "duration": 1.65,
+      "text": "of a little ball in--"
+    },
+    {
+      "start": 2109.08,
+      "duration": 1.86,
+      "text": "I think, it's in\nkerosene actually--"
+    },
+    {
+      "start": 2110.94,
+      "duration": 1.92,
+      "text": "so it's a little ball in fluid."
+    },
+    {
+      "start": 2112.86,
+      "duration": 3.3,
+      "text": "And in a perfectly\ncoordinated turn,"
+    },
+    {
+      "start": 2116.16,
+      "duration": 1.71,
+      "text": "you should actually\nfeel like you're just"
+    },
+    {
+      "start": 2117.87,
+      "duration": 1.87,
+      "text": "standing on the ground\nat 1G, and the ball"
+    },
+    {
+      "start": 2119.74,
+      "duration": 1.58,
+      "text": "should stay right\nthere in the center."
+    },
+    {
+      "start": 2125.61,
+      "duration": 2.27,
+      "text": "All right, turn\ncoordinator, it can tell you"
+    },
+    {
+      "start": 2127.88,
+      "duration": 3.03,
+      "text": "whether you're slipping,\nskidding, or coordinated."
+    },
+    {
+      "start": 2130.91,
+      "duration": 1.77,
+      "text": "So if you're\ncoordinated, as I said,"
+    },
+    {
+      "start": 2132.68,
+      "duration": 4.33,
+      "text": "it's just like sitting in\na chair and not moving."
+    },
+    {
+      "start": 2137.01,
+      "duration": 4.7,
+      "text": "If you're slipping, if you have\nany trouble visualizing this"
+    },
+    {
+      "start": 2141.71,
+      "duration": 2.46,
+      "text": "you can just reflect\non the fact that you"
+    },
+    {
+      "start": 2144.17,
+      "duration": 2.74,
+      "text": "have to step on the\nball to fix the problem."
+    },
+    {
+      "start": 2146.91,
+      "duration": 2.09,
+      "text": "So here your airplane's\nin a right turn,"
+    },
+    {
+      "start": 2149.0,
+      "duration": 2.61,
+      "text": "and it's telling you you have\nto step on the right rudder"
+    },
+    {
+      "start": 2151.61,
+      "duration": 3.0,
+      "text": "and bring the nose more\naround to the right in order"
+    },
+    {
+      "start": 2154.61,
+      "duration": 1.38,
+      "text": "to be coordinated."
+    },
+    {
+      "start": 2155.99,
+      "duration": 2.1,
+      "text": "So that is a slipping turn."
+    },
+    {
+      "start": 2158.09,
+      "duration": 2.22,
+      "text": "So here's our airplane."
+    },
+    {
+      "start": 2160.31,
+      "duration": 3.69,
+      "text": "We've banked the\nwings, but we've"
+    },
+    {
+      "start": 2164.0,
+      "duration": 2.9,
+      "text": "got the nose still\nkind of pointed"
+    },
+    {
+      "start": 2166.9,
+      "duration": 1.08,
+      "text": "where we used to be going."
+    },
+    {
+      "start": 2167.98,
+      "duration": 1.46,
+      "text": "So it's telling us\nyou need to kick"
+    },
+    {
+      "start": 2169.44,
+      "duration": 3.51,
+      "text": "a little bit of right rudder\nand have a coordinated turn."
+    },
+    {
+      "start": 2172.95,
+      "duration": 1.09,
+      "text": "Skidding is the other way."
+    },
+    {
+      "start": 2174.04,
+      "duration": 2.46,
+      "text": "For some reason, we have too\nmuch right rudder in there,"
+    },
+    {
+      "start": 2176.5,
+      "duration": 3.15,
+      "text": "and we need to back off of\nit or hit some left rudder"
+    },
+    {
+      "start": 2179.65,
+      "duration": 2.13,
+      "text": "and bring it back."
+    },
+    {
+      "start": 2181.78,
+      "duration": 1.67,
+      "text": "Again, this is\nsomething, it'll become--"
+    },
+    {
+      "start": 2183.45,
+      "duration": 2.33,
+      "text": "you know, eventually you\ndevelop a sort of a feel for it"
+    },
+    {
+      "start": 2185.78,
+      "duration": 2.94,
+      "text": "in the seat of your pants, and\nyou'll just do it naturally."
+    },
+    {
+      "start": 2188.72,
+      "duration": 1.46,
+      "text": "And actually, modern\naircraft don't"
+    },
+    {
+      "start": 2190.18,
+      "duration": 3.4,
+      "text": "have a whole lot of,\nwhat's called, adverse yaw,"
+    },
+    {
+      "start": 2193.58,
+      "duration": 1.46,
+      "text": "so if you try to\nturn them, they're"
+    },
+    {
+      "start": 2195.04,
+      "duration": 2.04,
+      "text": "not really going to\nget out of coordination"
+    },
+    {
+      "start": 2197.08,
+      "duration": 2.83,
+      "text": "to any large extent."
+    },
+    {
+      "start": 2199.91,
+      "duration": 1.7,
+      "text": "All right, attitude indicator."
+    },
+    {
+      "start": 2204.71,
+      "duration": 3.03,
+      "text": "If you're either in level\nflight or on the ramp,"
+    },
+    {
+      "start": 2207.74,
+      "duration": 2.4,
+      "text": "this little airplane\npointer here in the middle--"
+    },
+    {
+      "start": 2210.14,
+      "duration": 1.29,
+      "text": "that little orange thing--"
+    },
+    {
+      "start": 2211.43,
+      "duration": 2.79,
+      "text": "is just something that you\ncan rotate up and down."
+    },
+    {
+      "start": 2214.22,
+      "duration": 1.86,
+      "text": "It's basically just\na reminder for you"
+    },
+    {
+      "start": 2216.08,
+      "duration": 2.91,
+      "text": "of what attitude will\nproduce level flight."
+    },
+    {
+      "start": 2218.99,
+      "duration": 2.37,
+      "text": "It might be a couple\ndegrees pitched up or down,"
+    },
+    {
+      "start": 2221.36,
+      "duration": 3.88,
+      "text": "but you just set it\nto whatever it is."
+    },
+    {
+      "start": 2225.24,
+      "duration": 3.93,
+      "text": "This is a gyro that's free\nto move in two directions,"
+    },
+    {
+      "start": 2229.17,
+      "duration": 5.76,
+      "text": "and as it moves, it\nmoves this bank index,"
+    },
+    {
+      "start": 2234.93,
+      "duration": 4.52,
+      "text": "I guess, on the face of the gyro\nis what they're calling it--"
+    },
+    {
+      "start": 2239.45,
+      "duration": 1.54,
+      "text": "or maybe that just\nis the bank index."
+    },
+    {
+      "start": 2240.99,
+      "duration": 2.82,
+      "text": "It's moving the whole\nartificial horizon"
+    },
+    {
+      "start": 2243.81,
+      "duration": 3.09,
+      "text": "on the face of the gyro."
+    },
+    {
+      "start": 2246.9,
+      "duration": 3.03,
+      "text": "So the important thing is\nit's a gyro at 2 gimbals."
+    },
+    {
+      "start": 2249.93,
+      "duration": 2.62,
+      "text": "In aerobatic airplanes, this\ndesign doesn't work very well."
+    },
+    {
+      "start": 2252.55,
+      "duration": 2.57,
+      "text": "It tends to get damaged by\nall of the extreme maneuvers"
+    },
+    {
+      "start": 2255.12,
+      "duration": 1.65,
+      "text": "and g-forces."
+    },
+    {
+      "start": 2256.77,
+      "duration": 2.83,
+      "text": "As a pilot, what do you\nneed to know about this?"
+    },
+    {
+      "start": 2259.6,
+      "duration": 2.45,
+      "text": "It's worth knowing\nhow to read it."
+    },
+    {
+      "start": 2262.05,
+      "duration": 3.05,
+      "text": "In your flight training, you'll\ndo, so-called, steep turns"
+    },
+    {
+      "start": 2265.1,
+      "duration": 2.14,
+      "text": "where you'll bank to\na 45-degree angle."
+    },
+    {
+      "start": 2267.24,
+      "duration": 2.77,
+      "text": "It's mostly a visual maneuver\nwhere you look outside,"
+    },
+    {
+      "start": 2270.01,
+      "duration": 2.69,
+      "text": "but the attitude indicator\nis a good reference, again,"
+    },
+    {
+      "start": 2272.7,
+      "duration": 4.26,
+      "text": "to see whether the picture that\nyou've got of a natural horizon"
+    },
+    {
+      "start": 2276.96,
+      "duration": 2.85,
+      "text": "actually does correspond\nto a 45-degree bank."
+    },
+    {
+      "start": 2279.81,
+      "duration": 2.46,
+      "text": "If you go up, I think if you\ngo beyond 60-degree banks,"
+    },
+    {
+      "start": 2282.27,
+      "duration": 3.31,
+      "text": "it's time for your aerobatic\nairplane and your parachute."
+    },
+    {
+      "start": 2290.01,
+      "duration": 2.19,
+      "text": "That pointer at\nthe top generally"
+    },
+    {
+      "start": 2292.2,
+      "duration": 3.75,
+      "text": "will be pointed up at the sky\nhowever you're maneuvering."
+    },
+    {
+      "start": 2295.95,
+      "duration": 2.41,
+      "text": "We'll see this in a moment here."
+    },
+    {
+      "start": 2298.36,
+      "duration": 6.4,
+      "text": "So you can see, let's just\npick a level right turn."
+    },
+    {
+      "start": 2304.76,
+      "duration": 4.73,
+      "text": "So over here, you say,\nwell, that thing at the top"
+    },
+    {
+      "start": 2309.49,
+      "duration": 1.46,
+      "text": "isn't really pointed\nup at the sky."
+    },
+    {
+      "start": 2310.95,
+      "duration": 2.12,
+      "text": "It's just pointed off to\nthe left but think about it."
+    },
+    {
+      "start": 2313.07,
+      "duration": 1.62,
+      "text": "They're just showing\nyou the instrument"
+    },
+    {
+      "start": 2314.7,
+      "duration": 1.76,
+      "text": "as you would see\nit in the cockpit."
+    },
+    {
+      "start": 2316.46,
+      "duration": 4.17,
+      "text": "So because the airplanes\nturn to the right,"
+    },
+    {
+      "start": 2320.63,
+      "duration": 3.06,
+      "text": "that top pointer would\nactually correspond"
+    },
+    {
+      "start": 2323.69,
+      "duration": 2.64,
+      "text": "to straight up into the sky."
+    },
+    {
+      "start": 2326.33,
+      "duration": 2.52,
+      "text": "But as you see, it's kind of\nthe same picture you would get."
+    },
+    {
+      "start": 2328.85,
+      "duration": 3.54,
+      "text": "You're more or less not\npitched but you are banked."
+    },
+    {
+      "start": 2332.39,
+      "duration": 1.89,
+      "text": "If you're going up\nclimbing right bank,"
+    },
+    {
+      "start": 2334.28,
+      "duration": 2.31,
+      "text": "you see you're just pitched\nup a couple degrees."
+    },
+    {
+      "start": 2336.59,
+      "duration": 5.52,
+      "text": "There's a little bit more\nblue here versus here."
+    },
+    {
+      "start": 2342.11,
+      "duration": 1.42,
+      "text": "As an instrument\npilot, you'll get"
+    },
+    {
+      "start": 2343.53,
+      "duration": 3.33,
+      "text": "very good at seeing small\ndifferences-- just one or two"
+    },
+    {
+      "start": 2346.86,
+      "duration": 3.3,
+      "text": "degrees of bank or pitch here."
+    },
+    {
+      "start": 2350.16,
+      "duration": 1.83,
+      "text": "We're about to go into\nthe magnetic compass,"
+    },
+    {
+      "start": 2351.99,
+      "duration": 1.95,
+      "text": "so let's take a\nbreak here and we'll"
+    },
+    {
+      "start": 2353.94,
+      "duration": 2.81,
+      "text": "wrap this up after\neverybody has their pizza."
+    },
+    {
+      "start": 2356.74,
+      "duration": 2.38,
+      "text": "A few things to remember\nabout magnetic compasses,"
+    },
+    {
+      "start": 2359.13,
+      "duration": 4.17,
+      "text": "and then we're off to Oshkosh\nwhich is going to be more fun."
+    },
+    {
+      "start": 2363.3,
+      "duration": 2.49,
+      "text": "The most important thing\nis that it only works"
+    },
+    {
+      "start": 2365.79,
+      "duration": 1.47,
+      "text": "when you're straight and level."
+    },
+    {
+      "start": 2367.26,
+      "duration": 2.1,
+      "text": "And the fundamental\ninsight for this"
+    },
+    {
+      "start": 2369.36,
+      "duration": 2.43,
+      "text": "is the compass is\na horizontal thing."
+    },
+    {
+      "start": 2371.79,
+      "duration": 2.61,
+      "text": "It's only designed\nto move horizontally."
+    },
+    {
+      "start": 2374.4,
+      "duration": 2.64,
+      "text": "So if you start tilting\nit, tilting your aircraft,"
+    },
+    {
+      "start": 2377.04,
+      "duration": 1.12,
+      "text": "one big part of it--"
+    },
+    {
+      "start": 2378.16,
+      "duration": 1.58,
+      "text": "big part of the\nproblem is the compass"
+    },
+    {
+      "start": 2379.74,
+      "duration": 4.26,
+      "text": "tries to still point itself\ntowards the magnetic north"
+    },
+    {
+      "start": 2384.0,
+      "duration": 2.41,
+      "text": "pole which will cause it\nto rotate a little bit."
+    },
+    {
+      "start": 2386.41,
+      "duration": 2.12,
+      "text": "It's a little bit\nhard to explain"
+    },
+    {
+      "start": 2388.53,
+      "duration": 2.01,
+      "text": "without thinking about\nit and reading about it"
+    },
+    {
+      "start": 2390.54,
+      "duration": 1.53,
+      "text": "in the Pilot's Handbook."
+    },
+    {
+      "start": 2392.07,
+      "duration": 3.24,
+      "text": "But the takeaway is that\nbecause it has inertia,"
+    },
+    {
+      "start": 2395.31,
+      "duration": 1.74,
+      "text": "and because it's\nnot really fully"
+    },
+    {
+      "start": 2397.05,
+      "duration": 4.08,
+      "text": "free to rotate to point\nin three dimensions down"
+    },
+    {
+      "start": 2401.13,
+      "duration": 3.45,
+      "text": "to the north pole, you get\nall these bizarre errors."
+    },
+    {
+      "start": 2404.58,
+      "duration": 4.17,
+      "text": "Like if you turn away\nfrom a heading of north,"
+    },
+    {
+      "start": 2408.75,
+      "duration": 2.65,
+      "text": "it'll initially show a turn\nin the opposite direction."
+    },
+    {
+      "start": 2411.4,
+      "duration": 3.68,
+      "text": "And if you accelerate because\nof the inertia, it'll--"
+    },
+    {
+      "start": 2415.08,
+      "duration": 3.76,
+      "text": "let's see, accelerate\nnorth, and yes."
+    },
+    {
+      "start": 2418.84,
+      "duration": 2.05,
+      "text": "All right, we'll get\ninto that in a moment."
+    },
+    {
+      "start": 2420.89,
+      "duration": 1.04,
+      "text": "Even I can't remember it."
+    },
+    {
+      "start": 2421.93,
+      "duration": 1.83,
+      "text": "Just remember don't\nlook at it unless you're"
+    },
+    {
+      "start": 2423.76,
+      "duration": 2.02,
+      "text": "straight and level."
+    },
+    {
+      "start": 2425.78,
+      "duration": 3.47,
+      "text": "The true magnetic-- I think\nactually the north pole--"
+    },
+    {
+      "start": 2429.25,
+      "duration": 2.34,
+      "text": "the magnetic north\npole, I heard recently"
+    },
+    {
+      "start": 2431.59,
+      "duration": 3.12,
+      "text": "there was some kind of\nsignificant movement."
+    },
+    {
+      "start": 2434.71,
+      "duration": 3.18,
+      "text": "Anyway, it's moved\nquite a bit since 1632"
+    },
+    {
+      "start": 2437.89,
+      "duration": 2.19,
+      "text": "as you see here on this chart."
+    },
+    {
+      "start": 2445.21,
+      "duration": 2.87,
+      "text": "Because true north is not equal\nto magnetic north, and the kind"
+    },
+    {
+      "start": 2448.08,
+      "duration": 3.24,
+      "text": "of primary source of direction\nthat you have in your aircraft"
+    },
+    {
+      "start": 2451.32,
+      "duration": 3.21,
+      "text": "is a magnetic source,\non the charts,"
+    },
+    {
+      "start": 2454.53,
+      "duration": 3.72,
+      "text": "you end up getting these\nisogonic lines that tell you"
+    },
+    {
+      "start": 2458.25,
+      "duration": 2.1,
+      "text": "how much correction to apply."
+    },
+    {
+      "start": 2460.35,
+      "duration": 4.21,
+      "text": "So here you can see\n14 degrees west."
+    },
+    {
+      "start": 2464.56,
+      "duration": 4.02,
+      "text": "That tells you-- because if east\nis least, and west is best--"
+    },
+    {
+      "start": 2468.58,
+      "duration": 2.79,
+      "text": "if we want to fly\nstraight true north,"
+    },
+    {
+      "start": 2471.37,
+      "duration": 4.26,
+      "text": "we actually have to\nsteer zero plus 14."
+    },
+    {
+      "start": 2475.63,
+      "duration": 3.34,
+      "text": "So zero is the true\nnorth course, add 14."
+    },
+    {
+      "start": 2478.97,
+      "duration": 3.5,
+      "text": "And if we see 14 on our\ncompass, or between 10 and 20"
+    },
+    {
+      "start": 2482.47,
+      "duration": 4.2,
+      "text": "on our compass, between 1 and 2\nI guess it would be indicated,"
+    },
+    {
+      "start": 2486.67,
+      "duration": 3.21,
+      "text": "then we're heading true north."
+    },
+    {
+      "start": 2489.88,
+      "duration": 4.03,
+      "text": "If you forget all of this\nstuff that I'm telling you--"
+    },
+    {
+      "start": 2493.91,
+      "duration": 3.24,
+      "text": "which I hope you will because\nthis is a very tedious area--"
+    },
+    {
+      "start": 2497.15,
+      "duration": 2.01,
+      "text": "you can cheat."
+    },
+    {
+      "start": 2499.16,
+      "duration": 2.41,
+      "text": "So look at this VOR."
+    },
+    {
+      "start": 2501.57,
+      "duration": 3.37,
+      "text": "The VOR tells you this\nis the Block Island VOR."
+    },
+    {
+      "start": 2504.94,
+      "duration": 1.65,
+      "text": "This is another\ngreat place to fly."
+    },
+    {
+      "start": 2506.59,
+      "duration": 1.19,
+      "text": "So you land there."
+    },
+    {
+      "start": 2507.78,
+      "duration": 1.05,
+      "text": "You walk to the beach."
+    },
+    {
+      "start": 2508.83,
+      "duration": 1.92,
+      "text": "You skip out on the ferry ride."
+    },
+    {
+      "start": 2510.75,
+      "duration": 2.55,
+      "text": "This is the best arguments\nfor general aviation aircraft"
+    },
+    {
+      "start": 2513.3,
+      "duration": 2.91,
+      "text": "are almost always\nplaces that are islands,"
+    },
+    {
+      "start": 2516.21,
+      "duration": 1.92,
+      "text": "and you can't drive there\non your Honda Accord"
+    },
+    {
+      "start": 2518.13,
+      "duration": 1.56,
+      "text": "even if you wanted to."
+    },
+    {
+      "start": 2519.69,
+      "duration": 5.63,
+      "text": "So but you see here, the zero\nmagnetic line is not aligned."
+    },
+    {
+      "start": 2525.32,
+      "duration": 1.4,
+      "text": "The charge is in true north."
+    },
+    {
+      "start": 2526.72,
+      "duration": 1.55,
+      "text": "So there is your true north."
+    },
+    {
+      "start": 2528.27,
+      "duration": 1.17,
+      "text": "There is your zero magnetic."
+    },
+    {
+      "start": 2529.44,
+      "duration": 2.46,
+      "text": "So you can just see\nthat the variation here"
+    },
+    {
+      "start": 2531.9,
+      "duration": 1.31,
+      "text": "is about 14 degrees."
+    },
+    {
+      "start": 2533.21,
+      "duration": 1.57,
+      "text": "You wouldn't even\nneed-- and you can"
+    },
+    {
+      "start": 2534.78,
+      "duration": 2.73,
+      "text": "also that east is least,\nwest is best rule,"
+    },
+    {
+      "start": 2537.51,
+      "duration": 3.06,
+      "text": "you can rederive it just\nby looking at any VOR."
+    },
+    {
+      "start": 2540.57,
+      "duration": 5.42,
+      "text": "Except don't look\nat a VOR in Florida"
+    },
+    {
+      "start": 2545.99,
+      "duration": 3.21,
+      "text": "because that's where\nthere is no variation."
+    },
+    {
+      "start": 2549.2,
+      "duration": 2.73,
+      "text": "But almost any other VOR\nyou can look at and see"
+    },
+    {
+      "start": 2551.93,
+      "duration": 2.16,
+      "text": "what the new rule is."
+    },
+    {
+      "start": 2554.09,
+      "duration": 3.19,
+      "text": "All right, magnetic deviation."
+    },
+    {
+      "start": 2557.28,
+      "duration": 2.96,
+      "text": "If you have stuff\nin the airplane,"
+    },
+    {
+      "start": 2560.24,
+      "duration": 4.46,
+      "text": "it will cause the compass to\nbe a little bit inaccurate."
+    },
+    {
+      "start": 2564.7,
+      "duration": 2.4,
+      "text": "So they give you this\ncompass card here underneath,"
+    },
+    {
+      "start": 2567.1,
+      "duration": 2.66,
+      "text": "which will give you usually\none or two-degree changes"
+    },
+    {
+      "start": 2569.76,
+      "duration": 6.64,
+      "text": "at the most for how you would--"
+    },
+    {
+      "start": 2576.4,
+      "duration": 3.36,
+      "text": "you know, if you want to\nfly north magnetic heading,"
+    },
+    {
+      "start": 2579.76,
+      "duration": 3.96,
+      "text": "you might actually steer,\nI don't know, zero-point--"
+    },
+    {
+      "start": 2583.72,
+      "duration": 3.55,
+      "text": "steer a course of\none or two degrees."
+    },
+    {
+      "start": 2587.27,
+      "duration": 2.21,
+      "text": "You know, if you bring stuff\ninto the aircraft that's"
+    },
+    {
+      "start": 2589.48,
+      "duration": 3.6,
+      "text": "heavy and metal or magnetic,\nthat can affect your compass."
+    },
+    {
+      "start": 2593.08,
+      "duration": 3.17,
+      "text": "And actually, in an aircraft\nwith heated windshields,"
+    },
+    {
+      "start": 2596.25,
+      "duration": 2.17,
+      "text": "if you turn on the heated\nwindshield for anti-icing,"
+    },
+    {
+      "start": 2598.42,
+      "duration": 1.89,
+      "text": "and in jets, it's\nkind of standard"
+    },
+    {
+      "start": 2600.31,
+      "duration": 1.47,
+      "text": "to fly with them\non all the time,"
+    },
+    {
+      "start": 2601.78,
+      "duration": 1.23,
+      "text": "the compass becomes useless."
+    },
+    {
+      "start": 2603.01,
+      "duration": 3.6,
+      "text": "The heated windshields\nthrow it off by 90 degrees."
+    },
+    {
+      "start": 2606.61,
+      "duration": 2.42,
+      "text": "All right, in the\nlowest end airplane,"
+    },
+    {
+      "start": 2609.03,
+      "duration": 2.03,
+      "text": "they'll have a directional gyro."
+    },
+    {
+      "start": 2611.06,
+      "duration": 3.58,
+      "text": "Because of all of those\ncompass errors, you as a pilot,"
+    },
+    {
+      "start": 2614.64,
+      "duration": 3.14,
+      "text": "will basically, just\nevery five or 10 minutes"
+    },
+    {
+      "start": 2617.78,
+      "duration": 4.05,
+      "text": "if it's a really old and bad\nDG, or maybe every half hour"
+    },
+    {
+      "start": 2621.83,
+      "duration": 3.12,
+      "text": "if it's a decent new one, you'll\njust look up at the compass"
+    },
+    {
+      "start": 2624.95,
+      "duration": 2.4,
+      "text": "when you're in level\nunaccelerated flight,"
+    },
+    {
+      "start": 2627.35,
+      "duration": 7.0,
+      "text": "and you'll reset with this\nknob here down at the bottom."
+    },
+    {
+      "start": 2634.35,
+      "duration": 3.87,
+      "text": "You'll twist that to\nalign the directional gyro"
+    },
+    {
+      "start": 2638.22,
+      "duration": 1.08,
+      "text": "to the compass."
+    },
+    {
+      "start": 2639.3,
+      "duration": 3.72,
+      "text": "So the compass is the authority,\nbut it's only an authority"
+    },
+    {
+      "start": 2643.02,
+      "duration": 1.54,
+      "text": "when you're straight and level."
+    },
+    {
+      "start": 2644.56,
+      "duration": 5.0,
+      "text": "OK, under the hood, notice\nthat this, unlike the attitude"
+    },
+    {
+      "start": 2649.56,
+      "duration": 3.9,
+      "text": "indicator, this\nonly has one gimbal."
+    },
+    {
+      "start": 2653.46,
+      "duration": 2.79,
+      "text": "And that's really the takeaway\nfor why the attitude indicators"
+    },
+    {
+      "start": 2656.25,
+      "duration": 2.55,
+      "text": "tend to break more often\nthan these other instruments"
+    },
+    {
+      "start": 2658.8,
+      "duration": 1.98,
+      "text": "because they have two\ngimbals and they're just"
+    },
+    {
+      "start": 2660.78,
+      "duration": 2.77,
+      "text": "a little more fragile overall."
+    },
+    {
+      "start": 2663.55,
+      "duration": 3.21,
+      "text": "Horizontal situation,\neverything in flying,"
+    },
+    {
+      "start": 2666.76,
+      "duration": 1.98,
+      "text": "they've tried to make\nit more idiot-proof,"
+    },
+    {
+      "start": 2668.74,
+      "duration": 2.55,
+      "text": "and the HSI is a great\nexample of something"
+    },
+    {
+      "start": 2671.29,
+      "duration": 1.71,
+      "text": "that was figured out,\nI don't know, maybe"
+    },
+    {
+      "start": 2673.0,
+      "duration": 1.86,
+      "text": "in the 50s or maybe earlier."
+    },
+    {
+      "start": 2674.86,
+      "duration": 5.52,
+      "text": "They said, what if we just\ntake that DG and we put"
+    },
+    {
+      "start": 2680.38,
+      "duration": 1.77,
+      "text": "an indicator on here."
+    },
+    {
+      "start": 2682.15,
+      "duration": 4.65,
+      "text": "This is showing we're trying to\ngo on a heading of about 010--"
+    },
+    {
+      "start": 2686.8,
+      "duration": 0.92,
+      "text": "just slightly north."
+    },
+    {
+      "start": 2687.72,
+      "duration": 2.44,
+      "text": "That's this yellow pointer."
+    },
+    {
+      "start": 2690.16,
+      "duration": 4.02,
+      "text": "We are actually going on\na heading of about 020."
+    },
+    {
+      "start": 2694.18,
+      "duration": 2.01,
+      "text": "Maybe that's because\nof a wind correction."
+    },
+    {
+      "start": 2696.19,
+      "duration": 1.89,
+      "text": "There's a wind coming\nfrom the right."
+    },
+    {
+      "start": 2698.08,
+      "duration": 2.07,
+      "text": "And it also\nintegrates your line."
+    },
+    {
+      "start": 2700.15,
+      "duration": 4.28,
+      "text": "See it shows you with this\ncourse deviation indicator"
+    },
+    {
+      "start": 2704.43,
+      "duration": 2.0,
+      "text": "that you're slightly to\nthe right of the course."
+    },
+    {
+      "start": 2706.43,
+      "duration": 2.22,
+      "text": "The course is a little\nbit to your left."
+    },
+    {
+      "start": 2708.65,
+      "duration": 2.11,
+      "text": "And actually, this\nperson, I think,"
+    },
+    {
+      "start": 2710.76,
+      "duration": 2.04,
+      "text": "this pilot is flying an\nInstrument-Landing-System"
+    },
+    {
+      "start": 2712.8,
+      "duration": 1.05,
+      "text": "approach."
+    },
+    {
+      "start": 2713.85,
+      "duration": 3.96,
+      "text": "This yellow trapezoid\nthere on the left"
+    },
+    {
+      "start": 2717.81,
+      "duration": 1.72,
+      "text": "and right is showing\nyou where you"
+    },
+    {
+      "start": 2719.53,
+      "duration": 1.29,
+      "text": "are relative to the glideslope."
+    },
+    {
+      "start": 2720.82,
+      "duration": 1.49,
+      "text": "So you're right\non the glideslope."
+    },
+    {
+      "start": 2722.31,
+      "duration": 1.44,
+      "text": "So basically, all\nthe information"
+    },
+    {
+      "start": 2723.75,
+      "duration": 3.32,
+      "text": "that you need for your flight\nother than the attitude"
+    },
+    {
+      "start": 2727.07,
+      "duration": 1.21,
+      "text": "is on this single instrument."
+    },
+    {
+      "start": 2728.28,
+      "duration": 1.62,
+      "text": "If you have everything\nset up correctly"
+    },
+    {
+      "start": 2729.91,
+      "duration": 2.1,
+      "text": "the radios or the\nGPS, you really"
+    },
+    {
+      "start": 2732.0,
+      "duration": 1.8,
+      "text": "don't need to look\nanywhere but here"
+    },
+    {
+      "start": 2733.8,
+      "duration": 1.3,
+      "text": "and at the attitude indicator."
+    },
+    {
+      "start": 2735.1,
+      "duration": 1.49,
+      "text": "It's a pretty nice idea."
+    },
+    {
+      "start": 2736.59,
+      "duration": 3.79,
+      "text": "And this is replicated in\nall of the glass cockpits."
+    },
+    {
+      "start": 2740.38,
+      "duration": 2.3,
+      "text": "All right, technically\nadvanced aircraft,"
+    },
+    {
+      "start": 2742.68,
+      "duration": 5.56,
+      "text": "here's a photograph of the\nlatest and greatest Cirrus SR22"
+    },
+    {
+      "start": 2748.24,
+      "duration": 3.0,
+      "text": "or 20 cockpit."
+    },
+    {
+      "start": 2751.24,
+      "duration": 3.73,
+      "text": "You have two big screens."
+    },
+    {
+      "start": 2754.97,
+      "duration": 1.44,
+      "text": "One's usually called the PFD--"
+    },
+    {
+      "start": 2756.41,
+      "duration": 2.18,
+      "text": "primary flight display--\none's the MFD--"
+    },
+    {
+      "start": 2758.59,
+      "duration": 1.75,
+      "text": "the multifunction\ndisplay-- that shows you"
+    },
+    {
+      "start": 2760.34,
+      "duration": 3.69,
+      "text": "maps and weather and traffic."
+    },
+    {
+      "start": 2764.03,
+      "duration": 5.97,
+      "text": "This idea came from the big jets\nfrom the 80s, I guess, and 90s."
+    },
+    {
+      "start": 2770.0,
+      "duration": 3.81,
+      "text": "It was adopted in\nthe Cirrus in 2003,"
+    },
+    {
+      "start": 2773.81,
+      "duration": 3.3,
+      "text": "pioneered with an\nMIT spin called"
+    },
+    {
+      "start": 2777.11,
+      "duration": 2.7,
+      "text": "Avidyne which is\na local company."
+    },
+    {
+      "start": 2779.81,
+      "duration": 2.01,
+      "text": "Garmin kind of took things over."
+    },
+    {
+      "start": 2781.82,
+      "duration": 4.33,
+      "text": "And most of the aircraft\ntoday come with Garmin."
+    },
+    {
+      "start": 2786.15,
+      "duration": 2.78,
+      "text": "G1000 is a brand name\nthat you might have"
+    },
+    {
+      "start": 2788.93,
+      "duration": 1.28,
+      "text": "heard for a Garmin product."
+    },
+    {
+      "start": 2790.21,
+      "duration": 1.84,
+      "text": "It's pretty popular."
+    },
+    {
+      "start": 2792.05,
+      "duration": 2.04,
+      "text": "In some ways, people\nwith older aircraft"
+    },
+    {
+      "start": 2794.09,
+      "duration": 1.74,
+      "text": "are almost better off right now."
+    },
+    {
+      "start": 2795.83,
+      "duration": 2.7,
+      "text": "There's this huge\nstream of retrofit stuff"
+    },
+    {
+      "start": 2798.53,
+      "duration": 4.14,
+      "text": "that's very innovative, more\nso than the comprehensive glass"
+    },
+    {
+      "start": 2802.67,
+      "duration": 1.14,
+      "text": "panels."
+    },
+    {
+      "start": 2803.81,
+      "duration": 4.05,
+      "text": "And usually, for $30,000\nor so an older plane"
+    },
+    {
+      "start": 2807.86,
+      "duration": 3.44,
+      "text": "can be brought up to\nthe modern standard."
+    },
+    {
+      "start": 2811.3,
+      "duration": 4.42,
+      "text": "OK, what if things are\nnot going well at all?"
+    },
+    {
+      "start": 2815.72,
+      "duration": 3.0,
+      "text": "The ultralights tend to\ncome apart in flight."
+    },
+    {
+      "start": 2818.72,
+      "duration": 2.19,
+      "text": "Certified airplanes\nvirtually never come apart."
+    },
+    {
+      "start": 2820.91,
+      "duration": 3.51,
+      "text": "They're just so over-engineered\nthat wings don't fall off,"
+    },
+    {
+      "start": 2824.42,
+      "duration": 2.73,
+      "text": "struts don't fail."
+    },
+    {
+      "start": 2827.15,
+      "duration": 2.71,
+      "text": "But the two brothers--"
+    },
+    {
+      "start": 2829.86,
+      "duration": 3.01,
+      "text": "the Klapmeier brothers,\nfrom Wisconsin, I believe--"
+    },
+    {
+      "start": 2832.87,
+      "duration": 1.42,
+      "text": "although the company\nthey started,"
+    },
+    {
+      "start": 2834.29,
+      "duration": 2.47,
+      "text": "Cirrus, is in\nDuluth, Minnesota--"
+    },
+    {
+      "start": 2836.76,
+      "duration": 2.0,
+      "text": "they say, look, this\nparachute would give people"
+    },
+    {
+      "start": 2838.76,
+      "duration": 2.46,
+      "text": "a lot of comfort, and\nthere are some situations"
+    },
+    {
+      "start": 2841.22,
+      "duration": 2.97,
+      "text": "in which it could be useful\neven in a certified airplane."
+    },
+    {
+      "start": 2844.19,
+      "duration": 1.83,
+      "text": "So they added it in the Cirrus."
+    },
+    {
+      "start": 2846.02,
+      "duration": 2.73,
+      "text": "And you pull it, and the rocket\nchutes the parachute out,"
+    },
+    {
+      "start": 2848.75,
+      "duration": 1.77,
+      "text": "and you float down."
+    },
+    {
+      "start": 2850.52,
+      "duration": 2.37,
+      "text": "It's becoming more\nand more popular."
+    },
+    {
+      "start": 2852.89,
+      "duration": 5.22,
+      "text": "I thought it was a\npayload-hogging waste of money"
+    },
+    {
+      "start": 2858.11,
+      "duration": 3.3,
+      "text": "when I bought the\nCirrus in 2005."
+    },
+    {
+      "start": 2861.41,
+      "duration": 2.6,
+      "text": "And now that the engine\nhas 2,000 hours on it,"
+    },
+    {
+      "start": 2864.01,
+      "duration": 2.88,
+      "text": "and I'm flying at night, I\nthink that's pretty good."
+    },
+    {
+      "start": 2866.89,
+      "duration": 2.14,
+      "text": "That's a pretty good parachute."
+    },
+    {
+      "start": 2869.03,
+      "duration": 1.86,
+      "text": "I don't even mind\nthe $15,000 that we"
+    },
+    {
+      "start": 2870.89,
+      "duration": 6.05,
+      "text": "paid to have it all repacked\nat the 10-year point."
+    },
+    {
+      "start": 2876.94,
+      "duration": 7.48,
+      "text": "All right, summary,\nso piston engines,"
+    },
+    {
+      "start": 2884.42,
+      "duration": 2.46,
+      "text": "they're very fuel-efficient\ncompared to jets at these power"
+    },
+    {
+      "start": 2886.88,
+      "duration": 1.38,
+      "text": "settings."
+    },
+    {
+      "start": 2888.26,
+      "duration": 2.67,
+      "text": "They have quirks\nwhich sounds bad."
+    },
+    {
+      "start": 2890.93,
+      "duration": 2.76,
+      "text": "You know, one cylinder\nmight be running rough,"
+    },
+    {
+      "start": 2893.69,
+      "duration": 2.46,
+      "text": "but it's better than\nin a jet world where"
+    },
+    {
+      "start": 2896.15,
+      "duration": 2.52,
+      "text": "if things aren't perfect, the\nengine just quits or explodes"
+    },
+    {
+      "start": 2898.67,
+      "duration": 0.81,
+      "text": "or something."
+    },
+    {
+      "start": 2899.48,
+      "duration": 4.17,
+      "text": "So turbine engines seldom go\nbad, but when they do go bad"
+    },
+    {
+      "start": 2903.65,
+      "duration": 3.0,
+      "text": "it's often with no warning."
+    },
+    {
+      "start": 2906.65,
+      "duration": 2.76,
+      "text": "Here's your six-pack."
+    },
+    {
+      "start": 2909.41,
+      "duration": 1.89,
+      "text": "The altimeter,\nremember, is essentially"
+    },
+    {
+      "start": 2911.3,
+      "duration": 1.83,
+      "text": "measuring a percentage\nof the atmosphere"
+    },
+    {
+      "start": 2913.13,
+      "duration": 1.14,
+      "text": "that you're above or below."
+    },
+    {
+      "start": 2917.1,
+      "duration": 3.33,
+      "text": "Compass is full of errors except\nwhen you're straight and level."
+    },
+    {
+      "start": 2920.43,
+      "duration": 2.01,
+      "text": "And also the aircraft\nmanufacturers"
+    },
+    {
+      "start": 2922.44,
+      "duration": 1.29,
+      "text": "are really systems integrators."
+    },
+    {
+      "start": 2923.73,
+      "duration": 1.67,
+      "text": "They're buying the\nengine from somebody."
+    },
+    {
+      "start": 2925.4,
+      "duration": 2.26,
+      "text": "They're buying these\ninstruments like the Garmin G100"
+    },
+    {
+      "start": 2927.66,
+      "duration": 2.28,
+      "text": "from somebody."
+    },
+    {
+      "start": 2929.94,
+      "duration": 2.22,
+      "text": "Study pitot-static failures\nand the compass areas."
+    },
+    {
+      "start": 2932.16,
+      "duration": 3.8,
+      "text": "And they're on the exam,\nand they're not intuitive."
+    },
+    {
+      "start": 2935.96,
+      "duration": 2.01,
+      "text": "Questions."
+    },
+    {
+      "start": 2937.97,
+      "duration": 2.58,
+      "text": "This is another picture from\nthat air museum in Bradley."
+    },
+    {
+      "start": 2940.55,
+      "duration": 1.54,
+      "text": "They have one of the handful--"
+    },
+    {
+      "start": 2942.09,
+      "duration": 1.67,
+      "text": "it's not flying, I\ndon't think, but it's"
+    },
+    {
+      "start": 2943.76,
+      "duration": 2.61,
+      "text": "restored-- a Boeing B29 bomber."
+    },
+    {
+      "start": 2946.37,
+      "duration": 2.31,
+      "text": "And if you want to know\nwhy I get defriended"
+    },
+    {
+      "start": 2948.68,
+      "duration": 4.65,
+      "text": "all the time on Facebook,\nI posted this picture"
+    },
+    {
+      "start": 2953.33,
+      "duration": 5.34,
+      "text": "of their turret computer, and I\nsaid I found the original iPad"
+    },
+    {
+      "start": 2958.67,
+      "duration": 1.58,
+      "text": "in the museum."
+    },
+    {
+      "start": 2960.25,
+      "duration": 1.68,
+      "text": "That was hashtag not funny."
+    },
+    {
+      "start": 2961.93,
+      "duration": 1.87,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 2963.8,
+      "duration": 2.25,
+      "text": "All right, any questions or\nshould we go into Oshkosh?"
+    },
+    {
+      "start": 2966.05,
+      "duration": 2.5,
+      "text": "We can have questions."
+    },
+    {
+      "start": 2968.55,
+      "duration": 3.08,
+      "text": "Don't ask about those\nbrass and neural things"
+    },
+    {
+      "start": 2971.63,
+      "duration": 4.43,
+      "text": "because I was a math undergrad\nand EECS grad student."
+    }
+  ]
+}

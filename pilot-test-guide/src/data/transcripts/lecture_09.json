@@ -1,0 +1,5227 @@
+{
+  "videoId": "xPEqTH-c9Cc",
+  "lectureNum": 9,
+  "title": "Meteorology",
+  "topics": [
+    "weather",
+    "METAR",
+    "TAF",
+    "weather patterns",
+    "fronts",
+    "thunderstorms",
+    "icing",
+    "fog"
+  ],
+  "segments": [
+    {
+      "start": 16.61,
+      "duration": 2.78,
+      "text": "PHILIP GREENSPUN: We're going\nto talk about meteorology."
+    },
+    {
+      "start": 19.39,
+      "duration": 5.85,
+      "text": "So as pilots, we're just trying\nto understand the basics."
+    },
+    {
+      "start": 25.24,
+      "duration": 2.04,
+      "text": "And in terms of\npassing the exam,"
+    },
+    {
+      "start": 27.28,
+      "duration": 4.06,
+      "text": "you don't need to\nbe a physicist."
+    },
+    {
+      "start": 31.34,
+      "duration": 2.87,
+      "text": "You just mostly\nare trying to learn"
+    },
+    {
+      "start": 34.21,
+      "duration": 5.85,
+      "text": "stuff that will help you fly\nwithin the VFR weather minimums"
+    },
+    {
+      "start": 40.06,
+      "duration": 4.17,
+      "text": "and predict when those minimums\naren't likely to be met"
+    },
+    {
+      "start": 44.23,
+      "duration": 2.76,
+      "text": "or when there's going to\nbe really serious hazards,"
+    },
+    {
+      "start": 46.99,
+      "duration": 1.56,
+      "text": "such as thunderstorms."
+    },
+    {
+      "start": 48.55,
+      "duration": 2.61,
+      "text": "All right, this\nwill be on the test."
+    },
+    {
+      "start": 51.16,
+      "duration": 3.46,
+      "text": "You have to memorize\nall of this."
+    },
+    {
+      "start": 54.62,
+      "duration": 1.09,
+      "text": "Well, you kind of do."
+    },
+    {
+      "start": 55.71,
+      "duration": 1.82,
+      "text": "Anyways, they want you--"
+    },
+    {
+      "start": 57.53,
+      "duration": 6.78,
+      "text": "you will have to learn some\nof this stuff for the exam."
+    },
+    {
+      "start": 64.31,
+      "duration": 3.42,
+      "text": "In reality around here,\nalmost all airspace"
+    },
+    {
+      "start": 67.73,
+      "duration": 1.65,
+      "text": "is at least class echo."
+    },
+    {
+      "start": 69.38,
+      "duration": 1.3,
+      "text": "That's controlled airspace."
+    },
+    {
+      "start": 70.68,
+      "duration": 3.2,
+      "text": "It means controllers\ncould give you a clearance"
+    },
+    {
+      "start": 73.88,
+      "duration": 3.3,
+      "text": "to fly on instruments\nand separate you"
+    },
+    {
+      "start": 77.18,
+      "duration": 2.16,
+      "text": "from other aircraft."
+    },
+    {
+      "start": 79.34,
+      "duration": 3.16,
+      "text": "So they want you to be\nwell separated from clouds,"
+    },
+    {
+      "start": 82.5,
+      "duration": 4.37,
+      "text": "1,000 feet above, 500 feet\nunderneath, 2,000 horizontally."
+    },
+    {
+      "start": 86.87,
+      "duration": 4.83,
+      "text": "That way, if an aircraft under\nIFR comes out of the clouds,"
+    },
+    {
+      "start": 91.7,
+      "duration": 2.85,
+      "text": "there'll be some time\nfor the two of you"
+    },
+    {
+      "start": 94.55,
+      "duration": 2.19,
+      "text": "to see and avoid each other."
+    },
+    {
+      "start": 96.74,
+      "duration": 3.22,
+      "text": "You can see the weather minimums\nare different in class Golf"
+    },
+    {
+      "start": 99.96,
+      "duration": 1.19,
+      "text": "airspace."
+    },
+    {
+      "start": 101.15,
+      "duration": 2.52,
+      "text": "And, actually, in\nuncontrolled airspace"
+    },
+    {
+      "start": 103.67,
+      "duration": 4.2,
+      "text": "like up in Alaska, if you're\nflying on instruments,"
+    },
+    {
+      "start": 107.87,
+      "duration": 2.33,
+      "text": "you don't have a clearance."
+    },
+    {
+      "start": 110.2,
+      "duration": 1.97,
+      "text": "So you'll say, well,\nhow is that possible?"
+    },
+    {
+      "start": 112.17,
+      "duration": 2.29,
+      "text": "You can be instrument rated,\nhave an instrument capable"
+    },
+    {
+      "start": 114.46,
+      "duration": 3.17,
+      "text": "airplane, and fly from airport\nto airport in the clouds."
+    },
+    {
+      "start": 117.63,
+      "duration": 2.67,
+      "text": "But the air traffic controllers,\nthey can't give you a clearance"
+    },
+    {
+      "start": 120.3,
+      "duration": 3.15,
+      "text": "and guarantee you separation\nfrom other aircraft"
+    },
+    {
+      "start": 123.45,
+      "duration": 1.38,
+      "text": "because they don't have radar."
+    },
+    {
+      "start": 124.83,
+      "duration": 1.46,
+      "text": "They don't even\nhave the authority."
+    },
+    {
+      "start": 126.29,
+      "duration": 2.32,
+      "text": "It's not controlled airspace."
+    },
+    {
+      "start": 128.61,
+      "duration": 2.58,
+      "text": "I've done some flying up\nthere in little airplanes,"
+    },
+    {
+      "start": 131.19,
+      "duration": 2.59,
+      "text": "and you have to be very patient."
+    },
+    {
+      "start": 133.78,
+      "duration": 2.0,
+      "text": "Another interesting thing\nto notice about this--"
+    },
+    {
+      "start": 135.78,
+      "duration": 2.07,
+      "text": "we'll talk about it\nmore again later--"
+    },
+    {
+      "start": 137.85,
+      "duration": 2.4,
+      "text": "is notice how class\nBravo airspace"
+    },
+    {
+      "start": 140.25,
+      "duration": 4.89,
+      "text": "has lower minimums than\nordinary class Echo airspace."
+    },
+    {
+      "start": 145.14,
+      "duration": 5.1,
+      "text": "So we have to be 1,000\nfeet from the clouds here."
+    },
+    {
+      "start": 150.24,
+      "duration": 1.83,
+      "text": "Here we just have to\nbe clear of the clouds."
+    },
+    {
+      "start": 154.86,
+      "duration": 3.48,
+      "text": "Why are the minimums reduced\nright around Logan Airport"
+    },
+    {
+      "start": 158.34,
+      "duration": 4.22,
+      "text": "and JFK and LAX than they are--"
+    },
+    {
+      "start": 162.56,
+      "duration": 2.25,
+      "text": "AUDIENCE: Because everyone's\nin contact with the tower"
+    },
+    {
+      "start": 164.81,
+      "duration": 2.37,
+      "text": "so the tower knows\nwhere everyone is."
+    },
+    {
+      "start": 167.18,
+      "duration": 1.54,
+      "text": "PHILIP GREENSPUN:\nYeah, great answer."
+    },
+    {
+      "start": 168.72,
+      "duration": 3.0,
+      "text": "So her answer is that\nair traffic control"
+    },
+    {
+      "start": 171.72,
+      "duration": 3.12,
+      "text": "is in contact with everybody\nin class Bravo airspace"
+    },
+    {
+      "start": 174.84,
+      "duration": 1.34,
+      "text": "and knows where they are."
+    },
+    {
+      "start": 176.18,
+      "duration": 1.42,
+      "text": "And in fact, they're\non clearances"
+    },
+    {
+      "start": 177.6,
+      "duration": 2.44,
+      "text": "in class Bravo airspace, so\nthey're being told what to do."
+    },
+    {
+      "start": 180.04,
+      "duration": 0.71,
+      "text": "Fly this heading."
+    },
+    {
+      "start": 180.75,
+      "duration": 1.11,
+      "text": "Fly that heading."
+    },
+    {
+      "start": 181.86,
+      "duration": 1.63,
+      "text": "Maintain this altitude."
+    },
+    {
+      "start": 183.49,
+      "duration": 1.25,
+      "text": "Great answer."
+    },
+    {
+      "start": 184.74,
+      "duration": 2.52,
+      "text": "All right, so how do we know\nif the weather minimums are"
+    },
+    {
+      "start": 187.26,
+      "duration": 1.86,
+      "text": "going to be maintained?"
+    },
+    {
+      "start": 189.12,
+      "duration": 2.89,
+      "text": "Let's talk about weather theory."
+    },
+    {
+      "start": 192.01,
+      "duration": 2.66,
+      "text": "So raise your hand if\nyou're a science major here"
+    },
+    {
+      "start": 194.67,
+      "duration": 1.9,
+      "text": "as opposed to engineering?"
+    },
+    {
+      "start": 196.57,
+      "duration": 1.64,
+      "text": "Where are the smart scientists?"
+    },
+    {
+      "start": 198.21,
+      "duration": 3.45,
+      "text": "All right, Francis."
+    },
+    {
+      "start": 201.66,
+      "duration": 3.27,
+      "text": "So the science\napproach to this task"
+    },
+    {
+      "start": 204.93,
+      "duration": 9.23,
+      "text": "would be to say if we could just\nassume that humans are only 4"
+    },
+    {
+      "start": 214.16,
+      "duration": 5.81,
+      "text": "inches tall, then we could build\nsome really great aircraft."
+    },
+    {
+      "start": 219.97,
+      "duration": 2.15,
+      "text": "And we'll get into\nthat in a moment."
+    },
+    {
+      "start": 222.12,
+      "duration": 0.98,
+      "text": "Just think about that."
+    },
+    {
+      "start": 223.1,
+      "duration": 3.47,
+      "text": "If you're a scientist,\nhow much flexibility"
+    },
+    {
+      "start": 226.57,
+      "duration": 3.87,
+      "text": "can you have compared\nto being an engineer?"
+    },
+    {
+      "start": 230.44,
+      "duration": 5.52,
+      "text": "All right, so let's look at\nthe atmosphere that we do have."
+    },
+    {
+      "start": 235.96,
+      "duration": 3.96,
+      "text": "Mostly, the troposphere\ntops out around 40,000 feet"
+    },
+    {
+      "start": 239.92,
+      "duration": 2.22,
+      "text": "according to this chart."
+    },
+    {
+      "start": 242.14,
+      "duration": 3.06,
+      "text": "And that's where most\nof the water vapor"
+    },
+    {
+      "start": 245.2,
+      "duration": 3.3,
+      "text": "is and, therefore, most\nof the weather, also"
+    },
+    {
+      "start": 248.5,
+      "duration": 3.15,
+      "text": "the higher temperatures."
+    },
+    {
+      "start": 251.65,
+      "duration": 4.98,
+      "text": "You can see it actually does\nget warm again way up high"
+    },
+    {
+      "start": 256.63,
+      "duration": 2.31,
+      "text": "in the thermosphere."
+    },
+    {
+      "start": 258.94,
+      "duration": 2.56,
+      "text": "This is in kilometers\non the left."
+    },
+    {
+      "start": 261.5,
+      "duration": 4.05,
+      "text": "So you can see that part of the\nearth that we're flying through"
+    },
+    {
+      "start": 265.55,
+      "duration": 4.73,
+      "text": "is really just, I don't know,\nprobably around 20 kilometers"
+    },
+    {
+      "start": 270.28,
+      "duration": 1.83,
+      "text": "and down."
+    },
+    {
+      "start": 272.11,
+      "duration": 0.88,
+      "text": "What did I say?"
+    },
+    {
+      "start": 272.99,
+      "duration": 4.7,
+      "text": "Said he could go up to\n65,000 feet in this F-22."
+    },
+    {
+      "start": 277.69,
+      "duration": 3.13,
+      "text": "So that's what?"
+    },
+    {
+      "start": 280.82,
+      "duration": 3.01,
+      "text": "That's a little over 10 miles."
+    },
+    {
+      "start": 283.83,
+      "duration": 3.28,
+      "text": "Yeah, it's about 20 kilometers,\nsomewhere in that neighborhood."
+    },
+    {
+      "start": 287.11,
+      "duration": 2.74,
+      "text": "Anyway, so not too many\npeople are going higher"
+    },
+    {
+      "start": 289.85,
+      "duration": 6.52,
+      "text": "than just the bottom 0\nthrough 20 on this chart."
+    },
+    {
+      "start": 296.37,
+      "duration": 3.21,
+      "text": "All right, who's concerned\nabout global inequality?"
+    },
+    {
+      "start": 299.58,
+      "duration": 2.56,
+      "text": "Raise your hand."
+    },
+    {
+      "start": 302.14,
+      "duration": 1.3,
+      "text": "Awesome."
+    },
+    {
+      "start": 303.44,
+      "duration": 6.49,
+      "text": "Well, you'll be pleased to\nknow that so is the FAA."
+    },
+    {
+      "start": 309.93,
+      "duration": 7.62,
+      "text": "And this figure here shows you\nwhy it's warmer at the equator"
+    },
+    {
+      "start": 317.55,
+      "duration": 1.58,
+      "text": "than up at the North Pole."
+    },
+    {
+      "start": 319.13,
+      "duration": 1.75,
+      "text": "There's the same amount--"
+    },
+    {
+      "start": 320.88,
+      "duration": 3.75,
+      "text": "we're missing a little bit\nof tilt here, but that's OK."
+    },
+    {
+      "start": 324.63,
+      "duration": 2.46,
+      "text": "There's the same amount of\nincoming solar radiation,"
+    },
+    {
+      "start": 327.09,
+      "duration": 3.73,
+      "text": "but it gets spread out over\na larger portion of the earth"
+    },
+    {
+      "start": 330.81,
+      "duration": 0.75,
+      "text": "up near the poles."
+    },
+    {
+      "start": 334.55,
+      "duration": 4.8,
+      "text": "All right, so this is where\nguys like Francis have it easy."
+    },
+    {
+      "start": 339.35,
+      "duration": 2.16,
+      "text": "If you want to\nunderstand something,"
+    },
+    {
+      "start": 341.51,
+      "duration": 5.16,
+      "text": "you just say, well, you\nknow, I've got an earth,"
+    },
+    {
+      "start": 346.67,
+      "duration": 2.73,
+      "text": "and it's pretty much the\nsame as the existing earth."
+    },
+    {
+      "start": 349.4,
+      "duration": 2.41,
+      "text": "It just doesn't have\nany water on it."
+    },
+    {
+      "start": 351.81,
+      "duration": 2.99,
+      "text": "And it doesn't\nrotate, and it's not"
+    },
+    {
+      "start": 354.8,
+      "duration": 2.47,
+      "text": "tilted with respect to the sun."
+    },
+    {
+      "start": 357.27,
+      "duration": 1.71,
+      "text": "So now I'll do my analysis."
+    },
+    {
+      "start": 358.98,
+      "duration": 1.08,
+      "text": "And I'll publish my paper."
+    },
+    {
+      "start": 360.06,
+      "duration": 2.58,
+      "text": "And I'll get tenure, and\nyour problem is solved."
+    },
+    {
+      "start": 366.52,
+      "duration": 0.5,
+      "text": "Let's see."
+    },
+    {
+      "start": 367.02,
+      "duration": 1.25,
+      "text": "What would happen here?"
+    },
+    {
+      "start": 368.27,
+      "duration": 3.43,
+      "text": "In a non-rotating,\nnon-tilted waterless earth,"
+    },
+    {
+      "start": 371.7,
+      "duration": 3.0,
+      "text": "it would get hotter\nat the equator,"
+    },
+    {
+      "start": 374.7,
+      "duration": 2.64,
+      "text": "and the air would\nrise up from the heat."
+    },
+    {
+      "start": 377.34,
+      "duration": 2.37,
+      "text": "So we can see that here."
+    },
+    {
+      "start": 379.71,
+      "duration": 4.05,
+      "text": "So we would have low pressure\nright there at the equator."
+    },
+    {
+      "start": 383.76,
+      "duration": 2.09,
+      "text": "And then the air\nwould circulate up,"
+    },
+    {
+      "start": 385.85,
+      "duration": 2.89,
+      "text": "and we would have high\npressure up at the polls."
+    },
+    {
+      "start": 388.74,
+      "duration": 2.47,
+      "text": "Does that makes\nsense to everybody?"
+    },
+    {
+      "start": 391.21,
+      "duration": 1.55,
+      "text": "All right, great,\nproblem solved."
+    },
+    {
+      "start": 392.76,
+      "duration": 2.4,
+      "text": "We can go home."
+    },
+    {
+      "start": 395.16,
+      "duration": 2.78,
+      "text": "Unfortunately, as\nengineers, we have"
+    },
+    {
+      "start": 397.94,
+      "duration": 3.19,
+      "text": "to deal with the real\nworld a little bit more."
+    },
+    {
+      "start": 401.13,
+      "duration": 3.41,
+      "text": "So if we're spinning\naround the Earth,"
+    },
+    {
+      "start": 404.54,
+      "duration": 4.61,
+      "text": "We're going to end up\nwith these three cells"
+    },
+    {
+      "start": 409.15,
+      "duration": 5.07,
+      "text": "and in each hemisphere."
+    },
+    {
+      "start": 414.22,
+      "duration": 2.61,
+      "text": "And in this case,\nyou end up still"
+    },
+    {
+      "start": 416.83,
+      "duration": 2.31,
+      "text": "with a low pressure\nat the equator."
+    },
+    {
+      "start": 419.14,
+      "duration": 3.39,
+      "text": "But then you get a high pressure\nwith all the air sinking down"
+    },
+    {
+      "start": 422.53,
+      "duration": 1.17,
+      "text": "here."
+    },
+    {
+      "start": 423.7,
+      "duration": 4.74,
+      "text": "And you get still low pressure--"
+    },
+    {
+      "start": 428.44,
+      "duration": 3.33,
+      "text": "you still get high pressure up\nat the polls and low pressure"
+    },
+    {
+      "start": 431.77,
+      "duration": 0.54,
+      "text": "down here."
+    },
+    {
+      "start": 438.69,
+      "duration": 1.51,
+      "text": "See if I got that right."
+    },
+    {
+      "start": 440.2,
+      "duration": 1.8,
+      "text": "High."
+    },
+    {
+      "start": 442.0,
+      "duration": 1.2,
+      "text": "I should be high."
+    },
+    {
+      "start": 443.2,
+      "duration": 2.52,
+      "text": "It says high pressure\nat 30 degrees North."
+    },
+    {
+      "start": 445.73,
+      "duration": 1.38,
+      "text": "Oh yeah, high,\nhigh, that's good."
+    },
+    {
+      "start": 447.1,
+      "duration": 2.16,
+      "text": "And, yes, and low and low."
+    },
+    {
+      "start": 449.26,
+      "duration": 2.22,
+      "text": "All right, we got that right."
+    },
+    {
+      "start": 451.48,
+      "duration": 3.15,
+      "text": "It gets more\nconfusing as you see."
+    },
+    {
+      "start": 454.63,
+      "duration": 3.12,
+      "text": "OK, so the\ncirculation-- one thing"
+    },
+    {
+      "start": 457.75,
+      "duration": 1.65,
+      "text": "that the FAA wants\nyou to know is"
+    },
+    {
+      "start": 459.4,
+      "duration": 3.27,
+      "text": "that it's heat exchange\nthat drives the weather."
+    },
+    {
+      "start": 462.67,
+      "duration": 3.45,
+      "text": "So the weather is basically a\nfunction of the sun heating up"
+    },
+    {
+      "start": 466.12,
+      "duration": 0.96,
+      "text": "the earth."
+    },
+    {
+      "start": 467.08,
+      "duration": 2.19,
+      "text": "And then it's not\nuniform, so the heat"
+    },
+    {
+      "start": 469.27,
+      "duration": 4.05,
+      "text": "gets pushed from one part\nof the earth to another."
+    },
+    {
+      "start": 473.32,
+      "duration": 3.57,
+      "text": "And all of this\nunequal heating is"
+    },
+    {
+      "start": 476.89,
+      "duration": 4.17,
+      "text": "responsible for the\naltimeter varying,"
+    },
+    {
+      "start": 481.06,
+      "duration": 2.94,
+      "text": "for wind blowing around."
+    },
+    {
+      "start": 484.0,
+      "duration": 3.54,
+      "text": "Pretty much every phenomenon\nthat is of interest to pilots"
+    },
+    {
+      "start": 487.54,
+      "duration": 5.19,
+      "text": "is caused by heat trying\nto move from the hotter"
+    },
+    {
+      "start": 492.73,
+      "duration": 3.3,
+      "text": "parts of the earth to the\ncolder parts of the earth."
+    },
+    {
+      "start": 496.03,
+      "duration": 1.99,
+      "text": "We'll talk a little\nbit more about these."
+    },
+    {
+      "start": 498.02,
+      "duration": 1.85,
+      "text": "But notice there's\nparts of the earth"
+    },
+    {
+      "start": 499.87,
+      "duration": 2.65,
+      "text": "that are windier than others."
+    },
+    {
+      "start": 502.52,
+      "duration": 4.06,
+      "text": "Unfortunately, we're in\none of the windier parts."
+    },
+    {
+      "start": 506.58,
+      "duration": 6.56,
+      "text": "OK, so you also have to know as\na pilot just what an isobar is."
+    },
+    {
+      "start": 513.14,
+      "duration": 2.84,
+      "text": "That's a line of equal pressure."
+    },
+    {
+      "start": 515.98,
+      "duration": 1.15,
+      "text": "And that tells you--"
+    },
+    {
+      "start": 519.7,
+      "duration": 3.84,
+      "text": "that gives you an idea of how\nthe wind is going to move."
+    },
+    {
+      "start": 523.54,
+      "duration": 3.23,
+      "text": "We'll see that in a minute."
+    },
+    {
+      "start": 526.77,
+      "duration": 2.83,
+      "text": "The tighter the isobars,\nthe more dramatic"
+    },
+    {
+      "start": 529.6,
+      "duration": 2.12,
+      "text": "the pressure change in a region."
+    },
+    {
+      "start": 531.72,
+      "duration": 1.61,
+      "text": "And it's the pressure\ngradient force"
+    },
+    {
+      "start": 533.33,
+      "duration": 2.91,
+      "text": "that's causing the wind\nto flow from the high"
+    },
+    {
+      "start": 536.24,
+      "duration": 2.37,
+      "text": "to the low pressure."
+    },
+    {
+      "start": 538.61,
+      "duration": 4.54,
+      "text": "So you might think\non this chart,"
+    },
+    {
+      "start": 543.15,
+      "duration": 4.31,
+      "text": "for example, that wherever\nyou see an L and an H"
+    },
+    {
+      "start": 547.46,
+      "duration": 2.91,
+      "text": "that you would just draw a\nvector of wind from one place"
+    },
+    {
+      "start": 550.37,
+      "duration": 1.74,
+      "text": "to the other, right?"
+    },
+    {
+      "start": 552.11,
+      "duration": 1.84,
+      "text": "That kind of makes sense."
+    },
+    {
+      "start": 553.95,
+      "duration": 5.46,
+      "text": "However, there is\nCoriolis force."
+    },
+    {
+      "start": 559.41,
+      "duration": 1.82,
+      "text": "This is for Francis,\nthe science major."
+    },
+    {
+      "start": 561.23,
+      "duration": 1.21,
+      "text": "Francis, what course are you?"
+    },
+    {
+      "start": 562.44,
+      "duration": 3.89,
+      "text": "AUDIENCE: I'm course\n9, so [INAUDIBLE].."
+    },
+    {
+      "start": 566.33,
+      "duration": 2.92,
+      "text": "PHILIP GREENSPUN: Oh."
+    },
+    {
+      "start": 569.25,
+      "duration": 3.96,
+      "text": "All right, so scientists\nwear lab coats."
+    },
+    {
+      "start": 573.21,
+      "duration": 3.15,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 576.36,
+      "duration": 4.62,
+      "text": "Coriolis force is a fake\nnews force formerly known"
+    },
+    {
+      "start": 580.98,
+      "duration": 1.21,
+      "text": "as fictitious."
+    },
+    {
+      "start": 586.37,
+      "duration": 3.45,
+      "text": "So you can see they're\nthrowing the ball straight."
+    },
+    {
+      "start": 589.82,
+      "duration": 4.24,
+      "text": "But because they're on\na rotating platform,"
+    },
+    {
+      "start": 594.06,
+      "duration": 4.37,
+      "text": "it's apparently curving."
+    },
+    {
+      "start": 598.43,
+      "duration": 2.25,
+      "text": "So camera is mounted\nto the ground,"
+    },
+    {
+      "start": 600.68,
+      "duration": 1.68,
+      "text": "and we'll see the\nball going straight."
+    },
+    {
+      "start": 605.87,
+      "duration": 2.92,
+      "text": "They're going to draw you a\nlittle dash line at one point"
+    },
+    {
+      "start": 608.79,
+      "duration": 2.25,
+      "text": "so you can see the path\nis actually straight."
+    },
+    {
+      "start": 617.67,
+      "duration": 1.15,
+      "text": "So the ball has an inertia."
+    },
+    {
+      "start": 618.82,
+      "duration": 1.38,
+      "text": "Basically, once\nit's launched, it"
+    },
+    {
+      "start": 620.19,
+      "duration": 2.61,
+      "text": "wants to keep doing\nwhatever it was doing."
+    },
+    {
+      "start": 622.8,
+      "duration": 4.8,
+      "text": "And this guy's white\nlab coated colleague"
+    },
+    {
+      "start": 627.6,
+      "duration": 2.13,
+      "text": "just moves away from\nwhere the ball was going."
+    },
+    {
+      "start": 639.06,
+      "duration": 0.5,
+      "text": "Whoa."
+    },
+    {
+      "start": 648.24,
+      "duration": 1.77,
+      "text": "All right, everybody's got that?"
+    },
+    {
+      "start": 650.01,
+      "duration": 1.5,
+      "text": "That's Coriolis force for you."
+    },
+    {
+      "start": 655.48,
+      "duration": 4.14,
+      "text": "What happens when we\ndo this on the earth?"
+    },
+    {
+      "start": 659.62,
+      "duration": 0.78,
+      "text": "So think about it."
+    },
+    {
+      "start": 660.4,
+      "duration": 1.86,
+      "text": "You have a parcel\nof air that's moving"
+    },
+    {
+      "start": 662.26,
+      "duration": 2.17,
+      "text": "with the earth at the equator."
+    },
+    {
+      "start": 664.43,
+      "duration": 2.87,
+      "text": "If you displace it up\nto a higher latitude,"
+    },
+    {
+      "start": 667.3,
+      "duration": 3.93,
+      "text": "it still has that velocity."
+    },
+    {
+      "start": 671.23,
+      "duration": 2.46,
+      "text": "But now the Earth\nisn't spinning as fast."
+    },
+    {
+      "start": 673.69,
+      "duration": 5.37,
+      "text": "So it ends up essentially moving\na little bit to the right."
+    },
+    {
+      "start": 679.06,
+      "duration": 3.29,
+      "text": "That is the fundamental insight\njust as you saw in that video."
+    },
+    {
+      "start": 682.36,
+      "duration": 2.38,
+      "text": "You'll have to go home and\nthink about that a little bit."
+    },
+    {
+      "start": 684.73,
+      "duration": 3.51,
+      "text": "But, basically, I think\nthe most effective way"
+    },
+    {
+      "start": 688.24,
+      "duration": 2.91,
+      "text": "to think about it is just\nthat a parcel of air that"
+    },
+    {
+      "start": 691.15,
+      "duration": 3.03,
+      "text": "was the equator wants to keep\nmoving as if it were still"
+    },
+    {
+      "start": 694.18,
+      "duration": 3.28,
+      "text": "at the equator, but\nit's not there anymore,"
+    },
+    {
+      "start": 697.46,
+      "duration": 3.71,
+      "text": "so it moves relative to\nthe underlying earth."
+    },
+    {
+      "start": 703.75,
+      "duration": 2.67,
+      "text": "If you combine the Coriolis\nforce and the pressure"
+    },
+    {
+      "start": 706.42,
+      "duration": 3.63,
+      "text": "gradient, then you get\nthe actual wind direction."
+    },
+    {
+      "start": 710.05,
+      "duration": 3.3,
+      "text": "And the trend as seen here--"
+    },
+    {
+      "start": 713.35,
+      "duration": 1.89,
+      "text": "eventually, there's\nso much Coriolis force"
+    },
+    {
+      "start": 715.24,
+      "duration": 2.4,
+      "text": "over so much time\nthat the wind actually"
+    },
+    {
+      "start": 717.64,
+      "duration": 5.86,
+      "text": "moves exactly 90 degrees to\nwhere you think it should move."
+    },
+    {
+      "start": 723.5,
+      "duration": 5.42,
+      "text": "It flows along the isobars\ninstead of perpendicular"
+    },
+    {
+      "start": 728.92,
+      "duration": 1.6,
+      "text": "across them."
+    },
+    {
+      "start": 730.52,
+      "duration": 4.76,
+      "text": "So there you have a\ncouple pressure systems"
+    },
+    {
+      "start": 735.28,
+      "duration": 4.08,
+      "text": "and you see that the wind is\ncirculating around these lows"
+    },
+    {
+      "start": 739.36,
+      "duration": 4.53,
+      "text": "and highs rather than flowing\ndirectly from one to the other"
+    },
+    {
+      "start": 743.89,
+      "duration": 0.78,
+      "text": "as you'd expect."
+    },
+    {
+      "start": 747.68,
+      "duration": 7.5,
+      "text": "All right, who would like to\nbecome a helicopter test pilot?"
+    },
+    {
+      "start": 755.18,
+      "duration": 2.79,
+      "text": "Raise your hand if that\nsounds like a fun job."
+    },
+    {
+      "start": 757.97,
+      "duration": 3.93,
+      "text": "OK, so when you're developing\nthe manual for your Sikorsky"
+    },
+    {
+      "start": 761.9,
+      "duration": 2.37,
+      "text": "helicopter, you've\ngot to go somewhere"
+    },
+    {
+      "start": 764.27,
+      "duration": 2.4,
+      "text": "where the wind is calm."
+    },
+    {
+      "start": 766.67,
+      "duration": 2.67,
+      "text": "Where would you all\nsuggest going now"
+    },
+    {
+      "start": 769.34,
+      "duration": 2.35,
+      "text": "that you've seen this chart?"
+    },
+    {
+      "start": 771.69,
+      "duration": 0.92,
+      "text": "What's your name, sir?"
+    },
+    {
+      "start": 772.61,
+      "duration": 0.65,
+      "text": "Sorry."
+    },
+    {
+      "start": 773.26,
+      "duration": 0.76,
+      "text": "AUDIENCE: Jeremy."
+    },
+    {
+      "start": 774.02,
+      "duration": 2.54,
+      "text": "PHILIP GREENSPUN: Jeremy,\nwhere do you want to go?"
+    },
+    {
+      "start": 776.56,
+      "duration": 1.99,
+      "text": "You're going to take\nyour Sikorsky helicopter"
+    },
+    {
+      "start": 778.55,
+      "duration": 1.42,
+      "text": "and you're going\nto write the POH."
+    },
+    {
+      "start": 779.97,
+      "duration": 1.25,
+      "text": "AUDIENCE: [INAUDIBLE] Florida."
+    },
+    {
+      "start": 781.22,
+      "duration": 1.17,
+      "text": "PHILIP GREENSPUN: Florida."
+    },
+    {
+      "start": 782.39,
+      "duration": 3.42,
+      "text": "Sikorsky, which is\nheadquartered in Connecticut,"
+    },
+    {
+      "start": 785.81,
+      "duration": 1.95,
+      "text": "they have a big\nflight test facility."
+    },
+    {
+      "start": 787.76,
+      "duration": 2.58,
+      "text": "I believe it's in Palm Beach."
+    },
+    {
+      "start": 790.34,
+      "duration": 2.02,
+      "text": "So there you have it."
+    },
+    {
+      "start": 792.36,
+      "duration": 2.85,
+      "text": "They thought just along\nthe same lines as you,"
+    },
+    {
+      "start": 795.2,
+      "duration": 2.34,
+      "text": "and they'll be in\nthe horse latitudes."
+    },
+    {
+      "start": 797.54,
+      "duration": 2.61,
+      "text": "There's a whole bunch of--"
+    },
+    {
+      "start": 800.15,
+      "duration": 2.37,
+      "text": "nobody really knows why it's\ncalled the horse latitudes."
+    },
+    {
+      "start": 802.52,
+      "duration": 2.34,
+      "text": "One idea is that the ships--"
+    },
+    {
+      "start": 804.86,
+      "duration": 1.71,
+      "text": "since there's no wind\nin those latitudes,"
+    },
+    {
+      "start": 806.57,
+      "duration": 1.77,
+      "text": "they have to find a\ncurrent, and then they"
+    },
+    {
+      "start": 808.34,
+      "duration": 4.61,
+      "text": "get pulled along by the current\nas if they were on a horse."
+    },
+    {
+      "start": 812.95,
+      "duration": 3.76,
+      "text": "All right, surface friction\nis a little bit complicated."
+    },
+    {
+      "start": 816.71,
+      "duration": 2.06,
+      "text": "It tends to drag down the wind."
+    },
+    {
+      "start": 818.77,
+      "duration": 5.29,
+      "text": "You'll have to study this\nvector diagram on your own."
+    },
+    {
+      "start": 824.06,
+      "duration": 2.24,
+      "text": "But, really, from the\nFAA's point of view,"
+    },
+    {
+      "start": 826.3,
+      "duration": 1.83,
+      "text": "they just want\nyou to know mostly"
+    },
+    {
+      "start": 828.13,
+      "duration": 5.79,
+      "text": "that the wind 2,000\nor 3,000 feet up is"
+    },
+    {
+      "start": 833.92,
+      "duration": 2.28,
+      "text": "going to be different from\nthe wind on the surface."
+    },
+    {
+      "start": 836.2,
+      "duration": 1.82,
+      "text": "Because of surface\nfriction, it will"
+    },
+    {
+      "start": 838.02,
+      "duration": 5.03,
+      "text": "be less intense and in a\nslightly different direction."
+    },
+    {
+      "start": 843.05,
+      "duration": 3.6,
+      "text": "OK, vertical\ncirculation of the air."
+    },
+    {
+      "start": 846.65,
+      "duration": 4.29,
+      "text": "I think you're going to be OK\nif you just remember that warmer"
+    },
+    {
+      "start": 850.94,
+      "duration": 1.64,
+      "text": "air is lighter than colder air."
+    },
+    {
+      "start": 852.58,
+      "duration": 1.88,
+      "text": "That's all that you\npretty much need to know."
+    },
+    {
+      "start": 857.27,
+      "duration": 3.37,
+      "text": "OK, local wind patterns."
+    },
+    {
+      "start": 860.64,
+      "duration": 5.61,
+      "text": "If you heat up the shore line,\nthe air will rise off the shore"
+    },
+    {
+      "start": 866.25,
+      "duration": 2.68,
+      "text": "and pull in air from the\nocean during the daytime"
+    },
+    {
+      "start": 868.93,
+      "duration": 1.91,
+      "text": "so you get that sea breeze."
+    },
+    {
+      "start": 870.84,
+      "duration": 3.97,
+      "text": "And then at nighttime,\nthe opposite happens,"
+    },
+    {
+      "start": 874.81,
+      "duration": 1.04,
+      "text": "so you get a land breeze."
+    },
+    {
+      "start": 875.85,
+      "duration": 3.13,
+      "text": "So there are some of these\npredictable local weather"
+    },
+    {
+      "start": 878.98,
+      "duration": 0.5,
+      "text": "patterns."
+    },
+    {
+      "start": 882.24,
+      "duration": 2.75,
+      "text": "The bigger ones have to do\nwith atmospheric stability."
+    },
+    {
+      "start": 887.52,
+      "duration": 4.91,
+      "text": "If you have a stable\natmosphere, meaning"
+    },
+    {
+      "start": 892.43,
+      "duration": 3.69,
+      "text": "that a displaced parcel of air\ntends to get pushed back down"
+    },
+    {
+      "start": 896.12,
+      "duration": 6.27,
+      "text": "to wherever it was, then you get\nthese weather characteristics"
+    },
+    {
+      "start": 902.39,
+      "duration": 3.09,
+      "text": "where you're not going to be\nbumped around in your aircraft."
+    },
+    {
+      "start": 905.48,
+      "duration": 2.88,
+      "text": "You're going to\nhave trouble seeing,"
+    },
+    {
+      "start": 908.36,
+      "duration": 2.64,
+      "text": "and you're going to see clouds\nthat are basically flat,"
+    },
+    {
+      "start": 911.0,
+      "duration": 5.67,
+      "text": "these stratiform clouds here\nthat you see on the right."
+    },
+    {
+      "start": 916.67,
+      "duration": 2.07,
+      "text": "If it rains, it's just\ngoing to rain all day."
+    },
+    {
+      "start": 918.74,
+      "duration": 2.76,
+      "text": "It's going to be a typical\nmiserable New England"
+    },
+    {
+      "start": 921.5,
+      "duration": 4.41,
+      "text": "day where it rains all the\ntime, or Seattle, I guess,"
+    },
+    {
+      "start": 925.91,
+      "duration": 2.22,
+      "text": "is like that as well."
+    },
+    {
+      "start": 928.13,
+      "duration": 2.49,
+      "text": "Well, what about if\nthe air once displaced"
+    },
+    {
+      "start": 930.62,
+      "duration": 2.73,
+      "text": "tends to want to\nkeep being displaced?"
+    },
+    {
+      "start": 933.35,
+      "duration": 2.52,
+      "text": "If it rises up a little\nbit, it keeps rising."
+    },
+    {
+      "start": 935.87,
+      "duration": 2.97,
+      "text": "Then you have these clouds\nwith vertical development."
+    },
+    {
+      "start": 938.84,
+      "duration": 3.34,
+      "text": "And the good news is\nyou can see really well."
+    },
+    {
+      "start": 942.18,
+      "duration": 2.21,
+      "text": "You're not going to have an\nobstruction to visibility"
+    },
+    {
+      "start": 944.39,
+      "duration": 3.33,
+      "text": "unless you're in heavy rain."
+    },
+    {
+      "start": 947.72,
+      "duration": 3.09,
+      "text": "And the rain won't be\nall day, every day."
+    },
+    {
+      "start": 950.81,
+      "duration": 3.12,
+      "text": "It'll be showery, but\nit'll be very turbulent"
+    },
+    {
+      "start": 953.93,
+      "duration": 2.82,
+      "text": "if you get into that\ncloud or maybe right"
+    },
+    {
+      "start": 956.75,
+      "duration": 2.21,
+      "text": "underneath that cloud."
+    },
+    {
+      "start": 958.96,
+      "duration": 8.24,
+      "text": "OK, what about the\nprofile of the atmosphere?"
+    },
+    {
+      "start": 967.2,
+      "duration": 3.27,
+      "text": "Let's have a look at this."
+    },
+    {
+      "start": 970.47,
+      "duration": 0.74,
+      "text": "So on the right--"
+    },
+    {
+      "start": 974.51,
+      "duration": 2.13,
+      "text": "I wonder if this is\nactually my newest"
+    },
+    {
+      "start": 976.64,
+      "duration": 1.2,
+      "text": "version of the presentation."
+    },
+    {
+      "start": 977.84,
+      "duration": 1.17,
+      "text": "We'll see."
+    },
+    {
+      "start": 979.01,
+      "duration": 1.83,
+      "text": "I corrected an error."
+    },
+    {
+      "start": 980.84,
+      "duration": 3.54,
+      "text": "On the right, you can see that\nfor every 1,000 feet you go up."
+    },
+    {
+      "start": 984.38,
+      "duration": 2.85,
+      "text": "So we go from 0\nto 1,000 feet up."
+    },
+    {
+      "start": 987.23,
+      "duration": 2.83,
+      "text": "The temperature is gone\nfrom 18 Celsius to 15,"
+    },
+    {
+      "start": 990.06,
+      "duration": 2.39,
+      "text": "so it's lapsed by 3 degrees."
+    },
+    {
+      "start": 992.45,
+      "duration": 3.53,
+      "text": "And the dew point has gone\ndown by half a degree."
+    },
+    {
+      "start": 995.98,
+      "duration": 1.42,
+      "text": "Does that makes sense?"
+    },
+    {
+      "start": 997.4,
+      "duration": 2.67,
+      "text": "The air goes up,\nit's lower pressure."
+    },
+    {
+      "start": 1000.07,
+      "duration": 3.2,
+      "text": "This is called an\nadiabatic process."
+    },
+    {
+      "start": 1003.27,
+      "duration": 2.44,
+      "text": "I was not a chemistry\nmajor, but I"
+    },
+    {
+      "start": 1005.71,
+      "duration": 4.53,
+      "text": "think that means that we're\nnot adding or taking away"
+    },
+    {
+      "start": 1010.24,
+      "duration": 1.29,
+      "text": "heat from the air."
+    },
+    {
+      "start": 1011.53,
+      "duration": 1.45,
+      "text": "We're just moving it."
+    },
+    {
+      "start": 1012.98,
+      "duration": 4.55,
+      "text": "So the temperature\nand dew point spread,"
+    },
+    {
+      "start": 1017.53,
+      "duration": 1.71,
+      "text": "actually does get narrower."
+    },
+    {
+      "start": 1019.24,
+      "duration": 3.54,
+      "text": "You can see as we rise up to\n5,000 feet that the spread has"
+    },
+    {
+      "start": 1022.78,
+      "duration": 3.6,
+      "text": "gone down to 2 and 1/2 degrees\nbecause the dew point is not"
+    },
+    {
+      "start": 1026.38,
+      "duration": 4.15,
+      "text": "falling nearly as fast as\nthe overall temperature."
+    },
+    {
+      "start": 1030.53,
+      "duration": 0.88,
+      "text": "Does that make sense?"
+    },
+    {
+      "start": 1031.4,
+      "duration": 3.59,
+      "text": "So I think this conceivably\ncould be an FAA test"
+    },
+    {
+      "start": 1034.99,
+      "duration": 6.44,
+      "text": "question that the dry adiabatic\nlapse rate is 3 degrees."
+    },
+    {
+      "start": 1041.43,
+      "duration": 5.16,
+      "text": "OK, then the moist air is\nlapsing only at 2 degrees."
+    },
+    {
+      "start": 1046.59,
+      "duration": 6.1,
+      "text": "So this figure shows you\ngoing from 0 to 1,000 feet,"
+    },
+    {
+      "start": 1052.69,
+      "duration": 3.81,
+      "text": "and from 1 to 2,000\nfeet, we were dropping"
+    },
+    {
+      "start": 1056.5,
+      "duration": 3.33,
+      "text": "3 degrees per thousand feet."
+    },
+    {
+      "start": 1059.83,
+      "duration": 4.24,
+      "text": "After that, we're dropping only\n2 degrees per thousand feet."
+    },
+    {
+      "start": 1064.07,
+      "duration": 3.72,
+      "text": "And once the temperature\ndew point spread goes to 0,"
+    },
+    {
+      "start": 1067.79,
+      "duration": 2.26,
+      "text": "that's when a cloud happens."
+    },
+    {
+      "start": 1070.05,
+      "duration": 2.85,
+      "text": "So the air can't hold\nanymore water vapor."
+    },
+    {
+      "start": 1072.9,
+      "duration": 5.42,
+      "text": "And when the temperature\nand dew point meet,"
+    },
+    {
+      "start": 1078.32,
+      "duration": 1.74,
+      "text": "the water vapor\nturns into water,"
+    },
+    {
+      "start": 1080.06,
+      "duration": 3.15,
+      "text": "and now you've got a cloud."
+    },
+    {
+      "start": 1083.2,
+      "duration": 4.49,
+      "text": "All right, so you might\nask yourself, well,"
+    },
+    {
+      "start": 1087.69,
+      "duration": 2.85,
+      "text": "why is this air moving at all?"
+    },
+    {
+      "start": 1090.54,
+      "duration": 1.59,
+      "text": "Why does it start moving?"
+    },
+    {
+      "start": 1092.13,
+      "duration": 3.25,
+      "text": "One thing that can start it\nmoving is a mountain range."
+    },
+    {
+      "start": 1095.38,
+      "duration": 3.71,
+      "text": "So the air gets pushed\nby a wind coming"
+    },
+    {
+      "start": 1099.09,
+      "duration": 3.96,
+      "text": "from the left side of the slide\nup the top of the mountain."
+    },
+    {
+      "start": 1103.05,
+      "duration": 4.71,
+      "text": "And at that point, it will\ncondense into a cloud."
+    },
+    {
+      "start": 1111.47,
+      "duration": 2.53,
+      "text": "Just let you absorb that\ncloud here for a minute."
+    },
+    {
+      "start": 1114.0,
+      "duration": 1.88,
+      "text": "Notice also that\nrelative humidity is just"
+    },
+    {
+      "start": 1115.88,
+      "duration": 3.46,
+      "text": "another way of stating the\ntemperature dew point spread."
+    },
+    {
+      "start": 1119.34,
+      "duration": 2.54,
+      "text": "So here temperature and\ndew point are pretty close,"
+    },
+    {
+      "start": 1121.88,
+      "duration": 2.52,
+      "text": "10 and 15 or 15 and 10."
+    },
+    {
+      "start": 1124.4,
+      "duration": 2.61,
+      "text": "So we've got relative\nhumidity of 80%."
+    },
+    {
+      "start": 1127.01,
+      "duration": 3.6,
+      "text": "Over here, they're\nquite far apart."
+    },
+    {
+      "start": 1130.61,
+      "duration": 3.15,
+      "text": "The temperature is 23, and\nthe dew point is minus 2."
+    },
+    {
+      "start": 1133.76,
+      "duration": 4.03,
+      "text": "So the relative humidity is low."
+    },
+    {
+      "start": 1137.79,
+      "duration": 3.48,
+      "text": "OK, you've heard that there's\na cold front coming in"
+    },
+    {
+      "start": 1141.27,
+      "duration": 1.77,
+      "text": "and we have all\nthese thunderstorms."
+    },
+    {
+      "start": 1143.04,
+      "duration": 0.75,
+      "text": "Well, this is why."
+    },
+    {
+      "start": 1143.79,
+      "duration": 3.7,
+      "text": "The cold air is denser\nthan the warm air."
+    },
+    {
+      "start": 1147.49,
+      "duration": 2.49,
+      "text": "So it pushes the warm air up."
+    },
+    {
+      "start": 1149.98,
+      "duration": 2.51,
+      "text": "And at that point, you\nget clouds forming,"
+    },
+    {
+      "start": 1152.49,
+      "duration": 2.37,
+      "text": "and you get thunderstorms\nall along the line"
+    },
+    {
+      "start": 1154.86,
+      "duration": 2.0,
+      "text": "of the cold front."
+    },
+    {
+      "start": 1156.86,
+      "duration": 2.37,
+      "text": "OK, so what if you\nhave stable air?"
+    },
+    {
+      "start": 1159.23,
+      "duration": 1.14,
+      "text": "Let's have a look at this."
+    },
+    {
+      "start": 1165.98,
+      "duration": 0.77,
+      "text": "You end up--"
+    },
+    {
+      "start": 1170.52,
+      "duration": 0.64,
+      "text": "Let's see."
+    },
+    {
+      "start": 1175.77,
+      "duration": 10.62,
+      "text": "We've gone from 0, to\n1, to 2, and we're only"
+    },
+    {
+      "start": 1186.39,
+      "duration": 1.98,
+      "text": "dropping-- actually,\nwe're not dropping at all."
+    },
+    {
+      "start": 1188.37,
+      "duration": 0.96,
+      "text": "And then we're back up."
+    },
+    {
+      "start": 1189.33,
+      "duration": 1.26,
+      "text": "This is an inversion."
+    },
+    {
+      "start": 1190.59,
+      "duration": 2.76,
+      "text": "OK, so, basically,\nthe air temperature"
+    },
+    {
+      "start": 1193.35,
+      "duration": 3.43,
+      "text": "is pretty constant as we go up."
+    },
+    {
+      "start": 1196.78,
+      "duration": 14.48,
+      "text": "So if a parcel of air rises\nup into the atmosphere,"
+    },
+    {
+      "start": 1211.26,
+      "duration": 5.07,
+      "text": "it's not going to be warmer\nthan the surrounding air,"
+    },
+    {
+      "start": 1216.33,
+      "duration": 4.01,
+      "text": "so it doesn't want\nto keep rising."
+    },
+    {
+      "start": 1220.34,
+      "duration": 2.58,
+      "text": "OK, what if it's unstable?"
+    },
+    {
+      "start": 1222.92,
+      "duration": 1.82,
+      "text": "So look at this by contrast."
+    },
+    {
+      "start": 1224.74,
+      "duration": 1.47,
+      "text": "The environmental\nair temperature"
+    },
+    {
+      "start": 1226.21,
+      "duration": 2.58,
+      "text": "is lapsing at a higher\nthan standard rate."
+    },
+    {
+      "start": 1231.73,
+      "duration": 4.52,
+      "text": "It's going down 4 degrees\nCelsius per thousand feet."
+    },
+    {
+      "start": 1236.25,
+      "duration": 4.56,
+      "text": "And this parcel of air\nthat was in equilibrium"
+    },
+    {
+      "start": 1240.81,
+      "duration": 8.31,
+      "text": "down at sea level is still\nwarmer than the surrounding"
+    },
+    {
+      "start": 1249.12,
+      "duration": 2.22,
+      "text": "air, and, therefore, it\nwants to keep rising."
+    },
+    {
+      "start": 1251.34,
+      "duration": 2.38,
+      "text": "Does that make sense?"
+    },
+    {
+      "start": 1253.72,
+      "duration": 4.31,
+      "text": "So, basically, if it goes up\nand it wants to keep going up,"
+    },
+    {
+      "start": 1258.03,
+      "duration": 3.06,
+      "text": "that's unstable and\na perfect situation"
+    },
+    {
+      "start": 1261.09,
+      "duration": 4.86,
+      "text": "for forming thunderstorms,\nwhich we'll talk about shortly."
+    },
+    {
+      "start": 1265.95,
+      "duration": 3.57,
+      "text": "Temperature inversion like\nwe saw on that earlier slide"
+    },
+    {
+      "start": 1269.52,
+      "duration": 5.04,
+      "text": "where it was actually a\nlittle bit warmer here,"
+    },
+    {
+      "start": 1274.56,
+      "duration": 6.75,
+      "text": "that tends to keep\nair where it is,"
+    },
+    {
+      "start": 1281.31,
+      "duration": 2.16,
+      "text": "and, therefore, you end\nup with poor visibility"
+    },
+    {
+      "start": 1283.47,
+      "duration": 2.19,
+      "text": "and haze because\nall the stuff that's"
+    },
+    {
+      "start": 1285.66,
+      "duration": 1.77,
+      "text": "obscuring your visibility\nis just staying"
+    },
+    {
+      "start": 1287.43,
+      "duration": 1.4,
+      "text": "underneath the inversion."
+    },
+    {
+      "start": 1288.83,
+      "duration": 1.42,
+      "text": "It's kind of a\ncommon phenomenon I"
+    },
+    {
+      "start": 1290.25,
+      "duration": 2.55,
+      "text": "think in some of these\nbasins like Los Angeles."
+    },
+    {
+      "start": 1292.8,
+      "duration": 3.23,
+      "text": "Talk about an inversion,\nand ordinary people"
+    },
+    {
+      "start": 1296.04,
+      "duration": 2.38,
+      "text": "think about that, and hear\nthat term, and worry about it."
+    },
+    {
+      "start": 1301.14,
+      "duration": 3.54,
+      "text": "Most frequently-- you're going\nto I think see this on a test"
+    },
+    {
+      "start": 1304.68,
+      "duration": 0.89,
+      "text": "maybe--"
+    },
+    {
+      "start": 1305.57,
+      "duration": 7.78,
+      "text": "is phenomena having to do with\nthe ground radiating back heat"
+    },
+    {
+      "start": 1313.35,
+      "duration": 3.09,
+      "text": "into the atmosphere or\ninto space at night."
+    },
+    {
+      "start": 1316.44,
+      "duration": 2.55,
+      "text": "Tends to make the\nground cold and the air"
+    },
+    {
+      "start": 1318.99,
+      "duration": 3.57,
+      "text": "right next to the ground cold,\nwhereas the air just slightly"
+    },
+    {
+      "start": 1322.56,
+      "duration": 2.19,
+      "text": "higher than that, a\ncouple thousand feet up,"
+    },
+    {
+      "start": 1324.75,
+      "duration": 2.68,
+      "text": "hasn't changed the\ntemperature too much."
+    },
+    {
+      "start": 1327.43,
+      "duration": 4.97,
+      "text": "So the terrestrial radiation\non a clear still night"
+    },
+    {
+      "start": 1332.4,
+      "duration": 3.0,
+      "text": "can cause a\ntemperature inversion."
+    },
+    {
+      "start": 1335.4,
+      "duration": 4.98,
+      "text": "We talked about this earlier\nwhen the temperature and dew"
+    },
+    {
+      "start": 1340.38,
+      "duration": 5.75,
+      "text": "point meet, and that's when\nthe water vapor will condense."
+    },
+    {
+      "start": 1346.13,
+      "duration": 0.9,
+      "text": "Frost."
+    },
+    {
+      "start": 1347.03,
+      "duration": 5.71,
+      "text": "When the dew point\nis below freezing"
+    },
+    {
+      "start": 1352.74,
+      "duration": 5.45,
+      "text": "and you have a surface that's\ncold, then you will get--"
+    },
+    {
+      "start": 1358.19,
+      "duration": 2.67,
+      "text": "maybe it's cold because\nit radiated its heat"
+    },
+    {
+      "start": 1360.86,
+      "duration": 2.4,
+      "text": "back out into space\nat night, for example."
+    },
+    {
+      "start": 1363.26,
+      "duration": 3.0,
+      "text": "That's when you\nget frost forming."
+    },
+    {
+      "start": 1366.26,
+      "duration": 2.37,
+      "text": "And you want to definitely\nclear that off your aircraft"
+    },
+    {
+      "start": 1368.63,
+      "duration": 4.95,
+      "text": "before you go anywhere\nbecause it messes"
+    },
+    {
+      "start": 1373.58,
+      "duration": 4.5,
+      "text": "with the smooth flow of the air,\nso the wing becomes much less"
+    },
+    {
+      "start": 1378.08,
+      "duration": 4.14,
+      "text": "efficient even if the shape\nhasn't changed that much."
+    },
+    {
+      "start": 1382.22,
+      "duration": 1.88,
+      "text": "All right, let's look\nat the kinds of clouds."
+    },
+    {
+      "start": 1387.29,
+      "duration": 7.23,
+      "text": "You've got basically--\nthe prefix to the cloud"
+    },
+    {
+      "start": 1394.52,
+      "duration": 4.11,
+      "text": "tells you what height it is."
+    },
+    {
+      "start": 1398.63,
+      "duration": 2.73,
+      "text": "And then the second\npart of the word"
+    },
+    {
+      "start": 1401.36,
+      "duration": 3.57,
+      "text": "tells you kind of the\nshape of the cloud."
+    },
+    {
+      "start": 1404.93,
+      "duration": 4.5,
+      "text": "So I'll just let you\nabsorb this a little bit."
+    },
+    {
+      "start": 1409.43,
+      "duration": 5.03,
+      "text": "If it says nimbo, yeah,\ncumulonimbus or nimbostratus,"
+    },
+    {
+      "start": 1414.46,
+      "duration": 3.09,
+      "text": "that means it's raining."
+    },
+    {
+      "start": 1417.55,
+      "duration": 4.71,
+      "text": "Towering cumulus is bad\nif they talk about that."
+    },
+    {
+      "start": 1422.26,
+      "duration": 1.53,
+      "text": "And cumulonimbus is the worst."
+    },
+    {
+      "start": 1423.79,
+      "duration": 4.83,
+      "text": "That's just another fancier\nway of saying thunderstorm."
+    },
+    {
+      "start": 1428.62,
+      "duration": 4.96,
+      "text": "OK, so here's your\nLatin lesson for today."
+    },
+    {
+      "start": 1433.58,
+      "duration": 1.62,
+      "text": "Unfortunately, I\ndidn't study Latin."
+    },
+    {
+      "start": 1435.2,
+      "duration": 2.69,
+      "text": "It would have been\nnice when I went"
+    },
+    {
+      "start": 1437.89,
+      "duration": 1.92,
+      "text": "to Peru to be able\nto communicate"
+    },
+    {
+      "start": 1439.81,
+      "duration": 5.25,
+      "text": "with the locals\nin Latin America."
+    },
+    {
+      "start": 1445.06,
+      "duration": 1.26,
+      "text": "OK, that wasn't funny I guess."
+    },
+    {
+      "start": 1446.32,
+      "duration": 3.4,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 1452.65,
+      "duration": 5.67,
+      "text": "If you have low clouds, the\nmain hazard to worry about"
+    },
+    {
+      "start": 1458.32,
+      "duration": 1.86,
+      "text": "is the icing."
+    },
+    {
+      "start": 1460.18,
+      "duration": 4.62,
+      "text": "If the water is supercooled,\nthat's the worst."
+    },
+    {
+      "start": 1464.8,
+      "duration": 2.92,
+      "text": "You can usually get\na forecast of that."
+    },
+    {
+      "start": 1467.72,
+      "duration": 1.58,
+      "text": "You'll get AIRMETs\nfor icing, and they"
+    },
+    {
+      "start": 1469.3,
+      "duration": 4.25,
+      "text": "might talk about supercooled\nwater is a hazard."
+    },
+    {
+      "start": 1476.53,
+      "duration": 2.19,
+      "text": "I guess this might\nbe an exam question."
+    },
+    {
+      "start": 1478.72,
+      "duration": 5.13,
+      "text": "Stratus clouds form when moist,\nstable air flows upslope."
+    },
+    {
+      "start": 1483.85,
+      "duration": 5.46,
+      "text": "But just remember stable\nusually means the flat clouds,"
+    },
+    {
+      "start": 1489.31,
+      "duration": 1.43,
+      "text": "stratiform clouds."
+    },
+    {
+      "start": 1490.74,
+      "duration": 5.0,
+      "text": "And unstable is where you\nget the cumuliform clouds."
+    },
+    {
+      "start": 1502.09,
+      "duration": 1.14,
+      "text": "So same deal."
+    },
+    {
+      "start": 1503.23,
+      "duration": 1.65,
+      "text": "Those altocumulus\nare going to be"
+    },
+    {
+      "start": 1504.88,
+      "duration": 8.81,
+      "text": "much more turbulent and probably\nmore severe icing potential."
+    },
+    {
+      "start": 1513.69,
+      "duration": 5.7,
+      "text": "The high clouds-- it's so\ncold in the high atmosphere"
+    },
+    {
+      "start": 1519.39,
+      "duration": 3.33,
+      "text": "that the maximum amount of\nwater that can be stored"
+    },
+    {
+      "start": 1522.72,
+      "duration": 2.85,
+      "text": "is pretty low,\nand, therefore, you"
+    },
+    {
+      "start": 1525.57,
+      "duration": 3.21,
+      "text": "don't tend to get\nice when it's below"
+    },
+    {
+      "start": 1528.78,
+      "duration": 3.48,
+      "text": "say minus 15 degrees Celsius."
+    },
+    {
+      "start": 1532.26,
+      "duration": 2.85,
+      "text": "There just isn't a whole lot\nof moisture to begin with."
+    },
+    {
+      "start": 1538.79,
+      "duration": 3.12,
+      "text": "OK, so this is\nwhat as a GA pilot"
+    },
+    {
+      "start": 1541.91,
+      "duration": 2.7,
+      "text": "you're more likely to\nhave to worry about."
+    },
+    {
+      "start": 1544.61,
+      "duration": 2.04,
+      "text": "You're probably not going\nto be up at 25,000 feet"
+    },
+    {
+      "start": 1546.65,
+      "duration": 1.71,
+      "text": "in your Piper Warrior."
+    },
+    {
+      "start": 1548.36,
+      "duration": 8.68,
+      "text": "But you could be\nunderneath a cumulus cloud."
+    },
+    {
+      "start": 1557.04,
+      "duration": 1.79,
+      "text": "I will tell you that\nif you have passengers"
+    },
+    {
+      "start": 1558.83,
+      "duration": 2.64,
+      "text": "and there is low cumulus\nclouds, you desperately"
+    },
+    {
+      "start": 1561.47,
+      "duration": 1.39,
+      "text": "want to get above those."
+    },
+    {
+      "start": 1562.86,
+      "duration": 2.84,
+      "text": "So let's say there's a bunch\nof cumulus clouds at 4,000"
+    },
+    {
+      "start": 1565.7,
+      "duration": 1.59,
+      "text": "or 5,000 feet."
+    },
+    {
+      "start": 1567.29,
+      "duration": 3.21,
+      "text": "You can climb probably\nto 8,000 or 10,000 feet"
+    },
+    {
+      "start": 1570.5,
+      "duration": 2.62,
+      "text": "in a light airplane, and\nthat'll be much, much smoother."
+    },
+    {
+      "start": 1573.12,
+      "duration": 3.35,
+      "text": "So as soon as you get\nabove the cumulus clouds,"
+    },
+    {
+      "start": 1576.47,
+      "duration": 2.28,
+      "text": "that's where the air\ntends to smooth out,"
+    },
+    {
+      "start": 1578.75,
+      "duration": 2.43,
+      "text": "and it'll be much\nmore comfortable."
+    },
+    {
+      "start": 1581.18,
+      "duration": 2.55,
+      "text": "But if it's a towering\ncumulus cloud,"
+    },
+    {
+      "start": 1583.73,
+      "duration": 5.4,
+      "text": "they may go up to as high as\n60,000 feet down in Texas."
+    },
+    {
+      "start": 1589.13,
+      "duration": 1.53,
+      "text": "And you really\ncan't get over them"
+    },
+    {
+      "start": 1590.66,
+      "duration": 6.21,
+      "text": "in anything short of an\nSR-71 or maybe last as F-22."
+    },
+    {
+      "start": 1596.87,
+      "duration": 5.1,
+      "text": "Even the latest Gulfstreams\nonly go to 51,000, I believe."
+    },
+    {
+      "start": 1601.97,
+      "duration": 2.78,
+      "text": "OK, so thunderstorms\nare the worst hazard."
+    },
+    {
+      "start": 1604.75,
+      "duration": 2.95,
+      "text": "Even the airliners get in\ntrouble and thunderstorms"
+    },
+    {
+      "start": 1607.7,
+      "duration": 8.09,
+      "text": "with hail smashing into the\nwindshield and turbulence that"
+    },
+    {
+      "start": 1615.79,
+      "duration": 3.14,
+      "text": "can bend stuff."
+    },
+    {
+      "start": 1618.93,
+      "duration": 9.57,
+      "text": "So how do you predict\nif you're flying along--"
+    },
+    {
+      "start": 1628.5,
+      "duration": 2.08,
+      "text": "well, if you're preparing\nto go on a flight,"
+    },
+    {
+      "start": 1630.58,
+      "duration": 2.21,
+      "text": "how do you predict where\nthe clouds are likely to be?"
+    },
+    {
+      "start": 1632.79,
+      "duration": 3.34,
+      "text": "One thing you do is look at the\ntemperature dew point spread."
+    },
+    {
+      "start": 1636.13,
+      "duration": 5.12,
+      "text": "The FAA tells you to use a lapse\nrate of 2.5 degrees Celsius"
+    },
+    {
+      "start": 1641.26,
+      "duration": 1.62,
+      "text": "to figure out where\nthe clouds will be."
+    },
+    {
+      "start": 1642.88,
+      "duration": 5.36,
+      "text": "So if there is a 10 degree\ntemperature dew point spread,"
+    },
+    {
+      "start": 1648.24,
+      "duration": 2.5,
+      "text": "then you should expect\nthe clouds to have"
+    },
+    {
+      "start": 1650.74,
+      "duration": 1.74,
+      "text": "a base at about 4,000 feet."
+    },
+    {
+      "start": 1652.48,
+      "duration": 1.3,
+      "text": "There's a typo in the slide."
+    },
+    {
+      "start": 1653.78,
+      "duration": 0.98,
+      "text": "Sorry about that."
+    },
+    {
+      "start": 1654.76,
+      "duration": 2.58,
+      "text": "I thought we had the new\nversion in the Dropbox."
+    },
+    {
+      "start": 1657.34,
+      "duration": 5.25,
+      "text": "The temperature lapses at 3\nfor the dry adiabatic air."
+    },
+    {
+      "start": 1662.59,
+      "duration": 1.0,
+      "text": "You remember that?"
+    },
+    {
+      "start": 1663.59,
+      "duration": 1.82,
+      "text": "And the dew point's at 0.5."
+    },
+    {
+      "start": 1665.41,
+      "duration": 1.38,
+      "text": "So if we go back\nto that figure--"
+    },
+    {
+      "start": 1672.08,
+      "duration": 3.61,
+      "text": "I think it was our-- yeah."
+    },
+    {
+      "start": 1675.69,
+      "duration": 3.95,
+      "text": "Yeah, if we go back\nhere, you remember this?"
+    },
+    {
+      "start": 1679.64,
+      "duration": 2.89,
+      "text": "We went from 18, to 15, to 12."
+    },
+    {
+      "start": 1682.53,
+      "duration": 2.73,
+      "text": "And the dew point, meanwhile,\nis falling from 3, to 2 and 1/2,"
+    },
+    {
+      "start": 1685.26,
+      "duration": 1.17,
+      "text": "to 2."
+    },
+    {
+      "start": 1686.43,
+      "duration": 0.84,
+      "text": "So that's why."
+    },
+    {
+      "start": 1690.93,
+      "duration": 2.13,
+      "text": "It's 2.5 as a rule of thumb."
+    },
+    {
+      "start": 1693.06,
+      "duration": 3.24,
+      "text": "That's not great, but\nyou can actually--"
+    },
+    {
+      "start": 1696.3,
+      "duration": 3.54,
+      "text": "Just look at METARs\naround the country,"
+    },
+    {
+      "start": 1699.84,
+      "duration": 1.92,
+      "text": "and I think you will see\nbecause they give you"
+    },
+    {
+      "start": 1701.76,
+      "duration": 2.37,
+      "text": "the basis of the clouds\nand the ceilings."
+    },
+    {
+      "start": 1704.13,
+      "duration": 2.13,
+      "text": "I think you usually\nwill see that it's"
+    },
+    {
+      "start": 1706.26,
+      "duration": 5.55,
+      "text": "reasonably close to this formula\nbut almost never spot on."
+    },
+    {
+      "start": 1711.81,
+      "duration": 6.81,
+      "text": "OK, this is worth studying."
+    },
+    {
+      "start": 1718.62,
+      "duration": 2.68,
+      "text": "I'm not going to cover\nit completely here."
+    },
+    {
+      "start": 1721.3,
+      "duration": 3.24,
+      "text": "But some of these\nare exam questions."
+    },
+    {
+      "start": 1724.54,
+      "duration": 1.88,
+      "text": "Advection fog-- I\nthink I remember"
+    },
+    {
+      "start": 1726.42,
+      "duration": 4.17,
+      "text": "they like to ask about that,\nwhen the warm moist air moves"
+    },
+    {
+      "start": 1730.59,
+      "duration": 4.66,
+      "text": "over a cool surface\nalong coastlines."
+    },
+    {
+      "start": 1735.25,
+      "duration": 1.17,
+      "text": "So I think that makes sense."
+    },
+    {
+      "start": 1736.42,
+      "duration": 2.1,
+      "text": "Maybe that's what they're\nhaving in California"
+    },
+    {
+      "start": 1738.52,
+      "duration": 1.13,
+      "text": "a lot of the time."
+    },
+    {
+      "start": 1739.65,
+      "duration": 5.8,
+      "text": "They have the fog over\nthe coastal areas."
+    },
+    {
+      "start": 1752.27,
+      "duration": 3.54,
+      "text": "And radiation fog-- also,\nin the Western deserts,"
+    },
+    {
+      "start": 1755.81,
+      "duration": 3.04,
+      "text": "oftentimes, there's\nfog in the morning."
+    },
+    {
+      "start": 1758.85,
+      "duration": 4.31,
+      "text": "So I think you're advection fog\nwould be a coastal phenomenon."
+    },
+    {
+      "start": 1763.16,
+      "duration": 3.36,
+      "text": "And the radiation\nfog, something they"
+    },
+    {
+      "start": 1766.52,
+      "duration": 6.23,
+      "text": "can have in a place like\nArizona or Palm Springs."
+    },
+    {
+      "start": 1772.75,
+      "duration": 3.86,
+      "text": "OK, the FAA loves this."
+    },
+    {
+      "start": 1776.61,
+      "duration": 3.27,
+      "text": "If you see ice pellets, you\nprobably shouldn't be flying."
+    },
+    {
+      "start": 1779.88,
+      "duration": 4.23,
+      "text": "But they want you to know that\nif you do see ice pellets,"
+    },
+    {
+      "start": 1784.11,
+      "duration": 3.15,
+      "text": "how did they arrive?"
+    },
+    {
+      "start": 1787.26,
+      "duration": 2.79,
+      "text": "Well, they had to be\nfreezing rain up higher."
+    },
+    {
+      "start": 1790.05,
+      "duration": 2.31,
+      "text": "So don't climb in hopes\nof getting out of the ice"
+    },
+    {
+      "start": 1792.36,
+      "duration": 3.69,
+      "text": "pellets because then you'll have\nfreezing rain on your airplane"
+    },
+    {
+      "start": 1796.05,
+      "duration": 2.91,
+      "text": "which is probably the worst\nkind of icing-related hazard."
+    },
+    {
+      "start": 1801.58,
+      "duration": 2.59,
+      "text": "OK, airmasses."
+    },
+    {
+      "start": 1809.47,
+      "duration": 1.32,
+      "text": "You can just have a look here."
+    },
+    {
+      "start": 1813.56,
+      "duration": 2.9,
+      "text": "If you hear that there's\na polar airmass coming in,"
+    },
+    {
+      "start": 1816.46,
+      "duration": 2.34,
+      "text": "it's going to be cold,\nnot too exciting."
+    },
+    {
+      "start": 1818.8,
+      "duration": 1.09,
+      "text": "Might be a question."
+    },
+    {
+      "start": 1819.89,
+      "duration": 1.76,
+      "text": "Fronts, they do\nwant you to see--"
+    },
+    {
+      "start": 1821.65,
+      "duration": 2.32,
+      "text": "be able to read\none of these maps."
+    },
+    {
+      "start": 1823.97,
+      "duration": 1.94,
+      "text": "They may occasionally\nasked you a question."
+    },
+    {
+      "start": 1825.91,
+      "duration": 3.18,
+      "text": "So one thing to remember\nis the cold front"
+    },
+    {
+      "start": 1829.09,
+      "duration": 3.17,
+      "text": "has the pointy\nspikes like icicles."
+    },
+    {
+      "start": 1832.26,
+      "duration": 3.88,
+      "text": "So if you can remember\nthat, you'll be pretty good."
+    },
+    {
+      "start": 1836.14,
+      "duration": 3.27,
+      "text": "There's a cold front."
+    },
+    {
+      "start": 1839.41,
+      "duration": 5.28,
+      "text": "Again, you can just read this\nand study it at your leisure."
+    },
+    {
+      "start": 1848.12,
+      "duration": 1.62,
+      "text": "I guess they might\nwant you to remember"
+    },
+    {
+      "start": 1849.74,
+      "duration": 5.21,
+      "text": "that the front is the boundary\nbetween two air masses."
+    },
+    {
+      "start": 1854.95,
+      "duration": 0.61,
+      "text": "OK."
+    },
+    {
+      "start": 1855.56,
+      "duration": 1.88,
+      "text": "Here's a typical\ndrawing where they'll"
+    },
+    {
+      "start": 1857.44,
+      "duration": 1.98,
+      "text": "show you the cold fronts\nand the warm fronts."
+    },
+    {
+      "start": 1863.07,
+      "duration": 2.12,
+      "text": "When there is a\nfront, how do you"
+    },
+    {
+      "start": 1865.19,
+      "duration": 1.54,
+      "text": "know when the front\nhas gone through?"
+    },
+    {
+      "start": 1866.73,
+      "duration": 3.27,
+      "text": "Well, the temperature's\nchanged and the wind's changed,"
+    },
+    {
+      "start": 1870.0,
+      "duration": 0.75,
+      "text": "simple as that."
+    },
+    {
+      "start": 1874.02,
+      "duration": 4.23,
+      "text": "Here's a little explanation\nof what you can expect"
+    },
+    {
+      "start": 1878.25,
+      "duration": 2.61,
+      "text": "when a cold front goes through."
+    },
+    {
+      "start": 1892.8,
+      "duration": 2.99,
+      "text": "Everybody is happy with that?"
+    },
+    {
+      "start": 1895.79,
+      "duration": 1.82,
+      "text": "OK."
+    },
+    {
+      "start": 1897.61,
+      "duration": 5.42,
+      "text": "When a warm front goes through,\nit gets warmer afterwards."
+    },
+    {
+      "start": 1903.03,
+      "duration": 3.49,
+      "text": "Yeah, so the warm front\nproduces, as you can see,"
+    },
+    {
+      "start": 1906.52,
+      "duration": 6.81,
+      "text": "light to moderate rain,\ndrizzle, visibility is bad."
+    },
+    {
+      "start": 1913.33,
+      "duration": 1.71,
+      "text": "That's actually the\nimportant thing here."
+    },
+    {
+      "start": 1915.04,
+      "duration": 1.92,
+      "text": "The visibility gets poor."
+    },
+    {
+      "start": 1916.96,
+      "duration": 2.8,
+      "text": "And then it becomes\nfair and haze,"
+    },
+    {
+      "start": 1919.76,
+      "duration": 7.13,
+      "text": "whereas the visibility becomes\nreally good after a cold front"
+    },
+    {
+      "start": 1926.89,
+      "duration": 0.58,
+      "text": "comes through."
+    },
+    {
+      "start": 1931.85,
+      "duration": 5.13,
+      "text": "Occluded fronts-- same\ndeal, bad visibility."
+    },
+    {
+      "start": 1939.72,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 1940.22,
+      "duration": 1.18,
+      "text": "Let's talk about hazards."
+    },
+    {
+      "start": 1941.4,
+      "duration": 1.8,
+      "text": "This is more important."
+    },
+    {
+      "start": 1943.2,
+      "duration": 11.74,
+      "text": "So this is a summary\nof where heat"
+    },
+    {
+      "start": 1954.94,
+      "duration": 4.92,
+      "text": "is released into the atmosphere\nversus absorbed by water."
+    },
+    {
+      "start": 1959.86,
+      "duration": 8.79,
+      "text": "So as the water goes, for\nexample, from vapor to liquid,"
+    },
+    {
+      "start": 1968.65,
+      "duration": 1.5,
+      "text": "it releases heat."
+    },
+    {
+      "start": 1970.14,
+      "duration": 1.62,
+      "text": "So that's exactly\nwhat's happening when"
+    },
+    {
+      "start": 1971.77,
+      "duration": 2.4,
+      "text": "it's raining in a thunderstorm."
+    },
+    {
+      "start": 1976.87,
+      "duration": 3.72,
+      "text": "And that's not a good thing."
+    },
+    {
+      "start": 1980.59,
+      "duration": 0.96,
+      "text": "All right."
+    },
+    {
+      "start": 1981.55,
+      "duration": 6.84,
+      "text": "So here's the FAA's chart\nof a cumulus cloud forming."
+    },
+    {
+      "start": 1988.39,
+      "duration": 3.09,
+      "text": "So you can see the\nlapse rate over here"
+    },
+    {
+      "start": 1991.48,
+      "duration": 2.79,
+      "text": "in the ambient atmosphere."
+    },
+    {
+      "start": 1994.27,
+      "duration": 5.28,
+      "text": "It's going from 28\nto 24 down to 21."
+    },
+    {
+      "start": 1999.55,
+      "duration": 5.52,
+      "text": "So it is, at least\ninitially, higher"
+    },
+    {
+      "start": 2005.07,
+      "duration": 1.98,
+      "text": "than standard lapse rate."
+    },
+    {
+      "start": 2007.05,
+      "duration": 3.4,
+      "text": "So this warm air--"
+    },
+    {
+      "start": 2010.45,
+      "duration": 1.37,
+      "text": "it starts at 28."
+    },
+    {
+      "start": 2011.82,
+      "duration": 2.46,
+      "text": "And then it drops only to 25."
+    },
+    {
+      "start": 2014.28,
+      "duration": 2.55,
+      "text": "So it's still warmer\nthan the surrounding air."
+    },
+    {
+      "start": 2016.83,
+      "duration": 6.1,
+      "text": "So it goes into becoming\nthis big, nasty cloud."
+    },
+    {
+      "start": 2022.93,
+      "duration": 4.34,
+      "text": "There's this-- you\ncan see-- if you don't"
+    },
+    {
+      "start": 2027.27,
+      "duration": 2.61,
+      "text": "want to look at the summaries\nof weather forecasts,"
+    },
+    {
+      "start": 2029.88,
+      "duration": 4.29,
+      "text": "you can look at these\nshards of lifted index."
+    },
+    {
+      "start": 2034.17,
+      "duration": 5.34,
+      "text": "Here, it shows the difference\nbetween minus 18 and minus 11,"
+    },
+    {
+      "start": 2039.51,
+      "duration": 0.69,
+      "text": "minus 7."
+    },
+    {
+      "start": 2040.2,
+      "duration": 3.7,
+      "text": "That gives you a measure of\nthe thunderstorm potential."
+    },
+    {
+      "start": 2043.9,
+      "duration": 1.04,
+      "text": "There are charts of that."
+    },
+    {
+      "start": 2048.9,
+      "duration": 3.72,
+      "text": "But as pilots, this\nis more what we"
+    },
+    {
+      "start": 2052.62,
+      "duration": 2.13,
+      "text": "deal with on our practical\nday-to-day basis."
+    },
+    {
+      "start": 2054.75,
+      "duration": 2.01,
+      "text": "We just look at\nthe next rad data"
+    },
+    {
+      "start": 2056.76,
+      "duration": 3.37,
+      "text": "from the radar stations that\nare strewn around the country."
+    },
+    {
+      "start": 2060.13,
+      "duration": 2.16,
+      "text": "And if it's red, we try\nto find a path around it,"
+    },
+    {
+      "start": 2062.29,
+      "duration": 1.58,
+      "text": "because there's just\nnot much else you"
+    },
+    {
+      "start": 2063.87,
+      "duration": 2.79,
+      "text": "can do in a little aircraft."
+    },
+    {
+      "start": 2066.66,
+      "duration": 4.86,
+      "text": "It's possible that you could\nget over this entire front"
+    },
+    {
+      "start": 2071.52,
+      "duration": 4.05,
+      "text": "if you were in a jet\nthat could climb up"
+    },
+    {
+      "start": 2075.57,
+      "duration": 2.04,
+      "text": "to 40,000 feet or higher."
+    },
+    {
+      "start": 2077.61,
+      "duration": 2.79,
+      "text": "But in a Piper or\nCessna or Cirrus,"
+    },
+    {
+      "start": 2080.4,
+      "duration": 1.83,
+      "text": "you're just not going\nto be able to do that."
+    },
+    {
+      "start": 2085.72,
+      "duration": 0.63,
+      "text": "OK."
+    },
+    {
+      "start": 2086.35,
+      "duration": 5.21,
+      "text": "The thunderstorm lifecycle--\nthis is, I think,"
+    },
+    {
+      "start": 2091.56,
+      "duration": 1.29,
+      "text": "my favorite test question."
+    },
+    {
+      "start": 2092.85,
+      "duration": 1.8,
+      "text": "How do you know that\nthe thunderstorm"
+    },
+    {
+      "start": 2094.65,
+      "duration": 1.95,
+      "text": "has reached its mature stage?"
+    },
+    {
+      "start": 2096.6,
+      "duration": 3.63,
+      "text": "Well, it's raining,\nsimple as that."
+    },
+    {
+      "start": 2100.23,
+      "duration": 3.07,
+      "text": "If it's raining, it's mature."
+    },
+    {
+      "start": 2103.3,
+      "duration": 6.34,
+      "text": "If it's dissipating, you're\ngoing to get these downdrafts."
+    },
+    {
+      "start": 2109.64,
+      "duration": 2.4,
+      "text": "If it's building,\nyou get updrafts."
+    },
+    {
+      "start": 2112.04,
+      "duration": 5.68,
+      "text": "So everything comes up,\nand then it all comes down."
+    },
+    {
+      "start": 2117.72,
+      "duration": 1.77,
+      "text": "OK."
+    },
+    {
+      "start": 2119.49,
+      "duration": 2.78,
+      "text": "Look at that nasty thunderstorm."
+    },
+    {
+      "start": 2122.27,
+      "duration": 2.08,
+      "text": "You're going to get\nturbulence right on top of it."
+    },
+    {
+      "start": 2124.35,
+      "duration": 3.28,
+      "text": "If you can clear that\nthunderstorm by 5,000 feet,"
+    },
+    {
+      "start": 2127.63,
+      "duration": 1.89,
+      "text": "it'll probably nice and smooth."
+    },
+    {
+      "start": 2129.52,
+      "duration": 3.75,
+      "text": "So this is your good argument\nfor a plane that can go to 51"
+    },
+    {
+      "start": 2133.27,
+      "duration": 2.42,
+      "text": "[INAUDIBLE] or 510."
+    },
+    {
+      "start": 2135.69,
+      "duration": 1.33,
+      "text": "Airliners don't go that high."
+    },
+    {
+      "start": 2137.02,
+      "duration": 4.62,
+      "text": "The latest these jets go\nmuch higher than airliners."
+    },
+    {
+      "start": 2141.64,
+      "duration": 0.99,
+      "text": "All right."
+    },
+    {
+      "start": 2142.63,
+      "duration": 1.56,
+      "text": "The hazard-- we're\ngoing to hear more"
+    },
+    {
+      "start": 2144.19,
+      "duration": 3.0,
+      "text": "about this tomorrow\nfrom [? Dojo, ?]"
+    },
+    {
+      "start": 2147.19,
+      "duration": 2.76,
+      "text": "from the Brazilian Air Force."
+    },
+    {
+      "start": 2149.95,
+      "duration": 9.24,
+      "text": "But there is this chart here\nthat shows you how much load"
+    },
+    {
+      "start": 2159.19,
+      "duration": 1.1,
+      "text": "factor-- that's in g's."
+    },
+    {
+      "start": 2163.65,
+      "duration": 5.55,
+      "text": "If you're going pretty\nfast, you can pretty quickly"
+    },
+    {
+      "start": 2169.2,
+      "duration": 3.15,
+      "text": "get into the structural\ndamage range."
+    },
+    {
+      "start": 2175.03,
+      "duration": 3.99,
+      "text": "So that's why they tell you--\nthis these lines here are"
+    },
+    {
+      "start": 2179.02,
+      "duration": 0.84,
+      "text": "basically--"
+    },
+    {
+      "start": 2183.56,
+      "duration": 2.64,
+      "text": "this is how many g's you\ncan get on the aircraft"
+    },
+    {
+      "start": 2186.2,
+      "duration": 3.6,
+      "text": "with either extreme\nmovements on the controls"
+    },
+    {
+      "start": 2189.8,
+      "duration": 2.67,
+      "text": "or extreme movements\nthat are imposed on you"
+    },
+    {
+      "start": 2192.47,
+      "duration": 1.98,
+      "text": "by a thunderstorm or something."
+    },
+    {
+      "start": 2194.45,
+      "duration": 3.0,
+      "text": "So the takeaway\nfrom this diagram"
+    },
+    {
+      "start": 2197.45,
+      "duration": 3.39,
+      "text": "is slow down if you get\ninto heavy turbulence,"
+    },
+    {
+      "start": 2200.84,
+      "duration": 4.79,
+      "text": "because then the airplane\nwill stall before it bends."
+    },
+    {
+      "start": 2205.63,
+      "duration": 6.02,
+      "text": "And stalling can be corrected\nby pushing the nose down."
+    },
+    {
+      "start": 2211.65,
+      "duration": 0.5,
+      "text": "OK."
+    },
+    {
+      "start": 2212.15,
+      "duration": 2.43,
+      "text": "So these are all of the\nhazards from thunderstorms."
+    },
+    {
+      "start": 2214.58,
+      "duration": 3.13,
+      "text": "Again, it's a lot better--"
+    },
+    {
+      "start": 2217.71,
+      "duration": 2.0,
+      "text": "in this day and age,\nthere's so much information"
+    },
+    {
+      "start": 2219.71,
+      "duration": 2.73,
+      "text": "out there and datalink\navailable in the cockpit"
+    },
+    {
+      "start": 2222.44,
+      "duration": 3.45,
+      "text": "that going through thunderstorms\nis just much less common"
+    },
+    {
+      "start": 2225.89,
+      "duration": 1.17,
+      "text": "than it used to be."
+    },
+    {
+      "start": 2227.06,
+      "duration": 4.8,
+      "text": "And therefore, don't really\nhave to remember too much, other"
+    },
+    {
+      "start": 2231.86,
+      "duration": 3.47,
+      "text": "than don't fly through\na thunderstorm."
+    },
+    {
+      "start": 2235.33,
+      "duration": 3.06,
+      "text": "Microburst-- however, if\nyou're trying to land and beat"
+    },
+    {
+      "start": 2238.39,
+      "duration": 2.08,
+      "text": "the thunderstorm,\nyou can actually"
+    },
+    {
+      "start": 2240.47,
+      "duration": 1.38,
+      "text": "get into a little\nbit of trouble,"
+    },
+    {
+      "start": 2241.84,
+      "duration": 6.54,
+      "text": "because the wind right before\na thunderstorm or right"
+    },
+    {
+      "start": 2248.38,
+      "duration": 8.51,
+      "text": "after can be pretty squirrelly\nand cause you some difficulties"
+    },
+    {
+      "start": 2256.89,
+      "duration": 2.46,
+      "text": "here."
+    },
+    {
+      "start": 2259.35,
+      "duration": 0.5,
+      "text": "Let's see."
+    },
+    {
+      "start": 2259.85,
+      "duration": 1.19,
+      "text": "What do we have?"
+    },
+    {
+      "start": 2261.04,
+      "duration": 2.29,
+      "text": "So here, this airplane is\ngetting a performance boost"
+    },
+    {
+      "start": 2263.33,
+      "duration": 2.25,
+      "text": "from a strong headwind."
+    },
+    {
+      "start": 2265.58,
+      "duration": 2.46,
+      "text": "Now, not much is\nhappening, except that it's"
+    },
+    {
+      "start": 2268.04,
+      "duration": 5.23,
+      "text": "getting pushed down, maybe\nfaster than the airplane can"
+    },
+    {
+      "start": 2273.27,
+      "duration": 0.93,
+      "text": "climb."
+    },
+    {
+      "start": 2274.2,
+      "duration": 2.91,
+      "text": "And at this point, you're\ngetting a performance reduction"
+    },
+    {
+      "start": 2277.11,
+      "duration": 1.03,
+      "text": "from this big tailwind."
+    },
+    {
+      "start": 2278.14,
+      "duration": 2.38,
+      "text": "So that's reducing-- you might\nthink, well, that's great."
+    },
+    {
+      "start": 2280.52,
+      "duration": 1.87,
+      "text": "I'm getting pushed\nalong with a tailwind."
+    },
+    {
+      "start": 2282.39,
+      "duration": 3.42,
+      "text": "But if it's suddenly\ntaking away your airspeed,"
+    },
+    {
+      "start": 2285.81,
+      "duration": 4.11,
+      "text": "then that's not a\nperformance boost."
+    },
+    {
+      "start": 2289.92,
+      "duration": 0.75,
+      "text": "All right."
+    },
+    {
+      "start": 2290.67,
+      "duration": 5.61,
+      "text": "So the thunderstorm\nemergency procedures"
+    },
+    {
+      "start": 2296.28,
+      "duration": 2.04,
+      "text": "are, again, probably\na little bit"
+    },
+    {
+      "start": 2298.32,
+      "duration": 1.77,
+      "text": "less relevant now\nthat we're living"
+    },
+    {
+      "start": 2300.09,
+      "duration": 7.29,
+      "text": "in this world of constant\ndatalink and NEXRAD data."
+    },
+    {
+      "start": 2307.38,
+      "duration": 4.47,
+      "text": "2006, there was a famous\naccident with a former test"
+    },
+    {
+      "start": 2311.85,
+      "duration": 2.73,
+      "text": "pilot, Scott\nCrossfield, who maybe"
+    },
+    {
+      "start": 2314.58,
+      "duration": 3.6,
+      "text": "didn't get the best advice\nfrom air traffic control."
+    },
+    {
+      "start": 2318.18,
+      "duration": 5.88,
+      "text": "And I don't think he had\ndatalink in his cockpit."
+    },
+    {
+      "start": 2324.06,
+      "duration": 2.34,
+      "text": "The Boeing B 29 bomber\ncrews, they would fly,"
+    },
+    {
+      "start": 2326.4,
+      "duration": 5.4,
+      "text": "I think, seven or eight hours\nfrom an island in the Pacific"
+    },
+    {
+      "start": 2331.8,
+      "duration": 1.29,
+      "text": "over to Japan."
+    },
+    {
+      "start": 2333.09,
+      "duration": 1.95,
+      "text": "And during those\neight hours, they"
+    },
+    {
+      "start": 2335.04,
+      "duration": 4.1,
+      "text": "had satellite data, no\ndata from a ground station."
+    },
+    {
+      "start": 2339.14,
+      "duration": 2.25,
+      "text": "So they just had no idea\nwhat they were going through."
+    },
+    {
+      "start": 2341.39,
+      "duration": 2.23,
+      "text": "And they didn't go as high\nas the designers thought"
+    },
+    {
+      "start": 2343.62,
+      "duration": 3.15,
+      "text": "that airplane was designed\nto go, super high."
+    },
+    {
+      "start": 2346.77,
+      "duration": 2.31,
+      "text": "But they were so loaded\nup with fuel and bombs,"
+    },
+    {
+      "start": 2349.08,
+      "duration": 1.92,
+      "text": "they couldn't practically\nclimb all that high."
+    },
+    {
+      "start": 2351.0,
+      "duration": 4.41,
+      "text": "So they were going at\n10-15,000 feet over the ocean."
+    },
+    {
+      "start": 2355.41,
+      "duration": 4.89,
+      "text": "And at those altitudes,\nyou can't really see--"
+    },
+    {
+      "start": 2360.3,
+      "duration": 2.52,
+      "text": "you may get into an\nembedded thunderstorm."
+    },
+    {
+      "start": 2362.82,
+      "duration": 4.32,
+      "text": "Today's airliners, they go so\nhigh that you really are never"
+    },
+    {
+      "start": 2367.14,
+      "duration": 2.46,
+      "text": "in a position where\nyou blunder into stuff,"
+    },
+    {
+      "start": 2369.6,
+      "duration": 3.64,
+      "text": "or almost never, because\nyou're in the clear,"
+    },
+    {
+      "start": 2373.24,
+      "duration": 2.06,
+      "text": "and you can just see\nthe towering cumulus"
+    },
+    {
+      "start": 2375.3,
+      "duration": 1.18,
+      "text": "and not fly there."
+    },
+    {
+      "start": 2376.48,
+      "duration": 3.81,
+      "text": "You just back\nyourself around them."
+    },
+    {
+      "start": 2380.29,
+      "duration": 2.31,
+      "text": "So I guess-- yeah,\nthe final statement"
+    },
+    {
+      "start": 2382.6,
+      "duration": 2.04,
+      "text": "there is, get-there-itis\nhasn't been cured."
+    },
+    {
+      "start": 2384.64,
+      "duration": 3.36,
+      "text": "So as a pilot, the\nsafest thing you can do"
+    },
+    {
+      "start": 2388.0,
+      "duration": 2.85,
+      "text": "is really fight that\ntendency to want"
+    },
+    {
+      "start": 2390.85,
+      "duration": 1.89,
+      "text": "to complete the\nmission as planned"
+    },
+    {
+      "start": 2392.74,
+      "duration": 2.49,
+      "text": "and overcommit to\nyour plan of action."
+    },
+    {
+      "start": 2395.23,
+      "duration": 2.1,
+      "text": "All right."
+    },
+    {
+      "start": 2397.33,
+      "duration": 4.68,
+      "text": "There are three other categories\nof turbulence to worry about."
+    },
+    {
+      "start": 2402.01,
+      "duration": 11.53,
+      "text": "Probably the worst is due\nto terrain, like mountains."
+    },
+    {
+      "start": 2413.54,
+      "duration": 4.8,
+      "text": "This low level turbulence\nfrom thermals is not crazy."
+    },
+    {
+      "start": 2418.34,
+      "duration": 3.09,
+      "text": "But as I said, if you get above\nthe clouds, that plane on top"
+    },
+    {
+      "start": 2421.43,
+      "duration": 3.76,
+      "text": "is going to be in\na nice, smooth air."
+    },
+    {
+      "start": 2425.19,
+      "duration": 3.73,
+      "text": "Wake turbulence [INAUDIBLE] is\nalso another thing to consider."
+    },
+    {
+      "start": 2428.92,
+      "duration": 1.35,
+      "text": "Let's look at that."
+    },
+    {
+      "start": 2430.27,
+      "duration": 11.85,
+      "text": "So if you're taking off behind\nan airplane, so look at that--"
+    },
+    {
+      "start": 2442.12,
+      "duration": 3.0,
+      "text": "heavy, slow and in\nclean configuration."
+    },
+    {
+      "start": 2445.12,
+      "duration": 5.1,
+      "text": "So airplanes will tend\nto retract their flaps,"
+    },
+    {
+      "start": 2450.22,
+      "duration": 2.37,
+      "text": "and therefore be in\na clean configuration"
+    },
+    {
+      "start": 2452.59,
+      "duration": 2.49,
+      "text": "shortly after takeoff,\nwhereas, if they're landing,"
+    },
+    {
+      "start": 2455.08,
+      "duration": 1.03,
+      "text": "the flaps are down."
+    },
+    {
+      "start": 2456.11,
+      "duration": 2.21,
+      "text": "They're not generating quite\nas much wake turbulence."
+    },
+    {
+      "start": 2458.32,
+      "duration": 3.18,
+      "text": "Although, still if you land\nbehind a Boeing, in your little"
+    },
+    {
+      "start": 2461.5,
+      "duration": 1.35,
+      "text": "Cessna, you will notice that."
+    },
+    {
+      "start": 2467.19,
+      "duration": 2.31,
+      "text": "The solution here--\nand I think this"
+    },
+    {
+      "start": 2469.5,
+      "duration": 3.69,
+      "text": "is a test question--\nis you land or take off"
+    },
+    {
+      "start": 2473.19,
+      "duration": 4.03,
+      "text": "beyond the touchdown\npoint of a large aircraft."
+    },
+    {
+      "start": 2477.22,
+      "duration": 4.65,
+      "text": "So if the large aircraft--"
+    },
+    {
+      "start": 2481.87,
+      "duration": 4.95,
+      "text": "let's say the large aircraft\nlanded right here in front"
+    },
+    {
+      "start": 2486.82,
+      "duration": 1.56,
+      "text": "of the laptop on the runway."
+    },
+    {
+      "start": 2488.38,
+      "duration": 2.13,
+      "text": "You just fly a\nlittle bit higher."
+    },
+    {
+      "start": 2490.51,
+      "duration": 2.78,
+      "text": "And you land maybe in\nthe middle of the runway."
+    },
+    {
+      "start": 2493.29,
+      "duration": 2.71,
+      "text": "And that way, you can't possibly\nget into wake turbulence,"
+    },
+    {
+      "start": 2496.0,
+      "duration": 2.88,
+      "text": "because it will have sunk below\nthat big aircraft's flight"
+    },
+    {
+      "start": 2498.88,
+      "duration": 0.96,
+      "text": "path."
+    },
+    {
+      "start": 2499.84,
+      "duration": 1.43,
+      "text": "Controllers at a\ntowered airport,"
+    },
+    {
+      "start": 2501.27,
+      "duration": 3.94,
+      "text": "they'll also separate you by\nthe necessary number of minutes."
+    },
+    {
+      "start": 2505.21,
+      "duration": 3.6,
+      "text": "They have a bunch of regulations\nabout how much separation"
+    },
+    {
+      "start": 2508.81,
+      "duration": 2.82,
+      "text": "they have to have\nbetween aircraft."
+    },
+    {
+      "start": 2511.63,
+      "duration": 1.87,
+      "text": "And then similarly,\nfor liftoff point--"
+    },
+    {
+      "start": 2513.5,
+      "duration": 3.29,
+      "text": "so if the big airplane--"
+    },
+    {
+      "start": 2516.79,
+      "duration": 4.5,
+      "text": "again, this is not really that\nmuch of a practical problem,"
+    },
+    {
+      "start": 2521.29,
+      "duration": 3.03,
+      "text": "because so little runway\nis used by light airplanes."
+    },
+    {
+      "start": 2524.32,
+      "duration": 4.29,
+      "text": "But if the big airplane rotated\nand took off and started"
+    },
+    {
+      "start": 2528.61,
+      "duration": 2.67,
+      "text": "climbing here, well,\nthen you take off"
+    },
+    {
+      "start": 2531.28,
+      "duration": 2.46,
+      "text": "and start climbing earlier."
+    },
+    {
+      "start": 2533.74,
+      "duration": 2.45,
+      "text": "Of course, the climb\nrate of the big airplane"
+    },
+    {
+      "start": 2536.19,
+      "duration": 1.58,
+      "text": "is probably a lot\nbetter than you are."
+    },
+    {
+      "start": 2537.77,
+      "duration": 2.69,
+      "text": "So you've got to think about\nwhich way the wind is going"
+    },
+    {
+      "start": 2540.46,
+      "duration": 2.83,
+      "text": "and maybe try to\nturn away from it."
+    },
+    {
+      "start": 2543.29,
+      "duration": 2.42,
+      "text": "I've only really been\nstuck in weight turbulence"
+    },
+    {
+      "start": 2545.71,
+      "duration": 1.83,
+      "text": "once that I can think about."
+    },
+    {
+      "start": 2547.54,
+      "duration": 1.5,
+      "text": "It was at Hanscom Field."
+    },
+    {
+      "start": 2549.04,
+      "duration": 3.06,
+      "text": "And there was a\nheavy helicopter that"
+    },
+    {
+      "start": 2552.1,
+      "duration": 1.98,
+      "text": "was cleared to\nland on the runway,"
+    },
+    {
+      "start": 2554.08,
+      "duration": 2.01,
+      "text": "and then transitioned sideways."
+    },
+    {
+      "start": 2556.09,
+      "duration": 1.2,
+      "text": "And I was in the Cirrus."
+    },
+    {
+      "start": 2557.29,
+      "duration": 1.71,
+      "text": "And I think the\ncontrollers didn't really"
+    },
+    {
+      "start": 2559.0,
+      "duration": 3.8,
+      "text": "think about, well, how\nmuch wake turbulence can"
+    },
+    {
+      "start": 2562.8,
+      "duration": 1.84,
+      "text": "a helicopter generate."
+    },
+    {
+      "start": 2564.64,
+      "duration": 1.89,
+      "text": "So I was trying to land."
+    },
+    {
+      "start": 2566.53,
+      "duration": 2.58,
+      "text": "And maybe about 200\nfeet above the ground,"
+    },
+    {
+      "start": 2569.11,
+      "duration": 4.71,
+      "text": "there was a sharp\nwing dip that I--"
+    },
+    {
+      "start": 2573.82,
+      "duration": 3.36,
+      "text": "the good news is you don't have\nto be heroic to correct it,"
+    },
+    {
+      "start": 2577.18,
+      "duration": 2.31,
+      "text": "because, if your\nairplane is banked,"
+    },
+    {
+      "start": 2579.49,
+      "duration": 2.56,
+      "text": "the natural tendency is to\nwant to take the bank out."
+    },
+    {
+      "start": 2582.05,
+      "duration": 1.58,
+      "text": "So whenever your\nnatural tendency"
+    },
+    {
+      "start": 2583.63,
+      "duration": 5.8,
+      "text": "is to do the safe thing, that's\nusually not much of a problem."
+    },
+    {
+      "start": 2589.43,
+      "duration": 0.5,
+      "text": "Oh yeah."
+    },
+    {
+      "start": 2589.93,
+      "duration": 3.82,
+      "text": "So anyway, here's\nthe FAA question."
+    },
+    {
+      "start": 2593.75,
+      "duration": 1.17,
+      "text": "Who wants to give an answer?"
+    },
+    {
+      "start": 2594.92,
+      "duration": 0.66,
+      "text": "Shout it out."
+    },
+    {
+      "start": 2595.58,
+      "duration": 0.78,
+      "text": "A, B, or C?"
+    },
+    {
+      "start": 2604.16,
+      "duration": 1.39,
+      "text": "AUDIENCE: A."
+    },
+    {
+      "start": 2605.55,
+      "duration": 0.92,
+      "text": "PHILIP GREENSPUN: Yay."
+    },
+    {
+      "start": 2610.62,
+      "duration": 1.06,
+      "text": "All right."
+    },
+    {
+      "start": 2611.68,
+      "duration": 4.65,
+      "text": "So this is a practical\nissue, especially for anybody"
+    },
+    {
+      "start": 2616.33,
+      "duration": 3.63,
+      "text": "who wants to fly out west."
+    },
+    {
+      "start": 2619.96,
+      "duration": 1.83,
+      "text": "You have the Sierra Mountains."
+    },
+    {
+      "start": 2621.79,
+      "duration": 2.31,
+      "text": "You have the Rocky Mountains."
+    },
+    {
+      "start": 2624.1,
+      "duration": 2.58,
+      "text": "And you have to be very careful\nwhen crossing these mountain"
+    },
+    {
+      "start": 2626.68,
+      "duration": 2.85,
+      "text": "ranges."
+    },
+    {
+      "start": 2629.53,
+      "duration": 3.24,
+      "text": "If the wind aloft forecast\nis more than about 30 knots"
+    },
+    {
+      "start": 2632.77,
+      "duration": 3.36,
+      "text": "for the time that you're\nplanning on crossing,"
+    },
+    {
+      "start": 2636.13,
+      "duration": 3.51,
+      "text": "you can expect this kind of\nturbulence on the lee side"
+    },
+    {
+      "start": 2639.64,
+      "duration": 3.04,
+      "text": "or the eastern side of\nthose mountain ranges."
+    },
+    {
+      "start": 2642.68,
+      "duration": 4.52,
+      "text": "So when I've crossed those\nmountains in light airplanes,"
+    },
+    {
+      "start": 2647.2,
+      "duration": 3.9,
+      "text": "I have usually done it first\nthing in the morning basically."
+    },
+    {
+      "start": 2651.1,
+      "duration": 4.32,
+      "text": "So I arranged to shut down\njust short of the mountains"
+    },
+    {
+      "start": 2655.42,
+      "duration": 2.91,
+      "text": "the night before, and then\ncross early in the morning"
+    },
+    {
+      "start": 2658.33,
+      "duration": 3.0,
+      "text": "when the winds are\ntypically calm."
+    },
+    {
+      "start": 2661.33,
+      "duration": 4.14,
+      "text": "So you can look for\nthese lenticular clouds."
+    },
+    {
+      "start": 2665.47,
+      "duration": 2.22,
+      "text": "But again, if you\nsaw the winds aloft"
+    },
+    {
+      "start": 2667.69,
+      "duration": 2.97,
+      "text": "forecast that it was going to\nbe blowing 50 knots at 12,000"
+    },
+    {
+      "start": 2670.66,
+      "duration": 1.92,
+      "text": "feet, you can be\npretty sure that it's"
+    },
+    {
+      "start": 2672.58,
+      "duration": 4.0,
+      "text": "going to be turbulent."
+    },
+    {
+      "start": 2676.58,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 2677.08,
+      "duration": 6.53,
+      "text": "Structural icing-- you can\nget rime, clear or mixed."
+    },
+    {
+      "start": 2683.61,
+      "duration": 4.11,
+      "text": "I'll just let you look\nthrough the conditions that"
+    },
+    {
+      "start": 2687.72,
+      "duration": 0.66,
+      "text": "lead to this."
+    },
+    {
+      "start": 2696.3,
+      "duration": 4.05,
+      "text": "Clearing rime-- probably\nrime icing is more common."
+    },
+    {
+      "start": 2704.47,
+      "duration": 2.29,
+      "text": "What happens?"
+    },
+    {
+      "start": 2706.76,
+      "duration": 2.95,
+      "text": "Everything gets worse\nabout your aircraft."
+    },
+    {
+      "start": 2709.71,
+      "duration": 1.42,
+      "text": "Especially if\nyou're on autopilot,"
+    },
+    {
+      "start": 2711.13,
+      "duration": 4.76,
+      "text": "it's a challenge to recognize\nwhen icing is occurring."
+    },
+    {
+      "start": 2715.89,
+      "duration": 2.18,
+      "text": "You can be in the air,\nfat, dumb, and happy"
+    },
+    {
+      "start": 2718.07,
+      "duration": 4.04,
+      "text": "while the airplane gets iced up."
+    },
+    {
+      "start": 2722.11,
+      "duration": 5.76,
+      "text": "So the worst part of it, I\nguess, is that you can't climb."
+    },
+    {
+      "start": 2727.87,
+      "duration": 2.85,
+      "text": "Basically, when your airplane\nhas all this performance"
+    },
+    {
+      "start": 2730.72,
+      "duration": 3.91,
+      "text": "reduction, you can\nsummarize this all--"
+    },
+    {
+      "start": 2734.63,
+      "duration": 3.44,
+      "text": "if it's only moderate\nicing, basically you"
+    },
+    {
+      "start": 2738.07,
+      "duration": 1.5,
+      "text": "have an aircraft\nthat can't climb."
+    },
+    {
+      "start": 2739.57,
+      "duration": 1.56,
+      "text": "All you can do is descend."
+    },
+    {
+      "start": 2741.13,
+      "duration": 4.77,
+      "text": "So a good practical tip is, if\nyou're-- well, first off all,"
+    },
+    {
+      "start": 2745.9,
+      "duration": 1.86,
+      "text": "the good news is, if\nyou're a VFR pilot,"
+    },
+    {
+      "start": 2747.76,
+      "duration": 1.86,
+      "text": "like you guys are\ngoing to become,"
+    },
+    {
+      "start": 2749.62,
+      "duration": 2.4,
+      "text": "initially you shouldn't\nhave to worry about icing,"
+    },
+    {
+      "start": 2752.02,
+      "duration": 3.18,
+      "text": "because it's a phenomenon that\noccurs when you're in a cloud."
+    },
+    {
+      "start": 2755.2,
+      "duration": 2.64,
+      "text": "So you shouldn't be in a\ncloud if you're a VFR pilot"
+    },
+    {
+      "start": 2757.84,
+      "duration": 0.98,
+      "text": "to begin with."
+    },
+    {
+      "start": 2758.82,
+      "duration": 2.29,
+      "text": "So how did you get ice?"
+    },
+    {
+      "start": 2761.11,
+      "duration": 2.19,
+      "text": "The exception might be\nfreezing rain, if you somehow"
+    },
+    {
+      "start": 2763.3,
+      "duration": 2.11,
+      "text": "drive through freezing rain."
+    },
+    {
+      "start": 2765.41,
+      "duration": 2.96,
+      "text": "But if you are instrument-rated\nand you are going somewhere--"
+    },
+    {
+      "start": 2768.37,
+      "duration": 4.59,
+      "text": "I'm planning on going to New\nYork next week in the Cirrus."
+    },
+    {
+      "start": 2772.96,
+      "duration": 6.39,
+      "text": "So if it's cloudy, even if\nthere's no icing forecast,"
+    },
+    {
+      "start": 2779.35,
+      "duration": 3.27,
+      "text": "I know that there is a risk\nof getting ice on the wings."
+    },
+    {
+      "start": 2782.62,
+      "duration": 3.27,
+      "text": "So in the wintertime,\nI just say,"
+    },
+    {
+      "start": 2785.89,
+      "duration": 2.38,
+      "text": "well look, I'm not going to\ngo unless it's above freezing"
+    },
+    {
+      "start": 2788.26,
+      "duration": 2.64,
+      "text": "on the surface, because,\nif I get iced up,"
+    },
+    {
+      "start": 2790.9,
+      "duration": 5.43,
+      "text": "then inadvertently I\nneed an escape route."
+    },
+    {
+      "start": 2796.33,
+      "duration": 3.87,
+      "text": "And if it's going to be above\nfreezing at, say, 3,000 feet,"
+    },
+    {
+      "start": 2800.2,
+      "duration": 1.14,
+      "text": "well, that's fine."
+    },
+    {
+      "start": 2801.34,
+      "duration": 2.37,
+      "text": "I know that I probably\nwon't be able to climb"
+    },
+    {
+      "start": 2803.71,
+      "duration": 4.35,
+      "text": "if I get moderate icing, but\nI will be able to descend."
+    },
+    {
+      "start": 2808.06,
+      "duration": 1.86,
+      "text": "Even a brick can descend."
+    },
+    {
+      "start": 2809.92,
+      "duration": 3.17,
+      "text": "So descend down to 3,000 feet,\nand all the ice will melt off."
+    },
+    {
+      "start": 2813.09,
+      "duration": 0.83,
+      "text": "That would be great."
+    },
+    {
+      "start": 2813.92,
+      "duration": 2.86,
+      "text": "But if it's below\nfreezing on the surface,"
+    },
+    {
+      "start": 2816.78,
+      "duration": 3.83,
+      "text": "then it's basically a no-go."
+    },
+    {
+      "start": 2820.61,
+      "duration": 1.7,
+      "text": "I've definitely had\nicing a few times."
+    },
+    {
+      "start": 2822.31,
+      "duration": 1.05,
+      "text": "And it's pretty scary."
+    },
+    {
+      "start": 2823.36,
+      "duration": 6.11,
+      "text": "I was out on a day when\nwith an instrument student."
+    },
+    {
+      "start": 2829.47,
+      "duration": 1.8,
+      "text": "And it seemed like\na perfect day to go"
+    },
+    {
+      "start": 2831.27,
+      "duration": 2.43,
+      "text": "practice instrument flying."
+    },
+    {
+      "start": 2833.7,
+      "duration": 1.83,
+      "text": "There was no turbulence."
+    },
+    {
+      "start": 2835.53,
+      "duration": 2.31,
+      "text": "There was just\nclouds everywhere,"
+    },
+    {
+      "start": 2837.84,
+      "duration": 1.91,
+      "text": "about 800 feet of ceiling."
+    },
+    {
+      "start": 2839.75,
+      "duration": 2.08,
+      "text": "So you could be in the\nclouds, do real approaches,"
+    },
+    {
+      "start": 2841.83,
+      "duration": 3.36,
+      "text": "get experience with actual IMC."
+    },
+    {
+      "start": 2845.19,
+      "duration": 2.73,
+      "text": "And halfway through\nthe flight, I"
+    },
+    {
+      "start": 2847.92,
+      "duration": 4.05,
+      "text": "started criticizing this guy\nfor using way too much power."
+    },
+    {
+      "start": 2851.97,
+      "duration": 4.02,
+      "text": "The power settings were all off."
+    },
+    {
+      "start": 2855.99,
+      "duration": 1.15,
+      "text": "What are you doing wrong?"
+    },
+    {
+      "start": 2857.14,
+      "duration": 1.46,
+      "text": "And then I looked\nout on the wings."
+    },
+    {
+      "start": 2858.6,
+      "duration": 1.92,
+      "text": "And I saw they were all frosted."
+    },
+    {
+      "start": 2860.52,
+      "duration": 1.5,
+      "text": "So we descended."
+    },
+    {
+      "start": 2862.02,
+      "duration": 4.26,
+      "text": "We managed to complete an\nILS approach into Lawrence"
+    },
+    {
+      "start": 2866.28,
+      "duration": 4.47,
+      "text": "and pulled the airplane\ninto a warm hangar"
+    },
+    {
+      "start": 2870.75,
+      "duration": 2.89,
+      "text": "and got it warmed up."
+    },
+    {
+      "start": 2873.64,
+      "duration": 2.15,
+      "text": "So actually, as we\nwere as we were flying,"
+    },
+    {
+      "start": 2875.79,
+      "duration": 2.69,
+      "text": "the FAA issued an\nAIRMET for icing,"
+    },
+    {
+      "start": 2878.48,
+      "duration": 2.89,
+      "text": "but the controllers\nnever told us about it."
+    },
+    {
+      "start": 2881.37,
+      "duration": 1.23,
+      "text": "All right."
+    },
+    {
+      "start": 2882.6,
+      "duration": 1.77,
+      "text": "Requirements for\nicing formation--"
+    },
+    {
+      "start": 2888.04,
+      "duration": 4.53,
+      "text": "near freezing temperatures,\nminus 10 to 0, is the worst."
+    },
+    {
+      "start": 2892.57,
+      "duration": 3.51,
+      "text": "You have to have a surface\non which the ice can form."
+    },
+    {
+      "start": 2896.08,
+      "duration": 2.67,
+      "text": "And you have to be invisible\nmoisture, basically."
+    },
+    {
+      "start": 2898.75,
+      "duration": 3.78,
+      "text": "So again, if you're flying in\nthe clear with your VFR pilot"
+    },
+    {
+      "start": 2902.53,
+      "duration": 2.98,
+      "text": "certificate, icing should\nnot be a factor for you."
+    },
+    {
+      "start": 2910.31,
+      "duration": 0.5,
+      "text": "Yeah."
+    },
+    {
+      "start": 2910.81,
+      "duration": 4.05,
+      "text": "So as I said below, go\nthrough a cold cloud"
+    },
+    {
+      "start": 2914.86,
+      "duration": 3.05,
+      "text": "only if you have an escape\nroute of warm air below."
+    },
+    {
+      "start": 2922.05,
+      "duration": 4.5,
+      "text": "AUDIENCE: [INAUDIBLE] for\nthe engine [INAUDIBLE]"
+    },
+    {
+      "start": 2926.55,
+      "duration": 4.95,
+      "text": "as far as getting the icing\nin the carburetor [INAUDIBLE].."
+    },
+    {
+      "start": 2931.5,
+      "duration": 0.96,
+      "text": "PHILIP GREENSPUN: Yeah."
+    },
+    {
+      "start": 2932.46,
+      "duration": 3.5,
+      "text": "So the question is, what\nabout icing in the engine?"
+    },
+    {
+      "start": 2935.96,
+      "duration": 2.85,
+      "text": "So you can get carb ice\nthat we talked about."
+    },
+    {
+      "start": 2938.81,
+      "duration": 3.68,
+      "text": "You can get carb ice when\nit's 50 degrees outside,"
+    },
+    {
+      "start": 2942.49,
+      "duration": 2.73,
+      "text": "as long as it's humid."
+    },
+    {
+      "start": 2945.22,
+      "duration": 2.22,
+      "text": "So it's slightly unrelated."
+    },
+    {
+      "start": 2947.44,
+      "duration": 2.91,
+      "text": "The main problem with\nengines is that you"
+    },
+    {
+      "start": 2950.35,
+      "duration": 2.05,
+      "text": "can get ice in the induction."
+    },
+    {
+      "start": 2952.4,
+      "duration": 3.53,
+      "text": "So if the intake for the engine\nwhere it's trying to breathe"
+    },
+    {
+      "start": 2955.93,
+      "duration": 3.33,
+      "text": "gets iced over, then there's\nan alternate-- again,"
+    },
+    {
+      "start": 2959.26,
+      "duration": 2.61,
+      "text": "they're relying\non the hero pilot."
+    },
+    {
+      "start": 2961.87,
+      "duration": 3.12,
+      "text": "Some airplanes actually,\nit'll just open automatically,"
+    },
+    {
+      "start": 2964.99,
+      "duration": 2.88,
+      "text": "the vacuum of trying to suck the\nair through the intake that's"
+    },
+    {
+      "start": 2967.87,
+      "duration": 4.31,
+      "text": "not working will cause\nsome backup door to open."
+    },
+    {
+      "start": 2972.18,
+      "duration": 1.75,
+      "text": "And a lot of--"
+    },
+    {
+      "start": 2973.93,
+      "duration": 4.38,
+      "text": "most IFR-certified aircraft have\nan alternate air lever that you"
+    },
+    {
+      "start": 2978.31,
+      "duration": 6.07,
+      "text": "can pull and have air pulled\nfrom somewhere inside the--"
+    },
+    {
+      "start": 2984.38,
+      "duration": 3.05,
+      "text": "it's a little more protected\ninside the airframe."
+    },
+    {
+      "start": 2987.43,
+      "duration": 1.85,
+      "text": "Does that answer your question?"
+    },
+    {
+      "start": 2989.28,
+      "duration": 0.62,
+      "text": "AUDIENCE: Yes."
+    },
+    {
+      "start": 2989.9,
+      "duration": 4.39,
+      "text": "So I guess you're saying as\nlong as the heat's working"
+    },
+    {
+      "start": 2994.29,
+      "duration": 2.43,
+      "text": "your [INAUDIBLE]."
+    },
+    {
+      "start": 2996.72,
+      "duration": 1.67,
+      "text": "PHILIP GREENSPUN: As\nlong as which heat?"
+    },
+    {
+      "start": 2998.39,
+      "duration": 5.48,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 3003.87,
+      "duration": 1.42,
+      "text": "PHILIP GREENSPUN:\nYou're not going"
+    },
+    {
+      "start": 3005.29,
+      "duration": 2.37,
+      "text": "to get carb icing and airframe\nicing at the same time"
+    },
+    {
+      "start": 3007.66,
+      "duration": 0.57,
+      "text": "probably."
+    },
+    {
+      "start": 3008.23,
+      "duration": 3.31,
+      "text": "I think, at that point,\nit's probably too cold."
+    },
+    {
+      "start": 3011.53,
+      "duration": 0.88,
+      "text": "I'm not I'm not sure."
+    },
+    {
+      "start": 3012.41,
+      "duration": 2.12,
+      "text": "Well, the other issue is\nyou're probably not going"
+    },
+    {
+      "start": 3014.53,
+      "duration": 1.89,
+      "text": "to fly a carburated\nairplane into the clouds,"
+    },
+    {
+      "start": 3016.42,
+      "duration": 3.18,
+      "text": "because the real IFR airplanes\nthat people use to travel,"
+    },
+    {
+      "start": 3019.6,
+      "duration": 3.74,
+      "text": "like Cirruses and\nBonanzas and stuff,"
+    },
+    {
+      "start": 3023.34,
+      "duration": 3.57,
+      "text": "in challenging conditions, those\nare almost all fuel injected."
+    },
+    {
+      "start": 3026.91,
+      "duration": 2.5,
+      "text": "But you do have to worry about\ninduction icing, like I said."
+    },
+    {
+      "start": 3032.31,
+      "duration": 0.5,
+      "text": "OK."
+    },
+    {
+      "start": 3035.74,
+      "duration": 1.9,
+      "text": "Icing layers are\nusually pretty thin."
+    },
+    {
+      "start": 3037.64,
+      "duration": 3.41,
+      "text": "So if you're in a jet, you\njust add power and climb up"
+    },
+    {
+      "start": 3041.05,
+      "duration": 3.34,
+      "text": "another few thousand feet\nand you're out of it."
+    },
+    {
+      "start": 3044.39,
+      "duration": 3.17,
+      "text": "Again, one of the\neffects of icing"
+    },
+    {
+      "start": 3047.56,
+      "duration": 4.38,
+      "text": "is to dramatically reduce\nyour climb performance."
+    },
+    {
+      "start": 3051.94,
+      "duration": 3.09,
+      "text": "So this best approach\nof climbing out of it"
+    },
+    {
+      "start": 3055.03,
+      "duration": 1.41,
+      "text": "is not always available."
+    },
+    {
+      "start": 3060.38,
+      "duration": 5.42,
+      "text": "You will end up using more\npower on the final approach."
+    },
+    {
+      "start": 3065.8,
+      "duration": 3.66,
+      "text": "And you'll add speed as\nwell, because the stall"
+    },
+    {
+      "start": 3069.46,
+      "duration": 1.02,
+      "text": "speed may have gone up."
+    },
+    {
+      "start": 3070.48,
+      "duration": 4.05,
+      "text": "And you can't really be\nsure, since it hasn't"
+    },
+    {
+      "start": 3074.53,
+      "duration": 3.64,
+      "text": "been quantified and tested."
+    },
+    {
+      "start": 3078.17,
+      "duration": 2.66,
+      "text": "You probably won't use flaps."
+    },
+    {
+      "start": 3080.83,
+      "duration": 3.84,
+      "text": "And you'll not\nmake severe turns."
+    },
+    {
+      "start": 3084.67,
+      "duration": 4.2,
+      "text": "So there's a good NASA video\nthat I encourage you to watch,"
+    },
+    {
+      "start": 3088.87,
+      "duration": 5.28,
+      "text": "especially as you work on higher\nperformance aircraft and IFR."
+    },
+    {
+      "start": 3094.15,
+      "duration": 3.31,
+      "text": "NASA has this great\nvideo about icing."
+    },
+    {
+      "start": 3097.46,
+      "duration": 0.95,
+      "text": "OK."
+    },
+    {
+      "start": 3098.41,
+      "duration": 3.42,
+      "text": "How do the transportation\nclass airplanes handle this?"
+    },
+    {
+      "start": 3101.83,
+      "duration": 5.16,
+      "text": "One approach is to push\nantifreeze out onto the wings."
+    },
+    {
+      "start": 3106.99,
+      "duration": 1.38,
+      "text": "That used to be called TKS."
+    },
+    {
+      "start": 3108.37,
+      "duration": 2.67,
+      "text": "Now, it's called CAV."
+    },
+    {
+      "start": 3111.04,
+      "duration": 1.42,
+      "text": "It's just a brand name."
+    },
+    {
+      "start": 3112.46,
+      "duration": 3.08,
+      "text": "So if you go to a flight school\nand you see a modern Cirrus,"
+    },
+    {
+      "start": 3115.54,
+      "duration": 2.97,
+      "text": "like the SR22s, the\nleading edges of the wings"
+    },
+    {
+      "start": 3118.51,
+      "duration": 1.2,
+      "text": "will be metal."
+    },
+    {
+      "start": 3119.71,
+      "duration": 1.95,
+      "text": "And they'll have little\ntiny holes in them."
+    },
+    {
+      "start": 3121.66,
+      "duration": 3.48,
+      "text": "And that's for this\nantifreeze to come out."
+    },
+    {
+      "start": 3125.14,
+      "duration": 3.51,
+      "text": "If you have a very light\njet or a turbo prop,"
+    },
+    {
+      "start": 3128.65,
+      "duration": 3.6,
+      "text": "you may have rubber boots on the\nwings and on the tail surfaces."
+    },
+    {
+      "start": 3132.25,
+      "duration": 3.06,
+      "text": "And those inflate to\ncrack the ice off."
+    },
+    {
+      "start": 3135.31,
+      "duration": 2.88,
+      "text": "The jets are really\nthe ultimate--"
+    },
+    {
+      "start": 3138.19,
+      "duration": 4.59,
+      "text": "the bigger jets\nall have bleed air."
+    },
+    {
+      "start": 3142.78,
+      "duration": 1.44,
+      "text": "Remember, the jets\nare compressing"
+    },
+    {
+      "start": 3144.22,
+      "duration": 2.84,
+      "text": "air so much that it becomes\nreally hot even before it's"
+    },
+    {
+      "start": 3147.06,
+      "duration": 0.97,
+      "text": "burned."
+    },
+    {
+      "start": 3148.03,
+      "duration": 2.46,
+      "text": "So you pull the bleed\nair off the compressor,"
+    },
+    {
+      "start": 3150.49,
+      "duration": 4.06,
+      "text": "and you run it out into the\nleading edges of the wings."
+    },
+    {
+      "start": 3154.55,
+      "duration": 3.17,
+      "text": "And that just melts the ice off."
+    },
+    {
+      "start": 3157.72,
+      "duration": 8.43,
+      "text": "The transporter aircraft, they\nalso heat the windshields."
+    },
+    {
+      "start": 3166.15,
+      "duration": 1.74,
+      "text": "So you'll be able\nto see when you do--"
+    },
+    {
+      "start": 3167.89,
+      "duration": 3.03,
+      "text": "if it's not above\nfreezing at the airport,"
+    },
+    {
+      "start": 3170.92,
+      "duration": 3.66,
+      "text": "you'll have a clear windshield,\nso you can leave the runway."
+    },
+    {
+      "start": 3174.58,
+      "duration": 3.81,
+      "text": "Even in very basic\nairplanes like a Cirrus,"
+    },
+    {
+      "start": 3178.39,
+      "duration": 4.65,
+      "text": "if they're IFR-certified,\nthe pedo tube"
+    },
+    {
+      "start": 3183.04,
+      "duration": 1.14,
+      "text": "is going to be heated."
+    },
+    {
+      "start": 3184.18,
+      "duration": 2.56,
+      "text": "There will be pedo heat."
+    },
+    {
+      "start": 3186.74,
+      "duration": 2.07,
+      "text": "OK."
+    },
+    {
+      "start": 3188.81,
+      "duration": 2.82,
+      "text": "You can learn a whole\nbunch more about this."
+    },
+    {
+      "start": 3191.63,
+      "duration": 1.68,
+      "text": "I think everything\nyou know to pass"
+    },
+    {
+      "start": 3193.31,
+      "duration": 2.13,
+      "text": "the test is pretty much\nin the Pilot's Handbook"
+    },
+    {
+      "start": 3195.44,
+      "duration": 1.95,
+      "text": "of Aeronautical Knowledge."
+    },
+    {
+      "start": 3197.39,
+      "duration": 2.73,
+      "text": "There's a little bit in the AIM."
+    },
+    {
+      "start": 3200.12,
+      "duration": 3.36,
+      "text": "If you want to dig deeper\nand understand more of it,"
+    },
+    {
+      "start": 3203.48,
+      "duration": 2.67,
+      "text": "then I would encourage you\nto look at these FAA weather"
+    },
+    {
+      "start": 3206.15,
+      "duration": 1.64,
+      "text": "publications."
+    },
+    {
+      "start": 3207.79,
+      "duration": 4.15,
+      "text": "One is about weather theory\nand one is about information"
+    },
+    {
+      "start": 3211.94,
+      "duration": 2.34,
+      "text": "that you can get\nfrom various sources."
+    },
+    {
+      "start": 3214.28,
+      "duration": 4.17,
+      "text": "There's also these videos that I\nwould encourage you to look at."
+    },
+    {
+      "start": 3218.45,
+      "duration": 3.38,
+      "text": "One of them is called\n\"Ambushed by Ice\""
+    },
+    {
+      "start": 3221.83,
+      "duration": 2.56,
+      "text": "and \"Into Deep--\"\nthese particular links,"
+    },
+    {
+      "start": 3224.39,
+      "duration": 2.91,
+      "text": "don't write those down, because\nI fixed them last night,"
+    },
+    {
+      "start": 3227.3,
+      "duration": 2.19,
+      "text": "but the Dropbox\ndidn't update yet."
+    },
+    {
+      "start": 3229.49,
+      "duration": 3.01,
+      "text": "Do they have real-time\nweather data?"
+    },
+    {
+      "start": 3232.5,
+      "duration": 3.2,
+      "text": "So the question is, in your\nbasic trainer airplane,"
+    },
+    {
+      "start": 3235.7,
+      "duration": 3.07,
+      "text": "do they have real-time\nweather data?"
+    },
+    {
+      "start": 3238.77,
+      "duration": 3.53,
+      "text": "So let's just talk about\nEast Coast Aero Club"
+    },
+    {
+      "start": 3242.3,
+      "duration": 4.71,
+      "text": "is a typical higher\nend flight school."
+    },
+    {
+      "start": 3247.01,
+      "duration": 3.42,
+      "text": "About maybe 10 years ago,\nalmost all the aircraft"
+    },
+    {
+      "start": 3250.43,
+      "duration": 4.62,
+      "text": "had a Garmin IFR-certified\nGPS put in, a Garmin 430."
+    },
+    {
+      "start": 3255.05,
+      "duration": 3.72,
+      "text": "So at that point, you\nhad a really good GPS."
+    },
+    {
+      "start": 3258.77,
+      "duration": 3.93,
+      "text": "But they did not have XM weather\npulling data from satellites,"
+    },
+    {
+      "start": 3262.7,
+      "duration": 2.97,
+      "text": "which we'll talk\nabout in a little bit,"
+    },
+    {
+      "start": 3265.67,
+      "duration": 5.04,
+      "text": "because it's a $500 a year\nsubscription and a $10,000 box."
+    },
+    {
+      "start": 3270.71,
+      "duration": 2.28,
+      "text": "So people didn't want to do it."
+    },
+    {
+      "start": 3272.99,
+      "duration": 4.23,
+      "text": "With ADS-B, the FAA is now\nproviding some of the same data"
+    },
+    {
+      "start": 3277.22,
+      "duration": 4.02,
+      "text": "that XM was providing\nfor free, as long"
+    },
+    {
+      "start": 3281.24,
+      "duration": 3.14,
+      "text": "as you have an ADS-B\nin transponder."
+    },
+    {
+      "start": 3284.38,
+      "duration": 3.34,
+      "text": "And the East Coast\nAero-- well, everybody"
+    },
+    {
+      "start": 3287.72,
+      "duration": 3.06,
+      "text": "has to upgrade to ADS-B by 2020."
+    },
+    {
+      "start": 3290.78,
+      "duration": 2.16,
+      "text": "Not everybody has\nto have ADS-B in,"
+    },
+    {
+      "start": 3292.94,
+      "duration": 1.86,
+      "text": "but I think East Coast\nAero Club's probably"
+    },
+    {
+      "start": 3294.8,
+      "duration": 3.03,
+      "text": "fairly typical of the\nbetter flight schools."
+    },
+    {
+      "start": 3297.83,
+      "duration": 3.15,
+      "text": "They've put-- or they're\ngradually putting in a ADS-B"
+    },
+    {
+      "start": 3300.98,
+      "duration": 2.62,
+      "text": "in and out transponders\nin all their aircraft."
+    },
+    {
+      "start": 3303.6,
+      "duration": 1.89,
+      "text": "It won't display in the cockpit."
+    },
+    {
+      "start": 3305.49,
+      "duration": 2.33,
+      "text": "You'll have to have your\nphone, your iPad, or something."
+    },
+    {
+      "start": 3307.82,
+      "duration": 3.36,
+      "text": "But you'll be able to see--"
+    },
+    {
+      "start": 3311.18,
+      "duration": 2.28,
+      "text": "you'll be able to see\nNEXRAD radar picture."
+    },
+    {
+      "start": 3313.46,
+      "duration": 1.65,
+      "text": "You'll be able to\nget METARs and TAFs."
+    },
+    {
+      "start": 3315.11,
+      "duration": 1.17,
+      "text": "You'll get all of that."
+    },
+    {
+      "start": 3316.28,
+      "duration": 0.66,
+      "text": "So I think--"
+    },
+    {
+      "start": 3316.94,
+      "duration": 3.18,
+      "text": "TINA: But if you don't want\nto rely on someone else--"
+    },
+    {
+      "start": 3320.12,
+      "duration": 1.32,
+      "text": "this is MIT."
+    },
+    {
+      "start": 3321.44,
+      "duration": 2.52,
+      "text": "You can actually get\nthat data yourself."
+    },
+    {
+      "start": 3323.96,
+      "duration": 2.85,
+      "text": "So when we talk about\nweather data today,"
+    },
+    {
+      "start": 3326.81,
+      "duration": 1.5,
+      "text": "we're going to\nalso talk about how"
+    },
+    {
+      "start": 3328.31,
+      "duration": 5.85,
+      "text": "you can do it yourself,\nbuild your own Stratux ADS-B"
+    },
+    {
+      "start": 3334.16,
+      "duration": 1.51,
+      "text": "receiver."
+    },
+    {
+      "start": 3335.67,
+      "duration": 1.26,
+      "text": "And I've actually done this."
+    },
+    {
+      "start": 3336.93,
+      "duration": 1.41,
+      "text": "It was really fun to do."
+    },
+    {
+      "start": 3338.34,
+      "duration": 2.87,
+      "text": "It's very easy, actually."
+    },
+    {
+      "start": 3341.21,
+      "duration": 4.05,
+      "text": "Basically, based on a Raspberry\nPi with a couple of antennas,"
+    },
+    {
+      "start": 3345.26,
+      "duration": 3.48,
+      "text": "with a little cooling fan, you\ncan build a little box that"
+    },
+    {
+      "start": 3348.74,
+      "duration": 2.01,
+      "text": "can receive that weather data."
+    },
+    {
+      "start": 3350.75,
+      "duration": 2.86,
+      "text": "And it actually-- the\nsoftware is open source."
+    },
+    {
+      "start": 3353.61,
+      "duration": 2.21,
+      "text": "And it can sync with\nyour other tools."
+    },
+    {
+      "start": 3355.82,
+      "duration": 2.46,
+      "text": "So I have it synced\nwith my Foreflight app."
+    },
+    {
+      "start": 3358.28,
+      "duration": 2.21,
+      "text": "So when I'm flying,\nI plug that in, I"
+    },
+    {
+      "start": 3360.49,
+      "duration": 1.54,
+      "text": "bring a backup battery for it."
+    },
+    {
+      "start": 3362.03,
+      "duration": 3.39,
+      "text": "And it gives me weather data\nand some other traffic data."
+    },
+    {
+      "start": 3365.42,
+      "duration": 2.15,
+      "text": "And we'll be talking about\nthat in a couple hours."
+    },
+    {
+      "start": 3367.57,
+      "duration": 1.92,
+      "text": "PHILIP GREENSPUN: Yeah,\nI should have noticed."
+    },
+    {
+      "start": 3369.49,
+      "duration": 3.07,
+      "text": "As Tina said, a lot of\nflight school customers"
+    },
+    {
+      "start": 3372.56,
+      "duration": 3.09,
+      "text": "for the last five years would\nbring little battery powered"
+    },
+    {
+      "start": 3375.65,
+      "duration": 5.65,
+      "text": "boxes and stick them to the\nwindshield of whatever they're"
+    },
+    {
+      "start": 3381.3,
+      "duration": 0.5,
+      "text": "flying."
+    },
+    {
+      "start": 3381.8,
+      "duration": 3.12,
+      "text": "And they would get a whole\nbunch of more modern services."
+    },
+    {
+      "start": 3384.92,
+      "duration": 1.86,
+      "text": "I personally don't love that."
+    },
+    {
+      "start": 3386.78,
+      "duration": 1.94,
+      "text": "When I started out\nin my flying career,"
+    },
+    {
+      "start": 3388.72,
+      "duration": 1.75,
+      "text": "I had my big flight\nbag with all the stuff"
+    },
+    {
+      "start": 3390.47,
+      "duration": 1.86,
+      "text": "I was going to bring\ninto the airplane."
+    },
+    {
+      "start": 3392.33,
+      "duration": 2.1,
+      "text": "And now, I have the\nphilosophy that I"
+    },
+    {
+      "start": 3394.43,
+      "duration": 1.83,
+      "text": "don't want to bring\nanything into the CIrrus"
+    },
+    {
+      "start": 3396.26,
+      "duration": 1.17,
+      "text": "other than a pencil."
+    },
+    {
+      "start": 3397.43,
+      "duration": 3.71,
+      "text": "I want everything that I\nneed to be in the panel."
+    },
+    {
+      "start": 3401.14,
+      "duration": 3.01,
+      "text": "But yeah, I definitely think,\nin the older airplanes,"
+    },
+    {
+      "start": 3404.15,
+      "duration": 1.8,
+      "text": "it's become\nconventional for people"
+    },
+    {
+      "start": 3405.95,
+      "duration": 6.14,
+      "text": "to bring some sort of ADS-B\nreceiver and get that data."
+    }
+  ]
+}

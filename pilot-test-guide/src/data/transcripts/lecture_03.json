@@ -1,0 +1,3690 @@
+{
+  "videoId": "PHtPau1c5sU",
+  "lectureNum": 3,
+  "title": "Learning to Fly",
+  "topics": [
+    "flight training",
+    "lessons",
+    "practice",
+    "stalls",
+    "turns",
+    "ground reference"
+  ],
+  "segments": [
+    {
+      "start": 10.7,
+      "duration": 1.46,
+      "text": "PHILIP GREENSPUN:\nAll right, folks."
+    },
+    {
+      "start": 12.16,
+      "duration": 0.56,
+      "text": "Welcome back."
+    },
+    {
+      "start": 17.08,
+      "duration": 5.54,
+      "text": "So now we'll learn about the\nprocess of learning to fly"
+    },
+    {
+      "start": 22.62,
+      "duration": 1.54,
+      "text": "and some of the\nregulations around it"
+    },
+    {
+      "start": 24.16,
+      "duration": 2.24,
+      "text": "that will be on the test."
+    },
+    {
+      "start": 26.4,
+      "duration": 1.58,
+      "text": "All right, so when\nyou learn to fly,"
+    },
+    {
+      "start": 27.98,
+      "duration": 3.78,
+      "text": "you'll pre-flight the\naircraft with the instructor."
+    },
+    {
+      "start": 31.76,
+      "duration": 4.11,
+      "text": "Learn about that-- how\nto inspect everything."
+    },
+    {
+      "start": 35.87,
+      "duration": 2.13,
+      "text": "The first few lessons\nare really about learning"
+    },
+    {
+      "start": 38.0,
+      "duration": 2.1,
+      "text": "to see the aircraft\nattitude, seeing"
+    },
+    {
+      "start": 40.1,
+      "duration": 3.3,
+      "text": "whether you're pitched\nup, pitched down, banked"
+    },
+    {
+      "start": 43.4,
+      "duration": 0.6,
+      "text": "left or right."
+    },
+    {
+      "start": 44.0,
+      "duration": 2.34,
+      "text": "Most people have a\nfairly easy time with."
+    },
+    {
+      "start": 46.34,
+      "duration": 2.7,
+      "text": "Then you learn to\ntake off and land."
+    },
+    {
+      "start": 49.04,
+      "duration": 3.31,
+      "text": "As I said earlier, that\ntakes about five or 10 hours."
+    },
+    {
+      "start": 52.35,
+      "duration": 2.75,
+      "text": "And in fact, people used\nto solo after four hours"
+    },
+    {
+      "start": 55.1,
+      "duration": 2.69,
+      "text": "of flight training,\nespecially young people."
+    },
+    {
+      "start": 57.79,
+      "duration": 1.75,
+      "text": "Now it takes a little\nlonger, because they"
+    },
+    {
+      "start": 59.54,
+      "duration": 2.04,
+      "text": "want you to know\nabout more bureaucracy"
+    },
+    {
+      "start": 61.58,
+      "duration": 2.1,
+      "text": "and how to talk to the\ncontrol tower and so forth."
+    },
+    {
+      "start": 67.27,
+      "duration": 1.89,
+      "text": "A good trainer airplane--"
+    },
+    {
+      "start": 69.16,
+      "duration": 2.37,
+      "text": "why not start with the\nbest and just learn"
+    },
+    {
+      "start": 71.53,
+      "duration": 4.88,
+      "text": "how to fly your personal\nGulfstream or whatever."
+    },
+    {
+      "start": 76.41,
+      "duration": 2.59,
+      "text": "If it's a very heavy\nairplane like a Gulfstream,"
+    },
+    {
+      "start": 79.0,
+      "duration": 2.52,
+      "text": "which can weigh 100,000\npounds, then you"
+    },
+    {
+      "start": 81.52,
+      "duration": 2.76,
+      "text": "have to think ahead\nbecause of inertia."
+    },
+    {
+      "start": 84.28,
+      "duration": 2.4,
+      "text": "The airplane tends to keep\ndoing whatever it was doing"
+    },
+    {
+      "start": 86.68,
+      "duration": 2.61,
+      "text": "five or 10 seconds earlier."
+    },
+    {
+      "start": 89.29,
+      "duration": 2.25,
+      "text": "At the same time, though,\na really tiny airplane"
+    },
+    {
+      "start": 91.54,
+      "duration": 4.57,
+      "text": "like some of the little\ntwo-seaters, they are unstable."
+    },
+    {
+      "start": 96.11,
+      "duration": 1.79,
+      "text": "And they just get kicked\naround by the wind"
+    },
+    {
+      "start": 97.9,
+      "duration": 2.25,
+      "text": "so much that you're not sure\nif it's something you did"
+    },
+    {
+      "start": 100.15,
+      "duration": 3.06,
+      "text": "or something that the\nenvironment did to you."
+    },
+    {
+      "start": 103.21,
+      "duration": 1.65,
+      "text": "Also people have gotten heavier."
+    },
+    {
+      "start": 104.86,
+      "duration": 1.38,
+      "text": "The owner of East\nCoast Aero Club"
+    },
+    {
+      "start": 106.24,
+      "duration": 3.72,
+      "text": "says that when he started in\nthe '80s 85% of the customers"
+    },
+    {
+      "start": 109.96,
+      "duration": 3.25,
+      "text": "and instructors could train in\nthe two-seat Piper Tomahawk."
+    },
+    {
+      "start": 113.21,
+      "duration": 6.38,
+      "text": "Now 85% require training in\nthe four-seat Piper Warrior."
+    },
+    {
+      "start": 119.59,
+      "duration": 4.68,
+      "text": "You don't want it to be\ntoo powerful, actually."
+    },
+    {
+      "start": 124.27,
+      "duration": 3.01,
+      "text": "And that's because\nwhen you go from--"
+    },
+    {
+      "start": 127.28,
+      "duration": 3.08,
+      "text": "on a go around, for example,\nand you go from near idle power"
+    },
+    {
+      "start": 130.36,
+      "duration": 2.5,
+      "text": "to full power, that's\na huge transition."
+    },
+    {
+      "start": 132.86,
+      "duration": 3.53,
+      "text": "And those left turning\ntendencies that Tina mentioned"
+    },
+    {
+      "start": 136.39,
+      "duration": 4.74,
+      "text": "mean that you need immediate\nand significant rudder input"
+    },
+    {
+      "start": 141.13,
+      "duration": 0.75,
+      "text": "and so forth."
+    },
+    {
+      "start": 141.88,
+      "duration": 1.68,
+      "text": "So an airplane\nthat has a narrower"
+    },
+    {
+      "start": 143.56,
+      "duration": 3.99,
+      "text": "band of possible powers\nis easier to learn on."
+    },
+    {
+      "start": 147.55,
+      "duration": 4.35,
+      "text": "You want something that\nwon't spin if it's abused."
+    },
+    {
+      "start": 151.9,
+      "duration": 2.97,
+      "text": "And also ideally an airplane\nthat if you just let"
+    },
+    {
+      "start": 154.87,
+      "duration": 2.67,
+      "text": "go-- the Cessnas tend to\nhave this characteristic."
+    },
+    {
+      "start": 157.54,
+      "duration": 3.03,
+      "text": "They'll come out of\nmost bad situations"
+    },
+    {
+      "start": 160.57,
+      "duration": 2.34,
+      "text": "if you just let go of the yoke."
+    },
+    {
+      "start": 162.91,
+      "duration": 1.77,
+      "text": "So the best trainers--"
+    },
+    {
+      "start": 164.68,
+      "duration": 2.24,
+      "text": "my personal favorite\nis the Diamond DA-40."
+    },
+    {
+      "start": 166.92,
+      "duration": 1.58,
+      "text": "It's kind of physically\nuncomfortable,"
+    },
+    {
+      "start": 168.5,
+      "duration": 4.55,
+      "text": "which is why I don't use it\nas a family airplane anymore."
+    },
+    {
+      "start": 173.05,
+      "duration": 3.81,
+      "text": "The Cessna 172 and Piper\nWarrior are the most popular."
+    },
+    {
+      "start": 176.86,
+      "duration": 1.14,
+      "text": "You can check these out."
+    },
+    {
+      "start": 178.0,
+      "duration": 3.55,
+      "text": "The Cirrus SR20 is the\nmost popular personal--"
+    },
+    {
+      "start": 181.55,
+      "duration": 3.65,
+      "text": "or the 20 and the 22 together--\nthe most popular family"
+    },
+    {
+      "start": 185.2,
+      "duration": 2.04,
+      "text": "and personal\nairplane these days."
+    },
+    {
+      "start": 187.24,
+      "duration": 1.68,
+      "text": "They're OK trainers."
+    },
+    {
+      "start": 188.92,
+      "duration": 3.45,
+      "text": "And some airline training\nprograms and college training"
+    },
+    {
+      "start": 192.37,
+      "duration": 1.54,
+      "text": "programs use them."
+    },
+    {
+      "start": 193.91,
+      "duration": 4.14,
+      "text": "But they're a little bit\nmore challenging to handle"
+    },
+    {
+      "start": 198.05,
+      "duration": 2.31,
+      "text": "than the Cessnas,\nDiamonds, and Pipers."
+    },
+    {
+      "start": 200.36,
+      "duration": 2.09,
+      "text": "The marginal operating\ncost of all of these"
+    },
+    {
+      "start": 202.45,
+      "duration": 2.58,
+      "text": "is about $100 to $150 an hour."
+    },
+    {
+      "start": 205.03,
+      "duration": 2.32,
+      "text": "So flight schools usually\nhave to mark that up"
+    },
+    {
+      "start": 207.35,
+      "duration": 2.21,
+      "text": "a bit in order to stay in\nbusiness, because they have"
+    },
+    {
+      "start": 209.56,
+      "duration": 2.94,
+      "text": "to cover the fixed costs, as\nwell, of owning the aircraft,"
+    },
+    {
+      "start": 212.5,
+      "duration": 5.44,
+      "text": "hangering, and paying insurance."
+    },
+    {
+      "start": 217.94,
+      "duration": 4.23,
+      "text": "But that cost includes the\nfuel and the engine overhaul"
+    },
+    {
+      "start": 222.17,
+      "duration": 1.98,
+      "text": "and the prop overhaul."
+    },
+    {
+      "start": 224.15,
+      "duration": 1.8,
+      "text": "What about doing gliders?"
+    },
+    {
+      "start": 225.95,
+      "duration": 3.54,
+      "text": "So we don't want to sell you\ntoo hard on the idea of just"
+    },
+    {
+      "start": 229.49,
+      "duration": 2.82,
+      "text": "starting in a single\nengine land airplane."
+    },
+    {
+      "start": 232.31,
+      "duration": 3.97,
+      "text": "You can go out to\nSterling, Massachusetts,"
+    },
+    {
+      "start": 236.28,
+      "duration": 2.66,
+      "text": "get towed up to\n3,000 feet, and then"
+    },
+    {
+      "start": 238.94,
+      "duration": 4.35,
+      "text": "on a handful of good\nsummer days stay up"
+    },
+    {
+      "start": 243.29,
+      "duration": 2.16,
+      "text": "by soaring in the thermals."
+    },
+    {
+      "start": 245.45,
+      "duration": 3.54,
+      "text": "Ridge lifts-- people have soared\nall the way down for, I think,"
+    },
+    {
+      "start": 248.99,
+      "duration": 1.77,
+      "text": "about 1,000 miles--"
+    },
+    {
+      "start": 250.76,
+      "duration": 2.61,
+      "text": "tend to be the\nrecord for soaring."
+    },
+    {
+      "start": 253.37,
+      "duration": 3.42,
+      "text": "That's usually on following\nthe edge of a mountain range"
+    },
+    {
+      "start": 256.79,
+      "duration": 5.18,
+      "text": "where the wind blowing, let's\nsay, from the west generates"
+    },
+    {
+      "start": 261.97,
+      "duration": 3.46,
+      "text": "a lift right on the Western\nedge of the mountain range,"
+    },
+    {
+      "start": 265.43,
+      "duration": 1.68,
+      "text": "right in the center."
+    },
+    {
+      "start": 267.11,
+      "duration": 5.29,
+      "text": "You can be a Captain Sully-style\nhero on every landing,"
+    },
+    {
+      "start": 272.4,
+      "duration": 0.5,
+      "text": "actually."
+    },
+    {
+      "start": 275.77,
+      "duration": 1.85,
+      "text": "Raise your hand if\nyou think that there"
+    },
+    {
+      "start": 277.62,
+      "duration": 4.72,
+      "text": "was another pilot in the\naircraft with Captain Sully"
+    },
+    {
+      "start": 282.34,
+      "duration": 1.23,
+      "text": "or if he was by himself."
+    },
+    {
+      "start": 283.57,
+      "duration": 3.1,
+      "text": "Who thinks that there was\na second pilot in there?"
+    },
+    {
+      "start": 286.67,
+      "duration": 2.1,
+      "text": "OK, who knows the name\nof the second pilot?"
+    },
+    {
+      "start": 288.77,
+      "duration": 3.54,
+      "text": "Without going to your phone,\ndoes anybody in this room"
+    },
+    {
+      "start": 292.31,
+      "duration": 3.91,
+      "text": "know the name of\nthat second pilot?"
+    },
+    {
+      "start": 296.22,
+      "duration": 1.13,
+      "text": "All right."
+    },
+    {
+      "start": 297.35,
+      "duration": 2.41,
+      "text": "AUDIENCE: Jeffrey Skiles."
+    },
+    {
+      "start": 299.76,
+      "duration": 3.33,
+      "text": "PHILIP GREENSPUN: Jeff\nSkiles, all right."
+    },
+    {
+      "start": 303.09,
+      "duration": 3.15,
+      "text": "Hold on a sec."
+    },
+    {
+      "start": 306.24,
+      "duration": 3.52,
+      "text": "We've got to give\nthis guy his reward."
+    },
+    {
+      "start": 309.76,
+      "duration": 1.75,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 311.51,
+      "duration": 4.19,
+      "text": "I'll pay out $20 to this\nstudent for that answer."
+    },
+    {
+      "start": 315.7,
+      "duration": 5.88,
+      "text": "[APPLAUSE]"
+    },
+    {
+      "start": 321.58,
+      "duration": 2.27,
+      "text": "I only brought a\nhandful of cash,"
+    },
+    {
+      "start": 323.85,
+      "duration": 1.98,
+      "text": "because I knew I\nwouldn't need most of it."
+    },
+    {
+      "start": 325.83,
+      "duration": 2.38,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 328.21,
+      "duration": 2.67,
+      "text": "OK, a good trainer helicopter--"
+    },
+    {
+      "start": 330.88,
+      "duration": 1.29,
+      "text": "same issues."
+    },
+    {
+      "start": 332.17,
+      "duration": 2.52,
+      "text": "The really light helicopters--\nthe Robinson R-22"
+    },
+    {
+      "start": 334.69,
+      "duration": 1.92,
+      "text": "is very popular for\ntraining, because it's"
+    },
+    {
+      "start": 336.61,
+      "duration": 1.21,
+      "text": "inexpensive to operate."
+    },
+    {
+      "start": 337.82,
+      "duration": 3.65,
+      "text": "But it's so light that it's\nunstable and gives people"
+    },
+    {
+      "start": 341.47,
+      "duration": 4.38,
+      "text": "the impression that heroic\nskills are required."
+    },
+    {
+      "start": 345.85,
+      "duration": 2.34,
+      "text": "Also you want reasonable\namount of rotor inertia"
+    },
+    {
+      "start": 348.19,
+      "duration": 1.11,
+      "text": "for autorotations."
+    },
+    {
+      "start": 349.3,
+      "duration": 3.66,
+      "text": "And helicopters, a lot of the\ntraining after those 10 hours--"
+    },
+    {
+      "start": 352.96,
+      "duration": 1.68,
+      "text": "after you've learned\nto fly, you also"
+    },
+    {
+      "start": 354.64,
+      "duration": 2.73,
+      "text": "need to learn to fly a\nhelicopter with no engine."
+    },
+    {
+      "start": 357.37,
+      "duration": 4.71,
+      "text": "And that requires\nmaking some adjustments"
+    },
+    {
+      "start": 362.08,
+      "duration": 6.24,
+      "text": "in the pitch of the rotating\nblades or spinning wings."
+    },
+    {
+      "start": 368.32,
+      "duration": 3.27,
+      "text": "So if there is no\ninertia in those blades,"
+    },
+    {
+      "start": 371.59,
+      "duration": 1.71,
+      "text": "then it becomes a\nlittle bit harder"
+    },
+    {
+      "start": 373.3,
+      "duration": 3.04,
+      "text": "to control during\nthe autorotation."
+    },
+    {
+      "start": 376.33,
+      "duration": 2.38,
+      "text": "If you're a student, you may\nnot make the best landings--"
+    },
+    {
+      "start": 378.71,
+      "duration": 2.33,
+      "text": "so rugged skids."
+    },
+    {
+      "start": 381.04,
+      "duration": 3.57,
+      "text": "This ends up all pointing\ntowards the Robinson R-44."
+    },
+    {
+      "start": 384.61,
+      "duration": 1.92,
+      "text": "It's a four seat helicopter."
+    },
+    {
+      "start": 386.53,
+      "duration": 2.58,
+      "text": "And those extra two\nempty seats in the back"
+    },
+    {
+      "start": 389.11,
+      "duration": 1.98,
+      "text": "give you a lot of\nperformance margin."
+    },
+    {
+      "start": 391.09,
+      "duration": 1.67,
+      "text": "That's more\nexpensive to operate."
+    },
+    {
+      "start": 392.76,
+      "duration": 2.5,
+      "text": "And therefore, the prices that\nflight schools have to charge"
+    },
+    {
+      "start": 395.26,
+      "duration": 1.14,
+      "text": "are higher."
+    },
+    {
+      "start": 396.4,
+      "duration": 2.46,
+      "text": "Because all the\nrotating components"
+    },
+    {
+      "start": 398.86,
+      "duration": 2.07,
+      "text": "get thrown out\nevery 2,200 hours."
+    },
+    {
+      "start": 400.93,
+      "duration": 2.61,
+      "text": "The blades, the transmissions--"
+    },
+    {
+      "start": 403.54,
+      "duration": 1.87,
+      "text": "there's more that\ngets overhauled."
+    },
+    {
+      "start": 405.41,
+      "duration": 2.15,
+      "text": "OK, you can get a pilot's\ncertificate from FAA"
+    },
+    {
+      "start": 407.56,
+      "duration": 4.38,
+      "text": "by doing your pre-solo written\nexam with an instructor"
+    },
+    {
+      "start": 411.94,
+      "duration": 3.06,
+      "text": "on the characteristics of\nthe aircraft and anything"
+    },
+    {
+      "start": 415.0,
+      "duration": 2.82,
+      "text": "that's important locally."
+    },
+    {
+      "start": 417.82,
+      "duration": 2.65,
+      "text": "Then you do some solo\nflight after your training."
+    },
+    {
+      "start": 420.47,
+      "duration": 3.77,
+      "text": "You'll do some\nflights by yourself."
+    },
+    {
+      "start": 424.24,
+      "duration": 1.98,
+      "text": "You will do cross-country trips."
+    },
+    {
+      "start": 426.22,
+      "duration": 2.16,
+      "text": "So you will go\nwith an instructor"
+    },
+    {
+      "start": 428.38,
+      "duration": 3.09,
+      "text": "on some trips that are at least\n50 nautical miles if you're"
+    },
+    {
+      "start": 431.47,
+      "duration": 1.44,
+      "text": "in an airplane--"
+    },
+    {
+      "start": 432.91,
+      "duration": 1.35,
+      "text": "25 in a helicopter."
+    },
+    {
+      "start": 434.26,
+      "duration": 1.2,
+      "text": "That's called cross-country."
+    },
+    {
+      "start": 435.46,
+      "duration": 4.98,
+      "text": "You don't have to go all the\nway to California or Alaska."
+    },
+    {
+      "start": 440.44,
+      "duration": 4.02,
+      "text": "And then you'll do a bit of\nsolo cross-country flying."
+    },
+    {
+      "start": 444.46,
+      "duration": 2.58,
+      "text": "You will do a\ncheckride preparation."
+    },
+    {
+      "start": 447.04,
+      "duration": 2.31,
+      "text": "That has to be, I believe,\nat least three hours in prep"
+    },
+    {
+      "start": 449.35,
+      "duration": 2.31,
+      "text": "with an instructor\nfor your checkride."
+    },
+    {
+      "start": 451.66,
+      "duration": 3.24,
+      "text": "And once you take your\ncheckride with an FAA employee"
+    },
+    {
+      "start": 454.9,
+      "duration": 2.43,
+      "text": "or a designated\npilot examiner, you"
+    },
+    {
+      "start": 457.33,
+      "duration": 1.92,
+      "text": "get issued the\npilot certificate."
+    },
+    {
+      "start": 459.25,
+      "duration": 2.85,
+      "text": "It takes you about 40\nhours of flight time."
+    },
+    {
+      "start": 462.1,
+      "duration": 5.43,
+      "text": "And I believe only 10\nof that has to be solo."
+    },
+    {
+      "start": 467.53,
+      "duration": 2.97,
+      "text": "The other 30 is typically\nwith an instructor."
+    },
+    {
+      "start": 470.5,
+      "duration": 2.35,
+      "text": "55 hours is probably\nmore typical,"
+    },
+    {
+      "start": 472.85,
+      "duration": 4.01,
+      "text": "but young people like\nyourselves who do it intensively"
+    },
+    {
+      "start": 476.86,
+      "duration": 3.16,
+      "text": "can come and finish pretty\nclose to the 40 hours."
+    },
+    {
+      "start": 480.02,
+      "duration": 1.5,
+      "text": "There's my certificate."
+    },
+    {
+      "start": 481.52,
+      "duration": 3.96,
+      "text": "Notice it says airline\ntransport pilot there."
+    },
+    {
+      "start": 485.48,
+      "duration": 2.79,
+      "text": "Oh, let's use the\nfancier feature."
+    },
+    {
+      "start": 488.27,
+      "duration": 1.26,
+      "text": "Airline transport pilot."
+    },
+    {
+      "start": 489.53,
+      "duration": 1.79,
+      "text": "So that's a different\nlevel of certificate."
+    },
+    {
+      "start": 491.32,
+      "duration": 1.99,
+      "text": "There's private,\ncommercial, and ATP--"
+    },
+    {
+      "start": 493.31,
+      "duration": 1.54,
+      "text": "again, beyond the scope."
+    },
+    {
+      "start": 494.85,
+      "duration": 2.21,
+      "text": "Notice also there's\na hole punched in it."
+    },
+    {
+      "start": 497.06,
+      "duration": 2.22,
+      "text": "Because when you get\nan additional rating,"
+    },
+    {
+      "start": 499.28,
+      "duration": 5.47,
+      "text": "they issue a new certificate\nand destroy the old one."
+    },
+    {
+      "start": 504.75,
+      "duration": 0.82,
+      "text": "OK."
+    },
+    {
+      "start": 505.57,
+      "duration": 1.79,
+      "text": "What can you do once\nyou have your private?"
+    },
+    {
+      "start": 507.36,
+      "duration": 6.09,
+      "text": "You can go anywhere in the world\nin a US registered airplane"
+    },
+    {
+      "start": 513.45,
+      "duration": 3.66,
+      "text": "and carry friends and\nfamily as long as you're not"
+    },
+    {
+      "start": 517.11,
+      "duration": 2.1,
+      "text": "charging the money."
+    },
+    {
+      "start": 519.21,
+      "duration": 2.04,
+      "text": "You can fly at night."
+    },
+    {
+      "start": 521.25,
+      "duration": 1.75,
+      "text": "That's not true in\nsome other countries,"
+    },
+    {
+      "start": 523.0,
+      "duration": 1.04,
+      "text": "but it is true in the US."
+    },
+    {
+      "start": 524.04,
+      "duration": 2.51,
+      "text": "You don't need any additional\nrating to fly at night."
+    },
+    {
+      "start": 526.55,
+      "duration": 2.08,
+      "text": "You will have had three\nhours of training in night"
+    },
+    {
+      "start": 528.63,
+      "duration": 2.64,
+      "text": "flying with an instructor."
+    },
+    {
+      "start": 531.27,
+      "duration": 2.64,
+      "text": "And you will fly\nwhat you learned in."
+    },
+    {
+      "start": 533.91,
+      "duration": 3.54,
+      "text": "So if your mom has a\nhot air balloon and that"
+    },
+    {
+      "start": 537.45,
+      "duration": 1.44,
+      "text": "was your first\naircraft, you will"
+    },
+    {
+      "start": 538.89,
+      "duration": 5.07,
+      "text": "have a rating for flying\nthat hot air balloon."
+    },
+    {
+      "start": 543.96,
+      "duration": 5.88,
+      "text": "You don't have to start\nwith a Cessna or similar."
+    },
+    {
+      "start": 549.84,
+      "duration": 7.2,
+      "text": "So Congress passes kind of\nloose laws about aviation."
+    },
+    {
+      "start": 557.04,
+      "duration": 2.43,
+      "text": "But really most of\nthe things that you"
+    },
+    {
+      "start": 559.47,
+      "duration": 2.16,
+      "text": "might think of as\nlaws governing flying"
+    },
+    {
+      "start": 561.63,
+      "duration": 1.74,
+      "text": "are actually\nregulations that are"
+    },
+    {
+      "start": 563.37,
+      "duration": 6.51,
+      "text": "drafted by the bureaucrats\nin the FAA and the agency."
+    },
+    {
+      "start": 569.88,
+      "duration": 1.86,
+      "text": "A lot of the stuff is public."
+    },
+    {
+      "start": 571.74,
+      "duration": 2.7,
+      "text": "You can look up anybody\nwho claims to be"
+    },
+    {
+      "start": 574.44,
+      "duration": 1.97,
+      "text": "a pilot in the airman registry."
+    },
+    {
+      "start": 576.41,
+      "duration": 1.42,
+      "text": "One reason it's\nnot called a pilot"
+    },
+    {
+      "start": 577.83,
+      "duration": 2.13,
+      "text": "registry is that\nthere are actually"
+    },
+    {
+      "start": 579.96,
+      "duration": 2.71,
+      "text": "other functions for which\ncertificates are issued--"
+    },
+    {
+      "start": 582.67,
+      "duration": 1.88,
+      "text": "for example, flight engineer."
+    },
+    {
+      "start": 584.55,
+      "duration": 2.46,
+      "text": "Maybe in the old days,\nthere was navigator."
+    },
+    {
+      "start": 587.01,
+      "duration": 0.99,
+      "text": "Similarly, airplanes."
+    },
+    {
+      "start": 588.0,
+      "duration": 2.12,
+      "text": "If you see an\ninteresting airplane,"
+    },
+    {
+      "start": 590.12,
+      "duration": 1.62,
+      "text": "you can look up the\ntail number and see"
+    },
+    {
+      "start": 591.75,
+      "duration": 1.08,
+      "text": "to whom it's registered."
+    },
+    {
+      "start": 592.83,
+      "duration": 5.58,
+      "text": "Sometimes it's obscured\nwith a shell LLC somewhere."
+    },
+    {
+      "start": 598.41,
+      "duration": 3.78,
+      "text": "But it can be interesting."
+    },
+    {
+      "start": 602.19,
+      "duration": 4.32,
+      "text": "This is one of the worst\nparts of the FAA and the exam."
+    },
+    {
+      "start": 606.51,
+      "duration": 2.95,
+      "text": "They use the words category and\nclasses in two different ways."
+    },
+    {
+      "start": 609.46,
+      "duration": 3.44,
+      "text": "One is for getting your pilot's\ncertificate, in which case"
+    },
+    {
+      "start": 612.9,
+      "duration": 5.19,
+      "text": "a category is something\nlike airplane or rotorcraft."
+    },
+    {
+      "start": 618.09,
+      "duration": 1.77,
+      "text": "And then you have\nthis class, which"
+    },
+    {
+      "start": 619.86,
+      "duration": 5.64,
+      "text": "could be multi engine C in\nthe case of this Grumman."
+    },
+    {
+      "start": 625.5,
+      "duration": 2.64,
+      "text": "I think it might be a\nmallard there on the right--"
+    },
+    {
+      "start": 628.14,
+      "duration": 1.59,
+      "text": "1940s Grumman seaplane."
+    },
+    {
+      "start": 629.73,
+      "duration": 2.55,
+      "text": "So that's a multi\nengine C rating"
+    },
+    {
+      "start": 632.28,
+      "duration": 4.45,
+      "text": "that you would have in\nthe airplane category."
+    },
+    {
+      "start": 636.73,
+      "duration": 2.15,
+      "text": "Here's your little matrix."
+    },
+    {
+      "start": 638.88,
+      "duration": 2.19,
+      "text": "You can study this\nfrom the books."
+    },
+    {
+      "start": 641.07,
+      "duration": 3.21,
+      "text": "But you see these are\nthe different categories"
+    },
+    {
+      "start": 644.28,
+      "duration": 1.83,
+      "text": "of aircraft here on the left."
+    },
+    {
+      "start": 646.11,
+      "duration": 2.7,
+      "text": "Some of the fun ones like\npowered parachute, weight shift"
+    },
+    {
+      "start": 648.81,
+      "duration": 1.63,
+      "text": "control."
+    },
+    {
+      "start": 650.44,
+      "duration": 2.36,
+      "text": "Fortunately, there\nare no flight schools"
+    },
+    {
+      "start": 652.8,
+      "duration": 2.25,
+      "text": "for those kind of aircraft\nthat I know of in the area."
+    },
+    {
+      "start": 655.05,
+      "duration": 2.37,
+      "text": "Wouldn't be much fun in\na New England February."
+    },
+    {
+      "start": 662.0,
+      "duration": 1.14,
+      "text": "Category, class."
+    },
+    {
+      "start": 663.14,
+      "duration": 2.94,
+      "text": "Very exciting."
+    },
+    {
+      "start": 666.08,
+      "duration": 3.9,
+      "text": "So just to give you an overview\nof the pilot and instructor"
+    },
+    {
+      "start": 669.98,
+      "duration": 1.74,
+      "text": "certification."
+    },
+    {
+      "start": 671.72,
+      "duration": 2.25,
+      "text": "On the left here, you\nhave your levels of pilot."
+    },
+    {
+      "start": 673.97,
+      "duration": 2.61,
+      "text": "We're concentrating\non private pilot."
+    },
+    {
+      "start": 676.58,
+      "duration": 3.3,
+      "text": "Recreational pilot is\nextremely unpopular."
+    },
+    {
+      "start": 679.88,
+      "duration": 1.71,
+      "text": "Sport pilot-- it's\njust a handful"
+    },
+    {
+      "start": 681.59,
+      "duration": 2.73,
+      "text": "of schools for that as well."
+    },
+    {
+      "start": 684.32,
+      "duration": 1.59,
+      "text": "So really, it's\nprivate, commercial,"
+    },
+    {
+      "start": 685.91,
+      "duration": 3.87,
+      "text": "ATP are the three core levels\nof a pilot certificate."
+    },
+    {
+      "start": 689.78,
+      "duration": 2.61,
+      "text": "To those, you add ratings."
+    },
+    {
+      "start": 692.39,
+      "duration": 2.28,
+      "text": "So airplane single engine land--"
+    },
+    {
+      "start": 694.67,
+      "duration": 2.28,
+      "text": "that lets you fly\nthe Icon A5 seaplane"
+    },
+    {
+      "start": 696.95,
+      "duration": 2.91,
+      "text": "that you might have seen."
+    },
+    {
+      "start": 699.86,
+      "duration": 2.55,
+      "text": "And you also need type\nratings for heavier"
+    },
+    {
+      "start": 702.41,
+      "duration": 2.07,
+      "text": "or turbo jet powered aircraft."
+    },
+    {
+      "start": 704.48,
+      "duration": 3.31,
+      "text": "That means you've had special\ntraining for your DC 3,"
+    },
+    {
+      "start": 707.79,
+      "duration": 1.76,
+      "text": "which is heavy,\nor for your Boeing"
+    },
+    {
+      "start": 709.55,
+      "duration": 4.17,
+      "text": "737, which has turbo jets."
+    },
+    {
+      "start": 713.72,
+      "duration": 3.66,
+      "text": "The flight instructor has\na separate certificate."
+    },
+    {
+      "start": 717.38,
+      "duration": 6.24,
+      "text": "And that has its own set of\nratings which are simpler."
+    },
+    {
+      "start": 723.62,
+      "duration": 1.74,
+      "text": "So single engine\nairplane-- notice"
+    },
+    {
+      "start": 725.36,
+      "duration": 1.68,
+      "text": "it doesn't say land or sea."
+    },
+    {
+      "start": 727.04,
+      "duration": 4.71,
+      "text": "So I have a commercial\nseaplane rating."
+    },
+    {
+      "start": 731.75,
+      "duration": 2.07,
+      "text": "And I have an\ninstructor certificate"
+    },
+    {
+      "start": 733.82,
+      "duration": 1.71,
+      "text": "for single engine airplane."
+    },
+    {
+      "start": 735.53,
+      "duration": 4.11,
+      "text": "So for anybody who wants\nto die by drowning,"
+    },
+    {
+      "start": 739.64,
+      "duration": 2.94,
+      "text": "I can offer you instruction\nin a single engine"
+    },
+    {
+      "start": 742.58,
+      "duration": 3.28,
+      "text": "seaplane or a multi engine\nseaplane, for that matter."
+    },
+    {
+      "start": 745.86,
+      "duration": 2.12,
+      "text": "Although there aren't\ntoo many of those."
+    },
+    {
+      "start": 747.98,
+      "duration": 1.83,
+      "text": "There is a totally\nseparate certificate."
+    },
+    {
+      "start": 749.81,
+      "duration": 2.55,
+      "text": "If you are also\npassionate about drones,"
+    },
+    {
+      "start": 752.36,
+      "duration": 3.93,
+      "text": "you'll end up with three\npieces of plastic--"
+    },
+    {
+      "start": 756.29,
+      "duration": 3.75,
+      "text": "one for the pilot certification,\none for the instructor,"
+    },
+    {
+      "start": 760.04,
+      "duration": 2.94,
+      "text": "and one for being\na remote pilot."
+    },
+    {
+      "start": 762.98,
+      "duration": 2.46,
+      "text": "So aircraft, they\nuse the same words"
+    },
+    {
+      "start": 765.44,
+      "duration": 2.61,
+      "text": "but to mean different things."
+    },
+    {
+      "start": 768.05,
+      "duration": 4.8,
+      "text": "We will have a normal\nor utility category"
+    },
+    {
+      "start": 772.85,
+      "duration": 2.13,
+      "text": "of aircraft or acrobatic."
+    },
+    {
+      "start": 774.98,
+      "duration": 2.85,
+      "text": "Those are the three\nthat you're going to see"
+    },
+    {
+      "start": 777.83,
+      "duration": 2.73,
+      "text": "at your typical flight school."
+    },
+    {
+      "start": 780.56,
+      "duration": 2.25,
+      "text": "On the right there is the\nGameBird, a very interesting"
+    },
+    {
+      "start": 782.81,
+      "duration": 3.71,
+      "text": "plane that I just flew\nin Bentonville, Arkansas."
+    },
+    {
+      "start": 786.52,
+      "duration": 2.2,
+      "text": "I would encourage you\nguys to look that up."
+    },
+    {
+      "start": 788.72,
+      "duration": 3.06,
+      "text": "And then you have class."
+    },
+    {
+      "start": 791.78,
+      "duration": 1.74,
+      "text": "If you have a really\nbig helicopter,"
+    },
+    {
+      "start": 793.52,
+      "duration": 5.35,
+      "text": "it's a transport category\nand rotorcraft class."
+    },
+    {
+      "start": 798.87,
+      "duration": 2.15,
+      "text": "All right, there\non the right is--"
+    },
+    {
+      "start": 801.02,
+      "duration": 2.81,
+      "text": "I think that's a\nPitcairn autogyro."
+    },
+    {
+      "start": 803.83,
+      "duration": 4.54,
+      "text": "So that's a rotorcraft\nautogyro from the 1930s."
+    },
+    {
+      "start": 808.37,
+      "duration": 2.4,
+      "text": "That's a replica\nfrom Oshkosh, which"
+    },
+    {
+      "start": 810.77,
+      "duration": 2.72,
+      "text": "we'll hear about at lunchtime."
+    },
+    {
+      "start": 813.49,
+      "duration": 1.25,
+      "text": "The bureaucracies."
+    },
+    {
+      "start": 817.62,
+      "duration": 3.21,
+      "text": "You have the NTSB, the\nNational Transportation Safety"
+    },
+    {
+      "start": 820.83,
+      "duration": 2.61,
+      "text": "Board-- a little bit\nseparate from the FAA, which"
+    },
+    {
+      "start": 823.44,
+      "duration": 3.88,
+      "text": "is part of the Department\nof Transportation."
+    },
+    {
+      "start": 827.32,
+      "duration": 2.78,
+      "text": "The structure of regulations--"
+    },
+    {
+      "start": 830.1,
+      "duration": 2.06,
+      "text": "the Code of Federal\nRegulations is huge."
+    },
+    {
+      "start": 832.16,
+      "duration": 3.48,
+      "text": "I think it's doubled in size\nin the last 20 years or so."
+    },
+    {
+      "start": 835.64,
+      "duration": 3.42,
+      "text": "The FAA is part of\nthat in title 14."
+    },
+    {
+      "start": 839.06,
+      "duration": 3.87,
+      "text": "If you look up the FARs, the\nFederal Aviation Regulations,"
+    },
+    {
+      "start": 842.93,
+      "duration": 2.07,
+      "text": "oftentimes you'll be\ndirected to a site that"
+    },
+    {
+      "start": 845.0,
+      "duration": 3.8,
+      "text": "has the entire electronic\ncode of federal regulations."
+    },
+    {
+      "start": 848.8,
+      "duration": 4.03,
+      "text": "The most relevant parts\nfor this class are 61--"
+    },
+    {
+      "start": 852.83,
+      "duration": 2.34,
+      "text": "what does it mean\nto become a pilot?"
+    },
+    {
+      "start": 855.17,
+      "duration": 2.79,
+      "text": "And part 91-- what can you do\nif you're flying privately?"
+    },
+    {
+      "start": 861.59,
+      "duration": 2.31,
+      "text": "If you want to have\nfun extra knowledge,"
+    },
+    {
+      "start": 863.9,
+      "duration": 2.25,
+      "text": "these are some of the other\nFARs that are occasionally"
+    },
+    {
+      "start": 866.15,
+      "duration": 2.96,
+      "text": "worth looking at."
+    },
+    {
+      "start": 869.11,
+      "duration": 4.55,
+      "text": "You can look at doing charter\nand airline operations."
+    },
+    {
+      "start": 873.66,
+      "duration": 2.76,
+      "text": "Those have air\ncarrier certificates."
+    },
+    {
+      "start": 876.42,
+      "duration": 2.88,
+      "text": "And then you add something\nfor scheduled big airplanes,"
+    },
+    {
+      "start": 879.3,
+      "duration": 5.4,
+      "text": "like FAR 121, or smaller\ncharter airplanes, 135."
+    },
+    {
+      "start": 884.7,
+      "duration": 3.91,
+      "text": "If you want to see what\nkind of engineering"
+    },
+    {
+      "start": 888.61,
+      "duration": 1.42,
+      "text": "you have to\ndemonstrate to the FAA"
+    },
+    {
+      "start": 890.02,
+      "duration": 4.12,
+      "text": "to get your product certified,\nyou can look into, for example,"
+    },
+    {
+      "start": 894.15,
+      "duration": 4.11,
+      "text": "FAR 27 to see what Robinson\nhad to do for the R-44"
+    },
+    {
+      "start": 898.26,
+      "duration": 1.5,
+      "text": "to show that it was safe."
+    },
+    {
+      "start": 903.62,
+      "duration": 5.4,
+      "text": "FAR 61 is about pilots,\nflight instructors,"
+    },
+    {
+      "start": 909.02,
+      "duration": 1.95,
+      "text": "and ground instructors."
+    },
+    {
+      "start": 910.97,
+      "duration": 2.88,
+      "text": "The standards are\nactually reasonable."
+    },
+    {
+      "start": 913.85,
+      "duration": 2.04,
+      "text": "You have to do a flight\nreview with an instructor"
+    },
+    {
+      "start": 915.89,
+      "duration": 2.91,
+      "text": "every two years in\norder to continue"
+    },
+    {
+      "start": 918.8,
+      "duration": 4.75,
+      "text": "to exercise the privileges\nof your certificate."
+    },
+    {
+      "start": 923.55,
+      "duration": 3.06,
+      "text": "If you want to add, for\nexample, the capability"
+    },
+    {
+      "start": 926.61,
+      "duration": 3.69,
+      "text": "to fly in the clouds,\nthat's the instrument rating"
+    },
+    {
+      "start": 930.3,
+      "duration": 1.71,
+      "text": "that Tina was talking about."
+    },
+    {
+      "start": 932.01,
+      "duration": 7.16,
+      "text": "And that's in FAR 61.65."
+    },
+    {
+      "start": 939.17,
+      "duration": 1.87,
+      "text": "Some of these are\njust sign-offs."
+    },
+    {
+      "start": 941.04,
+      "duration": 1.76,
+      "text": "For high performance\nor complex you just"
+    },
+    {
+      "start": 942.8,
+      "duration": 2.93,
+      "text": "need an endorsement from an\ninstructor that you did it."
+    },
+    {
+      "start": 945.73,
+      "duration": 1.54,
+      "text": "For the type ratings,\nyou'll actually"
+    },
+    {
+      "start": 947.27,
+      "duration": 3.81,
+      "text": "get a new pilot certificate\nafter usually simulator"
+    },
+    {
+      "start": 951.08,
+      "duration": 2.18,
+      "text": "training at a simulator center."
+    },
+    {
+      "start": 953.26,
+      "duration": 1.75,
+      "text": "All right, so these\nare some of the things"
+    },
+    {
+      "start": 955.01,
+      "duration": 1.56,
+      "text": "that you need to\nknow for the test."
+    },
+    {
+      "start": 959.18,
+      "duration": 3.06,
+      "text": "Until 9/11, the\npilot certificate"
+    },
+    {
+      "start": 962.24,
+      "duration": 2.28,
+      "text": "was a piece of paper, I think."
+    },
+    {
+      "start": 964.52,
+      "duration": 2.38,
+      "text": "And the photo ID\nwas not required."
+    },
+    {
+      "start": 966.9,
+      "duration": 3.65,
+      "text": "So you could just go out and\nfly with your piece of paper"
+    },
+    {
+      "start": 970.55,
+      "duration": 2.12,
+      "text": "and your medical certificate."
+    },
+    {
+      "start": 972.67,
+      "duration": 1.42,
+      "text": "Now you don't need\nthat, actually,"
+    },
+    {
+      "start": 974.09,
+      "duration": 1.58,
+      "text": "because of this thing\ncalled BasicMed."
+    },
+    {
+      "start": 978.5,
+      "duration": 1.44,
+      "text": "You know, I guess, that--"
+    },
+    {
+      "start": 979.94,
+      "duration": 2.04,
+      "text": "you have to know, I think,\nfor some test question"
+    },
+    {
+      "start": 981.98,
+      "duration": 5.06,
+      "text": "that they can be inspected\nby these various agencies."
+    },
+    {
+      "start": 987.04,
+      "duration": 2.31,
+      "text": "All right, drugs and alcohol."
+    },
+    {
+      "start": 989.35,
+      "duration": 3.0,
+      "text": "This is actually\none of the worst"
+    },
+    {
+      "start": 992.35,
+      "duration": 3.57,
+      "text": "parts of the FAA certification\nprojects for young people."
+    },
+    {
+      "start": 995.92,
+      "duration": 2.5,
+      "text": "People my age, we don't\nget invited to parties."
+    },
+    {
+      "start": 998.42,
+      "duration": 0.5,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 998.92,
+      "duration": 3.58,
+      "text": "So getting arrested for\nDUI is not really an issue."
+    },
+    {
+      "start": 1002.5,
+      "duration": 2.48,
+      "text": "But I know this guy,\nreally wonderful young guy,"
+    },
+    {
+      "start": 1004.98,
+      "duration": 2.15,
+      "text": "about 20-- very\nenthusiastic, very smart."
+    },
+    {
+      "start": 1007.13,
+      "duration": 1.75,
+      "text": "He was in college."
+    },
+    {
+      "start": 1008.88,
+      "duration": 0.99,
+      "text": "He was drinking."
+    },
+    {
+      "start": 1009.87,
+      "duration": 2.46,
+      "text": "And he got arrested for DUI."
+    },
+    {
+      "start": 1012.33,
+      "duration": 3.82,
+      "text": "And the FAA treated\nhim like they would--"
+    },
+    {
+      "start": 1016.15,
+      "duration": 1.95,
+      "text": "if I were arrested\nfor DUI, it would"
+    },
+    {
+      "start": 1018.1,
+      "duration": 1.92,
+      "text": "mean that I was an alcoholic."
+    },
+    {
+      "start": 1020.02,
+      "duration": 1.98,
+      "text": "But he was not an alcoholic."
+    },
+    {
+      "start": 1022.0,
+      "duration": 1.81,
+      "text": "But they don't have\ndifferent standards."
+    },
+    {
+      "start": 1023.81,
+      "duration": 2.33,
+      "text": "So they can't just say,\nwell, he's in college."
+    },
+    {
+      "start": 1026.14,
+      "duration": 2.26,
+      "text": "So of course, he's drinking."
+    },
+    {
+      "start": 1028.4,
+      "duration": 1.46,
+      "text": "They said, well,\nhe's an alcoholic."
+    },
+    {
+      "start": 1029.86,
+      "duration": 2.25,
+      "text": "So they wanted him to\ndo years of proving"
+    },
+    {
+      "start": 1032.11,
+      "duration": 2.43,
+      "text": "that he went to alcohol\ntreatment programs and all"
+    },
+    {
+      "start": 1034.54,
+      "duration": 1.81,
+      "text": "this other stuff."
+    },
+    {
+      "start": 1036.35,
+      "duration": 5.24,
+      "text": "So really, you have\nto report any time"
+    },
+    {
+      "start": 1041.59,
+      "duration": 2.59,
+      "text": "that you have an alcohol\nrelated infraction with a motor"
+    },
+    {
+      "start": 1044.18,
+      "duration": 0.5,
+      "text": "vehicle."
+    },
+    {
+      "start": 1044.68,
+      "duration": 1.79,
+      "text": "And that's how I would\nsay this is probably"
+    },
+    {
+      "start": 1046.47,
+      "duration": 3.04,
+      "text": "the number one reason that\npilots lose their certificates."
+    },
+    {
+      "start": 1049.51,
+      "duration": 1.62,
+      "text": "Marijuana."
+    },
+    {
+      "start": 1051.13,
+      "duration": 1.5,
+      "text": "I was just in Haiti actually."
+    },
+    {
+      "start": 1052.63,
+      "duration": 1.93,
+      "text": "And the shaman was showing--"
+    },
+    {
+      "start": 1054.56,
+      "duration": 1.73,
+      "text": "not the tourist part\nof Haiti, of course,"
+    },
+    {
+      "start": 1056.29,
+      "duration": 2.25,
+      "text": "but the authentic Haiti."
+    },
+    {
+      "start": 1058.54,
+      "duration": 3.72,
+      "text": "So the shaman was showing us the\n50 different medicinal plants"
+    },
+    {
+      "start": 1062.26,
+      "duration": 2.28,
+      "text": "that they used to\ntreat various ailments."
+    },
+    {
+      "start": 1064.54,
+      "duration": 2.09,
+      "text": "And I said, you guys\nare so primitive."
+    },
+    {
+      "start": 1066.63,
+      "duration": 2.37,
+      "text": "In Massachusetts,\nwe have one plant"
+    },
+    {
+      "start": 1069.0,
+      "duration": 2.44,
+      "text": "that people say will cure\nalmost any kind of problem."
+    },
+    {
+      "start": 1071.44,
+      "duration": 2.24,
+      "text": "And that's medical marijuana."
+    },
+    {
+      "start": 1073.68,
+      "duration": 0.5,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 1074.18,
+      "duration": 5.33,
+      "text": "So you can't really be\na stoner and honestly"
+    },
+    {
+      "start": 1079.51,
+      "duration": 2.37,
+      "text": "answer the questions on the--"
+    },
+    {
+      "start": 1081.88,
+      "duration": 2.31,
+      "text": "despite the legality\nin Massachusetts,"
+    },
+    {
+      "start": 1084.19,
+      "duration": 2.7,
+      "text": "you can't be a stoner and\nhold your pilot certificate."
+    },
+    {
+      "start": 1086.89,
+      "duration": 4.26,
+      "text": "Because you're supposed to tell\nthe FAA about your glaucoma"
+    },
+    {
+      "start": 1091.15,
+      "duration": 3.28,
+      "text": "and how you're treating\nit with medical marijuana."
+    },
+    {
+      "start": 1094.43,
+      "duration": 4.84,
+      "text": "So the certificate\nduration is two years"
+    },
+    {
+      "start": 1099.27,
+      "duration": 0.96,
+      "text": "for flight instructors."
+    },
+    {
+      "start": 1100.23,
+      "duration": 2.28,
+      "text": "They want us to do\nrecurrent training"
+    },
+    {
+      "start": 1102.51,
+      "duration": 2.97,
+      "text": "or sign off so many students\nthat we don't need it."
+    },
+    {
+      "start": 1105.48,
+      "duration": 3.21,
+      "text": "For remote pilot, they want you\nto pass a test every two years."
+    },
+    {
+      "start": 1108.69,
+      "duration": 2.52,
+      "text": "The pilot certificate\nnever expires."
+    },
+    {
+      "start": 1111.21,
+      "duration": 2.49,
+      "text": "Here's a couple\npictures from last week."
+    },
+    {
+      "start": 1113.7,
+      "duration": 1.98,
+      "text": "I was out in Sonoma, California."
+    },
+    {
+      "start": 1115.68,
+      "duration": 3.3,
+      "text": "And I stumbled on\nthis airport where"
+    },
+    {
+      "start": 1118.98,
+      "duration": 3.27,
+      "text": "one pilot was flying this\n1940s Howard airplane"
+    },
+    {
+      "start": 1122.25,
+      "duration": 1.62,
+      "text": "that you see on the left."
+    },
+    {
+      "start": 1123.87,
+      "duration": 3.69,
+      "text": "And another pilot was\nflying this P-51 Mustang--"
+    },
+    {
+      "start": 1127.56,
+      "duration": 4.23,
+      "text": "which on a 2,500 foot runway,\nthat's a pretty short runway."
+    },
+    {
+      "start": 1131.79,
+      "duration": 4.8,
+      "text": "And it's very windy, nasty\nwind patterns off the bay."
+    },
+    {
+      "start": 1136.59,
+      "duration": 3.51,
+      "text": "So that's kind of a short runway\nfor a $3 million airplane."
+    },
+    {
+      "start": 1140.1,
+      "duration": 3.12,
+      "text": "Those were $1,500, by the way,\nwhen the government sold them"
+    },
+    {
+      "start": 1143.22,
+      "duration": 2.52,
+      "text": "as surplus at the\nend of World War II."
+    },
+    {
+      "start": 1145.74,
+      "duration": 2.97,
+      "text": "But anyway, those pilot\ncertificates never expire."
+    },
+    {
+      "start": 1148.71,
+      "duration": 2.52,
+      "text": "Somebody could not\nfly for 30 years,"
+    },
+    {
+      "start": 1151.23,
+      "duration": 2.49,
+      "text": "go out and do a little\nbit of recurrent training,"
+    },
+    {
+      "start": 1153.72,
+      "duration": 3.51,
+      "text": "and get signed off by an\ninstructor for a flight review,"
+    },
+    {
+      "start": 1157.23,
+      "duration": 1.98,
+      "text": "and fly again, assuming--"
+    },
+    {
+      "start": 1159.21,
+      "duration": 2.79,
+      "text": "I guess he or she would\nneed to get a renewed"
+    },
+    {
+      "start": 1162.0,
+      "duration": 1.83,
+      "text": "medical certificate."
+    },
+    {
+      "start": 1163.83,
+      "duration": 4.71,
+      "text": "For you all, you're going to\nhave a third class medical"
+    },
+    {
+      "start": 1168.54,
+      "duration": 2.16,
+      "text": "that'll be valid for five years."
+    },
+    {
+      "start": 1170.7,
+      "duration": 1.54,
+      "text": "Everything's based\non calendar month."
+    },
+    {
+      "start": 1172.24,
+      "duration": 2.59,
+      "text": "So if you get it\non the 1st of June,"
+    },
+    {
+      "start": 1174.83,
+      "duration": 4.33,
+      "text": "it will expire at the end\nof June five years later."
+    },
+    {
+      "start": 1179.16,
+      "duration": 3.99,
+      "text": "Airline pilots need\nfirst class medicals."
+    },
+    {
+      "start": 1183.15,
+      "duration": 4.5,
+      "text": "The captain needs a first\nclass medical by regulation."
+    },
+    {
+      "start": 1187.65,
+      "duration": 2.43,
+      "text": "Might be true of the\nfirst officer too."
+    },
+    {
+      "start": 1190.08,
+      "duration": 2.94,
+      "text": "Just ordinary charter use or\ndoing helicopter sightseeing"
+    },
+    {
+      "start": 1193.02,
+      "duration": 4.11,
+      "text": "or whatever, that's a second\nclass medical operation."
+    },
+    {
+      "start": 1197.13,
+      "duration": 3.72,
+      "text": "One reason that people like\nsport pilot and glider flying"
+    },
+    {
+      "start": 1200.85,
+      "duration": 2.2,
+      "text": "is that these medicals\nare not required."
+    },
+    {
+      "start": 1203.05,
+      "duration": 3.2,
+      "text": "So if they think that they\nmight not pass a medical,"
+    },
+    {
+      "start": 1206.25,
+      "duration": 2.04,
+      "text": "then they'll transition\nto one of those."
+    },
+    {
+      "start": 1208.29,
+      "duration": 2.38,
+      "text": "I think they say that you have\nto have a current driver's"
+    },
+    {
+      "start": 1210.66,
+      "duration": 0.5,
+      "text": "license."
+    },
+    {
+      "start": 1211.16,
+      "duration": 2.86,
+      "text": "And it's a little bit\nof self reporting."
+    },
+    {
+      "start": 1214.02,
+      "duration": 4.41,
+      "text": "You have to basically consider\nyourself to be healthy."
+    },
+    {
+      "start": 1218.43,
+      "duration": 2.34,
+      "text": "BasicMed, you start\nwith the third class"
+    },
+    {
+      "start": 1220.77,
+      "duration": 1.32,
+      "text": "during your training."
+    },
+    {
+      "start": 1222.09,
+      "duration": 4.71,
+      "text": "And then you'll go every four\nyears to a regular doctor."
+    },
+    {
+      "start": 1226.8,
+      "duration": 3.36,
+      "text": "You can see in FAR 61.113 that\nthere's a limit to what you"
+    },
+    {
+      "start": 1230.16,
+      "duration": 1.11,
+      "text": "can do under BasicMed."
+    },
+    {
+      "start": 1231.27,
+      "duration": 2.84,
+      "text": "You can't fly a\nheavy fast airplane"
+    },
+    {
+      "start": 1234.11,
+      "duration": 1.7,
+      "text": "with a lot of people in it."
+    },
+    {
+      "start": 1235.81,
+      "duration": 5.12,
+      "text": "OK, for most tests you need an\nendorsement from an instructor."
+    },
+    {
+      "start": 1244.65,
+      "duration": 3.69,
+      "text": "For the checkride\nyou can pass it."
+    },
+    {
+      "start": 1248.34,
+      "duration": 3.06,
+      "text": "It can be discontinued--\nmaybe the weather turned bad."
+    },
+    {
+      "start": 1251.4,
+      "duration": 3.09,
+      "text": "You can fail, usually\non one or two maneuvers."
+    },
+    {
+      "start": 1254.49,
+      "duration": 2.19,
+      "text": "You can retake the failed\ntest, which might only"
+    },
+    {
+      "start": 1256.68,
+      "duration": 3.99,
+      "text": "be on those one or two maneuvers\nat the examiner's discretion."
+    },
+    {
+      "start": 1260.67,
+      "duration": 5.64,
+      "text": "You have to log sufficient\nto prove to the FAA"
+    },
+    {
+      "start": 1266.31,
+      "duration": 2.04,
+      "text": "that you meet currency\nrequirements-- like you've"
+    },
+    {
+      "start": 1268.35,
+      "duration": 3.6,
+      "text": "done three takeoffs and\nlandings within the last 90 days"
+    },
+    {
+      "start": 1271.95,
+      "duration": 3.21,
+      "text": "if you're carrying passengers,\nor that you had a flight"
+    },
+    {
+      "start": 1275.16,
+      "duration": 1.2,
+      "text": "review within two years."
+    },
+    {
+      "start": 1279.37,
+      "duration": 3.81,
+      "text": "That's from a-- I have a\nnephew in medical school."
+    },
+    {
+      "start": 1283.18,
+      "duration": 4.11,
+      "text": "So you're supposed to ground\nyourself if you get sick."
+    },
+    {
+      "start": 1287.29,
+      "duration": 2.31,
+      "text": "So you've got a medical\ncertificate five years ago."
+    },
+    {
+      "start": 1289.6,
+      "duration": 3.09,
+      "text": "But if you're not fit to fly,\nthen you ground yourself."
+    },
+    {
+      "start": 1292.69,
+      "duration": 2.44,
+      "text": "There's a regulation about that."
+    },
+    {
+      "start": 1295.13,
+      "duration": 5.11,
+      "text": "The flight review\nrequires an hour of ground"
+    },
+    {
+      "start": 1300.24,
+      "duration": 1.69,
+      "text": "and an hour of\nflight at a minimum--"
+    },
+    {
+      "start": 1301.93,
+      "duration": 2.54,
+      "text": "whatever the instructor thinks\nthat you need to be safe."
+    },
+    {
+      "start": 1304.47,
+      "duration": 1.98,
+      "text": "Or if you get a new\npilot's certificate,"
+    },
+    {
+      "start": 1306.45,
+      "duration": 2.43,
+      "text": "for example, because you\ngot an instrument rating,"
+    },
+    {
+      "start": 1308.88,
+      "duration": 2.17,
+      "text": "then the flight review\nis not required."
+    },
+    {
+      "start": 1311.05,
+      "duration": 2.54,
+      "text": "So oftentimes, people are\nenthusiastic about it."
+    },
+    {
+      "start": 1313.59,
+      "duration": 2.91,
+      "text": "They won't have a flight\nreview for the first five or 10"
+    },
+    {
+      "start": 1316.5,
+      "duration": 2.4,
+      "text": "years of their aviation\njourney, because they"
+    },
+    {
+      "start": 1318.9,
+      "duration": 4.11,
+      "text": "keep getting new certificates\nfor this or that."
+    },
+    {
+      "start": 1323.01,
+      "duration": 3.37,
+      "text": "The insurance requirements\nfor more complex aircraft"
+    },
+    {
+      "start": 1326.38,
+      "duration": 2.98,
+      "text": "usually require training\nevery 12 months."
+    },
+    {
+      "start": 1329.36,
+      "duration": 2.12,
+      "text": "So they essentially are\nmore stringent than the FAA"
+    },
+    {
+      "start": 1331.48,
+      "duration": 0.78,
+      "text": "requirements."
+    },
+    {
+      "start": 1335.32,
+      "duration": 3.33,
+      "text": "So as I mentioned, you need to\nhave done some recent flying"
+    },
+    {
+      "start": 1338.65,
+      "duration": 4.14,
+      "text": "by yourself or with\npassengers before you"
+    },
+    {
+      "start": 1342.79,
+      "duration": 2.13,
+      "text": "can take additional passengers."
+    },
+    {
+      "start": 1344.92,
+      "duration": 1.89,
+      "text": "And if you're going\nto carry passengers"
+    },
+    {
+      "start": 1346.81,
+      "duration": 5.52,
+      "text": "at night, which is defined\nfor this currency as one hour"
+    },
+    {
+      "start": 1352.33,
+      "duration": 3.39,
+      "text": "after sunset to one\nhour before sunrise,"
+    },
+    {
+      "start": 1355.72,
+      "duration": 2.04,
+      "text": "you have to have done\nthree takeoffs and landings"
+    },
+    {
+      "start": 1357.76,
+      "duration": 2.73,
+      "text": "to a full stop before you can\ncarry passengers at night."
+    },
+    {
+      "start": 1360.49,
+      "duration": 2.37,
+      "text": "This is the one\nwhere people often"
+    },
+    {
+      "start": 1362.86,
+      "duration": 2.79,
+      "text": "have trouble maintaining\ntheir currency"
+    },
+    {
+      "start": 1365.65,
+      "duration": 2.1,
+      "text": "and have to make a special\ntrip to the airport"
+    },
+    {
+      "start": 1367.75,
+      "duration": 2.37,
+      "text": "to build currency."
+    },
+    {
+      "start": 1370.12,
+      "duration": 4.51,
+      "text": "This has to be in category,\nclass, and type, if applicable."
+    },
+    {
+      "start": 1374.63,
+      "duration": 2.81,
+      "text": "So if it's a jet, you\nhave to-- if you're"
+    },
+    {
+      "start": 1377.44,
+      "duration": 3.93,
+      "text": "typed in a Boeing 737, you have\nto have done the three takeoffs"
+    },
+    {
+      "start": 1381.37,
+      "duration": 3.24,
+      "text": "and landings at night\nin your Boeing 737"
+    },
+    {
+      "start": 1384.61,
+      "duration": 2.97,
+      "text": "to be current to take\nmore passengers at night."
+    },
+    {
+      "start": 1387.58,
+      "duration": 4.42,
+      "text": "It's not enough to do\nit just in a Cessna 172."
+    },
+    {
+      "start": 1392.0,
+      "duration": 2.29,
+      "text": "The flight review, oddly\nenough, doesn't work that way."
+    },
+    {
+      "start": 1394.29,
+      "duration": 2.68,
+      "text": "You can do it in any of the\naircraft for which you're"
+    },
+    {
+      "start": 1396.97,
+      "duration": 1.53,
+      "text": "rated."
+    },
+    {
+      "start": 1398.5,
+      "duration": 4.83,
+      "text": "Again, the insurance company\nmight be stricter about that."
+    },
+    {
+      "start": 1403.33,
+      "duration": 3.56,
+      "text": "Tell the FAA if you move."
+    },
+    {
+      "start": 1406.89,
+      "duration": 2.66,
+      "text": "This is packing up for a\nrecent trip to Florida."
+    },
+    {
+      "start": 1409.55,
+      "duration": 2.42,
+      "text": "So it sure looked\nlike we were moving."
+    },
+    {
+      "start": 1411.97,
+      "duration": 2.7,
+      "text": "Let me tell you, once you have\na light aircraft and a family,"
+    },
+    {
+      "start": 1414.67,
+      "duration": 3.48,
+      "text": "every trip becomes just like\nthat movie Sophie's Choice."
+    },
+    {
+      "start": 1418.15,
+      "duration": 3.27,
+      "text": "You have to decide who or what\nis going to be left behind."
+    },
+    {
+      "start": 1421.42,
+      "duration": 1.38,
+      "text": "It's pretty painful."
+    },
+    {
+      "start": 1422.8,
+      "duration": 1.29,
+      "text": "OK, student pilot."
+    },
+    {
+      "start": 1427.3,
+      "duration": 2.25,
+      "text": "Before you can solo, you\npass a little written test"
+    },
+    {
+      "start": 1429.55,
+      "duration": 3.99,
+      "text": "that's kind of chosen\nand given by the CFI."
+    },
+    {
+      "start": 1433.54,
+      "duration": 3.12,
+      "text": "You have to receive training on\nspecific listed maneuvers that"
+    },
+    {
+      "start": 1436.66,
+      "duration": 2.58,
+      "text": "are in this FAR 61.87."
+    },
+    {
+      "start": 1439.24,
+      "duration": 3.3,
+      "text": "You get signed off\nfor solo flight."
+    },
+    {
+      "start": 1442.54,
+      "duration": 4.35,
+      "text": "And that has to be\nrenewed every 90 days."
+    },
+    {
+      "start": 1446.89,
+      "duration": 5.51,
+      "text": "You can't take passengers or\ngo above a broken or overcast"
+    },
+    {
+      "start": 1452.4,
+      "duration": 0.5,
+      "text": "layer."
+    },
+    {
+      "start": 1452.9,
+      "duration": 3.48,
+      "text": "So as unwise as it may sound,\nif you're only visually rated"
+    },
+    {
+      "start": 1456.38,
+      "duration": 3.06,
+      "text": "you can take off, fly over\nclouds with the expectation"
+    },
+    {
+      "start": 1459.44,
+      "duration": 1.46,
+      "text": "that when you get\nto your airport,"
+    },
+    {
+      "start": 1460.9,
+      "duration": 1.5,
+      "text": "the weather is\nforecast to be clear,"
+    },
+    {
+      "start": 1462.4,
+      "duration": 2.23,
+      "text": "or at least you're\nhoping it will be clear."
+    },
+    {
+      "start": 1464.63,
+      "duration": 2.35,
+      "text": "They won't let you do that\nif you're a student pilot."
+    },
+    {
+      "start": 1466.98,
+      "duration": 2.12,
+      "text": "The CFI may also add\nother limitations"
+    },
+    {
+      "start": 1469.1,
+      "duration": 3.88,
+      "text": "like a maximum\nwind, for example."
+    },
+    {
+      "start": 1472.98,
+      "duration": 4.34,
+      "text": "Each cross-country flight--\nso if you're going from,"
+    },
+    {
+      "start": 1477.32,
+      "duration": 3.1,
+      "text": "for example, Hanscom\nField up to Portland,"
+    },
+    {
+      "start": 1480.42,
+      "duration": 3.32,
+      "text": "Maine as a solo cross-country\nor to Keene, New Hampshire,"
+    },
+    {
+      "start": 1483.74,
+      "duration": 3.75,
+      "text": "that requires that you do the\nflight plan and review it with"
+    },
+    {
+      "start": 1487.49,
+      "duration": 0.6,
+      "text": "the CFI--"
+    },
+    {
+      "start": 1488.09,
+      "duration": 2.16,
+      "text": "doesn't have to\nbe a regular CFI."
+    },
+    {
+      "start": 1490.25,
+      "duration": 4.53,
+      "text": "And have the CFI sign off that\nyour planning is adequate."
+    },
+    {
+      "start": 1494.78,
+      "duration": 4.53,
+      "text": "You can, actually,\nfly in Bravo airspace."
+    },
+    {
+      "start": 1499.31,
+      "duration": 2.47,
+      "text": "We'll get into that\na little bit later."
+    },
+    {
+      "start": 1501.78,
+      "duration": 2.69,
+      "text": "The most controlled airspace\nin the US, basically-- right"
+    },
+    {
+      "start": 1504.47,
+      "duration": 1.79,
+      "text": "around the biggest airports."
+    },
+    {
+      "start": 1506.26,
+      "duration": 2.17,
+      "text": "However, you have to have\na sign-off from the flight"
+    },
+    {
+      "start": 1508.43,
+      "duration": 1.84,
+      "text": "instructor."
+    },
+    {
+      "start": 1510.27,
+      "duration": 4.49,
+      "text": "You can actually land at\na class Brave airport."
+    },
+    {
+      "start": 1514.76,
+      "duration": 2.79,
+      "text": "Salt Lake City has\na flight school."
+    },
+    {
+      "start": 1517.55,
+      "duration": 1.62,
+      "text": "So they obviously\nhave people who"
+    },
+    {
+      "start": 1519.17,
+      "duration": 4.65,
+      "text": "are soloing at a huge\ncommercial airport."
+    },
+    {
+      "start": 1523.82,
+      "duration": 3.36,
+      "text": "However, in the\nFARs, appendix D,"
+    },
+    {
+      "start": 1527.18,
+      "duration": 3.96,
+      "text": "some airports are\nexcluded from student use"
+    },
+    {
+      "start": 1531.14,
+      "duration": 2.85,
+      "text": "of the actual runways as\nopposed to the airspace."
+    },
+    {
+      "start": 1533.99,
+      "duration": 2.85,
+      "text": "Logan happens to be one of them."
+    },
+    {
+      "start": 1536.84,
+      "duration": 2.25,
+      "text": "So once you get your\nprivate pilot certificate,"
+    },
+    {
+      "start": 1539.09,
+      "duration": 0.72,
+      "text": "what can you do?"
+    },
+    {
+      "start": 1539.81,
+      "duration": 1.59,
+      "text": "This is what I like to do."
+    },
+    {
+      "start": 1541.4,
+      "duration": 2.16,
+      "text": "Fly over Boston."
+    },
+    {
+      "start": 1543.56,
+      "duration": 1.59,
+      "text": "I've got the family in the back."
+    },
+    {
+      "start": 1545.15,
+      "duration": 1.56,
+      "text": "We start in the Cirrus."
+    },
+    {
+      "start": 1546.71,
+      "duration": 1.98,
+      "text": "We end up at Provincetown."
+    },
+    {
+      "start": 1548.69,
+      "duration": 2.7,
+      "text": "We find the whales by--"
+    },
+    {
+      "start": 1551.39,
+      "duration": 2.94,
+      "text": "after careful study\nof marine biology,"
+    },
+    {
+      "start": 1554.33,
+      "duration": 1.68,
+      "text": "I've learned that\nthe best way to find"
+    },
+    {
+      "start": 1556.01,
+      "duration": 2.04,
+      "text": "whales is to look for\na whale watching boat."
+    },
+    {
+      "start": 1558.05,
+      "duration": 1.07,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 1559.12,
+      "duration": 2.27,
+      "text": "They're just off shore."
+    },
+    {
+      "start": 1561.39,
+      "duration": 1.44,
+      "text": "It saves, actually,\na lot of time."
+    },
+    {
+      "start": 1562.83,
+      "duration": 2.09,
+      "text": "It's about 20 minutes to P-town."
+    },
+    {
+      "start": 1564.92,
+      "duration": 3.78,
+      "text": "And the whale watch cruises\nthat leave from P-town,"
+    },
+    {
+      "start": 1568.7,
+      "duration": 1.51,
+      "text": "those are three or four hours."
+    },
+    {
+      "start": 1570.21,
+      "duration": 3.5,
+      "text": "So this is a very efficient\nway to see the whales."
+    },
+    {
+      "start": 1573.71,
+      "duration": 1.14,
+      "text": "Who is eligible?"
+    },
+    {
+      "start": 1574.85,
+      "duration": 3.18,
+      "text": "A lot of people solo\non their 16th birthday."
+    },
+    {
+      "start": 1578.03,
+      "duration": 7.41,
+      "text": "And they get a pilot certificate\non their 17th birthday."
+    },
+    {
+      "start": 1585.44,
+      "duration": 2.34,
+      "text": "You can do it even a little\nbit younger, a year younger,"
+    },
+    {
+      "start": 1587.78,
+      "duration": 3.0,
+      "text": "in gliders and balloons."
+    },
+    {
+      "start": 1590.78,
+      "duration": 3.81,
+      "text": "You must have that CFI sign-off\nto take the practical test,"
+    },
+    {
+      "start": 1594.59,
+      "duration": 3.3,
+      "text": "pass the knowledge test that's\nkind of the end of this course,"
+    },
+    {
+      "start": 1597.89,
+      "duration": 2.23,
+      "text": "and meet the experience\nrequirements."
+    },
+    {
+      "start": 1600.12,
+      "duration": 3.44,
+      "text": "That means at least 40\nhours of total time, three"
+    },
+    {
+      "start": 1603.56,
+      "duration": 2.08,
+      "text": "hours of night, and so forth--"
+    },
+    {
+      "start": 1605.64,
+      "duration": 0.89,
+      "text": "10 hours of solo."
+    },
+    {
+      "start": 1609.2,
+      "duration": 1.69,
+      "text": "Flight proficiency."
+    },
+    {
+      "start": 1610.89,
+      "duration": 3.86,
+      "text": "So this is the stuff that's\nin the airman certification"
+    },
+    {
+      "start": 1614.75,
+      "duration": 1.45,
+      "text": "standards that we talked about."
+    },
+    {
+      "start": 1616.2,
+      "duration": 8.08,
+      "text": "So it says you've got to be\nable to fly, power off landing."
+    },
+    {
+      "start": 1624.28,
+      "duration": 4.39,
+      "text": "You've got to be able to\ndemonstrate a soft field"
+    },
+    {
+      "start": 1628.67,
+      "duration": 1.84,
+      "text": "take-off, like how you\nwould take off if you"
+    },
+    {
+      "start": 1630.51,
+      "duration": 2.09,
+      "text": "were on grass and so forth."
+    },
+    {
+      "start": 1632.6,
+      "duration": 2.67,
+      "text": "Everything's in there, including\nsome basic instrument training,"
+    },
+    {
+      "start": 1635.27,
+      "duration": 0.69,
+      "text": "actually."
+    },
+    {
+      "start": 1635.96,
+      "duration": 1.8,
+      "text": "The FAA has three\nhours of training."
+    },
+    {
+      "start": 1637.76,
+      "duration": 1.71,
+      "text": "And they want you to\ndemonstrate that you"
+    },
+    {
+      "start": 1639.47,
+      "duration": 3.52,
+      "text": "can fly by reference to\ninstruments, at least well"
+    },
+    {
+      "start": 1642.99,
+      "duration": 1.46,
+      "text": "enough to get back\nout of the cloud"
+    },
+    {
+      "start": 1644.45,
+      "duration": 4.02,
+      "text": "that you inadvertently\nflew into."
+    },
+    {
+      "start": 1648.47,
+      "duration": 2.91,
+      "text": "So as I noted, you need\n20 hours of training"
+    },
+    {
+      "start": 1651.38,
+      "duration": 2.92,
+      "text": "from a CFI minimum,\n10 hours solo minimum."
+    },
+    {
+      "start": 1654.3,
+      "duration": 1.71,
+      "text": "The other 10 hours is\nat your discretion."
+    },
+    {
+      "start": 1656.01,
+      "duration": 2.64,
+      "text": "Almost all people would choose\nto do that with an instructor,"
+    },
+    {
+      "start": 1658.65,
+      "duration": 2.42,
+      "text": "because it's not a big added\ncost compared to the airplane"
+    },
+    {
+      "start": 1661.07,
+      "duration": 2.78,
+      "text": "rental."
+    },
+    {
+      "start": 1663.85,
+      "duration": 4.71,
+      "text": "The training from the CFI will\ninclude one long cross-country."
+    },
+    {
+      "start": 1668.56,
+      "duration": 2.13,
+      "text": "That's kind of the\ninteresting part."
+    },
+    {
+      "start": 1670.69,
+      "duration": 2.16,
+      "text": "100 nautical mile cross-country."
+    },
+    {
+      "start": 1672.85,
+      "duration": 2.99,
+      "text": "I think it has to stop at\nthree different airports."
+    },
+    {
+      "start": 1675.84,
+      "duration": 2.26,
+      "text": "So the one you took\noff from and two more,"
+    },
+    {
+      "start": 1678.1,
+      "duration": 1.02,
+      "text": "like a triangle flight."
+    },
+    {
+      "start": 1682.11,
+      "duration": 3.75,
+      "text": "And those three hours\nof instrument training I"
+    },
+    {
+      "start": 1685.86,
+      "duration": 2.31,
+      "text": "told you about and the\nthree hours of test prep"
+    },
+    {
+      "start": 1688.17,
+      "duration": 1.23,
+      "text": "within two calendar months."
+    },
+    {
+      "start": 1692.23,
+      "duration": 0.63,
+      "text": "Oh, yeah."
+    },
+    {
+      "start": 1692.86,
+      "duration": 4.66,
+      "text": "So actually-- sorry, I was\nmistaken about this one."
+    },
+    {
+      "start": 1697.52,
+      "duration": 2.35,
+      "text": "100 nautical mile\ncross-country flight at night"
+    },
+    {
+      "start": 1699.87,
+      "duration": 3.99,
+      "text": "does not require three legs."
+    },
+    {
+      "start": 1703.86,
+      "duration": 3.27,
+      "text": "But your solo-- you have to\ndo one solo 150 nautical mile"
+    },
+    {
+      "start": 1707.13,
+      "duration": 5.16,
+      "text": "trip, three legs of about\n50 nautical miles each--"
+    },
+    {
+      "start": 1712.29,
+      "duration": 1.86,
+      "text": "one at least 50 nautical."
+    },
+    {
+      "start": 1714.15,
+      "duration": 3.09,
+      "text": "So that's the one\nwhere the FAA thinks,"
+    },
+    {
+      "start": 1717.24,
+      "duration": 2.46,
+      "text": "OK, this person is really\ngood to go and start"
+    },
+    {
+      "start": 1719.7,
+      "duration": 1.23,
+      "text": "taking his or her friends."
+    },
+    {
+      "start": 1720.93,
+      "duration": 3.75,
+      "text": "Which, as I said earlier, you\nmight think that that might not"
+    },
+    {
+      "start": 1724.68,
+      "duration": 1.56,
+      "text": "be what the friends want."
+    },
+    {
+      "start": 1726.24,
+      "duration": 4.02,
+      "text": "You might say, no, I'd rather be\nin a five-seat Cirrus with you"
+    },
+    {
+      "start": 1730.26,
+      "duration": 2.13,
+      "text": "and the more experienced\npilot in the front."
+    },
+    {
+      "start": 1732.39,
+      "duration": 3.84,
+      "text": "And we'll sit in\nthe back and party."
+    },
+    {
+      "start": 1736.23,
+      "duration": 6.91,
+      "text": "All right, so this is\na little bit tricky."
+    },
+    {
+      "start": 1743.14,
+      "duration": 3.82,
+      "text": "But basically, you can fly if\nit's part of your business."
+    },
+    {
+      "start": 1746.96,
+      "duration": 2.6,
+      "text": "So if your company requires\nyou to get to a meeting,"
+    },
+    {
+      "start": 1749.56,
+      "duration": 3.09,
+      "text": "you can do that with a\nprivate pilot certificate."
+    },
+    {
+      "start": 1752.65,
+      "duration": 3.7,
+      "text": "Generally, though, you have to\nbe paying for most of the stuff"
+    },
+    {
+      "start": 1756.35,
+      "duration": 0.5,
+      "text": "that you do."
+    },
+    {
+      "start": 1756.85,
+      "duration": 3.27,
+      "text": "You can't let your friends\npay the full cost of renting"
+    },
+    {
+      "start": 1760.12,
+      "duration": 2.02,
+      "text": "the airplane, for example."
+    },
+    {
+      "start": 1762.14,
+      "duration": 1.37,
+      "text": "You can tow a glider."
+    },
+    {
+      "start": 1763.51,
+      "duration": 3.99,
+      "text": "There's kind of elaborate rules\nthat have gotten more complex"
+    },
+    {
+      "start": 1767.5,
+      "duration": 3.09,
+      "text": "every year about how\nto do charity flights."
+    },
+    {
+      "start": 1770.59,
+      "duration": 1.98,
+      "text": "But it can be done."
+    },
+    {
+      "start": 1772.57,
+      "duration": 2.01,
+      "text": "Regulation versus insurance."
+    },
+    {
+      "start": 1774.58,
+      "duration": 1.78,
+      "text": "So here's a question for you."
+    },
+    {
+      "start": 1776.36,
+      "duration": 3.51,
+      "text": "What if, hypothetically\nspeaking, somebody shut down"
+    },
+    {
+      "start": 1779.87,
+      "duration": 2.52,
+      "text": "the government and\nthere was no FAA?"
+    },
+    {
+      "start": 1782.39,
+      "duration": 2.9,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 1785.29,
+      "duration": 1.83,
+      "text": "Could this work?"
+    },
+    {
+      "start": 1787.12,
+      "duration": 2.19,
+      "text": "And I think actually it could."
+    },
+    {
+      "start": 1789.31,
+      "duration": 3.84,
+      "text": "You would just say, it's illegal\nto fly without insurance."
+    },
+    {
+      "start": 1793.15,
+      "duration": 1.32,
+      "text": "Because let's think about it."
+    },
+    {
+      "start": 1794.47,
+      "duration": 3.78,
+      "text": "The FAA says that you can\ngo to East Coast Aero Club,"
+    },
+    {
+      "start": 1798.25,
+      "duration": 4.31,
+      "text": "fly around in a Piper\nWarrior, get your certificate,"
+    },
+    {
+      "start": 1802.56,
+      "duration": 2.46,
+      "text": "and then just get a couple of\nsign-offs from an instructor"
+    },
+    {
+      "start": 1805.02,
+      "duration": 3.57,
+      "text": "for complex, high performance--\nactually, I guess it's three--"
+    },
+    {
+      "start": 1808.59,
+      "duration": 1.59,
+      "text": "high altitude."
+    },
+    {
+      "start": 1810.18,
+      "duration": 4.26,
+      "text": "And then at 43 hours\nof flight time,"
+    },
+    {
+      "start": 1814.44,
+      "duration": 4.32,
+      "text": "you get yourself into this\n$5 million Pilatus PC-12."
+    },
+    {
+      "start": 1818.76,
+      "duration": 1.83,
+      "text": "You've got the entire family."
+    },
+    {
+      "start": 1820.59,
+      "duration": 1.89,
+      "text": "You pitch your tent at Oshkosh."
+    },
+    {
+      "start": 1822.48,
+      "duration": 1.23,
+      "text": "Everybody's happy."
+    },
+    {
+      "start": 1823.71,
+      "duration": 2.7,
+      "text": "Well, that's legal from\nthe FAA's point of view."
+    },
+    {
+      "start": 1826.41,
+      "duration": 1.89,
+      "text": "But the insurance\ncompany says, you know,"
+    },
+    {
+      "start": 1828.3,
+      "duration": 2.46,
+      "text": "we don't really want to\nbuy you a new Pilatus"
+    },
+    {
+      "start": 1830.76,
+      "duration": 3.06,
+      "text": "after you go sideways off\nthe runway at Oshkosh."
+    },
+    {
+      "start": 1833.82,
+      "duration": 1.58,
+      "text": "So we're not going\nto let you do that."
+    },
+    {
+      "start": 1835.4,
+      "duration": 1.38,
+      "text": "You don't have\nenough experience."
+    },
+    {
+      "start": 1836.78,
+      "duration": 2.42,
+      "text": "You're going to need specific\ntraining for the airplane."
+    },
+    {
+      "start": 1839.19,
+      "duration": 2.91,
+      "text": "Again, this is the single\nengine land airplane."
+    },
+    {
+      "start": 1842.1,
+      "duration": 4.32,
+      "text": "It's not over 12,500 pounds, so\nyou don't need a type rating."
+    },
+    {
+      "start": 1846.42,
+      "duration": 2.15,
+      "text": "And therefore, you\ncould just get in there."
+    },
+    {
+      "start": 1848.57,
+      "duration": 1.54,
+      "text": "And most people\ndon't lock the doors."
+    },
+    {
+      "start": 1850.11,
+      "duration": 3.09,
+      "text": "So just jump in, push\nthe start button, and go."
+    },
+    {
+      "start": 1853.2,
+      "duration": 0.86,
+      "text": "FAA is happy."
+    },
+    {
+      "start": 1854.06,
+      "duration": 1.42,
+      "text": "Well, again, the\ninsurance company"
+    },
+    {
+      "start": 1855.48,
+      "duration": 2.29,
+      "text": "wouldn't have let you\ndo that to begin with."
+    },
+    {
+      "start": 1857.77,
+      "duration": 2.18,
+      "text": "So if this complex\nregulatory environment"
+    },
+    {
+      "start": 1859.95,
+      "duration": 2.8,
+      "text": "didn't exist but\ninsurance were required,"
+    },
+    {
+      "start": 1862.75,
+      "duration": 1.46,
+      "text": "I think you'd end\nup with something"
+    },
+    {
+      "start": 1864.21,
+      "duration": 4.8,
+      "text": "that was substantially similar\nand basically the same."
+    },
+    {
+      "start": 1869.01,
+      "duration": 2.7,
+      "text": "The FAA system, I will\nsay in favor of it,"
+    },
+    {
+      "start": 1871.71,
+      "duration": 1.3,
+      "text": "it's kind of motivational."
+    },
+    {
+      "start": 1873.01,
+      "duration": 3.04,
+      "text": "It's sort of like the bad\nsystem that the Boy Scouts--"
+    },
+    {
+      "start": 1876.06,
+      "duration": 1.62,
+      "text": "I guess they're not\nBoy Scouts anymore."
+    },
+    {
+      "start": 1877.68,
+      "duration": 1.89,
+      "text": "The Scouts and the Girl Scouts--"
+    },
+    {
+      "start": 1879.57,
+      "duration": 1.69,
+      "text": "they're still the Girl Scouts--"
+    },
+    {
+      "start": 1881.26,
+      "duration": 3.18,
+      "text": "that the Scouts run."
+    },
+    {
+      "start": 1884.44,
+      "duration": 4.32,
+      "text": "And it motivates people\nto get the next one."
+    },
+    {
+      "start": 1888.76,
+      "duration": 2.64,
+      "text": "Everything except the drones\nis hanging off either the pilot"
+    },
+    {
+      "start": 1891.4,
+      "duration": 2.46,
+      "text": "or the CFI certificate."
+    },
+    {
+      "start": 1893.86,
+      "duration": 2.7,
+      "text": "And just remember that you're\ngoing to stay FAA current"
+    },
+    {
+      "start": 1896.56,
+      "duration": 2.64,
+      "text": "by flying every quarter and with\nan instructor every two years."
+    },
+    {
+      "start": 1899.2,
+      "duration": 1.83,
+      "text": "A lot of people in New\nEngland, though, they"
+    },
+    {
+      "start": 1901.03,
+      "duration": 1.38,
+      "text": "don't fly much\nduring the winter."
+    },
+    {
+      "start": 1902.4,
+      "duration": 3.06,
+      "text": "So they go up and do a currency\nflight in the springtime"
+    },
+    {
+      "start": 1905.47,
+      "duration": 2.35,
+      "text": "before the flying season starts."
+    },
+    {
+      "start": 1907.82,
+      "duration": 3.53,
+      "text": "So while you're thinking\nabout your questions,"
+    },
+    {
+      "start": 1911.35,
+      "duration": 2.73,
+      "text": "about the regulatory\nframework or learning to fly,"
+    },
+    {
+      "start": 1914.08,
+      "duration": 1.5,
+      "text": "I'll just show you\na flight that you"
+    },
+    {
+      "start": 1915.58,
+      "duration": 1.71,
+      "text": "could do with just a private."
+    },
+    {
+      "start": 1917.29,
+      "duration": 2.52,
+      "text": "There is an entangled\nwhale in New York Harbor"
+    },
+    {
+      "start": 1919.81,
+      "duration": 2.1,
+      "text": "with fishing gear all over him."
+    },
+    {
+      "start": 1921.91,
+      "duration": 3.41,
+      "text": "And the people that\ncould untangle him"
+    },
+    {
+      "start": 1925.32,
+      "duration": 1.3,
+      "text": "were in Provincetown."
+    },
+    {
+      "start": 1926.62,
+      "duration": 4.95,
+      "text": "So Noah asked me to volunteer,\nbecause they had my email"
+    },
+    {
+      "start": 1931.57,
+      "duration": 2.16,
+      "text": "from the sea turtle flights."
+    },
+    {
+      "start": 1933.73,
+      "duration": 2.64,
+      "text": "They said, hey, would you\nmind flying over Boston,"
+    },
+    {
+      "start": 1936.37,
+      "duration": 2.34,
+      "text": "picking these guys\nup in Provincetown,"
+    },
+    {
+      "start": 1938.71,
+      "duration": 5.46,
+      "text": "going over New York Harbor in\nthe area just outside of it"
+    },
+    {
+      "start": 1944.17,
+      "duration": 4.53,
+      "text": "to look for the whale, land\nthem on the New Jersey Shore,"
+    },
+    {
+      "start": 1948.7,
+      "duration": 2.01,
+      "text": "so they can get\ninto a zodiac boat"
+    },
+    {
+      "start": 1950.71,
+      "duration": 2.24,
+      "text": "and chase after the whales?"
+    },
+    {
+      "start": 1952.95,
+      "duration": 2.08,
+      "text": "They didn't tell me to go\nvisit my parents in D.C."
+    },
+    {
+      "start": 1955.03,
+      "duration": 2.0,
+      "text": "but I did while they were\nout chasing the whale."
+    },
+    {
+      "start": 1957.03,
+      "duration": 2.56,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 1959.59,
+      "duration": 1.44,
+      "text": "And then come back."
+    },
+    {
+      "start": 1961.03,
+      "duration": 3.88,
+      "text": "And I dropped them off,\nI think, right-- just"
+    },
+    {
+      "start": 1964.91,
+      "duration": 3.51,
+      "text": "after sunset I landed at\nProvincetown after sunset."
+    },
+    {
+      "start": 1968.42,
+      "duration": 2.48,
+      "text": "And then I did a night\nflight over water"
+    },
+    {
+      "start": 1970.9,
+      "duration": 2.5,
+      "text": "in a single engine\nplane that's about to--"
+    },
+    {
+      "start": 1973.4,
+      "duration": 4.1,
+      "text": "it's just reached its 2,000\nhour overhaul for the engine."
+    },
+    {
+      "start": 1977.5,
+      "duration": 1.93,
+      "text": "So maybe that wasn't\nthe wisest thing to do."
+    },
+    {
+      "start": 1979.43,
+      "duration": 4.17,
+      "text": "But I do have a life\njacket and a raft."
+    },
+    {
+      "start": 1983.6,
+      "duration": 2.46,
+      "text": "So that was an entire day\nof flying from about 7:00 AM"
+    },
+    {
+      "start": 1986.06,
+      "duration": 0.84,
+      "text": "to about--"
+    },
+    {
+      "start": 1986.9,
+      "duration": 2.22,
+      "text": "I don't know-- 9:00 PM when\nI landed back in Hanscom."
+    },
+    {
+      "start": 1989.12,
+      "duration": 1.65,
+      "text": "And I think that\ndidn't require more"
+    },
+    {
+      "start": 1990.77,
+      "duration": 2.91,
+      "text": "than a private certificate,\nbecause it's all volunteer."
+    },
+    {
+      "start": 1993.68,
+      "duration": 2.01,
+      "text": "People say, have you\never been scared?"
+    },
+    {
+      "start": 1995.69,
+      "duration": 1.98,
+      "text": "Philip, you've\nflown 4,000 hours."
+    },
+    {
+      "start": 1997.67,
+      "duration": 2.25,
+      "text": "What's the scariest thing\nthat's ever happened to you?"
+    },
+    {
+      "start": 1999.92,
+      "duration": 3.4,
+      "text": "And I think actually\nit was on this flight."
+    },
+    {
+      "start": 2003.32,
+      "duration": 3.12,
+      "text": "Because if you see,\nthere's that IFR."
+    },
+    {
+      "start": 2006.44,
+      "duration": 6.73,
+      "text": "That's an IFR intersection\nthat the FAA came up with."
+    },
+    {
+      "start": 2013.17,
+      "duration": 3.92,
+      "text": "So for those of you who\nare familiar with Judaism,"
+    },
+    {
+      "start": 2017.1,
+      "duration": 2.38,
+      "text": "you will know that is not\nsomething you ever want to see."
+    },
+    {
+      "start": 2019.47,
+      "duration": 2.22,
+      "text": "[LAUGHTER]"
+    },
+    {
+      "start": 2021.69,
+      "duration": 2.43,
+      "text": "All right, so who has a\nquestion about that material?"
+    },
+    {
+      "start": 2024.12,
+      "duration": 1.29,
+      "text": "Or should we zip into systems?"
+    },
+    {
+      "start": 2027.37,
+      "duration": 1.75,
+      "text": "AUDIENCE: Are there\nany medical conditions"
+    },
+    {
+      "start": 2029.12,
+      "duration": 2.47,
+      "text": "that would prohibit you\nfrom flying altogether?"
+    },
+    {
+      "start": 2031.59,
+      "duration": 1.42,
+      "text": "PHILIP GREENSPUN:\nThe question is,"
+    },
+    {
+      "start": 2033.01,
+      "duration": 3.08,
+      "text": "are there any medical\nconditions that really preclude"
+    },
+    {
+      "start": 2036.09,
+      "duration": 1.92,
+      "text": "a person from getting\na pilot's certificate"
+    },
+    {
+      "start": 2038.01,
+      "duration": 2.25,
+      "text": "or getting the medical to\ngo with a pilot certificate?"
+    },
+    {
+      "start": 2040.26,
+      "duration": 1.62,
+      "text": "I guess you need the\nmedical to get it,"
+    },
+    {
+      "start": 2041.88,
+      "duration": 1.25,
+      "text": "because you need to solo."
+    },
+    {
+      "start": 2043.14,
+      "duration": 4.27,
+      "text": "The FAA-- they have\nan exemption process."
+    },
+    {
+      "start": 2047.41,
+      "duration": 1.42,
+      "text": "And they have their\nown physicians"
+    },
+    {
+      "start": 2048.83,
+      "duration": 1.56,
+      "text": "in Oklahoma City that review."
+    },
+    {
+      "start": 2050.39,
+      "duration": 3.42,
+      "text": "So usually you can work with\nan aviation medical examiner"
+    },
+    {
+      "start": 2053.81,
+      "duration": 2.0,
+      "text": "and get some kind of exception."
+    },
+    {
+      "start": 2055.81,
+      "duration": 2.6,
+      "text": "Diabetics, they're kind\nof concerned about."
+    },
+    {
+      "start": 2058.41,
+      "duration": 2.99,
+      "text": "But if the person has a long\nhistory of controlling it well,"
+    },
+    {
+      "start": 2061.4,
+      "duration": 1.68,
+      "text": "they'll usually\ngive an exemption."
+    },
+    {
+      "start": 2063.08,
+      "duration": 1.71,
+      "text": "People have heart bypasses."
+    },
+    {
+      "start": 2064.79,
+      "duration": 3.15,
+      "text": "And then they have to go through\nsome rehabilitation process"
+    },
+    {
+      "start": 2067.94,
+      "duration": 2.04,
+      "text": "that makes the FAA happy."
+    },
+    {
+      "start": 2069.98,
+      "duration": 0.9,
+      "text": "So it's all laid out."
+    },
+    {
+      "start": 2070.88,
+      "duration": 2.25,
+      "text": "There's a lot of stuff\nonline about the standards"
+    },
+    {
+      "start": 2073.13,
+      "duration": 0.61,
+      "text": "that they use."
+    },
+    {
+      "start": 2073.74,
+      "duration": 0.88,
+      "text": "And it's complicated."
+    },
+    {
+      "start": 2074.61,
+      "duration": 2.43,
+      "text": "But the doctors-- there's a\nlot of good local aviation"
+    },
+    {
+      "start": 2077.04,
+      "duration": 0.5,
+      "text": "examiners."
+    },
+    {
+      "start": 2077.54,
+      "duration": 2.74,
+      "text": "One of them works right\nat Cambridge hospital."
+    },
+    {
+      "start": 2080.28,
+      "duration": 4.51,
+      "text": "So that's a fairly easy\nquestion to get answered."
+    }
+  ]
+}

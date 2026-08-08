@@ -1,10 +1,10 @@
 import React, { useState, useEffect } from 'react';
 import { LandingView } from './components/LandingView';
 import { QuestionView } from './components/QuestionView';
+import { C172Hub } from './components/c172/C172Hub';
 import { useTestProgress } from './hooks/useTestProgress';
 import { Question, TestMode } from './types';
-import { db } from './lib/firebase';
-import { collection, query, where, getDocs } from 'firebase/firestore';
+import { getQuestionsForBank } from './lib/questionsData';
 
 // PPL chapter titles
 const pplChapterTitles: Record<string, string> = {
@@ -68,20 +68,21 @@ const titleMap: Record<TestMode, Record<string, string>> = {
   ppl: pplChapterTitles,
   ir: irChapterTitles,
   cpl: cplChapterTitles,
+  c172: {},
 };
 
 const prefixMap: Record<TestMode, string> = {
   ppl: 'progress',
   ir: 'ir_progress',
   cpl: 'cpl_progress',
+  c172: 'c172_progress',
 };
 
 export const App: React.FC = () => {
   const [mode, setMode] = useState<TestMode>('ppl');
   const [selectedChapter, setSelectedChapter] = useState<string | null>(null);
   const [reviewMode, setReviewMode] = useState(false);
-  const [questionsData, setQuestionsData] = useState<Question[]>([]);
-  const [loading, setLoading] = useState(true);
+  const [questionsData, setQuestionsData] = useState<Question[]>(() => getQuestionsForBank('ppl'));
 
   const progressPrefix = prefixMap[mode];
   const chapters = getChapters(questionsData, titleMap[mode]);
@@ -94,21 +95,7 @@ export const App: React.FC = () => {
   );
 
   useEffect(() => {
-    const fetchQuestions = async () => {
-      setLoading(true);
-      try {
-        const q = query(collection(db, 'questions'), where('bank', '==', mode));
-        const querySnapshot = await getDocs(q);
-        const docs = querySnapshot.docs.map(doc => doc.data() as Question);
-        setQuestionsData(docs);
-      } catch (error) {
-        console.error("Error fetching questions:", error);
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    fetchQuestions();
+    setQuestionsData(getQuestionsForBank(mode));
   }, [mode]);
 
   const handleModeSwitch = (newMode: TestMode) => {
@@ -134,16 +121,6 @@ export const App: React.FC = () => {
     setReviewMode(false);
   };
 
-  if (loading) {
-    return (
-      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '100vh', color: 'var(--text-primary)' }}>
-        <div className="glass-card" style={{ padding: '2rem' }}>
-          Initializing FAA Question Bank...
-        </div>
-      </div>
-    );
-  }
-
   let currentQuestions: Question[] = [];
   if (reviewMode) {
     currentQuestions = reviewQuestions;
@@ -154,8 +131,10 @@ export const App: React.FC = () => {
   }
 
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', minHeight: '100vh' }}>
-      {!selectedChapter ? (
+    <div style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0, overflow: 'hidden' }}>
+      {mode === 'c172' ? (
+        <C172Hub onModeSwitch={handleModeSwitch} />
+      ) : !selectedChapter ? (
         <LandingView
           mode={mode}
           onModeSwitch={handleModeSwitch}

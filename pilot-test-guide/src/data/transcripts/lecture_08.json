@@ -1,0 +1,3873 @@
+{
+  "videoId": "OlQie93CwLY",
+  "lectureNum": 8,
+  "title": "Helicopter Aerodynamics",
+  "topics": [
+    "helicopter",
+    "rotor",
+    "autorotation",
+    "hover"
+  ],
+  "segments": [
+    {
+      "start": 10.95,
+      "duration": 1.54,
+      "text": "PHILIP GREENSPUN:\nQuick introduction."
+    },
+    {
+      "start": 12.49,
+      "duration": 3.76,
+      "text": "I know hardly anybody says\nthey care about helicopters."
+    },
+    {
+      "start": 16.25,
+      "duration": 3.58,
+      "text": "But as God is my witness,\nI'm going to change that."
+    },
+    {
+      "start": 19.83,
+      "duration": 5.38,
+      "text": "If I can reach one of you\nairplane obsessed folks,"
+    },
+    {
+      "start": 25.21,
+      "duration": 0.91,
+      "text": "I will do my best."
+    },
+    {
+      "start": 28.63,
+      "duration": 4.48,
+      "text": "So what is cool\nabout a helicopter?"
+    },
+    {
+      "start": 33.11,
+      "duration": 2.21,
+      "text": "Here, it's the view."
+    },
+    {
+      "start": 35.32,
+      "duration": 2.0,
+      "text": "So let's start, first and\nforemost, it's a view."
+    },
+    {
+      "start": 37.32,
+      "duration": 3.11,
+      "text": "So these are some\npictures that I"
+    },
+    {
+      "start": 40.43,
+      "duration": 3.06,
+      "text": "snapped on a trip from\nthe Robinson factory"
+    },
+    {
+      "start": 43.49,
+      "duration": 2.84,
+      "text": "in Los Angeles back to Boston."
+    },
+    {
+      "start": 49.82,
+      "duration": 1.58,
+      "text": "Who recognizes the\ncity in the middle?"
+    },
+    {
+      "start": 53.98,
+      "duration": 2.34,
+      "text": "Ooh, some Midwesterners\nhere, Chicago indeed."
+    },
+    {
+      "start": 62.31,
+      "duration": 2.46,
+      "text": "Of course this is the Stata\nCenter where we'll be tomorrow,"
+    },
+    {
+      "start": 64.77,
+      "duration": 5.56,
+      "text": "remember that, 32 141."
+    },
+    {
+      "start": 70.33,
+      "duration": 3.83,
+      "text": "What are the parts\nof the helicopter?"
+    },
+    {
+      "start": 74.16,
+      "duration": 3.33,
+      "text": "If you're between\nages 3 and 5, it's"
+    },
+    {
+      "start": 77.49,
+      "duration": 4.05,
+      "text": "acceptable to call it the\nthing on the top the propeller"
+    },
+    {
+      "start": 81.54,
+      "duration": 4.68,
+      "text": "but older than that, it's\nbetter to say main rotor system."
+    },
+    {
+      "start": 86.22,
+      "duration": 1.62,
+      "text": "Tail rotor is in\nthe back-- we'll"
+    },
+    {
+      "start": 87.84,
+      "duration": 2.95,
+      "text": "talk about why we\nneed that in a minute."
+    },
+    {
+      "start": 90.79,
+      "duration": 2.75,
+      "text": "You got to have transmissions."
+    },
+    {
+      "start": 93.54,
+      "duration": 1.65,
+      "text": "In helicopters, the\nspeed of the engine"
+    },
+    {
+      "start": 95.19,
+      "duration": 3.0,
+      "text": "is never the speed that\nyou want, I don't think."
+    },
+    {
+      "start": 98.19,
+      "duration": 2.1,
+      "text": "And landing gear\nis kind of nice."
+    },
+    {
+      "start": 100.29,
+      "duration": 1.89,
+      "text": "Although for\nrecord-setting flights,"
+    },
+    {
+      "start": 102.18,
+      "duration": 2.07,
+      "text": "sometimes people\nhave taken them off"
+    },
+    {
+      "start": 104.25,
+      "duration": 1.98,
+      "text": "to try to get a little\nhigher a little faster,"
+    },
+    {
+      "start": 106.23,
+      "duration": 1.5,
+      "text": "and then they just\nland very gently."
+    },
+    {
+      "start": 110.79,
+      "duration": 3.46,
+      "text": "So your typical\nhelicopter drive train"
+    },
+    {
+      "start": 114.25,
+      "duration": 4.69,
+      "text": "will have transmissions\nfor both the main rotor,"
+    },
+    {
+      "start": 118.94,
+      "duration": 1.54,
+      "text": "and they'll have\nanother transmission"
+    },
+    {
+      "start": 120.48,
+      "duration": 3.42,
+      "text": "to adjust the speed of the\ntail, maybe gear it back up"
+    },
+    {
+      "start": 123.9,
+      "duration": 2.1,
+      "text": "a little bit."
+    },
+    {
+      "start": 126.0,
+      "duration": 2.0,
+      "text": "This unfortunately does\nintroduce another source"
+    },
+    {
+      "start": 128.0,
+      "duration": 1.5,
+      "text": "of unreliability."
+    },
+    {
+      "start": 129.5,
+      "duration": 3.06,
+      "text": "So in the airplane,\nyou've got your engine,"
+    },
+    {
+      "start": 132.56,
+      "duration": 1.41,
+      "text": "it's bolted to the propeller."
+    },
+    {
+      "start": 133.97,
+      "duration": 3.65,
+      "text": "As long as the engine's turning,\nit's hard to have a problem."
+    },
+    {
+      "start": 137.62,
+      "duration": 2.75,
+      "text": "The propellers don't generally\njust come apart in flight."
+    },
+    {
+      "start": 140.37,
+      "duration": 1.38,
+      "text": "But here with the\nhelicopter, you"
+    },
+    {
+      "start": 141.74,
+      "duration": 1.62,
+      "text": "might have a working\nengine and working"
+    },
+    {
+      "start": 143.37,
+      "duration": 2.88,
+      "text": "main rotor and the transmission,\nall the oil might come out"
+    },
+    {
+      "start": 146.24,
+      "duration": 2.28,
+      "text": "and the gears seize up."
+    },
+    {
+      "start": 148.52,
+      "duration": 2.46,
+      "text": "There's a couple of warning\nlights in there for when you're"
+    },
+    {
+      "start": 150.98,
+      "duration": 1.25,
+      "text": "having a transmission problem."
+    },
+    {
+      "start": 155.74,
+      "duration": 3.06,
+      "text": "This is the rubber\nbelt system that's"
+    },
+    {
+      "start": 158.8,
+      "duration": 2.49,
+      "text": "used in some piston helicopters."
+    },
+    {
+      "start": 161.29,
+      "duration": 3.03,
+      "text": "I think this is probably a\ndrawing off of a Robinson."
+    },
+    {
+      "start": 164.32,
+      "duration": 4.17,
+      "text": "But basically, you have\npulleys on the engine side"
+    },
+    {
+      "start": 168.49,
+      "duration": 3.06,
+      "text": "and on the drive change side,\nand you have these rubber belts"
+    },
+    {
+      "start": 171.55,
+      "duration": 0.72,
+      "text": "connecting them."
+    },
+    {
+      "start": 172.27,
+      "duration": 2.35,
+      "text": "So you can start your\nengine with the belts loose"
+    },
+    {
+      "start": 174.62,
+      "duration": 1.38,
+      "text": "and then tighten\nthem up when you"
+    },
+    {
+      "start": 175.99,
+      "duration": 2.62,
+      "text": "want the engine to begin\ndriving the rotor system,"
+    },
+    {
+      "start": 178.61,
+      "duration": 2.33,
+      "text": "that way you don't have to\nhave the little starter motor"
+    },
+    {
+      "start": 180.94,
+      "duration": 2.61,
+      "text": "actually turn all\nthe rotors and stuff."
+    },
+    {
+      "start": 183.55,
+      "duration": 1.57,
+      "text": "How does it work?"
+    },
+    {
+      "start": 185.12,
+      "duration": 6.68,
+      "text": "So Tina is a hard act to follow\nwith my cave person computer"
+    },
+    {
+      "start": 191.8,
+      "duration": 2.55,
+      "text": "programmers\nunderstanding of lift."
+    },
+    {
+      "start": 194.35,
+      "duration": 7.17,
+      "text": "But if you assume that the lift\nis a combination of Newton's"
+    },
+    {
+      "start": 201.52,
+      "duration": 4.68,
+      "text": "third law and the Bernoulli\nprinciple, the sped up air"
+    },
+    {
+      "start": 206.2,
+      "duration": 2.52,
+      "text": "has more kinetic\nenergy, therefore"
+    },
+    {
+      "start": 208.72,
+      "duration": 1.44,
+      "text": "for conservation\nof energy, it has"
+    },
+    {
+      "start": 210.16,
+      "duration": 1.62,
+      "text": "to have less of\nsomething else, it's"
+    },
+    {
+      "start": 211.78,
+      "duration": 2.16,
+      "text": "going to have lower\nstatic pressure."
+    },
+    {
+      "start": 213.94,
+      "duration": 2.97,
+      "text": "So here's one of the\nFAs diagrams here."
+    },
+    {
+      "start": 216.91,
+      "duration": 2.25,
+      "text": "We have velocity and\npressure that are equal."
+    },
+    {
+      "start": 219.16,
+      "duration": 1.21,
+      "text": "They go into the Venturi."
+    },
+    {
+      "start": 220.37,
+      "duration": 2.39,
+      "text": "The velocity is higher,\nthe pressure is lower,"
+    },
+    {
+      "start": 222.76,
+      "duration": 2.13,
+      "text": "so the energy of the\nair is still the same."
+    },
+    {
+      "start": 224.89,
+      "duration": 2.79,
+      "text": "And it comes out again at the\nsame velocity and pressure."
+    },
+    {
+      "start": 227.68,
+      "duration": 4.02,
+      "text": "So you're getting\nlift from the wing"
+    },
+    {
+      "start": 231.7,
+      "duration": 1.86,
+      "text": "from both Newton's\nthird law just"
+    },
+    {
+      "start": 233.56,
+      "duration": 2.52,
+      "text": "pushing air down\nmakes the wing go up"
+    },
+    {
+      "start": 236.08,
+      "duration": 4.3,
+      "text": "and the Bernoulli principle of\ngenerating some low pressure."
+    },
+    {
+      "start": 240.38,
+      "duration": 2.63,
+      "text": "This is the same drawing\nyou saw earlier of how"
+    },
+    {
+      "start": 243.01,
+      "duration": 2.12,
+      "text": "when you exceed a certain\ncritical angle of attack,"
+    },
+    {
+      "start": 245.14,
+      "duration": 3.51,
+      "text": "depending on the\nair foil, your lift"
+    },
+    {
+      "start": 248.65,
+      "duration": 2.72,
+      "text": "party comes to a quick end."
+    },
+    {
+      "start": 251.37,
+      "duration": 3.1,
+      "text": "It doesn't go away completely,\nbut it's a sudden drop."
+    },
+    {
+      "start": 257.26,
+      "duration": 3.65,
+      "text": "Angle of attack, so remember\nthere's your cord line,"
+    },
+    {
+      "start": 260.91,
+      "duration": 3.25,
+      "text": "there's your relative wind,\n4 degree angle of attack"
+    },
+    {
+      "start": 264.16,
+      "duration": 1.81,
+      "text": "and a reasonable amount\nof forward speed."
+    },
+    {
+      "start": 265.97,
+      "duration": 4.66,
+      "text": "Remember the lift varies\nis the speed squared"
+    },
+    {
+      "start": 270.63,
+      "duration": 1.32,
+      "text": "will have you going."
+    },
+    {
+      "start": 271.95,
+      "duration": 2.94,
+      "text": "And if you want to\nfly slowly, you just"
+    },
+    {
+      "start": 274.89,
+      "duration": 2.83,
+      "text": "go to higher and higher\nangles of attack."
+    },
+    {
+      "start": 277.72,
+      "duration": 5.78,
+      "text": "So why not hover\nin your Cessna 172"
+    },
+    {
+      "start": 283.5,
+      "duration": 3.21,
+      "text": "and save yourself the trouble\nof getting a helicopter rating?"
+    },
+    {
+      "start": 286.71,
+      "duration": 2.4,
+      "text": "It's because you know\noff the right end"
+    },
+    {
+      "start": 289.11,
+      "duration": 3.45,
+      "text": "of this chart you quickly get\nto the stalling angle of attack"
+    },
+    {
+      "start": 292.56,
+      "duration": 2.01,
+      "text": "and the plane\ndoesn't fly anymore."
+    },
+    {
+      "start": 294.57,
+      "duration": 5.4,
+      "text": "So there's an FA drawing I\nthink from the pilots handbook"
+    },
+    {
+      "start": 299.97,
+      "duration": 3.24,
+      "text": "where the airflow becomes\nturbulent somewhere between 12"
+    },
+    {
+      "start": 303.21,
+      "duration": 3.42,
+      "text": "and 16 degrees angle of attack,\ndepending on the air foil."
+    },
+    {
+      "start": 306.63,
+      "duration": 2.37,
+      "text": "And that's why the\nCessna can't be"
+    },
+    {
+      "start": 309.0,
+      "duration": 2.79,
+      "text": "used for hovering operations."
+    },
+    {
+      "start": 311.79,
+      "duration": 4.97,
+      "text": "What if you saw the wing off\nthe Cessna and spin it around?"
+    },
+    {
+      "start": 316.76,
+      "duration": 2.15,
+      "text": "So if you do that,\nthe wing will always"
+    },
+    {
+      "start": 318.91,
+      "duration": 4.44,
+      "text": "have airspeed even if the\nfuselage is not moving."
+    },
+    {
+      "start": 323.35,
+      "duration": 4.2,
+      "text": "And that was an\nidea that was first"
+    },
+    {
+      "start": 327.55,
+      "duration": 2.2,
+      "text": "reduced to practice in 1907."
+    },
+    {
+      "start": 329.75,
+      "duration": 3.41,
+      "text": "So only four years after\nthe Wright brothers flew,"
+    },
+    {
+      "start": 333.16,
+      "duration": 3.33,
+      "text": "a couple of guys in\nFrance were actually"
+    },
+    {
+      "start": 336.49,
+      "duration": 1.86,
+      "text": "hovering a little bit\nin the helicopter."
+    },
+    {
+      "start": 338.35,
+      "duration": 3.93,
+      "text": "The first helicopters that\ncould be flown and controlled"
+    },
+    {
+      "start": 342.28,
+      "duration": 5.46,
+      "text": "and actually operated as\na practical aircraft I"
+    },
+    {
+      "start": 347.74,
+      "duration": 3.3,
+      "text": "think mid 30s in Germany."
+    },
+    {
+      "start": 351.04,
+      "duration": 4.65,
+      "text": "And then Sikorsky is famous\nfor being the first mass"
+    },
+    {
+      "start": 355.69,
+      "duration": 5.13,
+      "text": "producer of helicopters\nwith the Sikorsky R-4."
+    },
+    {
+      "start": 360.82,
+      "duration": 3.3,
+      "text": "It was used for a few\ncomputational purposes"
+    },
+    {
+      "start": 364.12,
+      "duration": 3.99,
+      "text": "in World War II, search\nand rescue type stuff."
+    },
+    {
+      "start": 368.11,
+      "duration": 2.85,
+      "text": "But really, the Korean\nWar was the first time"
+    },
+    {
+      "start": 370.96,
+      "duration": 3.51,
+      "text": "that helicopters were\nwidely used by the military."
+    },
+    {
+      "start": 374.47,
+      "duration": 4.71,
+      "text": "Let's talk about a very simple\nqualitative physics here."
+    },
+    {
+      "start": 382.54,
+      "duration": 1.35,
+      "text": "We're spending on the ramp."
+    },
+    {
+      "start": 383.89,
+      "duration": 7.23,
+      "text": "So we spin the rotor\nsystem up to 400 RPM."
+    },
+    {
+      "start": 391.12,
+      "duration": 1.74,
+      "text": "But we're still on the ramp."
+    },
+    {
+      "start": 392.86,
+      "duration": 3.7,
+      "text": "So does anybody have\na brilliant idea"
+    },
+    {
+      "start": 396.56,
+      "duration": 3.31,
+      "text": "for how do we get up into\nthe air where we want to be?"
+    },
+    {
+      "start": 399.87,
+      "duration": 1.5,
+      "text": "AUDIENCE: [INAUDIBLE]\nwere negative,"
+    },
+    {
+      "start": 401.37,
+      "duration": 4.77,
+      "text": "because there [INAUDIBLE]\nof the main rotor system."
+    },
+    {
+      "start": 406.14,
+      "duration": 1.33,
+      "text": "PHILIP GREENSPUN: OK, excellent."
+    },
+    {
+      "start": 407.47,
+      "duration": 2.18,
+      "text": "So-- what's your name?"
+    },
+    {
+      "start": 409.65,
+      "duration": 0.55,
+      "text": "Sorry."
+    },
+    {
+      "start": 410.2,
+      "duration": 0.75,
+      "text": "AUDIENCE: Aziz."
+    },
+    {
+      "start": 410.95,
+      "duration": 3.12,
+      "text": "PHILIP GREENSPUN: Aziz\nhas a correct observation"
+    },
+    {
+      "start": 414.07,
+      "duration": 3.99,
+      "text": "that if you want to get\nthe same lift out of a wing"
+    },
+    {
+      "start": 418.06,
+      "duration": 2.59,
+      "text": "without changing the speed,\nwe don't want to have this--"
+    },
+    {
+      "start": 420.65,
+      "duration": 2.33,
+      "text": "we don't want to speed up too\nmuch because the tips will"
+    },
+    {
+      "start": 422.98,
+      "duration": 3.09,
+      "text": "go supersonic, and the neighbors\nwill begin to complain."
+    },
+    {
+      "start": 426.07,
+      "duration": 3.22,
+      "text": "So we just twist the\nblades up a little bit."
+    },
+    {
+      "start": 429.29,
+      "duration": 2.21,
+      "text": "And as they're twisted\nup, they'll bite more air,"
+    },
+    {
+      "start": 431.5,
+      "duration": 2.28,
+      "text": "generate more lift,\nand the helicopter"
+    },
+    {
+      "start": 433.78,
+      "duration": 2.41,
+      "text": "will begin rising up."
+    },
+    {
+      "start": 436.19,
+      "duration": 1.25,
+      "text": "What will happen to the speed?"
+    },
+    {
+      "start": 437.44,
+      "duration": 4.26,
+      "text": "Let's hear from one of these\naeroengineering heroes."
+    },
+    {
+      "start": 441.7,
+      "duration": 2.19,
+      "text": "As we generate more\nlift, what happens?"
+    },
+    {
+      "start": 443.88,
+      "duration": 2.02,
+      "text": "AUDIENCE: You now have\nmore drag on the rotors,"
+    },
+    {
+      "start": 445.9,
+      "duration": 1.56,
+      "text": "so the engine slows down."
+    },
+    {
+      "start": 447.46,
+      "duration": 2.04,
+      "text": "PHILIP GREENSPUN:\nMore lift, more drag,"
+    },
+    {
+      "start": 449.5,
+      "duration": 4.72,
+      "text": "so without adding more\npower, the engine--"
+    },
+    {
+      "start": 454.22,
+      "duration": 2.46,
+      "text": "well, without adding more power,\nthe blades will slow down."
+    },
+    {
+      "start": 456.68,
+      "duration": 2.96,
+      "text": "So you want a correlator."
+    },
+    {
+      "start": 459.64,
+      "duration": 3.39,
+      "text": "As you're lifting the collective\ncontrol on a helicopter,"
+    },
+    {
+      "start": 463.03,
+      "duration": 2.25,
+      "text": "the correlator is\nopening the throttle"
+    },
+    {
+      "start": 465.28,
+      "duration": 2.76,
+      "text": "and adding more\npower automatically."
+    },
+    {
+      "start": 468.04,
+      "duration": 1.67,
+      "text": "And there's also an\nelectronic governors"
+    },
+    {
+      "start": 469.71,
+      "duration": 3.31,
+      "text": "that will just touch that up a\nlittle bit by watching the RPM."
+    },
+    {
+      "start": 473.02,
+      "duration": 2.67,
+      "text": "Turbine helicopters\nall have governors."
+    },
+    {
+      "start": 475.69,
+      "duration": 4.83,
+      "text": "Most piston-- Robinsons\nhave governors, as well."
+    },
+    {
+      "start": 480.52,
+      "duration": 3.27,
+      "text": "All right, so what if\nwe're parked on ice?"
+    },
+    {
+      "start": 483.79,
+      "duration": 2.58,
+      "text": "Has anybody here seen\nmy favorite movie,"
+    },
+    {
+      "start": 486.37,
+      "duration": 3.58,
+      "text": "Blades of Glory?"
+    },
+    {
+      "start": 489.95,
+      "duration": 1.75,
+      "text": "So when Will Ferrell\nand his partner,"
+    },
+    {
+      "start": 491.7,
+      "duration": 2.17,
+      "text": "what if they're on the ice\nand they push each other?"
+    },
+    {
+      "start": 493.87,
+      "duration": 0.54,
+      "text": "What happens?"
+    },
+    {
+      "start": 498.18,
+      "duration": 4.58,
+      "text": "Both go backwards, the\npusher and the pushee."
+    },
+    {
+      "start": 502.76,
+      "duration": 6.08,
+      "text": "So keeping in mind Blades of\nGlory, an important physics"
+    },
+    {
+      "start": 508.84,
+      "duration": 2.49,
+      "text": "work, what if we're\nparked on the ice?"
+    },
+    {
+      "start": 511.33,
+      "duration": 3.09,
+      "text": "What happens to our helicopter\nafter we start the engine"
+    },
+    {
+      "start": 514.42,
+      "duration": 1.28,
+      "text": "and start the blades spinning?"
+    },
+    {
+      "start": 519.42,
+      "duration": 2.33,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 521.75,
+      "duration": 2.92,
+      "text": "PHILIP GREENSPUN: Helicopter\nspins the other way, excellent."
+    },
+    {
+      "start": 524.67,
+      "duration": 2.82,
+      "text": "Yeah, so that's Newton's\nthird law, once again."
+    },
+    {
+      "start": 527.49,
+      "duration": 2.58,
+      "text": "For every action, there's an\nequal and opposite reaction."
+    },
+    {
+      "start": 530.07,
+      "duration": 2.58,
+      "text": "You're not going to see that\nas dramatically if you're"
+    },
+    {
+      "start": 532.65,
+      "duration": 2.22,
+      "text": "parked on pavement,\nbecause of the friction."
+    },
+    {
+      "start": 534.87,
+      "duration": 2.37,
+      "text": "So what do we do?"
+    },
+    {
+      "start": 537.24,
+      "duration": 1.84,
+      "text": "We add the tail rotor."
+    },
+    {
+      "start": 539.08,
+      "duration": 1.44,
+      "text": "So here are the forces up here."
+    },
+    {
+      "start": 540.52,
+      "duration": 1.68,
+      "text": "There's the blade rotation."
+    },
+    {
+      "start": 542.2,
+      "duration": 0.89,
+      "text": "There's the torque."
+    },
+    {
+      "start": 543.09,
+      "duration": 3.42,
+      "text": "To counteract the torque,\nwe've got the tail rotor thrust"
+    },
+    {
+      "start": 546.51,
+      "duration": 2.22,
+      "text": "to blow the tail\nback into position."
+    },
+    {
+      "start": 548.73,
+      "duration": 3.42,
+      "text": "And the only thing here that's\nnot corrected, you'll notice,"
+    },
+    {
+      "start": 552.15,
+      "duration": 1.95,
+      "text": "is the tail rotor thrust."
+    },
+    {
+      "start": 554.1,
+      "duration": 2.34,
+      "text": "So if you set\neverything up the way"
+    },
+    {
+      "start": 556.44,
+      "duration": 3.27,
+      "text": "you would think obvious, like\nput the rotor mast straight up"
+    },
+    {
+      "start": 559.71,
+      "duration": 2.52,
+      "text": "and put the tail rotor on\nit, the whole helicopter"
+    },
+    {
+      "start": 562.23,
+      "duration": 3.87,
+      "text": "with the controls neutral\nwould drift to the right"
+    },
+    {
+      "start": 566.1,
+      "duration": 2.85,
+      "text": "from the tail rotor thrust."
+    },
+    {
+      "start": 568.95,
+      "duration": 1.56,
+      "text": "Because it's pushing the tail."
+    },
+    {
+      "start": 570.51,
+      "duration": 5.45,
+      "text": "The helicopter wants\nto rotate that way."
+    },
+    {
+      "start": 575.96,
+      "duration": 2.04,
+      "text": "The tail rotor blows\nit back this way."
+    },
+    {
+      "start": 578.0,
+      "duration": 3.0,
+      "text": "And that would blow\nthe whole machine"
+    },
+    {
+      "start": 581.0,
+      "duration": 2.64,
+      "text": "off the side of the\nramp if the pilot didn't"
+    },
+    {
+      "start": 583.64,
+      "duration": 3.93,
+      "text": "hold a lot of left cyclic."
+    },
+    {
+      "start": 587.57,
+      "duration": 2.61,
+      "text": "So to counteract\nthat, the helicopters"
+    },
+    {
+      "start": 590.18,
+      "duration": 2.64,
+      "text": "are rigged with the mast\nat a slight left angle"
+    },
+    {
+      "start": 592.82,
+      "duration": 2.34,
+      "text": "so that they don't\nhave this tendency"
+    },
+    {
+      "start": 595.16,
+      "duration": 3.47,
+      "text": "to go off to the right."
+    },
+    {
+      "start": 598.63,
+      "duration": 2.64,
+      "text": "AUDIENCE: [INAUDIBLE] question,\nwhat does the governor do?"
+    },
+    {
+      "start": 601.27,
+      "duration": 2.46,
+      "text": "PHILIP GREENSPUN: The governor,\nyes, let me reinforce that."
+    },
+    {
+      "start": 603.73,
+      "duration": 1.5,
+      "text": "So yes, as you\ngenerate lift, you"
+    },
+    {
+      "start": 605.23,
+      "duration": 3.0,
+      "text": "get more drag, which will\ncause the blades to slow down."
+    },
+    {
+      "start": 608.23,
+      "duration": 2.25,
+      "text": "So there's a\nmechanical correlation."
+    },
+    {
+      "start": 610.48,
+      "duration": 3.19,
+      "text": "As you're raising\nthe collective,"
+    },
+    {
+      "start": 613.67,
+      "duration": 2.81,
+      "text": "the throttle's being opened\njust kind of blindly."
+    },
+    {
+      "start": 616.48,
+      "duration": 2.22,
+      "text": "And the governor is\ntouching that up."
+    },
+    {
+      "start": 618.7,
+      "duration": 1.74,
+      "text": "The governor is\nwatching and maybe"
+    },
+    {
+      "start": 620.44,
+      "duration": 2.55,
+      "text": "twisting the throttle\ncontrol slightly"
+    },
+    {
+      "start": 622.99,
+      "duration": 2.73,
+      "text": "to fine-tune the throttle\nto keep the blades exactly"
+    },
+    {
+      "start": 625.72,
+      "duration": 1.23,
+      "text": "at 400 RPM."
+    },
+    {
+      "start": 626.95,
+      "duration": 1.68,
+      "text": "Let's say that's\nthe [INAUDIBLE].."
+    },
+    {
+      "start": 628.63,
+      "duration": 2.04,
+      "text": "For a pilot, pilots are--"
+    },
+    {
+      "start": 630.67,
+      "duration": 1.92,
+      "text": "you don't want to distract\nthe pilot too much,"
+    },
+    {
+      "start": 632.59,
+      "duration": 2.01,
+      "text": "so the gauge is just\ncalibrated in percent."
+    },
+    {
+      "start": 634.6,
+      "duration": 1.32,
+      "text": "It's 100% RPM."
+    },
+    {
+      "start": 635.92,
+      "duration": 0.84,
+      "text": "That's good."
+    },
+    {
+      "start": 636.76,
+      "duration": 2.57,
+      "text": "That's all you need to\nknow about your helicopter."
+    },
+    {
+      "start": 639.33,
+      "duration": 1.54,
+      "text": "I think in the\nRobinson, it works out"
+    },
+    {
+      "start": 640.87,
+      "duration": 2.55,
+      "text": "to pretty close to 400 RPM."
+    },
+    {
+      "start": 643.42,
+      "duration": 3.6,
+      "text": "All right, forward flight--"
+    },
+    {
+      "start": 647.02,
+      "duration": 7.33,
+      "text": "so we're hovering and\nwe want to go forward."
+    },
+    {
+      "start": 654.35,
+      "duration": 3.91,
+      "text": "So it seems obvious that\nwe want to tilt the fan."
+    },
+    {
+      "start": 658.26,
+      "duration": 3.11,
+      "text": "We want to push the\nfan down this way,"
+    },
+    {
+      "start": 661.37,
+      "duration": 4.62,
+      "text": "and that way, we'll get some\nhorizontal vector of thrust"
+    },
+    {
+      "start": 665.99,
+      "duration": 2.17,
+      "text": "and we'll be going forward."
+    },
+    {
+      "start": 668.16,
+      "duration": 5.48,
+      "text": "But where do we push it from?"
+    },
+    {
+      "start": 673.64,
+      "duration": 3.35,
+      "text": "It's a spinning gyro, so\nit has a lot of stability."
+    },
+    {
+      "start": 676.99,
+      "duration": 3.81,
+      "text": "If we're really strong and we\nreach up from our pilot seat"
+    },
+    {
+      "start": 680.8,
+      "duration": 2.13,
+      "text": "and try to nudge\nthe rotor system,"
+    },
+    {
+      "start": 682.93,
+      "duration": 3.42,
+      "text": "why wouldn't that just cause\nthe helicopter fuselage"
+    },
+    {
+      "start": 686.35,
+      "duration": 4.53,
+      "text": "to move underneath the\nfixed rotor system,"
+    },
+    {
+      "start": 690.88,
+      "duration": 1.87,
+      "text": "instead of moving\nthe rotor system?"
+    },
+    {
+      "start": 692.75,
+      "duration": 4.1,
+      "text": "There's nothing to fix unless\nwe can call up an incredibly"
+    },
+    {
+      "start": 696.85,
+      "duration": 1.59,
+      "text": "strong friend,\nand say, would you"
+    },
+    {
+      "start": 698.44,
+      "duration": 3.15,
+      "text": "mind holding the helicopter\nin a fixed position?"
+    },
+    {
+      "start": 701.59,
+      "duration": 2.34,
+      "text": "We don't have anything\nto push against in order"
+    },
+    {
+      "start": 703.93,
+      "duration": 1.17,
+      "text": "to tilt the rotor."
+    },
+    {
+      "start": 705.1,
+      "duration": 1.56,
+      "text": "Does that make sense?"
+    },
+    {
+      "start": 706.66,
+      "duration": 2.76,
+      "text": "You've got this gyro on top\nof you, and disturbing it"
+    },
+    {
+      "start": 709.42,
+      "duration": 2.07,
+      "text": "is going to take a lot of power."
+    },
+    {
+      "start": 711.49,
+      "duration": 2.01,
+      "text": "And even if you\nhad the strength,"
+    },
+    {
+      "start": 713.5,
+      "duration": 4.17,
+      "text": "you don't have anywhere\nto stand rigidly and push."
+    },
+    {
+      "start": 717.67,
+      "duration": 1.41,
+      "text": "So what do you think?"
+    },
+    {
+      "start": 719.08,
+      "duration": 4.08,
+      "text": "Could the rotor just fly\nitself into a new position?"
+    },
+    {
+      "start": 723.16,
+      "duration": 1.35,
+      "text": "And how would that work?"
+    },
+    {
+      "start": 724.51,
+      "duration": 2.46,
+      "text": "How could you use\nthe spinning wing"
+    },
+    {
+      "start": 726.97,
+      "duration": 4.21,
+      "text": "itself to fly itself into\na new tilted-down position?"
+    },
+    {
+      "start": 731.17,
+      "duration": 1.38,
+      "text": "Anybody have any\nbrilliant ideas?"
+    },
+    {
+      "start": 735.78,
+      "duration": 2.05,
+      "text": "AUDIENCE: You increase\nthe angle of attack"
+    },
+    {
+      "start": 737.83,
+      "duration": 2.05,
+      "text": "of the blades on one\nside [INAUDIBLE].."
+    },
+    {
+      "start": 739.88,
+      "duration": 1.75,
+      "text": "PHILIP GREENSPUN:\nWhat's your name, sorry?"
+    },
+    {
+      "start": 741.63,
+      "duration": 0.76,
+      "text": "AUDIENCE: John."
+    },
+    {
+      "start": 742.39,
+      "duration": 1.62,
+      "text": "PHILIP GREENSPUN:\nJohn has a good idea."
+    },
+    {
+      "start": 744.01,
+      "duration": 2.81,
+      "text": "So John says, increase\nthe angle of attack"
+    },
+    {
+      "start": 746.83,
+      "duration": 3.39,
+      "text": "and decrease it as the\nblade moves around the disk."
+    },
+    {
+      "start": 750.22,
+      "duration": 2.88,
+      "text": "So if you can increase the\nlift on part of the disk"
+    },
+    {
+      "start": 753.1,
+      "duration": 1.92,
+      "text": "compared to another\npart of the disk,"
+    },
+    {
+      "start": 755.02,
+      "duration": 1.71,
+      "text": "it will naturally tilt itself."
+    },
+    {
+      "start": 756.73,
+      "duration": 1.5,
+      "text": "So if you want to\ngo forward-- let's"
+    },
+    {
+      "start": 758.23,
+      "duration": 3.43,
+      "text": "ignore gyroscopic\nprocession for a moment,"
+    },
+    {
+      "start": 761.66,
+      "duration": 3.3,
+      "text": "because I think we've proven\nthat nobody understands it."
+    },
+    {
+      "start": 764.96,
+      "duration": 2.21,
+      "text": "Let's just say that we could\nmake the angle of attack"
+    },
+    {
+      "start": 767.17,
+      "duration": 3.58,
+      "text": "higher on the back of the\ndisk compared to the front."
+    },
+    {
+      "start": 770.75,
+      "duration": 2.09,
+      "text": "Then the back of the disk\nwould have more lift."
+    },
+    {
+      "start": 772.84,
+      "duration": 4.05,
+      "text": "It would rise up and the\nfront would go lower,"
+    },
+    {
+      "start": 776.89,
+      "duration": 2.85,
+      "text": "and then you would see this\nflight path that you do see."
+    },
+    {
+      "start": 779.74,
+      "duration": 2.32,
+      "text": "That make sense?"
+    },
+    {
+      "start": 782.06,
+      "duration": 3.08,
+      "text": "So basically, you're basically\nflying the rotor system."
+    },
+    {
+      "start": 785.14,
+      "duration": 1.97,
+      "text": "You're not flying\nthe helicopter."
+    },
+    {
+      "start": 787.11,
+      "duration": 2.17,
+      "text": "The helicopter's just hanging\nfrom the rotor system."
+    },
+    {
+      "start": 789.28,
+      "duration": 2.76,
+      "text": "That's a good mental model."
+    },
+    {
+      "start": 792.04,
+      "duration": 5.22,
+      "text": "And all of the power is from\nthe engine to the rotor system."
+    },
+    {
+      "start": 797.26,
+      "duration": 2.01,
+      "text": "So that's a natural\nplace to do it, just"
+    },
+    {
+      "start": 799.27,
+      "duration": 2.95,
+      "text": "by tweaking the blade\nangle as it rotates around."
+    },
+    {
+      "start": 802.22,
+      "duration": 3.86,
+      "text": "So the left hand is collective,\nmoving the blade's angle"
+    },
+    {
+      "start": 806.08,
+      "duration": 3.78,
+      "text": "regardless of where\nthey are on the disk,"
+    },
+    {
+      "start": 809.86,
+      "duration": 2.19,
+      "text": "and the cyclic, which\nis changing the pitch"
+    },
+    {
+      "start": 812.05,
+      "duration": 3.04,
+      "text": "cyclically as you suggested."
+    },
+    {
+      "start": 815.09,
+      "duration": 1.76,
+      "text": "All right, what's the magic?"
+    },
+    {
+      "start": 816.85,
+      "duration": 2.25,
+      "text": "This design-- I'm\nnot sure it's really"
+    },
+    {
+      "start": 819.1,
+      "duration": 2.13,
+      "text": "changed at all since the\nvery first helicopters."
+    },
+    {
+      "start": 821.23,
+      "duration": 4.27,
+      "text": "Maybe those brothers in Paris\ndidn't have one in 1907,"
+    },
+    {
+      "start": 825.5,
+      "duration": 2.39,
+      "text": "but I'm pretty sure that\nevery helicopter since then"
+    },
+    {
+      "start": 827.89,
+      "duration": 1.02,
+      "text": "has had this."
+    },
+    {
+      "start": 828.91,
+      "duration": 1.16,
+      "text": "There's a swashplate."
+    },
+    {
+      "start": 833.62,
+      "duration": 6.04,
+      "text": "Watch this-- so the lower\npart of the swashplate"
+    },
+    {
+      "start": 839.66,
+      "duration": 4.08,
+      "text": "here is fixed and connected\nto the flight controls."
+    },
+    {
+      "start": 843.74,
+      "duration": 2.55,
+      "text": "And then there's a bearing,\nand the upper swashplate"
+    },
+    {
+      "start": 846.29,
+      "duration": 1.65,
+      "text": "rotates with the blades."
+    },
+    {
+      "start": 847.94,
+      "duration": 1.69,
+      "text": "Does that make sense?"
+    },
+    {
+      "start": 849.63,
+      "duration": 2.37,
+      "text": "So if you lift the\nlower swashplate up,"
+    },
+    {
+      "start": 852.0,
+      "duration": 2.31,
+      "text": "that pushes the\nupper swashplate up,"
+    },
+    {
+      "start": 854.31,
+      "duration": 4.72,
+      "text": "which pushes these\nrods that are connected"
+    },
+    {
+      "start": 859.03,
+      "duration": 1.56,
+      "text": "to a corner of the blade."
+    },
+    {
+      "start": 860.59,
+      "duration": 2.7,
+      "text": "And that'll cause the blades\nto tilt. That make sense?"
+    },
+    {
+      "start": 863.29,
+      "duration": 1.5,
+      "text": "So you have this\nrotating swashplate"
+    },
+    {
+      "start": 864.79,
+      "duration": 3.09,
+      "text": "that's connected to a\ncorner of the blade."
+    },
+    {
+      "start": 867.88,
+      "duration": 1.98,
+      "text": "And if you push\nthe whole thing up"
+    },
+    {
+      "start": 869.86,
+      "duration": 2.73,
+      "text": "by yanking up on the\ncollective, then you"
+    },
+    {
+      "start": 872.59,
+      "duration": 1.56,
+      "text": "can see the blades\nactually twist."
+    },
+    {
+      "start": 874.15,
+      "duration": 3.24,
+      "text": "You can do that in the hangar\nand see the effect of this."
+    },
+    {
+      "start": 877.39,
+      "duration": 5.19,
+      "text": "At the same time, in your\nright hand is the cyclic."
+    },
+    {
+      "start": 882.58,
+      "duration": 3.78,
+      "text": "And with the cyclic, you're\ntilting the swashplate."
+    },
+    {
+      "start": 886.36,
+      "duration": 2.37,
+      "text": "So with the tilted\nswashplate, that"
+    },
+    {
+      "start": 888.73,
+      "duration": 5.97,
+      "text": "will just cause the\nblades to twist up"
+    },
+    {
+      "start": 894.7,
+      "duration": 2.41,
+      "text": "and twist down as they rotate."
+    },
+    {
+      "start": 897.11,
+      "duration": 2.87,
+      "text": "So it's a pretty\nelegant solution."
+    },
+    {
+      "start": 899.98,
+      "duration": 3.13,
+      "text": "This is not carrying much of\nthe load of the helicopter."
+    },
+    {
+      "start": 903.11,
+      "duration": 2.0,
+      "text": "There's still a mast\nholding the whole thing up."
+    },
+    {
+      "start": 905.11,
+      "duration": 3.39,
+      "text": "This really just has\nto carry enough force"
+    },
+    {
+      "start": 908.5,
+      "duration": 3.26,
+      "text": "to twist the blades up and\ndown, up and down, up and down."
+    },
+    {
+      "start": 911.76,
+      "duration": 1.42,
+      "text": "So that's your\nengineering design."
+    },
+    {
+      "start": 917.65,
+      "duration": 3.53,
+      "text": "Everybody appreciates that?"
+    },
+    {
+      "start": 921.18,
+      "duration": 3.57,
+      "text": "Do we want to take off straight\nup like in a Hollywood movie?"
+    },
+    {
+      "start": 924.75,
+      "duration": 3.66,
+      "text": "Well, if you have one or two\npeople in a helicopter designed"
+    },
+    {
+      "start": 928.41,
+      "duration": 3.9,
+      "text": "for four or five,\nyou actually do"
+    },
+    {
+      "start": 932.31,
+      "duration": 2.38,
+      "text": "have enough power to do that."
+    },
+    {
+      "start": 934.69,
+      "duration": 2.45,
+      "text": "However, there is\nsomething over here"
+    },
+    {
+      "start": 937.14,
+      "duration": 3.02,
+      "text": "on the right called the\n\"height velocity diagram.\""
+    },
+    {
+      "start": 940.16,
+      "duration": 3.64,
+      "text": "And you can see it says, \"avoid\noperation in shaded areas.\""
+    },
+    {
+      "start": 943.8,
+      "duration": 4.98,
+      "text": "So they're saying-- we'll\ntalk about this maybe a little"
+    },
+    {
+      "start": 948.78,
+      "duration": 2.16,
+      "text": "later if people are interested."
+    },
+    {
+      "start": 954.09,
+      "duration": 7.55,
+      "text": "But if you are, let's say, up\nat 200 feet at zero airspeed,"
+    },
+    {
+      "start": 961.64,
+      "duration": 3.84,
+      "text": "so you're just parked, hovering\n200 feet above the ground,"
+    },
+    {
+      "start": 965.48,
+      "duration": 6.48,
+      "text": "you don't have huge stores\nof forward speed, which"
+    },
+    {
+      "start": 971.96,
+      "duration": 2.7,
+      "text": "is kinetic energy,\nor potential energy,"
+    },
+    {
+      "start": 974.66,
+      "duration": 1.74,
+      "text": "because you're only up 200 feet."
+    },
+    {
+      "start": 976.4,
+      "duration": 3.39,
+      "text": "So it's going to be hard to\ndo an auto-rotation that's"
+    },
+    {
+      "start": 979.79,
+      "duration": 2.76,
+      "text": "perfect and doesn't bend\nanything, especially"
+    },
+    {
+      "start": 982.55,
+      "duration": 2.64,
+      "text": "because the FAA says, if\nyou're up high like that"
+    },
+    {
+      "start": 985.19,
+      "duration": 2.39,
+      "text": "and the engine\nquits, in test pilot,"
+    },
+    {
+      "start": 987.58,
+      "duration": 4.06,
+      "text": "you have to sit there with\nyour arms folded for one second"
+    },
+    {
+      "start": 991.64,
+      "duration": 2.4,
+      "text": "and do nothing, because\nthat's what would probably"
+    },
+    {
+      "start": 994.04,
+      "duration": 1.17,
+      "text": "happen in real life."
+    },
+    {
+      "start": 995.21,
+      "duration": 1.74,
+      "text": "You'd be surprised."
+    },
+    {
+      "start": 996.95,
+      "duration": 3.18,
+      "text": "People can do\nauto-rotations from 200 feet"
+    },
+    {
+      "start": 1000.13,
+      "duration": 2.21,
+      "text": "and land perfectly, but\nthey know it's coming."
+    },
+    {
+      "start": 1002.34,
+      "duration": 1.42,
+      "text": "They chop the\nthrottle themselves."
+    },
+    {
+      "start": 1003.76,
+      "duration": 1.87,
+      "text": "They immediately put\nthe collective down"
+    },
+    {
+      "start": 1005.63,
+      "duration": 1.25,
+      "text": "and they do the auto-rotation."
+    },
+    {
+      "start": 1006.88,
+      "duration": 3.3,
+      "text": "So but basically, if you're\na pilot of average skill"
+    },
+    {
+      "start": 1010.18,
+      "duration": 2.31,
+      "text": "and you don't do anything\nfor about a second"
+    },
+    {
+      "start": 1012.49,
+      "duration": 2.64,
+      "text": "after the engine\nquits, then this"
+    },
+    {
+      "start": 1015.13,
+      "duration": 2.31,
+      "text": "is supposed to keep\nyou safe, by you either"
+    },
+    {
+      "start": 1017.44,
+      "duration": 6.21,
+      "text": "fly 50 knots or faster, or you\nfly 400 feet or higher at sea"
+    },
+    {
+      "start": 1023.65,
+      "duration": 3.7,
+      "text": "level, and higher than\nthat at high altitude."
+    },
+    {
+      "start": 1030.17,
+      "duration": 2.52,
+      "text": "So what we're actually\nrecommended to do--"
+    },
+    {
+      "start": 1032.69,
+      "duration": 1.97,
+      "text": "see this recommended\ntakeoff profile--"
+    },
+    {
+      "start": 1034.66,
+      "duration": 3.42,
+      "text": "is skim along the ground until\nwe get up to about 45 knots"
+    },
+    {
+      "start": 1038.08,
+      "duration": 1.42,
+      "text": "and then let the\nhelicopter climb."
+    },
+    {
+      "start": 1039.5,
+      "duration": 3.17,
+      "text": "I think this is the\ncurve for a Robinson R44."
+    },
+    {
+      "start": 1042.67,
+      "duration": 2.85,
+      "text": "Why would you want to do\nthat, aside from safety?"
+    },
+    {
+      "start": 1045.52,
+      "duration": 2.22,
+      "text": "Another good reason\nto do that is you"
+    },
+    {
+      "start": 1047.74,
+      "duration": 4.75,
+      "text": "watch these drag\nversus speed curves,"
+    },
+    {
+      "start": 1052.49,
+      "duration": 2.82,
+      "text": "and you see that you\nreach kind of a minimum."
+    },
+    {
+      "start": 1055.31,
+      "duration": 2.97,
+      "text": "This is some generic\nhelicopter from an FAA book."
+    },
+    {
+      "start": 1058.28,
+      "duration": 2.4,
+      "text": "It's actually 55 knots\nfor the Robinson."
+    },
+    {
+      "start": 1060.68,
+      "duration": 2.76,
+      "text": "But if you can go 55\nknots, you need less energy"
+    },
+    {
+      "start": 1063.44,
+      "duration": 2.14,
+      "text": "than any other airspeed."
+    },
+    {
+      "start": 1065.58,
+      "duration": 2.52,
+      "text": "So the idea for a takeoff\nis you nudge the helicopter"
+    },
+    {
+      "start": 1068.1,
+      "duration": 1.65,
+      "text": "forward a little bit."
+    },
+    {
+      "start": 1069.75,
+      "duration": 2.85,
+      "text": "If you can build up\ntwo knots of speed,"
+    },
+    {
+      "start": 1072.6,
+      "duration": 1.92,
+      "text": "that gives you excess power."
+    },
+    {
+      "start": 1074.52,
+      "duration": 3.13,
+      "text": "You can use that excess power\nto climb up three inches"
+    },
+    {
+      "start": 1077.65,
+      "duration": 2.21,
+      "text": "or you can use that excess\npower to accelerate, maybe"
+    },
+    {
+      "start": 1079.86,
+      "duration": 1.59,
+      "text": "to three or four knots."
+    },
+    {
+      "start": 1081.45,
+      "duration": 1.71,
+      "text": "And if you just\nkeep accelerating"
+    },
+    {
+      "start": 1083.16,
+      "duration": 1.59,
+      "text": "using your extra\npower to accelerate,"
+    },
+    {
+      "start": 1084.75,
+      "duration": 1.98,
+      "text": "the faster you go, the\nless power you need."
+    },
+    {
+      "start": 1086.73,
+      "duration": 2.07,
+      "text": "So even if you've never\ntouched the collective"
+    },
+    {
+      "start": 1088.8,
+      "duration": 1.98,
+      "text": "or drawn any more\nhorsepower, as long"
+    },
+    {
+      "start": 1090.78,
+      "duration": 1.88,
+      "text": "as you have an open\narea in front of you,"
+    },
+    {
+      "start": 1092.66,
+      "duration": 1.21,
+      "text": "you will accelerate."
+    },
+    {
+      "start": 1093.87,
+      "duration": 4.35,
+      "text": "And once you hit 45 or 55\nknots, your hover power"
+    },
+    {
+      "start": 1098.22,
+      "duration": 1.62,
+      "text": "turns into significant\nexcess power"
+    },
+    {
+      "start": 1099.84,
+      "duration": 2.14,
+      "text": "that you can use for a climb."
+    },
+    {
+      "start": 1101.98,
+      "duration": 2.63,
+      "text": "So that's why you\noften see helicopters"
+    },
+    {
+      "start": 1104.61,
+      "duration": 5.26,
+      "text": "at airports taking off kind of\nlike a short-field airplane,"
+    },
+    {
+      "start": 1109.87,
+      "duration": 3.35,
+      "text": "and also landing a bit like\na short-field airplane."
+    },
+    {
+      "start": 1113.22,
+      "duration": 3.64,
+      "text": "Straight and level, it's\nvery similar to an airplane."
+    },
+    {
+      "start": 1116.86,
+      "duration": 2.97,
+      "text": "The performance is all a\nfunction of the attitude"
+    },
+    {
+      "start": 1119.83,
+      "duration": 1.62,
+      "text": "that the aircraft is in."
+    },
+    {
+      "start": 1121.45,
+      "duration": 5.58,
+      "text": "Is it pitched up or down and\nhow much power is being applied?"
+    },
+    {
+      "start": 1127.03,
+      "duration": 3.09,
+      "text": "And that's an indirect function\nof the collective position."
+    },
+    {
+      "start": 1130.12,
+      "duration": 4.05,
+      "text": "So as with an\nairplane, remember,"
+    },
+    {
+      "start": 1134.17,
+      "duration": 2.13,
+      "text": "your pitch controls your speed."
+    },
+    {
+      "start": 1136.3,
+      "duration": 1.5,
+      "text": "And the amount of power--"
+    },
+    {
+      "start": 1137.8,
+      "duration": 2.89,
+      "text": "throttle in the airplane,\ncollective in the helicopter--"
+    },
+    {
+      "start": 1140.69,
+      "duration": 2.0,
+      "text": "determines whether you're\nclimbing or descending"
+    },
+    {
+      "start": 1142.69,
+      "duration": 1.8,
+      "text": "at that air speed."
+    },
+    {
+      "start": 1144.49,
+      "duration": 4.14,
+      "text": "Your attitude indicator in a\nVFR helicopter is the horizon,"
+    },
+    {
+      "start": 1148.63,
+      "duration": 2.34,
+      "text": "so you're watching\nthe horizon carefully."
+    },
+    {
+      "start": 1150.97,
+      "duration": 3.17,
+      "text": "The reason why people who\nare instrument-rated airplane"
+    },
+    {
+      "start": 1154.14,
+      "duration": 1.54,
+      "text": "pilots, they jump\ninto the helicopter"
+    },
+    {
+      "start": 1155.68,
+      "duration": 3.15,
+      "text": "and they can fly it immediately,\nand people who've never flown"
+    },
+    {
+      "start": 1158.83,
+      "duration": 0.85,
+      "text": "have a tough time."
+    },
+    {
+      "start": 1159.68,
+      "duration": 1.65,
+      "text": "It takes them 10 hours."
+    },
+    {
+      "start": 1161.33,
+      "duration": 1.38,
+      "text": "And the reason is\nthat people who"
+    },
+    {
+      "start": 1162.7,
+      "duration": 1.92,
+      "text": "are instrument-rated\nairplane pilots,"
+    },
+    {
+      "start": 1164.62,
+      "duration": 1.74,
+      "text": "they become very\nsensitive to watching"
+    },
+    {
+      "start": 1166.36,
+      "duration": 5.15,
+      "text": "for small changes in attitude."
+    },
+    {
+      "start": 1171.51,
+      "duration": 5.1,
+      "text": "The anti-torque\npedals-- remember,"
+    },
+    {
+      "start": 1176.61,
+      "duration": 1.8,
+      "text": "we had that tail\nrotor, and we adjust it"
+    },
+    {
+      "start": 1178.41,
+      "duration": 4.41,
+      "text": "so that the tail doesn't\nspin around on the ground."
+    },
+    {
+      "start": 1182.82,
+      "duration": 3.02,
+      "text": "In the air, we adjust it\nso that the helicopter"
+    },
+    {
+      "start": 1185.84,
+      "duration": 2.62,
+      "text": "is streamlined into the wind."
+    },
+    {
+      "start": 1188.46,
+      "duration": 4.07,
+      "text": "We don't actually have to\nuse them to make turns."
+    },
+    {
+      "start": 1192.53,
+      "duration": 2.97,
+      "text": "There's no adverse yaw\nas in some airplanes,"
+    },
+    {
+      "start": 1195.5,
+      "duration": 2.85,
+      "text": "where it'll start skidding or--"
+    },
+    {
+      "start": 1198.35,
+      "duration": 3.42,
+      "text": "there's none of\nthat, or slipping."
+    },
+    {
+      "start": 1201.77,
+      "duration": 3.12,
+      "text": "All we do to make a turn\nis we put the helicopter,"
+    },
+    {
+      "start": 1204.89,
+      "duration": 2.7,
+      "text": "using the cyclic, into\na little bit of a bank."
+    },
+    {
+      "start": 1207.59,
+      "duration": 1.02,
+      "text": "And then we wait."
+    },
+    {
+      "start": 1208.61,
+      "duration": 3.41,
+      "text": "So if we have, let's\nsay, a 10-degree bank,"
+    },
+    {
+      "start": 1212.02,
+      "duration": 8.55,
+      "text": "the helicopter in one minute\nwill make a 180-degree turn."
+    },
+    {
+      "start": 1220.57,
+      "duration": 4.06,
+      "text": "Landing with power-- so\nagain, like an airplane,"
+    },
+    {
+      "start": 1224.63,
+      "duration": 2.42,
+      "text": "if you see the\nspot in the ground,"
+    },
+    {
+      "start": 1227.05,
+      "duration": 2.91,
+      "text": "you adjust the power so\nyou don't overfly the spot"
+    },
+    {
+      "start": 1229.96,
+      "duration": 0.96,
+      "text": "or underfly the spot."
+    },
+    {
+      "start": 1230.92,
+      "duration": 1.86,
+      "text": "If the spot's rising\nup in the windshield"
+    },
+    {
+      "start": 1232.78,
+      "duration": 2.13,
+      "text": "from your perspective,\nthat means"
+    },
+    {
+      "start": 1234.91,
+      "duration": 2.22,
+      "text": "you're going to land\nshort, so you add power,"
+    },
+    {
+      "start": 1237.13,
+      "duration": 2.1,
+      "text": "raise collective\nin the helicopter."
+    },
+    {
+      "start": 1239.23,
+      "duration": 4.86,
+      "text": "If the spot is descending, then\nyou're overflying the spot,"
+    },
+    {
+      "start": 1244.09,
+      "duration": 1.59,
+      "text": "so you have to reduce power."
+    },
+    {
+      "start": 1245.68,
+      "duration": 5.82,
+      "text": "It's a purely visual\nmaneuver, except when"
+    },
+    {
+      "start": 1251.5,
+      "duration": 1.62,
+      "text": "you're landing on a pinnacle."
+    },
+    {
+      "start": 1253.12,
+      "duration": 3.78,
+      "text": "And the reason for that is if\nyou're landing on a pinnacle,"
+    },
+    {
+      "start": 1256.9,
+      "duration": 2.64,
+      "text": "you don't get a sensation\nof your forward speed"
+    },
+    {
+      "start": 1259.54,
+      "duration": 1.71,
+      "text": "from the ground rushing by."
+    },
+    {
+      "start": 1261.25,
+      "duration": 2.97,
+      "text": "So the idea in the\nhelicopter is to land,"
+    },
+    {
+      "start": 1264.22,
+      "duration": 1.35,
+      "text": "unlike with the airplane."
+    },
+    {
+      "start": 1265.57,
+      "duration": 3.58,
+      "text": "It's actually a little bit less\nunnerving than an airplane."
+    },
+    {
+      "start": 1269.15,
+      "duration": 4.22,
+      "text": "Some people get a little bit\nground-shy in the airplane."
+    },
+    {
+      "start": 1273.37,
+      "duration": 4.14,
+      "text": "They're happy flying 80\nknots in the pattern,"
+    },
+    {
+      "start": 1277.51,
+      "duration": 3.51,
+      "text": "but they're not that\nhappy flying 70 knots"
+    },
+    {
+      "start": 1281.02,
+      "duration": 2.31,
+      "text": "10 feet above the runway,\nwhich makes sense,"
+    },
+    {
+      "start": 1283.33,
+      "duration": 2.67,
+      "text": "because you don't want to slam\ninto the ground going really"
+    },
+    {
+      "start": 1286.0,
+      "duration": 1.02,
+      "text": "fast."
+    },
+    {
+      "start": 1287.02,
+      "duration": 3.06,
+      "text": "The good news is\nin the helicopter,"
+    },
+    {
+      "start": 1290.08,
+      "duration": 1.72,
+      "text": "you never get to\nthat phase where"
+    },
+    {
+      "start": 1291.8,
+      "duration": 1.58,
+      "text": "you're going fast\nclose to the ground,"
+    },
+    {
+      "start": 1293.38,
+      "duration": 1.92,
+      "text": "because when you're\nlanding, you just"
+    },
+    {
+      "start": 1295.3,
+      "duration": 5.41,
+      "text": "say in my peripheral vision, how\nfast is the ground rushing by?"
+    },
+    {
+      "start": 1300.71,
+      "duration": 1.67,
+      "text": "And you just kind of\nkeep that constant."
+    },
+    {
+      "start": 1302.38,
+      "duration": 2.49,
+      "text": "Whatever it was up at 500\nfeet above the ground,"
+    },
+    {
+      "start": 1304.87,
+      "duration": 3.22,
+      "text": "that's what you want when you're\nfive feet above the ground."
+    },
+    {
+      "start": 1308.09,
+      "duration": 1.74,
+      "text": "And you'll very\nnaturally slow down."
+    },
+    {
+      "start": 1309.83,
+      "duration": 1.79,
+      "text": "You'll do the right--\nyour natural instinct"
+    },
+    {
+      "start": 1311.62,
+      "duration": 2.91,
+      "text": "to slow down as the\nground begins rushing"
+    },
+    {
+      "start": 1314.53,
+      "duration": 2.11,
+      "text": "is a helpful one\nin the helicopter."
+    },
+    {
+      "start": 1316.64,
+      "duration": 3.14,
+      "text": "So your peripheral vision\nis used for speed reference,"
+    },
+    {
+      "start": 1319.78,
+      "duration": 5.52,
+      "text": "and the spot moving up or down\nis used for a descent rate"
+    },
+    {
+      "start": 1325.3,
+      "duration": 1.35,
+      "text": "reference."
+    },
+    {
+      "start": 1326.65,
+      "duration": 4.13,
+      "text": "And that's why you never have\nto look inside at the gauges,"
+    },
+    {
+      "start": 1330.78,
+      "duration": 2.29,
+      "text": "except when you're landing\non top of an office building"
+    },
+    {
+      "start": 1333.07,
+      "duration": 2.18,
+      "text": "or something."
+    },
+    {
+      "start": 1335.25,
+      "duration": 4.48,
+      "text": "Can you land the\nhelicopter without power?"
+    },
+    {
+      "start": 1339.73,
+      "duration": 1.44,
+      "text": "It turns out the answer is yes."
+    },
+    {
+      "start": 1341.17,
+      "duration": 1.58,
+      "text": "You have these three\nbuckets of energy"
+    },
+    {
+      "start": 1342.75,
+      "duration": 2.52,
+      "text": "that I alluded to earlier--"
+    },
+    {
+      "start": 1345.27,
+      "duration": 3.27,
+      "text": "kinetic from your forward\nairspeed, potential"
+    },
+    {
+      "start": 1348.54,
+      "duration": 3.72,
+      "text": "from being up high, and then\nanother form of kinetic,"
+    },
+    {
+      "start": 1352.26,
+      "duration": 2.67,
+      "text": "which we'll call \"blade inertia\"\nfrom the relatively heavy"
+    },
+    {
+      "start": 1354.93,
+      "duration": 2.14,
+      "text": "blades spinning."
+    },
+    {
+      "start": 1357.07,
+      "duration": 3.23,
+      "text": "So raise your hand if you\nthink the forward airspeed is"
+    },
+    {
+      "start": 1360.3,
+      "duration": 3.63,
+      "text": "number one in terms of size."
+    },
+    {
+      "start": 1363.93,
+      "duration": 1.39,
+      "text": "Let's rank these."
+    },
+    {
+      "start": 1365.32,
+      "duration": 4.16,
+      "text": "What's the biggest--\nairspeed, a heavy helicopter"
+    },
+    {
+      "start": 1369.48,
+      "duration": 3.72,
+      "text": "going 100 knots,\npotential energy,"
+    },
+    {
+      "start": 1373.2,
+      "duration": 3.87,
+      "text": "helicopter having been\nlifted up off the ground,"
+    },
+    {
+      "start": 1377.07,
+      "duration": 4.65,
+      "text": "or the blades whipping around\nnear the speed of sound?"
+    },
+    {
+      "start": 1381.72,
+      "duration": 3.05,
+      "text": "Who votes for one,\nforward airspeed?"
+    },
+    {
+      "start": 1384.77,
+      "duration": 0.5,
+      "text": "A few."
+    },
+    {
+      "start": 1385.27,
+      "duration": 3.12,
+      "text": "Who votes for potential?"
+    },
+    {
+      "start": 1388.39,
+      "duration": 0.63,
+      "text": "A fair number."
+    },
+    {
+      "start": 1389.02,
+      "duration": 2.75,
+      "text": "Who votes for blade inertia,\nthe blades whipping around?"
+    },
+    {
+      "start": 1391.77,
+      "duration": 0.67,
+      "text": "All right, good."
+    },
+    {
+      "start": 1392.44,
+      "duration": 2.28,
+      "text": "We've got a good distribution."
+    },
+    {
+      "start": 1394.72,
+      "duration": 1.2,
+      "text": "Let me give you--"
+    },
+    {
+      "start": 1395.92,
+      "duration": 5.49,
+      "text": "I'll tell you about, I think\nit was a crazy French guy who"
+    },
+    {
+      "start": 1401.41,
+      "duration": 4.1,
+      "text": "got into what's now called\na Eurocopter, an Alouette,"
+    },
+    {
+      "start": 1405.51,
+      "duration": 3.16,
+      "text": "went up to 40,000 feet to\nset an altitude record."
+    },
+    {
+      "start": 1408.67,
+      "duration": 2.13,
+      "text": "The record was set when\nthe engines flamed out--"
+    },
+    {
+      "start": 1410.8,
+      "duration": 4.65,
+      "text": "that's why it's 40,000 and\nchange, not 41,000 and change--"
+    },
+    {
+      "start": 1415.45,
+      "duration": 3.49,
+      "text": "and then auto-rotated all\nthe way down to the ground."
+    },
+    {
+      "start": 1418.94,
+      "duration": 4.55,
+      "text": "So whatever energy\nbucket that was there"
+    },
+    {
+      "start": 1423.49,
+      "duration": 2.35,
+      "text": "had to be sufficient to make\nit all the way the ground."
+    },
+    {
+      "start": 1425.84,
+      "duration": 2.18,
+      "text": "So what does that tell\nyou the biggest one is?"
+    },
+    {
+      "start": 1428.02,
+      "duration": 5.26,
+      "text": "It's got to be something that\nscales up to 40,000 feet."
+    },
+    {
+      "start": 1433.28,
+      "duration": 1.2,
+      "text": "Potential, yeah."
+    },
+    {
+      "start": 1434.47,
+      "duration": 1.62,
+      "text": "So potential energy\nis a good candidate"
+    },
+    {
+      "start": 1436.1,
+      "duration": 2.34,
+      "text": "for the biggest,\nbecause again, you've"
+    },
+    {
+      "start": 1438.44,
+      "duration": 2.31,
+      "text": "got to keep the rotors\nspinning for longer if you're"
+    },
+    {
+      "start": 1440.75,
+      "duration": 4.01,
+      "text": "auto-rotating from 10,000 feet\nor 50,000 feet or wherever."
+    },
+    {
+      "start": 1444.76,
+      "duration": 2.08,
+      "text": "I don't think that record's\nbeen broken, actually."
+    },
+    {
+      "start": 1446.84,
+      "duration": 2.58,
+      "text": "It was set in the '70s."
+    },
+    {
+      "start": 1449.42,
+      "duration": 3.36,
+      "text": "So number two is the forward\nairspeed of the helicopter."
+    },
+    {
+      "start": 1452.78,
+      "duration": 3.03,
+      "text": "The blade inertia isn't good\nfor much except for cushioning"
+    },
+    {
+      "start": 1455.81,
+      "duration": 2.65,
+      "text": "your fall from five or\n10 feet above the ground."
+    },
+    {
+      "start": 1458.46,
+      "duration": 4.01,
+      "text": "So what you do in the helicopter\nif the engine were to fail--"
+    },
+    {
+      "start": 1462.47,
+      "duration": 1.74,
+      "text": "number one reason\nis fuel starvation"
+    },
+    {
+      "start": 1464.21,
+      "duration": 1.47,
+      "text": "from failing to top it off."
+    },
+    {
+      "start": 1465.68,
+      "duration": 4.23,
+      "text": "Helicopters are often short on\npayload, so people will say,"
+    },
+    {
+      "start": 1469.91,
+      "duration": 3.21,
+      "text": "I want to take these\nseven people somewhere,"
+    },
+    {
+      "start": 1473.12,
+      "duration": 2.54,
+      "text": "and I'd be overweight\nif I fill the fuel tank."
+    },
+    {
+      "start": 1475.66,
+      "duration": 4.22,
+      "text": "So I'll put in half an hour of\nfuel for this 15 minute trip."
+    },
+    {
+      "start": 1479.88,
+      "duration": 1.33,
+      "text": "Actually, that would be illegal."
+    },
+    {
+      "start": 1481.21,
+      "duration": 1.42,
+      "text": "20 minutes is the\nminimum reserve."
+    },
+    {
+      "start": 1482.63,
+      "duration": 2.74,
+      "text": "So I'll put in half an hour of\nfuel for this 10 minute trip,"
+    },
+    {
+      "start": 1485.37,
+      "duration": 4.69,
+      "text": "and then there's a bit of a\ndelay, and you run out of fuel."
+    },
+    {
+      "start": 1490.06,
+      "duration": 2.83,
+      "text": "There is a warning\nlight at 10 minutes."
+    },
+    {
+      "start": 1492.89,
+      "duration": 2.55,
+      "text": "And the good news is you can\nland in a field, a baseball"
+    },
+    {
+      "start": 1495.44,
+      "duration": 2.31,
+      "text": "field, pretty easily."
+    },
+    {
+      "start": 1497.75,
+      "duration": 2.61,
+      "text": "So the engine quits\nfor whatever reason."
+    },
+    {
+      "start": 1500.36,
+      "duration": 2.82,
+      "text": "Let's say you run out of fuel."
+    },
+    {
+      "start": 1503.18,
+      "duration": 4.17,
+      "text": "You want to get to 60 or 70\nknots, some reasonable air"
+    },
+    {
+      "start": 1507.35,
+      "duration": 0.55,
+      "text": "speed."
+    },
+    {
+      "start": 1507.89,
+      "duration": 1.38,
+      "text": "And then the\nchallenge is to hold"
+    },
+    {
+      "start": 1509.27,
+      "duration": 2.47,
+      "text": "that airspeed even as the\nground is rushing up at you."
+    },
+    {
+      "start": 1511.74,
+      "duration": 2.0,
+      "text": "You hold it right till\nyou're at treetop height,"
+    },
+    {
+      "start": 1513.74,
+      "duration": 1.71,
+      "text": "about 40 feet above the ground."
+    },
+    {
+      "start": 1515.45,
+      "duration": 3.3,
+      "text": "Then you begin to flare, just\nlike in an airplane flaring"
+    },
+    {
+      "start": 1518.75,
+      "duration": 1.11,
+      "text": "for landing."
+    },
+    {
+      "start": 1519.86,
+      "duration": 2.47,
+      "text": "You scrub off that\nforward speed."
+    },
+    {
+      "start": 1522.33,
+      "duration": 1.82,
+      "text": "And that reduces\nyour descent rate."
+    },
+    {
+      "start": 1524.15,
+      "duration": 4.05,
+      "text": "So you can reduce your\ndescent rate to zero"
+    },
+    {
+      "start": 1528.2,
+      "duration": 2.31,
+      "text": "by bleeding off\nall of that energy"
+    },
+    {
+      "start": 1530.51,
+      "duration": 1.65,
+      "text": "from the forward airspeed."
+    },
+    {
+      "start": 1532.16,
+      "duration": 2.61,
+      "text": "And the kinetic energy,\nremember, is mv squared."
+    },
+    {
+      "start": 1534.77,
+      "duration": 1.0,
+      "text": "So it's very important."
+    },
+    {
+      "start": 1535.77,
+      "duration": 4.4,
+      "text": "There's twice as much energy at\n70 knots compared to 50 knots."
+    },
+    {
+      "start": 1540.17,
+      "duration": 2.28,
+      "text": "So once you've scrubbed\noff all your descent"
+    },
+    {
+      "start": 1542.45,
+      "duration": 3.87,
+      "text": "rate and all your forward\nspeed, you're like this."
+    },
+    {
+      "start": 1546.32,
+      "duration": 1.33,
+      "text": "So your tail is going to be low."
+    },
+    {
+      "start": 1547.65,
+      "duration": 1.96,
+      "text": "And now you're going to\njust fall to the ground"
+    },
+    {
+      "start": 1549.61,
+      "duration": 1.01,
+      "text": "and hit the tail first."
+    },
+    {
+      "start": 1550.62,
+      "duration": 2.19,
+      "text": "So it's not going to\nbe an FAA quality--"
+    },
+    {
+      "start": 1552.82,
+      "duration": 1.88,
+      "text": "you're going to walk\naway, but it's not going"
+    },
+    {
+      "start": 1554.69,
+      "duration": 1.99,
+      "text": "to be an FAA-quality landing."
+    },
+    {
+      "start": 1556.68,
+      "duration": 2.94,
+      "text": "So what you can do\nis stick forward"
+    },
+    {
+      "start": 1559.62,
+      "duration": 4.65,
+      "text": "and settle by pulling\nup on the collective."
+    },
+    {
+      "start": 1564.27,
+      "duration": 2.17,
+      "text": "So you stick forward\nto level the skids."
+    },
+    {
+      "start": 1566.44,
+      "duration": 2.21,
+      "text": "And then when you're about\nfive feet above the ground"
+    },
+    {
+      "start": 1568.65,
+      "duration": 1.66,
+      "text": "or maybe two feet\nabove the ground,"
+    },
+    {
+      "start": 1570.31,
+      "duration": 1.58,
+      "text": "you start pulling\nup on the collective"
+    },
+    {
+      "start": 1571.89,
+      "duration": 2.58,
+      "text": "to cushion your fall\nthat last few feet."
+    },
+    {
+      "start": 1574.47,
+      "duration": 2.01,
+      "text": "So you've used up\npotential energy"
+    },
+    {
+      "start": 1576.48,
+      "duration": 1.74,
+      "text": "keeping the blades windmilling."
+    },
+    {
+      "start": 1578.22,
+      "duration": 2.73,
+      "text": "If you just flatten\nthe collective,"
+    },
+    {
+      "start": 1580.95,
+      "duration": 1.92,
+      "text": "the blades will have a\nrelatively normal angle"
+    },
+    {
+      "start": 1582.87,
+      "duration": 4.76,
+      "text": "of attack to the air that's\nnow coming from below."
+    },
+    {
+      "start": 1587.63,
+      "duration": 1.42,
+      "text": "You've kept up\nyour forward speed,"
+    },
+    {
+      "start": 1589.05,
+      "duration": 1.8,
+      "text": "and you bleed that\noff at the end"
+    },
+    {
+      "start": 1590.85,
+      "duration": 4.35,
+      "text": "to reduce your vertical speed."
+    },
+    {
+      "start": 1595.2,
+      "duration": 2.85,
+      "text": "And then finally, you go--"
+    },
+    {
+      "start": 1598.05,
+      "duration": 2.98,
+      "text": "[VIDEO PLAYBACK]"
+    },
+    {
+      "start": 1625.47,
+      "duration": 1.14,
+      "text": "The guy cheated."
+    },
+    {
+      "start": 1626.61,
+      "duration": 0.83,
+      "text": "[END PLAYBACK]"
+    },
+    {
+      "start": 1627.44,
+      "duration": 0.71,
+      "text": "What's the cheat?"
+    },
+    {
+      "start": 1628.15,
+      "duration": 3.75,
+      "text": "And I'm telling you the\ncheat is you can hear it."
+    },
+    {
+      "start": 1631.9,
+      "duration": 2.13,
+      "text": "You could hear the\ncheating going on."
+    },
+    {
+      "start": 1634.03,
+      "duration": 2.68,
+      "text": "He landed with zero\nforward airspeed."
+    },
+    {
+      "start": 1636.71,
+      "duration": 0.5,
+      "text": "Why?"
+    },
+    {
+      "start": 1640.93,
+      "duration": 1.31,
+      "text": "What enabled that?"
+    },
+    {
+      "start": 1642.24,
+      "duration": 2.58,
+      "text": "And like I said,\nyou could hear it."
+    },
+    {
+      "start": 1644.82,
+      "duration": 2.79,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 1647.92,
+      "duration": 2.12,
+      "text": "PHILIP GREENSPUN: It's not\nfrom the engine running."
+    },
+    {
+      "start": 1650.05,
+      "duration": 2.01,
+      "text": "The engine was\npresumably at idle."
+    },
+    {
+      "start": 1652.06,
+      "duration": 1.62,
+      "text": "So what was the cheat?"
+    },
+    {
+      "start": 1653.68,
+      "duration": 0.86,
+      "text": "Nobody heard?"
+    },
+    {
+      "start": 1654.54,
+      "duration": 1.71,
+      "text": "AUDIENCE: The wind\nprobably [INAUDIBLE].."
+    },
+    {
+      "start": 1656.25,
+      "duration": 2.11,
+      "text": "PHILIP GREENSPUN:\nWind, exactly, yes."
+    },
+    {
+      "start": 1658.36,
+      "duration": 0.9,
+      "text": "What's your name?"
+    },
+    {
+      "start": 1659.26,
+      "duration": 0.89,
+      "text": "AUDIENCE: Messen."
+    },
+    {
+      "start": 1660.15,
+      "duration": 0.97,
+      "text": "Messen."
+    },
+    {
+      "start": 1661.12,
+      "duration": 1.75,
+      "text": "PHILIP GREENSPUN:\nMessen figured this out."
+    },
+    {
+      "start": 1662.87,
+      "duration": 2.18,
+      "text": "So basically, he landed\nwith probably-- it's"
+    },
+    {
+      "start": 1665.05,
+      "duration": 2.55,
+      "text": "very hard to kill all\nof your vertical speed"
+    },
+    {
+      "start": 1667.6,
+      "duration": 1.78,
+      "text": "and all of your forward speed."
+    },
+    {
+      "start": 1669.38,
+      "duration": 2.96,
+      "text": "So if you go out and it's\n15 knots down the runway,"
+    },
+    {
+      "start": 1672.34,
+      "duration": 2.02,
+      "text": "if you can just get\ndown to 15 knots,"
+    },
+    {
+      "start": 1674.35,
+      "duration": 3.09,
+      "text": "and instead of sliding and going\n[MAKES NOISE] down the runway,"
+    },
+    {
+      "start": 1677.44,
+      "duration": 3.57,
+      "text": "which is common and not\nharmful to the helicopter,"
+    },
+    {
+      "start": 1681.01,
+      "duration": 3.21,
+      "text": "you'll have a perfect, what\nlooks like a perfect landing."
+    },
+    {
+      "start": 1684.22,
+      "duration": 0.75,
+      "text": "It's very hard."
+    },
+    {
+      "start": 1684.97,
+      "duration": 2.73,
+      "text": "In the big helicopters\nlike a Huey or something,"
+    },
+    {
+      "start": 1687.7,
+      "duration": 4.26,
+      "text": "it's practical to do a\nzero/zero landing out of an auto"
+    },
+    {
+      "start": 1691.96,
+      "duration": 0.54,
+      "text": "all the time."
+    },
+    {
+      "start": 1692.5,
+      "duration": 4.64,
+      "text": "In a Robinson, it can be tough,\nbut the wind helps hugely."
+    },
+    {
+      "start": 1697.14,
+      "duration": 1.96,
+      "text": "And like I said, the\nthrottle was down at idle,"
+    },
+    {
+      "start": 1699.1,
+      "duration": 1.79,
+      "text": "so the engine is not\nreally doing anything."
+    },
+    {
+      "start": 1700.89,
+      "duration": 0.57,
+      "text": "Question?"
+    },
+    {
+      "start": 1701.47,
+      "duration": 1.83,
+      "text": "AUDIENCE: The tail rotor\nwas still spinning."
+    },
+    {
+      "start": 1703.3,
+      "duration": 2.57,
+      "text": "Is auto-rotating [INAUDIBLE]?"
+    },
+    {
+      "start": 1705.87,
+      "duration": 1.21,
+      "text": "PHILIP GREENSPUN: It is, yes."
+    },
+    {
+      "start": 1707.08,
+      "duration": 0.92,
+      "text": "Great, great question."
+    },
+    {
+      "start": 1708.0,
+      "duration": 4.06,
+      "text": "So there's a sprag clutch,\nwhich prevents the rotor system"
+    },
+    {
+      "start": 1712.06,
+      "duration": 6.85,
+      "text": "from trying to drive the\nengine, because that would"
+    },
+    {
+      "start": 1718.91,
+      "duration": 3.33,
+      "text": "introduce a lot more drag."
+    },
+    {
+      "start": 1722.24,
+      "duration": 2.71,
+      "text": "But the main rotor\nand the tail rotor"
+    },
+    {
+      "start": 1724.95,
+      "duration": 3.38,
+      "text": "are yoked together, so you\nstill have tail rotor control."
+    },
+    {
+      "start": 1728.33,
+      "duration": 0.63,
+      "text": "Great question."
+    },
+    {
+      "start": 1728.96,
+      "duration": 4.58,
+      "text": "AUDIENCE: [INAUDIBLE]\ndirectional,"
+    },
+    {
+      "start": 1733.55,
+      "duration": 2.75,
+      "text": "because you don't really\nneed the torque anymore, so--"
+    },
+    {
+      "start": 1736.29,
+      "duration": 1.83,
+      "text": "PHILIP GREENSPUN: Yeah,\nyou don't need much."
+    },
+    {
+      "start": 1738.12,
+      "duration": 1.93,
+      "text": "I don't know."
+    },
+    {
+      "start": 1740.05,
+      "duration": 1.95,
+      "text": "I'll have to think\nabout why it's useful."
+    },
+    {
+      "start": 1742.0,
+      "duration": 0.88,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 1742.88,
+      "duration": 2.04,
+      "text": "PHILIP GREENSPUN: Yeah,\nit's not useful for much."
+    },
+    {
+      "start": 1744.92,
+      "duration": 0.95,
+      "text": "That's for sure."
+    },
+    {
+      "start": 1745.87,
+      "duration": 2.21,
+      "text": "One thing that is good about\nit is the hydraulic pump"
+    },
+    {
+      "start": 1748.08,
+      "duration": 1.6,
+      "text": "is also geared to\nthe transmission."
+    },
+    {
+      "start": 1749.68,
+      "duration": 1.64,
+      "text": "So you still have\nhydraulic boost"
+    },
+    {
+      "start": 1751.32,
+      "duration": 2.44,
+      "text": "even if you're auto-rotating\nfrom super high."
+    },
+    {
+      "start": 1753.76,
+      "duration": 1.38,
+      "text": "What can you do\nwith a helicopter"
+    },
+    {
+      "start": 1755.13,
+      "duration": 1.5,
+      "text": "if you have a private?"
+    },
+    {
+      "start": 1756.63,
+      "duration": 4.38,
+      "text": "You can visit schools."
+    },
+    {
+      "start": 1761.01,
+      "duration": 4.0,
+      "text": "I visited the Winchester\nPublic Schools."
+    },
+    {
+      "start": 1765.01,
+      "duration": 1.67,
+      "text": "I'm not sure you can\ngive them all rides"
+    },
+    {
+      "start": 1766.68,
+      "duration": 1.35,
+      "text": "if you only have a private."
+    },
+    {
+      "start": 1768.03,
+      "duration": 1.46,
+      "text": "There's some kind\nof-- like I said,"
+    },
+    {
+      "start": 1769.49,
+      "duration": 1.38,
+      "text": "there's those\ncharity laws that--"
+    },
+    {
+      "start": 1770.87,
+      "duration": 1.88,
+      "text": "regulations that we\ndon't really worry about,"
+    },
+    {
+      "start": 1772.74,
+      "duration": 2.04,
+      "text": "because we have\ncommercial certificate"
+    },
+    {
+      "start": 1774.78,
+      "duration": 2.0,
+      "text": "and a letter of authority\nfrom the [INAUDIBLE].."
+    },
+    {
+      "start": 1776.78,
+      "duration": 3.64,
+      "text": "But here's one of the East\nCoast Aero Club helicopters."
+    },
+    {
+      "start": 1780.42,
+      "duration": 2.31,
+      "text": "I flew to the public\nschools in Winchester."
+    },
+    {
+      "start": 1782.73,
+      "duration": 1.83,
+      "text": "I gave all the kids rides."
+    },
+    {
+      "start": 1784.56,
+      "duration": 3.09,
+      "text": "And when we flew over\nhouses like this,"
+    },
+    {
+      "start": 1787.65,
+      "duration": 4.29,
+      "text": "I said, oh, that's just like\nthe house where I grew up."
+    },
+    {
+      "start": 1791.94,
+      "duration": 2.28,
+      "text": "If you do that with kids\nfrom Weston and Lincoln,"
+    },
+    {
+      "start": 1794.22,
+      "duration": 0.89,
+      "text": "they believe you."
+    },
+    {
+      "start": 1795.11,
+      "duration": 3.82,
+      "text": "They don't parse that\nas an ironic statement."
+    },
+    {
+      "start": 1798.93,
+      "duration": 2.52,
+      "text": "Helicopter pilot careers,\njust in case any of you guys"
+    },
+    {
+      "start": 1801.45,
+      "duration": 4.35,
+      "text": "are thinking about leaving the\ndesk where all the people work"
+    },
+    {
+      "start": 1805.8,
+      "duration": 2.22,
+      "text": "as a flight\ninstructor, fly tours"
+    },
+    {
+      "start": 1808.02,
+      "duration": 2.52,
+      "text": "in the Grand Canyon or\nAlaska, and then they'll"
+    },
+    {
+      "start": 1810.54,
+      "duration": 4.59,
+      "text": "either go to offshore oil\nor Medevac after that."
+    },
+    {
+      "start": 1815.13,
+      "duration": 4.23,
+      "text": "Usually offshore oil\nused to be easier to get."
+    },
+    {
+      "start": 1819.36,
+      "duration": 3.57,
+      "text": "When oil prices are low,\nwhen oil catches a cold,"
+    },
+    {
+      "start": 1822.93,
+      "duration": 2.79,
+      "text": "the helicopter industry\ncatches the flu."
+    },
+    {
+      "start": 1825.71,
+      "duration": 2.38,
+      "text": "They shut down these oil rigs\nand there's a lot less need"
+    },
+    {
+      "start": 1828.09,
+      "duration": 2.01,
+      "text": "for helicopter transport."
+    },
+    {
+      "start": 1830.1,
+      "duration": 2.1,
+      "text": "Medevac is kind of\nconsidered the plum job."
+    },
+    {
+      "start": 1832.2,
+      "duration": 2.1,
+      "text": "That's my friend, Marcus."
+    },
+    {
+      "start": 1834.3,
+      "duration": 1.5,
+      "text": "He trained at East\nCoast Aero Club"
+    },
+    {
+      "start": 1835.8,
+      "duration": 5.25,
+      "text": "and now he does 12-hour shifts\nat a volunteer fire station."
+    },
+    {
+      "start": 1841.05,
+      "duration": 4.29,
+      "text": "And he gets paid\nin North Carolina"
+    },
+    {
+      "start": 1845.34,
+      "duration": 3.09,
+      "text": "and goes hospital to hospital,\nor sometimes picks people"
+    },
+    {
+      "start": 1848.43,
+      "duration": 1.81,
+      "text": "up off of highways and stuff."
+    },
+    {
+      "start": 1850.24,
+      "duration": 1.5,
+      "text": "So what can you do?"
+    },
+    {
+      "start": 1851.74,
+      "duration": 3.64,
+      "text": "You can fly low and slow\nboth legally and safely."
+    },
+    {
+      "start": 1855.38,
+      "duration": 1.93,
+      "text": "You saw there was a\ncarve-out for helicopters"
+    },
+    {
+      "start": 1857.31,
+      "duration": 2.07,
+      "text": "able to fly lower."
+    },
+    {
+      "start": 1859.38,
+      "duration": 4.91,
+      "text": "One problematic aspect of flying\nPiper Warriors and Cessnas"
+    },
+    {
+      "start": 1864.29,
+      "duration": 2.95,
+      "text": "is that people--"
+    },
+    {
+      "start": 1867.24,
+      "duration": 2.73,
+      "text": "their expectations of what an\naircraft is and what it can do"
+    },
+    {
+      "start": 1869.97,
+      "duration": 2.76,
+      "text": "has been set by their\nairline experience."
+    },
+    {
+      "start": 1872.73,
+      "duration": 1.86,
+      "text": "And the first time you\ntry to get up and use"
+    },
+    {
+      "start": 1874.59,
+      "duration": 1.93,
+      "text": "the bathroom in\nyour Piper, you'll"
+    },
+    {
+      "start": 1876.52,
+      "duration": 2.84,
+      "text": "discover that JetBlue has some\nadvantages in the aircraft"
+    },
+    {
+      "start": 1879.36,
+      "duration": 0.86,
+      "text": "department."
+    },
+    {
+      "start": 1880.22,
+      "duration": 1.75,
+      "text": "And your passengers\nwill notice this, too."
+    },
+    {
+      "start": 1881.97,
+      "duration": 1.15,
+      "text": "This is noisy."
+    },
+    {
+      "start": 1883.12,
+      "duration": 1.37,
+      "text": "It's not climate controlled."
+    },
+    {
+      "start": 1884.49,
+      "duration": 2.34,
+      "text": "There's no bathroom."
+    },
+    {
+      "start": 1886.83,
+      "duration": 2.16,
+      "text": "The helicopters are awesome,\nbecause people usually"
+    },
+    {
+      "start": 1888.99,
+      "duration": 1.41,
+      "text": "haven't even been\nin one, so it's"
+    },
+    {
+      "start": 1890.4,
+      "duration": 1.21,
+      "text": "a whole different experience."
+    },
+    {
+      "start": 1891.61,
+      "duration": 1.76,
+      "text": "There's a different view."
+    },
+    {
+      "start": 1893.37,
+      "duration": 2.94,
+      "text": "You can take them on a 10-minute\nride from Hanscom Field"
+    },
+    {
+      "start": 1896.31,
+      "duration": 0.54,
+      "text": "and go back."
+    },
+    {
+      "start": 1896.85,
+      "duration": 1.67,
+      "text": "You don't have to\nsay, oh, let's go have"
+    },
+    {
+      "start": 1898.52,
+      "duration": 1.21,
+      "text": "lunch in Martha's Vineyard."
+    },
+    {
+      "start": 1899.73,
+      "duration": 1.2,
+      "text": "You just take them\non a little tour"
+    },
+    {
+      "start": 1900.93,
+      "duration": 1.46,
+      "text": "and they say, wow,\nthis is awesome."
+    },
+    {
+      "start": 1902.39,
+      "duration": 3.57,
+      "text": "So when I actually want to\nshow people what GA is like"
+    },
+    {
+      "start": 1905.96,
+      "duration": 1.54,
+      "text": "and what my world\nis like, I usually"
+    },
+    {
+      "start": 1907.5,
+      "duration": 1.77,
+      "text": "take them for a helicopter ride."
+    },
+    {
+      "start": 1909.27,
+      "duration": 1.89,
+      "text": "I don't take them for a trip."
+    },
+    {
+      "start": 1911.16,
+      "duration": 2.63,
+      "text": "The serious is for\ntransportation,"
+    },
+    {
+      "start": 1913.79,
+      "duration": 1.96,
+      "text": "and the helicopter\nis really what"
+    },
+    {
+      "start": 1915.75,
+      "duration": 3.03,
+      "text": "I think of as the\nkind of aviation dream"
+    },
+    {
+      "start": 1918.78,
+      "duration": 3.21,
+      "text": "that people had\nin ancient Greece."
+    },
+    {
+      "start": 1921.99,
+      "duration": 3.54,
+      "text": "They didn't dream of\ngoing to LA in six hours."
+    },
+    {
+      "start": 1925.53,
+      "duration": 5.04,
+      "text": "They dreamed of\nsoaring like a bird."
+    },
+    {
+      "start": 1930.57,
+      "duration": 1.6,
+      "text": "You can land off-airport."
+    },
+    {
+      "start": 1932.17,
+      "duration": 1.46,
+      "text": "That's where a lot\nof the challenge"
+    },
+    {
+      "start": 1933.63,
+      "duration": 2.01,
+      "text": "comes from the helicopter."
+    },
+    {
+      "start": 1935.64,
+      "duration": 1.86,
+      "text": "People think you're a\npilot of heroic skill"
+    },
+    {
+      "start": 1937.5,
+      "duration": 1.95,
+      "text": "if you take off and\nland at Hanscom."
+    },
+    {
+      "start": 1939.45,
+      "duration": 1.25,
+      "text": "That's not very challenging."
+    },
+    {
+      "start": 1940.7,
+      "duration": 1.57,
+      "text": "It's not really that different."
+    },
+    {
+      "start": 1942.27,
+      "duration": 3.69,
+      "text": "And in some ways, it's easier\nthan taking off and landing"
+    },
+    {
+      "start": 1945.96,
+      "duration": 2.65,
+      "text": "in a Piper or a Cessna."
+    },
+    {
+      "start": 1948.61,
+      "duration": 1.38,
+      "text": "When you're\noff-airport, you have"
+    },
+    {
+      "start": 1949.98,
+      "duration": 3.51,
+      "text": "to exercise a lot of\njudgment, a lot of skill."
+    },
+    {
+      "start": 1953.49,
+      "duration": 2.28,
+      "text": "And that's part\nof your training."
+    },
+    {
+      "start": 1955.77,
+      "duration": 2.25,
+      "text": "But it's also where\npeople get in trouble"
+    },
+    {
+      "start": 1958.02,
+      "duration": 2.25,
+      "text": "hitting obstacles and stuff."
+    },
+    {
+      "start": 1960.27,
+      "duration": 3.57,
+      "text": "If you do get all of\nyour airplane skills,"
+    },
+    {
+      "start": 1963.84,
+      "duration": 3.76,
+      "text": "you can transfer them over\nto helicopters very easily."
+    },
+    {
+      "start": 1967.6,
+      "duration": 2.9,
+      "text": "It's 30 hours minimum\nof additional training"
+    },
+    {
+      "start": 1970.5,
+      "duration": 1.44,
+      "text": "to add a helicopter rating."
+    },
+    {
+      "start": 1971.94,
+      "duration": 2.26,
+      "text": "40 is probably a\ngood budget number."
+    },
+    {
+      "start": 1974.2,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 1974.7,
+      "duration": 3.03,
+      "text": "Are there helicopter questions?"
+    },
+    {
+      "start": 1980.95,
+      "duration": 1.38,
+      "text": "AUDIENCE: [INAUDIBLE]."
+    },
+    {
+      "start": 1985.1,
+      "duration": 1.73,
+      "text": "Can you just pick [INAUDIBLE]?"
+    },
+    {
+      "start": 1986.83,
+      "duration": 0.8,
+      "text": "OK, here it is."
+    },
+    {
+      "start": 1987.63,
+      "duration": 2.51,
+      "text": "Or like, who's going to\ntell you [INAUDIBLE]??"
+    },
+    {
+      "start": 1990.14,
+      "duration": 2.32,
+      "text": "PHILIP GREENSPUN: That\nis a great question."
+    },
+    {
+      "start": 1992.46,
+      "duration": 1.46,
+      "text": "Is there any\nregulation about where"
+    },
+    {
+      "start": 1993.92,
+      "duration": 2.94,
+      "text": "you can land your helicopter?"
+    },
+    {
+      "start": 1996.86,
+      "duration": 6.15,
+      "text": "The answer is until about 5 or\n10 years ago, there wasn't any."
+    },
+    {
+      "start": 2003.01,
+      "duration": 2.37,
+      "text": "So it was just permission\nof the property owner"
+    },
+    {
+      "start": 2005.38,
+      "duration": 2.31,
+      "text": "and don't do anything\ncareless or reckless."
+    },
+    {
+      "start": 2007.69,
+      "duration": 5.82,
+      "text": "So basically, the whole world\nwas open to helicopter pilots."
+    },
+    {
+      "start": 2013.51,
+      "duration": 3.06,
+      "text": "There is a little bit of\na tweaking of the law."
+    },
+    {
+      "start": 2016.57,
+      "duration": 2.58,
+      "text": "The FAA passed this--"
+    },
+    {
+      "start": 2019.15,
+      "duration": 1.83,
+      "text": "they added this\nregulation that I"
+    },
+    {
+      "start": 2020.98,
+      "duration": 1.77,
+      "text": "think was intended\nfor airplanes,"
+    },
+    {
+      "start": 2022.75,
+      "duration": 3.72,
+      "text": "but they forgot to carve it out."
+    },
+    {
+      "start": 2026.47,
+      "duration": 2.46,
+      "text": "So they said if you make more\nthan 10 takeoffs and landings"
+    },
+    {
+      "start": 2028.93,
+      "duration": 1.94,
+      "text": "in the same place\nin a year, then"
+    },
+    {
+      "start": 2030.87,
+      "duration": 2.98,
+      "text": "you have to get it approved as\nan airport with a huge amount"
+    },
+    {
+      "start": 2033.85,
+      "duration": 1.27,
+      "text": "of regulation."
+    },
+    {
+      "start": 2035.12,
+      "duration": 2.96,
+      "text": "I think it was intended for\nmining companies that would"
+    },
+    {
+      "start": 2038.08,
+      "duration": 1.75,
+      "text": "set up their own landing strip."
+    },
+    {
+      "start": 2039.84,
+      "duration": 1.23,
+      "text": "It doesn't really make sense."
+    },
+    {
+      "start": 2041.06,
+      "duration": 2.0,
+      "text": "For helicopters, like if\nyou have a construction"
+    },
+    {
+      "start": 2043.06,
+      "duration": 2.16,
+      "text": "site that you want to\nregularly visit, now"
+    },
+    {
+      "start": 2045.22,
+      "duration": 2.67,
+      "text": "it's a bit of a hassle because\nthat 11th landing, in theory,"
+    },
+    {
+      "start": 2047.89,
+      "duration": 2.4,
+      "text": "you need it to get\napproval as an airport."
+    },
+    {
+      "start": 2050.29,
+      "duration": 2.58,
+      "text": "But as a first\napproximation, you"
+    },
+    {
+      "start": 2052.87,
+      "duration": 2.13,
+      "text": "can land anywhere\nthat the property"
+    },
+    {
+      "start": 2055.0,
+      "duration": 4.12,
+      "text": "owner is happy to host you."
+    },
+    {
+      "start": 2059.12,
+      "duration": 1.74,
+      "text": "And towns, also."
+    },
+    {
+      "start": 2060.86,
+      "duration": 1.71,
+      "text": "They're really aggressive\nabout harassing"
+    },
+    {
+      "start": 2062.57,
+      "duration": 4.31,
+      "text": "people who try to have a\nhelipad at their house now,"
+    },
+    {
+      "start": 2066.88,
+      "duration": 0.92,
+      "text": "just because they can."
+    },
+    {
+      "start": 2067.8,
+      "duration": 2.16,
+      "text": "They get them under zoning\nlaws, even though they're not"
+    },
+    {
+      "start": 2069.96,
+      "duration": 0.79,
+      "text": "really supposed to."
+    },
+    {
+      "start": 2070.75,
+      "duration": 2.18,
+      "text": "The FAA is supposed to\nhave exclusive authority"
+    },
+    {
+      "start": 2072.93,
+      "duration": 1.65,
+      "text": "to regulate aviation."
+    },
+    {
+      "start": 2074.58,
+      "duration": 2.37,
+      "text": "Because think about\nit-- there's all this--"
+    },
+    {
+      "start": 2076.95,
+      "duration": 2.64,
+      "text": "there's so many levels\nof government in the US."
+    },
+    {
+      "start": 2079.59,
+      "duration": 3.81,
+      "text": "If you let them all\njust forbid activities,"
+    },
+    {
+      "start": 2083.41,
+      "duration": 1.38,
+      "text": "eventually there\nwould be nothing"
+    },
+    {
+      "start": 2084.78,
+      "duration": 3.72,
+      "text": "that was legal at all, because\npeople in Concord and Lexington"
+    },
+    {
+      "start": 2088.5,
+      "duration": 2.33,
+      "text": "would say, we don't want\nairplanes flying over our head."
+    },
+    {
+      "start": 2090.83,
+      "duration": 5.57,
+      "text": "So we'll just make it illegal\nto fly a Gulfstream in Concord."
+    },
+    {
+      "start": 2096.4,
+      "duration": 4.35,
+      "text": "AUDIENCE: [INAUDIBLE]\nfrom flying [INAUDIBLE]??"
+    },
+    {
+      "start": 2103.69,
+      "duration": 2.0,
+      "text": "PHILIP GREENSPUN: I had\nthat in an earlier slide"
+    },
+    {
+      "start": 2105.69,
+      "duration": 1.92,
+      "text": "on learning to fly."
+    },
+    {
+      "start": 2107.61,
+      "duration": 3.1,
+      "text": "The marginal cost\nis about double."
+    },
+    {
+      "start": 2110.71,
+      "duration": 6.48,
+      "text": "So it goes from 150 an\nhour to 225, or 100 an hour"
+    },
+    {
+      "start": 2117.19,
+      "duration": 4.17,
+      "text": "to 200, because so many rotating\ncomponents get discarded"
+    },
+    {
+      "start": 2121.36,
+      "duration": 2.85,
+      "text": "after 2,200 hours--\nso the transmissions,"
+    },
+    {
+      "start": 2124.21,
+      "duration": 2.68,
+      "text": "the blades, and so forth."
+    },
+    {
+      "start": 2126.89,
+      "duration": 2.52,
+      "text": "So it is more\nexpensive per hour."
+    },
+    {
+      "start": 2129.41,
+      "duration": 2.63,
+      "text": "However, like I also\nsaid, the flights"
+    },
+    {
+      "start": 2132.04,
+      "duration": 1.29,
+      "text": "tend to be a lot shorter."
+    },
+    {
+      "start": 2133.33,
+      "duration": 2.46,
+      "text": "So I would say as a\nhobby overall, it's"
+    },
+    {
+      "start": 2135.79,
+      "duration": 2.97,
+      "text": "about the same cost, because\nyou're not dragging people"
+    },
+    {
+      "start": 2138.76,
+      "duration": 1.99,
+      "text": "all the way to the\nVineyard or Bar Harbor."
+    },
+    {
+      "start": 2140.75,
+      "duration": 1.46,
+      "text": "You're just taking\nthem into Boston"
+    },
+    {
+      "start": 2142.21,
+      "duration": 4.62,
+      "text": "and back out, which is about\n20 minutes of flight time"
+    },
+    {
+      "start": 2146.83,
+      "duration": 4.28,
+      "text": "and 30 minutes of\nengine running time."
+    },
+    {
+      "start": 2151.11,
+      "duration": 2.94,
+      "text": "Whereas an intro airplane flight\nwould be an all day thing."
+    },
+    {
+      "start": 2154.05,
+      "duration": 2.86,
+      "text": "You'd probably fly a couple\nhours, two or three hours."
+    },
+    {
+      "start": 2156.91,
+      "duration": 4.3,
+      "text": "So you actually probably\nspend more with the airplane."
+    },
+    {
+      "start": 2161.21,
+      "duration": 1.0,
+      "text": "That's a great question."
+    },
+    {
+      "start": 2164.97,
+      "duration": 2.5,
+      "text": "All right, so I guess we should\ntake a 10-minute restroom"
+    },
+    {
+      "start": 2167.47,
+      "duration": 1.08,
+      "text": "break."
+    },
+    {
+      "start": 2168.55,
+      "duration": 4.79,
+      "text": "And after that, we're going to\nhear from Laz about the F-22."
+    }
+  ]
+}

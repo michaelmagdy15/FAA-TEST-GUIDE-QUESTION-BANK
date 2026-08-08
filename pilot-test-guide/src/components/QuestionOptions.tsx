@@ -45,8 +45,18 @@ export const QuestionOptions: React.FC<QuestionOptionsProps> = ({
                         }}
                     >
                         <div style={{ display: 'flex', alignItems: 'flex-start', gap: '1rem' }}>
-                            <div style={{ fontWeight: 'bold', minWidth: '24px' }}>{key}.</div>
-                            <div>{text as string}</div>
+                            <span
+                                className="option-letter"
+                                style={{
+                                    marginTop: '2px',
+                                    color: isCorrectOpt ? 'var(--success-color)' : isWrongOpt ? 'var(--error-color)' : 'var(--text-secondary)',
+                                    borderColor: isCorrectOpt ? 'var(--success-color)' : isWrongOpt ? 'var(--error-color)' : 'rgba(255, 255, 255, 0.08)',
+                                    background: isCorrectOpt ? 'rgba(16, 185, 129, 0.15)' : isWrongOpt ? 'rgba(239, 68, 68, 0.15)' : 'rgba(148, 163, 184, 0.12)',
+                                }}
+                            >
+                                {key}
+                            </span>
+                            <div style={{ flex: 1 }}>{text as string}</div>
                         </div>
                     </div>
                 );

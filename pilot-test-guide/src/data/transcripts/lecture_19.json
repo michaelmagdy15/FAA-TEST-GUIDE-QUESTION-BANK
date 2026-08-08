@@ -1,0 +1,2963 @@
+{
+  "videoId": "ksyY5wa5_50",
+  "lectureNum": 19,
+  "title": "Multi-Engine and Jets",
+  "topics": [
+    "multiengine",
+    "Vmc",
+    "asymmetric thrust",
+    "jet"
+  ],
+  "segments": [
+    {
+      "start": 16.18,
+      "duration": 1.29,
+      "text": "PHILIP GREENSPUN: Welcome back."
+    },
+    {
+      "start": 17.47,
+      "duration": 2.13,
+      "text": "I hope you've got your coffee."
+    },
+    {
+      "start": 19.6,
+      "duration": 1.92,
+      "text": "I see somebody has a muffin."
+    },
+    {
+      "start": 21.52,
+      "duration": 1.65,
+      "text": "They'll be in a\ncarb coma, Francis,"
+    },
+    {
+      "start": 23.17,
+      "duration": 3.79,
+      "text": "I'm relying on you to answer\nall the hard questions."
+    },
+    {
+      "start": 26.96,
+      "duration": 2.12,
+      "text": "That's not authorized."
+    },
+    {
+      "start": 29.08,
+      "duration": 5.14,
+      "text": "All right, so\nmulti-engine jets--"
+    },
+    {
+      "start": 34.22,
+      "duration": 3.1,
+      "text": "the piston twin,\nthe good news is,"
+    },
+    {
+      "start": 37.32,
+      "duration": 1.5,
+      "text": "when both engines\nare spinning, it's"
+    },
+    {
+      "start": 38.82,
+      "duration": 2.47,
+      "text": "easier to fly than a single."
+    },
+    {
+      "start": 41.29,
+      "duration": 2.24,
+      "text": "Because you don't need\nas much right rudder"
+    },
+    {
+      "start": 43.53,
+      "duration": 1.21,
+      "text": "or really any right rudder."
+    },
+    {
+      "start": 44.74,
+      "duration": 2.55,
+      "text": "It doesn't have all those\nleft turning tendencies,"
+    },
+    {
+      "start": 47.29,
+      "duration": 1.88,
+      "text": "necessarily."
+    },
+    {
+      "start": 49.17,
+      "duration": 3.6,
+      "text": "The training and rating,\nespecially the Seminole,"
+    },
+    {
+      "start": 52.77,
+      "duration": 1.55,
+      "text": "which has\ncounter-rotating props--"
+    },
+    {
+      "start": 57.03,
+      "duration": 3.09,
+      "text": "all your training for\na multi-engine airplane"
+    },
+    {
+      "start": 60.12,
+      "duration": 2.43,
+      "text": "is flying around on one engine."
+    },
+    {
+      "start": 62.55,
+      "duration": 1.5,
+      "text": "Because flying\naround on two engines"
+    },
+    {
+      "start": 64.05,
+      "duration": 1.15,
+      "text": "is pretty much the same."
+    },
+    {
+      "start": 65.2,
+      "duration": 1.82,
+      "text": "So basically, almost\nall the flight time"
+    },
+    {
+      "start": 67.02,
+      "duration": 3.33,
+      "text": "that you accumulate during\nyour multi-engine training"
+    },
+    {
+      "start": 70.35,
+      "duration": 3.81,
+      "text": "will be with one engine pulled\nback to idle or, in some cases,"
+    },
+    {
+      "start": 74.16,
+      "duration": 1.62,
+      "text": "stopped altogether."
+    },
+    {
+      "start": 75.78,
+      "duration": 5.31,
+      "text": "You have six power levers in\na twin-engine piston airplane,"
+    },
+    {
+      "start": 81.09,
+      "duration": 4.11,
+      "text": "two for throttle, two for\nmixture, and two for prop."
+    },
+    {
+      "start": 85.2,
+      "duration": 4.5,
+      "text": "You may also have cowl flaps to\nbring more or less cooling air"
+    },
+    {
+      "start": 89.7,
+      "duration": 1.26,
+      "text": "into these piston engines."
+    },
+    {
+      "start": 94.04,
+      "duration": 1.81,
+      "text": "By FAA certification\nrequirements,"
+    },
+    {
+      "start": 95.85,
+      "duration": 1.76,
+      "text": "as I think I mentioned\nearlier, there"
+    },
+    {
+      "start": 97.61,
+      "duration": 1.58,
+      "text": "is no required climb rate."
+    },
+    {
+      "start": 99.19,
+      "duration": 3.83,
+      "text": "It may be a truly crummy\nairplane on one engine."
+    },
+    {
+      "start": 103.02,
+      "duration": 2.37,
+      "text": "So that's why people\nsay that second engine"
+    },
+    {
+      "start": 105.39,
+      "duration": 3.6,
+      "text": "either takes you to the\nscene of the accident."
+    },
+    {
+      "start": 108.99,
+      "duration": 2.95,
+      "text": "One engine expert,\nMike Bush, he said--"
+    },
+    {
+      "start": 111.94,
+      "duration": 2.25,
+      "text": "he came to appreciate\nthe Cirrus parachute."
+    },
+    {
+      "start": 114.19,
+      "duration": 2.75,
+      "text": "It's not like having that\nextra engine out there"
+    },
+    {
+      "start": 116.94,
+      "duration": 2.33,
+      "text": "on the wing trying to\nkill you all the time."
+    },
+    {
+      "start": 119.27,
+      "duration": 4.12,
+      "text": "It just waits there\nquietly until you need it."
+    },
+    {
+      "start": 123.39,
+      "duration": 2.63,
+      "text": "Piston twins have an\nillustrious history."
+    },
+    {
+      "start": 126.02,
+      "duration": 3.82,
+      "text": "Here is a Aero\nCommander piston-driven"
+    },
+    {
+      "start": 129.84,
+      "duration": 4.18,
+      "text": "twin that was actually\nEisenhower's Air Force One."
+    },
+    {
+      "start": 134.02,
+      "duration": 2.42,
+      "text": "This also tells you something\nof the growth of government."
+    },
+    {
+      "start": 136.44,
+      "duration": 2.22,
+      "text": "When Eisenhower was\npresident and wanted"
+    },
+    {
+      "start": 138.66,
+      "duration": 1.74,
+      "text": "to go to a smaller\nairport, this is"
+    },
+    {
+      "start": 140.4,
+      "duration": 5.08,
+      "text": "how he would go, in an airplane\ndesigned for about six people."
+    },
+    {
+      "start": 145.48,
+      "duration": 1.8,
+      "text": "OK, this is probably\nwhat you'll be flying,"
+    },
+    {
+      "start": 147.28,
+      "duration": 1.7,
+      "text": "which is the Piper Seminole."
+    },
+    {
+      "start": 148.98,
+      "duration": 3.18,
+      "text": "It is unusual in that\nthe props counter rotate."
+    },
+    {
+      "start": 152.16,
+      "duration": 2.25,
+      "text": "And that has some\nadvantages that are"
+    },
+    {
+      "start": 154.41,
+      "duration": 2.63,
+      "text": "beyond the scope of this talk."
+    },
+    {
+      "start": 157.04,
+      "duration": 4.6,
+      "text": "It's a design from the '70s\nbased on designs from the '50s."
+    },
+    {
+      "start": 161.64,
+      "duration": 1.23,
+      "text": "Where the problems happen--"
+    },
+    {
+      "start": 167.11,
+      "duration": 1.02,
+      "text": "so have a look here."
+    },
+    {
+      "start": 170.93,
+      "duration": 4.62,
+      "text": "Can anybody immediately see\nwhat one problem might be?"
+    },
+    {
+      "start": 175.55,
+      "duration": 2.91,
+      "text": "I'd say, the left\nengine quits, and you"
+    },
+    {
+      "start": 178.46,
+      "duration": 1.74,
+      "text": "have to manipulate these."
+    },
+    {
+      "start": 180.2,
+      "duration": 0.54,
+      "text": "What happens?"
+    },
+    {
+      "start": 183.79,
+      "duration": 1.39,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 185.18,
+      "duration": 2.23,
+      "text": "PHILIP GREENSPUN: You're\nmanipulating the controls"
+    },
+    {
+      "start": 187.41,
+      "duration": 3.63,
+      "text": "for the good engine instead\nof for the failed engine"
+    },
+    {
+      "start": 191.04,
+      "duration": 1.56,
+      "text": "inadvertently."
+    },
+    {
+      "start": 192.6,
+      "duration": 4.65,
+      "text": "So it's just an interface\nthat's overly complex"
+    },
+    {
+      "start": 197.25,
+      "duration": 1.2,
+      "text": "given human frailties."
+    },
+    {
+      "start": 198.45,
+      "duration": 2.64,
+      "text": "So, what do you have to\ndo if an engine quits?"
+    },
+    {
+      "start": 201.09,
+      "duration": 4.23,
+      "text": "You don't want the\ndrag of that propeller"
+    },
+    {
+      "start": 205.32,
+      "duration": 5.77,
+      "text": "out there that's not being\ndriven by the engine."
+    },
+    {
+      "start": 211.09,
+      "duration": 1.86,
+      "text": "So you push all of\nthe levers forward"
+    },
+    {
+      "start": 212.95,
+      "duration": 2.21,
+      "text": "and try to get maximum power\nout of your good engine."
+    },
+    {
+      "start": 215.16,
+      "duration": 2.82,
+      "text": "Push everything forward."
+    },
+    {
+      "start": 217.98,
+      "duration": 3.75,
+      "text": "You'll have to put in some\nrudder to correct the yaw,"
+    },
+    {
+      "start": 221.73,
+      "duration": 2.7,
+      "text": "because the airplane\nis going to be pulled"
+    },
+    {
+      "start": 224.43,
+      "duration": 2.46,
+      "text": "to one side or the\nother depending on which"
+    },
+    {
+      "start": 226.89,
+      "duration": 1.68,
+      "text": "engine is still running."
+    },
+    {
+      "start": 228.57,
+      "duration": 5.07,
+      "text": "And then there's the old\nadage, dead foot, dead engine."
+    },
+    {
+      "start": 233.64,
+      "duration": 4.87,
+      "text": "So if your left foot\nis flat on the floor"
+    },
+    {
+      "start": 238.51,
+      "duration": 2.42,
+      "text": "and it's your right\nrudder that's in,"
+    },
+    {
+      "start": 240.93,
+      "duration": 4.08,
+      "text": "then you know that it's the\nleft engine that has failed."
+    },
+    {
+      "start": 245.01,
+      "duration": 2.76,
+      "text": "Then you try to\nverify the dead engine"
+    },
+    {
+      "start": 247.77,
+      "duration": 1.41,
+      "text": "by pulling back that throttle."
+    },
+    {
+      "start": 249.18,
+      "duration": 2.46,
+      "text": "So you'll say, OK, I think\nthe left engine's failed."
+    },
+    {
+      "start": 251.64,
+      "duration": 2.78,
+      "text": "I'm going to try monkeying\nwith the left throttle."
+    },
+    {
+      "start": 254.42,
+      "duration": 3.25,
+      "text": "And if that has no effect on\nthe flight characteristics,"
+    },
+    {
+      "start": 257.67,
+      "duration": 3.03,
+      "text": "you verify that it's\nthe left engine."
+    },
+    {
+      "start": 260.7,
+      "duration": 3.63,
+      "text": "Then you feather the dead engine\nby pulling the prop control"
+    },
+    {
+      "start": 264.33,
+      "duration": 1.88,
+      "text": "all the way back."
+    },
+    {
+      "start": 266.21,
+      "duration": 2.47,
+      "text": "If you're in a\ntwo-pilot crew, you'll"
+    },
+    {
+      "start": 268.68,
+      "duration": 2.1,
+      "text": "get your co-pilot to verify."
+    },
+    {
+      "start": 270.78,
+      "duration": 3.9,
+      "text": "I have my hand on the\nleft prop control."
+    },
+    {
+      "start": 274.68,
+      "duration": 4.29,
+      "text": "And you pull that back,\nclose the cowl flaps."
+    },
+    {
+      "start": 278.97,
+      "duration": 2.7,
+      "text": "And only now do\nyou have any chance"
+    },
+    {
+      "start": 281.67,
+      "duration": 1.8,
+      "text": "of getting an actual climb."
+    },
+    {
+      "start": 283.47,
+      "duration": 3.51,
+      "text": "So imagine if this engine\nfailed shortly after takeoff."
+    },
+    {
+      "start": 286.98,
+      "duration": 2.04,
+      "text": "It's a lot of stuff\nto do very quickly."
+    },
+    {
+      "start": 289.02,
+      "duration": 1.65,
+      "text": "You have to do it all right."
+    },
+    {
+      "start": 290.67,
+      "duration": 2.19,
+      "text": "And if you miss even\none of these things,"
+    },
+    {
+      "start": 292.86,
+      "duration": 3.18,
+      "text": "you may not be able\nto clear obstacles"
+    },
+    {
+      "start": 296.04,
+      "duration": 1.26,
+      "text": "at the end of the runway."
+    },
+    {
+      "start": 297.3,
+      "duration": 3.12,
+      "text": "Now, of course, your\ntypical piston twin,"
+    },
+    {
+      "start": 300.42,
+      "duration": 3.28,
+      "text": "takeoff is a stressful time\nfor an engine 100% power."
+    },
+    {
+      "start": 303.7,
+      "duration": 1.79,
+      "text": "But there's definitely\nmore engine failures"
+    },
+    {
+      "start": 305.49,
+      "duration": 1.41,
+      "text": "that occur en route."
+    },
+    {
+      "start": 306.9,
+      "duration": 4.26,
+      "text": "So the generally negative\nimpression of piston twins"
+    },
+    {
+      "start": 311.16,
+      "duration": 2.7,
+      "text": "might have to be revised if\nyour primary mission is flying"
+    },
+    {
+      "start": 313.86,
+      "duration": 1.71,
+      "text": "around the Caribbean islands."
+    },
+    {
+      "start": 315.57,
+      "duration": 2.14,
+      "text": "You might, in that case,\nactually say, well,"
+    },
+    {
+      "start": 317.71,
+      "duration": 1.97,
+      "text": "I'd rather have\nthat second engine."
+    },
+    {
+      "start": 319.68,
+      "duration": 2.46,
+      "text": "Is this within human\ncapability, that sequence"
+    },
+    {
+      "start": 322.14,
+      "duration": 2.55,
+      "text": "that you just saw?"
+    },
+    {
+      "start": 324.69,
+      "duration": 3.45,
+      "text": "Yes, in World War II\nwhen engines weren't"
+    },
+    {
+      "start": 328.14,
+      "duration": 3.6,
+      "text": "being made with as much\nprecision as they are now,"
+    },
+    {
+      "start": 331.74,
+      "duration": 2.49,
+      "text": "it would be ordinary to\nhave one out of four engines"
+    },
+    {
+      "start": 334.23,
+      "duration": 3.29,
+      "text": "or one out of two engines\nfail on any given mission."
+    },
+    {
+      "start": 337.51,
+      "duration": 1.12,
+      "text": "But they also got it wrong."
+    },
+    {
+      "start": 338.64,
+      "duration": 3.03,
+      "text": "There is one very famous\nguy, Louis Zamperini."
+    },
+    {
+      "start": 341.67,
+      "duration": 2.94,
+      "text": "Some of you may have\nseen a movie about him."
+    },
+    {
+      "start": 344.61,
+      "duration": 2.52,
+      "text": "He floated in a\nraft for 47 days."
+    },
+    {
+      "start": 347.13,
+      "duration": 4.41,
+      "text": "I think that was a record at\nthe time for survival at sea."
+    },
+    {
+      "start": 351.54,
+      "duration": 3.12,
+      "text": "He was on a\nfour-engined aircraft."
+    },
+    {
+      "start": 354.66,
+      "duration": 2.34,
+      "text": "And one engineer quit."
+    },
+    {
+      "start": 357.0,
+      "duration": 3.23,
+      "text": "And I think there were about\nfour pilots in the cockpit."
+    },
+    {
+      "start": 360.23,
+      "duration": 1.96,
+      "text": "Remember we talked about\na flight engineer also"
+    },
+    {
+      "start": 362.19,
+      "duration": 1.5,
+      "text": "being an airman."
+    },
+    {
+      "start": 363.69,
+      "duration": 1.92,
+      "text": "So if we count the flight\nengineer as a pilot,"
+    },
+    {
+      "start": 365.61,
+      "duration": 3.3,
+      "text": "there were at least three\nor four experts up front."
+    },
+    {
+      "start": 368.91,
+      "duration": 4.41,
+      "text": "And as a team, they\nfeathered the wrong engine."
+    },
+    {
+      "start": 373.32,
+      "duration": 6.27,
+      "text": "So they killed a second\nengine that was actually good."
+    },
+    {
+      "start": 379.59,
+      "duration": 2.38,
+      "text": "And now they had two\nengines working on only one"
+    },
+    {
+      "start": 381.96,
+      "duration": 0.88,
+      "text": "side of the airplane."
+    },
+    {
+      "start": 382.84,
+      "duration": 2.01,
+      "text": "And it was uncontrollable."
+    },
+    {
+      "start": 384.85,
+      "duration": 3.05,
+      "text": "So they went in the water\nthrough human error."
+    },
+    {
+      "start": 387.9,
+      "duration": 2.62,
+      "text": "And Cape Air has a\ngreat track record."
+    },
+    {
+      "start": 390.52,
+      "duration": 2.33,
+      "text": "They've had a handful of\nengine failures over the years."
+    },
+    {
+      "start": 392.85,
+      "duration": 3.39,
+      "text": "They fly piston twins all day,\nevery day in the Caribbean"
+    },
+    {
+      "start": 396.24,
+      "duration": 0.96,
+      "text": "and around New England."
+    },
+    {
+      "start": 397.2,
+      "duration": 1.29,
+      "text": "And when they have a\nproblem, usually it's"
+    },
+    {
+      "start": 398.49,
+      "duration": 0.96,
+      "text": "not a complete failure."
+    },
+    {
+      "start": 399.45,
+      "duration": 3.18,
+      "text": "But maybe there's an ugly\nindication on one engine."
+    },
+    {
+      "start": 402.63,
+      "duration": 1.5,
+      "text": "So they'll shut it down."
+    },
+    {
+      "start": 404.13,
+      "duration": 1.77,
+      "text": "But they do a lot of\nrecurrent training."
+    },
+    {
+      "start": 405.9,
+      "duration": 2.43,
+      "text": "That's what they fly\nall day, every day."
+    },
+    {
+      "start": 408.33,
+      "duration": 5.49,
+      "text": "The typical family airplane\ndoesn't get flown as often."
+    },
+    {
+      "start": 413.82,
+      "duration": 2.01,
+      "text": "And the pilot isn't\nas proficient."
+    },
+    {
+      "start": 415.83,
+      "duration": 3.36,
+      "text": "So the capable twins are\nvery inexpensive now,"
+    },
+    {
+      "start": 419.19,
+      "duration": 3.61,
+      "text": "except for the Beechcraft Baron,\nwhich is the most sought after."
+    },
+    {
+      "start": 422.8,
+      "duration": 2.54,
+      "text": "They're a little more\nexpensive to insure"
+    },
+    {
+      "start": 425.34,
+      "duration": 1.83,
+      "text": "than the comparable single."
+    },
+    {
+      "start": 427.17,
+      "duration": 3.12,
+      "text": "Just the other day, I got a\nquote from my local insurance"
+    },
+    {
+      "start": 430.29,
+      "duration": 2.61,
+      "text": "agency called Plane Insurance."
+    },
+    {
+      "start": 432.9,
+      "duration": 3.48,
+      "text": "And we found out\nthat if you look"
+    },
+    {
+      "start": 436.38,
+      "duration": 3.66,
+      "text": "at a $200,000\naircraft being flown"
+    },
+    {
+      "start": 440.04,
+      "duration": 3.9,
+      "text": "by a pilot that has 250\nhours of experience in type"
+    },
+    {
+      "start": 443.94,
+      "duration": 3.19,
+      "text": "in that exact aircraft\nand with a million dollars"
+    },
+    {
+      "start": 447.13,
+      "duration": 2.46,
+      "text": "of smooth liability,\nthat means no sublimit."
+    },
+    {
+      "start": 449.59,
+      "duration": 2.23,
+      "text": "So if there's just\none passenger,"
+    },
+    {
+      "start": 451.82,
+      "duration": 2.08,
+      "text": "they would pay, oh, a\nmillion dollars for injuries"
+    },
+    {
+      "start": 453.9,
+      "duration": 1.32,
+      "text": "to that one passenger."
+    },
+    {
+      "start": 455.22,
+      "duration": 4.98,
+      "text": "Some policies have, like,\n$100,000 per person sublimit."
+    },
+    {
+      "start": 460.2,
+      "duration": 4.11,
+      "text": "Anyway, it was about 50% more\nfor the Baron, $3,700 a year"
+    },
+    {
+      "start": 464.31,
+      "duration": 2.62,
+      "text": "versus $2,500."
+    },
+    {
+      "start": 466.93,
+      "duration": 1.53,
+      "text": "So there you have it."
+    },
+    {
+      "start": 468.46,
+      "duration": 2.72,
+      "text": "Again, it's not insanely risky."
+    },
+    {
+      "start": 471.18,
+      "duration": 1.59,
+      "text": "You can quantify the risk."
+    },
+    {
+      "start": 472.77,
+      "duration": 1.77,
+      "text": "The insurance company has."
+    },
+    {
+      "start": 474.54,
+      "duration": 1.8,
+      "text": "But it is riskier."
+    },
+    {
+      "start": 476.34,
+      "duration": 1.77,
+      "text": "OK."
+    },
+    {
+      "start": 478.11,
+      "duration": 3.69,
+      "text": "We have a lot of engineering\ngeniuses in this class and one"
+    },
+    {
+      "start": 481.8,
+      "duration": 2.21,
+      "text": "physics genius--"
+    },
+    {
+      "start": 484.01,
+      "duration": 0.5,
+      "text": "science."
+    },
+    {
+      "start": 484.51,
+      "duration": 1.06,
+      "text": "Which one was it?"
+    },
+    {
+      "start": 485.57,
+      "duration": 2.14,
+      "text": "AUDIENCE: Brain in cog."
+    },
+    {
+      "start": 487.71,
+      "duration": 2.12,
+      "text": "PHILIP GREENSPUN: That's\nclose enough to physics,"
+    },
+    {
+      "start": 489.83,
+      "duration": 0.77,
+      "text": "brain in cog."
+    },
+    {
+      "start": 490.6,
+      "duration": 3.93,
+      "text": "It takes a lot of physics\nto make your neurons fire."
+    },
+    {
+      "start": 494.53,
+      "duration": 4.29,
+      "text": "Obviously, my neurons\naren't firing very well."
+    },
+    {
+      "start": 498.82,
+      "duration": 3.93,
+      "text": "So, what's the limit to\na piston engine's power?"
+    },
+    {
+      "start": 502.75,
+      "duration": 4.32,
+      "text": "Why is it that we can't\nget 6,000 horsepower out"
+    },
+    {
+      "start": 507.07,
+      "duration": 1.03,
+      "text": "of our piston engine?"
+    },
+    {
+      "start": 508.1,
+      "duration": 1.17,
+      "text": "What do you guys think?"
+    },
+    {
+      "start": 509.27,
+      "duration": 0.91,
+      "text": "AUDIENCE: Cooling."
+    },
+    {
+      "start": 510.18,
+      "duration": 1.38,
+      "text": "PHILIP GREENSPUN:\nCooling is one."
+    },
+    {
+      "start": 511.56,
+      "duration": 1.84,
+      "text": "Sure."
+    },
+    {
+      "start": 513.4,
+      "duration": 0.57,
+      "text": "What else?"
+    },
+    {
+      "start": 513.97,
+      "duration": 2.55,
+      "text": "What's fundamentally limiting\nour ability to produce power?"
+    },
+    {
+      "start": 516.52,
+      "duration": 1.62,
+      "text": "Remember, all the\npower that we produce"
+    },
+    {
+      "start": 518.14,
+      "duration": 6.57,
+      "text": "is by burning fuel\nand oxygen. Aziz?"
+    },
+    {
+      "start": 524.72,
+      "duration": 0.93,
+      "text": "AUDIENCE: [INAUDIBLE]"
+    },
+    {
+      "start": 525.65,
+      "duration": 1.22,
+      "text": "PHILIP GREENSPUN: Size, yeah."
+    },
+    {
+      "start": 526.87,
+      "duration": 2.73,
+      "text": "I think that's a good insight."
+    },
+    {
+      "start": 529.6,
+      "duration": 2.19,
+      "text": "It's the size of the cylinder."
+    },
+    {
+      "start": 531.79,
+      "duration": 3.48,
+      "text": "You only have so much fuel\nand air that you can combust."
+    },
+    {
+      "start": 535.27,
+      "duration": 2.88,
+      "text": "And once you've blown all\nof that up, what do you got?"
+    },
+    {
+      "start": 538.15,
+      "duration": 1.39,
+      "text": "Nothing."
+    },
+    {
+      "start": 539.54,
+      "duration": 3.41,
+      "text": "So if you want to know\nwhy you should never"
+    },
+    {
+      "start": 542.95,
+      "duration": 1.65,
+      "text": "be like the Silicon\nValley heroes"
+    },
+    {
+      "start": 544.6,
+      "duration": 3.03,
+      "text": "and never hire anybody\nover the age of 30,"
+    },
+    {
+      "start": 547.63,
+      "duration": 4.74,
+      "text": "the inventor of the modern jet\nengine was only 23 years old,"
+    },
+    {
+      "start": 552.37,
+      "duration": 2.55,
+      "text": "I believe, at the\ntime that the patent"
+    },
+    {
+      "start": 554.92,
+      "duration": 1.99,
+      "text": "was filed over in England."
+    },
+    {
+      "start": 556.91,
+      "duration": 4.1,
+      "text": "He was a cadet when he\nconceived of the idea"
+    },
+    {
+      "start": 561.01,
+      "duration": 1.84,
+      "text": "at the Royal Air College."
+    },
+    {
+      "start": 562.85,
+      "duration": 2.24,
+      "text": "And he said, well,\nlook, these pistons--"
+    },
+    {
+      "start": 565.09,
+      "duration": 2.85,
+      "text": "no matter how high up you\ngo, no matter what you do,"
+    },
+    {
+      "start": 567.94,
+      "duration": 3.45,
+      "text": "all you can ever do is burn\nthe volume of air and fuel"
+    },
+    {
+      "start": 571.39,
+      "duration": 2.59,
+      "text": "that's inside the cylinder."
+    },
+    {
+      "start": 573.98,
+      "duration": 3.83,
+      "text": "So, what if we just adapt\nthis gas turbine, which"
+    },
+    {
+      "start": 577.81,
+      "duration": 2.85,
+      "text": "has already been invented?"
+    },
+    {
+      "start": 580.66,
+      "duration": 3.87,
+      "text": "It was kind of invented in\n1791 but not really practical"
+    },
+    {
+      "start": 584.53,
+      "duration": 1.39,
+      "text": "to fabricate at the time."
+    },
+    {
+      "start": 585.92,
+      "duration": 2.0,
+      "text": "But look, we're just\nsucking in all of this air."
+    },
+    {
+      "start": 587.92,
+      "duration": 3.39,
+      "text": "We can probably get 20 times\nas much air in if we just"
+    },
+    {
+      "start": 591.31,
+      "duration": 2.07,
+      "text": "vacuum it in, and suck\nit into a turbine,"
+    },
+    {
+      "start": 593.38,
+      "duration": 1.87,
+      "text": "and then light it on fire."
+    },
+    {
+      "start": 595.25,
+      "duration": 2.3,
+      "text": "So that was the idea,\nthe fundamental insight"
+    },
+    {
+      "start": 597.55,
+      "duration": 3.18,
+      "text": "for why a gas turbine is\ngoing to be a better machine"
+    },
+    {
+      "start": 600.73,
+      "duration": 2.94,
+      "text": "for propelling aircraft."
+    },
+    {
+      "start": 603.67,
+      "duration": 1.5,
+      "text": "He struggled with funding."
+    },
+    {
+      "start": 605.17,
+      "duration": 3.57,
+      "text": "So you can see, the\npatent was filed in 1930."
+    },
+    {
+      "start": 608.74,
+      "duration": 7.37,
+      "text": "And it was only in 1941\nthat it finally got flown."
+    },
+    {
+      "start": 616.11,
+      "duration": 2.0,
+      "text": "And that's a good lesson\nfor you entrepreneurs."
+    },
+    {
+      "start": 618.11,
+      "duration": 2.51,
+      "text": "A lot of MIT startups\nhave the characteristic,"
+    },
+    {
+      "start": 620.62,
+      "duration": 2.7,
+      "text": "but they're a bit too early."
+    },
+    {
+      "start": 623.32,
+      "duration": 4.11,
+      "text": "I remember, in 1994,\nI built the world's"
+    },
+    {
+      "start": 627.43,
+      "duration": 2.58,
+      "text": "first electronic medical\nrecord system that"
+    },
+    {
+      "start": 630.01,
+      "duration": 1.69,
+      "text": "had a web interface."
+    },
+    {
+      "start": 631.7,
+      "duration": 2.0,
+      "text": "So that had zero\nvalue at the time."
+    },
+    {
+      "start": 633.7,
+      "duration": 4.92,
+      "text": "And about 10 years later, that\nwas a multi-billion dollar"
+    },
+    {
+      "start": 638.62,
+      "duration": 1.89,
+      "text": "idea."
+    },
+    {
+      "start": 640.51,
+      "duration": 4.35,
+      "text": "So yeah, Whittle died in\nrelative obscurity in 1996."
+    },
+    {
+      "start": 644.86,
+      "duration": 2.82,
+      "text": "So nobody else liked\nthis idea at the time."
+    },
+    {
+      "start": 650.26,
+      "duration": 2.86,
+      "text": "I'll let you read that quote--"
+    },
+    {
+      "start": 653.12,
+      "duration": 1.49,
+      "text": "not totally wrong, of course."
+    },
+    {
+      "start": 654.61,
+      "duration": 2.01,
+      "text": "Because it did take quite\na bit of engineering"
+    },
+    {
+      "start": 656.62,
+      "duration": 1.86,
+      "text": "to make it truly practical."
+    },
+    {
+      "start": 658.48,
+      "duration": 4.47,
+      "text": "But that didn't take as\nlong as people thought."
+    },
+    {
+      "start": 662.95,
+      "duration": 2.67,
+      "text": "All right, you saw\nthis figure before."
+    },
+    {
+      "start": 665.62,
+      "duration": 4.44,
+      "text": "This is the modern turbo\njet or turbo fan engine,"
+    },
+    {
+      "start": 670.06,
+      "duration": 5.15,
+      "text": "where you have\nthis bypass error."
+    },
+    {
+      "start": 675.21,
+      "duration": 8.01,
+      "text": "So the outer ring\nis devoted to air"
+    },
+    {
+      "start": 683.22,
+      "duration": 2.67,
+      "text": "that really never\ngoes through and gets"
+    },
+    {
+      "start": 685.89,
+      "duration": 3.29,
+      "text": "burned in the power section."
+    },
+    {
+      "start": 689.18,
+      "duration": 3.63,
+      "text": "And that provides a lot of\nadditional propulsion for not"
+    },
+    {
+      "start": 692.81,
+      "duration": 1.17,
+      "text": "a whole lot of extra energy."
+    },
+    {
+      "start": 693.98,
+      "duration": 3.61,
+      "text": "So these are much more efficient\nthan the early pure turbo jet."
+    },
+    {
+      "start": 697.59,
+      "duration": 4.27,
+      "text": "So just to remind you, you\nhave the compressor section,"
+    },
+    {
+      "start": 701.86,
+      "duration": 2.73,
+      "text": "where you have air\nbeing squeezed."
+    },
+    {
+      "start": 704.59,
+      "duration": 1.99,
+      "text": "Now you introduce some fuel."
+    },
+    {
+      "start": 706.58,
+      "duration": 3.27,
+      "text": "It catches on fire from the\nextreme heat or the igniters"
+    },
+    {
+      "start": 709.84,
+      "duration": 1.41,
+      "text": "if you're just starting up."
+    },
+    {
+      "start": 711.25,
+      "duration": 2.07,
+      "text": "That drives these\npower turbines."
+    },
+    {
+      "start": 713.32,
+      "duration": 3.9,
+      "text": "And some of the spinning\nfrom the power turbines"
+    },
+    {
+      "start": 717.22,
+      "duration": 2.97,
+      "text": "goes back to spin the\ncompressor wheels, as well"
+    },
+    {
+      "start": 720.19,
+      "duration": 3.99,
+      "text": "as the fan in front, which is\nkind of like the propeller."
+    },
+    {
+      "start": 724.18,
+      "duration": 3.73,
+      "text": "All right, what about\nhaving to turbo jet engines?"
+    },
+    {
+      "start": 727.91,
+      "duration": 2.42,
+      "text": "A lot of people like to see\ntwo engines on their aircraft,"
+    },
+    {
+      "start": 730.33,
+      "duration": 2.91,
+      "text": "especially airline passengers."
+    },
+    {
+      "start": 733.24,
+      "duration": 3.09,
+      "text": "If you have an engine\nfailure, what do you do?"
+    },
+    {
+      "start": 736.33,
+      "duration": 3.51,
+      "text": "The answer is,\npretty much nothing."
+    },
+    {
+      "start": 739.84,
+      "duration": 2.85,
+      "text": "If it hasn't been done\nautomatically for you already,"
+    },
+    {
+      "start": 742.69,
+      "duration": 3.12,
+      "text": "you can advance\nthe thrust levers."
+    },
+    {
+      "start": 745.81,
+      "duration": 2.28,
+      "text": "If the airplane is the\nyawing, that sometimes"
+    },
+    {
+      "start": 748.09,
+      "duration": 3.78,
+      "text": "is automatically corrected for\nyou to a substantial extent"
+    },
+    {
+      "start": 751.87,
+      "duration": 1.59,
+      "text": "by the yaw damper."
+    },
+    {
+      "start": 753.46,
+      "duration": 2.25,
+      "text": "You will step on the rudder\nto do the natural thing"
+    },
+    {
+      "start": 755.71,
+      "duration": 4.24,
+      "text": "and bring the nose back pointed\nto where you want it pointed."
+    },
+    {
+      "start": 759.95,
+      "duration": 2.12,
+      "text": "And you'll keep climbing nicely."
+    },
+    {
+      "start": 762.07,
+      "duration": 2.46,
+      "text": "You've arranged\neverything both in terms"
+    },
+    {
+      "start": 764.52,
+      "duration": 2.38,
+      "text": "of the design of the aircraft\nand the weight at which you"
+    },
+    {
+      "start": 766.9,
+      "duration": 4.35,
+      "text": "took off so that, no matter\nthe environmental conditions,"
+    },
+    {
+      "start": 771.25,
+      "duration": 1.38,
+      "text": "you will be able to climb."
+    },
+    {
+      "start": 772.63,
+      "duration": 2.09,
+      "text": "And you will be able\nto clear the obstacles."
+    },
+    {
+      "start": 774.72,
+      "duration": 1.0,
+      "text": "This can be a challenge."
+    },
+    {
+      "start": 775.72,
+      "duration": 2.43,
+      "text": "If you're taking off out of\na mountainous, high altitude,"
+    },
+    {
+      "start": 778.15,
+      "duration": 3.48,
+      "text": "hot airport, you're not going\nto have a full load of fuel"
+    },
+    {
+      "start": 781.63,
+      "duration": 2.78,
+      "text": "and a full load of\npeople and bags."
+    },
+    {
+      "start": 784.41,
+      "duration": 1.54,
+      "text": "But by regulation,\nyou're going to be"
+    },
+    {
+      "start": 785.95,
+      "duration": 3.96,
+      "text": "able to clear the terrain\nsafely even on one engine."
+    },
+    {
+      "start": 789.91,
+      "duration": 1.93,
+      "text": "Why is it so much easier?"
+    },
+    {
+      "start": 791.84,
+      "duration": 3.11,
+      "text": "You don't have a propeller\nthat'll drag back a wing."
+    },
+    {
+      "start": 794.95,
+      "duration": 4.92,
+      "text": "And therefore, there's no\nurgency about feathering."
+    },
+    {
+      "start": 799.87,
+      "duration": 3.48,
+      "text": "You also have a little\nbit less of the crazy yaw."
+    },
+    {
+      "start": 803.35,
+      "duration": 3.06,
+      "text": "Because the engines are,\nin some aircraft, pretty"
+    },
+    {
+      "start": 806.41,
+      "duration": 2.64,
+      "text": "close to the fuselage."
+    },
+    {
+      "start": 809.05,
+      "duration": 3.78,
+      "text": "So basically, you can still\napply that cardinal rule"
+    },
+    {
+      "start": 812.83,
+      "duration": 1.44,
+      "text": "of flying jets."
+    },
+    {
+      "start": 814.27,
+      "duration": 2.73,
+      "text": "If the switch has dust\non it, don't touch it."
+    },
+    {
+      "start": 817.0,
+      "duration": 5.03,
+      "text": "So you don't have to\ntake immediate action."
+    },
+    {
+      "start": 822.03,
+      "duration": 1.54,
+      "text": "All right, if it's\nturbo jet powered,"
+    },
+    {
+      "start": 823.57,
+      "duration": 3.03,
+      "text": "though, you do need\nspecific training."
+    },
+    {
+      "start": 826.6,
+      "duration": 5.1,
+      "text": "And you have to pass a check\nride specific to that aircraft."
+    },
+    {
+      "start": 831.7,
+      "duration": 2.49,
+      "text": "So most of you guys,\nexcept for Francis,"
+    },
+    {
+      "start": 834.19,
+      "duration": 3.75,
+      "text": "believe that Captain Sully was\nall by himself in the A320."
+    },
+    {
+      "start": 837.94,
+      "duration": 3.78,
+      "text": "but actually, anything that's\nmore than about a 10 seater"
+    },
+    {
+      "start": 841.72,
+      "duration": 1.8,
+      "text": "almost always\nrequires two pilots."
+    },
+    {
+      "start": 843.52,
+      "duration": 2.31,
+      "text": "And according to the\ntype certificate,"
+    },
+    {
+      "start": 845.83,
+      "duration": 4.23,
+      "text": "it's not even legal to operate\neven the larger business"
+    },
+    {
+      "start": 850.06,
+      "duration": 2.91,
+      "text": "jets with one pilot."
+    },
+    {
+      "start": 852.97,
+      "duration": 7.37,
+      "text": "There is an old FAR\n91.5, I believe,"
+    },
+    {
+      "start": 860.34,
+      "duration": 4.39,
+      "text": "that says there has to be a\nproficiency check annually"
+    },
+    {
+      "start": 864.73,
+      "duration": 4.2,
+      "text": "for the pilot in command\nof a two-pilot aircraft."
+    },
+    {
+      "start": 868.93,
+      "duration": 2.28,
+      "text": "And more recently,\nthe regulations"
+    },
+    {
+      "start": 871.21,
+      "duration": 2.83,
+      "text": "were updated for\nsingle-pilot turbo jets"
+    },
+    {
+      "start": 874.04,
+      "duration": 2.52,
+      "text": "so that a check ride\nhas to be done annually,"
+    },
+    {
+      "start": 876.56,
+      "duration": 2.75,
+      "text": "which is not really that\ndifferent from the insurance"
+    },
+    {
+      "start": 879.31,
+      "duration": 1.33,
+      "text": "requirements of annual training."
+    },
+    {
+      "start": 880.64,
+      "duration": 2.09,
+      "text": "They just made it a\nlittle more formalized"
+    },
+    {
+      "start": 882.73,
+      "duration": 2.1,
+      "text": "with FAA bureaucracy."
+    },
+    {
+      "start": 884.83,
+      "duration": 2.13,
+      "text": "All right, turbo jets\nthat you might own--"
+    },
+    {
+      "start": 886.96,
+      "duration": 3.39,
+      "text": "the single pilot business\njet with a straight wing--"
+    },
+    {
+      "start": 890.35,
+      "duration": 1.8,
+      "text": "they said initially,\nthe Cessna Citation"
+    },
+    {
+      "start": 892.15,
+      "duration": 2.61,
+      "text": "was so slow that birds were\nhitting it from behind."
+    },
+    {
+      "start": 897.79,
+      "duration": 2.91,
+      "text": "But sometimes\nsafety and having it"
+    },
+    {
+      "start": 900.7,
+      "duration": 2.91,
+      "text": "be easy to operate by\npeople of ordinary skill"
+    },
+    {
+      "start": 903.61,
+      "duration": 2.4,
+      "text": "and people of lower skill\nlevels is better than"
+    },
+    {
+      "start": 906.01,
+      "duration": 2.4,
+      "text": "getting that last\n50 knots of speed."
+    },
+    {
+      "start": 908.41,
+      "duration": 2.52,
+      "text": "And that's what\nCessna figured out."
+    },
+    {
+      "start": 910.93,
+      "duration": 1.98,
+      "text": "So they're still kind of\na leader in this area."
+    },
+    {
+      "start": 912.91,
+      "duration": 2.4,
+      "text": "They produced the\nCessna Mustang, which"
+    },
+    {
+      "start": 915.31,
+      "duration": 3.22,
+      "text": "you see there at the right."
+    },
+    {
+      "start": 918.53,
+      "duration": 2.37,
+      "text": "Some of the Microsoft\nfolks, they spun off"
+    },
+    {
+      "start": 920.9,
+      "duration": 1.46,
+      "text": "a design called the Eclipse."
+    },
+    {
+      "start": 922.36,
+      "duration": 3.03,
+      "text": "It was supposed to have these\nnew cruise-missile-inspired"
+    },
+    {
+      "start": 925.39,
+      "duration": 2.15,
+      "text": "engines from Williams."
+    },
+    {
+      "start": 927.54,
+      "duration": 1.0,
+      "text": "The engines didn't work."
+    },
+    {
+      "start": 928.54,
+      "duration": 2.49,
+      "text": "So the 1500 nautical\nmile airplane"
+    },
+    {
+      "start": 931.03,
+      "duration": 4.32,
+      "text": "became a 900 nautical mile\nairplane with a Pratt & Whitney"
+    },
+    {
+      "start": 935.35,
+      "duration": 1.38,
+      "text": "more conventional\ndesigned engine"
+    },
+    {
+      "start": 936.73,
+      "duration": 2.37,
+      "text": "that's used on some of\nthese other designs."
+    },
+    {
+      "start": 939.1,
+      "duration": 2.4,
+      "text": "The Embraer Phenom 100\nhas the same engines"
+    },
+    {
+      "start": 941.5,
+      "duration": 2.55,
+      "text": "essentially as the\nMustang, same family."
+    },
+    {
+      "start": 944.05,
+      "duration": 1.59,
+      "text": "HondaJet has an\ninnovative engine"
+    },
+    {
+      "start": 945.64,
+      "duration": 2.79,
+      "text": "designed by GE and Honda."
+    },
+    {
+      "start": 948.43,
+      "duration": 2.67,
+      "text": "These have all pretty much\nbeen business failures."
+    },
+    {
+      "start": 951.1,
+      "duration": 5.73,
+      "text": "And the answer to that is the\nfixed costs of jet ownership"
+    },
+    {
+      "start": 956.83,
+      "duration": 5.77,
+      "text": "are so high you can't just get\na T hangar for $800 a month."
+    },
+    {
+      "start": 962.6,
+      "duration": 4.27,
+      "text": "You may have to pay at\none of the busier airports"
+    },
+    {
+      "start": 966.87,
+      "duration": 4.39,
+      "text": "$40,000 a year to have\nan FBO hangar it for you."
+    },
+    {
+      "start": 971.26,
+      "duration": 3.36,
+      "text": "The insurance company will\nrequire simulator training"
+    },
+    {
+      "start": 974.62,
+      "duration": 0.66,
+      "text": "annually."
+    },
+    {
+      "start": 975.28,
+      "duration": 2.91,
+      "text": "And you'll probably\nhave to have two pilots"
+    },
+    {
+      "start": 978.19,
+      "duration": 2.73,
+      "text": "as a practical matter\ngo through training."
+    },
+    {
+      "start": 980.92,
+      "duration": 2.25,
+      "text": "Insurance will be expensive,\nbecause the whole value"
+    },
+    {
+      "start": 983.17,
+      "duration": 0.54,
+      "text": "is high."
+    },
+    {
+      "start": 983.71,
+      "duration": 2.28,
+      "text": "If you wreck a $5 million\nairplane or a $10 million"
+    },
+    {
+      "start": 985.99,
+      "duration": 3.87,
+      "text": "airplane, that's a bad day\nfor the insurance company."
+    },
+    {
+      "start": 989.86,
+      "duration": 4.59,
+      "text": "You get charged a lot\nmore for landing fees"
+    },
+    {
+      "start": 994.45,
+      "duration": 1.74,
+      "text": "and parking at airports."
+    },
+    {
+      "start": 996.19,
+      "duration": 3.29,
+      "text": "When you're a little Cessna,\nthey give you a break,"
+    },
+    {
+      "start": 999.48,
+      "duration": 2.42,
+      "text": "because they don't want you\nsaying anything bad about them"
+    },
+    {
+      "start": 1001.9,
+      "duration": 1.65,
+      "text": "on airnav.com."
+    },
+    {
+      "start": 1003.55,
+      "duration": 1.62,
+      "text": "But if you show up\nin a Gulfstream,"
+    },
+    {
+      "start": 1005.17,
+      "duration": 4.71,
+      "text": "they figure you probably\nhave a credit card somewhere."
+    },
+    {
+      "start": 1009.88,
+      "duration": 2.22,
+      "text": "So yeah, the Mustang,\nthey actually"
+    },
+    {
+      "start": 1012.1,
+      "duration": 1.83,
+      "text": "stopped production\nof that plane."
+    },
+    {
+      "start": 1013.93,
+      "duration": 2.88,
+      "text": "The Phenom 100 is still\ngoing from Embraer."
+    },
+    {
+      "start": 1016.81,
+      "duration": 5.51,
+      "text": "But basically, I think\nthe Phenom 300 is--"
+    },
+    {
+      "start": 1022.32,
+      "duration": 2.03,
+      "text": "it holds about\nnine or 10 people."
+    },
+    {
+      "start": 1024.35,
+      "duration": 3.44,
+      "text": "And I think it weighs somewhere\nin the 15,000 to 20,000"
+    },
+    {
+      "start": 1027.79,
+      "duration": 2.39,
+      "text": "pound range."
+    },
+    {
+      "start": 1030.18,
+      "duration": 2.17,
+      "text": "At gross, those\nare the airplanes"
+    },
+    {
+      "start": 1032.35,
+      "duration": 2.75,
+      "text": "that seem to be popular."
+    },
+    {
+      "start": 1035.1,
+      "duration": 3.73,
+      "text": "The Phenom 300 is\nabout $9 million new."
+    },
+    {
+      "start": 1038.83,
+      "duration": 3.82,
+      "text": "And $3 to $5 million\nused applies, including"
+    },
+    {
+      "start": 1042.65,
+      "duration": 1.7,
+      "text": "the things like the Cessna CJ3."
+    },
+    {
+      "start": 1044.35,
+      "duration": 3.99,
+      "text": "A $3 million plane\ncould be a CJ3."
+    },
+    {
+      "start": 1048.34,
+      "duration": 2.25,
+      "text": "All right, what about\nsingle-engine jets?"
+    },
+    {
+      "start": 1050.59,
+      "duration": 4.71,
+      "text": "The problem is they're more\nvulnerable to engine failure."
+    },
+    {
+      "start": 1055.31,
+      "duration": 1.38,
+      "text": "Jet engines are\na little bit more"
+    },
+    {
+      "start": 1056.68,
+      "duration": 3.33,
+      "text": "vulnerable to failure from,\nsay, a bird strike or something"
+    },
+    {
+      "start": 1060.01,
+      "duration": 1.08,
+      "text": "than a piston engine."
+    },
+    {
+      "start": 1061.09,
+      "duration": 4.32,
+      "text": "And therefore, you need some way\nof dealing with the consequence"
+    },
+    {
+      "start": 1065.41,
+      "duration": 1.92,
+      "text": "of having that engine fail."
+    },
+    {
+      "start": 1067.33,
+      "duration": 2.47,
+      "text": "The Cirrus jet is pretty slow."
+    },
+    {
+      "start": 1069.8,
+      "duration": 2.15,
+      "text": "So it could actually be\nlanded off the airport,"
+    },
+    {
+      "start": 1071.95,
+      "duration": 4.06,
+      "text": "perhaps, without\ntoo much damage."
+    },
+    {
+      "start": 1076.01,
+      "duration": 1.46,
+      "text": "But it has a parachute in case."
+    },
+    {
+      "start": 1077.47,
+      "duration": 3.66,
+      "text": "And F-16 and other fighter\njets that are single engine,"
+    },
+    {
+      "start": 1081.13,
+      "duration": 2.79,
+      "text": "they obviously have\nejection seats."
+    },
+    {
+      "start": 1083.92,
+      "duration": 3.16,
+      "text": "Twin turboprops--\nlet's talk about those."
+    },
+    {
+      "start": 1087.08,
+      "duration": 2.79,
+      "text": "So if you want to land\non a short runway--"
+    },
+    {
+      "start": 1089.87,
+      "duration": 4.22,
+      "text": "we talked about turboprop\nengines, I think, on day one."
+    },
+    {
+      "start": 1094.09,
+      "duration": 1.92,
+      "text": "They can produce a\ntremendous amount of power."
+    },
+    {
+      "start": 1096.01,
+      "duration": 2.35,
+      "text": "So you can have a much\nbigger, heavier airplane."
+    },
+    {
+      "start": 1098.36,
+      "duration": 1.67,
+      "text": "But because they're\ndriving a propeller,"
+    },
+    {
+      "start": 1100.03,
+      "duration": 1.46,
+      "text": "you get to take\noff and land short."
+    },
+    {
+      "start": 1101.49,
+      "duration": 5.3,
+      "text": "They developed thrust very\neffectively at low speeds."
+    },
+    {
+      "start": 1106.79,
+      "duration": 3.14,
+      "text": "And the prop is a huge\ndrag, so when you land,"
+    },
+    {
+      "start": 1109.93,
+      "duration": 3.18,
+      "text": "it kind of slows down\nand stops immediately"
+    },
+    {
+      "start": 1113.11,
+      "duration": 1.62,
+      "text": "or almost immediately."
+    },
+    {
+      "start": 1114.73,
+      "duration": 5.51,
+      "text": "So the King Air from\n1964 to the present"
+    },
+    {
+      "start": 1120.24,
+      "duration": 1.42,
+      "text": "with these Pratt\n& Whitney engines"
+    },
+    {
+      "start": 1121.66,
+      "duration": 5.13,
+      "text": "that were developed in the\nvery end of the '50s, the PT6."
+    },
+    {
+      "start": 1126.79,
+      "duration": 2.43,
+      "text": "Those have been hugely popular."
+    },
+    {
+      "start": 1129.22,
+      "duration": 2.65,
+      "text": "When you hit a bird, it's\na problem for the bird"
+    },
+    {
+      "start": 1131.87,
+      "duration": 4.1,
+      "text": "but not usually\nfor the propeller."
+    },
+    {
+      "start": 1135.97,
+      "duration": 5.13,
+      "text": "The King Airs and this ATR,\nhave an auto-feather system."
+    },
+    {
+      "start": 1141.1,
+      "duration": 2.25,
+      "text": "If one engine loses\npower, the propeller"
+    },
+    {
+      "start": 1143.35,
+      "duration": 3.54,
+      "text": "will automatically go to this\nknife-edge configuration."
+    },
+    {
+      "start": 1146.89,
+      "duration": 1.92,
+      "text": "I should have said\nwhat feathering is."
+    },
+    {
+      "start": 1148.81,
+      "duration": 1.41,
+      "text": "You twist the\npropeller blades so"
+    },
+    {
+      "start": 1150.22,
+      "duration": 4.03,
+      "text": "that they're edge to the wind\ninstead of flat to the wind."
+    },
+    {
+      "start": 1154.25,
+      "duration": 5.45,
+      "text": "So you dramatically reduce\nthe drag of the propeller."
+    },
+    {
+      "start": 1159.7,
+      "duration": 3.24,
+      "text": "So that airplane actually\ntook care of itself"
+    },
+    {
+      "start": 1162.94,
+      "duration": 2.46,
+      "text": "or should have taken care\nof itself pretty well."
+    },
+    {
+      "start": 1165.4,
+      "duration": 1.8,
+      "text": "You can read about that crash."
+    },
+    {
+      "start": 1167.2,
+      "duration": 2.62,
+      "text": "I think it was in Taiwan."
+    },
+    {
+      "start": 1169.82,
+      "duration": 2.48,
+      "text": "But the pilots decided to take\nheroic, immediate action--"
+    },
+    {
+      "start": 1172.3,
+      "duration": 1.86,
+      "text": "or at least, one\nof the pilots did--"
+    },
+    {
+      "start": 1174.16,
+      "duration": 4.02,
+      "text": "and shut down the good engine\ninstead of just leaving"
+    },
+    {
+      "start": 1178.18,
+      "duration": 2.2,
+      "text": "well enough alone."
+    },
+    {
+      "start": 1180.38,
+      "duration": 2.26,
+      "text": "OK, single-engine\nturboprops-- as these engines"
+    },
+    {
+      "start": 1182.64,
+      "duration": 2.01,
+      "text": "got more refined\nand more reliable,"
+    },
+    {
+      "start": 1184.65,
+      "duration": 2.72,
+      "text": "if you look at\nthe PT6 design, it"
+    },
+    {
+      "start": 1187.37,
+      "duration": 2.14,
+      "text": "has all kinds of\ntubes, and hoses,"
+    },
+    {
+      "start": 1189.51,
+      "duration": 3.42,
+      "text": "and vacuum going from one\nplace to another and bleed air."
+    },
+    {
+      "start": 1192.93,
+      "duration": 2.55,
+      "text": "You'd be surprised that\nit's as reliable as it is."
+    },
+    {
+      "start": 1195.48,
+      "duration": 2.79,
+      "text": "But they supposedly\ndon't really have"
+    },
+    {
+      "start": 1198.27,
+      "duration": 4.98,
+      "text": "to be shut down for a problem\nor fail more than about"
+    },
+    {
+      "start": 1203.25,
+      "duration": 3.13,
+      "text": "once every 300,000,\n400,000, or 500,000 hours."
+    },
+    {
+      "start": 1206.38,
+      "duration": 7.19,
+      "text": "So after that insight,\npeople said, let's just"
+    },
+    {
+      "start": 1213.57,
+      "duration": 1.26,
+      "text": "put one of them in."
+    },
+    {
+      "start": 1214.83,
+      "duration": 2.19,
+      "text": "And we don't need\nthat second engine."
+    },
+    {
+      "start": 1217.02,
+      "duration": 1.97,
+      "text": "It'll save a ton of money."
+    },
+    {
+      "start": 1218.99,
+      "duration": 2.26,
+      "text": "So the Cessna Caravan is\na great example of that."
+    },
+    {
+      "start": 1221.25,
+      "duration": 2.73,
+      "text": "That's that sort\nof boxy cargo plane"
+    },
+    {
+      "start": 1223.98,
+      "duration": 3.51,
+      "text": "that you saw on floats\nin the other video."
+    },
+    {
+      "start": 1227.49,
+      "duration": 2.16,
+      "text": "For personal planes\nthat are pressurized"
+    },
+    {
+      "start": 1229.65,
+      "duration": 4.76,
+      "text": "and more comfortable, the Piper\nMeridian, which is down here--"
+    },
+    {
+      "start": 1234.41,
+      "duration": 4.69,
+      "text": "this is my friend Arnold,\nwho is at Hanscom."
+    },
+    {
+      "start": 1239.1,
+      "duration": 3.57,
+      "text": "He says he funded his\nairplanes, because he"
+    },
+    {
+      "start": 1242.67,
+      "duration": 4.54,
+      "text": "was practicing during the\ngolden age of gynecology."
+    },
+    {
+      "start": 1247.21,
+      "duration": 2.18,
+      "text": "And that's what\nenabled him to afford"
+    },
+    {
+      "start": 1249.39,
+      "duration": 4.67,
+      "text": "his fancy, pressurized Pipers."
+    },
+    {
+      "start": 1254.06,
+      "duration": 2.41,
+      "text": "The TBM is a French\ndesign that's"
+    },
+    {
+      "start": 1256.47,
+      "duration": 2.62,
+      "text": "considerably preferred\nto the Piper,"
+    },
+    {
+      "start": 1259.09,
+      "duration": 1.7,
+      "text": "but it's a lot more expensive."
+    },
+    {
+      "start": 1260.79,
+      "duration": 2.85,
+      "text": "And the Swiss\nPilatus PC-12 is kind"
+    },
+    {
+      "start": 1263.64,
+      "duration": 3.0,
+      "text": "of a good airplane for a mixture\nof family use and charter use."
+    },
+    {
+      "start": 1266.64,
+      "duration": 4.83,
+      "text": "The Piper and the TBM are\ntoo small to justify all"
+    },
+    {
+      "start": 1271.47,
+      "duration": 1.8,
+      "text": "the machinery around charter."
+    },
+    {
+      "start": 1276.36,
+      "duration": 2.13,
+      "text": "All right, so\nactually, old King Airs"
+    },
+    {
+      "start": 1278.49,
+      "duration": 2.11,
+      "text": "are cheaper than these\nsingle-engine airplanes,"
+    },
+    {
+      "start": 1280.6,
+      "duration": 2.02,
+      "text": "but they cost a\nlittle more to run."
+    },
+    {
+      "start": 1282.62,
+      "duration": 1.75,
+      "text": "All right, when you're\nmaintaining a jet--"
+    },
+    {
+      "start": 1284.37,
+      "duration": 1.56,
+      "text": "I think I mentioned\nthis earlier--"
+    },
+    {
+      "start": 1285.93,
+      "duration": 4.02,
+      "text": "the manufacturer's guidance will\nsupersede those catch-all rules"
+    },
+    {
+      "start": 1289.95,
+      "duration": 5.22,
+      "text": "of a 100-hour inspection for an\nairplane operated commercially"
+    },
+    {
+      "start": 1295.17,
+      "duration": 4.32,
+      "text": "or the annual inspection for\nan airplane operated privately."
+    },
+    {
+      "start": 1299.49,
+      "duration": 1.26,
+      "text": "It can get expensive."
+    },
+    {
+      "start": 1300.75,
+      "duration": 2.04,
+      "text": "On one of those\nCessna Citation jets"
+    },
+    {
+      "start": 1302.79,
+      "duration": 2.97,
+      "text": "that I mentioned,\ncoming out with $100,000"
+    },
+    {
+      "start": 1305.76,
+      "duration": 5.28,
+      "text": "bill from the annual\nwould not be unexpected."
+    },
+    {
+      "start": 1311.04,
+      "duration": 5.89,
+      "text": "You usually have a time\nlimit on the whole airframe."
+    },
+    {
+      "start": 1316.93,
+      "duration": 2.21,
+      "text": "And if it's pressurized,\nit's getting"
+    },
+    {
+      "start": 1319.14,
+      "duration": 1.74,
+      "text": "expanded and\ncontracted, expanded"
+    },
+    {
+      "start": 1320.88,
+      "duration": 2.43,
+      "text": "and contracted and a\nlittle bit of metal fatigue"
+    },
+    {
+      "start": 1323.31,
+      "duration": 0.72,
+      "text": "on every flight."
+    },
+    {
+      "start": 1324.03,
+      "duration": 2.14,
+      "text": "So you may have a limit\non the number of cycles,"
+    },
+    {
+      "start": 1326.17,
+      "duration": 1.97,
+      "text": "the number of times\nthat's happened,"
+    },
+    {
+      "start": 1328.14,
+      "duration": 2.08,
+      "text": "and also on the number of hours."
+    },
+    {
+      "start": 1330.22,
+      "duration": 5.16,
+      "text": "So a 12,000-hour or 20,000-hour\nairframe life limit might be"
+    },
+    {
+      "start": 1335.38,
+      "duration": 0.5,
+      "text": "common."
+    },
+    {
+      "start": 1335.88,
+      "duration": 2.63,
+      "text": "For the Pilatuses,\nit's 20,000 hours."
+    },
+    {
+      "start": 1338.51,
+      "duration": 1.75,
+      "text": "And then they have\nlife extension programs"
+    },
+    {
+      "start": 1340.26,
+      "duration": 3.15,
+      "text": "where they tear the whole\nthing apart and replace"
+    },
+    {
+      "start": 1343.41,
+      "duration": 3.0,
+      "text": "some structures or, at least,\nlook at every structure."
+    },
+    {
+      "start": 1346.41,
+      "duration": 3.45,
+      "text": "People have extended them out\nto about 32,000 hours, I think,"
+    },
+    {
+      "start": 1349.86,
+      "duration": 1.56,
+      "text": "now."
+    },
+    {
+      "start": 1351.42,
+      "duration": 2.17,
+      "text": "There's cycle limits,\nalso, on the jet engines."
+    },
+    {
+      "start": 1353.59,
+      "duration": 3.56,
+      "text": "So the turbine blades and\nstuff and disks, every time"
+    },
+    {
+      "start": 1357.15,
+      "duration": 1.71,
+      "text": "they're started and\nshut down, there's"
+    },
+    {
+      "start": 1358.86,
+      "duration": 1.71,
+      "text": "a huge amount of\nthermal cycling."
+    },
+    {
+      "start": 1360.57,
+      "duration": 3.24,
+      "text": "So they say, look, after\nyou've done that 15,000 times,"
+    },
+    {
+      "start": 1363.81,
+      "duration": 1.59,
+      "text": "you got to throw that wheel out."
+    },
+    {
+      "start": 1365.4,
+      "duration": 5.43,
+      "text": "And that wheel inside the\nturboprop could be $100,000."
+    },
+    {
+      "start": 1370.83,
+      "duration": 2.34,
+      "text": "If you guys ever--"
+    },
+    {
+      "start": 1373.17,
+      "duration": 2.46,
+      "text": "it may seem hard to believe\nnow that MIT has stripped you"
+    },
+    {
+      "start": 1375.63,
+      "duration": 2.07,
+      "text": "of all of your\nsavings, but if you"
+    },
+    {
+      "start": 1377.7,
+      "duration": 2.49,
+      "text": "do have a little bit of\nmoney at some future date"
+    },
+    {
+      "start": 1380.19,
+      "duration": 2.67,
+      "text": "and you want to get a type\nrating for your airplane,"
+    },
+    {
+      "start": 1382.86,
+      "duration": 1.65,
+      "text": "by far the cheapest\ntype rating you"
+    },
+    {
+      "start": 1384.51,
+      "duration": 3.22,
+      "text": "get will be for a big airplane."
+    },
+    {
+      "start": 1387.73,
+      "duration": 1.46,
+      "text": "So it turns out,\nif you want to pay"
+    },
+    {
+      "start": 1389.19,
+      "duration": 2.13,
+      "text": "flight safety for the\nGulfstream rating,"
+    },
+    {
+      "start": 1391.32,
+      "duration": 2.7,
+      "text": "or a Cessna Mustang\nrating, or whatever,"
+    },
+    {
+      "start": 1394.02,
+      "duration": 1.15,
+      "text": "those are pretty expensive."
+    },
+    {
+      "start": 1395.17,
+      "duration": 1.82,
+      "text": "They're relatively rare."
+    },
+    {
+      "start": 1396.99,
+      "duration": 3.51,
+      "text": "Boeing 737s and\nAirbus A320s, so many"
+    },
+    {
+      "start": 1400.5,
+      "duration": 4.53,
+      "text": "were made that there's just\na wide variety of simulators"
+    },
+    {
+      "start": 1405.03,
+      "duration": 0.93,
+      "text": "all over the world."
+    },
+    {
+      "start": 1405.96,
+      "duration": 6.24,
+      "text": "And for about $10,000, you can\njump in and get your instrument"
+    },
+    {
+      "start": 1412.2,
+      "duration": 4.5,
+      "text": "proficiency back up to snuff,\nas well as have a lot of fun."
+    },
+    {
+      "start": 1416.7,
+      "duration": 2.91,
+      "text": "All right, so as a summary,\nit's a good challenge"
+    },
+    {
+      "start": 1419.61,
+      "duration": 2.49,
+      "text": "to get that multi-engine rating."
+    },
+    {
+      "start": 1422.1,
+      "duration": 3.09,
+      "text": "I wouldn't recommend\npracticing it"
+    },
+    {
+      "start": 1425.19,
+      "duration": 2.73,
+      "text": "unless you have an unusual\napplication, like you"
+    },
+    {
+      "start": 1427.92,
+      "duration": 1.71,
+      "text": "live in the Caribbean,\nand you want"
+    },
+    {
+      "start": 1429.63,
+      "duration": 1.22,
+      "text": "to get from island to island."
+    },
+    {
+      "start": 1433.56,
+      "duration": 3.62,
+      "text": "If you're nervous\nand somebody says,"
+    },
+    {
+      "start": 1437.18,
+      "duration": 3.82,
+      "text": "I don't feel comfortable\ndepending on this"
+    },
+    {
+      "start": 1441.0,
+      "duration": 5.79,
+      "text": "five-year-old, 1,000-hour piston\nengine that's in front of us,"
+    },
+    {
+      "start": 1446.79,
+      "duration": 3.36,
+      "text": "the answer I think these days is\nit's better to get an airplane"
+    },
+    {
+      "start": 1450.15,
+      "duration": 4.56,
+      "text": "that has a ballistic parachute\nas your backup than to have"
+    },
+    {
+      "start": 1454.71,
+      "duration": 2.61,
+      "text": "the second engine as a backup."
+    },
+    {
+      "start": 1457.32,
+      "duration": 4.59,
+      "text": "And while you're formulating\nyour questions, I'll show you."
+    },
+    {
+      "start": 1461.91,
+      "duration": 2.58,
+      "text": "On the top left is\na French design."
+    },
+    {
+      "start": 1464.49,
+      "duration": 2.02,
+      "text": "That's called a Cri-Cri."
+    },
+    {
+      "start": 1466.51,
+      "duration": 1.43,
+      "text": "It seats one person."
+    },
+    {
+      "start": 1467.94,
+      "duration": 1.61,
+      "text": "And it's, I believe,\nfully aerobatic."
+    },
+    {
+      "start": 1469.56,
+      "duration": 2.38,
+      "text": "So you can do all kinds of\ncrazy maneuvers in the Cri-Cri"
+    },
+    {
+      "start": 1471.93,
+      "duration": 1.2,
+      "text": "if you want."
+    },
+    {
+      "start": 1473.13,
+      "duration": 3.15,
+      "text": "Each of those engines might\nbe only 30 horsepower or 15."
+    },
+    {
+      "start": 1476.28,
+      "duration": 1.59,
+      "text": "You can look it up."
+    },
+    {
+      "start": 1477.87,
+      "duration": 1.95,
+      "text": "It's a truly crazy design."
+    },
+    {
+      "start": 1479.82,
+      "duration": 4.76,
+      "text": "Here is an AirCam\nthat's an open cockpit."
+    },
+    {
+      "start": 1484.58,
+      "duration": 1.33,
+      "text": "Although, this one has a canopy."
+    },
+    {
+      "start": 1485.91,
+      "duration": 2.88,
+      "text": "That's from the Oshkosh\nseaplane base, a great airplane"
+    },
+    {
+      "start": 1488.79,
+      "duration": 5.07,
+      "text": "for flying low and slow over\nremote, somewhat wet locations."
+    },
+    {
+      "start": 1493.86,
+      "duration": 4.32,
+      "text": "Here's an L-39 Czech\nmilitary trainer."
+    },
+    {
+      "start": 1498.18,
+      "duration": 1.44,
+      "text": "And there's a company called--"
+    },
+    {
+      "start": 1499.62,
+      "duration": 1.71,
+      "text": "I think it was called\nCode 1 Aviation."
+    },
+    {
+      "start": 1501.33,
+      "duration": 1.98,
+      "text": "They had that at\nOshkosh, where they"
+    },
+    {
+      "start": 1503.31,
+      "duration": 3.6,
+      "text": "took a regular American business\njet engine out of a Hawker,"
+    },
+    {
+      "start": 1506.91,
+      "duration": 2.49,
+      "text": "and they stuffed\nit into the L-39"
+    },
+    {
+      "start": 1509.4,
+      "duration": 2.61,
+      "text": "because it's cheaper to\noperate and maintain it"
+    },
+    {
+      "start": 1512.01,
+      "duration": 3.76,
+      "text": "as a lower fuel burn than\nthe military engines."
+    },
+    {
+      "start": 1515.77,
+      "duration": 2.9,
+      "text": "So you end up getting a lot\nlonger range out of your L-39"
+    },
+    {
+      "start": 1518.67,
+      "duration": 1.11,
+      "text": "if you want to--"
+    },
+    {
+      "start": 1519.78,
+      "duration": 2.25,
+      "text": "those L-39s are only a couple\nhundred thousand dollars"
+    },
+    {
+      "start": 1522.03,
+      "duration": 0.69,
+      "text": "for a nice one."
+    },
+    {
+      "start": 1522.72,
+      "duration": 2.64,
+      "text": "So you can actually own a\njet that's fully aerobatic,"
+    },
+    {
+      "start": 1525.36,
+      "duration": 1.59,
+      "text": "and cool, and look\nlike-- people will"
+    },
+    {
+      "start": 1526.95,
+      "duration": 5.1,
+      "text": "think it's an F-16 for less\nmoney than buying a Cirrus."
+    },
+    {
+      "start": 1532.05,
+      "duration": 2.33,
+      "text": "On the left is the\nramp at Teterboro."
+    },
+    {
+      "start": 1534.38,
+      "duration": 3.01,
+      "text": "I said I was talking about it."
+    },
+    {
+      "start": 1537.39,
+      "duration": 1.88,
+      "text": "If you're working\nfor Bernie Sanders"
+    },
+    {
+      "start": 1539.27,
+      "duration": 1.88,
+      "text": "and you want to start\na revolution in the US,"
+    },
+    {
+      "start": 1541.14,
+      "duration": 2.55,
+      "text": "I would recommend starting\nit right at the Teterboro"
+    },
+    {
+      "start": 1543.69,
+      "duration": 2.37,
+      "text": "airport and just film the\npeople getting in and out"
+    },
+    {
+      "start": 1546.06,
+      "duration": 0.88,
+      "text": "of their Gulfstreams."
+    },
+    {
+      "start": 1546.93,
+      "duration": 0.88,
+      "text": "And this is Meridian."
+    },
+    {
+      "start": 1547.81,
+      "duration": 4.01,
+      "text": "This is the lowest-cost\nFBO at Teterboro."
+    },
+    {
+      "start": 1551.82,
+      "duration": 1.95,
+      "text": "And that's what the\nramp looks like."
+    },
+    {
+      "start": 1553.77,
+      "duration": 3.75,
+      "text": "If you want to combine two\npiston engines in a jet,"
+    },
+    {
+      "start": 1557.52,
+      "duration": 5.73,
+      "text": "I believe each of\nthese of is a Yak-55."
+    },
+    {
+      "start": 1563.25,
+      "duration": 4.68,
+      "text": "And some airshow performer at\nOshkosh glued them together"
+    },
+    {
+      "start": 1567.93,
+      "duration": 6.77,
+      "text": "and put a jet engine in the\nmiddle and calls it a Yak-110."
+    },
+    {
+      "start": 1574.7,
+      "duration": 0.96,
+      "text": "So there you have it."
+    },
+    {
+      "start": 1575.66,
+      "duration": 2.39,
+      "text": "That combines everything\nfrom this talk."
+    },
+    {
+      "start": 1578.05,
+      "duration": 0.58,
+      "text": "Any questions?"
+    },
+    {
+      "start": 1578.63,
+      "duration": 2.71,
+      "text": "Or should we jump\nright into night?"
+    },
+    {
+      "start": 1581.34,
+      "duration": 2.07,
+      "text": "Who wants to fly a jet?"
+    },
+    {
+      "start": 1583.41,
+      "duration": 3.41,
+      "text": "Excellent."
+    },
+    {
+      "start": 1586.82,
+      "duration": 2.93,
+      "text": "AUDIENCE: So you said Cessna\nCaravans are single engine."
+    },
+    {
+      "start": 1589.75,
+      "duration": 2.36,
+      "text": "I know they fly those\ncommercially in Hawaii"
+    },
+    {
+      "start": 1592.11,
+      "duration": 0.97,
+      "text": "island to island."
+    },
+    {
+      "start": 1593.08,
+      "duration": 1.8,
+      "text": "How do you think\nthey justify that?"
+    },
+    {
+      "start": 1594.88,
+      "duration": 0.96,
+      "text": "PHILIP GREENSPUN: Yeah."
+    },
+    {
+      "start": 1595.84,
+      "duration": 4.19,
+      "text": "The question is, is it OK to\nfly a single engine over water"
+    },
+    {
+      "start": 1600.03,
+      "duration": 6.11,
+      "text": "in Hawaii in a Cessna\nCaravan with only one engine?"
+    },
+    {
+      "start": 1606.13,
+      "duration": 5.42,
+      "text": "Well, first of all, the last\ncrash of a Caravan in Hawaii"
+    },
+    {
+      "start": 1611.55,
+      "duration": 2.88,
+      "text": "from an engine failure, they\noperated it just a few hours"
+    },
+    {
+      "start": 1614.43,
+      "duration": 3.81,
+      "text": "beyond the manufacturer's\nTBO under a special program"
+    },
+    {
+      "start": 1618.24,
+      "duration": 1.4,
+      "text": "they had approved by the FAA."
+    },
+    {
+      "start": 1619.63,
+      "duration": 2.92,
+      "text": "They were not doing\nanything illegal."
+    },
+    {
+      "start": 1622.56,
+      "duration": 2.13,
+      "text": "Everybody survived the crash."
+    },
+    {
+      "start": 1624.69,
+      "duration": 1.17,
+      "text": "One person was killed."
+    },
+    {
+      "start": 1625.86,
+      "duration": 3.03,
+      "text": "Does anybody remember who\nwas killed in that crash,"
+    },
+    {
+      "start": 1628.89,
+      "duration": 3.62,
+      "text": "and what was special\nabout that person?"
+    },
+    {
+      "start": 1632.51,
+      "duration": 1.5,
+      "text": "AUDIENCE: It was a\nflight attendant."
+    },
+    {
+      "start": 1634.01,
+      "duration": 1.71,
+      "text": "PHILIP GREENSPUN: Not\na flight attendant."
+    },
+    {
+      "start": 1635.72,
+      "duration": 6.8,
+      "text": "It was a woman who was a\nstate of Hawaii employee."
+    },
+    {
+      "start": 1642.52,
+      "duration": 2.73,
+      "text": "What was special about her?"
+    },
+    {
+      "start": 1645.25,
+      "duration": 3.57,
+      "text": "She was the person who\ncertified Barack Obama's birth"
+    },
+    {
+      "start": 1648.82,
+      "duration": 1.11,
+      "text": "certificate as genuine."
+    },
+    {
+      "start": 1652.51,
+      "duration": 2.46,
+      "text": "Think about that."
+    },
+    {
+      "start": 1654.97,
+      "duration": 2.7,
+      "text": "So anyway, if you\nreally open up the PT6"
+    },
+    {
+      "start": 1657.67,
+      "duration": 2.5,
+      "text": "and the manually would say, no,\nI'm not going to allow this."
+    },
+    {
+      "start": 1660.17,
+      "duration": 0.96,
+      "text": "And I think in Europe--"
+    },
+    {
+      "start": 1661.13,
+      "duration": 3.38,
+      "text": "Europe wouldn't even allow\na single-engine charter IFR"
+    },
+    {
+      "start": 1664.51,
+      "duration": 2.11,
+      "text": "until just a year or two ago."
+    },
+    {
+      "start": 1666.62,
+      "duration": 2.12,
+      "text": "They said, no, this is too much."
+    },
+    {
+      "start": 1668.74,
+      "duration": 1.79,
+      "text": "So I don't know."
+    },
+    {
+      "start": 1670.53,
+      "duration": 1.31,
+      "text": "It's a balancing of risk."
+    },
+    {
+      "start": 1671.84,
+      "duration": 2.48,
+      "text": "I don't think it's\nan unacceptable risk."
+    },
+    {
+      "start": 1674.32,
+      "duration": 3.78,
+      "text": "People with Pilatuses, they\nwill go back and forth to Europe"
+    },
+    {
+      "start": 1678.1,
+      "duration": 2.88,
+      "text": "regularly as individuals."
+    },
+    {
+      "start": 1680.98,
+      "duration": 3.16,
+      "text": "But yeah, maybe there should\nbe a warning to passengers."
+    },
+    {
+      "start": 1684.14,
+      "duration": 1.19,
+      "text": "We only got one engine."
+    },
+    {
+      "start": 1685.33,
+      "duration": 2.18,
+      "text": "Thanks for buying a ticket."
+    }
+  ]
+}

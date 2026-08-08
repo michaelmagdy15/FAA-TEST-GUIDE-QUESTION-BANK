@@ -1,4 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;600;700&display=swap');
+@font-face {
+  font-family: 'Archivo';
+  font-style: normal;
+  font-weight: 300 700;
+  font-display: swap;
+  src: url('/fonts/archivo-latin.woff2') format('woff2');
+}
 
 :root {
   --bg-color: #06090e;
@@ -9,16 +15,18 @@
   --accent-color: #3b82f6;
   --accent-glow: rgba(59, 130, 246, 0.5);
   --accent-hover: #60a5fa;
+  --accent-soft: rgba(59, 130, 246, 0.12);
 
   --success-color: #10b981;
   --error-color: #ef4444;
 
-  --glass-bg: rgba(15, 23, 42, 0.4);
-  --glass-border: rgba(255, 255, 255, 0.05);
-  --glass-hover-bg: rgba(30, 41, 59, 0.6);
-  --glass-hover-border: rgba(255, 255, 255, 0.15);
+  --glass-bg: rgba(15, 23, 42, 0.45);
+  --glass-border: rgba(255, 255, 255, 0.06);
+  --glass-hover-bg: rgba(30, 41, 59, 0.65);
+  --glass-hover-border: rgba(255, 255, 255, 0.18);
 
   --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+  --radius: 16px;
 }
 
 * {
@@ -32,13 +40,18 @@ body {
   background-color: var(--bg-color);
   background-image: var(--bg-gradient);
   color: var(--text-primary);
-  min-height: 100vh;
-  overflow-x: hidden;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   background-attachment: fixed;
   animation: bgBreathing 60s ease-in-out infinite alternate;
   letter-spacing: -0.01em;
+}
+
+html {
+  height: 100%;
 }
 
 body::before {
@@ -68,15 +81,53 @@ body::before {
   }
 }
 
+::selection {
+  background: var(--accent-color);
+  color: #fff;
+}
+
+:focus-visible {
+  outline: 2px solid var(--accent-hover);
+  outline-offset: 2px;
+  border-radius: 6px;
+}
+
+/* Custom Scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: rgba(148, 163, 184, 0.35) transparent;
+}
+
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+
+*::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.25);
+  border-radius: 999px;
+  border: 2px solid transparent;
+  background-clip: content-box;
+}
+
+*::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.45);
+  background-clip: content-box;
+}
+
 /* Base App Layout */
 #root {
   width: 100%;
-  max-width: 1200px;
+  height: 100%;
   margin: 0 auto;
-  padding: 3rem 2rem;
-  flex: 1;
+  padding: 1.5rem 2rem;
   display: flex;
   flex-direction: column;
+  overflow: hidden;
 }
 
 /* Glassmorphism Card Utilities */
@@ -85,9 +136,10 @@ body::before {
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border: 1px solid var(--glass-border);
-  border-radius: 12px;
+  border-radius: var(--radius);
   padding: 2rem;
-  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06),
+    inset 0 1px 0 0 rgba(255, 255, 255, 0.04);
   transition: var(--transition);
 }
 
@@ -114,7 +166,7 @@ body::before {
   background: var(--accent-color);
   color: #fff;
   border: none;
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 0.875rem 1.75rem;
   font-family: inherit;
   font-size: 1rem;
@@ -132,11 +184,15 @@ body::before {
   box-shadow: 0 6px 20px var(--accent-glow);
 }
 
+.btn-primary:active {
+  transform: translateY(0) scale(0.98);
+}
+
 .btn-secondary {
   background: var(--glass-bg);
   color: var(--text-primary);
   border: 1px solid var(--glass-border);
-  border-radius: 8px;
+  border-radius: 10px;
   padding: 0.875rem 1.75rem;
   font-family: inherit;
   font-size: 1rem;
@@ -148,6 +204,40 @@ body::before {
 .btn-secondary:hover {
   background: var(--glass-hover-bg);
   border-color: var(--glass-hover-border);
+}
+
+.btn-secondary:active {
+  transform: scale(0.98);
+}
+
+/* Small utility chips/badges */
+.chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.7rem;
+  border-radius: 999px;
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+  background: var(--accent-soft);
+  color: var(--accent-hover);
+  border: 1px solid rgba(59, 130, 246, 0.25);
+}
+
+.option-letter {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 30px;
+  height: 30px;
+  border-radius: 9px;
+  background: rgba(148, 163, 184, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  font-weight: 700;
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  transition: var(--transition);
 }
 
 /* Grid Layout for Topics */
@@ -168,7 +258,7 @@ body::before {
   transform: translateY(-4px);
   background: var(--glass-hover-bg);
   border-color: var(--accent-color);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2), 0 0 20px var(--accent-glow);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.3), 0 0 24px rgba(59, 130, 246, 0.15);
 }
 
 .topic-header {
@@ -429,6 +519,7 @@ body::before {
   /* Put Sidebar Navigator at the top/bottom instead of side */
   .sidebar {
     width: 100% !important;
+    height: auto !important;
     order: -1;
     flex-direction: row !important;
     flex-wrap: wrap;
@@ -446,6 +537,7 @@ body::before {
   .sidebar .glass-card {
     width: 100% !important;
     padding: 1rem !important;
+    max-height: 40vh !important;
   }
 
   /* Collapsible Grid Logic */

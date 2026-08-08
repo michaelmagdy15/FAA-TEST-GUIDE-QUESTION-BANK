@@ -20,7 +20,7 @@ export const useTestProgress = (
 
         for (let i = 0; i < localStorage.length; i++) {
             const key = localStorage.key(i);
-            if (key && key.startsWith(`${progressPrefix}_`) && key !== `${progressPrefix}_REVIEW`) {
+            if (key && key.startsWith(`${progressPrefix}_`) && key !== `${progressPrefix}_REVIEW` && !key.endsWith('_pos')) {
                 try {
                     const data = JSON.parse(localStorage.getItem(key) || '{}');
                     Object.assign(allProgress, data);
@@ -58,13 +58,17 @@ export const useTestProgress = (
 
     const resetChapterProgress = useCallback(async (chapterId: string) => {
         const key = `${progressPrefix}_${chapterId}`;
+        const posKey = `${key}_pos`;
         localStorage.removeItem(key);
-        
+        localStorage.removeItem(posKey);
+
         if (user) {
             const docRef = doc(db, 'users', user.uid, 'progress', key);
             await setDoc(docRef, {});
+            const posRef = doc(db, 'users', user.uid, 'progress', posKey);
+            await setDoc(posRef, {});
         }
-        
+
         loadProgress();
     }, [progressPrefix, loadProgress, user]);
 

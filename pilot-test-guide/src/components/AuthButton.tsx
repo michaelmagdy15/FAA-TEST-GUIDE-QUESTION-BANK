@@ -50,7 +50,7 @@ export const AuthButton: React.FC = () => {
       }}
     >
       <LogIn size={18} />
-      Sign in with Google to save progress
+      Sign in with Google to sync progress online
     </button>
   );
 };

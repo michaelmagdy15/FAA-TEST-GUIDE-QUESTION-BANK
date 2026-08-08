@@ -1,0 +1,4346 @@
+{
+  "videoId": "Th2N_rDfkDw",
+  "lectureNum": 7,
+  "title": "Navigation",
+  "topics": [
+    "VOR",
+    "GPS",
+    "pilotage",
+    "dead reckoning",
+    "magnetic compass",
+    "heading",
+    "course"
+  ],
+  "segments": [
+    {
+      "start": 16.38,
+      "duration": 1.17,
+      "text": "PHILIP GREENSPUN: All right."
+    },
+    {
+      "start": 17.55,
+      "duration": 1.5,
+      "text": "We're going to go in\nand outline, how do you"
+    },
+    {
+      "start": 19.05,
+      "duration": 1.11,
+      "text": "navigate an airplane?"
+    },
+    {
+      "start": 20.16,
+      "duration": 4.2,
+      "text": "It's become a lot easier\nnow in the GPS age,"
+    },
+    {
+      "start": 24.36,
+      "duration": 2.19,
+      "text": "but you still have\nto know a little bit"
+    },
+    {
+      "start": 26.55,
+      "duration": 3.4,
+      "text": "about how people used to\ndo it in the old days,"
+    },
+    {
+      "start": 29.95,
+      "duration": 1.53,
+      "text": "partly to pass the\nexam, and partly"
+    },
+    {
+      "start": 31.48,
+      "duration": 2.87,
+      "text": "because it's interesting."
+    },
+    {
+      "start": 34.35,
+      "duration": 0.62,
+      "text": "All right."
+    },
+    {
+      "start": 34.97,
+      "duration": 2.17,
+      "text": "So we're going to talk about\nlooking out the window."
+    },
+    {
+      "start": 37.14,
+      "duration": 3.06,
+      "text": "That's called pilotage,\nplanning your flight"
+    },
+    {
+      "start": 40.2,
+      "duration": 1.8,
+      "text": "and then looking out the window."
+    },
+    {
+      "start": 42.0,
+      "duration": 3.36,
+      "text": "We'll talk about the old\nnon-directional beacons,"
+    },
+    {
+      "start": 45.36,
+      "duration": 2.64,
+      "text": "basically homing in\non a radio station."
+    },
+    {
+      "start": 48.0,
+      "duration": 2.19,
+      "text": "In the 1950s, there was\nsomething called the VOR"
+    },
+    {
+      "start": 50.19,
+      "duration": 3.98,
+      "text": "that we'll talk about\nthat lets you figure out"
+    },
+    {
+      "start": 54.16,
+      "duration": 5.1,
+      "text": "exactly your magnetic heading\nto or from a radio station."
+    },
+    {
+      "start": 59.26,
+      "duration": 1.86,
+      "text": "And finally, the\nway that most people"
+    },
+    {
+      "start": 61.12,
+      "duration": 3.39,
+      "text": "get around these days, the\nGPS and the moving map."
+    },
+    {
+      "start": 64.51,
+      "duration": 0.52,
+      "text": "OK."
+    },
+    {
+      "start": 65.03,
+      "duration": 2.82,
+      "text": "So when you're doing pilotage,\nyou come up in advance"
+    },
+    {
+      "start": 67.85,
+      "duration": 2.25,
+      "text": "with a bunch of visual\nlandmarks that you think you'll"
+    },
+    {
+      "start": 70.1,
+      "duration": 1.31,
+      "text": "be able to see from the air."
+    },
+    {
+      "start": 71.41,
+      "duration": 1.25,
+      "text": "You're going to cross a river."
+    },
+    {
+      "start": 72.66,
+      "duration": 1.38,
+      "text": "You're going to\nfind a reservoir."
+    },
+    {
+      "start": 74.03,
+      "duration": 1.74,
+      "text": "You're going to see\na big radio tower."
+    },
+    {
+      "start": 75.77,
+      "duration": 1.86,
+      "text": "You're going to\npass a town that has"
+    },
+    {
+      "start": 77.63,
+      "duration": 3.9,
+      "text": "the name of the town written in\na high school athletic field."
+    },
+    {
+      "start": 81.53,
+      "duration": 3.09,
+      "text": "And the VFR charts,\nthey emphasize--"
+    },
+    {
+      "start": 84.62,
+      "duration": 3.24,
+      "text": "I think you saw that,\nmaybe with the iPad"
+    },
+    {
+      "start": 87.86,
+      "duration": 1.38,
+      "text": "or we have charts up here."
+    },
+    {
+      "start": 89.24,
+      "duration": 1.17,
+      "text": "We can look at it later--"
+    },
+    {
+      "start": 90.41,
+      "duration": 3.84,
+      "text": "but they emphasize objects that\nyou can, as a practical matter,"
+    },
+    {
+      "start": 94.25,
+      "duration": 1.53,
+      "text": "see from the air."
+    },
+    {
+      "start": 95.78,
+      "duration": 3.3,
+      "text": "So the procedure, and we'll\ngo through this carefully,"
+    },
+    {
+      "start": 99.08,
+      "duration": 5.28,
+      "text": "is you plot your planned course\nusing a pencil and a ruler,"
+    },
+    {
+      "start": 104.36,
+      "duration": 3.74,
+      "text": "essentially, on the chart."
+    },
+    {
+      "start": 108.1,
+      "duration": 1.54,
+      "text": "You select what\ncheckpoints are going"
+    },
+    {
+      "start": 109.64,
+      "duration": 4.89,
+      "text": "to be visible on your flight."
+    },
+    {
+      "start": 114.53,
+      "duration": 3.42,
+      "text": "You measure the distance\nfrom point to point,"
+    },
+    {
+      "start": 117.95,
+      "duration": 2.25,
+      "text": "and then you've got\nthis plan of what"
+    },
+    {
+      "start": 120.2,
+      "duration": 2.04,
+      "text": "heading you're going to steer."
+    },
+    {
+      "start": 122.24,
+      "duration": 2.13,
+      "text": "You get the forecast\nwinds as well."
+    },
+    {
+      "start": 124.37,
+      "duration": 3.1,
+      "text": "So you say, look, I'm\ngoing to fly this."
+    },
+    {
+      "start": 127.47,
+      "duration": 2.0,
+      "text": "I'm going to be going 100\nknots over the ground."
+    },
+    {
+      "start": 129.47,
+      "duration": 3.3,
+      "text": "I'm going to be being blown\noff course very slightly"
+    },
+    {
+      "start": 132.77,
+      "duration": 2.23,
+      "text": "by a crosswind from the north."
+    },
+    {
+      "start": 135.0,
+      "duration": 0.88,
+      "text": "You plan all of that."
+    },
+    {
+      "start": 135.87,
+      "duration": 1.33,
+      "text": "And then you've got your navlog."
+    },
+    {
+      "start": 137.2,
+      "duration": 2.47,
+      "text": "So as you reach each checkpoint,\nyou can make a correction."
+    },
+    {
+      "start": 139.67,
+      "duration": 2.02,
+      "text": "Well, it took me a little\nbit longer to get here."
+    },
+    {
+      "start": 141.69,
+      "duration": 1.96,
+      "text": "I'm a little bit left of\nwhere I thought I was."
+    },
+    {
+      "start": 143.65,
+      "duration": 3.86,
+      "text": "So you can make these\ncorrections as you go along."
+    },
+    {
+      "start": 147.51,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 148.01,
+      "duration": 1.03,
+      "text": "So here's an example."
+    },
+    {
+      "start": 149.04,
+      "duration": 3.92,
+      "text": "Let's say you wanted to go\nfrom MIT to Bennington College"
+    },
+    {
+      "start": 152.96,
+      "duration": 1.86,
+      "text": "to visit a friend."
+    },
+    {
+      "start": 154.82,
+      "duration": 4.17,
+      "text": "Well, there's an airport\nright there called DDH,"
+    },
+    {
+      "start": 158.99,
+      "duration": 1.83,
+      "text": "and it's about 90\nnautical miles."
+    },
+    {
+      "start": 160.82,
+      "duration": 3.15,
+      "text": "I think I did this\nwith a SkyVector."
+    },
+    {
+      "start": 163.97,
+      "duration": 4.74,
+      "text": "So your planning goal is to come\nup with this navigation log."
+    },
+    {
+      "start": 168.71,
+      "duration": 2.34,
+      "text": "So you're going to say, OK,\nI'm going to depart Hanscom"
+    },
+    {
+      "start": 171.05,
+      "duration": 2.27,
+      "text": "Field up there at the top."
+    },
+    {
+      "start": 173.32,
+      "duration": 3.35,
+      "text": "And it's going to take me--"
+    },
+    {
+      "start": 176.67,
+      "duration": 4.78,
+      "text": "looks like it's going to\ntake me nine nautical miles"
+    },
+    {
+      "start": 181.45,
+      "duration": 3.98,
+      "text": "before I reach my cruising\naltitude and about"
+    },
+    {
+      "start": 185.43,
+      "duration": 1.38,
+      "text": "four minutes."
+    },
+    {
+      "start": 186.81,
+      "duration": 8.35,
+      "text": "Then after that, it's going\nto take me five minutes"
+    },
+    {
+      "start": 195.16,
+      "duration": 2.07,
+      "text": "to reach Fitchburg\nAirport, which"
+    },
+    {
+      "start": 197.23,
+      "duration": 1.23,
+      "text": "airports are great landmarks."
+    },
+    {
+      "start": 198.46,
+      "duration": 3.09,
+      "text": "They're very easy to see and\nthey have distinctive shapes."
+    },
+    {
+      "start": 201.55,
+      "duration": 4.29,
+      "text": "And notice here, the\nmagnetic course is 298,"
+    },
+    {
+      "start": 205.84,
+      "duration": 1.95,
+      "text": "but with the wind,\nwe're going to have"
+    },
+    {
+      "start": 207.79,
+      "duration": 3.87,
+      "text": "to correct that and steer 292."
+    },
+    {
+      "start": 211.66,
+      "duration": 2.59,
+      "text": "And of course, the compass\ncard with the deviations"
+    },
+    {
+      "start": 214.25,
+      "duration": 3.35,
+      "text": "indicated might give us\nanother degree or two."
+    },
+    {
+      "start": 217.6,
+      "duration": 2.55,
+      "text": "But basically, from the\nwind, that wind correction"
+    },
+    {
+      "start": 220.15,
+      "duration": 2.38,
+      "text": "is going to have us steering\na slightly different course."
+    },
+    {
+      "start": 222.53,
+      "duration": 2.62,
+      "text": "Anyway, so you're going to come\nup with this navlog of how long"
+    },
+    {
+      "start": 225.15,
+      "duration": 1.72,
+      "text": "it's going to take,\nwhat course you're"
+    },
+    {
+      "start": 226.87,
+      "duration": 7.27,
+      "text": "going to steer from your\ncompass, and as you go along,"
+    },
+    {
+      "start": 234.14,
+      "duration": 5.29,
+      "text": "you're basically doing\nwhat's called dead reckoning."
+    },
+    {
+      "start": 239.44,
+      "duration": 1.88,
+      "text": "It's tough over the\nocean because there's not"
+    },
+    {
+      "start": 241.31,
+      "duration": 0.69,
+      "text": "any landmarks."
+    },
+    {
+      "start": 242.0,
+      "duration": 5.19,
+      "text": "So those early pilots who went\nover oceans were real heroes."
+    },
+    {
+      "start": 247.19,
+      "duration": 3.24,
+      "text": "If you're going over the\nland, you can actually"
+    },
+    {
+      "start": 250.43,
+      "duration": 0.96,
+      "text": "make these corrections."
+    },
+    {
+      "start": 251.39,
+      "duration": 2.01,
+      "text": "So the procedure\nis just as I said."
+    },
+    {
+      "start": 253.4,
+      "duration": 2.16,
+      "text": "You plot the course\non the chart."
+    },
+    {
+      "start": 255.56,
+      "duration": 1.26,
+      "text": "You measure the true course."
+    },
+    {
+      "start": 256.82,
+      "duration": 1.71,
+      "text": "So let's say you're\ngoing straight north."
+    },
+    {
+      "start": 258.53,
+      "duration": 2.79,
+      "text": "That's going to be zero."
+    },
+    {
+      "start": 261.32,
+      "duration": 1.65,
+      "text": "Then you correct\nfor the forecast"
+    },
+    {
+      "start": 262.97,
+      "duration": 2.03,
+      "text": "wind to find the true heading."
+    },
+    {
+      "start": 265.0,
+      "duration": 1.9,
+      "text": "Then you correct for\nthe magnetic variation"
+    },
+    {
+      "start": 266.9,
+      "duration": 1.86,
+      "text": "because remember, you're\nin-aircraft sources"
+    },
+    {
+      "start": 268.76,
+      "duration": 2.43,
+      "text": "are magnetic heading,\nnot true heading."
+    },
+    {
+      "start": 271.19,
+      "duration": 3.45,
+      "text": "And finally, you're going\nto estimate the ground speed"
+    },
+    {
+      "start": 274.64,
+      "duration": 2.7,
+      "text": "and estimated time\nand route for a leg."
+    },
+    {
+      "start": 279.91,
+      "duration": 0.69,
+      "text": "All right."
+    },
+    {
+      "start": 280.6,
+      "duration": 1.47,
+      "text": "Let's talk about some terms."
+    },
+    {
+      "start": 282.07,
+      "duration": 2.28,
+      "text": "We're using them,\nlet's reinforce them."
+    },
+    {
+      "start": 284.35,
+      "duration": 2.96,
+      "text": "Your course is the\ndirection over the ground,"
+    },
+    {
+      "start": 287.31,
+      "duration": 2.01,
+      "text": "but your heading is\ngoing to be, in general,"
+    },
+    {
+      "start": 289.32,
+      "duration": 4.14,
+      "text": "different from the\ncourse due to wind."
+    },
+    {
+      "start": 293.46,
+      "duration": 4.11,
+      "text": "True is if you steer true north,\nyou'll get to the North Pole"
+    },
+    {
+      "start": 297.57,
+      "duration": 2.76,
+      "text": "and hang out with Santa Claus."
+    },
+    {
+      "start": 300.33,
+      "duration": 2.7,
+      "text": "If you go magnetic, you'll go\nto a slightly different place"
+    },
+    {
+      "start": 303.03,
+      "duration": 1.59,
+      "text": "every time."
+    },
+    {
+      "start": 304.62,
+      "duration": 0.68,
+      "text": "All right."
+    },
+    {
+      "start": 305.3,
+      "duration": 4.33,
+      "text": "Magnetic variation, we had\nthis chart pretty much before."
+    },
+    {
+      "start": 309.63,
+      "duration": 3.98,
+      "text": "So unless you're\nsomewhere down in Florida"
+    },
+    {
+      "start": 313.61,
+      "duration": 1.87,
+      "text": "or it looks like\nin Chicago, there's"
+    },
+    {
+      "start": 315.48,
+      "duration": 4.72,
+      "text": "going to be some correction\nfrom true to magnetic."
+    },
+    {
+      "start": 320.2,
+      "duration": 2.37,
+      "text": "The local magnetic\nvariation, remember,"
+    },
+    {
+      "start": 322.57,
+      "duration": 1.72,
+      "text": "is indicated on the chart."
+    },
+    {
+      "start": 324.29,
+      "duration": 3.59,
+      "text": "So it's right here,\n14 degrees west,"
+    },
+    {
+      "start": 327.88,
+      "duration": 3.6,
+      "text": "and remember, again, if you\nget confused about how true"
+    },
+    {
+      "start": 331.48,
+      "duration": 2.06,
+      "text": "and magnetic relate, just\nlook at the OR diagram."
+    },
+    {
+      "start": 336.17,
+      "duration": 2.16,
+      "text": "Here's an example,\na compass card"
+    },
+    {
+      "start": 338.33,
+      "duration": 2.58,
+      "text": "that you might see\nin your aircraft."
+    },
+    {
+      "start": 340.91,
+      "duration": 2.49,
+      "text": "I haven't seen any that\nare quite this dramatic."
+    },
+    {
+      "start": 343.4,
+      "duration": 3.3,
+      "text": "I think this is for effect,\nbut you can see it says, look,"
+    },
+    {
+      "start": 346.7,
+      "duration": 6.85,
+      "text": "if you want to fly 60\ndegrees, a heading of 060--"
+    },
+    {
+      "start": 353.55,
+      "duration": 3.53,
+      "text": "oh, if you want to go east,\ninstead of steering 090,"
+    },
+    {
+      "start": 357.08,
+      "duration": 1.56,
+      "text": "steer 85 on your compass."
+    },
+    {
+      "start": 361.87,
+      "duration": 2.04,
+      "text": "It gets updated every\ncouple of years, I think,"
+    },
+    {
+      "start": 363.91,
+      "duration": 2.7,
+      "text": "and as I added earlier,\nif you have things"
+    },
+    {
+      "start": 366.61,
+      "duration": 3.72,
+      "text": "in the airplane or systems like\na heated windshield turned on,"
+    },
+    {
+      "start": 370.33,
+      "duration": 2.14,
+      "text": "the compass may become\nkind of worthless."
+    },
+    {
+      "start": 372.47,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 372.97,
+      "duration": 3.18,
+      "text": "So let's get out the tools."
+    },
+    {
+      "start": 376.15,
+      "duration": 3.33,
+      "text": "We're going to go through these\nmore with flight planning."
+    },
+    {
+      "start": 379.48,
+      "duration": 2.27,
+      "text": "But basically, you get\nyour sectional chart."
+    },
+    {
+      "start": 385.41,
+      "duration": 2.55,
+      "text": "Tina showed you this."
+    },
+    {
+      "start": 387.96,
+      "duration": 0.63,
+      "text": "I have one too."
+    },
+    {
+      "start": 388.59,
+      "duration": 4.47,
+      "text": "I just got it yesterday at East\nCoast Aero Club, front desk."
+    },
+    {
+      "start": 393.06,
+      "duration": 1.57,
+      "text": "Flight schools\nusually sell them."
+    },
+    {
+      "start": 394.63,
+      "duration": 1.91,
+      "text": "I think they're missing\nout on the revenue"
+    },
+    {
+      "start": 396.54,
+      "duration": 3.96,
+      "text": "now that it's all free on\nSkyVector and similar sites."
+    },
+    {
+      "start": 400.5,
+      "duration": 3.62,
+      "text": "You've got your plotter."
+    },
+    {
+      "start": 404.12,
+      "duration": 5.13,
+      "text": "So this is basically\na ruler, and the ruler"
+    },
+    {
+      "start": 409.25,
+      "duration": 2.58,
+      "text": "is, on top, in statute miles."
+    },
+    {
+      "start": 411.83,
+      "duration": 2.82,
+      "text": "I'm not sure when you would\never want to use that,"
+    },
+    {
+      "start": 414.65,
+      "duration": 1.83,
+      "text": "but on the bottom, you\nhave nautical miles"
+    },
+    {
+      "start": 416.48,
+      "duration": 2.82,
+      "text": "which is what we generally\nuse in the aviation world."
+    },
+    {
+      "start": 419.3,
+      "duration": 2.64,
+      "text": "And you have this\nprotractor that you"
+    },
+    {
+      "start": 421.94,
+      "duration": 2.37,
+      "text": "might remember from\nelementary school that"
+    },
+    {
+      "start": 424.31,
+      "duration": 2.22,
+      "text": "helps you figure out,\non the chart, what"
+    },
+    {
+      "start": 426.53,
+      "duration": 1.48,
+      "text": "the true course is going to be."
+    },
+    {
+      "start": 428.01,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 428.51,
+      "duration": 4.12,
+      "text": "So I think you guys can probably\nfigure out how to use that."
+    },
+    {
+      "start": 432.63,
+      "duration": 3.64,
+      "text": "This is the E6B flight computer."
+    },
+    {
+      "start": 436.27,
+      "duration": 3.57,
+      "text": "So I think the E6B designation\ncomes from the US military."
+    },
+    {
+      "start": 439.84,
+      "duration": 1.67,
+      "text": "I'm not exactly sure\nwhen this came out."
+    },
+    {
+      "start": 441.51,
+      "duration": 2.31,
+      "text": "Probably it says in\nWikipedia, but I'm"
+    },
+    {
+      "start": 443.82,
+      "duration": 3.0,
+      "text": "assuming it was a World\nWar Ii era kind of device."
+    },
+    {
+      "start": 446.82,
+      "duration": 3.36,
+      "text": "And it lets you make all kinds\nof computations of density,"
+    },
+    {
+      "start": 450.18,
+      "duration": 7.67,
+      "text": "altitude, of how fast you're\ngoing truly through the air,"
+    },
+    {
+      "start": 457.85,
+      "duration": 3.34,
+      "text": "as a function of your altitude\nand what you're seeing"
+    },
+    {
+      "start": 461.19,
+      "duration": 2.85,
+      "text": "on your airspeed indicator."
+    },
+    {
+      "start": 464.04,
+      "duration": 2.55,
+      "text": "It lets you, on the\nbackside, correct for wind."
+    },
+    {
+      "start": 466.59,
+      "duration": 2.61,
+      "text": "You can make pencil\nmarks and then start"
+    },
+    {
+      "start": 469.2,
+      "duration": 3.84,
+      "text": "twisting to figure out whether\nthe wind is going to give you"
+    },
+    {
+      "start": 473.04,
+      "duration": 2.94,
+      "text": "a reduction or a\nboost in airspeed,"
+    },
+    {
+      "start": 475.98,
+      "duration": 2.64,
+      "text": "and also how much of\na course correction"
+    },
+    {
+      "start": 478.62,
+      "duration": 0.96,
+      "text": "you're going to need."
+    },
+    {
+      "start": 479.58,
+      "duration": 3.88,
+      "text": "So it's a very\nuseful instrument."
+    },
+    {
+      "start": 483.46,
+      "duration": 1.94,
+      "text": "Now fortunately, it\ncomes with instructions"
+    },
+    {
+      "start": 485.4,
+      "duration": 2.58,
+      "text": "because your modern\npilots have mostly"
+    },
+    {
+      "start": 487.98,
+      "duration": 1.87,
+      "text": "forgotten how to use this."
+    },
+    {
+      "start": 489.85,
+      "duration": 3.11,
+      "text": "It's a historical\nartifact at this point."
+    },
+    {
+      "start": 492.96,
+      "duration": 3.24,
+      "text": "But we'll go through some of it\nso you'll get a flavor for it,"
+    },
+    {
+      "start": 496.2,
+      "duration": 3.44,
+      "text": "and it is fun."
+    },
+    {
+      "start": 499.64,
+      "duration": 0.57,
+      "text": "All right."
+    },
+    {
+      "start": 500.21,
+      "duration": 2.41,
+      "text": "So you put your plotter\ndown on the chart."
+    },
+    {
+      "start": 502.62,
+      "duration": 4.16,
+      "text": "And as you can see,\nyou'll be able to read"
+    },
+    {
+      "start": 506.78,
+      "duration": 5.46,
+      "text": "from the protractor, depending\non the line that you've drawn,"
+    },
+    {
+      "start": 512.24,
+      "duration": 1.05,
+      "text": "what the course is."
+    },
+    {
+      "start": 513.29,
+      "duration": 3.21,
+      "text": "I will tell you that one of\nthe most important skills,"
+    },
+    {
+      "start": 516.5,
+      "duration": 2.01,
+      "text": "if you're old-school\nflight instructor,"
+    },
+    {
+      "start": 518.51,
+      "duration": 1.89,
+      "text": "is drawing a straight\nline from one"
+    },
+    {
+      "start": 520.4,
+      "duration": 2.11,
+      "text": "side of the chart to the other."
+    },
+    {
+      "start": 522.51,
+      "duration": 1.25,
+      "text": "I can't tell you how to do it."
+    },
+    {
+      "start": 523.76,
+      "duration": 2.34,
+      "text": "It's a really complicated\nfolding system"
+    },
+    {
+      "start": 526.1,
+      "duration": 3.15,
+      "text": "that enables you to actually\ndraw a course line when"
+    },
+    {
+      "start": 529.25,
+      "duration": 5.19,
+      "text": "you have to flip the chart\nover to get from your source"
+    },
+    {
+      "start": 534.44,
+      "duration": 2.71,
+      "text": "and destination airports."
+    },
+    {
+      "start": 537.15,
+      "duration": 0.52,
+      "text": "OK."
+    },
+    {
+      "start": 537.67,
+      "duration": 2.39,
+      "text": "Using the plotter, you\ncan see people's charts."
+    },
+    {
+      "start": 540.06,
+      "duration": 2.5,
+      "text": "They would have to buy new ones\nevery few weeks because they"
+    },
+    {
+      "start": 542.56,
+      "duration": 1.83,
+      "text": "would be so marked\nup with pencils."
+    },
+    {
+      "start": 548.83,
+      "duration": 2.91,
+      "text": "Here we find the\ntrue course is 038."
+    },
+    {
+      "start": 551.74,
+      "duration": 3.78,
+      "text": "So as you can see,\nthey're just reading that"
+    },
+    {
+      "start": 555.52,
+      "duration": 3.36,
+      "text": "off the protractor part."
+    },
+    {
+      "start": 558.88,
+      "duration": 2.48,
+      "text": "There are paper\nE6Bs and metal ones."
+    },
+    {
+      "start": 561.36,
+      "duration": 3.8,
+      "text": "So this is a picture\nof a paper one."
+    },
+    {
+      "start": 565.16,
+      "duration": 6.39,
+      "text": "Again, you can see\nthat you can just"
+    },
+    {
+      "start": 571.55,
+      "duration": 3.49,
+      "text": "set up, for example, that\nwe're going to go 90 knots,"
+    },
+    {
+      "start": 575.04,
+      "duration": 4.01,
+      "text": "and then that's here."
+    },
+    {
+      "start": 579.05,
+      "duration": 3.48,
+      "text": "If we go 90 knots, then\nit will take us 10 minutes"
+    },
+    {
+      "start": 582.53,
+      "duration": 3.03,
+      "text": "to go 15 miles."
+    },
+    {
+      "start": 585.56,
+      "duration": 0.78,
+      "text": "Not very exciting."
+    },
+    {
+      "start": 591.89,
+      "duration": 2.38,
+      "text": "The wind side is\nmore interesting."
+    },
+    {
+      "start": 594.27,
+      "duration": 7.38,
+      "text": "You can get your ground speed\nand your wind correction angle."
+    },
+    {
+      "start": 601.65,
+      "duration": 2.5,
+      "text": "That's the most important thing."
+    },
+    {
+      "start": 604.15,
+      "duration": 4.47,
+      "text": "So this one is hard enough\nto use that they actually"
+    },
+    {
+      "start": 608.62,
+      "duration": 3.99,
+      "text": "put the instructions\nright on the top here,"
+    },
+    {
+      "start": 612.61,
+      "duration": 2.49,
+      "text": "on the back of the E6B."
+    },
+    {
+      "start": 615.1,
+      "duration": 3.29,
+      "text": "So they say, place the wind\ndirection under the true index."
+    },
+    {
+      "start": 618.39,
+      "duration": 0.92,
+      "text": "We'll go through this."
+    },
+    {
+      "start": 619.31,
+      "duration": 3.62,
+      "text": "Anyway, the wind's\nfrom 210, and we're"
+    },
+    {
+      "start": 622.93,
+      "duration": 5.44,
+      "text": "trying to fly straight\nsouth, a true course of 180"
+    },
+    {
+      "start": 628.37,
+      "duration": 2.78,
+      "text": "at an air speed of 147\nknots through the air."
+    },
+    {
+      "start": 631.15,
+      "duration": 1.59,
+      "text": "We've already computed that."
+    },
+    {
+      "start": 632.74,
+      "duration": 2.25,
+      "text": "And the wind's 20\nknots from 210."
+    },
+    {
+      "start": 634.99,
+      "duration": 2.06,
+      "text": "So we're trying to go south."
+    },
+    {
+      "start": 637.05,
+      "duration": 3.51,
+      "text": "Let's say, this is south\nat 180 and the wind"
+    },
+    {
+      "start": 640.56,
+      "duration": 1.56,
+      "text": "is coming from the right."
+    },
+    {
+      "start": 642.12,
+      "duration": 2.28,
+      "text": "So when we're all\ndone, I sure hope"
+    },
+    {
+      "start": 644.4,
+      "duration": 1.5,
+      "text": "that the answer\nwill be that we have"
+    },
+    {
+      "start": 645.9,
+      "duration": 5.46,
+      "text": "to steer a little bit to the\nright of 180, true at least."
+    },
+    {
+      "start": 651.36,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 657.33,
+      "duration": 1.8,
+      "text": "So here we are on the wind side."
+    },
+    {
+      "start": 663.42,
+      "duration": 3.42,
+      "text": "We start by marking 147\nknots, it looks like."
+    },
+    {
+      "start": 670.43,
+      "duration": 3.91,
+      "text": "And then we rotate it."
+    },
+    {
+      "start": 677.21,
+      "duration": 5.12,
+      "text": "You can see that pencil\nmark has been rotated off."
+    },
+    {
+      "start": 682.33,
+      "duration": 1.42,
+      "text": "It started at 210."
+    },
+    {
+      "start": 683.75,
+      "duration": 1.56,
+      "text": "Oh, let's go back."
+    },
+    {
+      "start": 685.31,
+      "duration": 0.6,
+      "text": "Yeah."
+    },
+    {
+      "start": 685.91,
+      "duration": 5.73,
+      "text": "So we had it set up to 210."
+    },
+    {
+      "start": 691.64,
+      "duration": 2.38,
+      "text": "Says wind direction\nunder true index."
+    },
+    {
+      "start": 694.02,
+      "duration": 1.52,
+      "text": "Then we marked the velocity."
+    },
+    {
+      "start": 695.54,
+      "duration": 2.05,
+      "text": "Then we twisted it a little bit."
+    },
+    {
+      "start": 697.59,
+      "duration": 4.68,
+      "text": "So now, we've got\nan index of south,"
+    },
+    {
+      "start": 702.27,
+      "duration": 9.85,
+      "text": "and we can read that our ground\nspeed will have fallen right"
+    },
+    {
+      "start": 712.12,
+      "duration": 4.68,
+      "text": "there under the little\ngrommet there to 129 knots,"
+    },
+    {
+      "start": 716.8,
+      "duration": 3.66,
+      "text": "and the wind correction angle\nis going to be 4 degrees."
+    },
+    {
+      "start": 720.46,
+      "duration": 3.82,
+      "text": "You can read that off of\nthis little scale here."
+    },
+    {
+      "start": 724.28,
+      "duration": 3.37,
+      "text": "See, it says 5 and 10."
+    },
+    {
+      "start": 727.65,
+      "duration": 4.08,
+      "text": "Anyway, so we do all of\nthat, which is very tedious."
+    },
+    {
+      "start": 731.73,
+      "duration": 2.32,
+      "text": "It's based on a forecast,\nagain, of the winds aloft,"
+    },
+    {
+      "start": 734.05,
+      "duration": 2.28,
+      "text": "so it's never going\nto be exactly right."
+    },
+    {
+      "start": 736.33,
+      "duration": 3.62,
+      "text": "And we use it to fill out one\nof these navigation log forms."
+    },
+    {
+      "start": 739.95,
+      "duration": 1.47,
+      "text": "Once it's all\nfilled out, you can"
+    },
+    {
+      "start": 741.42,
+      "duration": 2.73,
+      "text": "see that it's a lot easier to\ndo if you just ask some computer"
+    },
+    {
+      "start": 744.15,
+      "duration": 4.41,
+      "text": "application to do it for you,\nlike SkyVector is free and will"
+    },
+    {
+      "start": 748.56,
+      "duration": 3.15,
+      "text": "do it for you, using\nthe forecast winds."
+    },
+    {
+      "start": 751.71,
+      "duration": 1.71,
+      "text": "Then when you're flying\nalong, as I said,"
+    },
+    {
+      "start": 753.42,
+      "duration": 1.2,
+      "text": "you make corrections."
+    },
+    {
+      "start": 754.62,
+      "duration": 2.46,
+      "text": "So here, for example,\nunfortunately,"
+    },
+    {
+      "start": 757.08,
+      "duration": 1.95,
+      "text": "the one bad thing\nabout SkyVector,"
+    },
+    {
+      "start": 759.03,
+      "duration": 4.27,
+      "text": "I put in these user fixes,\na beam to Fitchburg Airport"
+    },
+    {
+      "start": 763.3,
+      "duration": 1.49,
+      "text": "and crossing the\nConnecticut River,"
+    },
+    {
+      "start": 764.79,
+      "duration": 1.58,
+      "text": "I think, because I\nthought those would"
+    },
+    {
+      "start": 766.37,
+      "duration": 1.7,
+      "text": "be easy to see from the air."
+    },
+    {
+      "start": 768.07,
+      "duration": 3.14,
+      "text": "But unfortunately, there's no\nway to name them in SkyVector."
+    },
+    {
+      "start": 771.21,
+      "duration": 2.28,
+      "text": "So they just come\nout as user fix."
+    },
+    {
+      "start": 773.49,
+      "duration": 2.33,
+      "text": "But maybe you could write\nthat in with a pencil."
+    },
+    {
+      "start": 775.82,
+      "duration": 3.73,
+      "text": "Anyway, so you can\nsee here, the wind"
+    },
+    {
+      "start": 779.55,
+      "duration": 5.16,
+      "text": "is forecast to be\nfrom 272 at 15 knots."
+    },
+    {
+      "start": 784.71,
+      "duration": 4.04,
+      "text": "You're going 140 knots\nof true air speed."
+    },
+    {
+      "start": 788.75,
+      "duration": 6.69,
+      "text": "Your track over the ground\nis supposed to be 287 true,"
+    },
+    {
+      "start": 795.44,
+      "duration": 2.19,
+      "text": "minus 2 degrees wind\ncorrection angle."
+    },
+    {
+      "start": 797.63,
+      "duration": 2.91,
+      "text": "I just did this, actually,\nfor Sunday night, I think."
+    },
+    {
+      "start": 800.54,
+      "duration": 3.18,
+      "text": "The true heading,\ntherefore, will be 285,"
+    },
+    {
+      "start": 803.72,
+      "duration": 1.92,
+      "text": "but then you'll have\nto add 16 degrees"
+    },
+    {
+      "start": 805.64,
+      "duration": 1.66,
+      "text": "for the local variation."
+    },
+    {
+      "start": 807.3,
+      "duration": 2.87,
+      "text": "So you'll end up with a\nmagnetic heading of 301."
+    },
+    {
+      "start": 810.17,
+      "duration": 3.15,
+      "text": "So you steer that for a\nwhile, see how it goes."
+    },
+    {
+      "start": 813.32,
+      "duration": 4.8,
+      "text": "It's supposed to take you about\n12 minutes from the time you"
+    },
+    {
+      "start": 818.12,
+      "duration": 3.09,
+      "text": "took off to the time\nyou reach that point."
+    },
+    {
+      "start": 821.21,
+      "duration": 2.43,
+      "text": "And you write down\nwhat actually happened."
+    },
+    {
+      "start": 823.64,
+      "duration": 2.37,
+      "text": "And if you see the airport--"
+    },
+    {
+      "start": 826.01,
+      "duration": 1.86,
+      "text": "let's see, it's supposed\nto be on our left."
+    },
+    {
+      "start": 827.87,
+      "duration": 1.54,
+      "text": "If you see the\nairport on your right,"
+    },
+    {
+      "start": 829.41,
+      "duration": 2.66,
+      "text": "you say, well, the wind's\nnot quite what I thought."
+    },
+    {
+      "start": 832.07,
+      "duration": 2.43,
+      "text": "I'm going to steer\n10 degrees right."
+    },
+    {
+      "start": 834.5,
+      "duration": 2.31,
+      "text": "And then, that river\ncrossing, I guess,"
+    },
+    {
+      "start": 836.81,
+      "duration": 3.18,
+      "text": "isn't really ideal for\nheading correction."
+    },
+    {
+      "start": 839.99,
+      "duration": 3.18,
+      "text": "You probably want to find\nsome other landmarks as well."
+    },
+    {
+      "start": 843.17,
+      "duration": 0.71,
+      "text": "All right."
+    },
+    {
+      "start": 843.88,
+      "duration": 2.23,
+      "text": "Pilotage-- oh, question?"
+    },
+    {
+      "start": 846.11,
+      "duration": 2.19,
+      "text": "AUDIENCE: How far [INAUDIBLE]?"
+    },
+    {
+      "start": 848.3,
+      "duration": 2.86,
+      "text": "PHILIP GREENSPUN: They do."
+    },
+    {
+      "start": 851.16,
+      "duration": 0.82,
+      "text": "Tina might know."
+    },
+    {
+      "start": 851.98,
+      "duration": 3.02,
+      "text": "I think the winds aloft are\nforecast either 24 or 30"
+    },
+    {
+      "start": 855.0,
+      "duration": 0.71,
+      "text": "hours in advance."
+    },
+    {
+      "start": 858.5,
+      "duration": 1.44,
+      "text": "Yeah."
+    },
+    {
+      "start": 859.94,
+      "duration": 0.96,
+      "text": "That's a good question."
+    },
+    {
+      "start": 860.9,
+      "duration": 2.67,
+      "text": "We can look that\nup for you later."
+    },
+    {
+      "start": 863.57,
+      "duration": 4.24,
+      "text": "But yeah, so you can\npredict, to some extent,"
+    },
+    {
+      "start": 867.81,
+      "duration": 0.92,
+      "text": "with prevailing winds."
+    },
+    {
+      "start": 868.73,
+      "duration": 3.36,
+      "text": "Some of these applications\nwill work with averages"
+    },
+    {
+      "start": 872.09,
+      "duration": 1.75,
+      "text": "and so forth, if it's not there."
+    },
+    {
+      "start": 873.84,
+      "duration": 2.87,
+      "text": "But yeah, within 24 hours,\nyou have a pretty good wind"
+    },
+    {
+      "start": 876.71,
+      "duration": 1.83,
+      "text": "forecast."
+    },
+    {
+      "start": 878.54,
+      "duration": 2.9,
+      "text": "But again, with a\nmodern GPS system,"
+    },
+    {
+      "start": 881.44,
+      "duration": 2.35,
+      "text": "you can immediately see whether\nyou're going off course,"
+    },
+    {
+      "start": 883.79,
+      "duration": 1.59,
+      "text": "and the autopilot may\nautomatically make"
+    },
+    {
+      "start": 885.38,
+      "duration": 1.25,
+      "text": "the correction for you anyway."
+    },
+    {
+      "start": 886.63,
+      "duration": 4.04,
+      "text": "So this is kind of a\nhistorical lecture."
+    },
+    {
+      "start": 890.67,
+      "duration": 0.75,
+      "text": "It's good to know."
+    },
+    {
+      "start": 894.08,
+      "duration": 4.41,
+      "text": "What I would say is, well,\nyeah, so what I would say"
+    },
+    {
+      "start": 898.49,
+      "duration": 3.27,
+      "text": "is, it's still worth doing, but\nI would say generate the navlog"
+    },
+    {
+      "start": 901.76,
+      "duration": 0.63,
+      "text": "electronically."
+    },
+    {
+      "start": 902.39,
+      "duration": 3.81,
+      "text": "It's not really worth doing\nanymore, like the full pain."
+    },
+    {
+      "start": 906.2,
+      "duration": 3.78,
+      "text": "The knowledge test does have\na built-in electronic E6B."
+    },
+    {
+      "start": 909.98,
+      "duration": 3.51,
+      "text": "The tests are not\nthat demanding,"
+    },
+    {
+      "start": 913.49,
+      "duration": 1.94,
+      "text": "except that you will\nneed the plotter."
+    },
+    {
+      "start": 915.43,
+      "duration": 2.29,
+      "text": "So they'll give you a supplement\nwith a bit of a chart,"
+    },
+    {
+      "start": 917.72,
+      "duration": 2.04,
+      "text": "and you need the\nplotter to figure out"
+    },
+    {
+      "start": 919.76,
+      "duration": 2.94,
+      "text": "how far it is from place\nto place on the real test."
+    },
+    {
+      "start": 922.7,
+      "duration": 6.42,
+      "text": "That's if you want to get 100."
+    },
+    {
+      "start": 929.12,
+      "duration": 1.86,
+      "text": "Yeah, you see the\nsummary of how it works."
+    },
+    {
+      "start": 930.98,
+      "duration": 1.41,
+      "text": "It's a fun skill."
+    },
+    {
+      "start": 932.39,
+      "duration": 4.32,
+      "text": "I will tell you, I\nhad two interactions"
+    },
+    {
+      "start": 936.71,
+      "duration": 2.07,
+      "text": "on basically the same day."
+    },
+    {
+      "start": 938.78,
+      "duration": 5.91,
+      "text": "I met an alumna of this course\nat the East Coast Aero Club,"
+    },
+    {
+      "start": 944.69,
+      "duration": 4.98,
+      "text": "and she was tearing\nup a storm with an E6B"
+    },
+    {
+      "start": 949.67,
+      "duration": 2.04,
+      "text": "and filling out the\nnavlog, and doing all this."
+    },
+    {
+      "start": 951.71,
+      "duration": 1.77,
+      "text": "I said, why are you doing that?"
+    },
+    {
+      "start": 953.48,
+      "duration": 4.83,
+      "text": "Every East Coast Aero Club\nplane has a Garmin 430 in it."
+    },
+    {
+      "start": 958.31,
+      "duration": 4.53,
+      "text": "Just punch in your\ndestination and you can go."
+    },
+    {
+      "start": 962.84,
+      "duration": 2.46,
+      "text": "And if that doesn't work,\ncall up air traffic control"
+    },
+    {
+      "start": 965.3,
+      "duration": 1.53,
+      "text": "and tell them you're lost."
+    },
+    {
+      "start": 966.83,
+      "duration": 3.45,
+      "text": "So she said, well, like every\nflight with my instructor,"
+    },
+    {
+      "start": 970.28,
+      "duration": 1.29,
+      "text": "he fails everything."
+    },
+    {
+      "start": 971.57,
+      "duration": 3.11,
+      "text": "He makes me go back and assume\nthat everything's broken"
+    },
+    {
+      "start": 974.68,
+      "duration": 2.01,
+      "text": "and do it all old\nschool and manually."
+    },
+    {
+      "start": 976.69,
+      "duration": 2.5,
+      "text": "So she was doing this on every\ncross-country flight that she"
+    },
+    {
+      "start": 979.19,
+      "duration": 3.24,
+      "text": "was doing, both dual and solo."
+    },
+    {
+      "start": 982.43,
+      "duration": 1.38,
+      "text": "And I said, well, that's good."
+    },
+    {
+      "start": 983.81,
+      "duration": 1.42,
+      "text": "I'm not sure how\nmuch relationship"
+    },
+    {
+      "start": 985.23,
+      "duration": 2.27,
+      "text": "that has to safety because\nthe other interaction I had"
+    },
+    {
+      "start": 987.5,
+      "duration": 3.24,
+      "text": "that day was with a commercial\npilot, instrument rated, who"
+    },
+    {
+      "start": 990.74,
+      "duration": 2.47,
+      "text": "wanted to rent the Cirrus."
+    },
+    {
+      "start": 993.21,
+      "duration": 4.42,
+      "text": "And I was the previous\nuser of the airplane."
+    },
+    {
+      "start": 997.63,
+      "duration": 1.74,
+      "text": "So I said, how much\nfuel do you want?"
+    },
+    {
+      "start": 999.37,
+      "duration": 1.25,
+      "text": "He said, I want it topped off."
+    },
+    {
+      "start": 1000.62,
+      "duration": 2.22,
+      "text": "I said, you're going\nto fly for six hours?"
+    },
+    {
+      "start": 1002.84,
+      "duration": 2.0,
+      "text": "Where you going?"
+    },
+    {
+      "start": 1004.84,
+      "duration": 1.21,
+      "text": "He said, I'm going to Albany."
+    },
+    {
+      "start": 1006.05,
+      "duration": 1.76,
+      "text": "I said, well, it's an hour away."
+    },
+    {
+      "start": 1007.82,
+      "duration": 1.62,
+      "text": "What do you want six\nhours of fuel for?"
+    },
+    {
+      "start": 1009.44,
+      "duration": 3.0,
+      "text": "He said, the airport I'm going\nto doesn't have any fuel."
+    },
+    {
+      "start": 1012.44,
+      "duration": 2.74,
+      "text": "I said, Albany, the\ncrosswind runway"
+    },
+    {
+      "start": 1015.18,
+      "duration": 1.91,
+      "text": "there is longer than\nHanscom's main runway."
+    },
+    {
+      "start": 1017.09,
+      "duration": 1.66,
+      "text": "It's 7,500 feet."
+    },
+    {
+      "start": 1018.75,
+      "duration": 1.17,
+      "text": "They've got a beautiful FBO."
+    },
+    {
+      "start": 1019.92,
+      "duration": 0.95,
+      "text": "It's basically free."
+    },
+    {
+      "start": 1020.87,
+      "duration": 1.5,
+      "text": "What do you mean,\nthey have no fuel?"
+    },
+    {
+      "start": 1022.37,
+      "duration": 1.85,
+      "text": "And he wanted to go\nto this other airport."
+    },
+    {
+      "start": 1024.22,
+      "duration": 1.33,
+      "text": "It was on the east side of town."
+    },
+    {
+      "start": 1025.55,
+      "duration": 1.88,
+      "text": "It was actually farther\nfrom his destination."
+    },
+    {
+      "start": 1027.42,
+      "duration": 3.14,
+      "text": "He was taking his\nson to Rensselaer,"
+    },
+    {
+      "start": 1030.57,
+      "duration": 1.64,
+      "text": "and the big airport's\nactually closer."
+    },
+    {
+      "start": 1032.21,
+      "duration": 5.07,
+      "text": "And this was a 2,500-foot\nairport with a note"
+    },
+    {
+      "start": 1037.28,
+      "duration": 4.95,
+      "text": "in the chart supplement saying\nto call a phone number before"
+    },
+    {
+      "start": 1042.23,
+      "duration": 2.67,
+      "text": "you even try to go there, to\ncheck out the local conditions."
+    },
+    {
+      "start": 1044.9,
+      "duration": 0.72,
+      "text": "It's unattended."
+    },
+    {
+      "start": 1045.62,
+      "duration": 2.4,
+      "text": "If you blow a tire,\nthere's no way"
+    },
+    {
+      "start": 1048.02,
+      "duration": 2.28,
+      "text": "to get a mechanic out there\nother than maybe driving"
+    },
+    {
+      "start": 1050.3,
+      "duration": 3.24,
+      "text": "from Albany or Boston."
+    },
+    {
+      "start": 1053.54,
+      "duration": 2.46,
+      "text": "And it has a displaced\nthreshold too."
+    },
+    {
+      "start": 1056.0,
+      "duration": 3.27,
+      "text": "It's 2,500 feet, but because\nof the trees on both ends,"
+    },
+    {
+      "start": 1059.27,
+      "duration": 2.04,
+      "text": "you're not supposed to\nland right on the numbers."
+    },
+    {
+      "start": 1061.31,
+      "duration": 3.33,
+      "text": "You actually land a few, like\n500 feet or 400 feet down"
+    },
+    {
+      "start": 1064.64,
+      "duration": 1.17,
+      "text": "the runway."
+    },
+    {
+      "start": 1065.81,
+      "duration": 3.36,
+      "text": "So I said, the Cirrus\ntakes about 2,100 feet"
+    },
+    {
+      "start": 1069.17,
+      "duration": 2.19,
+      "text": "to land over a 50-foot obstacle."
+    },
+    {
+      "start": 1071.36,
+      "duration": 2.22,
+      "text": "So you're budgeting\nto use more than 60%"
+    },
+    {
+      "start": 1073.58,
+      "duration": 3.3,
+      "text": "of the runway, which the\nairline minimum is, you"
+    },
+    {
+      "start": 1076.88,
+      "duration": 1.71,
+      "text": "have to plan to land in 60%."
+    },
+    {
+      "start": 1078.59,
+      "duration": 2.06,
+      "text": "That way if you are\na little bit sloppy,"
+    },
+    {
+      "start": 1080.65,
+      "duration": 2.38,
+      "text": "you don't go off the end of\nthe runway and hit something."
+    },
+    {
+      "start": 1083.03,
+      "duration": 2.37,
+      "text": "So I said, why would you\ngive yourself, with your son,"
+    },
+    {
+      "start": 1085.4,
+      "duration": 4.53,
+      "text": "less safety margin than\na two-pilot airline crew?"
+    },
+    {
+      "start": 1089.93,
+      "duration": 2.25,
+      "text": "And so he said,\nwell, I don't want"
+    },
+    {
+      "start": 1092.18,
+      "duration": 3.27,
+      "text": "to deal with an FBO, which\nwas really weird to me."
+    },
+    {
+      "start": 1095.45,
+      "duration": 3.81,
+      "text": "So basically, there's no point\nto that story other than--"
+    },
+    {
+      "start": 1099.26,
+      "duration": 1.61,
+      "text": "no, there is a\npoint to that story."
+    },
+    {
+      "start": 1100.87,
+      "duration": 1.33,
+      "text": "There is no point to that story."
+    },
+    {
+      "start": 1105.88,
+      "duration": 2.99,
+      "text": "Safety is not about doing\neverything really tedious."
+    },
+    {
+      "start": 1108.87,
+      "duration": 3.58,
+      "text": "It's more about having\nreasonable judgment and asking,"
+    },
+    {
+      "start": 1112.45,
+      "duration": 3.03,
+      "text": "why am I better than a\ntwo-pilot airline crew?"
+    },
+    {
+      "start": 1115.48,
+      "duration": 1.8,
+      "text": "So yeah, she was smart."
+    },
+    {
+      "start": 1117.28,
+      "duration": 2.13,
+      "text": "She's an engineer\nso of course, it"
+    },
+    {
+      "start": 1119.41,
+      "duration": 2.43,
+      "text": "doesn't overtax her to\ndo this kind of stuff,"
+    },
+    {
+      "start": 1121.84,
+      "duration": 2.7,
+      "text": "but let's not really confuse\nit with adding safety, which"
+    },
+    {
+      "start": 1124.54,
+      "duration": 2.76,
+      "text": "is more about having the\njudgment to know when to take"
+    },
+    {
+      "start": 1127.3,
+      "duration": 3.42,
+      "text": "a co-pilot or when to\nmake your life easier"
+    },
+    {
+      "start": 1130.72,
+      "duration": 2.77,
+      "text": "by going to an airport\nwith a really long runway."
+    },
+    {
+      "start": 1133.49,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 1133.99,
+      "duration": 1.86,
+      "text": "Let's talk about ADFs."
+    },
+    {
+      "start": 1135.85,
+      "duration": 3.66,
+      "text": "This was very exciting in 1952."
+    },
+    {
+      "start": 1139.51,
+      "duration": 0.81,
+      "text": "Have a look there."
+    },
+    {
+      "start": 1140.32,
+      "duration": 1.83,
+      "text": "That was a Lear."
+    },
+    {
+      "start": 1142.15,
+      "duration": 2.1,
+      "text": "Some of you have probably\nheard of Lear Jet."
+    },
+    {
+      "start": 1144.25,
+      "duration": 2.73,
+      "text": "So the founder of\nLear Jet was also"
+    },
+    {
+      "start": 1146.98,
+      "duration": 4.2,
+      "text": "the inventor of the first\npractical car radios."
+    },
+    {
+      "start": 1151.18,
+      "duration": 2.07,
+      "text": "So all the money that\nwas made on car radios"
+    },
+    {
+      "start": 1153.25,
+      "duration": 3.42,
+      "text": "was eventually turned\ninto an aviation company,"
+    },
+    {
+      "start": 1156.67,
+      "duration": 3.93,
+      "text": "and before the Lear Jet,\nthere were these avionics"
+    },
+    {
+      "start": 1160.6,
+      "duration": 2.22,
+      "text": "that made it super\neasy to figure out"
+    },
+    {
+      "start": 1162.82,
+      "duration": 1.68,
+      "text": "where the station was."
+    },
+    {
+      "start": 1167.41,
+      "duration": 2.06,
+      "text": "I think at the very first,\nthe pilot would tune,"
+    },
+    {
+      "start": 1169.46,
+      "duration": 3.52,
+      "text": "or the navigator more\nlikely would twist this dial"
+    },
+    {
+      "start": 1172.99,
+      "duration": 4.98,
+      "text": "and hear when this tone\nreached some kind of maximum."
+    },
+    {
+      "start": 1177.97,
+      "duration": 2.01,
+      "text": "Then there was the\nautomatic direction finder,"
+    },
+    {
+      "start": 1179.98,
+      "duration": 3.1,
+      "text": "which would just point the\nneedle in that direction"
+    },
+    {
+      "start": 1183.08,
+      "duration": 0.66,
+      "text": "of the station."
+    },
+    {
+      "start": 1183.74,
+      "duration": 1.21,
+      "text": "See here, it's just pointing."
+    },
+    {
+      "start": 1190.45,
+      "duration": 1.23,
+      "text": "Yeah, here's something."
+    },
+    {
+      "start": 1191.68,
+      "duration": 2.73,
+      "text": "This is from the\npilots handbook,"
+    },
+    {
+      "start": 1194.41,
+      "duration": 2.52,
+      "text": "I think, on how to use an NDB."
+    },
+    {
+      "start": 1196.93,
+      "duration": 2.7,
+      "text": "But you can see that\nwith a heavy wind,"
+    },
+    {
+      "start": 1199.63,
+      "duration": 6.5,
+      "text": "you don't end up really tracking\nexactly towards the station."
+    },
+    {
+      "start": 1206.13,
+      "duration": 0.51,
+      "text": "All right."
+    },
+    {
+      "start": 1206.64,
+      "duration": 4.92,
+      "text": "So relative bearing is how\nfar to your left or your right"
+    },
+    {
+      "start": 1211.56,
+      "duration": 1.63,
+      "text": "the station is."
+    },
+    {
+      "start": 1213.19,
+      "duration": 2.79,
+      "text": "And then you can get\nthe magnetic bearing"
+    },
+    {
+      "start": 1215.98,
+      "duration": 2.12,
+      "text": "if you add your own\nheading in there."
+    },
+    {
+      "start": 1218.1,
+      "duration": 1.41,
+      "text": "So this is not rocket science."
+    },
+    {
+      "start": 1219.51,
+      "duration": 2.97,
+      "text": "If you're going south, and\nthe station is 90 degrees"
+    },
+    {
+      "start": 1222.48,
+      "duration": 3.33,
+      "text": "to your left, then the magnetic\nbearing to the station is going"
+    },
+    {
+      "start": 1225.81,
+      "duration": 7.27,
+      "text": "to be, I guess, well, I guess\nthe bearing to the station"
+    },
+    {
+      "start": 1233.08,
+      "duration": 5.33,
+      "text": "would be 090, in that case."
+    },
+    {
+      "start": 1238.41,
+      "duration": 1.01,
+      "text": "All right."
+    },
+    {
+      "start": 1239.42,
+      "duration": 2.67,
+      "text": "This was an exciting thing\nwhere you could actually"
+    },
+    {
+      "start": 1242.09,
+      "duration": 2.94,
+      "text": "turn the card on your ADF."
+    },
+    {
+      "start": 1245.03,
+      "duration": 4.65,
+      "text": "So if you were heading\nnorthwest of a heading of 330,"
+    },
+    {
+      "start": 1249.68,
+      "duration": 3.48,
+      "text": "you would twist that\nand then you just,"
+    },
+    {
+      "start": 1253.16,
+      "duration": 1.8,
+      "text": "without having to\nthink, you can see"
+    },
+    {
+      "start": 1254.96,
+      "duration": 3.51,
+      "text": "that you have to fly\nroughly with no wind."
+    },
+    {
+      "start": 1258.47,
+      "duration": 1.95,
+      "text": "You would fly 210 to\nget to the station."
+    },
+    {
+      "start": 1266.14,
+      "duration": 2.07,
+      "text": "I guess some planes that\noperate in Europe a lot,"
+    },
+    {
+      "start": 1268.21,
+      "duration": 2.16,
+      "text": "they were requiring\nthis to later."
+    },
+    {
+      "start": 1270.37,
+      "duration": 2.13,
+      "text": "Planes that just have a\nlot of stuff on the panel"
+    },
+    {
+      "start": 1272.5,
+      "duration": 3.03,
+      "text": "still may have this,\nbut in general, they're"
+    },
+    {
+      "start": 1275.53,
+      "duration": 0.87,
+      "text": "hard to find now."
+    },
+    {
+      "start": 1276.4,
+      "duration": 3.7,
+      "text": "VORs are still around."
+    },
+    {
+      "start": 1280.1,
+      "duration": 4.46,
+      "text": "They have 360 radials that\nthe radio receiver can just"
+    },
+    {
+      "start": 1284.56,
+      "duration": 0.85,
+      "text": "identify."
+    },
+    {
+      "start": 1285.41,
+      "duration": 3.52,
+      "text": "So the receiver can just say,\nI know that I am exactly south"
+    },
+    {
+      "start": 1288.93,
+      "duration": 5.26,
+      "text": "or I know that I'm exactly east\nor I know that I'm exactly 060"
+    },
+    {
+      "start": 1294.19,
+      "duration": 3.57,
+      "text": "direction from this station."
+    },
+    {
+      "start": 1297.76,
+      "duration": 2.94,
+      "text": "So you'll be able to\nknow where you are,"
+    },
+    {
+      "start": 1300.7,
+      "duration": 2.82,
+      "text": "and if you can tune\nin two different ones,"
+    },
+    {
+      "start": 1303.52,
+      "duration": 2.04,
+      "text": "and you've got your\nhandy pencil out,"
+    },
+    {
+      "start": 1305.56,
+      "duration": 3.36,
+      "text": "and your chart, in the aircraft,\nyou can draw intersecting lines"
+    },
+    {
+      "start": 1308.92,
+      "duration": 2.76,
+      "text": "and figure out where\nyou are on the chart."
+    },
+    {
+      "start": 1311.68,
+      "duration": 3.03,
+      "text": "So again, in the\nmoving map GPS days,"
+    },
+    {
+      "start": 1314.71,
+      "duration": 3.27,
+      "text": "this is not as exciting\na skill as it once was."
+    },
+    {
+      "start": 1317.98,
+      "duration": 1.38,
+      "text": "I think there are\na few questions"
+    },
+    {
+      "start": 1319.36,
+      "duration": 6.15,
+      "text": "about the symbols on the chart\nfor different kinds of VORs."
+    },
+    {
+      "start": 1325.51,
+      "duration": 2.52,
+      "text": "So one thing is distance\nmeasuring equipment,"
+    },
+    {
+      "start": 1328.03,
+      "duration": 3.45,
+      "text": "whereby sending out a pulse\nand having the station send"
+    },
+    {
+      "start": 1331.48,
+      "duration": 3.06,
+      "text": "that back to the aircraft,\nit's possible by measuring"
+    },
+    {
+      "start": 1334.54,
+      "duration": 6.49,
+      "text": "the transit time to actually get\nyour distance in nautical miles"
+    },
+    {
+      "start": 1341.03,
+      "duration": 1.94,
+      "text": "read out to you in the cockpit."
+    },
+    {
+      "start": 1342.97,
+      "duration": 4.08,
+      "text": "Be advised that's the actual\ndistance through the air,"
+    },
+    {
+      "start": 1347.05,
+      "duration": 2.19,
+      "text": "so it's not the\nhorizontal distance"
+    },
+    {
+      "start": 1349.24,
+      "duration": 1.24,
+      "text": "projected over the ground."
+    },
+    {
+      "start": 1350.48,
+      "duration": 2.37,
+      "text": "But if you're up a few\nmiles, it might be,"
+    },
+    {
+      "start": 1352.85,
+      "duration": 3.82,
+      "text": "and if you're close to the VOR,\nit might be slightly different."
+    },
+    {
+      "start": 1356.67,
+      "duration": 5.33,
+      "text": "Service volumes-- there\nare these terminal VORs."
+    },
+    {
+      "start": 1362.0,
+      "duration": 1.92,
+      "text": "I think a lot of them\nmay be decommissioned"
+    },
+    {
+      "start": 1363.92,
+      "duration": 2.67,
+      "text": "or being decommissioned now."
+    },
+    {
+      "start": 1366.59,
+      "duration": 2.98,
+      "text": "But the FAA has made\nvarious kinds of VORs."
+    },
+    {
+      "start": 1369.57,
+      "duration": 1.58,
+      "text": "These high altitude\nones will probably"
+    },
+    {
+      "start": 1371.15,
+      "duration": 2.76,
+      "text": "be the last to go because\nactually, with airliners,"
+    },
+    {
+      "start": 1373.91,
+      "duration": 3.27,
+      "text": "the certification costs of\nnew avionics are so high"
+    },
+    {
+      "start": 1377.18,
+      "duration": 3.18,
+      "text": "that the last aircraft\nflying without a GPS"
+    },
+    {
+      "start": 1380.36,
+      "duration": 1.75,
+      "text": "will be some huge Boeing."
+    },
+    {
+      "start": 1382.11,
+      "duration": 7.35,
+      "text": "It won't be a Piper or\na Steerman or something."
+    },
+    {
+      "start": 1389.46,
+      "duration": 2.16,
+      "text": "OK."
+    },
+    {
+      "start": 1391.62,
+      "duration": 1.71,
+      "text": "The parts of the VOR--"
+    },
+    {
+      "start": 1393.33,
+      "duration": 4.8,
+      "text": "so you have this thing called\nthe Omni Bearing Selector which"
+    },
+    {
+      "start": 1398.13,
+      "duration": 4.74,
+      "text": "you can tune here, and on the\ncanonical instrument here,"
+    },
+    {
+      "start": 1402.87,
+      "duration": 5.14,
+      "text": "all it does is rotate\nthis card around the top."
+    },
+    {
+      "start": 1408.01,
+      "duration": 4.58,
+      "text": "So that is to pick out the\nradial that you want, and then"
+    },
+    {
+      "start": 1412.59,
+      "duration": 1.92,
+      "text": "you get the To/From flag."
+    },
+    {
+      "start": 1414.51,
+      "duration": 3.65,
+      "text": "So you can see here,\nthis is showing you"
+    },
+    {
+      "start": 1418.16,
+      "duration": 6.91,
+      "text": "that the 360 radial\nis off to your left."
+    },
+    {
+      "start": 1425.07,
+      "duration": 1.67,
+      "text": "And if we were to fly--"
+    },
+    {
+      "start": 1426.74,
+      "duration": 0.78,
+      "text": "we don't have to."
+    },
+    {
+      "start": 1427.52,
+      "duration": 1.71,
+      "text": "This is not related\nto the actual heading"
+    },
+    {
+      "start": 1429.23,
+      "duration": 3.21,
+      "text": "of the aircraft-- but if we\nwere to fly basically north,"
+    },
+    {
+      "start": 1432.44,
+      "duration": 2.73,
+      "text": "we'd be going away from the VOR."
+    },
+    {
+      "start": 1435.17,
+      "duration": 0.56,
+      "text": "OK."
+    },
+    {
+      "start": 1435.73,
+      "duration": 1.74,
+      "text": "We're going to get\ninto this more."
+    },
+    {
+      "start": 1437.47,
+      "duration": 4.08,
+      "text": "The HSI down there offers\nyou the same information,"
+    },
+    {
+      "start": 1441.55,
+      "duration": 2.76,
+      "text": "but superimposed on the\naircraft's actual heading,"
+    },
+    {
+      "start": 1444.31,
+      "duration": 1.95,
+      "text": "which makes life a lot easier."
+    },
+    {
+      "start": 1446.26,
+      "duration": 0.57,
+      "text": "OK."
+    },
+    {
+      "start": 1446.83,
+      "duration": 2.17,
+      "text": "How do you test your VOR\nand know that it's actually"
+    },
+    {
+      "start": 1449.0,
+      "duration": 1.22,
+      "text": "going to work?"
+    },
+    {
+      "start": 1450.22,
+      "duration": 2.1,
+      "text": "There are these\nVOR test stations,"
+    },
+    {
+      "start": 1452.32,
+      "duration": 3.27,
+      "text": "or VOTs, test facilities."
+    },
+    {
+      "start": 1455.59,
+      "duration": 4.02,
+      "text": "If you can remember\nCessna 182, every VOT"
+    },
+    {
+      "start": 1459.61,
+      "duration": 2.82,
+      "text": "puts out the same signal,\nand what you should see"
+    },
+    {
+      "start": 1462.43,
+      "duration": 3.72,
+      "text": "is an indication of\n2 when you dial up,"
+    },
+    {
+      "start": 1466.15,
+      "duration": 2.28,
+      "text": "and it should be centered\non the 180 radial."
+    },
+    {
+      "start": 1468.43,
+      "duration": 1.93,
+      "text": "So that's how you know\nif your VOR is working."
+    },
+    {
+      "start": 1470.36,
+      "duration": 2.0,
+      "text": "If you're going to use\nit for instrument flight,"
+    },
+    {
+      "start": 1472.36,
+      "duration": 2.08,
+      "text": "you have to test\nthem every 30 days."
+    },
+    {
+      "start": 1474.44,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 1474.94,
+      "duration": 1.51,
+      "text": "Let's have a look."
+    },
+    {
+      "start": 1476.45,
+      "duration": 2.0,
+      "text": "You're going to probably\nhave to study and think"
+    },
+    {
+      "start": 1478.45,
+      "duration": 2.88,
+      "text": "about this a little\nbit more at home."
+    },
+    {
+      "start": 1481.33,
+      "duration": 2.49,
+      "text": "But one easy way\nto think about this"
+    },
+    {
+      "start": 1483.82,
+      "duration": 3.75,
+      "text": "is to build yourself\na virtual HSI."
+    },
+    {
+      "start": 1487.57,
+      "duration": 7.29,
+      "text": "So if you see a test question,\nand it shows the indicator set"
+    },
+    {
+      "start": 1494.86,
+      "duration": 4.14,
+      "text": "up to tune to like\nthe 030 radial,"
+    },
+    {
+      "start": 1499.0,
+      "duration": 2.79,
+      "text": "just draw a little airplane or\nimagine an airplane actually"
+    },
+    {
+      "start": 1501.79,
+      "duration": 3.54,
+      "text": "heading northeast\non a 030 heading."
+    },
+    {
+      "start": 1505.33,
+      "duration": 6.05,
+      "text": "So you can see this\nairplane at left, this one,"
+    },
+    {
+      "start": 1511.38,
+      "duration": 6.21,
+      "text": "it's showing that the 030 radial\nis to the right of the wing,"
+    },
+    {
+      "start": 1517.59,
+      "duration": 1.76,
+      "text": "assuming we were\nactually heading 030,"
+    },
+    {
+      "start": 1519.35,
+      "duration": 3.76,
+      "text": "and that we're going vaguely\ntowards the VOR because the To"
+    },
+    {
+      "start": 1523.11,
+      "duration": 2.01,
+      "text": "flag is set up."
+    },
+    {
+      "start": 1525.12,
+      "duration": 3.99,
+      "text": "Over here, it's the same,\nbut it's the From flag."
+    },
+    {
+      "start": 1529.11,
+      "duration": 5.34,
+      "text": "Over here on the right, we've\ngot the radial off to our left,"
+    },
+    {
+      "start": 1534.45,
+      "duration": 3.99,
+      "text": "and we're going From\nthe VOR over here."
+    },
+    {
+      "start": 1538.44,
+      "duration": 3.72,
+      "text": "Again, the radial's to our\nleft and we're going To."
+    },
+    {
+      "start": 1542.16,
+      "duration": 3.94,
+      "text": "So just let that\nsink in a little bit."
+    },
+    {
+      "start": 1546.1,
+      "duration": 2.88,
+      "text": "I think I'm going to show you\nan FAA written test question,"
+    },
+    {
+      "start": 1548.98,
+      "duration": 1.62,
+      "text": "so you just know."
+    },
+    {
+      "start": 1550.6,
+      "duration": 6.34,
+      "text": "It says, the VOR's turned\nto the Elizabeth City VOR."
+    },
+    {
+      "start": 1556.94,
+      "duration": 1.71,
+      "text": "That, I believe, is right over--"
+    },
+    {
+      "start": 1558.65,
+      "duration": 5.26,
+      "text": "if you want to know the\nvalue of a marketing degree,"
+    },
+    {
+      "start": 1563.91,
+      "duration": 2.94,
+      "text": "this Elizabeth City is\nright next to a big place"
+    },
+    {
+      "start": 1566.85,
+      "duration": 3.57,
+      "text": "called the Dismal Swamp,\nthe Dismal Swamp Park."
+    },
+    {
+      "start": 1570.42,
+      "duration": 2.76,
+      "text": "Anyway, so if you're anywhere\nnear the Dismal Swamp,"
+    },
+    {
+      "start": 1573.18,
+      "duration": 4.01,
+      "text": "and you want to go visit,\nand you're at Elizabeth City,"
+    },
+    {
+      "start": 1577.19,
+      "duration": 1.12,
+      "text": "tune to the VOR."
+    },
+    {
+      "start": 1578.31,
+      "duration": 2.73,
+      "text": "It says the aircraft is\npositioned over Shawboro."
+    },
+    {
+      "start": 1581.04,
+      "duration": 1.71,
+      "text": "One of the hardest\nthings about this"
+    },
+    {
+      "start": 1582.75,
+      "duration": 1.68,
+      "text": "is finding Shawboro on the map."
+    },
+    {
+      "start": 1584.43,
+      "duration": 1.92,
+      "text": "But I've drawn it there for you."
+    },
+    {
+      "start": 1586.35,
+      "duration": 2.22,
+      "text": "So we're northeast\nof the VOR, and it"
+    },
+    {
+      "start": 1588.57,
+      "duration": 5.57,
+      "text": "says, which VOR indication is\ncorrect, 2 which is at the top"
+    },
+    {
+      "start": 1594.14,
+      "duration": 1.61,
+      "text": "there, 8 or 9 on the bottom?"
+    },
+    {
+      "start": 1595.75,
+      "duration": 1.49,
+      "text": "What do you guys think?"
+    },
+    {
+      "start": 1597.24,
+      "duration": 4.25,
+      "text": "So we're northeast of Shawboro."
+    },
+    {
+      "start": 1613.41,
+      "duration": 3.3,
+      "text": "Who wants to vote for 2?"
+    },
+    {
+      "start": 1616.71,
+      "duration": 2.57,
+      "text": "210 from."
+    },
+    {
+      "start": 1619.28,
+      "duration": 0.5,
+      "text": "Nobody?"
+    },
+    {
+      "start": 1619.78,
+      "duration": 1.8,
+      "text": "Who wants to vote for 8?"
+    },
+    {
+      "start": 1621.58,
+      "duration": 5.08,
+      "text": "That's 0302."
+    },
+    {
+      "start": 1626.66,
+      "duration": 2.71,
+      "text": "Who wants to vote for 9?"
+    },
+    {
+      "start": 1629.37,
+      "duration": 0.59,
+      "text": "A few hands?"
+    },
+    {
+      "start": 1632.53,
+      "duration": 2.39,
+      "text": "Yay."
+    },
+    {
+      "start": 1634.92,
+      "duration": 0.5,
+      "text": "OK."
+    },
+    {
+      "start": 1635.42,
+      "duration": 2.2,
+      "text": "So basically, we're\nright on the radial."
+    },
+    {
+      "start": 1637.62,
+      "duration": 2.97,
+      "text": "So Shawboro, you can\nsee here at the end"
+    },
+    {
+      "start": 1640.59,
+      "duration": 6.15,
+      "text": "of the arrow, it is, I think,\nthat actually might say--"
+    },
+    {
+      "start": 1646.74,
+      "duration": 1.58,
+      "text": "I don't know what\nthat says, actually."
+    },
+    {
+      "start": 1648.32,
+      "duration": 1.17,
+      "text": "I have no idea."
+    },
+    {
+      "start": 1649.49,
+      "duration": 2.95,
+      "text": "10, 20, 30, yeah, it's\nright there at the 30."
+    },
+    {
+      "start": 1652.44,
+      "duration": 0.5,
+      "text": "OK."
+    },
+    {
+      "start": 1652.94,
+      "duration": 2.62,
+      "text": "So it's definitely\non the 030 radial,"
+    },
+    {
+      "start": 1655.56,
+      "duration": 3.27,
+      "text": "which is also the 210\nradial, the reciprocal."
+    },
+    {
+      "start": 1658.83,
+      "duration": 3.86,
+      "text": "I mean, this is not a\ntotally trivial question."
+    },
+    {
+      "start": 1662.69,
+      "duration": 2.82,
+      "text": "But if we were to fly\n210, we would be going To."
+    },
+    {
+      "start": 1665.51,
+      "duration": 1.12,
+      "text": "The flag should be To."
+    },
+    {
+      "start": 1666.63,
+      "duration": 1.85,
+      "text": "If we were actually\nflying southwest,"
+    },
+    {
+      "start": 1668.48,
+      "duration": 3.12,
+      "text": "we'd be heading towards the\nVOR, so it should be a To flag."
+    },
+    {
+      "start": 1671.6,
+      "duration": 5.18,
+      "text": "If we're flying away from\nthe VOR, further out on 030,"
+    },
+    {
+      "start": 1676.78,
+      "duration": 3.28,
+      "text": "and it should be a From\nflag which is not an 8,"
+    },
+    {
+      "start": 1680.06,
+      "duration": 3.09,
+      "text": "and this one is the only one\nthat's consistent because if we"
+    },
+    {
+      "start": 1683.15,
+      "duration": 5.2,
+      "text": "actually were to fly 030, we'd\nbe going away from the VOR."
+    },
+    {
+      "start": 1688.35,
+      "duration": 2.19,
+      "text": "Don't sweat it if\nyou haven't got it."
+    },
+    {
+      "start": 1690.54,
+      "duration": 2.61,
+      "text": "There is actually\na cool simulator"
+    },
+    {
+      "start": 1693.15,
+      "duration": 2.31,
+      "text": "in Adobe Flash which\nwas actually cool"
+    },
+    {
+      "start": 1695.46,
+      "duration": 3.24,
+      "text": "when you guys were born."
+    },
+    {
+      "start": 1698.7,
+      "duration": 7.01,
+      "text": "And AOPA, also, I have linked\nhere to the Airplane Owners"
+    },
+    {
+      "start": 1705.71,
+      "duration": 1.83,
+      "text": "and Pilots Association,\nthe big lobbying"
+    },
+    {
+      "start": 1707.54,
+      "duration": 2.49,
+      "text": "group for private aviation."
+    },
+    {
+      "start": 1710.03,
+      "duration": 2.11,
+      "text": "They have a list of--"
+    },
+    {
+      "start": 1712.14,
+      "duration": 1.75,
+      "text": "I don't think they're\nfree, unfortunately."
+    },
+    {
+      "start": 1713.89,
+      "duration": 1.57,
+      "text": "That web simulator is free."
+    },
+    {
+      "start": 1715.46,
+      "duration": 1.38,
+      "text": "But there's little\nsimulators you"
+    },
+    {
+      "start": 1716.84,
+      "duration": 1.64,
+      "text": "can get on your phone for VORs."
+    },
+    {
+      "start": 1718.47,
+      "duration": 1.38,
+      "text": "That used to be\nreally important."
+    },
+    {
+      "start": 1719.85,
+      "duration": 2.54,
+      "text": "I mean, GPS is now more\nimportant, basically."
+    },
+    {
+      "start": 1722.39,
+      "duration": 5.07,
+      "text": "It was a 1973 US military idea."
+    },
+    {
+      "start": 1727.46,
+      "duration": 3.84,
+      "text": "If you just broadcast\nthe time and the position"
+    },
+    {
+      "start": 1731.3,
+      "duration": 3.79,
+      "text": "of a bunch of satellites\nfrom the satellites,"
+    },
+    {
+      "start": 1735.09,
+      "duration": 2.87,
+      "text": "then the receiver\ncan see how long"
+    },
+    {
+      "start": 1737.96,
+      "duration": 2.67,
+      "text": "did it take to get\nfrom the satellite"
+    },
+    {
+      "start": 1740.63,
+      "duration": 1.56,
+      "text": "to where the receiver is."
+    },
+    {
+      "start": 1742.19,
+      "duration": 4.59,
+      "text": "So if you think about it, let's\nsay one of the transmitters"
+    },
+    {
+      "start": 1746.78,
+      "duration": 1.99,
+      "text": "is by that exit sign."
+    },
+    {
+      "start": 1748.77,
+      "duration": 2.63,
+      "text": "So if I know my distance\nfrom the exit sign,"
+    },
+    {
+      "start": 1751.4,
+      "duration": 2.94,
+      "text": "that puts me on a sphere\nof uncertainty, right?"
+    },
+    {
+      "start": 1754.34,
+      "duration": 2.37,
+      "text": "I could be up in the ceiling."
+    },
+    {
+      "start": 1756.71,
+      "duration": 2.67,
+      "text": "I could be down on\nthe first floor."
+    },
+    {
+      "start": 1759.38,
+      "duration": 2.22,
+      "text": "I could be in a lot\nof different places,"
+    },
+    {
+      "start": 1761.6,
+      "duration": 1.32,
+      "text": "as long as I know that I'm--"
+    },
+    {
+      "start": 1762.92,
+      "duration": 3.84,
+      "text": "let's call it 30 feet\nfrom the exit sign."
+    },
+    {
+      "start": 1766.76,
+      "duration": 0.63,
+      "text": "OK."
+    },
+    {
+      "start": 1767.39,
+      "duration": 2.58,
+      "text": "Well, that's not great\nbecause I'm still pretty"
+    },
+    {
+      "start": 1769.97,
+      "duration": 1.8,
+      "text": "uncertain about where I am."
+    },
+    {
+      "start": 1771.77,
+      "duration": 2.64,
+      "text": "But how about if there's\nanother transmitter"
+    },
+    {
+      "start": 1774.41,
+      "duration": 3.48,
+      "text": "in that corner of the room,\nthat gives me a second sphere."
+    },
+    {
+      "start": 1777.89,
+      "duration": 3.99,
+      "text": "Two spheres will intersect\nin a circle, I believe."
+    },
+    {
+      "start": 1781.88,
+      "duration": 2.39,
+      "text": "So now we have a\ncircle of uncertainty."
+    },
+    {
+      "start": 1784.27,
+      "duration": 2.08,
+      "text": "And we pick up another\ntransmitter maybe somewhere"
+    },
+    {
+      "start": 1786.35,
+      "duration": 0.82,
+      "text": "over there."
+    },
+    {
+      "start": 1787.17,
+      "duration": 2.9,
+      "text": "So the more\nsatellites we can see,"
+    },
+    {
+      "start": 1790.07,
+      "duration": 2.01,
+      "text": "the more intersecting\nspheres we have,"
+    },
+    {
+      "start": 1792.08,
+      "duration": 3.93,
+      "text": "and eventually, we'll get down\nto a very small little area"
+    },
+    {
+      "start": 1796.01,
+      "duration": 1.68,
+      "text": "of uncertainty, indeed."
+    },
+    {
+      "start": 1797.69,
+      "duration": 1.26,
+      "text": "So that's how GPS works."
+    },
+    {
+      "start": 1798.95,
+      "duration": 4.11,
+      "text": "You just rely on the fact that\nthe speed of light is constant."
+    },
+    {
+      "start": 1803.06,
+      "duration": 4.08,
+      "text": "If you know the distance to\neach of a bunch of satellites,"
+    },
+    {
+      "start": 1807.14,
+      "duration": 2.16,
+      "text": "and you know where they\nare, then at that point,"
+    },
+    {
+      "start": 1809.3,
+      "duration": 0.96,
+      "text": "you know where you are."
+    },
+    {
+      "start": 1813.65,
+      "duration": 4.92,
+      "text": "The 32 satellites,\nas of 2016, were up."
+    },
+    {
+      "start": 1818.57,
+      "duration": 1.9,
+      "text": "31 were in use."
+    },
+    {
+      "start": 1820.47,
+      "duration": 2.53,
+      "text": "You can always see five."
+    },
+    {
+      "start": 1823.0,
+      "duration": 4.69,
+      "text": "For IFR, the idea is to\ntry to get some redundancy."
+    },
+    {
+      "start": 1831.6,
+      "duration": 2.7,
+      "text": "There are some tweaks\nto that system."
+    },
+    {
+      "start": 1834.3,
+      "duration": 2.31,
+      "text": "I think what I just\ndescribed would work really"
+    },
+    {
+      "start": 1836.61,
+      "duration": 3.15,
+      "text": "well in outer space where\nthere's no atmosphere"
+    },
+    {
+      "start": 1839.76,
+      "duration": 2.64,
+      "text": "to bend or distort any\nof the radio signals."
+    },
+    {
+      "start": 1842.4,
+      "duration": 3.12,
+      "text": "But there is a certain amount\nof distortion that happens,"
+    },
+    {
+      "start": 1845.52,
+      "duration": 3.83,
+      "text": "and there are these\nground-based reference stations."
+    },
+    {
+      "start": 1849.35,
+      "duration": 1.66,
+      "text": "So you know exactly\nwhere they are."
+    },
+    {
+      "start": 1851.01,
+      "duration": 2.16,
+      "text": "They don't move."
+    },
+    {
+      "start": 1853.17,
+      "duration": 1.57,
+      "text": "And they listen to the signals."
+    },
+    {
+      "start": 1854.74,
+      "duration": 1.96,
+      "text": "And they try to figure\nout how much error there"
+    },
+    {
+      "start": 1856.7,
+      "duration": 1.96,
+      "text": "is as a result of\nthe signals traveling"
+    },
+    {
+      "start": 1858.66,
+      "duration": 2.46,
+      "text": "through the atmosphere\nat that location."
+    },
+    {
+      "start": 1861.12,
+      "duration": 3.57,
+      "text": "Those corrections are then\npushed back up into space"
+    },
+    {
+      "start": 1864.69,
+      "duration": 1.74,
+      "text": "and sent back down\nfrom the satellites"
+    },
+    {
+      "start": 1866.43,
+      "duration": 1.53,
+      "text": "to ordinary receivers."
+    },
+    {
+      "start": 1867.96,
+      "duration": 4.98,
+      "text": "And with those corrections,\nyou can become really accurate."
+    },
+    {
+      "start": 1872.94,
+      "duration": 2.4,
+      "text": "You can get accurate\nenough to actually fly"
+    },
+    {
+      "start": 1875.34,
+      "duration": 1.59,
+      "text": "down right towards the runway."
+    },
+    {
+      "start": 1876.93,
+      "duration": 6.03,
+      "text": "So the GPS system which launched\nin the mid-'90s, that enabled"
+    },
+    {
+      "start": 1882.96,
+      "duration": 1.92,
+      "text": "the moving map, and you\nnever were lost again."
+    },
+    {
+      "start": 1884.88,
+      "duration": 2.05,
+      "text": "You always knew where you were."
+    },
+    {
+      "start": 1886.93,
+      "duration": 1.73,
+      "text": "But the WAAS system\nis what enables"
+    },
+    {
+      "start": 1888.66,
+      "duration": 3.94,
+      "text": "these GPS approaches where\nyou navigate in 3D to within--"
+    },
+    {
+      "start": 1892.6,
+      "duration": 2.33,
+      "text": "I don't know-- 10 feet or\nsomething of precision,"
+    },
+    {
+      "start": 1894.93,
+      "duration": 1.46,
+      "text": "right down to the runway."
+    },
+    {
+      "start": 1896.39,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 1896.89,
+      "duration": 1.46,
+      "text": "What does it look\nlike in practice?"
+    },
+    {
+      "start": 1898.35,
+      "duration": 2.01,
+      "text": "This is the pilot's view."
+    },
+    {
+      "start": 1900.36,
+      "duration": 2.34,
+      "text": "This is a modern Garmin 750."
+    },
+    {
+      "start": 1902.7,
+      "duration": 3.78,
+      "text": "It's a single box that\nactually has three sub boxes,"
+    },
+    {
+      "start": 1906.48,
+      "duration": 5.11,
+      "text": "and the sub boxes are\nthe GPS, a nav radio,"
+    },
+    {
+      "start": 1911.59,
+      "duration": 4.47,
+      "text": "which lets you tune up VORs\nand instrument landing system"
+    },
+    {
+      "start": 1916.06,
+      "duration": 1.06,
+      "text": "for approaching a runway."
+    },
+    {
+      "start": 1917.12,
+      "duration": 1.92,
+      "text": "Tina may talk about that\na little bit tomorrow"
+    },
+    {
+      "start": 1919.04,
+      "duration": 4.31,
+      "text": "in a little IFR intro,\nand also a com radio,"
+    },
+    {
+      "start": 1923.35,
+      "duration": 1.68,
+      "text": "And they actually, I\nthink they actually"
+    },
+    {
+      "start": 1925.03,
+      "duration": 1.99,
+      "text": "have three separate\npower supplies."
+    },
+    {
+      "start": 1927.02,
+      "duration": 2.73,
+      "text": "So there's a\nconnection to the box,"
+    },
+    {
+      "start": 1929.74,
+      "duration": 2.1,
+      "text": "maybe for power,\nbut after that you"
+    },
+    {
+      "start": 1931.84,
+      "duration": 3.45,
+      "text": "can have tremendous amount\nof failure inside the box"
+    },
+    {
+      "start": 1935.29,
+      "duration": 6.24,
+      "text": "and still have a subset\nof the functions working."
+    },
+    {
+      "start": 1941.53,
+      "duration": 2.01,
+      "text": "I guess if the\nscreen fails, you're"
+    },
+    {
+      "start": 1943.54,
+      "duration": 4.92,
+      "text": "out of luck, which is why every\nIFR certified airplane that I"
+    },
+    {
+      "start": 1948.46,
+      "duration": 4.14,
+      "text": "know of that's newish has a\nsecond one of these, usually"
+    },
+    {
+      "start": 1952.6,
+      "duration": 3.78,
+      "text": "smaller, a Garmin 650,\nwhich is physically smaller."
+    },
+    {
+      "start": 1956.38,
+      "duration": 3.18,
+      "text": "The Garmin G1000,\nit's even bigger."
+    },
+    {
+      "start": 1959.56,
+      "duration": 2.28,
+      "text": "It's on this huge\nmultifunction display."
+    },
+    {
+      "start": 1961.84,
+      "duration": 2.31,
+      "text": "If that fails, you can\nswap all the information"
+    },
+    {
+      "start": 1964.15,
+      "duration": 4.0,
+      "text": "over to the primary flight\ndisplay or vice versa."
+    },
+    {
+      "start": 1968.15,
+      "duration": 3.08,
+      "text": "So that just gives you\na little view to it."
+    },
+    {
+      "start": 1971.23,
+      "duration": 4.13,
+      "text": "Here's your com\nradio on the G1000,"
+    },
+    {
+      "start": 1975.36,
+      "duration": 2.4,
+      "text": "and here's your nav radio,\nand see, it's even identified."
+    },
+    {
+      "start": 1977.76,
+      "duration": 2.58,
+      "text": "The VORs put out a\nMorse code signal,"
+    },
+    {
+      "start": 1980.35,
+      "duration": 1.38,
+      "text": "and the Garmin\nhas listened to it"
+    },
+    {
+      "start": 1981.72,
+      "duration": 6.54,
+      "text": "and identified it as the\nPPG VOR, the FJR VOR."
+    },
+    {
+      "start": 1988.26,
+      "duration": 1.23,
+      "text": "All right."
+    },
+    {
+      "start": 1989.49,
+      "duration": 3.66,
+      "text": "The G1000, actually, this is\none of the worst human factors"
+    },
+    {
+      "start": 1993.15,
+      "duration": 2.19,
+      "text": "design I think I've ever seen."
+    },
+    {
+      "start": 1995.34,
+      "duration": 1.56,
+      "text": "Wonder who else\ncan identify this."
+    },
+    {
+      "start": 1996.9,
+      "duration": 5.55,
+      "text": "Like what is truly\nterrible about this design?"
+    },
+    {
+      "start": 2002.45,
+      "duration": 1.5,
+      "text": "I'll give you a hint."
+    },
+    {
+      "start": 2003.95,
+      "duration": 2.37,
+      "text": "Well, there's the all the\nengine instruments on the left"
+    },
+    {
+      "start": 2006.32,
+      "duration": 2.46,
+      "text": "there too."
+    },
+    {
+      "start": 2008.78,
+      "duration": 5.7,
+      "text": "So what kind of pretty common\nfailure, accident causing"
+    },
+    {
+      "start": 2014.48,
+      "duration": 2.7,
+      "text": "failure, does this really\nnot help you prevent?"
+    },
+    {
+      "start": 2021.56,
+      "duration": 3.06,
+      "text": "Electrical-- that's\nnot very common."
+    },
+    {
+      "start": 2024.62,
+      "duration": 3.3,
+      "text": "And I'll tell you that most\nairplanes that have an accident"
+    },
+    {
+      "start": 2027.92,
+      "duration": 3.75,
+      "text": "are in perfect mechanical,\nelectrical, and sheet metal"
+    },
+    {
+      "start": 2031.67,
+      "duration": 2.42,
+      "text": "condition."
+    },
+    {
+      "start": 2034.09,
+      "duration": 1.08,
+      "text": "AUDIENCE: Fuel starvation?"
+    },
+    {
+      "start": 2035.17,
+      "duration": 1.75,
+      "text": "PHILIP GREENSPUN:\nFuel starvation."
+    },
+    {
+      "start": 2036.92,
+      "duration": 3.3,
+      "text": "Yeah, like your\nbattery, your amps."
+    },
+    {
+      "start": 2040.22,
+      "duration": 3.24,
+      "text": "I mean, basically, fuel\nis given the same status"
+    },
+    {
+      "start": 2043.46,
+      "duration": 1.56,
+      "text": "as all of this stuff."
+    },
+    {
+      "start": 2045.02,
+      "duration": 2.04,
+      "text": "Fuel is almost always relevant."
+    },
+    {
+      "start": 2047.06,
+      "duration": 3.03,
+      "text": "And this other stuff is\nalmost never relevant."
+    },
+    {
+      "start": 2050.09,
+      "duration": 0.9,
+      "text": "And here it is."
+    },
+    {
+      "start": 2050.99,
+      "duration": 1.08,
+      "text": "It's small."
+    },
+    {
+      "start": 2052.07,
+      "duration": 1.71,
+      "text": "As you run out of\nfuel, as you get really"
+    },
+    {
+      "start": 2053.78,
+      "duration": 1.88,
+      "text": "down into the red zone,\ndoes this thing grow?"
+    },
+    {
+      "start": 2055.66,
+      "duration": 2.5,
+      "text": "You think it would grow to\nconsume half of the display."
+    },
+    {
+      "start": 2058.16,
+      "duration": 2.77,
+      "text": "But It doesn't do\nanything like that."
+    },
+    {
+      "start": 2060.93,
+      "duration": 2.54,
+      "text": "So I think it's a\nterrible, terrible design,"
+    },
+    {
+      "start": 2063.47,
+      "duration": 4.19,
+      "text": "and aviation really\nneeds some help."
+    },
+    {
+      "start": 2067.66,
+      "duration": 2.51,
+      "text": "Avidyne is a little better, I\nthink, on the user interface."
+    },
+    {
+      "start": 2070.17,
+      "duration": 3.29,
+      "text": "This is kind of a legacy\nsystem from the Cirrus."
+    },
+    {
+      "start": 2081.4,
+      "duration": 1.84,
+      "text": "This is NEXRAD\ndata link weather."
+    },
+    {
+      "start": 2083.24,
+      "duration": 1.96,
+      "text": "We're going to talk about\nthat in a little bit."
+    },
+    {
+      "start": 2087.51,
+      "duration": 2.15,
+      "text": "Here is just a little\nthing about navigation."
+    },
+    {
+      "start": 2089.66,
+      "duration": 2.13,
+      "text": "If you're going anywhere\nnear the DC area,"
+    },
+    {
+      "start": 2091.79,
+      "duration": 2.52,
+      "text": "either get your instrument\nrating and file IFR,"
+    },
+    {
+      "start": 2094.31,
+      "duration": 2.07,
+      "text": "and then it becomes\nlike everywhere else,"
+    },
+    {
+      "start": 2096.38,
+      "duration": 3.93,
+      "text": "or you have to take this\nonline course at some point"
+    },
+    {
+      "start": 2100.31,
+      "duration": 2.64,
+      "text": "and learn about the special\nrules in the DC area."
+    },
+    {
+      "start": 2102.95,
+      "duration": 2.13,
+      "text": "They're not that hard to\ngo down to Gaithersburg."
+    },
+    {
+      "start": 2105.08,
+      "duration": 1.08,
+      "text": "You have to VFR."
+    },
+    {
+      "start": 2106.16,
+      "duration": 2.13,
+      "text": "You have to go in\nfrom certain gates."
+    },
+    {
+      "start": 2108.29,
+      "duration": 1.98,
+      "text": "You have to file a\nflight plan in advance,"
+    },
+    {
+      "start": 2110.27,
+      "duration": 3.27,
+      "text": "and you have to keep a unique\ntransponder code so that air"
+    },
+    {
+      "start": 2113.54,
+      "duration": 2.73,
+      "text": "traffic control can track you."
+    },
+    {
+      "start": 2116.27,
+      "duration": 3.9,
+      "text": "So if you have any brilliant\nideas for how folks in DC"
+    },
+    {
+      "start": 2120.17,
+      "duration": 2.28,
+      "text": "could do things\nbetter, you can just"
+    },
+    {
+      "start": 2122.45,
+      "duration": 2.67,
+      "text": "get in a little Piper\nor Cessna or Cirrus"
+    },
+    {
+      "start": 2125.12,
+      "duration": 2.94,
+      "text": "at Hanscom, zip down\nto Gaithersburg,"
+    },
+    {
+      "start": 2128.06,
+      "duration": 1.32,
+      "text": "and there you are."
+    },
+    {
+      "start": 2129.38,
+      "duration": 0.84,
+      "text": "All right."
+    },
+    {
+      "start": 2130.22,
+      "duration": 1.77,
+      "text": "After the navigation\nmistakes, so"
+    },
+    {
+      "start": 2131.99,
+      "duration": 2.37,
+      "text": "let's say you bust into\nclass Bravo airspace"
+    },
+    {
+      "start": 2134.36,
+      "duration": 6.03,
+      "text": "without a clearance, or\ndo something else that you"
+    },
+    {
+      "start": 2140.39,
+      "duration": 1.83,
+      "text": "shouldn't have done."
+    },
+    {
+      "start": 2142.22,
+      "duration": 3.23,
+      "text": "The FAA and NASA are really\nnot there to bust you."
+    },
+    {
+      "start": 2145.45,
+      "duration": 1.75,
+      "text": "There's this special\nform you can fill out"
+    },
+    {
+      "start": 2147.2,
+      "duration": 1.89,
+      "text": "where you if you\nwrite down what you"
+    },
+    {
+      "start": 2149.09,
+      "duration": 2.49,
+      "text": "did, why you did it,\nhow you think things"
+    },
+    {
+      "start": 2151.58,
+      "duration": 1.2,
+      "text": "could be improved--"
+    },
+    {
+      "start": 2152.78,
+      "duration": 1.56,
+      "text": "maybe it was a user\ninterface issue."
+    },
+    {
+      "start": 2154.34,
+      "duration": 2.58,
+      "text": "Maybe somebody else was\nusing the airplane before you"
+    },
+    {
+      "start": 2156.92,
+      "duration": 2.91,
+      "text": "and turned off all\nthe airspace alerts."
+    },
+    {
+      "start": 2159.83,
+      "duration": 2.25,
+      "text": "You just fill out this\nform and mail it in,"
+    },
+    {
+      "start": 2162.08,
+      "duration": 4.56,
+      "text": "and that limits the\namount of discipline"
+    },
+    {
+      "start": 2166.64,
+      "duration": 1.8,
+      "text": "that they can subject you to."
+    },
+    {
+      "start": 2168.44,
+      "duration": 2.91,
+      "text": "I mean it doesn't protect you\nfrom intentional violations."
+    },
+    {
+      "start": 2171.35,
+      "duration": 0.69,
+      "text": "All right."
+    },
+    {
+      "start": 2172.04,
+      "duration": 1.65,
+      "text": "Here's a summary."
+    },
+    {
+      "start": 2173.69,
+      "duration": 4.83,
+      "text": "Pilotage, NDBs, VOR, and GPS."
+    },
+    {
+      "start": 2178.52,
+      "duration": 1.23,
+      "text": "That was the progression."
+    },
+    {
+      "start": 2179.75,
+      "duration": 5.73,
+      "text": "You've seen, now, 100 years\nof aviation navigation."
+    },
+    {
+      "start": 2185.48,
+      "duration": 2.04,
+      "text": "Actually, one thing\nthat I hope this does"
+    },
+    {
+      "start": 2187.52,
+      "duration": 2.19,
+      "text": "is give you a new\nappreciation for some"
+    },
+    {
+      "start": 2189.71,
+      "duration": 4.23,
+      "text": "of the achievements of people\nwho flew around the world"
+    },
+    {
+      "start": 2193.94,
+      "duration": 2.55,
+      "text": "in the '60s or the '50s."
+    },
+    {
+      "start": 2196.49,
+      "duration": 2.37,
+      "text": "There's a woman, Jerrie\nMock, I think, is her name."
+    },
+    {
+      "start": 2198.86,
+      "duration": 0.93,
+      "text": "A great book."
+    },
+    {
+      "start": 2199.79,
+      "duration": 3.9,
+      "text": "She flew a Cessna tail dragger\naround the world in the 1960s."
+    },
+    {
+      "start": 2203.69,
+      "duration": 1.89,
+      "text": "And she was often lost."
+    },
+    {
+      "start": 2205.58,
+      "duration": 2.82,
+      "text": "She'd be over the ocean\nwith icing on her wings."
+    },
+    {
+      "start": 2208.4,
+      "duration": 4.26,
+      "text": "She would be having to track\nNDBs in Egypt or whatever."
+    },
+    {
+      "start": 2212.66,
+      "duration": 2.59,
+      "text": "So all of that stuff has\ngotten so much easier,"
+    },
+    {
+      "start": 2215.25,
+      "duration": 1.24,
+      "text": "it's almost not fair."
+    },
+    {
+      "start": 2216.49,
+      "duration": 1.33,
+      "text": "And you've got these data links."
+    },
+    {
+      "start": 2217.82,
+      "duration": 1.5,
+      "text": "So we can't compare\nour achievements"
+    },
+    {
+      "start": 2219.32,
+      "duration": 2.46,
+      "text": "to the achievements\nof pilots or the risks"
+    },
+    {
+      "start": 2221.78,
+      "duration": 2.1,
+      "text": "that we're taking to\nthe risks that folks"
+    },
+    {
+      "start": 2223.88,
+      "duration": 1.27,
+      "text": "were taking in the old days."
+    },
+    {
+      "start": 2225.15,
+      "duration": 2.45,
+      "text": "They didn't have EPIRBs\nif they went in the water."
+    },
+    {
+      "start": 2227.6,
+      "duration": 2.81,
+      "text": "They didn't have moving maps."
+    },
+    {
+      "start": 2230.41,
+      "duration": 4.15,
+      "text": "So they just didn't know where\nthey were most of the time."
+    },
+    {
+      "start": 2234.56,
+      "duration": 2.1,
+      "text": "They had a vague idea."
+    },
+    {
+      "start": 2236.66,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 2237.16,
+      "duration": 2.59,
+      "text": "So this is for Francis."
+    },
+    {
+      "start": 2239.75,
+      "duration": 3.37,
+      "text": "This is a quote from Captain\nSully's book, the single pilot"
+    },
+    {
+      "start": 2243.12,
+      "duration": 1.94,
+      "text": "Airbus hero, according\nto most of you."
+    },
+    {
+      "start": 2249.53,
+      "duration": 5.23,
+      "text": "So he's got a failed GPS and\na failed compass, Francis."
+    },
+    {
+      "start": 2254.76,
+      "duration": 3.87,
+      "text": "He says he could just keep\nVenus in the left front"
+    },
+    {
+      "start": 2258.63,
+      "duration": 3.72,
+      "text": "corner of the windshield, and\nwe would reach California."
+    },
+    {
+      "start": 2262.35,
+      "duration": 2.91,
+      "text": "What else could\nCaptain Sully have"
+    },
+    {
+      "start": 2265.26,
+      "duration": 2.85,
+      "text": "done as an alternative\nto using Venus?"
+    },
+    {
+      "start": 2274.12,
+      "duration": 0.75,
+      "text": "AUDIENCE: The sun?"
+    },
+    {
+      "start": 2274.87,
+      "duration": 0.34,
+      "text": "PHILIP GREENSPUN: The sun?"
+    },
+    {
+      "start": 2275.21,
+      "duration": 1.53,
+      "text": "Well, it's nighttime."
+    },
+    {
+      "start": 2280.25,
+      "duration": 0.5,
+      "text": "What?"
+    },
+    {
+      "start": 2280.75,
+      "duration": 1.05,
+      "text": "AUDIENCE: Polaris?"
+    },
+    {
+      "start": 2281.8,
+      "duration": 1.08,
+      "text": "PHILIP GREENSPUN: Polaris."
+    },
+    {
+      "start": 2282.88,
+      "duration": 2.13,
+      "text": "AUDIENCE: Follow Route 90?"
+    },
+    {
+      "start": 2285.01,
+      "duration": 2.18,
+      "text": "PHILIP GREENSPUN: Yes,\nactually, the helicopter"
+    },
+    {
+      "start": 2287.19,
+      "duration": 1.34,
+      "text": "follow an interstate highway."
+    },
+    {
+      "start": 2288.53,
+      "duration": 2.6,
+      "text": "That's a common\nhelicopter technique,"
+    },
+    {
+      "start": 2291.12,
+      "duration": 1.62,
+      "text": "probably because the\ninterstates always"
+    },
+    {
+      "start": 2292.75,
+      "duration": 2.2,
+      "text": "go through the lowest points."
+    },
+    {
+      "start": 2294.95,
+      "duration": 2.54,
+      "text": "How about this one?"
+    },
+    {
+      "start": 2297.49,
+      "duration": 2.94,
+      "text": "Request vectors SFO."
+    },
+    {
+      "start": 2300.43,
+      "duration": 2.28,
+      "text": "You could probably climb\nright out of Hanscom"
+    },
+    {
+      "start": 2302.71,
+      "duration": 1.86,
+      "text": "and call it Boston\napproach, and they would"
+    },
+    {
+      "start": 2304.57,
+      "duration": 1.67,
+      "text": "be happy to help at any time."
+    },
+    {
+      "start": 2306.24,
+      "duration": 1.47,
+      "text": "Actually, that is\na good question."
+    },
+    {
+      "start": 2307.71,
+      "duration": 3.76,
+      "text": "That's actually a good point\ninto crew resource management."
+    },
+    {
+      "start": 2311.47,
+      "duration": 2.61,
+      "text": "Don't try to be a\nsingle pilot hero."
+    },
+    {
+      "start": 2314.08,
+      "duration": 2.92,
+      "text": "Ideally, if it's a challenging\nflight, you've got a co-pilot,"
+    },
+    {
+      "start": 2317.0,
+      "duration": 1.58,
+      "text": "and even if you don't\nhave a co-pilot,"
+    },
+    {
+      "start": 2318.58,
+      "duration": 4.41,
+      "text": "you always have air traffic\ncontrol as another crew member."
+    },
+    {
+      "start": 2325.61,
+      "duration": 0.5,
+      "text": "All right."
+    },
+    {
+      "start": 2326.11,
+      "duration": 2.03,
+      "text": "Let's take a few questions."
+    },
+    {
+      "start": 2328.14,
+      "duration": 2.03,
+      "text": "Who's got questions\nabout navigation?"
+    },
+    {
+      "start": 2333.0,
+      "duration": 3.53,
+      "text": "AUDIENCE: In your\n[INAUDIBLE] use for GPS"
+    },
+    {
+      "start": 2336.53,
+      "duration": 2.12,
+      "text": "signal at certain altitude?"
+    },
+    {
+      "start": 2338.66,
+      "duration": 0.88,
+      "text": "PHILIP GREENSPUN: Ah."
+    },
+    {
+      "start": 2339.53,
+      "duration": 2.19,
+      "text": "So the question is,\ncan the airplane"
+    },
+    {
+      "start": 2341.72,
+      "duration": 5.44,
+      "text": "show you your true altitude\nbased on the GPS signal?"
+    },
+    {
+      "start": 2347.16,
+      "duration": 1.7,
+      "text": "And it's buried in there."
+    },
+    {
+      "start": 2348.86,
+      "duration": 3.03,
+      "text": "It can't be shown\non your altimeter"
+    },
+    {
+      "start": 2351.89,
+      "duration": 2.1,
+      "text": "in your primary flight display."
+    },
+    {
+      "start": 2353.99,
+      "duration": 3.87,
+      "text": "But you can dig it out\nof either a separated"
+    },
+    {
+      "start": 2357.86,
+      "duration": 7.41,
+      "text": "GPS like the Garmin 750 or\n430, or the integrated glass"
+    },
+    {
+      "start": 2365.27,
+      "duration": 1.22,
+      "text": "panels like the G1000."
+    },
+    {
+      "start": 2366.49,
+      "duration": 1.79,
+      "text": "AUDIENCE: Still the [INAUDIBLE]?"
+    },
+    {
+      "start": 2368.28,
+      "duration": 0.92,
+      "text": "PHILIP GREENSPUN: Yes."
+    },
+    {
+      "start": 2369.2,
+      "duration": 1.26,
+      "text": "What you're navigating\nfrom, how you're"
+    },
+    {
+      "start": 2370.46,
+      "duration": 1.53,
+      "text": "being separated\nfrom other aircraft,"
+    },
+    {
+      "start": 2371.99,
+      "duration": 3.1,
+      "text": "that's all based on\nthe static information."
+    },
+    {
+      "start": 2375.09,
+      "duration": 2.19,
+      "text": "But if you just want to\nsee, I know that mountain's"
+    },
+    {
+      "start": 2377.28,
+      "duration": 4.06,
+      "text": "8,000 feet high, I want to\nmake sure it says at least 8001"
+    },
+    {
+      "start": 2381.34,
+      "duration": 3.17,
+      "text": "for the actual altitude,\nyou can dig that out."
+    },
+    {
+      "start": 2384.51,
+      "duration": 3.17,
+      "text": "And I think the terrain\nwarning system will use that."
+    },
+    {
+      "start": 2387.68,
+      "duration": 1.67,
+      "text": "AUDIENCE: [INAUDIBLE]\nan older aircraft,"
+    },
+    {
+      "start": 2389.35,
+      "duration": 5.27,
+      "text": "does it have the\nGPS or [INAUDIBLE]??"
+    },
+    {
+      "start": 2394.62,
+      "duration": 1.42,
+      "text": "What are the rules\nand regulations"
+    },
+    {
+      "start": 2396.04,
+      "duration": 5.46,
+      "text": "about using GPS [INAUDIBLE]?"
+    },
+    {
+      "start": 2401.5,
+      "duration": 0.92,
+      "text": "PHILIP GREENSPUN: Yes."
+    },
+    {
+      "start": 2402.42,
+      "duration": 2.32,
+      "text": "I'll repeat the question\nback for the tape and anybody"
+    },
+    {
+      "start": 2404.74,
+      "duration": 2.93,
+      "text": "who didn't hear."
+    },
+    {
+      "start": 2407.67,
+      "duration": 9.82,
+      "text": "So this phone has more computing\npower and better design"
+    },
+    {
+      "start": 2417.49,
+      "duration": 4.71,
+      "text": "than everything inside a\nBoeing 747 or an Airbus A380."
+    },
+    {
+      "start": 2422.2,
+      "duration": 2.12,
+      "text": "In fact, I talked to\nsome Airbus A320 captains"
+    },
+    {
+      "start": 2424.32,
+      "duration": 2.08,
+      "text": "and they said they wanted\nto get rid of everything"
+    },
+    {
+      "start": 2426.4,
+      "duration": 2.55,
+      "text": "in the airplane except\nthe altitude indicator,"
+    },
+    {
+      "start": 2428.95,
+      "duration": 1.71,
+      "text": "and they just wanted\nto navigate off"
+    },
+    {
+      "start": 2430.66,
+      "duration": 2.34,
+      "text": "of an iPad running\na European app"
+    },
+    {
+      "start": 2433.0,
+      "duration": 3.21,
+      "text": "called Sky Demon, which is kind\nof like the American forefather"
+    },
+    {
+      "start": 2436.21,
+      "duration": 0.69,
+      "text": "of Garmin pilot."
+    },
+    {
+      "start": 2436.9,
+      "duration": 2.57,
+      "text": "They said, that would\nbe just way better,"
+    },
+    {
+      "start": 2439.47,
+      "duration": 3.01,
+      "text": "to just use the\niPad for everything."
+    },
+    {
+      "start": 2442.48,
+      "duration": 4.41,
+      "text": "So as a practical matter,\nin your ancient airplane"
+    },
+    {
+      "start": 2446.89,
+      "duration": 2.55,
+      "text": "that might not even have\nan electrical system, yes,"
+    },
+    {
+      "start": 2449.44,
+      "duration": 2.61,
+      "text": "of course, you can\nnavigate quite effectively"
+    },
+    {
+      "start": 2452.05,
+      "duration": 1.56,
+      "text": "with some battery-powered\nelectronics"
+    },
+    {
+      "start": 2453.61,
+      "duration": 3.53,
+      "text": "or portable electronics that\nyou stick around the aircraft."
+    },
+    {
+      "start": 2457.14,
+      "duration": 1.54,
+      "text": "And the interface\ncan be very good,"
+    },
+    {
+      "start": 2458.68,
+      "duration": 2.43,
+      "text": "and they have comprehensive\ndatabases of everything"
+    },
+    {
+      "start": 2461.11,
+      "duration": 1.62,
+      "text": "you'd want to know."
+    },
+    {
+      "start": 2462.73,
+      "duration": 3.81,
+      "text": "For legal purposes,\nand for practical ones,"
+    },
+    {
+      "start": 2466.54,
+      "duration": 3.69,
+      "text": "for instrument flying,\nyou have to have"
+    },
+    {
+      "start": 2470.23,
+      "duration": 2.73,
+      "text": "FAA certified stuff that's\nhardwired to the aircraft"
+    },
+    {
+      "start": 2472.96,
+      "duration": 1.41,
+      "text": "and it's in the panel."
+    },
+    {
+      "start": 2474.37,
+      "duration": 2.37,
+      "text": "And that makes sense\nbecause, think about it,"
+    },
+    {
+      "start": 2476.74,
+      "duration": 0.84,
+      "text": "your phone may die."
+    },
+    {
+      "start": 2477.58,
+      "duration": 1.39,
+      "text": "The battery may die."
+    },
+    {
+      "start": 2478.97,
+      "duration": 0.95,
+      "text": "So it's nice to have."
+    },
+    {
+      "start": 2479.92,
+      "duration": 1.71,
+      "text": "If you want to do an\ninstrument approach,"
+    },
+    {
+      "start": 2481.63,
+      "duration": 1.02,
+      "text": "for example, you're\ngoing to need"
+    },
+    {
+      "start": 2482.65,
+      "duration": 2.97,
+      "text": "to have something like-- even an\nexperimental airplane-- you've"
+    },
+    {
+      "start": 2485.62,
+      "duration": 2.46,
+      "text": "got to have one of those\ncertified, like a Garmin"
+    },
+    {
+      "start": 2488.08,
+      "duration": 2.27,
+      "text": "750 in there."
+    }
+  ]
+}
