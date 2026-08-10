@@ -184,18 +184,6 @@
   {
     "plt": "CA.I.A.K2",
     "category": "Pilot Qualifications",
-    "text": "In what type of operation, not regulated by 14 CFR Part 119, may a commercial pilot act as pilot in command and receive compensation for services? A Crop dustjng, spraying, and bird cbasin",
-    "options": {
-      "B": "On-demand, nine or less passengers, charter flights. co z.",
-      "C": "On-demand cargo flights."
-    },
-    "correct": "A",
-    "explanation": "FAR 119.1 Common carriage, on-demand, flag, and commuter operations must meet additional requirements described in FAR Parts 117,119,121,125,129,135, 136, and 137. FAR 119.1 lists specific operations not governed by AR Parts 121,125,135 tor Which the holder o a commercial pilot certificate may be paid. These operations include: Student instruction. Nonstop commercial air tours with specific restrictions listed in FAR 119.1. Ferry or training flights. Aerial work operations, including crop dusting, seeding, spraying, bird chasing, banner towing, aerial photography or survey, fire fighting, and powerline or pipeline patrol. Nonstop parachute operations within a 25 statute mile radius of the airport.",
-    "id": "1-16"
-  },
-  {
-    "plt": "CA.I.A.K2",
-    "category": "Pilot Qualifications",
     "text": "Which is true with respect to operating limitations of a \"restricted\" category airplane?",
     "options": {
       "A": "No person may operate a \"restricted\" category airplane carrying passengers or property for compensation or hire.",
@@ -352,18 +340,6 @@
   {
     "plt": "CA.I.A.K1",
     "category": "Pilot Qualifications",
-    "text": "What flight time may a pilot log as second in command? If you are qualified in accordance with the secondS- in-command requirements of FAR 61.55, and you Cl)",
-    "options": {
-      "A": "Only that flight time during which you occupy a crewmember station in an aircraft that requires a second in command.",
-      "B": "All flight time while acting as second in command."
-    },
-    "correct": "C",
-    "explanation": "FAR 61.51, FAR 61.55 E You may log second in command time: - ",
-    "id": "1-31"
-  },
-  {
-    "plt": "CA.I.A.K1",
-    "category": "Pilot Qualifications",
     "text": "To act as pilot in command of a tailwheel airplane, without prior experience, you must",
     "options": {
       "A": "log ground and flight training from an authorized instructor.",
@@ -516,18 +492,6 @@
     "correct": "C",
     "explanation": "FAR 91.403 The owner or operator is responsible for maintaining the aircraft in an airworthy condition. As pilot in command, you are responsible for making sure the airplane is airworthy before flying it.",
     "id": "1-45"
-  },
-  {
-    "plt": "CA.I.B.K1b, CA.II.A.K2, 3",
-    "category": "Pilot Qualifications",
-    "text": "A standard airworthiness certificate remains in effect as long as the aircraft receives =-reqtrire-d: maintenance 0 u",
-    "options": {
-      "B": "an annual inspection.",
-      "C": "an annual inspection and a 100-hour inspection prior to their expiration dates. co z."
-    },
-    "correct": "A",
-    "explanation": "FAR 91.407, 91.409 The airworthiness certificate means the aircraft met the design and manufacturing standards for safe flight and remains valid as long as the required maintenance AEHHSJ3eettE>As-afe-f)eflefffiee-efHRe-aif-effift-wi4i=tifl,:;,..------- Specified time periods.",
-    "id": "1-46"
   },
   {
     "plt": "CA.I.B.K1b, CA.II.A.K2, 3",
@@ -759,21 +723,9 @@
       "B": "is a required document for all aircraft.",
       "C": "lists only the minimum equipment required by 91.205 for a specific flight operation."
     },
-    "correct": "B",
+    "correct": "A",
     "explanation": "FAR 91.213 If a minimum equipment list (MEL) exists for your aircraft, you must use it. The MEL takes into consideration the regulations and the specific requirements for your aircraft and flight operation and indicates the equipment that is allowed to be inoperative for a particular flight. MELs are not common for light single-engine piston-powered airplanes.",
     "id": "1-67"
-  },
-  {
-    "plt": "CA.I.B.K3a, b, c, d, CA.II.A.K2, 3",
-    "category": "Pilot Qualifications",
-    "text": "You discover inoperative equipment on an airplane that you are planning to fly. The airplane does not have an MEL. You must determine if the inoperative equipment is required by which four items?",
-    "options": {
-      "A": "VFR-day type certificate requirements; FAR 91.205; minimum equipment list; airworthiness directive.",
-      "B": "205; aircraft's equipment list or the kinds of operations equipment list; airworthiness directive."
-    },
-    "correct": "B",
-    "explanation": "FAR 91.213 If your airplane does not have an MEL, use the procedure described in FAR 91.213. Answer yes or no-do any of the following require the inoperative equipment? The VFR-day type certificate requirements; FAR prescribed in the airworthiness certification regulations. FAR 91.205 for the specific kind of flight operation (e.g. day or night VFR) or by other flight rules for the specific kind of flight to be conducted. The aircraft's equipment list or the kinds of operations equipment list (KOEL). An airworthiness directive (AD). If the answer is YES to ANY of these questions, the airplane is not airworthy and maintenance is required. If the answer is NO to ALL of these questions, then you may fly the airplane after the inoperative equipment is: Removed and the cockpit control placarded by an AMT. Deactivated and placarded \"inoperative\" (by an AMT if deactivation involves maintenance).",
-    "id": "1-68"
   },
   {
     "plt": "CA.I.B.K3d, CA.II.A.K2, 3",
@@ -906,18 +858,6 @@
     "id": "1-79"
   },
   {
-    "plt": "CA.VIII.A.K2c, CA.VIII.B.K2c",
-    "category": "Emergency Operations",
-    "text": "Which is true about the time of useful consciousness (TUC)?",
-    "options": {
-      "A": "TUC is the minimum amount of time you have to make decision following a lack of oxygen at a given altitude. is tne maximum amount or nme you nave to make decision following a lack of oxygen at a given altitude.",
-      "C": "TUC at 45,000 feet MSL is approximately 9 to 15 minutes."
-    },
-    "correct": "B",
-    "explanation": "The time of useful consciousness (TUC) is the maximum time you have to make a rational, lifesaving decision and carry it out following a lack of oxygen at a given altitude. TUC varies from approximately 30 minutes at 20,000 feet MSL to 9 to 15 seconds at 45,000 feet MSL.",
-    "id": "1-80"
-  },
-  {
     "plt": "CA.I.G.R1, CA.I.H.K1f",
     "category": "Pilot Qualifications",
     "text": "Your aircraft has an exhaust manifold type heating system. The exhaust manifold isperiodically inspected to avoid",
@@ -1007,18 +947,6 @@
     "correct": "C",
     "explanation": "Breathing too rapidly or too deeply can cause hyperventilation, a physiological disorder that develops when too much carbon dioxide (CO2) is eliminated from the body. Symptoms of hyperventilation include drowsiness, dizziness, shortness of breath, feelings of suffocation, a pale, clammy appearance, muscle spasms, and a loss of consciousness.",
     "id": "1-88"
-  },
-  {
-    "plt": "CA.I.H.K1b",
-    "category": "Pilot Qualifications",
-    "text": "Which is a common symptom of hyperventilation?",
-    "options": {
-      "A": "Drowsiness. B - Decreased breathing rate.",
-      "C": "A sense of well-being."
-    },
-    "correct": "A",
-    "explanation": "Breathing too rapidly or too deeply can cause hyperventilation, a physiological disorder that develops when too much carbon dioxide (CO2) is eliminated from the body. Symptoms of hyperventilation include drowsiness, dizziness, shortness of breath, feelings of suffocation, a pale, clammy appearance, muscle spasms, and a loss of consciousness.",
-    "id": "1-89"
   },
   {
     "plt": "CA.I.H.K1b",
@@ -1515,18 +1443,6 @@
     "id": "2-33"
   },
   {
-    "plt": "CA.VI.B.Kt",
-    "category": "Navigation",
-    "text": "(Refer to Figure 17.) Which statement is true regarding illustration 2, if the present heading is maintained? The airplane will",
-    "options": {
-      "B": "intercept the 225 radial at a 45° angle.",
-      "C": "intercept the 360 radial at a 45° angle inbound."
-    },
-    "correct": "C",
-    "explanation": "To intercept the 360° radial inbound at a 45° angle, the HSI course arrow must be pointing at 180° with a TO indication. The COi is deflected to the right and the aircraft's heading is 225°, which provides a 45° intercept angle (225° - 45° = 180°).",
-    "id": "2-35"
-  },
-  {
     "plt": "CA.VI.B.K1",
     "category": "Navigation",
     "text": "(Refer to Figure 17.) Which is true regarding illustration 4 if the present heading is maintained? The airplane will",
@@ -1800,18 +1716,6 @@
     "id": "3-9"
   },
   {
-    "plt": "CA.II.D.K2,3, 6c",
-    "category": "Preflight Procedures",
-    "text": "(Refer to Figure 64.) You see this sign when holding short of the runway. You receive clearance to back taxi on the runway for a full-length Runway 8 departure. Which way should you turn when first taxiing on to the runway for takeoff? C ns... Cl) u ns a. f - ",
-    "options": {
-      "A": "Left.",
-      "B": "Right...."
-    },
-    "correct": "B",
-    "explanation": "Mandatory instruction signs denote an entrance to a runway, a critical area, or an area prohibited to aircraft. These signs are red with white letters or numbers. An example of a mandatory instruction signs is a runway holding position sign, such as shown in Figure 64. At locations where a taxiway intersects a runway other than at the departure end, both runway numbers appear on the sign (26-8). Runway holding signs are oriented in the same direction as the actual runway. When viewing this sign, the departure end of Runway 26 is to the left and the departure end of Runway 8 is to the right, which means you must turn right to back taxi to the Runway 8 threshold.",
-    "id": "3-11"
-  },
-  {
     "plt": "CA.II.D.K6b",
     "category": "Preflight Procedures",
     "text": "When should pilots state their position on the airport when calling the tower for takeoff?",
@@ -1836,18 +1740,6 @@
     "correct": "A",
     "explanation": "The official definition of a runway incursion is \"any occurrence at an airport involving an aircraft, vehicle, person, or object on the ground that creates a collision hazard or results in loss of separation with an aircraft taking off or intending to take off, landing, or intending to land.\" Runway incursions are primarily caused by errors associated with clearances, communication, airport surface movement, and positional awareness. In addition to other actions you can take to prevent runway incursion, to help others see your airplane during periods of reduced visibility or at night, use your exterior taxi/landing lights when practical. C 0 - .... n, E '2 C - .....c Review the airport diagram and complete as.2\" many checklist items as possible before taxi. LL",
     "id": "3-13"
-  },
-  {
-    "plt": "CA.III.A.K2",
-    "category": "Airport & Airspace Operations",
-    "text": "Which is a proper communication procedure to help prevent a runway incursion?",
-    "options": {
-      "A": "To prevent frequency congestion and to properly monitor the radio for other aircraft, do not read ATC clearances back in full during ground operations.",
-      "B": "After landing at a controlled airport, immediately switch to the ground control frequency after you are clear of the runway."
-    },
-    "correct": "C",
-    "explanation": "Actions to help prevent a runway incursion include but are not limited to: Read back (in full) all active runway crossing, ] hold short, or line up and wait clearances. n, cleared onto your runway for takeoff or landing. After landing, stay on the tower frequency until instructed to change frequencies. To help others see your airplane during periods of reduced visibility or at night, use your exterior taxi/landing lights when practical.",
-    "id": "3-14"
   },
   {
     "plt": "CA.IV.B.R3b*",
@@ -3748,18 +3640,6 @@
     "id": "9-70"
   },
   {
-    "plt": "CA.I.C.K3b, CA.IV.B.K3",
-    "category": "Pilot Qualifications",
-    "text": "Which type of approach and landing is recommended during gusty wind conditions?",
-    "options": {
-      "A": "A power-on approach and power-on landing.",
-      "B": "A power-off approach and power-on landing. C n,."
-    },
-    "correct": "A",
-    "explanation": "If you encounter turbulent or gusty conditions during an approach to a landing, consider flying a power-on approach and landing at an airspeed slightly above the normal approach speed. This tecninque helps to stabilize the airplane, giving you more control. when winds are light. Turbulence is caused by +' t. I. n, ver 1ca air currents, or thermals, that develop in air Cl) heated by contact with the warm surface below. 3: 9-73. Answer 8. GFDIC 98, AIM Wake turbulence is created when an aircraft generates lift. The greatest vortex strength occurs when the generating aircraft is heavy, slow, in a clean configuration, and at a high angle of attack. Wingtip vortices from large commercial jets can induce uncontrollable roll rates in smaller airplanes Vortices tend to sink below the flight path of the aircraft that generated them. Meteorology",
-    "id": "9-71"
-  },
-  {
     "plt": "CA.I.C.K3g, CA.II.F.R3*",
     "category": "Pilot Qualifications",
     "text": "Which procedure should you follow to avoid wake turbulence if a large jet crosses your course from left to right approximately 1 mile ahead and at your altitude?",
@@ -4217,18 +4097,6 @@
   {
     "plt": "CA.I.C.K2, CA.II.A.K4",
     "category": "Pilot Qualifications",
-    "text": "The remarks section of the aviation routine weather report (METAR) contains the following coded information. What does it mean? C (0",
-    "options": {
-      "A": "Freezing drizzle below 4,200 feet and wind shear. '- Cl).c...,.",
-      "B": "Wind shift at 30 minutes past the hour due to frontal passage. (0 C 0 - ..., (0 J."
-    },
-    "correct": "B",
-    "explanation": "The beginning of the remarks section is indicated by the code RMK. The remarks section reports weather conditions, which are not covered in the previous sections of the METAR, that are considered significant to aircraft operations",
-    "id": "9-118"
-  },
-  {
-    "plt": "CA.I.C.K2, CA.II.A.K4",
-    "category": "Pilot Qualifications",
     "text": "What is meant by the Special METAR weather observation for KBOI? u z",
     "options": {
       "A": "Rain and fog are creating an overcast at 700 feet AGL; rain began at 1912Z.",
@@ -4563,18 +4431,6 @@
     "correct": "C",
     "explanation": "AWS High-level significant weather (SigWx) charts cover altitudes from FL250 to FL630. These charts present forecasts for thunderstorms, tropical cyclones, squall lines, moderate or greater turbulence, widespread dust storms and sandstorms, tropopause heights, the location of the jet streams, and volcanic activity.",
     "id": "9-144"
-  },
-  {
-    "plt": "CA.I.C.K1",
-    "category": "Pilot Qualifications",
-    "text": "The most current enroute and destination flight information for planning an instrument flight should be obtained from \"l-o",
-    "options": {
-      "A": "the ATIS broadcast.",
-      "C": "Notices to Airmen. LU z 0 t-u LU l/)."
-    },
-    "correct": "B",
-    "explanation": "Flight Service is your primary FAA source of preflight weather information. Call for a phone briefing for your specific flight at 1-800-WX-BRIEF or obtain an online weather briefing and other weather information at 1800wxbrief.com.",
-    "id": "9-145"
   },
   {
     "plt": "CA.I.C.K1",
@@ -4995,18 +4851,6 @@
   {
     "plt": "CA.I.G.K11, CA.VIII.A.K3a",
     "category": "Pilot Qualifications",
-    "text": "Which is a characteristic of the continuous-flow oxygen systems? C ro C (l) 0)",
-    "options": {
-      "A": "Provide adequate respiration up to 45,000 feet.",
-      "B": "Use masks that dilute oxygen with exhaled air. ro +-' C."
-    },
-    "correct": "B",
-    "explanation": "Constant-flow, adjustable-flow and altitudecompensated oxygen systems are all continuousflow designs, and are capable of providing adequate respiration up to 25,000 feet. Oxygen masks that are used with continuous-flow oxygen systems are usually oronasal rebreather designs that dilute oxygen with a portion of exhaled air to provide increased oxygen supply duration.",
-    "id": "11-31"
-  },
-  {
-    "plt": "CA.I.G.K11, CA.VIII.A.K3a",
-    "category": "Pilot Qualifications",
     "text": "Which is a characteristic of demand-type oxygen systems? ca z",
     "options": {
       "A": "Only provide 100% oxygen.",
@@ -5133,18 +4977,6 @@
     "correct": "A",
     "explanation": "AC 91-13 If departing from an runway with wet snow or slush on the takeoff surface, do not retract the landing gear immediately so that any wet snow or slush can be air-dried or blown from the tires.",
     "id": "11-41"
-  },
-  {
-    "plt": "CA.I.G.K1d",
-    "category": "Pilot Qualifications",
-    "text": "I.. If neee,~Hl'\\r-t-A--t-A-l<E'P.-f'l-#-'FP-A-ffH~i+l-:'1-A-V-'P-l+ITWA-¥ & the freezing of landing gear mechanisms can be minimized by u z",
-    "options": {
-      "A": "recycling the gear.",
-      "B": "delaying gear retraction. C increasing the airspeed to V LE before retraction."
-    },
-    "correct": "B",
-    "explanation": "AC 91-13 If depa rti og from an n mway wit on the takeoff surface, do not retract the landing gear immediately so that any wet snow or slush can be air-dried or blown from the tires.",
-    "id": "11-42"
   },
   {
     "plt": "CA.I.G.K1d",
@@ -5301,18 +5133,6 @@
     "correct": "B",
     "explanation": "For any particular amount of lift, a specific combination of angle of attack and airspeed applies. If you reduce the airspeed and maintain your altitude (air density) and airplane configuration (wing area), the lift equation shows that you must increase the coefficient of lift (angle of attack) to generate sufficient lift to maintain altitude. If you increase airspeed, you must reduce the angle of attack to stay at the same altitude.",
     "id": "12-13"
-  },
-  {
-    "plt": "CA.I.F.K3",
-    "category": "Pilot Qualifications",
-    "text": "To generate the same amount of lift as altitude is increased, an airplane must be flown at <( z",
-    "options": {
-      "B": "a lower true airspeed and a greater angle of attack.",
-      "C": "a higher true airspeed for any given angle of attack."
-    },
-    "correct": "C",
-    "explanation": "For any wing a definite mathematical relationship exists Detween 11n, ang1e-ot-am:rc\",\"\"",
-    "id": "12-14"
   },
   {
     "plt": "CA.I.F.K3",
@@ -5510,18 +5330,6 @@
     "id": "12-30"
   },
   {
-    "plt": "CA.I.F.K3, CA.VII.A.K1",
-    "category": "Pilot Qualifications",
-    "text": "A load factor of 1.2 means the total load on an aircraft's structure is 1.2 times its Cl) u C n:, >",
-    "options": {
-      "A": "gross weight. 1m1.",
-      "C": "gust factor. <( z."
-    },
-    "correct": "A",
-    "explanation": "The load factor is defined as the load the wings are supporting divided by the total weight of the airplane. A heavily loaded airplane has a higher stall speed than the same airplane with a light load-the heavily loaded airplane must use a ffigher angle of attacK to generate the required 11 at any given speed than when lightly loaded. Load factor in turns increases at steeper bank angles, as does the stall speed.",
-    "id": "12-31"
-  },
-  {
     "plt": "CA.I.F.K3, CA.V.A.K2d",
     "category": "Pilot Qualifications",
     "text": "While executing a 60° level turn, your aircraft is at a load factor of 2.0. What does this mean?",
@@ -5689,18 +5497,6 @@
     "correct": "B",
     "explanation": "To find the UD ratio for a particular angle of attack (in this case, 10°): 1. Locate the angle of attack at the bottom of the graph. 2. Move up the vertical reference line until you intersect the UD curve. 3. Move right horizontally until reaching the UD scale and read the LID ratio of approximately 11. An 11 :1 ratio means that the airplane travels 11 feet horizontally in the glide for every foot of altitude lost. 4. To find the total altitude lost in 1 statute mile, divide 5,280 ft by the UD ratio of 11. The answer is 480 ft (5,280 + 11 = 480 ft). 11 (6,076 + 11 = 552).",
     "id": "12-46"
-  },
-  {
-    "plt": "CA.I.F.K3",
-    "category": "Pilot Qualifications",
-    "text": "(Refer to Figure 3.) How much altitude will this airplane lose in 3 statute miles of gliding at an angle of attack of 8°? 1. Locate the angle of attack at the bottom of the - g",
-    "options": {
-      "A": "440 feet. graph. B _ 880 feet. 2. Move up the vertical reference line until you 1 mer-seeHhe-1::-fB-et:trVe. - C.",
-      "C": "1,320 feet. Move right horizontally until reaching the L/D scale and read the ratio."
-    },
-    "correct": "C",
-    "explanation": "-g To find the UD ratio for a particular angle of attack (in this case 8°): For nautical miles, divide 6,076 by the LID radio of 4. To find the total altitude lost in 1 statute mile, divide 5,280 ft by the LID ratio of 12. The answer is 440 ft (5,280 + 12 = 440). Therefore, the airplane will lose approximately 1,320 ft in 3 statue miles (440 X 3 = 1,320 ft). For nautical miles, divide 6,076 by the LID radio of 12 (6,076 + 12 = 506) and multiply by 3 (506 x 3 = 1,518ft). 12-1",
-    "id": "12-47"
   },
   {
     "plt": "",
@@ -6063,7 +5859,7 @@
       "C": "17 knots. Q) Q. 0) C : - a Q).."
     },
     "correct": "C",
-    "explanation": "Take these steps to determine the crosswind component: 1. Determine the angle between the wind and the runway: 080° - 010° = 70°: 2. Locate the intersection of the angle and wind velocity. 3. Move vertically to the x-axis to read the approximate wind component perpendicular to the runway (crosswind component). Angle 70° / 18 knots: 17-knot crosswind component - 83. Answer A. GFDIC 12B, PHB Take these steps to determine the cro component: 1. Determine the angle between the wind and the runway: 180° - 130° = 50°: 2. Locate the intersection of the angle and wind velocity. 3. Move vertically to the x-axis to read the approximate wind component perpendicular to the runway (crosswind component). Angle 50° / 25 knots: 19-knot crosswind component",
+    "explanation": "Take these steps to determine the crosswind component: 1. Determine the angle between the wind and the runway: 080° - 010° = 70°: 2. Locate the intersection of the angle and wind velocity. 3. Move vertically to the x-axis to read the approximate wind component perpendicular to the runway (crosswind component). Angle 70° / 18 knots: 17-knot crosswind component.",
     "id": "12-82"
   },
   {
@@ -6559,18 +6355,6 @@
     "correct": "B",
     "explanation": "You should be familiar with the emergency equipment and survival gear in each airplane you fly. Depending on the airplane, emergency equipment can include items such as a fire extinguisher, egress hammer, or a parachute system. According to FAR 91.205, your airplane is required to have an ELT, as well as flotation gear and a signaling device if operated for hire over water and beyond power-off gliding distance from shore. Although not required by regulation, to enhance safety, you should: Pack your own gear or buy a commercial survival kit to keep in the airplane. Ensure the survival gear is appropriate for the terrain and weather along your route. Properly maintain and stow the equipment/gear. Brief your passengers on the location and use of all emergency equipment and survival gear.",
     "id": "13-27"
-  },
-  {
-    "plt": "CA.IX.D.K3a, b, c",
-    "category": "Postflight Procedures",
-    "text": "When packing a survival kit to have on board the airplane, you should include",
-    "options": {
-      "A": "only the items required by regulation. - e-q-mpmenttgear neeaea ror me specmc terrain and weather along your route.",
-      "C": "no more than a few core items to limit the weight in the baggage area."
-    },
-    "correct": "B",
-    "explanation": "The only survival gear required by the FARs are flotation gear and a signaling device if the aircraft is operated for hire over water and beyond power-off gliding distance from shore. However, any complete survival kit should contain a basic core of survival supplies around which you can assemble the additional items that are appropriate to the terrain and weather you would encounter in an emergency, such as: Cold environments, including mountainous terrain-protective, warm clothing; a collapsible lightweight shelter. Overwater operations-a personal flotation device for you and each passenger. Hot desert conditions-sun block; clothing and shelter for protection from the sand and sun.",
-    "id": "13-28"
   },
   {
     "plt": "CA.III.A.KB",
@@ -7091,18 +6875,6 @@
     "correct": "B",
     "explanation": "The pivotal altitude is the altitude at which, for a given groundspeed, the projection of the visual reference line to the pylon appears to pivot. Pivotal altitude increases as groundspeed increases and decreases as groundspeed decreases. As you proceed around the pylon, if the reference line Moves ahead of the pylon, the pivotal altitude is too low. Climb to increase altitude. Moves behind the pylon, the pivotal altitude is too high. Descend to decrease altitude.",
     "id": "14-16"
-  },
-  {
-    "plt": "CA.V.B.K1, 2, 3",
-    "category": "Performance Maneuvers",
-    "text": "Select the true statement regarding steep spirals. - I he maneuver consists of a minimum of four, uniform-radius, 360° turns around a ground reference point.",
-    "options": {
-      "B": "The objective is to rapidly dissipate substantial amounts of altitude while remaining over a selected spot.",
-      "C": "To maintain a constant radius around the reference point, you must adjust the power to change your airspeed."
-    },
-    "correct": "B",
-    "explanation": "The objective of the steep spiral to rapidly dissipate substantial amounts of altitude while remainin over a selecfed spot. A steep spiral consists of a minimum of three, uniform-radius, gliding 360° turns around a ground reference point. To maintain a constant radius, you vary the bank angle to adjust for wind effect.",
-    "id": "14-17"
   },
   {
     "plt": "CA.IV.M.K4, CA.IV.M.R1*",

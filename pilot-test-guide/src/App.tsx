@@ -84,6 +84,7 @@ const AppContent: React.FC = () => {
   }, []);
 
   const progressPrefix = prefixMap[mode];
+  const userProgressPrefix = user?.id ? `${user.id}_${progressPrefix}` : progressPrefix;
   const chapters = getChapters(questionsData, titleMap[mode]);
 
   const { chapterProgress, reviewQuestions, resetAllProgress, resetChapterProgress } = useUserProgress(
@@ -164,7 +165,7 @@ const AppContent: React.FC = () => {
             questions={reviewMode ? reviewQuestions : questionsData.filter((q: Question) => getChapter(q.id) === selectedChapter)}
             onBack={handleBack}
             mode={mode}
-            progressPrefix={progressPrefix}
+            progressPrefix={userProgressPrefix}
           />
         ) : null;
       default:

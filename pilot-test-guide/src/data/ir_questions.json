@@ -173,9 +173,9 @@
     "category": "Pilot Qualifications",
     "text": "A second-class medical certificate issued to a commercial pilot on April 10, this year, permits the pilot to exercise which of the following privileges?",
     "options": {
-      "A": "received a medical exam from a statelicensed physician.",
-      "B": "held at least a third class medical certificate.",
-      "C": "completed an approved medical education."
+      "A": "Commercial pilot privileges through April 30, next year.",
+      "B": "Commercial pilot privileges through April 10, 2 years later.",
+      "C": "Private pilot privileges through, but not after, March 31, next year."
     },
     "correct": "A",
     "explanation": "FAR 61.23 Although you need at least a third-class medical certificate to be eligible for a commercial pilot certificate, you must have a second-class medical certificate to exercise commercial pilot privileges. A second-class medical certificate is valid for 12 calendar months for operations requiring a commercial certificate.",
@@ -788,7 +788,7 @@
       "B": "You must hold an instrument rating, but the airplane need not be equipped for instrument flight, as long as the weather will remain at or CHAPTER.",
       "C": "Remain clear of clouds, and the flight visibility must be at least 1 NM."
     },
-    "correct": "A",
+    "correct": "C",
     "explanation": "FAR 91.157 A special VFR clearance allows you to enter, leave, or operate within most Class D and Class E surface areas and in some Class Band Class C surface areas if the flight visibility is at least 1 statute mile and you can remain clear of clouds. At least 1 statute mile of ground visibility is required for takeoff and landing. However, if ground visibility is not reported, you must have at least 1 statute mile flight visibility.",
     "id": "3-50"
   },

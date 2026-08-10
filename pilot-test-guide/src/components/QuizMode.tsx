@@ -2,7 +2,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import { ArrowLeft, CheckCircle2, XCircle, Clock, RotateCcw } from 'lucide-react';
 import { Question } from '../types';
 import { QuestionOptions } from './QuestionOptions';
-import { recordQuestionAnswer } from '../lib/progressTracker';
+import { recordQuestionAnswer, recordExam } from '../lib/progressTracker';
 import { sfx } from '../utils/sfx';
 
 interface QuizModeProps {
@@ -48,6 +48,25 @@ export const QuizMode: React.FC<QuizModeProps> = ({ questions, category, mode, o
     }
   }, [currentIndex]);
 
+  const correctCount = questions.filter(q => answers[q.id] === q.correct).length;
+  const accuracy = questions.length > 0 ? Math.round((correctCount / questions.length) * 100) : 0;
+
+  const handleFinish = useCallback(() => {
+    const elapsed = Math.round((Date.now() - startTime) / 1000);
+    recordExam({
+      mode,
+      type: 'quiz',
+      date: new Date().toISOString(),
+      totalQuestions: questions.length,
+      correctAnswers: correctCount,
+      timeSpentSeconds: elapsed,
+      passed: accuracy >= 70,
+      category,
+    });
+    setShowResults(true);
+    sfx.playCorrect();
+  }, [startTime, mode, questions.length, correctCount, accuracy, category]);
+
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
@@ -62,9 +81,6 @@ export const QuizMode: React.FC<QuizModeProps> = ({ questions, category, mode, o
     return () => window.removeEventListener('keydown', handleKey);
   }, [answered, handleNext, handlePrev, handleSelect]);
 
-  const allAnswered = questions.every(q => answers[q.id] !== undefined);
-  const correctCount = questions.filter(q => answers[q.id] === q.correct).length;
-  const accuracy = questions.length > 0 ? Math.round((correctCount / questions.length) * 100) : 0;
   const elapsed = Math.round((Date.now() - startTime) / 1000);
   const minutes = Math.floor(elapsed / 60);
   const seconds = elapsed % 60;
@@ -165,14 +181,14 @@ export const QuizMode: React.FC<QuizModeProps> = ({ questions, category, mode, o
           style={{ opacity: currentIndex === 0 ? 0.5 : 1, flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
           Previous
         </button>
-        {allAnswered ? (
-          <button className="btn-primary" onClick={() => { setShowResults(true); sfx.playCorrect(); }}
+        {currentIndex === questions.length - 1 ? (
+          <button className="btn-primary" onClick={handleFinish}
             style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.3rem', padding: '0.6rem' }}>
-            Finish Quiz
+            Finish
           </button>
         ) : (
-          <button className="btn-primary" onClick={handleNext} disabled={currentIndex === questions.length - 1}
-            style={{ opacity: currentIndex === questions.length - 1 ? 0.5 : 1, flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
+          <button className="btn-primary" onClick={handleNext}
+            style={{ flex: 1, display: 'flex', alignItems: 'center', justifyContent: 'center', padding: '0.6rem' }}>
             Next
           </button>
         )}

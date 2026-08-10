@@ -949,19 +949,6 @@
     "id": "2-71"
   },
   {
-    "plt": "PLT278",
-    "category": "Aircraft Systems",
-    "text": "(Refer to figure 6.) How should a pilot determine the direction of bank from an attitude indicator such as the one illustrated?",
-    "options": {
-      "A": "By the relationship of the miniature airplane (C) to the deflected horizon bar (B).",
-      "B": "By the direction of deflection of the horizon bar (B)."
-    },
-    "correct": "C",
-    "explanation": "As the airplane banks, th_e relationship between the miniature airplane and the horizon bar depict the direction of turn.",
-    "figureRef": 6,
-    "id": "2-72"
-  },
-  {
     "plt": "PLT215",
     "category": "Aircraft Systems",
     "text": "Deviation in a magnetic compass is caused by the",
@@ -1392,18 +1379,6 @@
     "id": "3-14"
   },
   {
-    "plt": "PLT236",
-    "category": "Aerodynamics",
-    "text": "Changes in the center of pressure of a wing affect the aircraft's A.- lift/drag ratio.",
-    "options": {
-      "B": "lifting capacity.",
-      "C": "aerodynamic balance and controllability. Stability"
-    },
-    "correct": "C",
-    "explanation": "A wing's center of pressure moves forward and back with changing angles of attack (forward for high angles and back for lower). This movement changes the position of the air loads on the wing, which results in changes to an airplane's aerodynamic balance and controllability.",
-    "id": "3-15"
-  },
-  {
     "plt": "PLT213",
     "category": "Aerodynamics",
     "text": "An airplane said to be inherently stable will",
@@ -1535,19 +1510,6 @@
     "id": "3-26"
   },
   {
-    "plt": "PLT309",
-    "category": "Aerodynamics",
-    "text": "(Refer to figure 2.) If an airplane weighs 3,300 pounds, what approximate weight would the airplane structure be required to support during a 30° banked turn while maintaining altitude? A:- I,200 pounds.",
-    "options": {
-      "B": "3,100 pounds.",
-      "C": "3,960 pounds."
-    },
-    "correct": "C",
-    "explanation": "The load factor for 30 degrees of bank is 1.154, or about 1.2. The airplane weight (3,300) multiplied by the load factor (1.2) Is 3,960 pounds which the wing structure must support. 3-28. Answer 8. GFDPP 3-60, PHB At 45 degrees of bank the load factor is 1.414, or approximately 1.5, the wing loading would be 4,500 x 1.5, or 6,750 pounds.",
-    "figureRef": 2,
-    "id": "3-27"
-  },
-  {
     "plt": "PLT311",
     "category": "Aerodynamics",
     "text": "The amount of excess load that can be imposed on the wing of an airplane depends upon the",
@@ -1611,18 +1573,6 @@
     "correct": "C",
     "explanation": "All controlled flight consists of one of the four fundamental maneuvers or some combination of them.",
     "id": "3-33"
-  },
-  {
-    "plt": "PLT414",
-    "category": "Flight Environment",
-    "text": "Which aircraft has the right-of-way over all other air traffic?",
-    "options": {
-      "A": "A balloon. B\"-An aircraft in distress.",
-      "C": "An aircraft on final approach to land."
-    },
-    "correct": "B",
-    "explanation": "FAR 91.113C An aircraft in distress has the right-of-way over all other aircraft.",
-    "id": "4-1"
   },
   {
     "plt": "PLT414",
@@ -2033,19 +1983,6 @@
   {
     "plt": "PLT147",
     "category": "Flight Environment",
-    "text": "(Refer to figure 48.) Illustration A indicates that the aircraft is",
-    "options": {
-      "A": "below the glide slope. on the glide slope.",
-      "C": "above the glide slope."
-    },
-    "correct": "B",
-    "explanation": "A red over White indication is on glide slope.",
-    "figureRef": 48,
-    "id": "4-36"
-  },
-  {
-    "plt": "PLT147",
-    "category": "Flight Environment",
     "text": "(Refer to figure 48.) VASI lights as shown by illustration C indicate that the airplane is",
     "options": {
       "A": "off course to the left.",
@@ -2205,19 +2142,6 @@
     "explanation": "25, AIM At many airports, the area prior to a displaced threshold may be used for taxi and takeoff (and rollout after landing). Area \"E\" is a blastpad/stopway, and because of its pavement strength cannot support continuous operations, but may be used as an overrun.",
     "figureRef": 49,
     "id": "4-48"
-  },
-  {
-    "plt": "PLT077",
-    "category": "Flight Environment",
-    "text": "(Refer to figure 49.) Area Con the airport depicted is classified as a",
-    "options": {
-      "A": "stabilized area.",
-      "B": "multiple heliport. Closed runway."
-    },
-    "correct": "C",
-    "explanation": "A closed runway is depicted by Xs.",
-    "figureRef": 49,
-    "id": "4-49"
   },
   {
     "plt": "PLT141",
@@ -2723,20 +2647,6 @@
     "explanation": "In other than congested areas, you must clear obstacles by 500 feet. Add 500 feet to the obstacle elevation of 773 feet MSL.",
     "figureRef": 25,
     "id": "4-92"
-  },
-  {
-    "plt": "PLT064",
-    "category": "Flight Environment",
-    "text": "(Refer to figure 25.) (Area 2) What minimum altitude is necessary to vertically clear the obstacle on the southeast side of Winnsboro Airport by 500 feet?",
-    "options": {
-      "A": "122.95 Ml-Iz.",
-      "B": "126.0 MHz.",
-      "C": "133.4MHz."
-    },
-    "correct": "C",
-    "explanation": "Here, the FARs require 500 feet of obstacle clearance. Add 500 feet to the obstacle elevation of 903 feet MSL",
-    "figureRef": 25,
-    "id": "4-93"
   },
   {
     "plt": "PLT101",
@@ -3771,19 +3681,6 @@
     "id": "5-13"
   },
   {
-    "plt": "PLT078",
-    "category": "Weather",
-    "text": "(Refer to figure 53.) Which type radar service is provided to VFR aircraft at Lincoln Municipal?",
-    "options": {
-      "A": "Sequencing to the primary Class C airport and standard separation.",
-      "B": "Sequencing to the primary Class C airport and conflict resolution so that radar targets do not touch, or 1,000 feet vertical separation."
-    },
-    "correct": "C",
-    "explanation": "The VFR services provided within a Class C airspace area (formerly ARSA) include: sequencing all arriving aircraft to the primary Class C airport; providing traffic advisories and conflict resolutions between IFR and VFR aircraft so that radar targets do not touch, or 500 feet vertical separation, and between VFR aircraft, traffic advisories and safety alerts.",
-    "figureRef": 53,
-    "id": "5-14"
-  },
-  {
     "plt": "PLT044",
     "category": "Weather",
     "text": "When an air traffic controller issues radar traffic information in relation to the 12-hour clock, the reference the controller uses is the aircraft's",
@@ -4759,19 +4656,6 @@
     "correct": "C",
     "explanation": "AW On clear, calm nights in flat areas, radiation fog forms when moist air cools to its dewpoint. Ground fog is a form of radiation fog. When warmer air moves inland, advection fog is likely to form.",
     "id": "6-35"
-  },
-  {
-    "plt": "PLT226",
-    "category": "Flight Instruments",
-    "text": "Low-level turbulence can occur and icing can become hazardous in which type of fog?",
-    "options": {
-      "A": "an inactive frontal cloud.",
-      "B": "a funnel cloud.",
-      "C": "a lenticular cloud."
-    },
-    "correct": "C",
-    "explanation": "AW Steam fog is formed by cold, dry air moving over warmer water. As the water particles evaporate and rise, they often freeze and fall back into the water. Icing and low-level turbulence can result",
-    "id": "6-36"
   },
   {
     "plt": "PLT192",
@@ -6335,19 +6219,6 @@
   {
     "plt": "PLT328",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 35.) Calculate the moment of the airplane and determine which category is applicable. WEIGHT (LB) Empty 1,350 weight MOM/1000 51.5 - --- Pilot and 310 Front passenger - --- Rear 96. passengers - --- Fuel, 38 gal - ---- Oil, 8 qt - ---- - 0.2",
-    "options": {
-      "A": "79.2, utility category. B...:. 80.8, utility category.",
-      "C": "81.2, nonnal category."
-    },
-    "correct": "B",
-    "explanation": "Complete the table of weights and moments, using the LOADING GRAPH WEIGHT (lb.) MOMENT (lb-in/1000) Empty Weight 1,350 51.5 Fromt Seat 310 11.6 Rear Seat 96 7.0 Fuel 38 gal 228 11.0 0118 qt 15 - 0.2 Totals 1,999 80.9 The total moment is 80.9. Use the CENTER OF GRAVITY MOMENT ENVELOPE graph to find the total weight and total moment. The intersection falls within the upper right-hand corner of the utility category envelope. Chapter B - Airplane Performance",
-    "figureRef": 35,
-    "id": "8-36"
-  },
-  {
-    "plt": "PLT328",
-    "category": "Cross-Country Flying",
     "text": "(Ref er to figure 3 5.) What is the maximum amount of fuel that may be aboard the airplane on takeoff if loaded as follows? WEIGHT MOM/1000 (LB) 1,350 51.5 Empty,veight 340 - ---- Pilot and Front passenger 310 - ---- Rear passengers 45 - -- Baggage - ---- - --- Oil, 8 qt",
     "options": {
       "A": "24 gallons.",
@@ -6939,19 +6810,6 @@
   {
     "plt": "PLT455",
     "category": "Night Flying",
-    "text": "(Refer to figure 52.) What information should be entered in block 9 for a VFR day flight?",
-    "options": {
-      "A": "The name of the airport of first intended landing.",
-      "B": "The name of destination airport if no stopover for more than I hour is anticipated"
-    },
-    "correct": "B",
-    "explanation": "FAR 91.153 states that the flight plan shall include the point of first intended landing. However, the AIM says to enter the destination airport. It also recommends that for a stopover of more than 1 hour, a separate flight plan should be filed.",
-    "figureRef": 52,
-    "id": "9-16"
-  },
-  {
-    "plt": "PLT455",
-    "category": "Night Flying",
     "text": "(Refer to figure 52.) What information should be entered in block 12 for a VFR day flight?",
     "options": {
       "A": "The estimated time en route plus 30 minutes.",
@@ -7156,13 +7014,13 @@
   {
     "plt": "PLT333",
     "category": "Emergency Procedures",
-    "text": "During a night flight, you observe a steady red light and a flashing red light ahead and at the same altitude. What is the general direction of movement of the other. ft? a1rcra.",
+    "text": "During a night flight, you observe a steady red light and a flashing red light ahead and at the same altitude. What is the general direction of movement of the other aircraft?",
     "options": {
       "A": "The other aircraft is flying away from you.",
       "B": "The other aircraft is crossing to the left.",
       "C": "The other aircraft is crossing to the right."
     },
-    "correct": "A",
+    "correct": "B",
     "explanation": "; AFH The steady red light is a position light on the left wing and the flashing red light is an anticollision beacon. If you are looking at the left wingtip, the other aircraft would be crossing to the left.",
     "id": "10-4"
   },
@@ -8228,7 +8086,7 @@
       "B": "14,000 feet MSL.",
       "C": "15,000 feet MSL."
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "FAR 91.211 Between cabin pressure altitudes of 12,500 feet MSL and 14,000 feet MSL, the required minimum flight crew is required to use supplemental oxygen for any duration of the flight past 30 minutes.",
     "id": "12-74"
   },
@@ -8504,17 +8362,5 @@
     "correct": "B",
     "explanation": "NTSB 830.10 Prior to the time the Board or its authorized representative takes custody of aircraft wreckage, mail, or cargo, such wreckage may not be disturbed or moved except to the extent necessary to protect the wreckage from further damage.",
     "id": "12-105"
-  },
-  {
-    "plt": "PLT366",
-    "category": "Regulations & Airspace",
-    "text": "The operator of an aircraft that has been involved in an incident is required to submit a report to the nearest field office of the NTSB",
-    "options": {
-      "A": "within 7 days. 8within 10 days.",
-      "C": "when requested. FAA."
-    },
-    "correct": "C",
-    "explanation": "NTSB 830.15 A report on an incident for which notification is required by 830.S(a) shall be filed only when requested by an authorized representative of t",
-    "id": "12-107"
   }
 ]

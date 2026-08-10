@@ -6,6 +6,7 @@ import { BookmarksPanel } from './BookmarksPanel';
 import { exportProgressFile, importProgressFile } from '../lib/exportReport';
 import { ProgressSummary } from './ProgressSummary';
 import { PerformanceCharts } from './PerformanceCharts';
+import { QuizHistory } from './QuizHistory';
 import { getAnsweredCount } from '../lib/progressTracker';
 
 interface ChapterData {
@@ -212,6 +213,8 @@ export const LandingView: React.FC<LandingViewProps> = ({
                 chapterCounts={chapters.map(ch => ({ id: ch.id, title: ch.title, total: ch.total, answered: chapterProgress[ch.id] || 0 }))} />
 
             <PerformanceCharts />
+
+            <QuizHistory />
 
             {/* Chapter Grid */}
             <h2 style={{ fontSize: '1rem', fontWeight: 600, color: 'var(--text-secondary)', marginTop: '1.25rem', marginBottom: '0.75rem' }}>
