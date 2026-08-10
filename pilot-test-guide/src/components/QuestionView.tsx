@@ -15,7 +15,7 @@ import { Achievements } from './Achievements';
 import { ConceptExplorer } from './ConceptExplorer';
 import { StudyTimer } from './StudyTimer';
 import { ExplainItPrompt } from './ExplainItPrompt';
-import { recordChapterComplete } from '../lib/progressTracker';
+import { recordChapterComplete, recordQuestionAnswer } from '../lib/progressTracker';
 
 interface QuestionViewProps {
     chapter: string;
@@ -102,6 +102,15 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
 
         const elapsed = Math.round((Date.now() - questionStartTime) / 1000);
         setTimeSpent(elapsed);
+
+        recordQuestionAnswer({
+            questionId: question.id,
+            mode,
+            isCorrect: isNowCorrect,
+            timeSeconds: elapsed,
+            timestamp: new Date().toISOString(),
+        });
+
         setSelectedAnswers(prev => {
             const updated = { ...prev, [question.id]: key };
             // Check if chapter is complete with all correct
