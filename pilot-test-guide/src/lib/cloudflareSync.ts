@@ -118,6 +118,22 @@ export function debouncedSync(): void {
   }, 500);
 }
 
+/**
+ * Manual sync — immediately pushes all progress to D1.
+ * Returns a promise that resolves when done.
+ */
+export async function syncNow(): Promise<boolean> {
+  if (_syncTimeout) clearTimeout(_syncTimeout);
+  _syncTimeout = null;
+  if (!WORKER_URL || !_currentUserId) return false;
+  try {
+    await pushToD1();
+    return true;
+  } catch {
+    return false;
+  }
+}
+
 // ---- Smart Merge Helpers ----
 
 interface ProgressData {

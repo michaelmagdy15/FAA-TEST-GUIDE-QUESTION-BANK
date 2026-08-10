@@ -17,8 +17,8 @@ export const PerformanceCharts: React.FC = () => {
       </div>
 
       {/* SVG Bar Chart */}
-      <div style={{ marginBottom: '0.75rem', overflowX: 'auto' }}>
-        <svg width="100%" height={stats.length * 28 + 16} viewBox={`0 0 400 ${stats.length * 28 + 16}`} style={{ display: 'block', minWidth: '300px' }}>
+      <div style={{ marginBottom: '0.75rem', overflowX: 'auto', width: '100%' }}>
+        <svg width="100%" height={stats.length * 28 + 16} viewBox={`0 0 400 ${stats.length * 28 + 16}`} style={{ display: 'block', minWidth: 0 }}>
           {stats.map((stat, i) => {
             const y = i * 28 + 8;
             const barWidth = maxTotal > 0 ? (stat.total / maxTotal) * 180 : 0;

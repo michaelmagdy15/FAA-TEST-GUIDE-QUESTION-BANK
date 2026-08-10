@@ -1,9 +1,10 @@
-import React, { useRef } from 'react';
-import { Plane, Navigation, Zap, AlertCircle, BookOpen, RotateCcw, CheckCircle2, Download, Upload, Shuffle, FileText } from 'lucide-react';
+import React, { useRef, useState } from 'react';
+import { Plane, Navigation, Zap, AlertCircle, BookOpen, RotateCcw, CheckCircle2, Download, Upload, Shuffle, FileText, RefreshCw } from 'lucide-react';
 import { sfx } from '../utils/sfx';
 import { TestMode } from '../types';
 import { BookmarksPanel } from './BookmarksPanel';
 import { exportProgressFile, importProgressFile } from '../lib/exportReport';
+import { syncNow } from '../lib/cloudflareSync';
 import { ProgressSummary } from './ProgressSummary';
 import { PerformanceCharts } from './PerformanceCharts';
 import { QuizHistory } from './QuizHistory';
@@ -53,6 +54,17 @@ export const LandingView: React.FC<LandingViewProps> = ({
     const answered = getAnsweredCount(mode);
     const remaining = totalQuestions - answered;
     const fileInputRef = useRef<HTMLInputElement>(null);
+    const [syncing, setSyncing] = useState(false);
+    const [syncStatus, setSyncStatus] = useState<'idle' | 'ok' | 'error'>('idle');
+
+    const handleSync = async () => {
+        setSyncing(true);
+        setSyncStatus('idle');
+        const ok = await syncNow();
+        setSyncing(false);
+        setSyncStatus(ok ? 'ok' : 'error');
+        setTimeout(() => setSyncStatus('idle'), 2000);
+    };
 
     const handleImport = async (e: React.ChangeEvent<HTMLInputElement>) => {
         const file = e.target.files?.[0];
@@ -202,6 +214,10 @@ export const LandingView: React.FC<LandingViewProps> = ({
                         <button onClick={() => fileInputRef.current?.click()} onMouseEnter={() => sfx.playHover()}
                             className="btn-secondary" style={{ padding: '0.35rem 0.6rem', background: 'transparent', color: '#a78bfa', borderColor: 'rgba(167, 139, 250, 0.35)', fontSize: '0.7rem', display: 'flex', alignItems: 'center', gap: '0.25rem' }}>
                             <Upload size={11} /> Import
+                        </button>
+                        <button onClick={handleSync} disabled={syncing} onMouseEnter={() => sfx.playHover()}
+                            className="btn-secondary" style={{ padding: '0.35rem 0.6rem', background: 'transparent', color: syncStatus === 'ok' ? '#10b981' : syncStatus === 'error' ? '#ef4444' : '#38bdf8', borderColor: syncStatus === 'ok' ? 'rgba(16,185,129,0.35)' : syncStatus === 'error' ? 'rgba(239,68,68,0.35)' : 'rgba(56, 189, 248, 0.35)', fontSize: '0.7rem', display: 'flex', alignItems: 'center', gap: '0.25rem', opacity: syncing ? 0.6 : 1 }}>
+                            <RefreshCw size={11} className={syncing ? 'spin' : ''} /> {syncing ? 'Syncing...' : syncStatus === 'ok' ? 'Synced!' : syncStatus === 'error' ? 'Failed' : 'Sync Now'}
                         </button>
                         <input ref={fileInputRef} type="file" accept=".json" onChange={handleImport} style={{ display: 'none' }} />
                     </div>
