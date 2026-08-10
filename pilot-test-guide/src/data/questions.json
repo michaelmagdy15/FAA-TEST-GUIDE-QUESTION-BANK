@@ -9,7 +9,7 @@
       "C": "Single-engine land and sea, multiengine land and sea."
     },
     "correct": "B",
-    "explanation": "G FD PPM 1-18, FAR 1.1 Airmen are certificated according to five categories of aircraft: airplane, rotorcraft, glider, lighter-than-air, and a new category, powered lift. Gyroplane and helicopter are classes of aircraft within the rotorcraft category. Airship and balloon are classes of aircraft within the lighterthan-air category. Single-engine land and sea and multiengine land and sea are the four classes within the airplane category.",
+    "explanation": "G FD PPM 1-18, FAR 1.1 Airmen are certificated according to five categories of aircraft: airplane, rotorcraft, glider, lighter-than-air, and a new category, powered lift. Gyroplane and helicopter are classes of aircraft within the rotorcraft category. Airship and balloon are classes of aircraft within the lighter-than-air category. Single-engine land and sea and multiengine land and sea are the four classes within the airplane category.",
     "id": "1-1"
   },
   {
@@ -69,9 +69,9 @@
     "category": "Aircraft Systems",
     "text": "To minimize the side loads placed on the landing gear during touchdown, the pilot should keep the",
     "options": {
-      "A": "direction of motion of the aircraft parallel to t)1e runway.",
+      "A": "direction of motion of the aircraft parallel to the runway.",
       "B": "longitudinal axis of the aircraft parallel to the direction of its motion.",
-      "C": "downwind wing lowert:d sufficiently to eliminate the tendency for the aircraft to drift."
+      "C": "downwind wing lowered sufficiently to eliminate the tendency for the aircraft to drift."
     },
     "correct": "B",
     "explanation": "Keeping the longitudinal axis parallel to the direction of motion ensures that the main gear will touchdown and roll as designed, parallel to the aircraft's direction of travel. Side loading the gear is not only bad for the aircraft structurally, but can result in the aircraft rolling away from the runway centerline on touchdown.",
@@ -87,7 +87,7 @@
       "C": "In the aircraft airframe and engine logbooks"
     },
     "correct": "A",
-    "explanation": "GF©PP 2-10, FAA Order 8130.2 Operating limitations for experimental aircraft are actually part of Form 8130-7, which is the special airworthiness certificate. As with all airworthiness certificates, this one must be carried in the aircraft, which ensures the operating limitations of an experimental or light sport aircraft are available to the PIC.",
+    "explanation": "GFDPP 2-10, FAA Order 8130.2 Operating limitations for experimental aircraft are actually part of Form 8130-7, which is the special airworthiness certificate. As with all airworthiness certificates, this one must be carried in the aircraft, which ensures the operating limitations of an experimental or light sport aircraft are available to the PIC.",
     "id": "2-3"
   },
   {
@@ -199,7 +199,7 @@
     "category": "Aircraft Systems",
     "text": "The possibility of carburetor icing exists even when the ambient air temperature is as",
     "options": {
-      "A": "high as 70°F a.nd the relative humidity is high.",
+      "A": "high as 70°F and the relative humidity is high.",
       "B": "high as 95°F and there is visible moisture.",
       "C": "low as 0°F and the relative humidity is high."
     },
@@ -550,9 +550,9 @@
     "category": "Aircraft Systems",
     "text": "If the pi tot tube and outside static vents become clogged, which instruments would be affected?",
     "options": {
-      "A": "The altimeter, airspeed indicator, and tum-and-slip indicator.",
+      "A": "The altimeter, airspeed indicator, and turn-and-slip indicator.",
       "B": "The altimeter, airspeed indicator, and vertical speed indicator.",
-      "C": "The altimeter, attitude indicator, and tum-and-slip indicator."
+      "C": "The altimeter, attitude indicator, and turn-and-slip indicator."
     },
     "correct": "B",
     "explanation": "The altimeter, the airspeed indicator, and the vertical speed indicator all use static air and would therefore be affected.",
@@ -587,7 +587,7 @@
   {
     "plt": "PLT041",
     "category": "Aircraft Systems",
-    "text": "(Ref er to figure 3.) Altimeter 1 indicates",
+    "text": "(Refer to figure 3.) Altimeter 1 indicates",
     "options": {
       "A": "500 feet.",
       "B": "1,500 feet.",
@@ -672,7 +672,7 @@
     "options": {
       "A": "The vertical distance of the aircraft above sea level.",
       "B": "The vertical distance of the aircraft above the surface.",
-      "C": "The height above the standard datum plane."
+      "C": "The height above the standard daturn plane."
     },
     "correct": "A",
     "explanation": "True altitude is the actual height (vertical distance) above mean sea level.",
@@ -685,7 +685,7 @@
     "options": {
       "A": "The altitude read directly from the altimeter.",
       "B": "The vertical distance of the aircraft above the surface.",
-      "C": "The height above the standard datum plane."
+      "C": "The height above the standard daturn plane."
     },
     "correct": "B",
     "explanation": "Absolute altitude is the height (vertical distance) above the surface.",
@@ -696,7 +696,7 @@
     "category": "Aircraft Systems",
     "text": "What is density altitude?",
     "options": {
-      "A": "The height above the standard datum plane.",
+      "A": "The height above the standard daturn plane.",
       "B": "The pressure altitude corrected for nonstandard temperature.",
       "C": "The altitude read directly from the altimeter."
     },
@@ -714,7 +714,7 @@
       "C": "The indicated altitude corrected for nonstandard temperature and pressure."
     },
     "correct": "B",
-    "explanation": "Pressure altitude is the height above the standard datum plane when 29.92 is set in the scale.",
+    "explanation": "Pressure altitude is the height above the standard daturn plane when 29.92 is set in the scale.",
     "id": "2-54"
   },
   {
@@ -815,9 +815,9 @@
     "category": "Aircraft Systems",
     "text": "(Refer to figure 4.) The maximum speed at which the airplane can be operated in smooth air is",
     "options": {
-      "A": "KTS.",
-      "B": "KTS.",
-      "C": "KTS."
+      "A": "208 KTS.",
+      "B": "218 KTS.",
+      "C": "228 KTS."
     },
     "correct": "C",
     "explanation": "In smooth air, an airplane can be operated in the yellow arc up to the red line, in this case, 208 KTS.",
@@ -924,11 +924,11 @@
   {
     "plt": "PLT086",
     "category": "Aircraft Systems",
-    "text": "(Ref er to figure 5.) A tum coordinator provides an indication of the",
+    "text": "(Refer to figure 5.) A turn coordinator provides an indication of the",
     "options": {
       "A": "movement of the aircraft about the yaw and roll axes.",
       "B": "angle of bank up to but not exceeding 30°.",
-      "C": "attitude of the aircraft with reference to the longitudin.al axis."
+      "C": "attitude of the aircraft with reference to the longitudinal axis."
     },
     "correct": "A",
     "explanation": "The turn coordinator senses movement about the vertical axis (yaw) and the longitudinal axis (roll).",
@@ -964,24 +964,24 @@
   {
     "plt": "PLT215",
     "category": "Aircraft Systems",
-    "text": "In the Northern Hemisphere, a magnetic compass will normally indicate initially a tum toward the west if",
+    "text": "In the Northern Hemisphere, a magnetic compass will normally indicate initially a turn toward the west if",
     "options": {
-      "A": "a left tum is entered from a north heading.",
-      "B": "a right tum is entered from a north heading.",
+      "A": "a left turn is entered from a north heading.",
+      "B": "a right turn is entered from a north heading.",
       "C": "an aircraft is accelerated while on a north heading."
     },
     "correct": "B",
-    "explanation": "When turning from a northerly heading, the compass initially indicates a turn in the opposite direction. When starting a right turn, toward the east, the compass begins to show a tum to the west.",
+    "explanation": "When turning from a northerly heading, the compass initially indicates a turn in the opposite direction. When starting a right turn, toward the east, the compass begins to show a turn to the west.",
     "id": "2-74"
   },
   {
     "plt": "PLT215",
     "category": "Aircraft Systems",
-    "text": "In the Northern Hemisphere, a magnetic compass will normally indicate initially a tum toward the east if",
+    "text": "In the Northern Hemisphere, a magnetic compass will normally indicate initially a turn toward the east if",
     "options": {
       "A": "an aircraft is decelerated while on a south heading.",
       "B": "an aircraft is accelerated while on a north heading.",
-      "C": "a left tum is entered from a north heading. Flight Instruments."
+      "C": "a left turn is entered from a north heading. Flight Instruments."
     },
     "correct": "C",
     "explanation": "When turning from a northerly heading, the compass initially indicates a turn in the opposite direction. When starting a right turn, toward the east, the compass begins to show a turn to the west. In this question, during a left turn toward the west, the magnetic compass would initially indicate a turn to the east.",
@@ -1003,9 +1003,9 @@
   {
     "plt": "PLT215",
     "category": "Aircraft Systems",
-    "text": "In the Northern Hemisphere, the magnetic compass will normally indicate a tum toward the south when",
+    "text": "In the Northern Hemisphere, the magnetic compass will normally indicate a turn toward the south when",
     "options": {
-      "A": "a left turn is entered from an east beading.",
+      "A": "a left turn is entered from an east heading.",
       "B": "a right turn is entered from a west heading.",
       "C": "the aircraft is decelerated while on a west heading."
     },
@@ -1059,7 +1059,7 @@
     "options": {
       "A": "15°C and 29.92 inches Hg.",
       "B": "59°C and 1013.2 millibars.",
-      "C": "59°P and 29.92 millibars."
+      "C": "59°F and 29.92 millibars."
     },
     "correct": "A",
     "explanation": "The standard atmosphere is a temperature of 15°C (59°F) and 29.92\" Hg (1013.2 millibars).",
@@ -1498,7 +1498,7 @@
   {
     "plt": "PLT309",
     "category": "Aerodynamics",
-    "text": "(Refer to figure 2.) If an airplane weighs 2,300 pounds, what approximate weight would the airplane structure be required to support during a 60° banked tum while maintaining altitude?",
+    "text": "(Refer to figure 2.) If an airplane weighs 2,300 pounds, what approximate weight would the airplane structure be required to support during a 60° banked turn while maintaining altitude?",
     "options": {
       "A": "2,300 pounds.",
       "B": "3,400 pounds.",
@@ -1538,7 +1538,7 @@
   {
     "plt": "PLT242",
     "category": "Aerodynamics",
-    "text": "What force makes an airplane tum?",
+    "text": "What force makes an airplane turn?",
     "options": {
       "A": "The horizontal component of lift.",
       "B": "The vertical component of lift.",
@@ -1840,14 +1840,14 @@
   {
     "plt": "PLT119",
     "category": "Flight Environment",
-    "text": "The Aeronautical Information Manual (AIM) specifically encourages pilots to tum on their landing lights when operating below 10,000 feet, day or night, and especially when operating",
+    "text": "The Aeronautical Information Manual (AIM) specifically encourages pilots to turn on their landing lights when operating below 10,000 feet, day or night, and especially when operating",
     "options": {
       "A": "in Class B airspace.",
       "B": "in conditions of reduced visibility.",
       "C": "within 15 miles of a towered airport."
     },
     "correct": "B",
-    "explanation": "AIM, The FA~s voluntary pilot safety program, Operation Lights On, encourages pilots to turn on their landing lights when operating below 10,000 feet, day or night, especially Within 10 miles of any airport; also in conditions of reduced visibility and in areas where flocks of birds can be expected, such as coastal areas, lake areas, and around trash dumps.",
+    "explanation": "AIM, The FAA's voluntary pilot safety program, Operation Lights On, encourages pilots to turn on their landing lights when operating below 10,000 feet, day or night, especially Within 10 miles of any airport; also in conditions of reduced visibility and in areas where flocks of birds can be expected, such as coastal areas, lake areas, and around trash dumps.",
     "id": "4-25"
   },
   {
@@ -2387,7 +2387,7 @@
   {
     "plt": "PLT064",
     "category": "Flight Environment",
-    "text": "(Refer to figure 21.) (Area 3) Determine the approximate latitude and longfmide of Currituck County Airport.",
+    "text": "(Refer to figure 21.) (Area 3) Determine the approximate latitude and longitude of Currituck County Airport.",
     "options": {
       "A": "36°24'N - 76°01 'W.",
       "B": "36°48'N - 76°01 'W.",
@@ -2506,7 +2506,8 @@
     },
     "correct": "A",
     "explanation": "Pilots are requested to maintain a minimum of 2,000 feet above National Wildlife Refuge",
-    "id": "4-81"
+    "id": "4-81",
+    "figureRef": 27
   },
   {
     "plt": "PLT064",
@@ -3553,7 +3554,7 @@
   {
     "plt": "PLT194",
     "category": "Weather",
-    "text": "An ATC radar facility issues the following advisory to a pilot flying on a heading of 360°: \"TRAFFIC I 0 O'CLOCK, 2 MILES, SOUTHBOUND... \" Where should the pilot look for this traffic?",
+    "text": "An ATC radar facility issues the following advisory to a pilot flying on a heading of 360°: \"TRAFFIC 10 O'CLOCK, 2 MILES, SOUTHBOUND... \" Where should the pilot look for this traffic?",
     "options": {
       "A": "Northwest.",
       "B": "Northeast.",
@@ -3586,7 +3587,7 @@
       "C": "West."
     },
     "correct": "C",
-    "explanation": "GF©PP 5-8, AIM The pilot's 12 o'clock is north, so 9 o'clock is left, or west.",
+    "explanation": "GFDPP 5-8, AIM The pilot's 12 o'clock is north, so 9 o'clock is left, or west.",
     "id": "5-6"
   },
   {
@@ -3902,7 +3903,7 @@
     "options": {
       "A": "Broadcast intentions when l O miles out on the CTAF/MULTICOM frequency, 122.9 MHz.",
       "B": "Contact UNICOM when 10 miles out on 122.8 MHz.",
-      "C": "Circle the airport in a left tum prior to entering traffic."
+      "C": "Circle the airport in a left turn prior to entering traffic."
     },
     "correct": "A",
     "explanation": "The CTAF/MULTICOM frequency, 122.9, is depicted next to the CTAF symbol. Pilots should broadcast intentions on this frequency when 10 miles from the field.",
@@ -4082,7 +4083,7 @@
   {
     "plt": "PLT078",
     "category": "Weather",
-    "text": "(Refer to figure 53.) What is the recommended commu.nications procedure for landing at Lincoln Municipal during the hours when the tower is not in operation?",
+    "text": "(Refer to figure 53.) What is the recommended communications procedure for landing at Lincoln Municipal during the hours when the tower is not in operation?",
     "options": {
       "A": "Monitor airport traffic and announce your position and intentions on 118.5 MHz.",
       "B": "Contact UNICOM on 122.95 MHz for traffic advi- sanes.",
@@ -4180,8 +4181,8 @@
     "category": "Weather",
     "text": "(Refer to figure 53.) Traffic patterns in effect at Lincoln Municipal are",
     "options": {
-      "A": "to the right on Runway l 7L and Runway 35L; to the left on Runway 17R and Runway 35R.",
-      "B": "to the left on Runway 17L a.nd Runway 35L; to the right on Runway 17R and Runway 35R.",
+      "A": "to the right on Runway 17L and Runway 35L; to the left on Runway 17R and Runway 35R.",
+      "B": "to the left on Runway 17L and Runway 35L; to the right on Runway 17R and Runway 35R.",
       "C": "to the right on Runways 14-32."
     },
     "correct": "B",
@@ -4478,7 +4479,7 @@
   {
     "plt": "PLT512",
     "category": "Flight Instruments",
-    "text": "At approximately what altitude above the surface would the pilot expect the base of cumuli form clouds if the surface air ten1perature is 82°F and the dewpoint is 38°F?",
+    "text": "At approximately what altitude above the surface would the pilot expect the base of cumuli form clouds if the surface air temperature is 82°F and the dewpoint is 38°F?",
     "options": {
       "A": "9,000 feet AGL.",
       "B": "10,000 feetAGL.",
@@ -4650,7 +4651,7 @@
     "text": "What types of fog depend upon wind in order to exist?.",
     "options": {
       "A": "Radiation fog and ice fog.",
-      "B": "Steam fog a.nd ground fog.",
+      "B": "Steam fog and ground fog.",
       "C": "Advection fog and upslope fog."
     },
     "correct": "C",
@@ -4690,7 +4691,7 @@
     "options": {
       "A": "across a mountain ridge, and the air is stable.",
       "B": "down a mountain valley, and the air is unstable.",
-      "C": "parallel to a mountain peak, a.nd the air is stable."
+      "C": "parallel to a mountain peak, and the air is stable."
     },
     "correct": "A",
     "explanation": "AW Mountain waves are formed when strong winds (40 knots or greater) flow across a barrier, such as a mountain ridge. When the air is stable, the flow is laminar, or layered, and creates a series of waves. Unstable air that is forced upward tends to continue rising, often creating thunderstorm",
@@ -5043,7 +5044,7 @@
     "options": {
       "A": "Calm.",
       "B": "110° at 12 knots, peak gusts 18 knots.",
-      "C": "111 ° at 2 knots, peak gusts 18 knots."
+      "C": "110° at 2 knots, peak gusts 18 knots."
     },
     "correct": "B",
     "explanation": "12, AWS The winds at KINK are shown as 11012G18KT. The direction is 110 degrees, and the velocity is 12 knots, with peak gusts of 18 knots.",
@@ -5101,7 +5102,7 @@
       "C": "090° at 21 knots and - 9°C."
     },
     "correct": "A",
-    "explanation": "AWS The ambient temperature and wind velocity appear in the part of the pilot report that says \"/TA M7/WV 08021/: All temperatures aloft are given in degrees Celsius, and the \"M\" indicates temperatures below zero. Wind speed is reported in knots.",
+    "explanation": "AWS The ambient temperature and wind velocity appear in the part of the pilot report that says \"(TEMPO 0800Z): All temperatures aloft are given in degrees Celsius, and the \"M\" indicates temperatures below zero. Wind speed is reported in knots.",
     "figureRef": 14,
     "id": "7-8"
   },
@@ -5165,12 +5166,12 @@
     "category": "Navigation",
     "text": "(Refer to figure 15.) What is the valid period for the TAF for KMEM?",
     "options": {
-      "A": "12002 to 120oz.",
+      "A": "1200Z to 120oz.",
       "B": "120oz to 180oz.",
-      "C": "18002 to 1800Z."
+      "C": "1800Z to 1800Z."
     },
     "correct": "C",
-    "explanation": "19, AWS TAFs are usually valid for a twenty-four hour period and are scheduled four times a day (00002, 06002, 12002, and 18002). The six-digit issuance date/time group is followed by the valid date/time group. Therefore, \"1217202 121818\" indicates the KMEM TAF was issued on the 12th at 1720 Zulu. This report is valid from 1800 Zulu on the 12th until 1800 Zulu on the 13th.",
+    "explanation": "19, AWS TAFs are usually valid for a twenty-four hour period and are scheduled four times a day (00002, 0600Z, 1200Z, and 1800Z). The six-digit issuance date/time group is followed by the valid date/time group. Therefore, \"1217202 121818\" indicates the KMEM TAF was issued on the 12th at 1720 Zulu. This report is valid from 1800 Zulu on the 12th until 1800 Zulu on the 13th.",
     "figureRef": 15,
     "id": "7-13"
   },
@@ -5191,7 +5192,7 @@
   {
     "plt": "PLT072",
     "category": "Navigation",
-    "text": "(Refer to figure 15.) Between 10002 and 12002 the visibility at KMEM is forecast to be?",
+    "text": "(Refer to figure 15.) Between 10002 and 1200Z the visibility at KMEM is forecast to be?",
     "options": {
       "A": "1/2 statute mile.",
       "B": "3 statute miles.",
@@ -5223,7 +5224,7 @@
     "options": {
       "A": "180° at 10 knots, becoming 200° at 13 knots.",
       "B": "160° at 10 knots.",
-      "C": "180° at IO knots."
+      "C": "180° at 10 knots."
     },
     "correct": "C",
     "explanation": "AWS Rapid changes in the forecast are indicated by the code \"FM\" followed by the time the change should occur. 18010KT indicates wind from 180 degrees at 10 knots. \"BECMG 2224\" means that the next change will be happening gradually from 2200 to 2400Z.",
@@ -5240,7 +5241,7 @@
       "C": "overcast at 200 feet with the probability of becoming overcast at 400 feet during the forecast period between 2200Z and 2400Z."
     },
     "correct": "A",
-    "explanation": "AWS When a gradual change in the forecast weather is expected, the becoming (BECMG) change group is used, followed by the beginning and ending times. The TAF from KOKC, \"BECMG 2224 20013G20KT 4SM SHRA OVC020\" means between 220oz and 2400Z the weather will gradually change to winds from 200° at 13 knots gusting to 20 knots, 4 miles visibility in rain showers, and overcast skies at 2,000 feet.",
+    "explanation": "AWS When a gradual change in the forecast weather is expected, the becoming (BECMG) change group is used, followed by the beginning and ending times. The TAF from KOKC, \"BECMG 2224 20013G20KT 4SM SHRA OVC020\" means between 2200Z and 2400Z the weather will gradually change to winds from 200° at 13 knots gusting to 20 knots, 4 miles visibility in rain showers, and overcast skies at 2,000 feet.",
     "figureRef": 15,
     "id": "7-18"
   },
@@ -5254,14 +5255,14 @@
       "C": "Possibly 6 statute miles."
     },
     "correct": "A",
-    "explanation": "AWS This section reads, \"BECMG 0608 21015KT P6SM SCT040=':This means that between 0600-08002, the wind will become 210° at 15 knots, visibility is forecast to be greater than (not possibly) 6 statute miles, and clouds will become scattered at 4,000 feet.",
+    "explanation": "AWS This section reads, \"BECMG 0608 21015KT P6SM SCT040=':This means that between 0600-0800Z, the wind will become 210° at 15 knots, visibility is forecast to be greater than (not possibly) 6 statute miles, and clouds will become scattered at 4,000 feet.",
     "figureRef": 15,
     "id": "7-19"
   },
   {
     "plt": "PLT072",
     "category": "Navigation",
-    "text": "(Ref er to figure 15.) The only cloud type forecast in TAF reports is",
+    "text": "(Refer to figure 15.) The only cloud type forecast in TAF reports is",
     "options": {
       "A": "Nimbostratus.",
       "B": "Cumulonimbus.",
@@ -5341,23 +5342,23 @@
   {
     "plt": "PLT081",
     "category": "Navigation",
-    "text": "(Refer to figure I 6.) The Chicago FA forecast section is valid until the twenty-fifth at",
+    "text": "(Refer to figure 16.) The Chicago FA forecast section is valid until the twenty-fifth at",
     "options": {
-      "A": "19452.",
-      "B": "08002.",
-      "C": "14002."
+      "A": "1945Z.",
+      "B": "0800Z.",
+      "C": "1400Z."
     },
     "correct": "B",
-    "explanation": "AWS In the first line, \"CHI\" indicates the area for which the FA is valid. The \"C\" following CHI indicates VFR clouds and weather while the FA indicates what type of forecast message it is. The \"241945\" indicates the date and time the FA was issued. The next line \"SYNOPSIS AND VFR CLOS/ WX\" states what information is contained in this forecast message. \"CLDS/WX VALID UNTIL 250800\" means that the forecast secUon of the FA is valid until the 25th at 08002, while the outlook portion Is valid from the 25th at 08002 until the 25th at 14002. ND SD NE KS MN IA MO WI LM LS Ml LH IL IN KY describes the area for which this FA forecast is valid.",
+    "explanation": "AWS In the first line, \"CHI\" indicates the area for which the FA is valid. The \"C\" following CHI indicates VFR clouds and weather while the FA indicates what type of forecast message it is. The \"241945\" indicates the date and time the FA was issued. The next line \"SYNOPSIS AND VFR CLOS/ WX\" states what information is contained in this forecast message. \"CLDS/WX VALID UNTIL 250800\" means that the forecast secUon of the FA is valid until the 25th at 0800Z, while the outlook portion Is valid from the 25th at 0800Z until the 25th at 1400Z. ND SD NE KS MN IA MO WI LM LS Ml LH IL IN KY describes the area for which this FA forecast is valid.",
     "id": "7-26"
   },
   {
     "plt": "PLT081",
     "category": "Navigation",
-    "text": "(Refer to figure 16.) What sky condition and type obstructions to vision are forecast for upper Michigan in the western portions from 02002 until 05002?",
+    "text": "(Refer to figure 16.) What sky condition and type obstructions to vision are forecast for upper Michigan in the western portions from 0200Z until 0500Z?",
     "options": {
       "A": "Ceiling becoming 1,000 feet overcast with visibility 3 to 5 statute miles in mist.",
-      "B": "Ceiling becoming l 00 feet overcast with visibility 3 to 5 statute miles in mist.",
+      "B": "Ceiling becoming 100 feet overcast with visibility 3 to 5 statute miles in mist.",
       "C": "Ceiling becoming 1,000 feet overcast with visibility 3 to 5 nautical miles in mist."
     },
     "correct": "A",
@@ -5515,7 +5516,7 @@
   {
     "plt": "PLT075",
     "category": "Navigation",
-    "text": "(Refer to figure 18.) Of what value is the Weather Depiction Chart to the 1? pl Ot.",
+    "text": "(Refer to figure 18.) Of what value is the Weather Depiction Chart to the pilot.",
     "options": {
       "A": "For determining general weather conditions on which to base flight planning.",
       "B": "For a forecast of cloud coverage, visibilities, and frontal activity.",
@@ -5958,9 +5959,9 @@
     "category": "Cross-Country Flying",
     "text": "(Refer to figure 36.) Approximately what true airspeed should a pilot expect with 65 percent maximum continuous power at 9,500 feet with a temperature of 36°F below standard?",
     "options": {
-      "A": "KTS.",
-      "B": "KTS.",
-      "C": "KTS."
+      "A": "158 KTS.",
+      "B": "168 KTS.",
+      "C": "178 KTS."
     },
     "correct": "C",
     "explanation": "Use the left-hand portion of the table, under ISA - 36°F. Interpolate between the TAS values for 8,000 feet (157 KTS) and 10,000 feet (160 KTS).The closest answer is 158 KTS. Chapter B - Airplane Performance 8-8. Answer 8. GFDPP 8-22, PH8 The temperature of 22°c is found on the right-hand portion of the table (ISA+ 20°C) at 8,000 feet. Read across to find a fuel flow of 11.5 GPH, and TAS of 164 Knots (use knots because the distance is in nautical miles). Now, find the time enroute by dividing 1,000 NM by 164 knots (Normally you would use groundspeed, but with a calm wind, TAS equals groundspeed.) The time enroute is approximately 6.1 hours. Multiply the time by fuel flow. The total fuel consumption is 70.1 gallons. 8-9. Answer 8. GFDPP 8-22, PH8 Use the center portion of the table for a standard day. You will need to interpolate to find the fuel flow for 11,000 feet which is halfway between 12,000 and 10,000 feet. The answer is 11.2 (11.5 - 10.9 =.6 + 2 =.3 + 10.9 = 11.2).",
@@ -5977,7 +5978,7 @@
       "C": "21.0 inches Hg."
     },
     "correct": "C",
-    "explanation": "PH8 The RPM is the same for all altitudes. Therefore, to determine what manifold pressure (MP) is required to achieve 65°/o maximum continuous power, enter the table under ISA+ 36°F. The MP for 6,000 feet is 21.0: and for 8,000 feet it is 20.S~The Interpolated MP for 6,500 feet is 20.95. The closest answer is 21.0\" Hg. 8-11. Answer 8. GFDPP 8-12, PH8 First, compute the difference between the runway (180°) and the wind (220°). The result is an angle of 40 degrees. Find the intersection of the 40 degree line and the 30 knot wind velocity arc, then read across to the left side to find the headwind component of 23 knots.",
+    "explanation": "PH8 The RPM is the same for all altitudes. Therefore, to determine what manifold pressure (MP) is required to achieve 65% maximum continuous power, enter the table under ISA+ 36°F. The MP for 6,000 feet is 21.0: and for 8,000 feet it is 20.5. The Interpolated MP for 6,500 feet is 20.95. The closest answer is 21.0\" Hg. 8-11. Answer 8. GFDPP 8-12, PH8 First, compute the difference between the runway (180°) and the wind (220°). The result is an angle of 40 degrees. Find the intersection of the 40 degree line and the 30 knot wind velocity arc, then read across to the left side to find the headwind component of 23 knots.",
     "figureRef": 36,
     "id": "8-10"
   },
@@ -5998,7 +5999,7 @@
   {
     "plt": "PLT013",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 3 7.) What is th maximum wind velocity for a 30° crosswind if the maximum crosswind component for the airplane is 12 knots?",
+    "text": "(Refer to figure 37.) What is th maximum wind velocity for a 30° crosswind if the maximum crosswind component for the airplane is 12 knots?",
     "options": {
       "A": "16knots.",
       "B": "20 knots.",
@@ -6012,7 +6013,7 @@
   {
     "plt": "PLT013",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 3 7.) With a reported wind of north at 20 knots, which runway (6, 29, or 32) is acceptable for use for an airplane with a 13-knot maximum crosswind component?",
+    "text": "(Refer to figure 37.) With a reported wind of north at 20 knots, which runway (6, 29, or 32) is acceptable for use for an airplane with a 13-knot maximum crosswind component?",
     "options": {
       "A": "Runway 6.",
       "B": "Runway 29.",
@@ -6040,7 +6041,7 @@
   {
     "plt": "PLT013",
     "category": "Cross-Country Flying",
-    "text": "(Ref er to figure 3 7.) What is the crosswind component for a landing on Runway 18 if the tower reports the wind as 220° at 30 knots?",
+    "text": "(Refer to figure 37.) What is the crosswind component for a landing on Runway 18 if the tower reports the wind as 220° at 30 knots?",
     "options": {
       "A": "19 knots.",
       "B": "23 knots.",
@@ -6081,7 +6082,7 @@
   {
     "plt": "PLT008",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 39.) Detennine the total distance required to land over a 50-f oot obstacle. Pressure altitude... 7,500 ft Headwind... 8 knots Temperature... 32°F Runway... Hard surface",
+    "text": "(Refer to figure 39.) Determine the total distance required to land over a 50-f oot obstacle. Pressure altitude... 7,500 ft Headwind... 8 knots Temperature... 32°F Runway... Hard surface",
     "options": {
       "A": "1,004 feet.",
       "B": "1,205 feet.",
@@ -6095,7 +6096,7 @@
   {
     "plt": "PLT008",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 39.) Determine the approximate landing ground roll distance. Pressure altitude... 5,000 ft Headwind... Calm Temperature... 101 °F",
+    "text": "(Refer to figure 39.) Determine the approximate landing ground roll distance. Pressure altitude... 5,000 ft Headwind... Calm Temperature... 101°F",
     "options": {
       "A": "495 feet.",
       "B": "545 feet.",
@@ -6109,7 +6110,7 @@
   {
     "plt": "PLT008",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 39.) Detennine the total distance required to land over a SO-foot obstacle. Pressure altitude... 3,750 ft Headwind... 12 knots Temperature... Std",
+    "text": "(Refer to figure 39.) Determine the total distance required to land over a SO-foot obstacle. Pressure altitude... 3,750 ft Headwind... 12 knots Temperature... Std",
     "options": {
       "A": "794 feet.",
       "B": "836 feet.",
@@ -6123,7 +6124,7 @@
   {
     "plt": "PLT008",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 39.) Detennine the approximate landing ground roll distance. Pressure altitude... 1,250 ft Headwind... 8 knots Temperature... Std",
+    "text": "(Refer to figure 39.) Determine the approximate landing ground roll distance. Pressure altitude... 1,250 ft Headwind... 8 knots Temperature... Std",
     "options": {
       "A": "275 feet.",
       "B": "366 feet.",
@@ -6152,7 +6153,7 @@
     "category": "Cross-Country Flying",
     "text": "(Refer to figure 41.) Determine the approximate ground roll distance required for takeoff. OAT... 100°F Pressure altitude.. 2,000 ft Takeoffweight... 2,750 lb Headwind component... Calm",
     "options": {
-      "A": "650feet.",
+      "A": "650 feet.",
       "B": "800 feet.",
       "C": "1,000 feet."
     },
@@ -6219,7 +6220,7 @@
   {
     "plt": "PLT328",
     "category": "Cross-Country Flying",
-    "text": "(Ref er to figure 3 5.) What is the maximum amount of fuel that may be aboard the airplane on takeoff if loaded as follows? WEIGHT MOM/1000 (LB) 1,350 51.5 Empty,veight 340 - ---- Pilot and Front passenger 310 - ---- Rear passengers 45 - -- Baggage - ---- - --- Oil, 8 qt",
+    "text": "(Refer to figure 35.) What is the maximum amount of fuel that may be aboard the airplane on takeoff if loaded as follows? WEIGHT MOM/1000 (LB) 1,350 51.5 Empty weight 340 - ---- Pilot and Front passenger 310 - ---- Rear passengers 45 - -- Baggage - ---- - --- Oil, 8 qt",
     "options": {
       "A": "24 gallons.",
       "B": "32 gallons.",
@@ -6302,7 +6303,7 @@
   {
     "plt": "PLT328",
     "category": "Cross-Country Flying",
-    "text": "(Ref er to figure 62.) If 50 pounds of weight is located at point X and 100 pounds at point Z, how much weight must be located at point Y to balance the plank?",
+    "text": "(Refer to figure 62.) If 50 pounds of weight is located at point X and 100 pounds at point Z, how much weight must be located at point Y to balance the plank?",
     "options": {
       "A": "30 pounds.",
       "B": "50 pounds.",
@@ -6336,7 +6337,7 @@
       "C": "1,650-foot increase."
     },
     "correct": "C",
-    "explanation": "56, PHB Follow the line above 25°F up to where It intersects 5,000 feet pressure altitude, and read 3,750 feet density altitude on the left scale. Do the same with S0°F, up to 5,000 feet, and then left to read 5,400 feet. The difference is an increase of 1,650 feet.",
+    "explanation": "56, PHB Follow the line above 25°F up to where It intersects 5,000 feet pressure altitude, and read 3,750 feet density altitude on the left scale. Do the same with 50°F, up to 5,000 feet, and then left to read 5,400 feet. The difference is an increase of 1,650 feet.",
     "figureRef": 8,
     "id": "8-46"
   },
@@ -6357,7 +6358,7 @@
   {
     "plt": "PLT005",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 8.) Determine the density altitude for these conditions: Altimeter setting... 29.25 Runway temperature... +81 °P Airport elevation... 5,250 ft MSL",
+    "text": "(Refer to figure 8.) Determine the density altitude for these conditions: Altimeter setting... 29.25 Runway temperature... +81°F Airport elevation... 5,250 ft MSL",
     "options": {
       "A": "4,600 feet MSL.",
       "B": "5,877 feet MSL.",
@@ -6385,7 +6386,7 @@
   {
     "plt": "PLT124",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 8.) What is the effect of a temperature increase from 35 to 50 °Pon the density altitude if the pressure altitude remains at 3,000 feet MSL?",
+    "text": "(Refer to figure 8.) What is the effect of a temperature increase from 35 to 50°F on the density altitude if the pressure altitude remains at 3,000 feet MSL?",
     "options": {
       "A": "1,000-foot increase.",
       "B": "1, 100-foot decrease.",
@@ -6415,8 +6416,8 @@
     "category": "Cross-Country Flying",
     "text": "(Refer to figure 8.) What is the effect of a temperature decrease and a pressure altitude increase on the density altitude from 90°F and 1,250 feet pressure altitude to 55°F and 1,750 feet pressure altitude?",
     "options": {
-      "A": "l,750-foot increase.",
-      "B": "l,350-foot decrease.",
+      "A": "1,750-foot increase.",
+      "B": "1,350-foot decrease.",
       "C": "1,750-foot decrease."
     },
     "correct": "C",
@@ -6434,14 +6435,14 @@
       "C": "1526. 8-26 Airplane Performance."
     },
     "correct": "C",
-    "explanation": "NOTE: Use scale at top of chart for distance. This question requires you to calculate groundspeed and then estimated time of arrival. 1. Determine the actual groundspeed (GS) of the aircraft. a. Measure the distance between Hampton Roads Airport and Chesapeake Municipal (CPK)-10 NM. b. Determine the elapsed time (15:01 - 14:56 = 5 min). c. Determine the GS (10 NM in 5 min = 2 NM/min x 60 min= 120 knots groundspeed). 2. Determine the estimated time of arrival (ETA) at First Flight Airport. a. Measure the distance between Chesapeake Municipal and First Flight Airport (50 NM). b. Determine the time enroute between the two points (50 NM at 120 knots= approximately 25 minutes). c. If the aircraft was over Chesapeake Municipal at 15:01, the ETA at First Flight Airport is about 15:26. (15:01 + 25 min= 15:26). 3. Determine the groundspeed using your flight computer. a. Enter the wind direction and speed (330° True at 25 knots). b. Enter the TC (012°) c. Enter the True Air Speed (TAS) (100 knots) d. GS= 80 knots 4. Determine the time enroute using your flight computer (59 NM at 80 NM/hr = 44 min 15 sec) 5. Add departure and climbout time (3 min 30 sec + 44 min 15 sec= 47 min 45 sec) This is rounded to 48 minutes. 8-55. Answer 8. GFDPP 08-54, PHB This question requires you to calculate groundspeed and then complete a time-speed-distance problem. 1. Measure the distance from Sandpoint Airport Maries Airport (approximately 58 NM). 2. Determine the true course (TC = 181°). 3. Determine groundspeed using the flight computer. a. Enter the wind direction and speed (215° True at 25 k.nots). b. Enter the TC (181 °). c. Enter the True Airspeed (125 knots). d. GS=103 knots 4. Determine the time enroute using the flight computer (58 NM at 103 NM/hr= 34 min).",
+    "explanation": "NOTE: Use scale at top of chart for distance. This question requires you to calculate groundspeed and then estimated time of arrival. 1. Determine the actual groundspeed (GS) of the aircraft. a. Measure the distance between Hampton Roads Airport and Chesapeake Municipal (CPK)-10 NM. b. Determine the elapsed time (15:01 - 14:56 = 5 min). c. Determine the GS (10 NM in 5 min = 2 NM/min x 60 min= 120 knots groundspeed). 2. Determine the estimated time of arrival (ETA) at First Flight Airport. a. Measure the distance between Chesapeake Municipal and First Flight Airport (50 NM). b. Determine the time enroute between the two points (50 NM at 120 knots= approximately 25 minutes). c. If the aircraft was over Chesapeake Municipal at 15:01, the ETA at First Flight Airport is about 15:26. (15:01 + 25 min= 15:26). 3. Determine the groundspeed using your flight computer. a. Enter the wind direction and speed (330° True at 25 knots). b. Enter the TC (012°) c. Enter the True Air Speed (TAS) (100 knots) d. GS= 80 knots 4. Determine the time enroute using your flight computer (59 NM at 80 NM/hr = 44 min 15 sec) 5. Add departure and climbout time (3 min 30 sec + 44 min 15 sec= 47 min 45 sec) This is rounded to 48 minutes. 8-55. Answer 8. GFDPP 08-54, PHB This question requires you to calculate groundspeed and then complete a time-speed-distance problem. 1. Measure the distance from Sandpoint Airport Maries Airport (approximately 58 NM). 2. Determine the true course (TC = 181°). 3. Determine groundspeed using the flight computer. a. Enter the wind direction and speed (215° True at 25 knots). b. Enter the TC (181 °). c. Enter the True Airspeed (125 knots). d. GS=103 knots 4. Determine the time enroute using the flight computer (58 NM at 103 NM/hr= 34 min).",
     "figureRef": 21,
     "id": "8-53"
   },
   {
     "plt": "PLT012",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 23.) Determine the estimated time enroute for a flight from Priest River Airport (areal) to Shoshone County Airport (area 3). The wind is from 030 at 12 knots and the true airspeed is 95 knots. Add 2 minutes for climbout.",
+    "text": "(Refer to figure 23.) Determine the estimated time enroute for a flight from Priest River Airport (area 1) to Shoshone County Airport (area 3). The wind is from 030 at 12 knots and the true airspeed is 95 knots. Add 2 minutes for climbout.",
     "options": {
       "A": "27 minutes.",
       "B": "29 minutes.",
@@ -6455,7 +6456,7 @@
   {
     "plt": "PLT012",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 23.) What is the estimated time enroute for a flight from St. Maries Airport (area 4) to Priest River Airport (areal)? The wind is from 300° at 14 knots and the true airspeed is 90 knots. Add 3 minutes for climbout.",
+    "text": "(Refer to figure 23.) What is the estimated time enroute for a flight from St. Maries Airport (area 4) to Priest River Airport (area 1)? The wind is from 300° at 14 knots and the true airspeed is 90 knots. Add 3 minutes for climbout.",
     "options": {
       "A": "38 minutes.",
       "B": "43 minutes.",
@@ -6483,7 +6484,7 @@
   {
     "plt": "PLT012",
     "category": "Cross-Country Flying",
-    "text": "(Refer to figure 24.) What is the estimated time enroute for a flight from Claxton-Evans County Airport (area 2) to Hampton Varnville Airport (areal)? The wind is from 290° at 18 knots and the true airspeed is 85 knots. Add 2 minutes for climbout.",
+    "text": "(Refer to figure 24.) What is the estimated time enroute for a flight from Claxton-Evans County Airport (area 2) to Hampton Varnville Airport (area 1)? The wind is from 290° at 18 knots and the true airspeed is 85 knots. Add 2 minutes for climbout.",
     "options": {
       "A": "35 minutes.",
       "B": "39 minutes.",
@@ -6552,11 +6553,11 @@
   {
     "plt": "PLT012",
     "category": "Cross-Country Flying",
-    "text": "(Ref er to figure 63.) In flying the rectangular course, when would the aircraft be turned less than 90°?",
+    "text": "(Refer to figure 63.) In flying the rectangular course, when would the aircraft be turned less than 90°?",
     "options": {
-      "A": "Comers 1 and.",
-      "B": "Comers l and.",
-      "C": "Comers 2 and 4 Flight Computers."
+      "A": "Corners 1 and 2.",
+      "B": "Corners 1 and 4.",
+      "C": "Corners 2 and 4 Flight Computers."
     },
     "correct": "A",
     "explanation": "To maintain the rectangular ground track at turn 1, the aircraft Is turned less than 90 degrees to establish a right crab into the wind. Approaching turn 4, the aircraft is crabbed left into the wind and is therefore turned less than 90 degrees into the direct headwind.",
@@ -6698,7 +6699,7 @@
   {
     "plt": "PLT012",
     "category": "Night Flying",
-    "text": "(Refer to figure 23.) Detennine the magnetic heading for a flight from Sandpoint Airport (area 1) to St. Maries Airport (area 4). The wind is from 215° at 25 knots, and the true airspeed is 125 knots.",
+    "text": "(Refer to figure 23.) Determine the magnetic heading for a flight from Sandpoint Airport (area 1) to St. Maries Airport (area 4). The wind is from 215° at 25 knots, and the true airspeed is 125 knots.",
     "options": {
       "A": "169°.",
       "B": "349°.",
@@ -6726,7 +6727,7 @@
   {
     "plt": "PLT012",
     "category": "Night Flying",
-    "text": "(Refer to figure 23.) Determine the magnetic heading for a flight from St. Maries Airport (area 4) to Priest River Ajrport (area I). The wind is from 340° at 10 knots and the true airspeed is 90 knots.",
+    "text": "(Refer to figure 23.) Determine the magnetic heading for a flight from St. Maries Airport (area 4) to Priest River Airport (area 1). The wind is from 340° at 10 knots and the true airspeed is 90 knots.",
     "options": {
       "A": "345°.",
       "B": "320°.",
@@ -6754,7 +6755,7 @@
   {
     "plt": "PLT012",
     "category": "Night Flying",
-    "text": "(Refer to figure 24 and 59.) Determine the compass heading for a flight from Claxton-Evans County Airport ( area 2) to Hampton Varnville Airport ( area I). The wind is from 280° at 08 knots, and the true airspeed is 85 knots.",
+    "text": "(Refer to figure 24 and 59.) Determine the compass heading for a flight from Claxton-Evans County Airport ( area 2) to Hampton Varnville Airport (area 1). The wind is from 280° at 08 knots, and the true airspeed is 85 knots.",
     "options": {
       "A": "033°.",
       "B": "042°.",
@@ -6865,7 +6866,7 @@
   {
     "plt": "PLT012",
     "category": "Night Flying",
-    "text": "(Refer to figure 24.) What is the approximate position of the aircraft if the VOR receivers indicate the 320° radial of Savannah VORTAC (area 3) and the 184° radial of Allendale VOR (areal)?",
+    "text": "(Refer to figure 24.) What is the approximate position of the aircraft if the VOR receivers indicate the 320° radial of Savannah VORTAC (area 3) and the 184° radial of Allendale VOR (area 1)?",
     "options": {
       "A": "Town of Guyton.",
       "B": "Town of Springfield.",
@@ -8162,7 +8163,7 @@
     "options": {
       "A": "beneath the floor of Class B airspace.",
       "B": "over a densely populated area or in a congested airway.",
-      "C": "from the prima.ry airport within Class D airspace. 14 CFR Part 91 - General Operating and Flight Rules."
+      "C": "from the primary airport within Class D airspace. 14 CFR Part 91 - General Operating and Flight Rules."
     },
     "correct": "B",
     "explanation": "FAR 91.313 No person may operate a restricted category civil aircraft within the United States over a densely populated area.",

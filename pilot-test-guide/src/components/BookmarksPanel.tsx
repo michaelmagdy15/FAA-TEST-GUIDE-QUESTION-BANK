@@ -112,10 +112,6 @@ export const BookmarksPanel: React.FC<BookmarksPanelProps> = ({ mode, onNavigate
           </div>
         </div>
       )}
-
-      <style>{`
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-      `}</style>
     </>
   );
 };

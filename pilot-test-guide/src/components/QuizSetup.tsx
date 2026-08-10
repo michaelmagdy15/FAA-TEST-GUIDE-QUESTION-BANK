@@ -140,8 +140,6 @@ export const QuizSetup: React.FC<QuizSetupProps> = ({ questions, onStart, onClos
           Start Quiz ({Math.min(selectedCount, filteredQuestions.length)} questions)
         </button>
       </div>
-
-      <style>{`@keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }`}</style>
     </div>
   );
 };

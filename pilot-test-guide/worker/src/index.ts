@@ -9,18 +9,44 @@ type Bindings = {
 const app = new Hono<{ Bindings: Bindings }>();
 
 app.use('*', cors({
-  origin: (origin) => {
-    return origin || '*';
+  origin: (origin, c) => {
+    const allowed = c.env.ALLOWED_ORIGIN;
+    if (allowed && origin === allowed) return origin;
+    // Allow same-origin and localhost for development
+    if (!origin) return '*';
+    return origin;
   },
   allowMethods: ['GET', 'PUT', 'OPTIONS'],
   allowHeaders: ['Content-Type'],
 }));
 
+// Input validation helper
+function isValidUserId(userId: string): boolean {
+  return typeof userId === 'string' && userId.length >= 5 && userId.length <= 128 && /^[a-zA-Z0-9_\-]+$/.test(userId);
+}
+
+// Rate limiting: simple in-memory tracker
+const rateLimitMap = new Map<string, { count: number; resetAt: number }>();
+function checkRateLimit(userId: string): boolean {
+  const now = Date.now();
+  const entry = rateLimitMap.get(userId);
+  if (!entry || now > entry.resetAt) {
+    rateLimitMap.set(userId, { count: 1, resetAt: now + 60000 }); // 1 minute window
+    return true;
+  }
+  if (entry.count >= 30) return false; // 30 requests per minute
+  entry.count++;
+  return true;
+}
+
 // Load all progress for a user
 app.get('/api/sync/:userId', async (c) => {
   const userId = c.req.param('userId');
-  if (!userId || userId.length < 5) {
+  if (!isValidUserId(userId)) {
     return c.json({ error: 'Invalid userId' }, 400);
+  }
+  if (!checkRateLimit(userId)) {
+    return c.json({ error: 'Rate limit exceeded' }, 429);
   }
 
   const db = c.env.pilot_guide_db;
@@ -70,8 +96,11 @@ app.get('/api/sync/:userId', async (c) => {
 // Save all progress for a user
 app.put('/api/sync/:userId', async (c) => {
   const userId = c.req.param('userId');
-  if (!userId || userId.length < 5) {
+  if (!isValidUserId(userId)) {
     return c.json({ error: 'Invalid userId' }, 400);
+  }
+  if (!checkRateLimit(userId)) {
+    return c.json({ error: 'Rate limit exceeded' }, 429);
   }
 
   const body = await c.req.json<{
@@ -80,6 +109,12 @@ app.put('/api/sync/:userId', async (c) => {
     detailedUpdatedAt?: number;
     bookmarks?: Record<string, string[]>;
   }>();
+
+  // Validate body size (max 1MB)
+  const bodyStr = JSON.stringify(body);
+  if (bodyStr.length > 1024 * 1024) {
+    return c.json({ error: 'Payload too large' }, 413);
+  }
 
   const db = c.env.pilot_guide_db;
   const now = Date.now();

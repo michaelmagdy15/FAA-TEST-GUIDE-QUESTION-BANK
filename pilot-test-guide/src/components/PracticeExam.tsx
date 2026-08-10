@@ -83,6 +83,17 @@ export const PracticeExam: React.FC<PracticeExamProps> = ({ questions, mode, exa
     sfx.playCorrect();
   }, [examStarted, examType, examQuestions.length, correctCount, passed]);
 
+  const handleRestart = useCallback(() => {
+    // Reset all exam state
+    setCurrentIndex(0);
+    setAnswers({});
+    setFlagged(new Set());
+    setShowResults(false);
+    setTimeRemaining(config.timeLimit * 60);
+    // Shuffle questions again
+    sfx.playSelect();
+  }, [config.timeLimit]);
+
   useEffect(() => {
     const handleKey = (e: KeyboardEvent) => {
       const target = e.target as HTMLElement;
@@ -175,7 +186,7 @@ export const PracticeExam: React.FC<PracticeExamProps> = ({ questions, mode, exa
 
           <div style={{ display: 'flex', gap: '0.75rem' }}>
             <button className="btn-secondary" onClick={onBack} style={{ flex: 1 }}>Back to Menu</button>
-            <button className="btn-primary" onClick={onBack} style={{ flex: 1 }}>Take Again</button>
+            <button className="btn-primary" onClick={handleRestart} style={{ flex: 1 }}>Take Again</button>
           </div>
         </div>
       </div>

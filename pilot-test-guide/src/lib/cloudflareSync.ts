@@ -182,9 +182,18 @@ function mergeDetailedProgress(
     merged.answeredQuestionIds[mode] = [...new Set([...localIds, ...cloudIds])];
   }
 
-  // totalQuestionsAnswered — sum of both (accounts for unique questions via answeredQuestionIds)
-  merged.totalQuestionsAnswered = (local.totalQuestionsAnswered || 0) + (cloud.totalQuestionsAnswered || 0);
-  merged.totalCorrect = (local.totalCorrect || 0) + (cloud.totalCorrect || 0);
+  // totalQuestionsAnswered / totalCorrect — derive from merged answeredQuestionIds and categoryAccuracy
+  // (avoid summing raw totals which causes inflation on repeated syncs)
+  let totalAnswered = 0;
+  let totalCorrect = 0;
+  for (const mode of Object.keys(merged.answeredQuestionIds || {})) {
+    totalAnswered += (merged.answeredQuestionIds?.[mode] || []).length;
+  }
+  for (const cat of Object.keys(merged.categoryAccuracy || {})) {
+    totalCorrect += merged.categoryAccuracy![cat].correct;
+  }
+  merged.totalQuestionsAnswered = totalAnswered;
+  merged.totalCorrect = totalCorrect;
 
   // categoryAccuracy — sum counts from both
   merged.categoryAccuracy = {};
@@ -262,14 +271,43 @@ function mergeDetailedProgress(
   }
   merged.mistakePatterns = Array.from(mistakeMap.values());
 
-  // studySessions — concatenate both
-  merged.studySessions = [...(local.studySessions || []), ...(cloud.studySessions || [])];
+  // studySessions — merge by date, sum durations and counts
+  const sessionMap = new Map<string, { date: string; durationMinutes: number; questionsAnswered: number; correctCount: number }>();
+  for (const s of local.studySessions || []) {
+    sessionMap.set(s.date, { ...s });
+  }
+  for (const s of cloud.studySessions || []) {
+    const existing = sessionMap.get(s.date);
+    if (existing) {
+      existing.durationMinutes = Math.max(existing.durationMinutes, s.durationMinutes);
+      existing.questionsAnswered = Math.max(existing.questionsAnswered, s.questionsAnswered);
+      existing.correctCount = Math.max(existing.correctCount, s.correctCount);
+    } else {
+      sessionMap.set(s.date, { ...s });
+    }
+  }
+  merged.studySessions = Array.from(sessionMap.values());
 
-  // examHistory — concatenate both
-  merged.examHistory = [...(local.examHistory || []), ...(cloud.examHistory || [])];
+  // examHistory — deduplicate by id
+  const examMap = new Map<string, NonNullable<ProgressData['examHistory']>[number]>();
+  for (const e of local.examHistory || []) {
+    examMap.set(e.id, e);
+  }
+  for (const e of cloud.examHistory || []) {
+    if (!examMap.has(e.id)) examMap.set(e.id, e);
+  }
+  merged.examHistory = Array.from(examMap.values());
 
-  // questionRecords — concatenate both
-  merged.questionRecords = [...(local.questionRecords || []), ...(cloud.questionRecords || [])];
+  // questionRecords — deduplicate by questionId+timestamp
+  const recordMap = new Map<string, NonNullable<ProgressData['questionRecords']>[number]>();
+  for (const r of local.questionRecords || []) {
+    recordMap.set(`${r.questionId}_${r.timestamp}`, r);
+  }
+  for (const r of cloud.questionRecords || []) {
+    const key = `${r.questionId}_${r.timestamp}`;
+    if (!recordMap.has(key)) recordMap.set(key, r);
+  }
+  merged.questionRecords = Array.from(recordMap.values());
 
   // recentQuestionTimes — take the more recent set (longer array)
   merged.recentQuestionTimes = (local.recentQuestionTimes?.length || 0) >= (cloud.recentQuestionTimes?.length || 0)

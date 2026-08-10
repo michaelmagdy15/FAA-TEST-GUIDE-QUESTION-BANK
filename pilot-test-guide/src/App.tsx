@@ -1,20 +1,21 @@
-import React, { useState, useEffect, lazy } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { ClerkProvider, useUser } from '@clerk/clerk-react';
 import { LandingView } from './components/LandingView';
-import { QuestionView } from './components/QuestionView';
-import { C172Hub } from './components/c172/C172Hub';
-import { QuizMode } from './components/QuizMode';
-import { QuizSetup } from './components/QuizSetup';
-import { PracticeExam } from './components/PracticeExam';
 import { KeyboardHelp } from './components/KeyboardHelp';
 import { Preloader } from './components/Preloader';
 import { AuthWrapper } from './components/AuthWrapper';
+import { ErrorBoundary } from './components/ErrorBoundary';
 import { useUserProgress } from './hooks/useUserProgress';
 import { setProgressUserId } from './lib/progressTracker';
 import { setSyncUserId, loadFromD1 } from './lib/cloudflareSync';
 import { Question, TestMode } from './types';
 import { getQuestionsForBank } from './lib/questionsData';
 
+const QuestionView = lazy(() => import('./components/QuestionView').then(m => ({ default: m.QuestionView })));
+const C172Hub = lazy(() => import('./components/c172/C172Hub').then(m => ({ default: m.C172Hub })));
+const QuizMode = lazy(() => import('./components/QuizMode').then(m => ({ default: m.QuizMode })));
+const QuizSetup = lazy(() => import('./components/QuizSetup').then(m => ({ default: m.QuizSetup })));
+const PracticeExam = lazy(() => import('./components/PracticeExam').then(m => ({ default: m.PracticeExam })));
 const PPLStudyGuide = lazy(() => import('./components/ppl-guide/PPLStudyGuide').then(m => ({ default: m.PPLStudyGuide })));
 
 const pplChapterTitles: Record<string, string> = {
@@ -79,7 +80,7 @@ const AppContent: React.FC = () => {
   }, [user]);
 
   useEffect(() => {
-    const timer = setTimeout(() => setLoading(false), 1800);
+    const timer = setTimeout(() => setLoading(false), 500);
     return () => clearTimeout(timer);
   }, []);
 
@@ -147,26 +148,28 @@ const AppContent: React.FC = () => {
   if (loading) return <Preloader />;
 
   const renderContent = () => {
-    if (mode === 'c172') return <C172Hub onModeSwitch={handleModeSwitch} />;
+    if (mode === 'c172') return <Suspense fallback={<Preloader />}><C172Hub onModeSwitch={handleModeSwitch} /></Suspense>;
 
     switch (viewMode) {
       case 'quiz':
-        return <QuizMode questions={quizQuestions} category={quizCategory} mode={mode} onBack={handleBack} />;
+        return <Suspense fallback={<Preloader />}><QuizMode questions={quizQuestions} category={quizCategory} mode={mode} onBack={handleBack} /></Suspense>;
       case 'exam':
-        return <PracticeExam questions={questionsData} mode={mode} examType={examType} onBack={handleBack} />;
+        return <Suspense fallback={<Preloader />}><PracticeExam questions={questionsData} mode={mode} examType={examType} onBack={handleBack} /></Suspense>;
       case 'ppl-study':
-        return <React.Suspense fallback={<Preloader />}><PPLStudyGuide onBack={handleBack} /></React.Suspense>;
+        return <Suspense fallback={<Preloader />}><PPLStudyGuide onBack={handleBack} /></Suspense>;
       case 'quiz-setup':
-        return <QuizSetup questions={questionsData} mode={mode} onStart={handleStartQuiz} onClose={handleBack} />;
+        return <Suspense fallback={<Preloader />}><QuizSetup questions={questionsData} mode={mode} onStart={handleStartQuiz} onClose={handleBack} /></Suspense>;
       case 'chapter':
         return selectedChapter ? (
-          <QuestionView
-            chapter={selectedChapter}
-            questions={reviewMode ? reviewQuestions : questionsData.filter((q: Question) => getChapter(q.id) === selectedChapter)}
-            onBack={handleBack}
-            mode={mode}
-            progressPrefix={userProgressPrefix}
-          />
+          <Suspense fallback={<Preloader />}>
+            <QuestionView
+              chapter={selectedChapter}
+              questions={reviewMode ? reviewQuestions : questionsData.filter((q: Question) => getChapter(q.id) === selectedChapter)}
+              onBack={handleBack}
+              mode={mode}
+              progressPrefix={userProgressPrefix}
+            />
+          </Suspense>
         ) : null;
       default:
         return (
@@ -205,7 +208,9 @@ export const App: React.FC = () => {
   return (
     <ClerkProvider publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}>
       <AuthWrapper>
-        <AppContent />
+        <ErrorBoundary>
+          <AppContent />
+        </ErrorBoundary>
       </AuthWrapper>
     </ClerkProvider>
   );

@@ -141,6 +141,8 @@ export const QuestionView: React.FC<QuestionViewProps> = ({ chapter, questions, 
     useEffect(() => {
         const handleKeyDown = (e: KeyboardEvent) => {
             if (!question) return;
+            const target = e.target as HTMLElement;
+            if (target.tagName === 'INPUT' || target.tagName === 'TEXTAREA') return;
             if (e.key === 'Enter' || e.key === 'ArrowRight') {
                 if (answered) {
                     sfx.playSelect();

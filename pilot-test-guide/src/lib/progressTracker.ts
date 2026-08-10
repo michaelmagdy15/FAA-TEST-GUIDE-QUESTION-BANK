@@ -189,6 +189,18 @@ export function recordAnswer(
   const today = todayStr();
   const cat = category || "Unknown";
 
+  // Idempotency guard: skip if this question was already recorded
+  const recordedKey = '_recordedQuestionIds';
+  if (!(data as any)[recordedKey]) (data as any)[recordedKey] = [];
+  if ((data as any)[recordedKey].includes(questionId)) {
+    return data; // Already recorded, skip incrementing
+  }
+  (data as any)[recordedKey].push(questionId);
+  // Keep the list bounded to prevent unbounded growth
+  if ((data as any)[recordedKey].length > 2000) {
+    (data as any)[recordedKey] = (data as any)[recordedKey].slice(-1500);
+  }
+
   // Update totals
   data.totalQuestionsAnswered++;
   if (isCorrect) data.totalCorrect++;

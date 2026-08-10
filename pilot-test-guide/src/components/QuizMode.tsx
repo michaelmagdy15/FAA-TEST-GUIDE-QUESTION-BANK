@@ -17,6 +17,7 @@ export const QuizMode: React.FC<QuizModeProps> = ({ questions, category, mode, o
   const [answers, setAnswers] = useState<Record<string, string>>({});
   const [showResults, setShowResults] = useState(false);
   const [startTime] = useState(Date.now());
+  const [questionStartTime, setQuestionStartTime] = useState(Date.now());
 
   const question = questions[currentIndex];
   const answered = question ? answers[question.id] !== undefined : false;
@@ -26,17 +27,18 @@ export const QuizMode: React.FC<QuizModeProps> = ({ questions, category, mode, o
     if (!question || answered) return;
     const isNowCorrect = key === question.correct;
     if (isNowCorrect) sfx.playCorrect(); else sfx.playIncorrect();
-    const elapsed = Math.round((Date.now() - (startTime || Date.now())) / questions.length / 1000);
+    const elapsed = Math.round((Date.now() - questionStartTime) / 1000);
     setAnswers(prev => ({ ...prev, [question.id]: key }));
     recordQuestionAnswer({
       questionId: question.id, mode, isCorrect: isNowCorrect,
       timeSeconds: elapsed, timestamp: new Date().toISOString(),
     });
-  }, [question, answered, startTime, questions.length, mode]);
+  }, [question, answered, questionStartTime, mode]);
 
   const handleNext = useCallback(() => {
     if (currentIndex < questions.length - 1) {
       setCurrentIndex(prev => prev + 1);
+      setQuestionStartTime(Date.now());
       sfx.playSelect();
     }
   }, [currentIndex, questions.length]);
@@ -44,6 +46,7 @@ export const QuizMode: React.FC<QuizModeProps> = ({ questions, category, mode, o
   const handlePrev = useCallback(() => {
     if (currentIndex > 0) {
       setCurrentIndex(prev => prev - 1);
+      setQuestionStartTime(Date.now());
       sfx.playSelect();
     }
   }, [currentIndex]);

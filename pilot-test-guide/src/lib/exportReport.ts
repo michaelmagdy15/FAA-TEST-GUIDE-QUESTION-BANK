@@ -12,8 +12,8 @@ function collectAllProgressData(): Record<string, string> {
     const key = localStorage.key(i);
     if (key) {
       // Export user-scoped progress keys (userId_progress_*, userId_ir_progress_*, etc.)
-      // Also export the pilot_guide_progress key
-      if (key.includes('_progress_') || key === 'pilot_guide_progress' || key.includes('_pilot_guide_progress')) {
+      // Also export the pilot_guide_progress key and bookmarks
+      if (key.includes('_progress_') || key === 'pilot_guide_progress' || key.includes('_pilot_guide_progress') || key === 'pilot_guide_bookmarks' || key.includes('_bookmarks')) {
         const val = localStorage.getItem(key);
         if (val !== null) data[key] = val;
       }

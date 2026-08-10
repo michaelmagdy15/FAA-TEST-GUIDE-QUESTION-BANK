@@ -102,10 +102,6 @@ export const KeyboardHelp: React.FC = () => {
           </div>
         </div>
       )}
-
-      <style>{`
-        @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
-      `}</style>
     </>
   );
 };

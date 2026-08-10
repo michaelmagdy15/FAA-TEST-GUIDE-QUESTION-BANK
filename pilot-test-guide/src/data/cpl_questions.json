@@ -17,7 +17,7 @@
     "category": "Pilot Qualifications",
     "text": "To act as PIC of a high performance airplane, which training or experience would meet the additional requirements. C",
     "options": {
-      "A": "Logged at least five hours as SIC in a high performance or turbine-powered airplane in the last 12 calendar months. a: - ta o I. CV E.",
+      "A": "Logged at least five hours as SIC in a high performance or turbine-powered airplane in the last 12 calendar months.",
       "B": "Received and logged ground and flight training in an airplane with retractable landing gear, flaps, and controllable-pitch propeller.",
       "C": "Received and logged ground and flight."
     },
@@ -110,7 +110,7 @@
     "options": {
       "A": "the specific duties of any required crewmember.",
       "B": "acting as the sole manipulator of the aircraft controls.",
-      "C": "exercising authority over initiating, 0. conducting, or terminating a flight. ni o '-, Cl).E."
+      "C": "exercising authority over initiating, conducting, or terminating a flight."
     },
     "correct": "C",
     "explanation": "FAR 1.1 \"Operational control,\" with respect to a flight, means the exercise of authority over initiating, conducting, or terminating a flight.",
@@ -119,7 +119,7 @@
   {
     "plt": "CA.I.A.Ki",
     "category": "Pilot Qualifications",
-    "text": "If you hold a commercial pilot certificate, you may act as pilot in command of an aircraft for compensation or hire, if you 0 u co z 0 t-u w V)",
+    "text": "If you hold a commercial pilot certificate, you may act as pilot in command of an aircraft for compensation or hire, if you",
     "options": {
       "A": "are qualified in accordance with 14 CFR part 61 and with the applicable parts that apply to the operation.",
       "B": "are qualified in accordance with 14 CFR part 61 and have passed a pilot competency check given by an authorized check pilot.",
@@ -301,11 +301,11 @@
   {
     "plt": "CA.I.A.Kt",
     "category": "Pilot Qualifications",
-    "text": "If you do not meet the recency of experience requirements for night flight and official sunset is 1900 CST, the latest time passengers should be carried is 0 u",
+    "text": "If you do not meet the recency of experience requirements for night flight and official sunset is 1900 CST, the latest time passengers should be carried is",
     "options": {
-      "A": "CST. co z.",
-      "B": "CST.",
-      "C": "CST."
+      "A": "2000 CST.",
+      "B": "1900 CST.",
+      "C": "1800 CST."
     },
     "correct": "A",
     "explanation": "FAR 61.57 To act as pilot in command of an aircraft carrying passengers at night-the period from 1 hour after sunset to 1 hour before sunrise as defined by FAR 61.57-you must have performed at least 3 takeoffs and landings in an aircraft of the same category and class (and type, if a type rating is required) within the preceding 90 days.",
@@ -1453,7 +1453,8 @@
     },
     "correct": "C",
     "explanation": "The course arrow is on 240° with a TO indication (060° radial). On a heading of 255°, the aircraft is on a 15° intercept angle for the 060° radial so if the aircraft does not turn to intercept the radial when the COi centers, the aircraft will cross the 060° radial at a 15° angle.",
-    "id": "2-38"
+    "id": "2-38",
+    "figureRef": 17
   },
   {
     "plt": "CA.VI.B.K1",
@@ -1674,7 +1675,8 @@
     },
     "correct": "B",
     "explanation": "Destination signs indicate the general direction to a location on the airport, such as runways, aprons, terminals, military areas, civil aviation areas, cargo areas, international areas, and FBOs. They have black inscriptions on a yellow background and always have an arrow showing the direction of the taxiing route to that destination.",
-    "id": "3-5"
+    "id": "3-5",
+    "figureRef": 56
   },
   {
     "plt": "CA.II.D.K3",
@@ -1687,7 +1689,8 @@
     },
     "correct": "A",
     "explanation": "Mandatory instruction signs denote an entrance to a runway, a critical area, or an area prohibited to aircraft. These signs are red with white letters or numbers. An example of a mandatory instruction signs is a runway holding position sign, such as shown in Figure 56. If the runway holding position sign appears at the departure end of the runway, only the takeoff runway (in this case, Runway 4) will appear on the sign (4). At locations where a taxiway intersects a runway other than at the departure end, both runway numbers appear on the sign (4-22).",
-    "id": "3-6"
+    "id": "3-6",
+    "figureRef": 56
   },
   {
     "plt": "CA.II.D.K2, 3",
@@ -1700,7 +1703,8 @@
     },
     "correct": "C",
     "explanation": "Destination signs indicate the general direction to a location on the airport, such as runways, aprons, terminals, military areas, civil aviation areas, cargo areas, international areas, and FBOs. They have black inscriptions on a yellow background and always have an arrow showing the direction of the taxiing route to that destination. The direction sign shown in Figure 57 indicates that Runway 10-21 is straight ahead, Runway 4 is to the left, and Runway 22 is to the right. nswer B GFDIC 3A, EAAAirpac.t Sign and Marking-Quick Reference Guide Item 1 in Figure 60 is a taxiway ending marker, which indicates that the taxiway does not continue beyond the location. If visual cues are inadequate, these signs are installed at the taxiway end or the far side of an intersection.",
-    "id": "3-7"
+    "id": "3-7",
+    "figureRef": 57
   },
   {
     "plt": "CA.II.D.K2, 3",
@@ -1713,7 +1717,8 @@
     },
     "correct": "C",
     "explanation": "Location signs identify either the taxiway or runway where your aircraft is located. These signs are black with yellow inscriptions and a yellow border. Direction signs indicate directions of taxiways leading out of an intersection. They have black inscriptions on a yellow background and always contain arrows that show the approximate direction of turn. The location sign in Figure 61 indicates that you are on Taxiway Alpha and the direction sign indicates that you must turn slightly to the left to enter Taxiway Foxtrot.",
-    "id": "3-9"
+    "id": "3-9",
+    "figureRef": 61
   },
   {
     "plt": "CA.II.D.K6b",
@@ -2350,7 +2355,8 @@
     },
     "correct": "A",
     "explanation": "Class E airspace begins at 1,200 feet AGL on the hard side of the magenta band (where Georgetown Airport is located) and at 700 feet AGL on the soft side of the magenta band. The airport elevation is 2,623 feet MSL (2,623 + 1,200 = 3,823 feet MSL).",
-    "id": "3-63"
+    "id": "3-63",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K1, 2",
@@ -2363,7 +2369,8 @@
     },
     "correct": "A",
     "explanation": "Class E airspace begins at the surface within the dashed magenta line surrounding McClellen and Rio Linda Airports. The outer shelf area of the Class C surrounding Sacramento International Airport starts at 1,600 feet MSL so is above these two airports. Sacramento Executive Airport is located in Class D airspace as indicated by the dashed blue circle. Van Dyke Airport is located on the soft side of the magenta band, which means that Class E airspace begins at 700 feet AGL.",
-    "id": "3-64"
+    "id": "3-64",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K1",
@@ -2376,7 +2383,8 @@
     },
     "correct": "B",
     "explanation": "Rio Linda airport is located in Class E airspace below the floor of the 10 nautical mile radius shelf area of the Class C airspace designated for Sacramento International Airport. In this area, the ceiling of the Class C airspace is 4,100 feet MSL and the floor is 1,600 feet MSL as indicated by magenta numbers 41 /16. The elevation of Rio Linda is 46 feet MSL. At 1,000 feet AGL, your aircraft is at 1,046 feet MSL, which is below the floor of the Class C airspace. As long as you stay at this altitude and do not enter the 5 nautical mile radius area where the Class C airspace extends to the surface (41/SFC), you are not required to contact ATC. Nearby McClellan Airport (shown in magenta) does not have a control tower.",
-    "id": "3-65"
+    "id": "3-65",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K2, CA.VI.A.K3",
@@ -2389,7 +2397,8 @@
     },
     "correct": "B",
     "explanation": "The MSL height of the obstruction is listed first followed by the AGL height in parentheses. The height of the single obstruction is 406 feet MSL (296 feet AGL). The height of the multiple obstructions is 472 feet MSL (339 feet AGL). None of the obstructions are depicted with the symbol for lighting that appears in the chart legend.",
-    "id": "3-66"
+    "id": "3-66",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K2, CA.VI.A.K3",
@@ -2402,7 +2411,8 @@
     },
     "correct": "B",
     "explanation": "The obstruction height is 1,245 feet MSL. Subtract the obstruction's AGL height (297 feet) from the MSL height to determine the MSL elevation of the terrain (1245 - 297 = 948). The difference between this elevation and the airport elevation is 827 feet (948 - 121 = 827).",
-    "id": "3-67"
+    "id": "3-67",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K1, 2",
@@ -2415,7 +2425,8 @@
     },
     "correct": "B",
     "explanation": "Class E airspace begins at 1,200 feet AGL on the hard side of the magenta band and at 700 feet AGL on the soft side of the magenta band (where University Airport is located).",
-    "id": "3-68"
+    "id": "3-68",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K1, 2",
@@ -2428,7 +2439,8 @@
     },
     "correct": "C",
     "explanation": "Sacramento Mather Airport is in Class D airspace as indicated by the dashed blue circle. The ceiling of the class D is 2,600 feet MSL as shown in the blue dashed square. The star next to the control tower frequency indicates the tower operates part-time. The airspace at an airport with a part-time control tower is designated as Class D only when the tower is in operation-the airspace changes to Class E (beginning at 700 ft. AGL), or a combination of Class E and Class G, when the tower is closed.",
-    "id": "3-69"
+    "id": "3-69",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K1, 2",
@@ -2441,7 +2453,8 @@
     },
     "correct": "C",
     "explanation": "Class E airspace begins at 1,200 feet AGL on the hard side of the magenta band and at 700 feet AGL on the soft side of the magenta band. The town of Woodland is located in an area where the Class E floor transitions from 700 feet AGL to 1,200 feet AGL. - , 1. '",
-    "id": "3-70"
+    "id": "3-70",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K1, 2",
@@ -2454,7 +2467,8 @@
     },
     "correct": "C",
     "explanation": "Class E airspace begins at 1,200 feet AGL on the hard side of the magenta band and at 700 feet AGL on the soft side of the magenta band. The town of Auburn is located on the soft side of the magenta band.",
-    "id": "3-72"
+    "id": "3-72",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.D.K1, CA.I.E.K3",
@@ -2467,7 +2481,8 @@
     },
     "correct": "A",
     "explanation": "Alert areas contain unusual types of aerial activities, such as parachute jumping and glider towing, or high concentrations of student pilot training. However, unlike prohibited or restricted areas, there are no restrictions to flight in alert areas.",
-    "id": "3-73"
+    "id": "3-73",
+    "figureRef": 52
   },
   {
     "plt": "CA.I.E.K3",
@@ -2480,7 +2495,8 @@
     },
     "correct": "A",
     "explanation": "A military operations area (MOA) is a block of airspace in which military operations are conducted. VFR aircraft are not prevented from flying through active MOAs, but it is wise to avoid them when possible. If you do choose to fly in an MOA, you should exercise extreme caution when military activity is being conducted. Flight Service can advise you of the hours of operation of an MOA along your route, or you can check the special use airspace panel on the edge of your chart.",
-    "id": "3-74"
+    "id": "3-74",
+    "figureRef": 53
   },
   {
     "plt": "CA.I.D.K1",
@@ -2493,7 +2509,8 @@
     },
     "correct": "B",
     "explanation": "Military training routes (MTRs) are depicted on sectional charts as gray lines. MTRs are established below 10,000 feet MSL for operations at speeds in excess of 250 knots. MTRs are classified as VR for VFR operations and IR for IFR operations. MTRs that are entirely at or below 1,500 feet AGL are identified by fourdigit numbers, and those that have one or more segments above 1,500 feet AGL use three-digit numbers. The IRNR and number designation is not shown for this route on this portion of the chart. State boundaries are dashed black lines. Arrival routes are not depicted on sectional charts.",
-    "id": "3-75"
+    "id": "3-75",
+    "figureRef": 53
   },
   {
     "plt": "",
@@ -2506,7 +2523,8 @@
     },
     "correct": "C",
     "explanation": "FAR 91.155 Class E airspace begins at 1,200 feet AGL on the hard side of the magenta band and at 700 feet AGL on the soft side of the magenta band. If you are currently 7 nautical miles north of the airport at 1,000 feet AGL, you are in Class G airspace, and your minimum visibility requirement is 1 statute mile. To remain in Class G airspace, you must descend below 700 feet as you near the airport. If you remain at 1,000 feet AGL as you near the airport so that your aircraft is located in the area within the soft side of the magenta band, you are in Class E airspace and must maintain a minimum visibility of 3 statute miles.",
-    "id": "3-76"
+    "id": "3-76",
+    "figureRef": 53
   },
   {
     "plt": "CA.I.E.K2",
@@ -2519,7 +2537,8 @@
     },
     "correct": "C",
     "explanation": "The star next to the \"L\" in the airport information indicates the airport/runway lighting operates part-",
-    "id": "3-77"
+    "id": "3-77",
+    "figureRef": 53
   },
   {
     "plt": "CA.I.D.K2",
@@ -2532,7 +2551,8 @@
     },
     "correct": "B",
     "explanation": "Maximum elevation figures (MEFs) are based on the highest known feature within a quadrangle bounded by lines of latitude and longitude. MEFs are rounded to the next 100-foot level and 100 to 300 feet is added to this figure, depending on the nature of the terrain or obstacle.",
-    "id": "3-78"
+    "id": "3-78",
+    "figureRef": 53
   },
   {
     "plt": "CA.I.E.K1",
@@ -2545,7 +2565,8 @@
     },
     "correct": "B",
     "explanation": "Class E airspace begins at 1,200 feet AGL on the hard side of the magenta band and at 700 feet AGL on the soft side of the magenta band (where Firebaugh Airport is located).",
-    "id": "3-79"
+    "id": "3-79",
+    "figureRef": 53
   },
   {
     "plt": "CA.I.E.K1, 2",
@@ -2558,7 +2579,8 @@
     },
     "correct": "B",
     "explanation": "On VFR charts, Class D boundaries are indicated by a blue dashed line and the upper limit altitude is shown in hundreds of feet MSL inside a blue dashed box. In this case, the ceiling of the Class D airspace at Livermore Airport is 2,900 feet [29]. of the magenta band and at 700 feet AGL on the soft side of the magenta band (where Byron Airport is located). Class G airspace exists at the surface of Byron Airport.",
-    "id": "3-80"
+    "id": "3-80",
+    "figureRef": 54
   },
   {
     "plt": "CA.I.E.K1, 2, CA.III.A.K1",
@@ -2571,7 +2593,8 @@
     },
     "correct": "A",
     "explanation": "FAR 91.155 Class E airspace begins at 1,200 feet AGL on the hard side of the magenta band and at 700 feet AGL on the soft side of the magenta band (where Byron Airport is located). Livermore Airport is located in Class D airspace as indicated by the blue color and dashed blue circle surrounding the airport. In Class E and Class D airspace, a minimum visibility of 3 statute miles is required for flight under VFR. If you were to obtain a special VFR clearance, you would be allowed to enter, leave, or operate within the Class D airspace with a minimum flight visibility of 1 statute mile. However, you must request a special VFR clearance from Livermore Control Tower on 118.1, not 119.65 (the ATIS frequency).",
-    "id": "3-82"
+    "id": "3-82",
+    "figureRef": 54
   },
   {
     "plt": "CA.I.E.K3",
@@ -2584,7 +2607,8 @@
     },
     "correct": "C",
     "explanation": "Restricted areas often have invisible hazards to aircraft, such as artillery firing, aerial gunnery, or guided missiles. Permission to fly through restricted areas must be granted by the controlling agency.",
-    "id": "3-83"
+    "id": "3-83",
+    "figureRef": 54
   },
   {
     "plt": "",
@@ -2597,7 +2621,8 @@
     },
     "correct": "A",
     "explanation": "The \"T/SFC\" indicates the ceiling of the Oakland Class C airspace is at the floor of the overlying San Francisco Class B airspace. Above the Class C core area, which extends from the surface, the Class B sectors have floors as 2,100 feet MSL (100/21) and 3,000 feet MSL (100/30) with a ceiling of 10,000 feet MSL.",
-    "id": "3-84"
+    "id": "3-84",
+    "figureRef": 54
   },
   {
     "plt": "",
@@ -2610,7 +2635,8 @@
     },
     "correct": "B",
     "explanation": "A/FD Legend The Airport Remarks section of the A/FD excerpt for Lubbock Executive Airpark indicates that the airport is attended from 14002 to 00002. The symbol following the hours indicates that effective times are one hour earlier during periods of daylight savings time (13002 to 23002). To convert to local time, subtract 5 hours (during daylight savings time as shown in the first line after the airport name, identifier, and distance/direction from the city) to determine the answer of 0800 to 1800 local time.",
-    "id": "3-86"
+    "id": "3-86",
+    "figureRef": 6
   },
   {
     "plt": "",
@@ -2623,7 +2649,8 @@
     },
     "correct": "B",
     "explanation": "A/FD Legend The Communications section of the A/FD excerpt for Lubbock Preston Smith International Airport lists a remote communications outlet (RCO) for Fort Worth Radio on the frequency of 122.55.",
-    "id": "3-87"
+    "id": "3-87",
+    "figureRef": 67
   },
   {
     "plt": "",
@@ -2636,7 +2663,8 @@
     },
     "correct": "C",
     "explanation": "A/FD Legend The Airspace section of the A/FD excerpt for Addison Airport notes that Class D service is available from 12002 to 04002. The symbol after the hours indicates that effective times are one hour earlier during periods of daylight savings time (11002 to 03002). To convert to local time, subtract 5 hours (during daylight savings time as shown in the first line after the airport name, identifier, and distance/direction from the city) to determine the answer of 0600 to 2200 local time.",
-    "id": "3-88"
+    "id": "3-88",
+    "figureRef": 68
   },
   {
     "plt": "CA.VI.A.R1",
@@ -5275,7 +5303,8 @@
     },
     "correct": "A",
     "explanation": "On the total drag graph, the intersection of the induced drag and parasite drag lines corresponds with a point on the total drag line where drag is at a minimum. This point is where the aircraft is operating at the best ratio of lift to drag, or UDMAX.",
-    "id": "12-26"
+    "id": "12-26",
+    "figureRef": 1
   },
   {
     "plt": "CA.I.F.K3",
@@ -5288,7 +5317,8 @@
     },
     "correct": "B",
     "explanation": "Point B corresponds to the airspeed where the airplane obtains the maximum ratio of lift to drag, UDMAX This point provides both maximum range and the best power-off glide speed. Any increase or decrease from that specified for UDMAX will result in a reduced glide distance.",
-    "id": "12-27"
+    "id": "12-27",
+    "figureRef": 1
   },
   {
     "plt": "CA.IX.B.K2a",
@@ -5405,7 +5435,8 @@
     },
     "correct": "B",
     "explanation": "V-g diagrams show the maximum amount of positive or negative lift the airplane is capable of generating at a given speed, the safe load factor limits, and the load factor, or number of Gs, the airplane can sustain at various speeds. Flying within the boundaries depicted by the diagram minimizes the risk of stalls, spins, and structural damage. The horizontal line at 3.8 Gs (point C to point E), and at - 1.52 Gs (point I to point G), indicate the positive and negative load factor limits, respectively, for a normal category airplane.",
-    "id": "12-38"
+    "id": "12-38",
+    "figureRef": 5
   },
   {
     "plt": "CA.I.F.K3",
@@ -5431,7 +5462,8 @@
     },
     "correct": "A",
     "explanation": "V-g diagrams show the maximum amount of positive or negative lift the airplane is capable of generating at a given speed, the safe load factor limits, and the load factor, or number of Gs, the airplane can sustain at various speeds. The vertical line from point D to point G represents maximum structural cruising speed, VNo, which is the top speed of the normal operating range and corresponds to the upper limit of the green arc on the airspeed indicator. Do not exceed this speed in rough air.",
-    "id": "12-40"
+    "id": "12-40",
+    "figureRef": 5
   },
   {
     "plt": "CA.I.F.K3",
@@ -5483,7 +5515,8 @@
     },
     "correct": "B",
     "explanation": "Longitudinal stability involves the pitching motion, or tendency, of the airplane to move about its lateral axis. The elevator controls an airplane's pitching moment. left around the vertical axis. Because the vertical fin is above the longitudinal axis, the spiraling slipstream also tends to rotate the aircraft to the right around the longitudinal axis.",
-    "id": "12-44"
+    "id": "12-44",
+    "figureRef": 8
   },
   {
     "plt": "",
@@ -5496,7 +5529,8 @@
     },
     "correct": "B",
     "explanation": "To find the UD ratio for a particular angle of attack (in this case, 10°): 1. Locate the angle of attack at the bottom of the graph. 2. Move up the vertical reference line until you intersect the UD curve. 3. Move right horizontally until reaching the UD scale and read the LID ratio of approximately 11. An 11 :1 ratio means that the airplane travels 11 feet horizontally in the glide for every foot of altitude lost. 4. To find the total altitude lost in 1 statute mile, divide 5,280 ft by the UD ratio of 11. The answer is 480 ft (5,280 + 11 = 480 ft). 11 (6,076 + 11 = 552).",
-    "id": "12-46"
+    "id": "12-46",
+    "figureRef": 12
   },
   {
     "plt": "",
@@ -5509,7 +5543,8 @@
     },
     "correct": "C",
     "explanation": "To find the UDMAX value for a particular angle of attack: 1. Locate the 2° angle of attack on the x-axis of the graph and then move vertically to the UD curved line. 2. Move right until you intersect the UD curved line. 3. Follow the vertical reference line down to the corresponding angle of attack (16.5°) on the x-axis of the graph.",
-    "id": "12-48"
+    "id": "12-48",
+    "figureRef": 34
   },
   {
     "plt": "CA.I.F.K3",
@@ -5548,7 +5583,8 @@
     },
     "correct": "C",
     "explanation": "When you roll the airplane into a bank, the horizontal component of lift causes the airplane to turn. Diverting a portion of lift to turn the airplane reduces the vertical component of lift available to support the airplane's weight. However, if you increase airspeed, the vertical component of lift increases. To maintain the same vertical lift component and prevent a climb, you must compensate by either increasing the angle of bank (changing part of the vertical lift component to the horizontal lift component), and/or by decreasing the angle of attack.",
-    "id": "12-52"
+    "id": "12-52",
+    "figureRef": 3
   },
   {
     "plt": "CA.V.A.K2d, CA.VII.B.K1*, CA.VII.D.K1",
@@ -5574,7 +5610,8 @@
     },
     "correct": "C",
     "explanation": "To find the increase in load factor from a 60° bank to a 80° bank: 1. Locate the 60° angle of attack on the x-axis of the graph and then move vertically to the load factor curved line. 2. Move right to read the load factor of 2 Gs on the y-axis. 3. Locate the 80° angle of attack on the x-axis of the graph and then move vertically to the load factor curved line. 4. Move right to read the load factor of 6 Gs on the y-axis. 5. Subtract the load factor at 60° bank from the load factor at 80° bank to find the increase (6 - 2 = 4 Gs). 12-21",
-    "id": "12-55"
+    "id": "12-55",
+    "figureRef": 4
   },
   {
     "plt": "",
@@ -5860,7 +5897,8 @@
     },
     "correct": "C",
     "explanation": "Take these steps to determine the crosswind component: 1. Determine the angle between the wind and the runway: 080° - 010° = 70°: 2. Locate the intersection of the angle and wind velocity. 3. Move vertically to the x-axis to read the approximate wind component perpendicular to the runway (crosswind component). Angle 70° / 18 knots: 17-knot crosswind component.",
-    "id": "12-82"
+    "id": "12-82",
+    "figureRef": 31
   },
   {
     "plt": "CA.I.F.K1, CA.I.F.K2a, d, CA.IV.A.K1*",
@@ -5873,7 +5911,8 @@
     },
     "correct": "A",
     "explanation": "PH8 Take these steps to determine the headwind component: 1. Determine the angle between the wind and the runway: 190° - 130° = 60°: 2. Locate the intersection of the angle and wind velocity. 3. Move horizontally to the y-axis to read the approximate wind component parallel to the runway (headwind component). Angle 60° / 15 knots: 7-knot headwind component",
-    "id": "12-84"
+    "id": "12-84",
+    "figureRef": 31
   },
   {
     "plt": "CA.I.F.K1, CA.I.F.K2a, d",
@@ -5886,7 +5925,8 @@
     },
     "correct": "A",
     "explanation": "PH8 In this example, the aircraft's maximum crosswind component is 12 knots (.2 x 60 = 12). Take these steps to determine which of the indicated choices exceeds this value: 1. Determine the angle between the wind and the runway for each possible answer: 300° - 260° = 40° 300° - 275° = 25° 315° - 300° = 15° 2. Locate the inter. tl section f - velocity. a the angle... 3. Move vertically to the x-axis to read the approximate wind component perpendicular to the runway (crosswind component). Angle 40° / 20 knots: 13-knot crosswind component Angle 25° / 25 knots: 10-knot crosswind component Angle 15° / 25 knots: 4-knot crosswind component 12-86. Answer 8. GFDIC 128, PH8 The gradient, or slope, of the runway is expressed as a percentage. For example, a gradient of 2 percent means the runway height changes 2 feet for each 100 feet of runway length. Positive gradients are uphill, and negative gradients are downhill. A positive gradient increases takeoff distance. 12-33",
-    "id": "12-85"
+    "id": "12-85",
+    "figureRef": 31
   },
   {
     "plt": "CA.I.F.K1, CA.I.F.K2a, d, CA.IV.A.K1*",
@@ -5899,7 +5939,8 @@
     },
     "correct": "A",
     "explanation": "PH8 To determine the total takeoff distance over a 50foot obstacle: 1. Enter the graph at the outside air temperature of 50°F. 2. Go up to the diagonal line for the pressure altitude of 2,000 feet. 3. Move right horizontally to the reference line, then diagonally to intersect the vertical guideline for the total weight of 2,700 pounds. 4. Move right horizontally to the y-axis to read the takeoff distance over a 50-foot obstacles of approximately 800 feet. 12-88. Answer 8. GFDIC 128, PH8 To determine the total takeoff distance over a 50foot obstacle: 1. Enter the graph at the outside air temperature of 100°F. 2. Go up to the diagonal line for the pressure altitude of 4,000 feet. 3. Move right horizontally to the reference line, then \" rtical auideline for the total weight of 3,200 pounds. 4. Move right horizontally to the y-axis to read the takeoff distance over a 50-foot obstacles of approximately 1,350 feet.",
-    "id": "12-87"
+    "id": "12-87",
+    "figureRef": 3
   },
   {
     "plt": "CA.I.F.K1, CA.I.F.K2a, d, CA.IV.A.K1*",
@@ -5912,7 +5953,8 @@
     },
     "correct": "C",
     "explanation": "PH8 To determine the total takeoff distance over a 50foot obstacle: 1. Enter the graph at the outside air temperature of 30°F. 2. Go up to the diagonal line for the pressure altitude of 6,000 feet. 3. Move right horizontally to the reference line, then diagonally to intersect the vertical guideline for the total weight of 3,300 pounds. 4. Move right horizontally to the-second reference line, then diagonally to parallel the headwind guidelines, to intersect the vertical guideline for the wind speed of 20 knots. 5. Move right horizontally to the y-axis to read the takeoff distance over a 50-foot obstacles of approximately 1,500 feet.",
-    "id": "12-89"
+    "id": "12-89",
+    "figureRef": 3
   },
   {
     "plt": "CA.I.F.K1, CA.I.F.K2a, d, CA.IV.A.K1*",
@@ -5925,7 +5967,8 @@
     },
     "correct": "A",
     "explanation": "PH8 To determine the total takeoff distance over a 50foot obstacle: 1. Enter the graph at the outside air temperature of 50°F. 2. Go up to the diagonal line for the pressure altitude of 4,000 feet. 3. Move right horizontally to the reference line, then diagonally to intersect the vertical guideline for the total weight of 3,200 pounds. 4. Move right horizontally to the second reference line, then diagonally to parallel the headwind guidelines, to intersect the vertical guideline for the wind speed of 15 knots. 5. Move right horizontally to the y-axis to read the takeoff distance over a 50-foot obstacle of approximately 1,200 feet. 12-35",
-    "id": "12-90"
+    "id": "12-90",
+    "figureRef": 32
   },
   {
     "plt": "CA.I.F.K1, CA.I.F.K2a, d, CA.IV.A.Kt*",
@@ -5938,7 +5981,8 @@
     },
     "correct": "C",
     "explanation": "To determine the total takeoff distance over a 50foot obstacle: 1. Enter the graph at the outside air temperature of 75°F. 2. Go up to the diagonal line for the pressure altitude of 6,000 feet. 3. Move right horizontally to the reference line, then diagonally to intersect the vertical guideline for the total weight of 2,900 pounds. 4. Move right horizontally to the second reference line, then diagonally to parallel the headwind guidelines, to intersect the vertical guideline for the wind speed of 20 knots. 5. Move right horizontally to the y-axis to read the takeoff distance over a 50-foot obstacles of approximately 1,450 feet. To determine the takeoff weight that would reduce the total takeoff distance to 1,000 feet: 1. Enter the chart at 1,000 feet on the right side on the y-axis and move left horizontally to intersect the vertical guideline for the wind speed of 20 knots. 2. Move left parallel to the diagonal reference lines to the vertical reference line. Move horizontallv until intersect the original diagonal line that you used extending to the right of the first reference line. 3. Move vertically down to weight along the x-axis of 2,600 pounds. 4. Subtract 2,600 pounds from the original weight of 2,900 pounds for a required weight reduction of 300 pounds (2,900 - 2,600 = 300). 5. intersect the 2,600 pound line. This point corresponds with the original mark on reference line number 1 and requires a weight reduction of 300 pounds.",
-    "id": "12-91"
+    "id": "12-91",
+    "figureRef": 3
   },
   {
     "plt": "CA.I.F.K1",
@@ -5951,7 +5995,8 @@
     },
     "correct": "C",
     "explanation": "PH8 To determine the fuel consumption during the climb: 1. Follow the Takeoff and Climb diagonal line to where it intersects the vertical line of 75% maximum continuous power. 2. Move left horizontally to the fuel flow of 18.25 gallons per hour on the y-axis. 3. Use a flight computer or calculator to determine that the total fuel consumed during 7 minutes at a rate of 18.25 gallons per hour is approximately 2.13 gallons: 18.25 + 60 x 7 = 2.13. 12-93. Answer 8. GFDIC 128, PH8 To determine the fuel consumption during the climb: 1. Follow the Takeoff and Climb diagonal line to where it intersects the vertical line of 70% maximum continuous power (midway between 65% and 75%). 2. Move left horizontally to the fuel flow of 17.25 gallons per hour on the y-axis. 3. Use a flight computer or calculator to determine that the total fuel consumed during 1 0 minutes at a rate of 17.25 gallons per hour is approximately 2.88 gallons: 17.25 + 60 x 10 = 2.88. 12-37",
-    "id": "12-92"
+    "id": "12-92",
+    "figureRef": 8
   },
   {
     "plt": "CA.I.F.K1",
@@ -5964,7 +6009,8 @@
     },
     "correct": "C",
     "explanation": "To determine the fuel to used to climb, subtract the fuel shown on the table at 4,000 feet from the fuel at 10,000 feet. 1. At the aircraft weight of 3,500 pounds, move right to the pressure altitude column. 2. Read the fuel used at 4,000 feet-11 pounds. 3. Read the fuel used at 10,000 feet-31 pounds. 4. Subtract the 2 values to determine the fuel used: 31 - 11 = 20 pounds of fuel. 5. Note 2-increase time, fuel, and distance by 10% for each 10°c above standard temperature (1 % change for every 1 °C). Standard temperature at sea level is 15°C and the standard lapse rate is 2°C per 1,000-foot increase in altitude. Standard temperature for an airport at 4,000 feet is 7°C (15°C - 8°C = 1°c). Subtract the standard temperature from the outside air temperature: 21 °c - 7°C = 14°C. Because a 14°C difference exists between the actual temperature and standard, increase the fuel used by 14%: 20 x 1.14 = 22.8 pounds. 6. Note 1-add 12 pounds for engine start, taxi and takeoff: 22.8 + 12 = 34.8 pounds.",
-    "id": "12-94"
+    "id": "12-94",
+    "figureRef": 9
   },
   {
     "plt": "CA.I.F.K1",
@@ -5977,7 +6023,8 @@
     },
     "correct": "C",
     "explanation": "To determine the fuel to used to climb, subtract the fuel shown on the table at 4,000 feet from the fuel at 12,000 feet. 1. At the aircraft weight of 3,800 pounds, move right to the pressure altitude column. 2. Read the fuel used at 4,000 feet-12 pounds. 3. Read the fuel used at 12,000 feet-51 pounds. 4. Subtract the 2 values to determine the fuel used: 51 - 12 = 39 pounds of fuel. 5. Note 2-increase time, fuel, and distance by 10% for each 10°C above standard temperature (1 % change for every 1 °C). Standard temperature at sea level is 15°C and the standard lapse rate is 2°c per 1,000-foot increase in altitude. Standard temperature for an airport at 4,000 feet is 7°C (15°C - 8°C = 1°c). Subtract the standard temperature from the outside air temperature: 26°C - ?°C = 19°C. Because a 19°C difference exists.between the actual temperature and standard, increase the fuel used by 19%: 39 x 1.19 = 46.4 pounds. 6. Note 1-add 12 pounds for engine start, taxi and takeoff: 46.4 + 12 = 58.4 pounds.",
-    "id": "12-95"
+    "id": "12-95",
+    "figureRef": 9
   },
   {
     "plt": "CA.I.F.K1",
@@ -5990,7 +6037,8 @@
     },
     "correct": "C",
     "explanation": "To determine the fuel to used to climb, subtract the fuel shown on the table at 2,000 feet from the fuel at 6,000 feet. 1. At the aircraft weight of 3,200 pounds, move right to the pressure altitude column. 2. Read the fuel used at 2,000 feet-4 pounds. 3. Read the fuel used at 6,000 feet-14 pounds. 4. Subtract the 2 values to determine the fuel used: 14 - 4 = 10 pounds of fuel. 5. Note 2-increase time, fuel, and distance by 10% for each 10°c above standard temperature (1 % change for every 1 °C). Standard temperature at sea level is 15°C and the standard lapse rate is 2°c per 1,000-foot increase in altitude. Standard temperature for an airport at 2,000 feet is 11 °C (15°C - 4°C = 11 °C). Subtract the standard temperature from the outside air temperature: 27°C - 11 °C = 16°C. Because a 16°C difference exists between the actual temperature and standard, increase the fuel used by 16%: 10 x 1.16 = 11.6 pounds. 6. Note 1-add 12 pounds for engine start, taxi and takeoff: 11.6 + 12 = 23.6 pounds.",
-    "id": "12-96"
+    "id": "12-96",
+    "figureRef": 1
   },
   {
     "plt": "CA.I.F.K1",
@@ -6003,7 +6051,8 @@
     },
     "correct": "C",
     "explanation": "To determine the fuel to used to climb, subtract the fuel shown on the table at 4,000 feet from the fuel at 10,000 feet. 1. At the aircraft weight of 3,800 pounds, move right to the pressure altitude column. 2. Read the fuel used at 4,000 feet-12 pounds. 3. Read the fuel used at 10,000 feet-35 pounds. 4. Subtract the 2 values to determine the fuel used: 35 - 12 = 23 pounds of fuel. 5. Note 2-increase time, fuel, and distance by 10% for each 10°C above standard temperature (1 % change for every 1 °C). Standard temperature at sea level is 15°C and the standard lapse rate is 2°C per 1,000-foot increase in altitude. Standard temperature for an airport at 4,000 feet is 8°C (15°C - 8°C = 7°C). Subtract the standard temperature from the outside air temperature: 30°C - 7°C = 23°C. Because a 23°C difference exists between the actual temperature and standard, increase the fuel used by 23%: 23 x 1.23 = 28.29 pounds. 6. Note 1-add 12 pounds for engine start, taxi and takeoff: 28.29 + 12 = 40.29 pounds. 12-41",
-    "id": "12-97"
+    "id": "12-97",
+    "figureRef": 10
   },
   {
     "plt": "CA.I.D.K3a, c, CA.I.F.K1",
@@ -6016,7 +6065,8 @@
     },
     "correct": "A",
     "explanation": "To determine the fuel to used to climb, subtract the fuel shown on the table at 6,000 feet from the fuel at 16,000 feet. 1. At the aircraft weight of 3,400 pounds, move right to the pressure altitude column. 2. Interpolate between the 4,000 feet and 8,000-feet to determine 14 pounds of fuel. 3. Read the fuel used at 16,000 feet-39 pounds. 4. Subtract the 2 values to determine the fuel used: 39 - 14 = 25 pounds of fuel. 5. Note 2-increase time, fuel, and distance by 10% for each 10°C above standard temperature (1 % change for every 1 °C). Standard temperature at sea level is 15°C and the standard lapse rate is 2°c per 1,000-foot increase in altitude. Standard temperature for an airport at 6,000 feet is 3°C (15°C - 12°c = 3°C). Subtract the standard temperature from the outside air temperature: 10°c - 3°C = 7°C. Because a 7°C difference exists between the actual temperature and standard, increase the fuel used by 7%: 25 x 1.07 = 26.75 pounds. 6. Note 1-add 16 pounds for engine start, taxi and",
-    "id": "12-98"
+    "id": "12-98",
+    "figureRef": 13
   },
   {
     "plt": "CA.I.D.K3a, CA.I.F.K1",
@@ -6029,7 +6079,8 @@
     },
     "correct": "B",
     "explanation": "To determine the time to climb, subtract the time shown on the table at 2,000 feet from time at 8,000 feet. 1. At the aircraft weight of 4,000 pounds, move right to the pressure altitude column. 2. Interpolate between the sea level time to climb and 4,000 feet to determine 2 minutes. 3. Read the time at 8,000 feet-9 minutes. 4. Subtract the 2 values to determine the time to climb: 9 - 2 = 7 minutes. 5. Note 2-increase time, fuel, and distance by 10% for each 10°C above standard temperature (1 % change for every 1 °C). Standard temperature at sea level is 15°C and the standard lapse rate is 2°c per 1,000-foot increase in altitude. Standard temperature for an airport at 2,000 feet is 11 °C (15°C - 4°C = 11 °C). Subtract the standard temperature from the outside air temperature: 32°C - 11 °C = 21 °C. Because a 21 °C difference exists between the actual temperature and standard, increase the time to climb by 21 %: 7 x 1.21 = 8.47 minutes. 12-43 3. Subtract the 2 values to determine the fuel used: 37 - 12 = 25 pounds of fuel. 4. Note 2-increase time, fuel, and distance by 10% for each 7°C above standard temperature (1 % change for every 1 °C). Standard temperature at sea level is 15°C and the standard lapse rate is 2°C per 1,000-foot increase in altitude. Standard temperature for an airport at 4,000 feet is 7°C (15°C - 8°C = 7°C). Subtract the standard temperature from the outside air temperature: 21°c - 7°C = 14°C. Because a 14 °C difference exists between the actual temperature and standard, increase the fuel used by 14%: 25 x 1.14 = 28.5 pounds. 5. Note 1-add 16 pounds for engine start, taxi and takeoff: 28.5 + 16 = 44.5 pounds. 12-101. Answer 8. GFDIC 128, PH8 To determine the distance to climb, subtract the distance to climb from sea level to the airport elevation from the distance to climb from sea level to 9,000 feet. 1. Enter the graph at the outside air temperature for the cruise altitude of - 4 °C. 2. Go up to the diagonal line for the pressure altitude of 9,000 feet (midway between the 8,000 and 10,000 feet). 3. Move right horizontally to the distance line. 4. Move down to read the distance of 14 NM. 5. Repeat steps 1 through 4 for the temperature of 12°c and elevation of 4,000 feet to determine a distance of 5.5 NM. 6. Determine the distance to climb from the airport to 9,000 feet: 14 - 5.5 = 8.5 NM.",
-    "id": "12-99"
+    "id": "12-99",
+    "figureRef": 13
   },
   {
     "plt": "CA.VI.C.K1, 2, CA.IX.A.K2*",
