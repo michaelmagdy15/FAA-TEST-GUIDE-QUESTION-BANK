@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ChevronDown, Wrench, FileText, AlertTriangle, CheckCircle, XCircle } from 'lucide-react';
+import { ChevronDown, Wrench, CheckCircle } from 'lucide-react';
 import { sfx } from '../../../utils/sfx';
 
 const EXPANDABLE: React.FC<{ title: string; color?: string; children: React.ReactNode }> = ({ title, color = '#3b82f6', children }) => {
@@ -10,20 +10,20 @@ const EXPANDABLE: React.FC<{ title: string; color?: string; children: React.Reac
             border: `1px solid ${open ? color + '60' : 'var(--glass-border)'}`, borderRadius: 'var(--radius)',
             overflow: 'hidden', transition: 'var(--transition)',
         }}>
-            <button
-                onClick={() => { sfx.playSelect(); setOpen(!open); }}
-                onMouseEnter={() => sfx.playHover()}
-                style={{
-                    width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    padding: '1rem 1.25rem', background: 'none', border: 'none', cursor: 'pointer',
-                    fontFamily: 'inherit', color: 'var(--text-primary)', fontWeight: 600, fontSize: '0.95rem',
-                }}
-            >
+                <button
+                    onClick={() => { sfx.playSelect(); setOpen(!open); }}
+                    onMouseEnter={() => sfx.playHover()}
+                    style={{
+                        width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                        padding: 'clamp(0.7rem, 2vw, 1rem) clamp(0.8rem, 2.5vw, 1.25rem)', background: 'none', border: 'none', cursor: 'pointer',
+                        fontFamily: 'inherit', color: 'var(--text-primary)', fontWeight: 600, fontSize: 'clamp(0.82rem, 1.6vw, 0.95rem)',
+                    }}
+                >
                 <span>{title}</span>
                 <ChevronDown size={18} style={{ transform: open ? 'rotate(180deg)' : 'rotate(0)', transition: 'var(--transition)', color: 'var(--text-secondary)' }} />
             </button>
             {open && (
-                <div style={{ padding: '0 1.25rem 1.25rem', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: '0.88rem', lineHeight: 1.7 }}>
+                <div style={{ padding: '0 clamp(0.8rem, 2.5vw, 1.25rem) clamp(0.8rem, 2.5vw, 1.25rem)', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: 'clamp(0.78rem, 1.5vw, 0.88rem)', lineHeight: 1.7 }}>
                     {children}
                 </div>
             )}
@@ -33,7 +33,7 @@ const EXPANDABLE: React.FC<{ title: string; color?: string; children: React.Reac
 
 const CARD: React.CSSProperties = {
     background: 'linear-gradient(180deg, rgba(30,41,59,0.4) 0%, rgba(15,23,42,0.6) 100%)',
-    border: '1px solid var(--glass-border)', borderRadius: 'var(--radius)', padding: '1.25rem',
+    border: '1px solid var(--glass-border)', borderRadius: 'var(--radius)', padding: 'clamp(0.8rem, 2.5vw, 1.25rem)',
 };
 
 const ATOMATOFLAMES: { letter: string; item: string; color: string }[] = [
@@ -82,33 +82,33 @@ export const Airworthiness: React.FC = () => {
     const [flapsExpanded, setFlapsExpanded] = useState<string | null>(null);
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
-            <header style={{ textAlign: 'center', marginBottom: '0.5rem' }}>
-                <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#3b82f6', marginBottom: '0.3rem' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(0.8rem, 2.5vw, 1.25rem)' }}>
+            <header style={{ textAlign: 'center', marginBottom: 'clamp(0.3rem, 1vw, 0.5rem)' }}>
+                <h2 style={{ fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', fontWeight: 700, color: '#3b82f6', marginBottom: '0.3rem' }}>
                     Airworthiness
                 </h2>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>Required Equipment, Inspections & Documents</p>
+                <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.75rem, 1.8vw, 0.85rem)' }}>Required Equipment, Inspections & Documents</p>
             </header>
 
             {/* ATOMATOFLAMES */}
             <div style={CARD}>
-                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <h3 style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                     <Wrench size={18} color="#3b82f6" /> ATOMATOFLAMES — VFR Day Required Equipment
                 </h3>
-                <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginBottom: '1rem' }}>
+                <p style={{ fontSize: 'clamp(0.72rem, 1.5vw, 0.82rem)', color: 'var(--text-secondary)', marginBottom: '1rem' }}>
                     Click each letter to reveal the equipment item.
                 </p>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
+                <div className="ppl-letter-grid">
                     {ATOMATOFLAMES.map((item, i) => (
                         <button
                             key={i}
                             onClick={() => { sfx.playSelect(); setAtomExpanded(atomExpanded === `${item.letter}-${i}` ? null : `${item.letter}-${i}`); }}
                             onMouseEnter={() => sfx.playHover()}
                             style={{
-                                width: '42px', height: '42px', borderRadius: '10px', border: '1px solid var(--glass-border)',
+                                width: 'clamp(36px, 8vw, 42px)', height: 'clamp(36px, 8vw, 42px)', borderRadius: '10px', border: '1px solid var(--glass-border)',
                                 background: atomExpanded === `${item.letter}-${i}` ? 'rgba(59,130,246,0.2)' : 'var(--glass-bg)',
                                 color: atomExpanded === `${item.letter}-${i}` ? '#3b82f6' : 'var(--text-primary)',
-                                fontWeight: 700, fontSize: '1.1rem', cursor: 'pointer', fontFamily: 'inherit',
+                                fontWeight: 700, fontSize: 'clamp(0.9rem, 2.5vw, 1.1rem)', cursor: 'pointer', fontFamily: 'inherit',
                                 transition: 'var(--transition)',
                             }}
                         >
@@ -117,7 +117,7 @@ export const Airworthiness: React.FC = () => {
                     ))}
                 </div>
                 {atomExpanded && (
-                    <div style={{ marginTop: '0.75rem', padding: '0.75rem', borderRadius: '8px', background: 'rgba(59,130,246,0.1)', border: '1px solid rgba(59,130,246,0.25)', fontSize: '0.88rem', color: 'var(--text-primary)' }}>
+                    <div style={{ marginTop: '0.75rem', padding: 'clamp(0.5rem, 1.5vw, 0.75rem)', borderRadius: '8px', background: 'rgba(59,130,246,0.1)', border: '1px solid rgba(59,130,246,0.25)', fontSize: 'clamp(0.78rem, 1.5vw, 0.88rem)', color: 'var(--text-primary)' }}>
                         {ATOMATOFLAMES.find(item => item.letter === atomExpanded.split('-')[0])?.item}
                     </div>
                 )}
@@ -125,20 +125,20 @@ export const Airworthiness: React.FC = () => {
 
             {/* FLAPS */}
             <div style={CARD}>
-                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <h3 style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                     <Wrench size={18} color="#06b6d4" /> FLAPS — VFR Night Additional Equipment
                 </h3>
-                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.35rem' }}>
-                    {Object.entries(FLAPS).map(([letter, desc], i) => (
+                <div className="ppl-letter-grid">
+                    {Object.entries(FLAPS).map(([letter, _desc], i) => (
                         <button
                             key={i}
                             onClick={() => { sfx.playSelect(); setFlapsExpanded(flapsExpanded === letter ? null : letter); }}
                             onMouseEnter={() => sfx.playHover()}
                             style={{
-                                width: '42px', height: '42px', borderRadius: '10px', border: '1px solid var(--glass-border)',
+                                width: 'clamp(36px, 8vw, 42px)', height: 'clamp(36px, 8vw, 42px)', borderRadius: '10px', border: '1px solid var(--glass-border)',
                                 background: flapsExpanded === letter ? 'rgba(6,182,212,0.2)' : 'var(--glass-bg)',
                                 color: flapsExpanded === letter ? '#06b6d4' : 'var(--text-primary)',
-                                fontWeight: 700, fontSize: '1.1rem', cursor: 'pointer', fontFamily: 'inherit',
+                                fontWeight: 700, fontSize: 'clamp(0.9rem, 2.5vw, 1.1rem)', cursor: 'pointer', fontFamily: 'inherit',
                                 transition: 'var(--transition)',
                             }}
                         >
@@ -147,7 +147,7 @@ export const Airworthiness: React.FC = () => {
                     ))}
                 </div>
                 {flapsExpanded && (
-                    <div style={{ marginTop: '0.75rem', padding: '0.75rem', borderRadius: '8px', background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.25)', fontSize: '0.88rem', color: 'var(--text-primary)' }}>
+                    <div style={{ marginTop: '0.75rem', padding: 'clamp(0.5rem, 1.5vw, 0.75rem)', borderRadius: '8px', background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.25)', fontSize: 'clamp(0.78rem, 1.5vw, 0.88rem)', color: 'var(--text-primary)' }}>
                         {FLAPS[flapsExpanded]}
                     </div>
                 )}
@@ -155,13 +155,13 @@ export const Airworthiness: React.FC = () => {
 
             {/* Inspections AAV1ATE */}
             <div style={CARD}>
-                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                <h3 style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                     <CheckCircle size={18} color="#10b981" /> AAV1ATE — Required Inspections
                 </h3>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.5rem' }}>
+                <div className="ppl-card-grid-2">
                     {AAV1ATE.map((item, i) => (
                         <div key={i} style={{
-                            padding: '0.75rem', borderRadius: '10px', border: `1px solid ${item.color}40`,
+                            padding: 'clamp(0.5rem, 1.5vw, 0.75rem)', borderRadius: '10px', border: `1px solid ${item.color}40`,
                             background: `${item.color}15`, transition: 'var(--transition)',
                         }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', marginBottom: '0.3rem' }}>
@@ -172,9 +172,9 @@ export const Airworthiness: React.FC = () => {
                                 }}>
                                     {item.letter}
                                 </span>
-                                <strong style={{ color: item.color, fontSize: '0.85rem' }}>{item.item}</strong>
+                                <strong style={{ color: item.color, fontSize: 'clamp(0.75rem, 1.6vw, 0.85rem)' }}>{item.item}</strong>
                             </div>
-                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.78rem', margin: 0 }}>{item.description}</p>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.7rem, 1.4vw, 0.78rem)', margin: 0 }}>{item.description}</p>
                         </div>
                     ))}
                 </div>
@@ -184,9 +184,9 @@ export const Airworthiness: React.FC = () => {
             <EXPANDABLE title="📄 Documents — ARROW" color="#8b5cf6">
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem', marginTop: '0.5rem' }}>
                     {ARROW_DOCS.map(d => (
-                        <div key={d.name} style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(139,92,246,0.1)', border: '1px solid rgba(139,92,246,0.25)' }}>
+                        <div key={d.name} style={{ padding: 'clamp(0.35rem, 1vw, 0.5rem)', borderRadius: '8px', background: 'rgba(139,92,246,0.1)', border: '1px solid rgba(139,92,246,0.25)' }}>
                             <strong style={{ color: '#a78bfa' }}>{d.name}</strong>
-                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.82rem', margin: '0.15rem 0 0' }}>{d.desc}</p>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.72rem, 1.4vw, 0.82rem)', margin: '0.15rem 0 0' }}>{d.desc}</p>
                         </div>
                     ))}
                 </div>
@@ -196,23 +196,23 @@ export const Airworthiness: React.FC = () => {
             <EXPANDABLE title="🔧 Flying with Inoperative Equipment" color="#f97316">
                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem', marginTop: '0.5rem' }}>
                     <p style={{ fontWeight: 600, color: 'var(--text-primary)' }}>Decision Tree (FAR 91.213):</p>
-                    <ol style={{ paddingLeft: '1.2rem' }}>
+                    <ol style={{ paddingLeft: 'clamp(0.8rem, 2vw, 1.2rem)' }}>
                         <li>Is it required by <strong style={{ color: '#f97316' }}>type design</strong> or FAR? → If NO, may fly with MEL or without MEL.</li>
                         <li>Is it required by <strong style={{ color: '#f97316' }}>airworthiness directive (AD)</strong>? → If YES, must comply.</li>
                         <li>Is it required by the <strong style={{ color: '#f97316' }}>equipment list</strong>? → Check POH/AFM.</li>
                         <li>Is it required by <strong style={{ color: '#f97316' }}>MEL</strong>? → If YES, follow MEL procedures.</li>
                         <li>Is it required by <strong style={{ color: '#f97316' }}>91.205 (VFR/IFR)</strong>? → If YES, must have it.</li>
                     </ol>
-                    <div style={{ display: 'flex', gap: '0.5rem', marginTop: '0.5rem' }}>
-                        <div style={{ flex: 1, padding: '0.75rem', borderRadius: '8px', background: 'rgba(34,197,94,0.1)', border: '1px solid rgba(34,197,94,0.25)' }}>
-                            <p style={{ fontWeight: 700, color: '#22c55e', margin: '0 0 0.3rem', fontSize: '0.88rem' }}>With MEL</p>
-                            <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', margin: 0 }}>
+                    <div className="ppl-card-grid-2" style={{ marginTop: '0.5rem' }}>
+                        <div style={{ padding: 'clamp(0.5rem, 1.5vw, 0.75rem)', borderRadius: '8px', background: 'rgba(34,197,94,0.1)', border: '1px solid rgba(34,197,94,0.25)' }}>
+                            <p style={{ fontWeight: 700, color: '#22c55e', margin: '0 0 0.3rem', fontSize: 'clamp(0.78rem, 1.5vw, 0.88rem)' }}>With MEL</p>
+                            <p style={{ fontSize: 'clamp(0.72rem, 1.4vw, 0.82rem)', color: 'var(--text-secondary)', margin: 0 }}>
                                 If aircraft has an MEL, follow the procedures for inoperative equipment. Defer repair to a later date per MEL limitations.
                             </p>
                         </div>
-                        <div style={{ flex: 1, padding: '0.75rem', borderRadius: '8px', background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.25)' }}>
-                            <p style={{ fontWeight: 700, color: '#ef4444', margin: '0 0 0.3rem', fontSize: '0.88rem' }}>Without MEL</p>
-                            <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', margin: 0 }}>
+                        <div style={{ padding: 'clamp(0.5rem, 1.5vw, 0.75rem)', borderRadius: '8px', background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.25)' }}>
+                            <p style={{ fontWeight: 700, color: '#ef4444', margin: '0 0 0.3rem', fontSize: 'clamp(0.78rem, 1.5vw, 0.88rem)' }}>Without MEL</p>
+                            <p style={{ fontSize: 'clamp(0.72rem, 1.4vw, 0.82rem)', color: 'var(--text-secondary)', margin: 0 }}>
                                 If no MEL, must determine if the equipment is required by FAR. If not required, deactivate and placard "INOPERATIVE." If required, must repair before flight.
                             </p>
                         </div>
@@ -222,16 +222,16 @@ export const Airworthiness: React.FC = () => {
 
             {/* Special Flight Permit */}
             <EXPANDABLE title="📋 Special Flight Permit" color="#ec4899">
-                <p style={{ marginTop: '0.5rem' }}>
+                <p style={{ marginTop: 'clamp(0.3rem, 1vw, 0.5rem)' }}>
                     A Special Flight Permit (ferry permit) is issued when an aircraft does not currently meet its type certificate requirements but is safe to fly under specific conditions. Used for:
                 </p>
-                <ul style={{ paddingLeft: '1.2rem', marginTop: '0.5rem' }}>
+                <ul style={{ paddingLeft: 'clamp(0.8rem, 2vw, 1.2rem)', marginTop: 'clamp(0.3rem, 1vw, 0.5rem)' }}>
                     <li>Flying to a maintenance location for repairs</li>
                     <li>Flying to a location for an inspection</li>
                     <li>Flying after an AD has been exceeded</li>
                     <li>Ferry flights for sale or export</li>
                 </ul>
-                <p style={{ marginTop: '0.5rem', color: '#ec4899', fontWeight: 600 }}>
+                <p style={{ marginTop: 'clamp(0.3rem, 1vw, 0.5rem)', color: '#ec4899', fontWeight: 600 }}>
                     ⚠️ Issued by the FAA, not the pilot. Must be carried in the aircraft.
                 </p>
             </EXPANDABLE>

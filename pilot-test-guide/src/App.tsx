@@ -1,4 +1,5 @@
-import React, { useState, useEffect, lazy, Suspense } from 'react';
+import React, { useState, useEffect, lazy } from 'react';
+import { ClerkProvider } from '@clerk/clerk-react';
 import { LandingView } from './components/LandingView';
 import { QuestionView } from './components/QuestionView';
 import { C172Hub } from './components/c172/C172Hub';
@@ -7,6 +8,8 @@ import { QuizSetup } from './components/QuizSetup';
 import { PracticeExam } from './components/PracticeExam';
 import { KeyboardHelp } from './components/KeyboardHelp';
 import { Preloader } from './components/Preloader';
+import { AuthWrapper } from './components/AuthWrapper';
+import { useUserProgress } from './hooks/useUserProgress';
 import { useTestProgress } from './hooks/useTestProgress';
 import { Question, TestMode } from './types';
 import { getQuestionsForBank } from './lib/questionsData';
@@ -54,7 +57,7 @@ const prefixMap: Record<TestMode, string> = {
 
 type ViewMode = 'landing' | 'chapter' | 'quiz-setup' | 'quiz' | 'exam' | 'ppl-study';
 
-export const App: React.FC = () => {
+const AppContent: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [mode, setMode] = useState<TestMode>('ppl');
   const [viewMode, setViewMode] = useState<ViewMode>('landing');
@@ -73,7 +76,7 @@ export const App: React.FC = () => {
   const progressPrefix = prefixMap[mode];
   const chapters = getChapters(questionsData, titleMap[mode]);
 
-  const { chapterProgress, reviewQuestions, resetAllProgress, resetChapterProgress } = useTestProgress(
+  const { chapterProgress, reviewQuestions, resetAllProgress, resetChapterProgress } = useUserProgress(
     progressPrefix, questionsData, selectedChapter, reviewMode
   );
 
@@ -184,6 +187,16 @@ export const App: React.FC = () => {
       </footer>
       <KeyboardHelp />
     </div>
+  );
+};
+
+export const App: React.FC = () => {
+  return (
+    <ClerkProvider publishableKey={import.meta.env.VITE_CLERK_PUBLISHABLE_KEY}>
+      <AuthWrapper>
+        <AppContent />
+      </AuthWrapper>
+    </ClerkProvider>
   );
 };
 

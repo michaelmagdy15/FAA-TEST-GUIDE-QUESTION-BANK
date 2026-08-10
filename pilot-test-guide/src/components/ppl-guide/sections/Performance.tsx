@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { ChevronDown, Gauge, Wind, RotateCcw, ArrowUp, ArrowDown, Activity } from 'lucide-react';
+import { ChevronDown, Gauge, Wind, RotateCcw, ArrowUp, Activity } from 'lucide-react';
 import { sfx } from '../../../utils/sfx';
 
 const CARD: React.CSSProperties = {
     background: 'linear-gradient(180deg, rgba(30,41,59,0.4) 0%, rgba(15,23,42,0.6) 100%)',
-    border: '1px solid var(--glass-border)', borderRadius: 'var(--radius)', padding: '1.25rem',
+    border: '1px solid var(--glass-border)', borderRadius: 'var(--radius)', padding: 'clamp(0.75rem, 3vw, 1.25rem)',
 };
 
-const EXPANDABLE: React.FC<{ title: string; icon?: React.ReactNode; color?: string; children: React.ReactNode }> = ({ title, icon, color = '#f97316', children }) => {
+const EXPANDABLE: React.FC<{ title: string; icon?: React.ReactNode; color?: string; children: React.ReactNode }> = ({ title, icon, color: _color = '#f97316', children }) => {
     const [open, setOpen] = useState(false);
     return (
         <div style={{ ...CARD, overflow: 'hidden', padding: 0 }}>
@@ -16,15 +16,15 @@ const EXPANDABLE: React.FC<{ title: string; icon?: React.ReactNode; color?: stri
                 onMouseEnter={() => sfx.playHover()}
                 style={{
                     width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    padding: '1rem 1.25rem', background: 'none', border: 'none', cursor: 'pointer',
-                    fontFamily: 'inherit', color: 'var(--text-primary)', fontWeight: 600, fontSize: '0.95rem',
+                    padding: 'clamp(0.75rem, 2vw, 1rem) clamp(0.75rem, 3vw, 1.25rem)', background: 'none', border: 'none', cursor: 'pointer',
+                    fontFamily: 'inherit', color: 'var(--text-primary)', fontWeight: 600, fontSize: 'clamp(0.85rem, 2vw, 0.95rem)',
                 }}
             >
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>{icon} {title}</span>
                 <ChevronDown size={18} style={{ transform: open ? 'rotate(180deg)' : 'rotate(0)', transition: 'var(--transition)', color: 'var(--text-secondary)' }} />
             </button>
             {open && (
-                <div style={{ padding: '0 1.25rem 1.25rem', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: '0.88rem', lineHeight: 1.7 }}>
+                <div style={{ padding: '0 clamp(0.75rem, 3vw, 1.25rem) clamp(0.75rem, 3vw, 1.25rem)', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)', lineHeight: 1.7 }}>
                     {children}
                 </div>
             )}
@@ -43,10 +43,10 @@ const FourForces: React.FC = () => {
     ];
     return (
         <div style={{ ...CARD, textAlign: 'center' }}>
-            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+            <h3 style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                 The Four Forces
             </h3>
-            <svg width="300" height="200" viewBox="0 0 300 200" style={{ maxWidth: '100%' }}>
+            <svg viewBox="0 0 300 200" style={{ width: '100%', maxWidth: '300px', height: 'auto' }}>
                 {/* Airplane body */}
                 <ellipse cx="150" cy="100" rx="50" ry="18" fill="rgba(148,163,184,0.2)" stroke="var(--text-secondary)" strokeWidth="1.5" />
                 <polygon points="100,100 85,92 85,108" fill="rgba(148,163,184,0.3)" stroke="var(--text-secondary)" strokeWidth="1" />
@@ -72,7 +72,7 @@ const FourForces: React.FC = () => {
                         onMouseEnter={() => { sfx.playHover(); setHovered(f.id); }}
                         onMouseLeave={() => setHovered(null)}
                         style={{
-                            padding: '0.2rem 0.6rem', borderRadius: '6px', fontSize: '0.75rem', fontWeight: 700,
+                            padding: '0.2rem 0.6rem', borderRadius: '6px', fontSize: 'clamp(0.65rem, 1.5vw, 0.75rem)', fontWeight: 700,
                             background: hovered === f.id ? `${f.color}30` : `${f.color}15`,
                             color: f.color, border: `1px solid ${f.color}40`, cursor: 'default', transition: 'all 0.2s',
                         }}
@@ -121,11 +121,11 @@ const AirspeedGauge: React.FC = () => {
 
     return (
         <div style={{ ...CARD, textAlign: 'center' }}>
-            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+            <h3 style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                 <Gauge size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '0.3rem' }} />
                 Airspeed Indicator Markings
             </h3>
-            <svg width="220" height="220" viewBox="0 0 220 220" style={{ maxWidth: '100%' }}>
+            <svg viewBox="0 0 220 220" style={{ width: '100%', maxWidth: '220px', height: 'auto' }}>
                 {/* Background */}
                 <circle cx="110" cy="110" r="100" fill="rgba(15,23,42,0.8)" stroke="var(--glass-border)" strokeWidth="2" />
                 {/* Arcs */}
@@ -162,8 +162,8 @@ const AirspeedGauge: React.FC = () => {
                         }}
                     >
                         <span style={{ width: '12px', height: '12px', borderRadius: '2px', background: a.color, flexShrink: 0 }} />
-                        <span style={{ fontSize: '0.78rem', color: 'var(--text-primary)', fontWeight: hoveredArc === a.id ? 700 : 500 }}>{a.label}</span>
-                        <span style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', marginLeft: 'auto' }}>{a.desc}</span>
+                        <span style={{ fontSize: 'clamp(0.68rem, 1.8vw, 0.78rem)', color: 'var(--text-primary)', fontWeight: hoveredArc === a.id ? 700 : 500 }}>{a.label}</span>
+                        <span style={{ fontSize: 'clamp(0.62rem, 1.5vw, 0.72rem)', color: 'var(--text-secondary)', marginLeft: 'auto' }}>{a.desc}</span>
                     </div>
                 ))}
             </div>
@@ -226,12 +226,12 @@ const ALTITUDE_TYPES = [
 
 export const Performance: React.FC = () => {
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(0.5rem, 2vw, 1rem)' }}>
             <header style={{ textAlign: 'center', marginBottom: '0.5rem' }}>
-                <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#f97316', marginBottom: '0.3rem' }}>
+                <h2 style={{ fontSize: 'clamp(1.1rem, 3vw, 1.5rem)', fontWeight: 700, color: '#f97316', marginBottom: '0.3rem' }}>
                     Performance & Aerodynamics
                 </h2>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>Forces, V-Speeds, Stability, and Airspeed/Altitude Types</p>
+                <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.75rem, 2vw, 0.85rem)' }}>Forces, V-Speeds, Stability, and Airspeed/Altitude Types</p>
             </header>
 
             {/* Four Forces */}
@@ -239,18 +239,29 @@ export const Performance: React.FC = () => {
 
             {/* V-Speeds */}
             <div style={CARD}>
-                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                <h3 style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                     <Wind size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '0.3rem' }} />
                     V-Speeds Reference
                 </h3>
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.4rem' }}>
-                    {V_SPEEDS.map(v => (
-                        <div key={v.speed} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.5rem', borderRadius: '8px', background: `${v.color}12`, border: `1px solid ${v.color}30` }}>
-                            <span style={{ fontWeight: 800, color: v.color, fontFamily: 'monospace', minWidth: '48px', fontSize: '0.85rem' }}>{v.speed}</span>
-                            <span style={{ fontWeight: 700, color: 'var(--text-primary)', fontSize: '0.82rem' }}>{v.value}</span>
-                            <span style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', marginLeft: 'auto' }}>{v.desc}</span>
-                        </div>
-                    ))}
+                <div className="ppl-table-scroll">
+                    <table className="ppl-compact-table">
+                        <thead>
+                            <tr>
+                                <th>Speed</th>
+                                <th>Value</th>
+                                <th>Description</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {V_SPEEDS.map(v => (
+                                <tr key={v.speed}>
+                                    <td style={{ fontWeight: 800, color: v.color, fontFamily: 'monospace' }}>{v.speed}</td>
+                                    <td style={{ fontWeight: 700, color: 'var(--text-primary)' }}>{v.value}</td>
+                                    <td style={{ color: 'var(--text-secondary)' }}>{v.desc}</td>
+                                </tr>
+                            ))}
+                        </tbody>
+                    </table>
                 </div>
             </div>
 
@@ -259,11 +270,11 @@ export const Performance: React.FC = () => {
 
             {/* Aerodynamic Terms */}
             <EXPANDABLE title="📚 Aerodynamic Terms" icon={<Activity size={18} />} color="#f97316">
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '0.5rem', marginTop: '0.5rem' }}>
+                <div className="ppl-card-grid-3" style={{ marginTop: '0.5rem' }}>
                     {AERO_TERMS.map(t => (
                         <div key={t.term} style={{ padding: '0.5rem', borderRadius: '8px', background: `${t.color}15`, border: `1px solid ${t.color}40` }}>
-                            <strong style={{ color: t.color, fontSize: '0.85rem' }}>{t.term}</strong>
-                            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{t.desc}</p>
+                            <strong style={{ color: t.color, fontSize: 'clamp(0.75rem, 2vw, 0.85rem)' }}>{t.term}</strong>
+                            <p style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{t.desc}</p>
                         </div>
                     ))}
                 </div>
@@ -271,11 +282,11 @@ export const Performance: React.FC = () => {
 
             {/* Left-Turning Tendencies */}
             <EXPANDABLE title="↩️ Left-Turning Tendencies" icon={<RotateCcw size={18} />} color="#a78bfa">
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.5rem', marginTop: '0.5rem' }}>
+                <div className="ppl-card-grid-3" style={{ marginTop: '0.5rem' }}>
                     {LEFT_TURN_TENDENCIES.map(t => (
                         <div key={t.name} style={{ padding: '0.5rem', borderRadius: '8px', background: `${t.color}15`, border: `1px solid ${t.color}40` }}>
-                            <strong style={{ color: t.color, fontSize: '0.88rem' }}>{t.name}</strong>
-                            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{t.desc}</p>
+                            <strong style={{ color: t.color, fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>{t.name}</strong>
+                            <p style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{t.desc}</p>
                         </div>
                     ))}
                 </div>
@@ -287,12 +298,12 @@ export const Performance: React.FC = () => {
                     {STABILITY.map(s => (
                         <div key={s.type}>
                             <h4 style={{ color: '#06b6d4', marginBottom: '0.3rem' }}>{s.type} Stability</h4>
-                            <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginBottom: '0.3rem' }}>{s.desc}</p>
-                            <div style={{ display: 'flex', gap: '0.3rem' }}>
+                            <p style={{ fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)', marginBottom: '0.3rem' }}>{s.desc}</p>
+                            <div className="ppl-tab-row">
                                 {s.sub.map(sub => (
-                                    <div key={sub.kind} style={{ flex: 1, padding: '0.4rem', borderRadius: '6px', background: `${sub.color}15`, border: `1px solid ${sub.color}40`, textAlign: 'center' }}>
-                                        <div style={{ fontWeight: 700, color: sub.color, fontSize: '0.82rem' }}>{sub.kind}</div>
-                                        <div style={{ fontSize: '0.72rem', color: 'var(--text-secondary)' }}>{sub.detail}</div>
+                                    <div key={sub.kind} style={{ flex: 1, minWidth: 'min(100px, 30vw)', padding: '0.4rem', borderRadius: '6px', background: `${sub.color}15`, border: `1px solid ${sub.color}40`, textAlign: 'center' }}>
+                                        <div style={{ fontWeight: 700, color: sub.color, fontSize: 'clamp(0.72rem, 2vw, 0.82rem)' }}>{sub.kind}</div>
+                                        <div style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', color: 'var(--text-secondary)' }}>{sub.detail}</div>
                                     </div>
                                 ))}
                             </div>
@@ -303,12 +314,12 @@ export const Performance: React.FC = () => {
 
             {/* Load Factor */}
             <div style={CARD}>
-                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>Load Factor Limits</h3>
-                <div style={{ display: 'flex', gap: '0.4rem' }}>
+                <h3 style={{ fontSize: 'clamp(0.85rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>Load Factor Limits</h3>
+                <div className="ppl-card-grid-4">
                     {LOAD_FACTOR_LIMITS.map(l => (
-                        <div key={l.maneuver} style={{ flex: 1, padding: '0.5rem', borderRadius: '8px', background: `${l.color}15`, border: `1px solid ${l.color}40`, textAlign: 'center' }}>
-                            <div style={{ fontWeight: 700, color: l.color, fontSize: '0.88rem' }}>{l.load}</div>
-                            <div style={{ fontSize: '0.72rem', color: 'var(--text-secondary)' }}>{l.maneuver}</div>
+                        <div key={l.maneuver} style={{ padding: '0.5rem', borderRadius: '8px', background: `${l.color}15`, border: `1px solid ${l.color}40`, textAlign: 'center' }}>
+                            <div style={{ fontWeight: 700, color: l.color, fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>{l.load}</div>
+                            <div style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', color: 'var(--text-secondary)' }}>{l.maneuver}</div>
                         </div>
                     ))}
                 </div>
@@ -322,7 +333,7 @@ export const Performance: React.FC = () => {
                     <p style={{ marginTop: '0.5rem' }}><strong>Spin:</strong> Aerodynamic stall + yaw. Wing on inside of turn is more stalled. Recovery: PARE</p>
                     <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(236,72,153,0.1)', border: '1px solid rgba(236,72,153,0.25)', marginTop: '0.5rem' }}>
                         <strong style={{ color: '#ec4899' }}>PARE Recovery:</strong>
-                        <span style={{ marginLeft: '0.5rem', fontSize: '0.82rem', color: 'var(--text-secondary)' }}>
+                        <span style={{ marginLeft: '0.5rem', fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)' }}>
                             <strong>P</strong>ower — Idle | <strong>A</strong>ilerons — Neutral | <strong>R</strong>udder — Full opposite | <strong>E</strong>levator — Forward to break stall
                         </span>
                     </div>
@@ -331,11 +342,11 @@ export const Performance: React.FC = () => {
 
             {/* Types of Drag */}
             <EXPANDABLE title="💨 Types of Drag" icon={<Wind size={18} />} color="#94a3b8">
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.5rem', marginTop: '0.5rem' }}>
+                <div className="ppl-card-grid-3" style={{ marginTop: '0.5rem' }}>
                     {DRAG_TYPES.map(d => (
                         <div key={d.type} style={{ padding: '0.5rem', borderRadius: '8px', background: `${d.color}15`, border: `1px solid ${d.color}40` }}>
-                            <strong style={{ color: d.color, fontSize: '0.85rem' }}>{d.type} Drag</strong>
-                            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{d.desc}</p>
+                            <strong style={{ color: d.color, fontSize: 'clamp(0.75rem, 2vw, 0.85rem)' }}>{d.type} Drag</strong>
+                            <p style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{d.desc}</p>
                         </div>
                     ))}
                 </div>
@@ -343,27 +354,27 @@ export const Performance: React.FC = () => {
 
             {/* Airspeed Types */}
             <EXPANDABLE title="🛩️ Airspeed Types" icon={<Gauge size={18} />} color="#06b6d4">
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.5rem', marginTop: '0.5rem' }}>
+                <div className="ppl-card-grid-3" style={{ marginTop: '0.5rem' }}>
                     {ALTITUDE_TYPES.slice(0, 4).map(a => (
                         <div key={a.type} style={{ padding: '0.5rem', borderRadius: '8px', background: `${a.color}15`, border: `1px solid ${a.color}40` }}>
-                            <strong style={{ color: a.color, fontSize: '0.85rem' }}>{a.type}</strong>
-                            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{a.desc}</p>
+                            <strong style={{ color: a.color, fontSize: 'clamp(0.75rem, 2vw, 0.85rem)' }}>{a.type}</strong>
+                            <p style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{a.desc}</p>
                         </div>
                     ))}
                     <div key="GS" style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(167,139,250,0.15)', border: '1px solid rgba(167,139,250,0.4)' }}>
-                        <strong style={{ color: '#a78bfa', fontSize: '0.85rem' }}>Groundspeed (GS)</strong>
-                        <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>TAS corrected for wind — actual speed over ground</p>
+                        <strong style={{ color: '#a78bfa', fontSize: 'clamp(0.75rem, 2vw, 0.85rem)' }}>Groundspeed (GS)</strong>
+                        <p style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>TAS corrected for wind — actual speed over ground</p>
                     </div>
                 </div>
             </EXPANDABLE>
 
             {/* Altitude Types */}
             <EXPANDABLE title="🏔️ Altitude Types" icon={<ArrowUp size={18} />} color="#22c55e">
-                <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.5rem', marginTop: '0.5rem' }}>
+                <div className="ppl-card-grid-3" style={{ marginTop: '0.5rem' }}>
                     {ALTITUDE_TYPES.map(a => (
                         <div key={a.type} style={{ padding: '0.5rem', borderRadius: '8px', background: `${a.color}15`, border: `1px solid ${a.color}40` }}>
-                            <strong style={{ color: a.color, fontSize: '0.85rem' }}>{a.type} Altitude</strong>
-                            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{a.desc}</p>
+                            <strong style={{ color: a.color, fontSize: 'clamp(0.75rem, 2vw, 0.85rem)' }}>{a.type} Altitude</strong>
+                            <p style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{a.desc}</p>
                         </div>
                     ))}
                 </div>
@@ -381,6 +392,157 @@ export const Performance: React.FC = () => {
                         <li>Low barometric pressure</li>
                     </ul>
                     <p style={{ marginTop: '0.3rem' }}><strong>Effects:</strong> Longer takeoff roll, reduced climb rate, reduced engine power, higher true airspeed.</p>
+                </div>
+            </EXPANDABLE>
+
+            {/* Weight & Balance */}
+            <EXPANDABLE title="⚖️ Weight & Balance" icon={<Activity size={18} />} color="#f97316">
+                <div style={{ marginTop: '0.5rem' }}>
+                    <div style={{ padding: '0.6rem', borderRadius: '8px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.3)', marginBottom: '0.6rem' }}>
+                        <strong style={{ color: '#f97316', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Key Rule — FAR 91.103</strong>
+                        <p style={{ fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)', margin: '0.2rem 0 0' }}>
+                            Pilot must ensure aircraft is within weight and CG limits before every flight. No excuses.
+                        </p>
+                    </div>
+
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Formulas</h4>
+                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(15,23,42,0.5)', border: '1px solid var(--glass-border)', marginBottom: '0.5rem', fontFamily: 'monospace', fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-primary)' }}>
+                        <div><strong style={{ color: '#f97316' }}>Weight:</strong> Total Weight = Empty Weight + Pilot + Passengers + Fuel + Baggage</div>
+                        <div style={{ marginTop: '0.3rem' }}><strong style={{ color: '#f97316' }}>Moment:</strong> Moment = Weight × Arm</div>
+                        <div style={{ marginTop: '0.2rem' }}><strong style={{ color: '#f97316' }}>CG:</strong> CG = Total Moment / Total Weight</div>
+                    </div>
+
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Fuel Weight</h4>
+                    <p style={{ fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)', marginBottom: '0.5rem' }}>
+                        Avgas (100LL) = <strong style={{ color: '#f97316' }}>6 lbs/gal</strong> &nbsp;|&nbsp; Jet-A = <strong style={{ color: '#f97316' }}>6.7 lbs/gal</strong>
+                    </p>
+
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>CG Limits</h4>
+                    <p style={{ fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)', marginBottom: '0.5rem' }}>
+                        Must remain between forward and aft CG limits specified in the POH. Out-of-CG flight is dangerous and illegal.
+                    </p>
+
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Sample Calculation (C172)</h4>
+                    <div className="ppl-table-scroll">
+                        <table className="ppl-compact-table">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Weight (lbs)</th>
+                                    <th>Moment (in-lbs)</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Empty Weight</td>
+                                    <td>1,663</td>
+                                    <td>136,800</td>
+                                </tr>
+                                <tr>
+                                    <td>Pilot (front)</td>
+                                    <td>170</td>
+                                    <td>170 × 85 = 14,450</td>
+                                </tr>
+                                <tr>
+                                    <td>Front Passenger</td>
+                                    <td>150</td>
+                                    <td>150 × 85 = 12,750</td>
+                                </tr>
+                                <tr>
+                                    <td>Rear Passengers</td>
+                                    <td>200</td>
+                                    <td>200 × 121 = 24,200</td>
+                                </tr>
+                                <tr>
+                                    <td>Fuel (40 gal)</td>
+                                    <td>240</td>
+                                    <td>240 × 48 = 11,520</td>
+                                </tr>
+                                <tr>
+                                    <td>Oil</td>
+                                    <td>8</td>
+                                    <td>8 × −14 = −112</td>
+                                </tr>
+                                <tr>
+                                    <td>Baggage</td>
+                                    <td>50</td>
+                                    <td>50 × 150 = 7,500</td>
+                                </tr>
+                                <tr style={{ fontWeight: 800, borderTop: '2px solid rgba(249,115,22,0.5)' }}>
+                                    <td style={{ color: '#f97316' }}>TOTAL</td>
+                                    <td style={{ color: '#f97316' }}>2,481 lbs</td>
+                                    <td style={{ color: '#f97316' }}>207,108 in-lbs</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div style={{ marginTop: '0.4rem', padding: '0.4rem', borderRadius: '6px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.3)' }}>
+                        <strong style={{ color: '#f97316' }}>CG = 207,108 / 2,481 = 83.5″</strong>
+                        <span style={{ fontSize: 'clamp(0.68rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)', marginLeft: '0.5rem' }}>
+                            Check against POH CG envelope — must be within forward/aft limits.
+                        </span>
+                    </div>
+
+                    <h4 style={{ color: '#f97316', marginTop: '0.5rem', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Common Errors</h4>
+                    <ul style={{ paddingLeft: '1.2rem', marginTop: '0.2rem', fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)' }}>
+                        <li><strong style={{ color: '#ef4444' }}>Overloading:</strong> Exceeds max gross weight — longer takeoff, reduced climb, structural risk</li>
+                        <li><strong style={{ color: '#ef4444' }}>Aft CG:</strong> Improperly loaded passengers/fuel shifts CG aft — unstable, may be unrecoverable</li>
+                        <li><strong style={{ color: '#ef4444' }}>Incorrect fuel weight:</strong> Forgetting to convert gallons to pounds (40 gal ≠ 40 lbs)</li>
+                    </ul>
+                </div>
+            </EXPANDABLE>
+
+            {/* Takeoff & Landing Distance */}
+            <EXPANDABLE title="🛫 Takeoff & Landing Distance" icon={<ArrowUp size={18} />} color="#f97316">
+                <div style={{ marginTop: '0.5rem' }}>
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Takeoff Distance Required (TODR)</h4>
+                    <p style={{ fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)', marginBottom: '0.4rem' }}>
+                        Total distance from brake release to 50 ft obstacle clearance. Includes ground roll + clearance distance.
+                    </p>
+
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Factors that Increase TODR</h4>
+                    <div className="ppl-card-grid-3" style={{ marginBottom: '0.5rem' }}>
+                        <div style={{ padding: '0.4rem', borderRadius: '6px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.3)' }}>
+                            <strong style={{ color: '#f97316', fontSize: 'clamp(0.72rem, 2vw, 0.82rem)' }}>Environment</strong>
+                            <p style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>High altitude, high temperature, headwind reduction</p>
+                        </div>
+                        <div style={{ padding: '0.4rem', borderRadius: '6px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.3)' }}>
+                            <strong style={{ color: '#f97316', fontSize: 'clamp(0.72rem, 2vw, 0.82rem)' }}>Weight & Runway</strong>
+                            <p style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>High weight, short/soft/wet/grass runway, upslope</p>
+                        </div>
+                    </div>
+
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Landing Distance Required (LDR)</h4>
+                    <p style={{ fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)', marginBottom: '0.4rem' }}>
+                        Total distance from threshold crossing (50 ft) to full stop. Includes approach/flare + ground roll.
+                    </p>
+
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>Factors that Increase LDR</h4>
+                    <div className="ppl-card-grid-3" style={{ marginBottom: '0.5rem' }}>
+                        <div style={{ padding: '0.4rem', borderRadius: '6px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.3)' }}>
+                            <strong style={{ color: '#f97316', fontSize: 'clamp(0.72rem, 2vw, 0.82rem)' }}>Environment</strong>
+                            <p style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>High altitude, high temperature, tailwind, downslope</p>
+                        </div>
+                        <div style={{ padding: '0.4rem', borderRadius: '6px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.3)' }}>
+                            <strong style={{ color: '#f97316', fontSize: 'clamp(0.72rem, 2vw, 0.82rem)' }}>Weight & Runway</strong>
+                            <p style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>High weight, short/soft/wet/grass runway, go-around</p>
+                        </div>
+                    </div>
+
+                    <h4 style={{ color: '#f97316', marginBottom: '0.3rem', fontSize: 'clamp(0.78rem, 2vw, 0.88rem)' }}>POH Chart Reading</h4>
+                    <ul style={{ paddingLeft: '1.2rem', marginTop: '0.2rem', fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)' }}>
+                        <li><strong style={{ color: '#f97316' }}>Density Altitude:</strong> Enter chart at current density altitude</li>
+                        <li><strong style={{ color: '#f97316' }}>Weight Correction:</strong> Adjust for actual takeoff/landing weight vs. chart weight</li>
+                        <li><strong style={{ color: '#f97316' }}>Wind Correction:</strong> Headwind reduces distance; tailwind increases distance</li>
+                        <li><strong style={{ color: '#f97316' }}>Surface Correction:</strong> Grass, soft, or wet surfaces multiply ground roll by correction factor</li>
+                    </ul>
+
+                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.3)', marginTop: '0.5rem' }}>
+                        <strong style={{ color: '#f97316' }}>Rule of Thumb:</strong>
+                        <span style={{ fontSize: 'clamp(0.72rem, 2vw, 0.82rem)', color: 'var(--text-secondary)', marginLeft: '0.3rem' }}>
+                            Every 1,000 ft density altitude increase → ~10% longer takeoff distance. Every 100 lbs over gross → ~10% longer distance.
+                        </span>
+                    </div>
                 </div>
             </EXPANDABLE>
         </div>

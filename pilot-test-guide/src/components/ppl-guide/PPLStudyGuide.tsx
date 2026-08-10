@@ -119,29 +119,27 @@ export const PPLStudyGuide: React.FC<{ onBack: () => void }> = ({ onBack }) => {
                 </button>
             </div>
 
-            <header style={{ textAlign: 'center', marginBottom: '1.5rem' }}>
+            <header style={{ textAlign: 'center', marginBottom: '1rem' }}>
                 <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '0.6rem', marginBottom: '0.4rem' }}>
                     <span style={{
-                        width: '44px', height: '44px', borderRadius: '12px', display: 'flex', alignItems: 'center',
+                        width: '40px', height: '40px', borderRadius: '10px', display: 'flex', alignItems: 'center',
                         justifyContent: 'center', background: 'rgba(56,189,248,0.15)', border: '1px solid rgba(56,189,248,0.4)',
-                        boxShadow: '0 0 20px rgba(56,189,248,0.25)',
+                        boxShadow: '0 0 20px rgba(56,189,248,0.25)', flexShrink: 0,
                     }}>
-                        <BookOpen size={22} color="#38bdf8" />
+                        <BookOpen size={20} color="#38bdf8" />
                     </span>
-                    <h1 style={{ fontSize: '1.8rem', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>
+                    <h1 style={{ fontSize: 'clamp(1.3rem, 4vw, 1.8rem)', fontWeight: 700, color: 'var(--text-primary)', margin: 0 }}>
                         PPL Study Guide
                     </h1>
                 </div>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', margin: 0 }}>
+                <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.75rem, 2vw, 0.9rem)', margin: 0 }}>
                     Private Pilot Airman Certification Standards — 8 Interactive Sections
                 </p>
             </header>
 
             {/* Section Grid */}
-            <div style={{
+            <div className="ppl-section-grid" style={{
                 flex: 1, minHeight: 0, overflowY: 'auto', paddingBottom: '1rem',
-                display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-                gap: '1rem', alignContent: 'start',
             }}>
                 {SECTIONS.map((sec, i) => (
                     <button
@@ -150,7 +148,7 @@ export const PPLStudyGuide: React.FC<{ onBack: () => void }> = ({ onBack }) => {
                         onMouseEnter={() => sfx.playHover()}
                         className="glass-card"
                         style={{
-                            display: 'flex', alignItems: 'center', gap: '1rem', padding: '1.25rem',
+                            display: 'flex', alignItems: 'center', gap: '0.75rem', padding: 'clamp(0.75rem, 2vw, 1.25rem)',
                             cursor: 'pointer', textAlign: 'left', border: '1px solid var(--glass-border)',
                             borderRadius: 'var(--radius)', background: 'linear-gradient(180deg, rgba(30,41,59,0.4) 0%, rgba(15,23,42,0.6) 100%)',
                             transition: 'var(--transition)',
@@ -158,7 +156,7 @@ export const PPLStudyGuide: React.FC<{ onBack: () => void }> = ({ onBack }) => {
                         }}
                     >
                         <div style={{
-                            width: '48px', height: '48px', borderRadius: '12px', display: 'flex',
+                            width: '40px', height: '40px', borderRadius: '10px', display: 'flex',
                             alignItems: 'center', justifyContent: 'center', flexShrink: 0,
                             background: `${sec.color}20`, border: `1px solid ${sec.color}60`,
                             color: sec.color,
@@ -167,7 +165,7 @@ export const PPLStudyGuide: React.FC<{ onBack: () => void }> = ({ onBack }) => {
                         </div>
                         <div style={{ flex: 1, minWidth: 0 }}>
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', marginBottom: '0.15rem' }}>
-                                <span style={{ fontWeight: 700, fontSize: '0.95rem', color: 'var(--text-primary)' }}>
+                                <span style={{ fontWeight: 700, fontSize: 'clamp(0.82rem, 2vw, 0.95rem)', color: 'var(--text-primary)' }}>
                                     {sec.title}
                                 </span>
                                 <span style={{
@@ -178,7 +176,7 @@ export const PPLStudyGuide: React.FC<{ onBack: () => void }> = ({ onBack }) => {
                                     pp. {sec.pages}
                                 </span>
                             </div>
-                            <p style={{ color: 'var(--text-secondary)', fontSize: '0.8rem', margin: 0, lineHeight: 1.4 }}>
+                            <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.7rem, 1.8vw, 0.8rem)', margin: 0, lineHeight: 1.4 }}>
                                 {sec.description}
                             </p>
                         </div>

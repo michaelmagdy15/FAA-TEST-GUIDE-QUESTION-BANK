@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { ChevronDown, Brain, AlertTriangle, Eye, Clock, Heart, ShieldAlert, Activity } from 'lucide-react';
+import { ChevronDown, Brain, AlertTriangle, Clock, Heart, ShieldAlert, Activity, Eye, Thermometer, Droplets, Pill, Cloud } from 'lucide-react';
 import { sfx } from '../../../utils/sfx';
 
 const CARD: React.CSSProperties = {
     background: 'linear-gradient(180deg, rgba(30,41,59,0.4) 0%, rgba(15,23,42,0.6) 100%)',
-    border: '1px solid var(--glass-border)', borderRadius: 'var(--radius)', padding: '1.25rem',
+    border: '1px solid var(--glass-border)', borderRadius: 'var(--radius)', padding: 'clamp(0.75rem, 2vw, 1.25rem)',
 };
 
-const EXPANDABLE: React.FC<{ title: string; icon?: React.ReactNode; color?: string; children: React.ReactNode }> = ({ title, icon, color = '#22c55e', children }) => {
+const EXPANDABLE: React.FC<{ title: string; icon?: React.ReactNode; color?: string; children: React.ReactNode }> = ({ title, icon, color: _color = '#22c55e', children }) => {
     const [open, setOpen] = useState(false);
     return (
         <div style={{ ...CARD, overflow: 'hidden', padding: 0 }}>
@@ -16,15 +16,15 @@ const EXPANDABLE: React.FC<{ title: string; icon?: React.ReactNode; color?: stri
                 onMouseEnter={() => sfx.playHover()}
                 style={{
                     width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-                    padding: '1rem 1.25rem', background: 'none', border: 'none', cursor: 'pointer',
-                    fontFamily: 'inherit', color: 'var(--text-primary)', fontWeight: 600, fontSize: '0.95rem',
+                    padding: 'clamp(0.625rem, 1.5vw, 1rem) clamp(0.75rem, 2vw, 1.25rem)', background: 'none', border: 'none', cursor: 'pointer',
+                    fontFamily: 'inherit', color: 'var(--text-primary)', fontWeight: 600, fontSize: 'clamp(0.85rem, 1.5vw, 0.95rem)',
                 }}
             >
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>{icon} {title}</span>
                 <ChevronDown size={18} style={{ transform: open ? 'rotate(180deg)' : 'rotate(0)', transition: 'var(--transition)', color: 'var(--text-secondary)' }} />
             </button>
             {open && (
-                <div style={{ padding: '0 1.25rem 1.25rem', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: '0.88rem', lineHeight: 1.7 }}>
+                <div style={{ padding: '0 clamp(0.75rem, 2vw, 1.25rem) clamp(0.75rem, 2vw, 1.25rem)', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: 'clamp(0.78rem, 1.3vw, 0.88rem)', lineHeight: 1.7 }}>
                     {children}
                 </div>
             )}
@@ -139,15 +139,15 @@ export const HumanFactors: React.FC = () => {
     const [tab, setTab] = useState<'decision' | 'checklists' | 'attitudes' | 'aero' | 'illusions'>('decision');
 
     return (
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 'clamp(0.75rem, 1.5vw, 1.25rem)' }}>
             <header style={{ textAlign: 'center', marginBottom: '0.5rem' }}>
-                <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#22c55e', marginBottom: '0.3rem' }}>
+                <h2 style={{ fontSize: 'clamp(1.25rem, 2.5vw, 1.5rem)', fontWeight: 700, color: '#22c55e', marginBottom: '0.3rem' }}>
                     Human Factors
                 </h2>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>Decision Making, Risk Management & Aeromedical Factors</p>
+                <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.75rem, 1.5vw, 0.85rem)' }}>Decision Making, Risk Management & Aeromedical Factors</p>
             </header>
 
-            <div style={{ display: 'flex', gap: '0.25rem', padding: '3px', borderRadius: '12px', background: 'rgba(255,255,255,0.03)', border: '1px solid var(--glass-border)', flexWrap: 'wrap' }}>
+            <div className="ppl-tab-row" style={{ display: 'flex', gap: '0.25rem', padding: '3px', borderRadius: '12px', background: 'rgba(255,255,255,0.03)', border: '1px solid var(--glass-border)' }}>
                 {([
                     ['decision', 'DECIDE'], ['checklists', 'Checklists'], ['attitudes', 'Attitudes'],
                     ['aero', 'Aeromedical'], ['illusions', 'Illusions'],
@@ -157,8 +157,8 @@ export const HumanFactors: React.FC = () => {
                         onClick={() => { sfx.playSelect(); setTab(id); }}
                         onMouseEnter={() => sfx.playHover()}
                         style={{
-                            padding: '0.4rem 0.8rem', borderRadius: '9px', border: 'none', cursor: 'pointer',
-                            fontFamily: 'inherit', fontSize: '0.78rem', fontWeight: tab === id ? 700 : 500,
+                            padding: 'clamp(0.25rem, 0.8vw, 0.4rem) clamp(0.5rem, 1.2vw, 0.8rem)', borderRadius: '9px', border: 'none', cursor: 'pointer',
+                            fontFamily: 'inherit', fontSize: 'clamp(0.68rem, 1.2vw, 0.78rem)', fontWeight: tab === id ? 700 : 500,
                             background: tab === id ? '#22c55e' : 'transparent',
                             color: tab === id ? '#fff' : 'var(--text-secondary)',
                             transition: 'var(--transition)', flexShrink: 0,
@@ -174,18 +174,18 @@ export const HumanFactors: React.FC = () => {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                         {/* DECIDE Model */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                            <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                                 <Brain size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '0.3rem' }} />
                                 DECIDE Model
                             </h3>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(160px, 1fr))', gap: '0.5rem' }}>
+                            <div className="ppl-card-grid-3">
                                 {DECIDE_STEPS.map(s => (
-                                    <div key={s.letter} style={{ padding: '0.75rem', borderRadius: '10px', background: `${s.color}15`, border: `1px solid ${s.color}40`, textAlign: 'center' }}>
-                                        <div style={{ width: '36px', height: '36px', borderRadius: '8px', background: s.color, color: '#fff', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 0.3rem', fontSize: '1.1rem' }}>
+                                    <div key={s.letter} style={{ padding: 'clamp(0.5rem, 1.2vw, 0.75rem)', borderRadius: '10px', background: `${s.color}15`, border: `1px solid ${s.color}40`, textAlign: 'center' }}>
+                                        <div style={{ width: 'clamp(28px, 5vw, 36px)', height: 'clamp(28px, 5vw, 36px)', borderRadius: '8px', background: s.color, color: '#fff', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 0.3rem', fontSize: 'clamp(0.9rem, 1.8vw, 1.1rem)' }}>
                                             {s.letter}
                                         </div>
-                                        <div style={{ fontWeight: 700, color: s.color, fontSize: '0.88rem' }}>{s.word}</div>
-                                        <div style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{s.desc}</div>
+                                        <div style={{ fontWeight: 700, color: s.color, fontSize: 'clamp(0.78rem, 1.5vw, 0.88rem)' }}>{s.word}</div>
+                                        <div style={{ fontSize: 'clamp(0.62rem, 1vw, 0.72rem)', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{s.desc}</div>
                                     </div>
                                 ))}
                             </div>
@@ -193,14 +193,14 @@ export const HumanFactors: React.FC = () => {
 
                         {/* 5P Model */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                            <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                                 5P Model
                             </h3>
-                            <div style={{ display: 'flex', gap: '0.5rem' }}>
+                            <div className="ppl-card-grid-3">
                                 {FIVE_P.map(p => (
-                                    <div key={p.letter + p.word} style={{ flex: 1, padding: '0.75rem', borderRadius: '10px', background: `${p.color}15`, border: `1px solid ${p.color}40`, textAlign: 'center' }}>
-                                        <div style={{ fontWeight: 700, color: p.color, fontSize: '0.95rem' }}>{p.word}</div>
-                                        <div style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{p.desc}</div>
+                                    <div key={p.letter + p.word} style={{ padding: 'clamp(0.5rem, 1.2vw, 0.75rem)', borderRadius: '10px', background: `${p.color}15`, border: `1px solid ${p.color}40`, textAlign: 'center' }}>
+                                        <div style={{ fontWeight: 700, color: p.color, fontSize: 'clamp(0.85rem, 1.5vw, 0.95rem)' }}>{p.word}</div>
+                                        <div style={{ fontSize: 'clamp(0.62rem, 1vw, 0.72rem)', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{p.desc}</div>
                                     </div>
                                 ))}
                             </div>
@@ -211,18 +211,18 @@ export const HumanFactors: React.FC = () => {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                         {/* IMSAFE */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                            <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                                 <Heart size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '0.3rem' }} />
                                 IMSAFE Checklist
                             </h3>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(140px, 1fr))', gap: '0.5rem' }}>
+                            <div className="ppl-card-grid-3">
                                 {IMSAFE.map(s => (
-                                    <div key={s.letter} style={{ padding: '0.75rem', borderRadius: '10px', background: `${s.color}15`, border: `1px solid ${s.color}40`, textAlign: 'center' }}>
-                                        <div style={{ width: '32px', height: '32px', borderRadius: '8px', background: s.color, color: '#fff', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 0.3rem', fontSize: '1rem' }}>
+                                    <div key={s.letter} style={{ padding: 'clamp(0.5rem, 1.2vw, 0.75rem)', borderRadius: '10px', background: `${s.color}15`, border: `1px solid ${s.color}40`, textAlign: 'center' }}>
+                                        <div style={{ width: 'clamp(24px, 4.5vw, 32px)', height: 'clamp(24px, 4.5vw, 32px)', borderRadius: '8px', background: s.color, color: '#fff', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 0.3rem', fontSize: 'clamp(0.875rem, 1.5vw, 1rem)' }}>
                                             {s.letter}
                                         </div>
-                                        <div style={{ fontWeight: 700, color: s.color, fontSize: '0.88rem' }}>{s.word}</div>
-                                        <div style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{s.desc}</div>
+                                        <div style={{ fontWeight: 700, color: s.color, fontSize: 'clamp(0.78rem, 1.5vw, 0.88rem)' }}>{s.word}</div>
+                                        <div style={{ fontSize: 'clamp(0.62rem, 1vw, 0.72rem)', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{s.desc}</div>
                                     </div>
                                 ))}
                             </div>
@@ -230,18 +230,18 @@ export const HumanFactors: React.FC = () => {
 
                         {/* PAVE */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                            <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                                 <ShieldAlert size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '0.3rem' }} />
                                 PAVE Checklist
                             </h3>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4, 1fr)', gap: '0.5rem' }}>
+                            <div className="ppl-card-grid-4">
                                 {PAVE.map(p => (
-                                    <div key={p.letter} style={{ padding: '0.75rem', borderRadius: '10px', background: `${p.color}15`, border: `1px solid ${p.color}40`, textAlign: 'center' }}>
-                                        <div style={{ width: '32px', height: '32px', borderRadius: '8px', background: p.color, color: '#fff', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 0.3rem', fontSize: '1rem' }}>
+                                    <div key={p.letter} style={{ padding: 'clamp(0.5rem, 1.2vw, 0.75rem)', borderRadius: '10px', background: `${p.color}15`, border: `1px solid ${p.color}40`, textAlign: 'center' }}>
+                                        <div style={{ width: 'clamp(24px, 4.5vw, 32px)', height: 'clamp(24px, 4.5vw, 32px)', borderRadius: '8px', background: p.color, color: '#fff', fontWeight: 800, display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 0.3rem', fontSize: 'clamp(0.875rem, 1.5vw, 1rem)' }}>
                                             {p.letter}
                                         </div>
-                                        <div style={{ fontWeight: 700, color: p.color, fontSize: '0.85rem' }}>{p.word}</div>
-                                        <div style={{ fontSize: '0.72rem', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{p.desc}</div>
+                                        <div style={{ fontWeight: 700, color: p.color, fontSize: 'clamp(0.75rem, 1.5vw, 0.85rem)' }}>{p.word}</div>
+                                        <div style={{ fontSize: 'clamp(0.62rem, 1vw, 0.72rem)', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>{p.desc}</div>
                                     </div>
                                 ))}
                             </div>
@@ -250,19 +250,19 @@ export const HumanFactors: React.FC = () => {
                 )}
                 {tab === 'attitudes' && (
                     <div style={CARD}>
-                        <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                        <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                             <AlertTriangle size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '0.3rem' }} />
                             Hazardous Attitudes
                         </h3>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                        <div className="ppl-hazard-row" style={{ display: 'flex', gap: '0.5rem' }}>
                             {HAZARDOUS_ATTITUDES.map(h => (
-                                <div key={h.type} style={{ display: 'flex', gap: '0.75rem', padding: '0.75rem', borderRadius: '10px', background: `${h.color}12`, border: `1px solid ${h.color}30`, alignItems: 'center' }}>
-                                    <div style={{ padding: '0.3rem 0.6rem', borderRadius: '6px', background: h.color, color: '#fff', fontWeight: 700, fontSize: '0.78rem', whiteSpace: 'nowrap' }}>
+                                <div key={h.type} style={{ display: 'flex', gap: '0.75rem', padding: 'clamp(0.5rem, 1.2vw, 0.75rem)', borderRadius: '10px', background: `${h.color}12`, border: `1px solid ${h.color}30`, alignItems: 'center', minWidth: '250px' }}>
+                                    <div style={{ padding: 'clamp(0.2rem, 0.6vw, 0.3rem) clamp(0.375rem, 0.8vw, 0.6rem)', borderRadius: '6px', background: h.color, color: '#fff', fontWeight: 700, fontSize: 'clamp(0.68rem, 1.2vw, 0.78rem)', whiteSpace: 'nowrap' }}>
                                         {h.type}
                                     </div>
                                     <div style={{ flex: 1 }}>
-                                        <div style={{ fontStyle: 'italic', color: h.color, fontSize: '0.88rem' }}>{h.attitude}</div>
-                                        <div style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginTop: '0.15rem' }}>
+                                        <div style={{ fontStyle: 'italic', color: h.color, fontSize: 'clamp(0.78rem, 1.5vw, 0.88rem)' }}>{h.attitude}</div>
+                                        <div style={{ fontSize: 'clamp(0.72rem, 1.2vw, 0.82rem)', color: 'var(--text-secondary)', marginTop: '0.15rem' }}>
                                             <strong>Antidote:</strong> {h.antidote}
                                         </div>
                                     </div>
@@ -279,9 +279,9 @@ export const HumanFactors: React.FC = () => {
                                 <p><strong>Definition:</strong> Insufficient oxygen to the body's tissues and brain.</p>
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem', marginTop: '0.5rem' }}>
                                     {HYPOXIA_SYMPTOMS.map(h => (
-                                        <div key={h.altitude} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.3rem 0.5rem', borderRadius: '6px', background: `${h.color}15`, border: `1px solid ${h.color}30` }}>
-                                            <span style={{ fontWeight: 700, color: h.color, minWidth: '80px', fontSize: '0.85rem' }}>{h.altitude}</span>
-                                            <span style={{ fontSize: '0.82rem', color: 'var(--text-secondary)' }}>{h.symptoms}</span>
+                                        <div key={h.altitude} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: 'clamp(0.2rem, 0.6vw, 0.3rem) clamp(0.375rem, 0.8vw, 0.5rem)', borderRadius: '6px', background: `${h.color}15`, border: `1px solid ${h.color}30` }}>
+                                            <span style={{ fontWeight: 700, color: h.color, minWidth: '80px', fontSize: 'clamp(0.75rem, 1.5vw, 0.85rem)' }}>{h.altitude}</span>
+                                            <span style={{ fontSize: 'clamp(0.72rem, 1.2vw, 0.82rem)', color: 'var(--text-secondary)' }}>{h.symptoms}</span>
                                         </div>
                                     ))}
                                 </div>
@@ -315,24 +315,24 @@ export const HumanFactors: React.FC = () => {
 
                         {/* Oxygen Requirements */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                            <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                                 Supplemental Oxygen Requirements
                             </h3>
-                            <div style={{ overflowX: 'auto' }}>
-                                <table style={{ width: '100%', borderCollapse: 'collapse', fontSize: '0.78rem' }}>
+                            <div className="ppl-table-scroll">
+                                <table className="ppl-compact-table" style={{ width: '100%', borderCollapse: 'collapse' }}>
                                     <thead>
                                         <tr style={{ borderBottom: '2px solid var(--glass-border)' }}>
-                                            <th style={{ padding: '0.5rem', textAlign: 'left', color: 'var(--text-primary)' }}>Altitude (MSL)</th>
-                                            <th style={{ padding: '0.5rem', textAlign: 'center', color: 'var(--text-primary)' }}>Flight Crew</th>
-                                            <th style={{ padding: '0.5rem', textAlign: 'center', color: 'var(--text-primary)' }}>Passengers</th>
+                                            <th style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', textAlign: 'left', color: 'var(--text-primary)' }}>Altitude (MSL)</th>
+                                            <th style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', textAlign: 'center', color: 'var(--text-primary)' }}>Flight Crew</th>
+                                            <th style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', textAlign: 'center', color: 'var(--text-primary)' }}>Passengers</th>
                                         </tr>
                                     </thead>
                                     <tbody>
                                         {OXYGEN_REQS.map(o => (
                                             <tr key={o.altitude} style={{ borderBottom: '1px solid var(--glass-border)' }}>
-                                                <td style={{ padding: '0.5rem', fontWeight: 700, color: o.color }}>{o.altitude} ft</td>
-                                                <td style={{ padding: '0.5rem', textAlign: 'center', color: 'var(--text-secondary)' }}>{o.crew}</td>
-                                                <td style={{ padding: '0.5rem', textAlign: 'center', color: 'var(--text-secondary)' }}>{o.passengers}</td>
+                                                <td style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', fontWeight: 700, color: o.color }}>{o.altitude} ft</td>
+                                                <td style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', textAlign: 'center', color: 'var(--text-secondary)' }}>{o.crew}</td>
+                                                <td style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', textAlign: 'center', color: 'var(--text-secondary)' }}>{o.passengers}</td>
                                             </tr>
                                         ))}
                                     </tbody>
@@ -348,9 +348,9 @@ export const HumanFactors: React.FC = () => {
                             <p style={{ marginTop: '0.3rem' }}><strong>Scuba Diving Wait Times:</strong></p>
                             <div style={{ display: 'flex', flexDirection: 'column', gap: '0.3rem', marginTop: '0.5rem' }}>
                                 {SCUBA_WAIT_TIMES.map(s => (
-                                    <div key={s.depth} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: '0.3rem 0.5rem', borderRadius: '6px', background: `${s.color}15`, border: `1px solid ${s.color}30` }}>
-                                        <span style={{ fontWeight: 700, color: s.color, minWidth: '100px', fontSize: '0.85rem' }}>{s.depth}</span>
-                                        <span style={{ fontSize: '0.82rem', color: 'var(--text-secondary)' }}>Wait: {s.wait}</span>
+                                    <div key={s.depth} style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', padding: 'clamp(0.2rem, 0.6vw, 0.3rem) clamp(0.375rem, 0.8vw, 0.5rem)', borderRadius: '6px', background: `${s.color}15`, border: `1px solid ${s.color}30` }}>
+                                        <span style={{ fontWeight: 700, color: s.color, minWidth: '100px', fontSize: 'clamp(0.75rem, 1.5vw, 0.85rem)' }}>{s.depth}</span>
+                                        <span style={{ fontSize: 'clamp(0.72rem, 1.2vw, 0.82rem)', color: 'var(--text-secondary)' }}>Wait: {s.wait}</span>
                                     </div>
                                 ))}
                             </div>
@@ -375,7 +375,7 @@ export const HumanFactors: React.FC = () => {
                         </EXPANDABLE>
 
                         {/* Motion Sickness / Stress */}
-                        <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.75rem' }}>
+                        <div className="ppl-card-grid-2">
                             <EXPANDABLE title="🤢 Motion Sickness" icon={<Activity size={16} />} color="#f97316">
                                 <p style={{ marginTop: '0.5rem' }}>
                                     Conflict between visual and vestibular systems. Symptoms: nausea, sweating, dizziness.
@@ -393,17 +393,17 @@ export const HumanFactors: React.FC = () => {
                 )}
                 {tab === 'illusions' && (
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '0.75rem' }}>
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(350px, 1fr))', gap: '0.75rem' }}>
+                        <div className="ppl-card-grid-3">
                             {/* Vestibular */}
                             <div style={CARD}>
-                                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: '#3b82f6', marginBottom: '0.5rem' }}>
+                                <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: '#3b82f6', marginBottom: '0.5rem' }}>
                                     Vestibular Illusions
                                 </h3>
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
                                     {VESTIBULAR_ILLUSIONS.map(v => (
-                                        <div key={v.name} style={{ padding: '0.5rem', borderRadius: '8px', background: `${v.color}12`, border: `1px solid ${v.color}30` }}>
-                                            <strong style={{ color: v.color, fontSize: '0.85rem' }}>{v.name}</strong>
-                                            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{v.desc}</p>
+                                        <div key={v.name} style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', borderRadius: '8px', background: `${v.color}12`, border: `1px solid ${v.color}30` }}>
+                                            <strong style={{ color: v.color, fontSize: 'clamp(0.75rem, 1.5vw, 0.85rem)' }}>{v.name}</strong>
+                                            <p style={{ fontSize: 'clamp(0.68rem, 1.2vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{v.desc}</p>
                                         </div>
                                     ))}
                                 </div>
@@ -411,14 +411,14 @@ export const HumanFactors: React.FC = () => {
 
                             {/* Visual */}
                             <div style={CARD}>
-                                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: '#22c55e', marginBottom: '0.5rem' }}>
+                                <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: '#22c55e', marginBottom: '0.5rem' }}>
                                     Visual Illusions
                                 </h3>
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
                                     {VISUAL_ILLUSIONS.map(v => (
-                                        <div key={v.name} style={{ padding: '0.5rem', borderRadius: '8px', background: `${v.color}12`, border: `1px solid ${v.color}30` }}>
-                                            <strong style={{ color: v.color, fontSize: '0.85rem' }}>{v.name}</strong>
-                                            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{v.desc}</p>
+                                        <div key={v.name} style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', borderRadius: '8px', background: `${v.color}12`, border: `1px solid ${v.color}30` }}>
+                                            <strong style={{ color: v.color, fontSize: 'clamp(0.75rem, 1.5vw, 0.85rem)' }}>{v.name}</strong>
+                                            <p style={{ fontSize: 'clamp(0.68rem, 1.2vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{v.desc}</p>
                                         </div>
                                     ))}
                                 </div>
@@ -426,14 +426,14 @@ export const HumanFactors: React.FC = () => {
 
                             {/* Night Visual */}
                             <div style={CARD}>
-                                <h3 style={{ fontSize: '1rem', fontWeight: 700, color: '#a78bfa', marginBottom: '0.5rem' }}>
+                                <h3 style={{ fontSize: 'clamp(0.875rem, 1.5vw, 1rem)', fontWeight: 700, color: '#a78bfa', marginBottom: '0.5rem' }}>
                                     Night Visual Illusions
                                 </h3>
                                 <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
                                     {NIGHT_ILLUSIONS.map(v => (
-                                        <div key={v.name} style={{ padding: '0.5rem', borderRadius: '8px', background: `${v.color}12`, border: `1px solid ${v.color}30` }}>
-                                            <strong style={{ color: v.color, fontSize: '0.85rem' }}>{v.name}</strong>
-                                            <p style={{ fontSize: '0.78rem', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{v.desc}</p>
+                                        <div key={v.name} style={{ padding: 'clamp(0.375rem, 0.8vw, 0.5rem)', borderRadius: '8px', background: `${v.color}12`, border: `1px solid ${v.color}30` }}>
+                                            <strong style={{ color: v.color, fontSize: 'clamp(0.75rem, 1.5vw, 0.85rem)' }}>{v.name}</strong>
+                                            <p style={{ fontSize: 'clamp(0.68rem, 1.2vw, 0.78rem)', color: 'var(--text-secondary)', margin: '0.15rem 0 0' }}>{v.desc}</p>
                                         </div>
                                     ))}
                                 </div>
@@ -442,6 +442,77 @@ export const HumanFactors: React.FC = () => {
                     </div>
                 )}
             </div>
+
+            <EXPANDABLE title="🌙 Night Vision & Dark Adaptation" icon={<Eye size={18} />} color="#22c55e">
+                <p style={{ marginTop: '0.5rem' }}>
+                    <strong>Rod vs Cone Vision:</strong>
+                </p>
+                <ul style={{ paddingLeft: '1.2rem', marginTop: '0.3rem' }}>
+                    <li><strong>Rods:</strong> Peripheral vision, low light, no color, motion sensitive</li>
+                    <li><strong>Cones:</strong> Center vision, bright light, color, detail</li>
+                </ul>
+                <p style={{ marginTop: '0.5rem' }}><strong>Dark Adaptation:</strong> 30 minutes for full night vision.</p>
+                <ul style={{ paddingLeft: '1.2rem', marginTop: '0.3rem' }}>
+                    <li>Avoid bright lights (resets adaptation)</li>
+                    <li>Use red cockpit lights (doesn't bleach rhodopsin)</li>
+                </ul>
+                <p style={{ marginTop: '0.5rem' }}><strong>Scotopic Vision:</strong> Night-only rod-based vision, no color perception.</p>
+                <p style={{ marginTop: '0.5rem' }}><strong>Night Vision Limitations:</strong></p>
+                <ul style={{ paddingLeft: '1.2rem', marginTop: '0.3rem' }}>
+                    <li>Reduced color perception</li>
+                    <li>Reduced depth perception</li>
+                    <li>Blind spot enlarges</li>
+                    <li>Peripheral vision becomes primary</li>
+                </ul>
+                <p style={{ marginTop: '0.5rem', fontWeight: 700, color: '#22c55e' }}>Key Rule: Avoid looking directly at bright lights at night; scan slowly.</p>
+            </EXPANDABLE>
+
+            <EXPANDABLE title="🥶 Hypothermia" icon={<Thermometer size={18} />} color="#22c55e">
+                <p style={{ marginTop: '0.5rem' }}><strong>Definition:</strong> Body temperature drops below 95°F (35°C).</p>
+                <p style={{ marginTop: '0.5rem' }}><strong>Stages:</strong></p>
+                <ul style={{ paddingLeft: '1.2rem', marginTop: '0.3rem' }}>
+                    <li><strong>Mild (90-95°F):</strong> Shivering, numbness, poor judgment</li>
+                    <li><strong>Moderate (82-90°F):</strong> Shivering stops, confusion, drowsiness</li>
+                    <li><strong>Severe (&lt;82°F):</strong> Unconsciousness, heart fibrillation, death</li>
+                </ul>
+                <p style={{ marginTop: '0.5rem' }}><strong>Causes:</strong> Wet clothing, wind, cold water immersion.</p>
+                <p style={{ marginTop: '0.3rem' }}><strong>Prevention:</strong> Layered clothing, windproof outer layer, stay dry.</p>
+                <p style={{ marginTop: '0.3rem' }}><strong>Flying Impact:</strong> Impaired judgment, slow reaction time, confusion.</p>
+                <p style={{ marginTop: '0.5rem', fontWeight: 700, color: '#22c55e' }}>Key Rule: Hypothermia can be fatal; seek warmth immediately.</p>
+            </EXPANDABLE>
+
+            <EXPANDABLE title="💧 Dehydration" icon={<Droplets size={18} />} color="#22c55e">
+                <p style={{ marginTop: '0.5rem' }}><strong>Definition:</strong> Loss of body water exceeding intake.</p>
+                <p style={{ marginTop: '0.5rem' }}><strong>Symptoms:</strong> Thirst, fatigue, dizziness, headache, dark urine.</p>
+                <p style={{ marginTop: '0.3rem' }}><strong>Flying Impact:</strong> Fatigue, impaired judgment, reduced reaction time.</p>
+                <p style={{ marginTop: '0.3rem' }}><strong>Causes:</strong> Dry cockpit air, caffeine, altitude, physical exertion.</p>
+                <p style={{ marginTop: '0.3rem' }}><strong>Prevention:</strong> Drink water regularly, avoid excessive caffeine/alcohol.</p>
+                <p style={{ marginTop: '0.5rem', fontWeight: 700, color: '#22c55e' }}>Key Rule: By the time you feel thirsty, you're already dehydrated.</p>
+            </EXPANDABLE>
+
+            <EXPANDABLE title="💊 Medications" icon={<Pill size={18} />} color="#22c55e">
+                <p style={{ marginTop: '0.5rem' }}><strong>FAR 91.17:</strong> No person may act as PIC while using any drug that affects faculties.</p>
+                <p style={{ marginTop: '0.5rem' }}><strong>Disqualifying Medications:</strong></p>
+                <ul style={{ paddingLeft: '1.2rem', marginTop: '0.3rem' }}>
+                    <li><strong>Antihistamines</strong> (Benadryl, Zyrtec) — drowsiness</li>
+                    <li><strong>Sedatives/Tranquilizers</strong> (Valium, Xanax)</li>
+                    <li><strong>Pain medications</strong> (opioids, some NSAIDs)</li>
+                    <li><strong>Antidepressants</strong> (SSRIs, MAOIs) — require special issuance</li>
+                    <li><strong>Blood pressure medications</strong> — some cause drowsiness</li>
+                    <li><strong>Motion sickness medications</strong> (Dramamine) — cause drowsiness</li>
+                </ul>
+                <p style={{ marginTop: '0.5rem' }}><strong>Over-the-Counter:</strong> Even OTC meds can impair; always check pilot medical guidelines.</p>
+                <p style={{ marginTop: '0.5rem', fontWeight: 700, color: '#22c55e' }}>Key Rule: When in doubt, don't fly; consult AME if uncertain.</p>
+            </EXPANDABLE>
+
+            <EXPANDABLE title="☁️ Carbon Dioxide Poisoning" icon={<Cloud size={18} />} color="#22c55e">
+                <p style={{ marginTop: '0.5rem' }}><strong>Cause:</strong> CO₂ buildup in cockpit (not the same as CO poisoning).</p>
+                <p style={{ marginTop: '0.5rem' }}><strong>Sources:</strong> Passenger exhalation in unventilated cockpit, cabin heating system.</p>
+                <p style={{ marginTop: '0.3rem' }}><strong>Symptoms:</strong> Drowsiness, headache, increased breathing rate, confusion.</p>
+                <p style={{ marginTop: '0.3rem' }}><strong>Prevention:</strong> Use fresh air vents, maintain cabin ventilation.</p>
+                <p style={{ marginTop: '0.3rem' }}><strong>Difference from CO:</strong> CO is from exhaust (odorless, colorless); CO₂ is from respiration.</p>
+                <p style={{ marginTop: '0.5rem', fontWeight: 700, color: '#22c55e' }}>Key Rule: Always maintain adequate cabin ventilation.</p>
+            </EXPANDABLE>
         </div>
     );
 };

@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
-import { ChevronDown, Cloud, CloudRain, Wind, Thermometer, AlertTriangle, Eye, Zap, ArrowDown } from 'lucide-react';
+import { ChevronDown, Cloud, Wind, AlertTriangle, Zap, Snowflake } from 'lucide-react';
 import { sfx } from '../../../utils/sfx';
 
 const CARD: React.CSSProperties = {
     background: 'linear-gradient(180deg, rgba(30,41,59,0.4) 0%, rgba(15,23,42,0.6) 100%)',
-    border: '1px solid var(--glass-border)', borderRadius: 'var(--radius)', padding: '1.25rem',
+    border: '1px solid var(--glass-border)', borderRadius: 'var(--radius)', padding: 'clamp(0.75rem, 2vw, 1.25rem)',
 };
 
-const EXPANDABLE: React.FC<{ title: string; icon?: React.ReactNode; color?: string; children: React.ReactNode }> = ({ title, icon, color = '#06b6d4', children }) => {
+const EXPANDABLE: React.FC<{ title: React.ReactNode; icon?: React.ReactNode; color?: string; children: React.ReactNode }> = ({ title, icon, color: _color = '#06b6d4', children }) => {
     const [open, setOpen] = useState(false);
     return (
         <div style={{ ...CARD, overflow: 'hidden', padding: 0 }}>
@@ -17,14 +17,14 @@ const EXPANDABLE: React.FC<{ title: string; icon?: React.ReactNode; color?: stri
                 style={{
                     width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
                     padding: '1rem 1.25rem', background: 'none', border: 'none', cursor: 'pointer',
-                    fontFamily: 'inherit', color: 'var(--text-primary)', fontWeight: 600, fontSize: '0.95rem',
+                    fontFamily: 'inherit', color: 'var(--text-primary)', fontWeight: 600, fontSize: 'clamp(0.85rem, 2vw, 0.95rem)',
                 }}
             >
                 <span style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>{icon} {title}</span>
                 <ChevronDown size={18} style={{ transform: open ? 'rotate(180deg)' : 'rotate(0)', transition: 'var(--transition)', color: 'var(--text-secondary)' }} />
             </button>
             {open && (
-                <div style={{ padding: '0 1.25rem 1.25rem', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: '0.88rem', lineHeight: 1.7 }}>
+                <div style={{ padding: '0 1.25rem 1.25rem', borderTop: '1px solid var(--glass-border)', color: 'var(--text-secondary)', fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', lineHeight: 1.7 }}>
                     {children}
                 </div>
             )}
@@ -52,12 +52,12 @@ const METAR_DECODER: React.FC = () => {
     const [hoveredPart, setHoveredPart] = useState<number | null>(null);
     return (
         <div style={CARD}>
-            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+            <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                 METAR Decoder — Interactive
             </h3>
-            <div style={{
+            <div className="ppl-metar-code" style={{
                 background: 'rgba(15,23,42,0.8)', border: '1px solid var(--glass-border)', borderRadius: '10px',
-                padding: '0.75rem 1rem', fontFamily: 'monospace', fontSize: '0.88rem', lineHeight: 2,
+                padding: 'clamp(0.5rem, 1.5vw, 0.75rem) clamp(0.6rem, 1.5vw, 1rem)', lineHeight: 2,
                 marginBottom: '0.75rem', overflowX: 'auto',
             }}>
                 {METAR_DATA.map((part, i) => (
@@ -79,7 +79,7 @@ const METAR_DECODER: React.FC = () => {
             </div>
             {hoveredPart !== null && (
                 <div style={{
-                    padding: '0.5rem 0.75rem', borderRadius: '8px', fontSize: '0.82rem',
+                    padding: '0.5rem 0.75rem', borderRadius: '8px', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)',
                     background: `${METAR_DATA[hoveredPart].color}15`, border: `1px solid ${METAR_DATA[hoveredPart].color}40`,
                     color: METAR_DATA[hoveredPart].color, fontWeight: 600,
                 }}>
@@ -119,12 +119,12 @@ const TAF_DECODER: React.FC = () => {
     const [hoveredPart, setHoveredPart] = useState<number | null>(null);
     return (
         <div style={CARD}>
-            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+            <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                 TAF Decoder — Interactive
             </h3>
-            <div style={{
+            <div className="ppl-metar-code" style={{
                 background: 'rgba(15,23,42,0.8)', border: '1px solid var(--glass-border)', borderRadius: '10px',
-                padding: '0.75rem 1rem', fontFamily: 'monospace', fontSize: '0.82rem', lineHeight: 2,
+                padding: 'clamp(0.5rem, 1.5vw, 0.75rem) clamp(0.6rem, 1.5vw, 1rem)', lineHeight: 2,
                 marginBottom: '0.75rem', overflowX: 'auto',
             }}>
                 {TAF_DATA.map((part, i) => (
@@ -146,7 +146,7 @@ const TAF_DECODER: React.FC = () => {
             </div>
             {hoveredPart !== null && (
                 <div style={{
-                    padding: '0.5rem 0.75rem', borderRadius: '8px', fontSize: '0.82rem',
+                    padding: '0.5rem 0.75rem', borderRadius: '8px', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)',
                     background: `${TAF_DATA[hoveredPart].color}15`, border: `1px solid ${TAF_DATA[hoveredPart].color}40`,
                     color: TAF_DATA[hoveredPart].color, fontWeight: 600,
                 }}>
@@ -170,18 +170,6 @@ const PIREP_FIELDS = [
     { field: '/TB', desc: 'Turbulence', example: '/TB MOD' },
     { field: '/IC', desc: 'Icing', example: '/IC SEV RIME' },
     { field: '/RP', desc: 'Remarks', example: '/RP REPORTED BY C172 PILOT' },
-];
-
-/* ───── Winds Aloft ───── */
-const WINDS_ALOFT_DATA = [
-    { station: 'JFK', alt: '3000', temp: '+15', wind: '280/12', remark: '' },
-    { station: 'JFK', alt: '6000', temp: '+08', wind: '290/18', remark: '' },
-    { station: 'JFK', alt: '9000', temp: '+01', wind: '300/25', remark: '' },
-    { station: 'JFK', alt: '12000', temp: '-05', wind: '310/35', remark: '' },
-    { station: 'BOS', alt: '3000', temp: '+12', wind: '270/10', remark: '' },
-    { station: 'BOS', alt: '6000', temp: '+05', wind: '280/20', remark: '' },
-    { station: 'BOS', alt: '9000', temp: '-02', wind: '290/30', remark: '' },
-    { station: 'BOS', alt: '12000', temp: '-08', wind: '300/40', remark: '' },
 ];
 
 /* ───── Weather Abbreviations ───── */
@@ -213,10 +201,10 @@ const TAF_CODES: { code: string; meaning: string }[] = [
 ];
 
 const ABBREVIATION_TABLES = (
-    <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(280px, 1fr))', gap: '0.75rem' }}>
-        <div style={{ ...CARD, padding: '1rem' }}>
-            <h4 style={{ fontSize: '0.88rem', fontWeight: 700, color: '#06b6d4', marginBottom: '0.5rem' }}>Phenomena</h4>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.2rem', fontSize: '0.78rem' }}>
+    <div className="ppl-card-grid-3" style={{ gap: '0.75rem' }}>
+        <div style={{ ...CARD, padding: 'clamp(0.6rem, 1.5vw, 1rem)' }}>
+            <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.5rem' }}>Phenomena</h4>
+            <div className="ppl-card-grid-2" style={{ gap: '0.2rem', fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)' }}>
                 {PHENOMENA.map(p => (
                     <div key={p.code} style={{ display: 'flex', gap: '0.3rem' }}>
                         <span style={{ fontWeight: 700, color: '#06b6d4', minWidth: '28px' }}>{p.code}</span>
@@ -225,9 +213,9 @@ const ABBREVIATION_TABLES = (
                 ))}
             </div>
         </div>
-        <div style={{ ...CARD, padding: '1rem' }}>
-            <h4 style={{ fontSize: '0.88rem', fontWeight: 700, color: '#f97316', marginBottom: '0.5rem' }}>Sky Condition</h4>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', fontSize: '0.78rem' }}>
+        <div style={{ ...CARD, padding: 'clamp(0.6rem, 1.5vw, 1rem)' }}>
+            <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#f97316', marginBottom: '0.5rem' }}>Sky Condition</h4>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)' }}>
                 {SKY_CONDITION.map(s => (
                     <div key={s.code} style={{ display: 'flex', gap: '0.3rem' }}>
                         <span style={{ fontWeight: 700, color: '#f97316', minWidth: '35px' }}>{s.code}</span>
@@ -236,9 +224,9 @@ const ABBREVIATION_TABLES = (
                 ))}
             </div>
         </div>
-        <div style={{ ...CARD, padding: '1rem' }}>
-            <h4 style={{ fontSize: '0.88rem', fontWeight: 700, color: '#8b5cf6', marginBottom: '0.5rem' }}>TAF Codes</h4>
-            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.2rem', fontSize: '0.78rem' }}>
+        <div style={{ ...CARD, padding: 'clamp(0.6rem, 1.5vw, 1rem)' }}>
+            <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#8b5cf6', marginBottom: '0.5rem' }}>TAF Codes</h4>
+            <div className="ppl-card-grid-2" style={{ gap: '0.2rem', fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)' }}>
                 {TAF_CODES.map(t => (
                     <div key={t.code} style={{ display: 'flex', gap: '0.3rem' }}>
                         <span style={{ fontWeight: 700, color: '#8b5cf6', minWidth: '45px' }}>{t.code}</span>
@@ -355,10 +343,10 @@ export const WeatherInfo: React.FC = () => {
     return (
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
             <header style={{ textAlign: 'center', marginBottom: '0.5rem' }}>
-                <h2 style={{ fontSize: '1.5rem', fontWeight: 700, color: '#06b6d4', marginBottom: '0.3rem' }}>
+                <h2 style={{ fontSize: 'clamp(1.15rem, 3vw, 1.5rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.3rem' }}>
                     Weather Information
                 </h2>
-                <p style={{ color: 'var(--text-secondary)', fontSize: '0.85rem' }}>Aviation Weather Services — METAR, TAF, Hazards & More</p>
+                <p style={{ color: 'var(--text-secondary)', fontSize: 'clamp(0.75rem, 2vw, 0.85rem)' }}>Aviation Weather Services — METAR, TAF, Hazards & More</p>
             </header>
 
             {/* Tab Navigation */}
@@ -374,7 +362,7 @@ export const WeatherInfo: React.FC = () => {
                         onMouseEnter={() => sfx.playHover()}
                         style={{
                             padding: '0.4rem 0.8rem', borderRadius: '9px', border: 'none', cursor: 'pointer',
-                            fontFamily: 'inherit', fontSize: '0.78rem', fontWeight: tab === t ? 700 : 500,
+                            fontFamily: 'inherit', fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', fontWeight: tab === t ? 700 : 500,
                             background: tab === t ? '#06b6d4' : 'transparent',
                             color: tab === t ? '#fff' : 'var(--text-secondary)',
                             transition: 'var(--transition)', flexShrink: 0,
@@ -390,18 +378,18 @@ export const WeatherInfo: React.FC = () => {
                 {tab === 'TAF' && <TAF_DECODER />}
                 {tab === 'PIREP' && (
                     <div style={CARD}>
-                        <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                        <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                             PIREP Format
                         </h3>
-                        <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', marginBottom: '0.75rem' }}>
+                        <p style={{ fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)', marginBottom: '0.75rem' }}>
                             Pilot Weather Reports use standardized field labels. All times are Zulu.
                         </p>
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.5rem' }}>
+                        <div className="ppl-card-grid-2" style={{ gap: '0.5rem' }}>
                             {PIREP_FIELDS.map(f => (
                                 <div key={f.field} style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.25)' }}>
-                                    <div style={{ fontWeight: 700, color: '#06b6d4', fontSize: '0.88rem', fontFamily: 'monospace' }}>{f.field}</div>
-                                    <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>{f.desc}</div>
-                                    <div style={{ fontSize: '0.72rem', color: '#06b6d4', marginTop: '0.2rem', fontFamily: 'monospace' }}>{f.example}</div>
+                                    <div style={{ fontWeight: 700, color: '#06b6d4', fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontFamily: 'monospace' }}>{f.field}</div>
+                                    <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>{f.desc}</div>
+                                    <div style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', color: '#06b6d4', marginTop: '0.2rem', fontFamily: 'monospace' }}>{f.example}</div>
                                 </div>
                             ))}
                         </div>
@@ -410,7 +398,7 @@ export const WeatherInfo: React.FC = () => {
                 {tab === 'Abbreviations' && ABBREVIATION_TABLES}
                 {tab === 'Brief' && (
                     <div style={CARD}>
-                        <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                        <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                             Standard Brief Elements
                         </h3>
                         <ol style={{ paddingLeft: '1.2rem', color: 'var(--text-secondary)' }}>
@@ -423,13 +411,13 @@ export const WeatherInfo: React.FC = () => {
                 {tab === 'Hazards' && (
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                         {/* AIRMET / SIGMET */}
-                        <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(250px, 1fr))', gap: '0.75rem' }}>
+                        <div className="ppl-card-grid-3" style={{ gap: '0.75rem' }}>
                             {SIGMET_COMPARISON.map(s => (
                                 <div key={s.type} style={{ ...CARD, border: `1px solid ${s.color}40` }}>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', marginBottom: '0.5rem', color: s.color, fontWeight: 700, fontSize: '0.95rem' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', marginBottom: '0.5rem', color: s.color, fontWeight: 700, fontSize: 'clamp(0.85rem, 2vw, 0.95rem)' }}>
                                         {s.icon} {s.type}
                                     </div>
-                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', fontSize: '0.82rem' }}>
+                                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.2rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)' }}>
                                         <div><strong>For:</strong> <span style={{ color: 'var(--text-secondary)' }}>{s.forWho}</span></div>
                                         <div><strong>Criteria:</strong> <span style={{ color: 'var(--text-secondary)' }}>{s.criteria}</span></div>
                                         <div><strong>Area:</strong> <span style={{ color: 'var(--text-secondary)' }}>{s.area}</span></div>
@@ -441,24 +429,24 @@ export const WeatherInfo: React.FC = () => {
 
                         {/* Icing */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
-                                <Ice size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '0.3rem' }} />
+                            <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                                <Snowflake size={18} />
                                 Icing
                             </h3>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.5rem', marginBottom: '0.75rem' }}>
+                            <div className="ppl-card-grid-3" style={{ gap: '0.5rem', marginBottom: '0.75rem' }}>
                                 {ICING_TYPES.map(i => (
                                     <div key={i.type} style={{ padding: '0.5rem', borderRadius: '8px', background: `${i.color}15`, border: `1px solid ${i.color}40` }}>
                                         <div style={{ fontWeight: 700, color: i.color, marginBottom: '0.2rem' }}>{i.type}</div>
-                                        <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>{i.desc}</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>{i.desc}</div>
                                     </div>
                                 ))}
                             </div>
-                            <h4 style={{ fontSize: '0.88rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>Intensity</h4>
-                            <div style={{ display: 'flex', gap: '0.5rem' }}>
+                            <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.5rem' }}>Intensity</h4>
+                            <div className="ppl-card-grid-3" style={{ gap: '0.5rem' }}>
                                 {ICING_INTENSITY.map(i => (
-                                    <div key={i.intensity} style={{ flex: 1, padding: '0.5rem', borderRadius: '8px', background: `${i.color}15`, border: `1px solid ${i.color}40`, textAlign: 'center' }}>
+                                    <div key={i.intensity} style={{ padding: '0.5rem', borderRadius: '8px', background: `${i.color}15`, border: `1px solid ${i.color}40`, textAlign: 'center' }}>
                                         <div style={{ fontWeight: 700, color: i.color }}>{i.intensity}</div>
-                                        <div style={{ fontSize: '0.72rem', color: 'var(--text-secondary)' }}>{i.rate}</div>
+                                        <div style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', color: 'var(--text-secondary)' }}>{i.rate}</div>
                                     </div>
                                 ))}
                             </div>
@@ -466,16 +454,16 @@ export const WeatherInfo: React.FC = () => {
 
                         {/* Thunderstorms */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                            <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                                 <Zap size={18} style={{ display: 'inline', verticalAlign: 'middle', marginRight: '0.3rem' }} />
                                 Thunderstorm Stages
                             </h3>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', gap: '0.5rem' }}>
+                            <div className="ppl-card-grid-3" style={{ gap: '0.5rem' }}>
                                 {TS_STAGES.map(ts => (
                                     <div key={ts.name} style={{ padding: '0.75rem', borderRadius: '8px', background: `${ts.color}15`, border: `1px solid ${ts.color}40`, textAlign: 'center' }}>
-                                        <div style={{ fontSize: '1.5rem', marginBottom: '0.3rem', letterSpacing: '2px' }}>{ts.visual}</div>
+                                        <div style={{ fontSize: 'clamp(1rem, 3vw, 1.5rem)', marginBottom: '0.3rem', letterSpacing: '2px' }}>{ts.visual}</div>
                                         <div style={{ fontWeight: 700, color: ts.color, marginBottom: '0.3rem' }}>{ts.name}</div>
-                                        <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>{ts.desc}</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>{ts.desc}</div>
                                     </div>
                                 ))}
                             </div>
@@ -483,14 +471,14 @@ export const WeatherInfo: React.FC = () => {
 
                         {/* Fog */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                            <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                                 Fog Types
                             </h3>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '0.5rem' }}>
+                            <div className="ppl-card-grid-3" style={{ gap: '0.5rem' }}>
                                 {FOG_TYPES.map(f => (
                                     <div key={f.type} style={{ padding: '0.5rem', borderRadius: '8px', background: `${f.color}15`, border: `1px solid ${f.color}40` }}>
                                         <div style={{ fontWeight: 700, color: f.color, marginBottom: '0.2rem' }}>{f.type} Fog</div>
-                                        <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>{f.desc}</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>{f.desc}</div>
                                     </div>
                                 ))}
                             </div>
@@ -513,31 +501,31 @@ export const WeatherInfo: React.FC = () => {
                     <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
                         {/* Pressure Systems */}
                         <EXPANDABLE title="🌡️ Pressure Systems" color="#06b6d4">
-                            <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '0.5rem', marginTop: '0.5rem' }}>
+                            <div className="ppl-card-grid-2" style={{ gap: '0.5rem', marginTop: '0.5rem' }}>
                                 <div style={{ padding: '0.75rem', borderRadius: '8px', background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.25)' }}>
                                     <div style={{ fontWeight: 700, color: '#ef4444' }}>High Pressure (H)</div>
-                                    <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', margin: '0.3rem 0 0' }}>Air sinks, diverges at surface. Generally clear, light winds. Flows clockwise (Northern Hemisphere).</p>
+                                    <p style={{ fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)', margin: '0.3rem 0 0' }}>Air sinks, diverges at surface. Generally clear, light winds. Flows clockwise (Northern Hemisphere).</p>
                                 </div>
                                 <div style={{ padding: '0.75rem', borderRadius: '8px', background: 'rgba(59,130,246,0.1)', border: '1px solid rgba(59,130,246,0.25)' }}>
                                     <div style={{ fontWeight: 700, color: '#3b82f6' }}>Low Pressure (L)</div>
-                                    <p style={{ fontSize: '0.82rem', color: 'var(--text-secondary)', margin: '0.3rem 0 0' }}>Air rises, converges at surface. Cloudy, precipitation. Flows counterclockwise (Northern Hemisphere).</p>
+                                    <p style={{ fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)', margin: '0.3rem 0 0' }}>Air rises, converges at surface. Cloudy, precipitation. Flows counterclockwise (Northern Hemisphere).</p>
                                 </div>
                             </div>
                         </EXPANDABLE>
 
                         {/* Fronts Table */}
                         <div style={CARD}>
-                            <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
+                            <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '0.75rem' }}>
                                 Fronts
                             </h3>
-                            <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(220px, 1fr))', gap: '0.5rem' }}>
+                            <div className="ppl-card-grid-2" style={{ gap: '0.5rem' }}>
                                 {FRONTS.map(f => (
                                     <div key={f.type} style={{ padding: '0.75rem', borderRadius: '8px', background: `${f.color}15`, border: `1px solid ${f.color}40` }}>
                                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', marginBottom: '0.3rem' }}>
-                                            <span style={{ fontSize: '1.1rem', color: f.color }}>{f.symbol}</span>
+                                            <span style={{ fontSize: 'clamp(0.9rem, 2.5vw, 1.1rem)', color: f.color }}>{f.symbol}</span>
                                             <strong style={{ color: f.color }}>{f.type}</strong>
                                         </div>
-                                        <div style={{ fontSize: '0.78rem', color: 'var(--text-secondary)' }}>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>
                                             <div><strong>Weather:</strong> {f.weather}</div>
                                             <div><strong>Temp:</strong> {f.tempChange}</div>
                                             <div><strong>Wind:</strong> {f.windShift}</div>
@@ -556,20 +544,158 @@ export const WeatherInfo: React.FC = () => {
                                 <p style={{ marginTop: '0.5rem' }}><strong>Unstable Air:</strong> Encourages vertical movement. Gusts, cumulus clouds, showery precipitation, turbulence.</p>
                             </div>
                         </EXPANDABLE>
+
+                        <EXPANDABLE title="🌬️ Winds Aloft Forecast (FB)" color="#06b6d4">
+                            <div style={{ marginTop: '0.5rem' }}>
+                                <p><strong>Format:</strong> Station | Altitude | Wind Direction/Speed | Temperature</p>
+                                <div style={{ padding: '0.75rem', borderRadius: '8px', background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.25)', marginTop: '0.75rem' }}>
+                                    <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.5rem' }}>FB Encoding Rules</h4>
+                                    <ul style={{ paddingLeft: '1.2rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}>
+                                        <li><strong>Wind:</strong> 3-digit direction (tens of degrees) + 2-digit speed (knots) — e.g., 2918 = 290° at 18 kts</li>
+                                        <li><strong>Above 24,000 ft:</strong> Add 100 to speed — e.g., 31150 = 310° at 150 kts</li>
+                                        <li><strong>Temperature:</strong> Negative = prefix with M — e.g., M03 = -3°C</li>
+                                    </ul>
+                                </div>
+                                <div style={{ padding: '0.75rem', borderRadius: '8px', background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.25)', marginTop: '0.5rem' }}>
+                                    <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.5rem' }}>Turbulence Codes</h4>
+                                    <div className="ppl-card-grid-2" style={{ gap: '0.3rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)' }}>
+                                        <div><strong style={{ color: '#22c55e' }}>00-04:</strong> <span style={{ color: 'var(--text-secondary)' }}>Light</span></div>
+                                        <div><strong style={{ color: '#eab308' }}>05-09:</strong> <span style={{ color: 'var(--text-secondary)' }}>Moderate</span></div>
+                                        <div><strong style={{ color: '#ef4444' }}>10-14:</strong> <span style={{ color: 'var(--text-secondary)' }}>Severe (report)</span></div>
+                                        <div><strong style={{ color: '#f97316' }}>LLWS:</strong> <span style={{ color: 'var(--text-secondary)' }}>Low Level Wind Shear</span></div>
+                                    </div>
+                                </div>
+                                <div style={{ padding: '0.75rem', borderRadius: '8px', background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.25)', marginTop: '0.5rem' }}>
+                                    <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.5rem' }}>Sample Decoded — JFK</h4>
+                                    <div style={{ fontFamily: 'monospace', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)', lineHeight: 1.8 }}>
+                                        <div>3,000 ft: <span style={{ color: '#06b6d4' }}>280/12</span> +15°C</div>
+                                        <div>6,000 ft: <span style={{ color: '#06b6d4' }}>290/18</span> +08°C</div>
+                                        <div>9,000 ft: <span style={{ color: '#06b6d4' }}>300/25</span> +01°C</div>
+                                    </div>
+                                </div>
+                                <p style={{ marginTop: '0.75rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}><strong>Key Use:</strong> Calculate true airspeed, wind correction angle, headwind/crosswind component for flight planning.</p>
+                            </div>
+                        </EXPANDABLE>
+
+                        <EXPANDABLE title="🌍 Air Masses" color="#06b6d4">
+                            <div style={{ marginTop: '0.5rem' }}>
+                                <p><strong>Definition:</strong> Large body of air with uniform temperature and moisture characteristics.</p>
+                                <div className="ppl-card-grid-2" style={{ gap: '0.5rem', marginTop: '0.75rem' }}>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(59,130,246,0.1)', border: '1px solid rgba(59,130,246,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#3b82f6' }}>cP — Continental Polar</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Cold, dry, stable — clear skies, light winds</div>
+                                    </div>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#06b6d4' }}>mP — Maritime Polar</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Cool, moist, unstable — clouds, precipitation</div>
+                                    </div>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#ef4444' }}>cT — Continental Tropical</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Hot, dry, unstable — turbulence, dust devils</div>
+                                    </div>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#f97316' }}>mT — Maritime Tropical</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Warm, moist, unstable — thunderstorms, heavy rain</div>
+                                    </div>
+                                </div>
+                                <p style={{ marginTop: '0.75rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}><strong>Source Regions:</strong> Arctic, Pacific, Atlantic, deserts</p>
+                                <p style={{ marginTop: '0.3rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}><strong>Fronts:</strong> Form when air masses meet — cold front = cP pushing mT, warm front = mT overriding cP</p>
+                            </div>
+                        </EXPANDABLE>
+
+                        <EXPANDABLE title="☁️ Lifting Processes" color="#06b6d4">
+                            <div style={{ marginTop: '0.5rem' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#ef4444' }}>Convective Lifting</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Surface heats → air rises → cooling → condensation. Produces cumulus clouds, afternoon thunderstorms.</div>
+                                    </div>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(59,130,246,0.1)', border: '1px solid rgba(59,130,246,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#3b82f6' }}>Orographic Lifting</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Air forced over mountains → cooling → condensation. Produces lenticular clouds, mountain wave turbulence.</div>
+                                    </div>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(249,115,22,0.1)', border: '1px solid rgba(249,115,22,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#f97316' }}>Frontal Lifting</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Warm air forced over cold air mass at front. Produces stratus/nimbus clouds, steady precipitation.</div>
+                                    </div>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(139,92,246,0.1)', border: '1px solid rgba(139,92,246,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#8b5cf6' }}>Convergence</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Air masses collide → forced upward. Produces widespread cloudiness.</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </EXPANDABLE>
+
+                        <EXPANDABLE title="🌡️ Temperature Inversion" color="#06b6d4">
+                            <div style={{ marginTop: '0.5rem' }}>
+                                <div className="ppl-card-grid-2" style={{ gap: '0.5rem' }}>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(34,197,94,0.1)', border: '1px solid rgba(34,197,94,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#22c55e' }}>Normal Condition</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Temperature decreases with altitude (~3.5°F / 1,000 ft)</div>
+                                    </div>
+                                    <div style={{ padding: '0.5rem', borderRadius: '8px', background: 'rgba(239,68,68,0.1)', border: '1px solid rgba(239,68,68,0.25)' }}>
+                                        <div style={{ fontWeight: 700, color: '#ef4444' }}>Inversion</div>
+                                        <div style={{ fontSize: 'clamp(0.7rem, 1.8vw, 0.78rem)', color: 'var(--text-secondary)' }}>Temperature INCREASES with altitude</div>
+                                    </div>
+                                </div>
+                                <div style={{ marginTop: '0.75rem' }}>
+                                    <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.3rem' }}>Causes</h4>
+                                    <ul style={{ paddingLeft: '1.2rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}>
+                                        <li>Radiation cooling at night (most common)</li>
+                                        <li>Warm air overrunning cold surface</li>
+                                        <li>Subsidence (sinking air from high pressure)</li>
+                                    </ul>
+                                </div>
+                                <div style={{ marginTop: '0.5rem' }}>
+                                    <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.3rem' }}>Effects</h4>
+                                    <ul style={{ paddingLeft: '1.2rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}>
+                                        <li>Traps fog, smoke, pollution near surface</li>
+                                        <li>Reduces turbulence above inversion</li>
+                                        <li>Can create wind shear at inversion boundary</li>
+                                    </ul>
+                                </div>
+                                <p style={{ marginTop: '0.5rem', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}><strong>Flying Impact:</strong> Smooth air above, bumpy below; fog/low ceilings persist.</p>
+                            </div>
+                        </EXPANDABLE>
+
+                        <EXPANDABLE title="💧 Relative Humidity & Dew Point" color="#06b6d4">
+                            <div style={{ marginTop: '0.5rem' }}>
+                                <p><strong>Relative Humidity (RH):</strong> Amount of moisture in air vs. maximum it can hold at that temperature.</p>
+                                <p style={{ fontFamily: 'monospace', fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: '#06b6d4', marginTop: '0.3rem', padding: '0.4rem 0.6rem', background: 'rgba(6,182,212,0.1)', borderRadius: '6px', display: 'inline-block' }}>
+                                    RH = (actual vapor pressure / saturation vapor pressure) × 100
+                                </p>
+                                <div style={{ padding: '0.75rem', borderRadius: '8px', background: 'rgba(6,182,212,0.1)', border: '1px solid rgba(6,182,212,0.25)', marginTop: '0.75rem' }}>
+                                    <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.3rem' }}>Dew Point Spread</h4>
+                                    <div style={{ fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}>
+                                        <div><strong>Large spread</strong> (temp - dew point) = dry air, clear skies</div>
+                                        <div style={{ marginTop: '0.2rem' }}><strong>Small spread</strong> = moist air, clouds/fog likely</div>
+                                        <div style={{ marginTop: '0.2rem' }}><strong>Spread &lt; 5°F</strong> = fog/low clouds likely</div>
+                                    </div>
+                                </div>
+                                <div style={{ marginTop: '0.75rem' }}>
+                                    <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.3rem' }}>Fog Formation</h4>
+                                    <p style={{ fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}>When temperature drops to dew point — radiation fog, advection fog, upslope fog, etc.</p>
+                                </div>
+                                <div style={{ marginTop: '0.5rem' }}>
+                                    <h4 style={{ fontSize: 'clamp(0.78rem, 1.8vw, 0.88rem)', fontWeight: 700, color: '#06b6d4', marginBottom: '0.3rem' }}>Icing Condition</h4>
+                                    <p style={{ fontSize: 'clamp(0.72rem, 1.8vw, 0.82rem)', color: 'var(--text-secondary)' }}>When temperature is at or below freezing with visible moisture present.</p>
+                                </div>
+                            </div>
+                        </EXPANDABLE>
                     </div>
                 )}
                 {tab === 'Clouds' && (
                     <div style={CARD}>
-                        <h3 style={{ fontSize: '1rem', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '1rem' }}>
+                        <h3 style={{ fontSize: 'clamp(0.88rem, 2vw, 1rem)', fontWeight: 700, color: 'var(--text-primary)', marginBottom: '1rem' }}>
                             Cloud Types by Level
                         </h3>
                         {/* Visual diagram */}
-                        <div style={{ position: 'relative', width: '100%', height: '320px', borderRadius: '12px', background: 'linear-gradient(180deg, #1e293b 0%, #0f172a 100%)', border: '1px solid var(--glass-border)', overflow: 'hidden' }}>
+                        <div style={{ position: 'relative', width: '100%', height: 'clamp(250px, 40vw, 320px)', borderRadius: '12px', background: 'linear-gradient(180deg, #1e293b 0%, #0f172a 100%)', border: '1px solid var(--glass-border)', overflow: 'hidden' }}>
                             {/* Altitude labels */}
-                            <div style={{ position: 'absolute', left: '8px', top: '10px', fontSize: '0.7rem', color: '#94a3b8' }}>40,000 ft</div>
-                            <div style={{ position: 'absolute', left: '8px', top: '40%', fontSize: '0.7rem', color: '#94a3b8' }}>20,000 ft</div>
-                            <div style={{ position: 'absolute', left: '8px', top: '72%', fontSize: '0.7rem', color: '#94a3b8' }}>6,500 ft</div>
-                            <div style={{ position: 'absolute', left: '8px', bottom: '10px', fontSize: '0.7rem', color: '#94a3b8' }}>SFC</div>
+                            <div style={{ position: 'absolute', left: '8px', top: '10px', fontSize: 'clamp(0.6rem, 1.5vw, 0.7rem)', color: '#94a3b8' }}>40,000 ft</div>
+                            <div style={{ position: 'absolute', left: '8px', top: '40%', fontSize: 'clamp(0.6rem, 1.5vw, 0.7rem)', color: '#94a3b8' }}>20,000 ft</div>
+                            <div style={{ position: 'absolute', left: '8px', top: '72%', fontSize: 'clamp(0.6rem, 1.5vw, 0.7rem)', color: '#94a3b8' }}>6,500 ft</div>
+                            <div style={{ position: 'absolute', left: '8px', bottom: '10px', fontSize: 'clamp(0.6rem, 1.5vw, 0.7rem)', color: '#94a3b8' }}>SFC</div>
 
                             {/* Level dividers */}
                             <div style={{ position: 'absolute', top: '40%', left: 0, right: 0, height: '1px', background: 'rgba(148,163,184,0.2)' }} />
@@ -579,8 +705,8 @@ export const WeatherInfo: React.FC = () => {
                             <div style={{ position: 'absolute', top: '12%', left: '15%', right: '15%', display: 'flex', justifyContent: 'space-around' }}>
                                 {CLOUD_TYPES.high.map(c => (
                                     <div key={c.name} style={{ textAlign: 'center' }}>
-                                        <div style={{ fontSize: '2rem', color: c.color, lineHeight: 1, marginBottom: '2px' }}>☁</div>
-                                        <div style={{ fontSize: '0.72rem', fontWeight: 700, color: c.color }}>{c.name}</div>
+                                        <div style={{ fontSize: 'clamp(1.25rem, 4vw, 2rem)', color: c.color, lineHeight: 1, marginBottom: '2px' }}>☁</div>
+                                        <div style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', fontWeight: 700, color: c.color }}>{c.name}</div>
                                     </div>
                                 ))}
                             </div>
@@ -589,8 +715,8 @@ export const WeatherInfo: React.FC = () => {
                             <div style={{ position: 'absolute', top: '52%', left: '15%', right: '15%', display: 'flex', justifyContent: 'space-around' }}>
                                 {CLOUD_TYPES.middle.map(c => (
                                     <div key={c.name} style={{ textAlign: 'center' }}>
-                                        <div style={{ fontSize: '2.5rem', color: c.color, lineHeight: 1, marginBottom: '2px' }}>☁</div>
-                                        <div style={{ fontSize: '0.72rem', fontWeight: 700, color: c.color }}>{c.name}</div>
+                                        <div style={{ fontSize: 'clamp(1.5rem, 5vw, 2.5rem)', color: c.color, lineHeight: 1, marginBottom: '2px' }}>☁</div>
+                                        <div style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', fontWeight: 700, color: c.color }}>{c.name}</div>
                                     </div>
                                 ))}
                             </div>
@@ -599,16 +725,16 @@ export const WeatherInfo: React.FC = () => {
                             <div style={{ position: 'absolute', top: '78%', left: '10%', right: '10%', display: 'flex', justifyContent: 'space-around' }}>
                                 {CLOUD_TYPES.low.map(c => (
                                     <div key={c.name} style={{ textAlign: 'center' }}>
-                                        <div style={{ fontSize: '3rem', color: c.color, lineHeight: 1, marginBottom: '2px' }}>☁</div>
-                                        <div style={{ fontSize: '0.72rem', fontWeight: 700, color: c.color }}>{c.name}</div>
+                                        <div style={{ fontSize: 'clamp(1.75rem, 6vw, 3rem)', color: c.color, lineHeight: 1, marginBottom: '2px' }}>☁</div>
+                                        <div style={{ fontSize: 'clamp(0.65rem, 1.5vw, 0.72rem)', fontWeight: 700, color: c.color }}>{c.name}</div>
                                     </div>
                                 ))}
                             </div>
 
                             {/* Labels */}
-                            <div style={{ position: 'absolute', right: '8px', top: '15%', fontSize: '0.7rem', color: '#e2e8f0', fontWeight: 700 }}>HIGH</div>
-                            <div style={{ position: 'absolute', right: '8px', top: '55%', fontSize: '0.7rem', color: '#64748b', fontWeight: 700 }}>MIDDLE</div>
-                            <div style={{ position: 'absolute', right: '8px', top: '80%', fontSize: '0.7rem', color: '#94a3b8', fontWeight: 700 }}>LOW</div>
+                            <div style={{ position: 'absolute', right: '8px', top: '15%', fontSize: 'clamp(0.6rem, 1.5vw, 0.7rem)', color: '#e2e8f0', fontWeight: 700 }}>HIGH</div>
+                            <div style={{ position: 'absolute', right: '8px', top: '55%', fontSize: 'clamp(0.6rem, 1.5vw, 0.7rem)', color: '#64748b', fontWeight: 700 }}>MIDDLE</div>
+                            <div style={{ position: 'absolute', right: '8px', top: '80%', fontSize: 'clamp(0.6rem, 1.5vw, 0.7rem)', color: '#94a3b8', fontWeight: 700 }}>LOW</div>
                         </div>
                     </div>
                 )}
@@ -616,10 +742,3 @@ export const WeatherInfo: React.FC = () => {
         </div>
     );
 };
-
-const Ice = ({ size }: { size: number }) => (
-    <svg width={size} height={size} viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-        <line x1="12" y1="2" x2="12" y2="22" /><line x1="2" y1="12" x2="22" y2="12" />
-        <line x1="4.93" y1="4.93" x2="19.07" y2="19.07" /><line x1="19.07" y1="4.93" x2="4.93" y2="19.07" />
-    </svg>
-);

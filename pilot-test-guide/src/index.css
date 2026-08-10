@@ -835,3 +835,157 @@ body::before {
     padding: 0.35rem 0.65rem;
   }
 }
+
+/* ==========================================================================
+   PPL Study Guide Responsive Utilities
+   ========================================================================== */
+
+.ppl-section-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(320px, 100%), 1fr));
+  gap: 1rem;
+  align-content: start;
+}
+
+.ppl-card-grid-2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(250px, 100%), 1fr));
+  gap: 0.75rem;
+}
+
+.ppl-card-grid-3 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(200px, 100%), 1fr));
+  gap: 0.75rem;
+}
+
+.ppl-card-grid-4 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(min(160px, 100%), 1fr));
+  gap: 0.5rem;
+}
+
+.ppl-letter-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.ppl-tab-row {
+  display: flex;
+  gap: 0.35rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+  padding-bottom: 0.25rem;
+  flex-shrink: 0;
+}
+
+.ppl-tab-row::-webkit-scrollbar { display: none; }
+
+.ppl-tab-row button {
+  flex-shrink: 0;
+}
+
+.ppl-hazard-row {
+  display: flex;
+  gap: 0.5rem;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: none;
+}
+
+.ppl-hazard-row::-webkit-scrollbar { display: none; }
+
+.ppl-hazard-row > div {
+  flex-shrink: 0;
+  min-width: min(140px, 80vw);
+}
+
+.ppl-metar-code {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.02em;
+  word-break: break-all;
+  line-height: 1.8;
+}
+
+.ppl-formula-box {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem;
+  font-weight: 700;
+  text-align: center;
+  padding: 0.75rem;
+  border-radius: 10px;
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.ppl-table-scroll {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-width: thin;
+}
+
+.ppl-compact-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.8rem;
+}
+
+.ppl-compact-table th,
+.ppl-compact-table td {
+  padding: 0.4rem 0.5rem;
+  text-align: left;
+  border-bottom: 1px solid var(--glass-border);
+  white-space: nowrap;
+}
+
+.ppl-compact-table th {
+  font-weight: 700;
+  color: var(--accent-color);
+  position: sticky;
+  top: 0;
+  background: rgba(15, 23, 42, 0.95);
+}
+
+.ppl-compact-table td:first-child,
+.ppl-compact-table th:first-child {
+  white-space: normal;
+}
+
+@media screen and (max-width: 768px) {
+  .ppl-section-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .ppl-card-grid-2,
+  .ppl-card-grid-3,
+  .ppl-card-grid-4 {
+    grid-template-columns: 1fr;
+  }
+
+  .ppl-letter-grid button {
+    width: 36px !important;
+    height: 36px !important;
+    font-size: 0.9rem !important;
+  }
+
+  .ppl-metar-code {
+    font-size: 0.75rem;
+  }
+
+  .ppl-formula-box {
+    font-size: 0.85rem;
+    padding: 0.5rem;
+  }
+
+  .ppl-compact-table {
+    font-size: 0.72rem;
+  }
+
+  .ppl-compact-table th,
+  .ppl-compact-table td {
+    padding: 0.3rem 0.35rem;
+  }
+}
