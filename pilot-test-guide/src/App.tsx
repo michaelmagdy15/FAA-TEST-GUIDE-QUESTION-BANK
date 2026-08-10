@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, lazy, Suspense } from 'react';
 import { LandingView } from './components/LandingView';
 import { QuestionView } from './components/QuestionView';
 import { C172Hub } from './components/c172/C172Hub';
@@ -10,6 +10,8 @@ import { Preloader } from './components/Preloader';
 import { useTestProgress } from './hooks/useTestProgress';
 import { Question, TestMode } from './types';
 import { getQuestionsForBank } from './lib/questionsData';
+
+const PPLStudyGuide = lazy(() => import('./components/ppl-guide/PPLStudyGuide').then(m => ({ default: m.PPLStudyGuide })));
 
 const pplChapterTitles: Record<string, string> = {
   "1": "Discovering Aviation", "2": "Airplane Systems", "3": "Aerodynamic Principles",
@@ -50,7 +52,7 @@ const prefixMap: Record<TestMode, string> = {
   ppl: 'progress', ir: 'ir_progress', cpl: 'cpl_progress', c172: 'c172_progress',
 };
 
-type ViewMode = 'landing' | 'chapter' | 'quiz-setup' | 'quiz' | 'exam';
+type ViewMode = 'landing' | 'chapter' | 'quiz-setup' | 'quiz' | 'exam' | 'ppl-study';
 
 export const App: React.FC = () => {
   const [loading, setLoading] = useState(true);
@@ -124,6 +126,10 @@ export const App: React.FC = () => {
     setViewMode('exam');
   };
 
+  const handleOpenStudyGuide = () => {
+    setViewMode('ppl-study');
+  };
+
   if (loading) return <Preloader />;
 
   const renderContent = () => {
@@ -134,6 +140,8 @@ export const App: React.FC = () => {
         return <QuizMode questions={quizQuestions} category={quizCategory} mode={mode} onBack={handleBack} />;
       case 'exam':
         return <PracticeExam questions={questionsData} mode={mode} examType={examType} onBack={handleBack} />;
+      case 'ppl-study':
+        return <React.Suspense fallback={<Preloader />}><PPLStudyGuide onBack={handleBack} /></React.Suspense>;
       case 'quiz-setup':
         return <QuizSetup questions={questionsData} mode={mode} onStart={handleStartQuiz} onClose={handleBack} />;
       case 'chapter':
@@ -162,6 +170,7 @@ export const App: React.FC = () => {
             onNavigateToQuestion={handleNavigateToQuestion}
             onStartQuiz={() => setViewMode('quiz-setup')}
             onStartExam={handleStartExam}
+            onStudyGuide={handleOpenStudyGuide}
           />
         );
     }

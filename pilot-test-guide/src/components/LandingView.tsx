@@ -28,6 +28,7 @@ interface LandingViewProps {
     onNavigateToQuestion?: (questionId: string) => void;
     onStartQuiz?: () => void;
     onStartExam?: (type: 'ppl' | 'ir' | 'cpl') => void;
+    onStudyGuide?: () => void;
 }
 
 const MODE_CONFIG: Record<TestMode, { label: string; shortLabel: string; icon: React.ReactNode; accent: string; accentRgb: string }> = {
@@ -45,7 +46,7 @@ const EXAM_CONFIG = {
 
 export const LandingView: React.FC<LandingViewProps> = ({
     mode, onModeSwitch, chapters, onSelect, onReview, totalQuestions, reviewCount, chapterProgress,
-    onResetChapter, onResetAll, onNavigateToQuestion, onStartQuiz, onStartExam
+    onResetChapter, onResetAll, onNavigateToQuestion, onStartQuiz, onStartExam, onStudyGuide
 }) => {
     const cfg = MODE_CONFIG[mode];
     const answered = getAnsweredCount(mode);
@@ -141,6 +142,18 @@ export const LandingView: React.FC<LandingViewProps> = ({
                             </button>
                         );
                     })}
+                    {onStudyGuide && mode === 'ppl' && (
+                        <button className="glass-card" onClick={() => { sfx.playSelect(); onStudyGuide(); }} onMouseEnter={() => sfx.playHover()}
+                            style={{ padding: '0.75rem 1.25rem', display: 'flex', alignItems: 'center', gap: '0.6rem', cursor: 'pointer', border: '1px solid rgba(56, 189, 248, 0.2)' }}>
+                            <div style={{ width: '32px', height: '32px', borderRadius: '8px', display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'rgba(56, 189, 248, 0.15)', color: '#38bdf8', flexShrink: 0 }}>
+                                <BookOpen size={16} />
+                            </div>
+                            <div style={{ textAlign: 'left' }}>
+                                <div style={{ fontWeight: 600, fontSize: '0.85rem', color: 'var(--text-primary)' }}>PPL Study Guide</div>
+                                <div style={{ fontSize: '0.7rem', color: 'var(--text-secondary)' }}>Visual reference · 32 pages</div>
+                            </div>
+                        </button>
+                    )}
                 </div>
             </header>
 
