@@ -80,8 +80,19 @@ export interface ProgressData {
   answeredQuestionIds: Record<string, string[]>;  // mode -> question IDs answered correctly
 }
 
-const STORAGE_KEY = "pilot_guide_progress";
+import { debouncedSync } from './cloudflareSync';
+
 const DAILY_GOAL_TARGET = 15;
+
+let _userId: string | null = null;
+
+export function setProgressUserId(userId: string | null): void {
+  _userId = userId;
+}
+
+function getStorageKey(): string {
+  return _userId ? `${_userId}_pilot_guide_progress` : 'pilot_guide_progress';
+}
 
 // ---- Default data ----
 
@@ -130,7 +141,7 @@ function getDefaultProgress(): ProgressData {
 
 function loadProgress(): ProgressData {
   try {
-    const raw = localStorage.getItem(STORAGE_KEY);
+    const raw = localStorage.getItem(getStorageKey());
     if (raw) {
       const data = JSON.parse(raw) as ProgressData;
       // Ensure all fields exist (migration)
@@ -153,7 +164,8 @@ function loadProgress(): ProgressData {
 }
 
 function saveProgress(data: ProgressData): void {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(data));
+  localStorage.setItem(getStorageKey(), JSON.stringify(data));
+  debouncedSync();
 }
 
 function todayStr(): string {

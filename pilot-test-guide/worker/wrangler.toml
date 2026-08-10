@@ -1,0 +1,11 @@
+name = "pilot-guide-api"
+main = "src/index.ts"
+compatibility_date = "2024-10-22"
+
+[vars]
+ALLOWED_ORIGIN = "https://pilot-test-guide.vercel.app"
+
+[[d1_databases]]
+binding = "pilot_guide_db"
+database_name = "pilot-guide-db"
+database_id = "c8406ae0-d787-451c-a946-209a070fde17"

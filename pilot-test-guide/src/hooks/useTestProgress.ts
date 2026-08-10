@@ -1,5 +1,6 @@
 import { useState, useEffect, useCallback } from 'react';
 import { Question } from '../types';
+import { debouncedSync } from '../lib/cloudflareSync';
 
 export const useTestProgress = (
     progressPrefix: string,
@@ -52,6 +53,7 @@ export const useTestProgress = (
         const posKey = `${key}_pos`;
         localStorage.removeItem(key);
         localStorage.removeItem(posKey);
+        debouncedSync();
         loadProgress();
     }, [progressPrefix, loadProgress]);
 
@@ -68,6 +70,7 @@ export const useTestProgress = (
             localStorage.removeItem(key);
         }
         
+        debouncedSync();
         loadProgress();
     }, [progressPrefix, loadProgress]);
 

@@ -58,8 +58,11 @@ export const LandingView: React.FC<LandingViewProps> = ({
         if (!file) return;
         try {
             const result = await importProgressFile(file);
-            alert(`Imported ${result.imported} items. Reloading...`);
-            window.location.reload();
+            alert(`Imported ${result.imported} progress items. Reloading...`);
+            // Force a hard reload to pick up new localStorage values
+            setTimeout(() => {
+                window.location.href = window.location.pathname;
+            }, 100);
         } catch (err) {
             alert('Failed to import: ' + (err instanceof Error ? err.message : 'Unknown error'));
         }

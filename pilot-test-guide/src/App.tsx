@@ -1,5 +1,5 @@
 import React, { useState, useEffect, lazy } from 'react';
-import { ClerkProvider } from '@clerk/clerk-react';
+import { ClerkProvider, useUser } from '@clerk/clerk-react';
 import { LandingView } from './components/LandingView';
 import { QuestionView } from './components/QuestionView';
 import { C172Hub } from './components/c172/C172Hub';
@@ -10,7 +10,8 @@ import { KeyboardHelp } from './components/KeyboardHelp';
 import { Preloader } from './components/Preloader';
 import { AuthWrapper } from './components/AuthWrapper';
 import { useUserProgress } from './hooks/useUserProgress';
-import { useTestProgress } from './hooks/useTestProgress';
+import { setProgressUserId } from './lib/progressTracker';
+import { setSyncUserId, loadFromD1 } from './lib/cloudflareSync';
 import { Question, TestMode } from './types';
 import { getQuestionsForBank } from './lib/questionsData';
 
@@ -67,6 +68,15 @@ const AppContent: React.FC = () => {
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
   const [quizCategory, setQuizCategory] = useState('all');
   const [examType, setExamType] = useState<'ppl' | 'ir' | 'cpl'>('ppl');
+  const { user } = useUser();
+
+  useEffect(() => {
+    setProgressUserId(user?.id || null);
+    setSyncUserId(user?.id || null);
+    if (user?.id) {
+      loadFromD1(user.id).catch(() => {});
+    }
+  }, [user]);
 
   useEffect(() => {
     const timer = setTimeout(() => setLoading(false), 1800);

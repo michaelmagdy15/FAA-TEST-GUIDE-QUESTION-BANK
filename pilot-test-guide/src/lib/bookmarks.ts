@@ -3,6 +3,8 @@
  * Stored in localStorage, per-mode.
  */
 
+import { debouncedSync } from './cloudflareSync';
+
 const BOOKMARK_KEY = "pilot_guide_bookmarks";
 
 export function getBookmarks(mode: string = 'ppl'): string[] {
@@ -42,6 +44,7 @@ export function toggleBookmark(questionId: string, mode: string = 'ppl'): boolea
 
   data[mode] = updated;
   localStorage.setItem(BOOKMARK_KEY, JSON.stringify(data));
+  debouncedSync();
   return index < 0; // returns true if now bookmarked
 }
 

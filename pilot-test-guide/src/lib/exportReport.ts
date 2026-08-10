@@ -7,11 +7,16 @@ import { getBookmarks } from './bookmarks';
 
 function collectAllProgressData(): Record<string, string> {
   const data: Record<string, string> = {};
+  
   for (let i = 0; i < localStorage.length; i++) {
     const key = localStorage.key(i);
     if (key) {
-      const val = localStorage.getItem(key);
-      if (val !== null) data[key] = val;
+      // Export user-scoped progress keys (userId_progress_*, userId_ir_progress_*, etc.)
+      // Also export the pilot_guide_progress key
+      if (key.includes('_progress_') || key === 'pilot_guide_progress' || key.includes('_pilot_guide_progress')) {
+        const val = localStorage.getItem(key);
+        if (val !== null) data[key] = val;
+      }
     }
   }
   return data;
@@ -38,8 +43,26 @@ export function importProgressFile(file: File): Promise<{ imported: number; tota
         const data = JSON.parse(reader.result as string) as Record<string, string>;
         let count = 0;
         const total = Object.keys(data).length;
+        
+        // Get current user ID from existing keys to remap imported data
+        let currentUserId: string | null = null;
+        for (let i = 0; i < localStorage.length; i++) {
+          const key = localStorage.key(i);
+          if (key && key.includes('_progress_')) {
+            currentUserId = key.split('_progress_')[0];
+            break;
+          }
+        }
+        
         for (const [key, val] of Object.entries(data)) {
-          localStorage.setItem(key, val);
+          // If importing data from another user, remap to current user
+          if (currentUserId && key.includes('_progress_') && !key.startsWith(currentUserId + '_')) {
+            const suffix = key.replace(/^[^_]+_/, ''); // Remove old user prefix
+            const newKey = `${currentUserId}_${suffix}`;
+            localStorage.setItem(newKey, val);
+          } else {
+            localStorage.setItem(key, val);
+          }
           count++;
         }
         resolve({ imported: count, total });

@@ -1,5 +1,5 @@
 import React from 'react';
-import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton, useUser } from '@clerk/clerk-react';
+import { SignedIn, SignedOut, SignInButton, SignUpButton, UserButton } from '@clerk/clerk-react';
 
 export const AuthWrapper: React.FC<{ children: React.ReactNode }> = ({ children }) => {
     return (

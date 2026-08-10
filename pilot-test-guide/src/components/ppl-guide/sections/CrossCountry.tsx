@@ -336,6 +336,31 @@ export const CrossCountry: React.FC = () => {
                             </div>
                         </EXPANDABLE>
 
+                        {/* DME */}
+                        <EXPANDABLE title="📏 DME (Distance Measuring Equipment)" icon={<Navigation size={18} />} color="#8b5cf6">
+                            <div style={{ marginTop: '0.5rem' }}>
+                                <p><strong>What it does:</strong> Measures slant range distance from aircraft to DME ground station</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Slant Range vs Ground Distance:</strong> At low altitude and far distance, they're nearly equal. At high altitude close to station, slant range is greater than ground distance.</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>How it works:</strong> Aircraft sends signal, ground station replies, DME calculates distance based on round-trip time</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>DME Display:</strong> Shows distance in nautical miles, ground speed in knots, time to station in minutes</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>DME Arc:</strong> Flying a constant distance from a DME station (used in instrument approaches)</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Key Point:</strong> DME is typically paired with VOR or ILS for distance info</p>
+                            </div>
+                        </EXPANDABLE>
+
+                        {/* NDB */}
+                        <EXPANDABLE title="📻 NDB (Non-Directional Beacon)" icon={<Navigation size={18} />} color="#8b5cf6">
+                            <div style={{ marginTop: '0.5rem' }}>
+                                <p><strong>What it is:</strong> Deprecated but still tested ground-based navigation aid</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Frequency:</strong> 190–535 kHz (LF/MF band)</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>How it works:</strong> Transmits omnidirectional signal, ADF (Automatic Direction Finder) in aircraft points to station</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Tracking:</strong> Fly heading that keeps ADF needle pointing to station (correcting for wind)</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Errors:</strong> Coastal refraction, thunderstorm interference, terrain effects, night effect</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Position Fix:</strong> Get bearing from NDB, draw line on chart, get second bearing for fix</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Key Point:</strong> NDBs are being decommissioned; VOR/GPS are primary navigation now</p>
+                            </div>
+                        </EXPANDABLE>
+
                         {/* Traffic Pattern */}
                         <EXPANDABLE title="✈️ Traffic Pattern" icon={<Navigation size={18} />} color="#8b5cf6">
                             <div style={{ marginTop: '0.5rem' }}>
@@ -506,6 +531,22 @@ export const CrossCountry: React.FC = () => {
                                 <p style={{ marginTop: '0.5rem' }}><strong>Hold Short Markings:</strong> Yellow lines — 2 solid / 2 dashed for ILS critical area. 2 solid / 1 dashed for non-ILS.</p>
                                 <p style={{ marginTop: '0.5rem' }}><strong>Runway End Markings:</strong> White solid lines or no markings — indicate end of usable runway.</p>
                                 <p style={{ marginTop: '0.5rem' }}><strong>Taxiway Markings:</strong> Yellow centerline, holding position markings (red mandatory instruction signs).</p>
+                            </div>
+                        </EXPANDABLE>
+
+                        {/* Airport Lighting */}
+                        <EXPANDABLE title="✈️ Airport Lighting" icon={<Navigation size={18} />} color="#8b5cf6">
+                            <div style={{ marginTop: '0.5rem' }}>
+                                <p><strong>Runway Edge Lights:</strong> White (entire length), amber (last 2000ft or half runway if {'<'}4000ft), red (threshold end)</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Runway End Identifier Lights (REIL):</strong> Alternating flashing lights at runway threshold</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>VASI (Visual Approach Slope Indicator):</strong> Red over white = on glidepath, white over white = too high, red over red = too low</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>PAPI (Precision Approach Path Indicator):</strong> 2–4 lights. 2 white 2 red = on glidepath, more white = too high, more red = too low</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Approach Lighting Systems:</strong> MALSR (medium intensity), ALSF (high intensity), SSALR</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Threshold Lights:</strong> Green at landing threshold, red at departure end</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Taxiway Lights:</strong> Blue edge lights, green centerline lights</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Runway Guard Lights:</strong> Yellow flashing lights at hold-short positions</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Wig-wag:</strong> Low-intensity lights indicating runway in use at uncontrolled airports</p>
+                                <p style={{ marginTop: '0.5rem' }}><strong>Key Rule:</strong> White-red-white = on glidepath (VASI); 2 red 2 white = on glidepath (PAPI)</p>
                             </div>
                         </EXPANDABLE>
                     </div>
