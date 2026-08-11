@@ -1,0 +1,301 @@
+[
+  {
+    "id": "airline-1-001",
+    "plt": "ATP001",
+    "category": "Performance",
+    "text": "What is Total Air Temperature (TAT)?",
+    "options": {
+      "A": "Outside air temperature plus 100% Ram Rise",
+      "B": "Outside air temperature corrected for instrument error",
+      "C": "Free air temperature from ground meteorological sources"
+    },
+    "correct": "A",
+    "explanation": "Total Air Temperature (TAT) is the outside air temperature plus 100% of the ram rise. Ram rise is the increase in air temperature due to compressibility, which becomes significant above Mach 0.3."
+  },
+  {
+    "id": "airline-1-002",
+    "plt": "ATP002",
+    "category": "Performance",
+    "text": "What is the relationship between IAS, CAS, EAS, and TAS?",
+    "options": {
+      "A": "IAS → CAS → EAS → TAS (each corrects for different errors)",
+      "B": "TAS → EAS → CAS → IAS (each corrects for different errors)",
+      "C": "CAS → IAS → TAS → EAS (each corrects for different errors)"
+    },
+    "correct": "A",
+    "explanation": "Indicated Airspeed (IAS) is corrected for position error to get Calibrated Airspeed (CAS). CAS is corrected for compressibility to get Equivalent Airspeed (EAS). EAS is corrected for air density to get True Airspeed (TAS)."
+  },
+  {
+    "id": "airline-1-003",
+    "plt": "ATP003",
+    "category": "Performance",
+    "text": "What is Pressure Altitude?",
+    "options": {
+      "A": "The altitude as indicated on the altimeter with QNH setting",
+      "B": "The aircraft height above the Standard Datum Plane (29.92 inHg/1013.25 hPa)",
+      "C": "The pressure altitude corrected for nonstandard temperature"
+    },
+    "correct": "B",
+    "explanation": "Pressure Altitude is the aircraft height above the Standard Datum Plane, where the weight of the atmosphere is 29.92 inHg or 1013.25 hPa. It's used for performance calculations and flight levels."
+  },
+  {
+    "id": "airline-1-004",
+    "plt": "ATP004",
+    "category": "Performance",
+    "text": "What is VMCA (Minimum Control Speed Airborne)?",
+    "options": {
+      "A": "Minimum speed on ground for control using aerodynamic controls only",
+      "B": "Minimum inflight speed for control using aerodynamic controls only in case of engine failure",
+      "C": "Lowest calibrated airspeed for safe liftoff without tail strike"
+    },
+    "correct": "B",
+    "explanation": "VMCA is the minimum inflight speed at which the airplane is controllable utilizing aerodynamic controls only (maximum rudder deflection only) in case of engine failure."
+  },
+  {
+    "id": "airline-1-005",
+    "plt": "ATP005",
+    "category": "Performance",
+    "text": "What are the limits for V1?",
+    "options": {
+      "A": "VMCG ≤ V1 ≤ VR and VMBE",
+      "B": "VMCA ≤ V1 ≤ V2 and VLOF",
+      "C": "VS ≤ V1 ≤ VR and VMBE"
+    },
+    "correct": "A",
+    "explanation": "V1 must be between VMCG (Minimum Control Speed Ground) and the lower of VR (Rotation Speed) or VMBE (Maximum Brake Energy Speed)."
+  },
+  {
+    "id": "airline-1-006",
+    "plt": "ATP006",
+    "category": "Performance",
+    "text": "What is the screen height for dry vs wet runways?",
+    "options": {
+      "A": "35ft for dry, 15ft for wet/contaminated",
+      "B": "50ft for dry, 35ft for wet/contaminated",
+      "C": "15ft for dry, 35ft for wet/contaminated"
+    },
+    "correct": "A",
+    "explanation": "Screen height is 35ft for dry runways and 15ft for wet or contaminated runways. V2 speed must be reached at this height above the takeoff surface after an engine failure at V1."
+  },
+  {
+    "id": "airline-1-007",
+    "plt": "ATP007",
+    "category": "Performance",
+    "text": "What is the second segment climb gradient for a 2-engine aircraft?",
+    "options": {
+      "A": "2.4% gross gradient, 1.6% net gradient",
+      "B": "1.6% gross gradient, 2.4% net gradient",
+      "C": "3.2% gross gradient, 2.4% net gradient"
+    },
+    "correct": "A",
+    "explanation": "For a 2-engine aircraft, the second segment gross gradient is 2.4%. The net gradient is 0.8% less (1.6%), which is used daily for performance calculations."
+  },
+  {
+    "id": "airline-1-008",
+    "plt": "ATP008",
+    "category": "Performance",
+    "text": "What is the maximum thrust reduction allowed using ATM/FLEX?",
+    "options": {
+      "A": "25%",
+      "B": "50%",
+      "C": "15%"
+    },
+    "correct": "A",
+    "explanation": "The thrust reduction using Assumed Temperature Method (ATM) or FLEX shall not exceed 25%. This protects the engine while reducing stress and extending engine life."
+  },
+  {
+    "id": "airline-1-009",
+    "plt": "ATP009",
+    "category": "Performance",
+    "text": "What is the difference between VX and VY?",
+    "options": {
+      "A": "VX is best angle of climb (shortest distance), VY is best rate of climb (least time)",
+      "B": "VX is best rate of climb, VY is best angle of climb",
+      "C": "VX and VY are the same speed"
+    },
+    "correct": "A",
+    "explanation": "VX (Best Angle of Climb) is the speed to reach a specific altitude over the shortest horizontal distance. VY (Best Rate of Climb) is the speed to reach a specific altitude in the least amount of time."
+  },
+  {
+    "id": "airline-1-010",
+    "plt": "ATP010",
+    "category": "Performance",
+    "text": "What is Coffin Corner (Aerodynamic Ceiling)?",
+    "options": {
+      "A": "Altitude where there is no margin between low and high speed buffet boundaries",
+      "B": "The point where the aircraft reaches maximum altitude",
+      "C": "The intersection of VMO and MMO"
+    },
+    "correct": "A",
+    "explanation": "Coffin Corner is the altitude at which there is no margin between low and high speed buffet boundaries, and the load factor is 1.0g. At this point, it is very difficult to keep the airplane in stable flight."
+  },
+  {
+    "id": "airline-1-011",
+    "plt": "ATP011",
+    "category": "Performance",
+    "text": "What is Specific Range?",
+    "options": {
+      "A": "Distance traveled per unit of fuel (SR = TAS/Total Fuel Flow)",
+      "B": "Fuel consumed per unit of distance",
+      "C": "Time to travel a specific distance"
+    },
+    "correct": "A",
+    "explanation": "Specific Range is the distance traveled per unit of fuel, calculated as TAS divided by Total Fuel Flow. Higher specific range means better fuel efficiency."
+  },
+  {
+    "id": "airline-1-012",
+    "plt": "ATP012",
+    "category": "Performance",
+    "text": "What is the descent planning formula?",
+    "options": {
+      "A": "Distance = altitude × 3 + 10 (NM)",
+      "B": "Distance = altitude × 2 + 5 (NM)",
+      "C": "Distance = altitude × 4 + 15 (NM)"
+    },
+    "correct": "A",
+    "explanation": "The first method for descent planning is: Distance (NM) = altitude (feet) × 3 + 10. The additional 10 NM accounts for deceleration from descent speed to initial approach speed."
+  },
+  {
+    "id": "airline-1-013",
+    "plt": "ATP013",
+    "category": "Performance",
+    "text": "What is VREF (Landing Reference Speed)?",
+    "options": {
+      "A": "1.3 × VS (Stall Speed)",
+      "B": "1.2 × VS",
+      "C": "1.1 × VS"
+    },
+    "correct": "A",
+    "explanation": "VREF is the target speed in landing configuration at 50ft above the threshold. It is equal to VTH (Threshold Speed) = 1.3 × VS."
+  },
+  {
+    "id": "airline-2-001",
+    "plt": "ATP014",
+    "category": "Meteorology",
+    "text": "What is the standard atmosphere lapse rate?",
+    "options": {
+      "A": "Temperature decreases 2°C per 1,000ft in the troposphere",
+      "B": "Temperature increases 2°C per 1,000ft in the troposphere",
+      "C": "Temperature decreases 1°C per 1,000ft in the troposphere"
+    },
+    "correct": "A",
+    "explanation": "In the standard atmosphere, temperature decreases at a rate of 2°C per 1,000ft (or approximately 1°C per 100 meters) in the troposphere."
+  },
+  {
+    "id": "airline-2-002",
+    "plt": "ATP015",
+    "category": "Meteorology",
+    "text": "What is the minimum distance to avoid severe thunderstorms?",
+    "options": {
+      "A": "At least 20 NM",
+      "B": "At least 10 NM",
+      "C": "At least 5 NM"
+    },
+    "correct": "A",
+    "explanation": "Pilots should avoid severe thunderstorms by at least 20 nautical miles. Thunderstorms contain severe turbulence, hail, lightning, wind shear, and microbursts."
+  },
+  {
+    "id": "airline-3-001",
+    "plt": "ATP016",
+    "category": "Aerodynamics",
+    "text": "What is the relationship between Mach number and speed of sound?",
+    "options": {
+      "A": "Mach = TAS / Speed of sound",
+      "B": "Mach = IAS / Speed of sound",
+      "C": "Mach = CAS / Speed of sound"
+    },
+    "correct": "A",
+    "explanation": "Mach number is the ratio of True Airspeed (TAS) to the local speed of sound. The speed of sound varies with temperature, so Mach number changes with altitude even at constant TAS."
+  },
+  {
+    "id": "airline-4-001",
+    "plt": "ATP017",
+    "category": "Flight Controls",
+    "text": "What is the purpose of slats?",
+    "options": {
+      "A": "Increase lift for takeoff and landing",
+      "B": "Delay stall at high angles of attack",
+      "C": "Reduce lift and increase drag"
+    },
+    "correct": "B",
+    "explanation": "Slats are secondary flight controls that delay stall at high angles of attack by allowing airflow to remain attached to the wing surface at higher angles."
+  },
+  {
+    "id": "airline-5-001",
+    "plt": "ATP018",
+    "category": "Instrument Navigation",
+    "text": "What are the components of an ILS?",
+    "options": {
+      "A": "Localizer, Glideslope, and Marker Beacons",
+      "B": "VOR, DME, and NDB",
+      "C": "GPS, Inertial Reference, and Radio Altimeter"
+    },
+    "correct": "A",
+    "explanation": "The Instrument Landing System (ILS) consists of a Localizer for horizontal guidance, Glideslope for vertical guidance, and Marker Beacons for distance information during approach."
+  },
+  {
+    "id": "airline-6-001",
+    "plt": "ATP019",
+    "category": "Weight and Balance",
+    "text": "How is Center of Gravity (CG) calculated?",
+    "options": {
+      "A": "Total Moment ÷ Total Weight",
+      "B": "Total Weight ÷ Total Moment",
+      "C": "Total Weight × Total Moment"
+    },
+    "correct": "A",
+    "explanation": "Center of Gravity is calculated by dividing the total moment (weight × arm for each item) by the total weight. The CG must remain within approved limits for safe flight."
+  },
+  {
+    "id": "airline-7-001",
+    "plt": "ATP020",
+    "category": "Flight Planning",
+    "text": "What are the components of fuel planning?",
+    "options": {
+      "A": "Trip fuel, Reserve fuel, Alternate fuel, Final reserve",
+      "B": "Trip fuel, Emergency fuel, Reserve fuel",
+      "C": "Takeoff fuel, Cruise fuel, Landing fuel"
+    },
+    "correct": "A",
+    "explanation": "Fuel planning includes trip fuel (planned flight), reserve fuel (contingencies), alternate fuel (to reach alternate airport), and final reserve (fixed amount for emergency)."
+  },
+  {
+    "id": "airline-9-001",
+    "plt": "ATP021",
+    "category": "ATC",
+    "text": "What are the airspace classes where IFR and VFR flight are both permitted with radio contact?",
+    "options": {
+      "A": "Class B, C, and D",
+      "B": "Class A, B, and C",
+      "C": "Class C, D, and E"
+    },
+    "correct": "A",
+    "explanation": "Class B, C, and D airspace permit both IFR and VFR flight with radio contact. Class A is IFR only. Class E permits both but doesn't require radio contact for VFR."
+  },
+  {
+    "id": "airline-10-001",
+    "plt": "ATP022",
+    "category": "Propulsion System",
+    "text": "What are the four stages of a gas turbine engine?",
+    "options": {
+      "A": "Intake, Compression, Combustion, Exhaust (Suck, Squeeze, Bang, Blow)",
+      "B": "Intake, Combustion, Compression, Exhaust",
+      "C": "Compression, Intake, Combustion, Exhaust"
+    },
+    "correct": "A",
+    "explanation": "A gas turbine engine operates on the Brayton cycle with four stages: Intake (suck), Compression (squeeze), Combustion (bang), and Exhaust (blow)."
+  },
+  {
+    "id": "airline-10-002",
+    "plt": "ATP023",
+    "category": "Propulsion System",
+    "text": "What are the key engine monitoring parameters?",
+    "options": {
+      "A": "EGT, N1, N2, Fuel Flow",
+      "B": "RPM, Manifold Pressure, Oil Temperature, Cylinder Head Temperature",
+      "C": "Oil Pressure, Fuel Pressure, Hydraulic Pressure, Electrical Voltage"
+    },
+    "correct": "A",
+    "explanation": "Key engine monitoring parameters include EGT (Exhaust Gas Temperature), N1 (low pressure compressor speed), N2 (high pressure compressor speed), and Fuel Flow rate."
+  }
+]

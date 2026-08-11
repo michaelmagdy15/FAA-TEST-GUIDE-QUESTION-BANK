@@ -36,6 +36,11 @@ const cplChapterTitles: Record<string, string> = {
   "11": "Advanced Systems", "12": "Aerodynamics & Performance Limitations",
   "13": "Navigation & Cross-Country", "14": "Maneuvers & Emergency Procedures",
 };
+const airlineChapterTitles: Record<string, string> = {
+  "1": "Performance", "2": "Meteorology", "3": "Aerodynamics",
+  "4": "Flight Controls", "5": "Instrument Navigation", "6": "Weight and Balance",
+  "7": "Flight Planning", "8": "Jeppesen", "9": "ATC", "10": "Propulsion System",
+};
 
 const getChapter = (id: string) => id.split('-')[1] ?? id.split('-')[0];
 
@@ -52,9 +57,11 @@ const getChapters = (data: Question[], titleMap: Record<string, string>) => {
 
 const titleMap: Record<TestMode, Record<string, string>> = {
   ppl: pplChapterTitles, ir: irChapterTitles, cpl: cplChapterTitles, c172: {},
+  airline: airlineChapterTitles,
 };
 const prefixMap: Record<TestMode, string> = {
   ppl: 'progress', ir: 'ir_progress', cpl: 'cpl_progress', c172: 'c172_progress',
+  airline: 'airline_progress',
 };
 
 type ViewMode = 'landing' | 'chapter' | 'quiz-setup' | 'quiz' | 'exam' | 'ppl-study';
@@ -68,7 +75,7 @@ const AppContent: React.FC = () => {
   const [questionsData, setQuestionsData] = useState<Question[]>(() => getQuestionsForBank('ppl'));
   const [quizQuestions, setQuizQuestions] = useState<Question[]>([]);
   const [quizCategory, setQuizCategory] = useState('all');
-  const [examType, setExamType] = useState<'ppl' | 'ir' | 'cpl'>('ppl');
+  const [examType, setExamType] = useState<'ppl' | 'ir' | 'cpl' | 'airline'>('ppl');
   const { user } = useUser();
 
   useEffect(() => {
@@ -136,7 +143,7 @@ const AppContent: React.FC = () => {
     setViewMode('quiz');
   };
 
-  const handleStartExam = (type: 'ppl' | 'ir' | 'cpl') => {
+  const handleStartExam = (type: 'ppl' | 'ir' | 'cpl' | 'airline') => {
     setExamType(type);
     setViewMode('exam');
   };
@@ -148,7 +155,7 @@ const AppContent: React.FC = () => {
   if (loading) return <Preloader />;
 
   const renderContent = () => {
-    if (mode === 'c172') return <Suspense fallback={<Preloader />}><C172Hub onModeSwitch={handleModeSwitch} /></Suspense>;
+    if (mode === 'c172') return <Suspense fallback={<Preloader />}><C172Hub onModeSwitch={handleModeSwitch} onBack={handleBack} /></Suspense>;
 
     switch (viewMode) {
       case 'quiz':

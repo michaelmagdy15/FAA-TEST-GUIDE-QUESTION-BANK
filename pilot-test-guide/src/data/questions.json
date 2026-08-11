@@ -52,6 +52,19 @@
     "id": "1-4"
   },
   {
+    "plt": "PLT463",
+    "category": "Aviation Fundamentals",
+    "text": "How soon after the conviction for driving while intoxicated by alcohol or drugs shall it be reported to the FAA, Civil Aviation Security Division?",
+    "options": {
+      "A": "No later than 60 days after the motor vehicle action.",
+      "B": "N o later than 30 working days after the motor vehicle action.",
+      "C": "Required to be reported upon renewal of medical certificate."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 1-66, FAR 61.15 According to 61.15, certificated pilots must provide a written report of each motor vehicle action to the FAA not later than 60 days after the action. 1-6 Chapter 1 - Discovering Aviation AIRPLANE SYSTEMS CHAPTER SECTION A - AIRPLANES Although airplanes are designed for a variety of purposes, the basic components of most airplanes are essentially the same. Once the practical aspects of building an airworthy craft are resolved, what ultimately becomes the final model is largely a matter of the original design objectives and aesthetics. In a sense then, airplane design is a combination of art and science. The aircraft is the composite of many parts. The airframe consists of the fuselage, wings, empennage, trim devices and landing gear. The engine and propeller provide the motion by which the airplane develops lift and flies. The pilot’s operating handbook (POH) is so vital that it is considered to be part of the airplane as well. 2-1 PLT373 Where may an aircraft's operating limitations be found? A-On the Airworthiness Certificate. B - In the current, FAA-approved flight manual, approved manual material, markings, and placards, or any combination thereof. C - In the aircraft airframe and engine logbooks.",
+    "id": "1-5"
+  },
+  {
     "plt": "PLT373",
     "category": "Aircraft Systems",
     "text": "Where may an aircraft's operating limitations be found?",
@@ -193,6 +206,19 @@
     "correct": "A",
     "explanation": "With a decrease in altitude, air density increases. This means you will have to enrich the mixture as you descend, otherwise the fuel/air mixture can become excessively lea",
     "id": "2-11"
+  },
+  {
+    "plt": "PLT190",
+    "category": "Aircraft Systems",
+    "text": "Which condition is most favorable to the development of carburetor icing?",
+    "options": {
+      "A": "Any temperature below freezing and a relative humidity of less than 50 percent.",
+      "B": "Temperature between 32° and 50°F and low humidity.",
+      "C": "Temperature between 20° and 70°F and high humidity."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 2-19, PHB Carburetor icing is most likely between 20° and 70°F in high humidity conditions.",
+    "id": "2-12"
   },
   {
     "plt": "PLT190",
@@ -392,6 +418,19 @@
   {
     "plt": "PLT324",
     "category": "Aircraft Systems",
+    "text": "For internal cooling, reciprocating aircraft engines are especially dependent on",
+    "options": {
+      "A": "a properly functioning thermostat.",
+      "B": "air flowing over the exhaust manifold.",
+      "C": "the circulation of lubricating oil."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 2-32, PHB Engine oil lubricates moving parts, reduces friction, and removes some of the heat from the cylinders. 2-29 PLT324 An abnormally high engine oil temperature indication inay be caused by A the oil level being too low. B operating with a too high viscosity oil. C-- operating with an excessively rich mixture. 2A9. Answer A. GFDPRVi! 2A35 PHB If the oil level is too low, it can cause high engine oil temperatures. Section B - The Powerplant and Pelated Systems 2-9 2-30 PLT342 What action can a pilot take to aid in cooling an engine that is overheating during a climb? A-Reduce rate of climb and increase airspeed. B - Reduce climb speed and increase RPM. C-Increase climb speed and increase RPM. 2-31 PLT342 What is one procedure to aid in cooling an engine that is overheating? A-Enrich the fuel mixture. B - Increase the RPM. C - Reduce the airspeed. 2-32 PLT342 How is engine operation controlled on an engine equipped with a constant-speed propeller? A-The throttle controls power output as registered on the manifold pressure gauge and the propeller control regulates engine RPM. B - The throttle controls power output as registered on the manifold pressure gauge and the propeller control regulates a constant blade angle. C - The throttle controls engine RPM as registered on the tachometer and the mixture control regulates the power output. 2-33 PLT350 What is an advantage of a constant-speed propeller? A-Permits the pilot to select and maintain a desired cruising speed. B - Permits the pilot to select the blade angle for the most efficient performance. C - Provides a smoother operation with stable RPM and eliminates vibrations.",
+    "id": "2-28"
+  },
+  {
+    "plt": "PLT324",
+    "category": "Aircraft Systems",
     "text": "An abnormally high engine oil temperature indication may be caused by",
     "options": {
       "A": "the oil level being too low.",
@@ -427,6 +466,19 @@
     "correct": "A",
     "explanation": "A richer fuel mixture burns at a slightly lower temperature and helps cool the engin",
     "id": "2-31"
+  },
+  {
+    "plt": "PLT342",
+    "category": "Aircraft Systems",
+    "text": "How is engine operation controlled on an engine equipped with a constant-speed propeller?",
+    "options": {
+      "A": "The throttle controls power output as registered on the manifold pressure gauge and the propeller control regulates engine RPM.",
+      "B": "The throttle controls power output as registered on the manifold pressure gauge and the propeller control regulates a constant blade angle.",
+      "C": "The throttle controls engine RPM as registered on the tachometer and the mixture control regulates the power output."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 2-38, PHB The throttle controls the power output of the engine, which is indicated on the manifold pressure gauge. The propeller control changes the pitch of the propeller blades, thus controlling engine RPM, which is indicated on the tachometer.",
+    "id": "2-32"
   },
   {
     "plt": "PLT350",
@@ -949,6 +1001,19 @@
     "id": "2-71"
   },
   {
+    "plt": "PLT278",
+    "category": "Aircraft Systems",
+    "text": "(Refer to figure 7 on page 2-21.) How should a pilot determine the direction of bank from an attitude indicator such as the one illustrated?",
+    "options": {
+      "A": "By the direction of deflection of the banking scale (A) .",
+      "B": "B y the direction of deflection of the horizon bar (B) .",
+      "C": "B y the relationship of the miniature airplane (C) to the deflected horizon bar (B)."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 2-66, PHB As the airplane banks, the relationship between the miniature airplane and the horizon bar depict the direction of turn.",
+    "id": "2-72"
+  },
+  {
     "plt": "PLT215",
     "category": "Aircraft Systems",
     "text": "Deviation in a magnetic compass is caused by the",
@@ -1118,6 +1183,19 @@
     "id": "2-85"
   },
   {
+    "plt": "PLT041",
+    "category": "Aircraft Systems",
+    "text": "If a flight is made from an area of high pressure into an area of lower pressure without the altimeter setting being adjusted, the altimeter will indicate",
+    "options": {
+      "A": "lower than the actual altitude above sea level.",
+      "B": "higher than the actual altitude above sea level.",
+      "C": "the actual altitude above sea level."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 2-59, AW Remember, “from high to low, look out below.” In other words, the aircraft will be at a lower true (actual) altitude than indicated, so the altimeter indicates higher than actual.",
+    "id": "2-86"
+  },
+  {
     "plt": "PLT165",
     "category": "Aircraft Systems",
     "text": "Under what condition will true altitude be lower than indicated altitude?",
@@ -1168,6 +1246,19 @@
     "correct": "B",
     "explanation": "9-11, PHB Magnetic variation occurs because the earth's magnetic poles do not coincide with its geographic poles, and a magnetic compass aligns with the magnetic poles. You can determine local magnetic variation by referencing the isogonic lines on aeronautical charts, which are represented by dashed magenta lines.",
     "id": "2-90"
+  },
+  {
+    "plt": "PLT215",
+    "category": "Aircraft Systems",
+    "text": "In the Northern Hemisphere, a magnetic compass will normally indicate a turn toward the north if",
+    "options": {
+      "A": "a left turn is entered from a west heading.",
+      "B": "an aircraft is decelerated while on an east or west heading.",
+      "C": "an aircraft is accelerated while on an east or west heading."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 2-73, PHB An acronym to easily remember acceleration errors is ANDS (Accelerate North Decelerate South). Acceleration errors occur primarily due the counter weights added to offset magnetic dip.",
+    "id": "2-91"
   },
   {
     "plt": "PLT215",
@@ -1366,6 +1457,19 @@
     "id": "3-12"
   },
   {
+    "plt": "PLT025",
+    "category": "Aerodynamics",
+    "text": "Which statement relates to Bernoulli's principle?",
+    "options": {
+      "A": "F o r every action there is an equal and opposite reaction.",
+      "B": "An additional upward force is generated as the lower surface of the wing deflects air downward.",
+      "C": "- Air traveling faster over the curved upper surface of an airfoil causes lower pressure on the top surface."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 3-4 Bernoulli’s principle, from Swiss mathematician, Daniel Bernoulli, simply states that as the velocity of a fluid (including air), increases, its internal pressure decreases. Section A - Four Forces of Flight 3-5 3-14 PLT168 The angle between the chord line of an airfoil and the relative wind is known as the angle of A-lift. B - attack. C - incidence.",
+    "id": "3-13"
+  },
+  {
     "plt": "PLT168",
     "category": "Aerodynamics",
     "text": "The angle between the chord line of an airfoil and the relative wind is known as the angle of",
@@ -1377,6 +1481,19 @@
     "correct": "B",
     "explanation": "In addition to knowing the relationship of relative wind and angle of attack, remember that angle of attack is not an angle that is relative to the horizon or the aircraft's pitch in relationship to the ground. For example, the critical angle of attack, at which a wing will always stall, can occur in any flight attitude.",
     "id": "3-14"
+  },
+  {
+    "plt": "PLT236",
+    "category": "Aerodynamics",
+    "text": "Changes in the center of pressure of a wing affect the aircraft’s",
+    "options": {
+      "A": "lift/drag ratio.",
+      "B": "lifting capacity.",
+      "C": "aerodynamic balance and controllability."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 3-4, PHB A wing’s center of pressure moves forward and back with changing angles of attack (forward for high angles and back for lower). This movement changes the position of the air loads on the wing, which results in changes to an airplane’s aerodynamic balance and controllability. 3-6 Chapter 3 - Aerodynamic Principles SECTION B - STABILITY Although no airplane is completely stable, all airplanes must have desirable handling characteristics. • An aircraft that is inherently stable will require less effort to control. LONGITUDINAL STABILITY Longitudinal stability in an airplane involves the pitching motion or tendency of the aircraft to move about its lateral axis. LOCATION OF THE CG • The location of the CG, with respect to the center of lift, determines the longitudinal stability of the airplane. • An airplane loaded with the CG aft of the approved CG range will be difficult to recover from a stalled condition. • Loading an aircraft to the most aft CG will cause the airplane to be less stable at all speeds. HORIZONTAL STABILIZER When power is reduced, and the controls are not adjusted, an aircraft pitches nose down because the downwash on the elevators from the propeller slipstream is reduced and elevator effectiveness is reduced. STALLS The inherent stability of an airplane is particularly important as it relates to the aircraft’s ability to avoid stalls and spins. Familiarization with the causes and effects of stalls is especially important during flight at slow airspeeds, such as during takeoff and landing, where the margin above the stall speed is small. SPINS • The aircraft must be placed in a stalled condition in order to spin. • During a spin, both wings are stalled. 3-16 PLT213 An airplane said to be inherently stable will A -be difficult to stall. B-require less effort to control. C -not spin. 3-17 PLT213 What determines the longitudinal stability of an airplane? A -The location of the CG with respect to the center of lift. The effectiveness of the horizontal stabilizer, rudder, and rudder trim tab. C -The relationship of thrust and lift to weight and drag.",
+    "id": "3-15"
   },
   {
     "plt": "PLT213",
@@ -1457,6 +1574,19 @@
     "id": "3-21"
   },
   {
+    "plt": "PLT245",
+    "category": "Aerodynamics",
+    "text": "During a spin to the left, which wing(s) is/are stalled?",
+    "options": {
+      "A": "Both wings are stalled.",
+      "B": "Neither wing is stalled.",
+      "C": "Only the left wing is stalled."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 3-39, AFH In a spin, both wings are stalled. 3-8 Chapter 3 - Aerodynamic Principles SECTION C - AERODYNAMICS OF MANEUVERING FLIGHT The extent to which an airplane can perform a variety of maneuvers is primarily a matter of design and a measure of its overall performance. Although aircraft design and performance may differ, the aerodynamic forces acting on any maneuvering aircraft are essentially the same. Understanding the aerodynamics of maneuvering flight can help you perform precise maneuvers while keeping your airplane within its design limitations. TORQUE Torque effect is greatest at low airspeeds, high power settings and high angles of attack. P-FACTOR • P-factor is the result of the propeller blade descending on the right, and producing more thrust than the ascending blade on the left. • P-factor is most pronounced at high angles of attack. LIFT/DRAG RATIO Establishing the proper glide attitude and airspeed is critical to ensure the best possibility of reaching a suitable landing area. HORIZONTAL COMPONENT OF LIFT The horizontal component of lift is what makes an airplane turn. LOAD FACTOR Load factor is the ratio of the load supported by the airplane’s wings to the actual weight of the aircraft and its contents. IN TURNS • Turns increase the load factor on an airplane, as compared to straight-and-level flight. • The amount of excess load that can be imposed on an airplane depends on its speed. ® At 60 degrees of bank, 2 Gs are required to maintain level flight. To determine how much weight the airplane’s wing structure must support, multiply the airplane’s weight by the number of Gs. IN STALLS During an approach to a stall, an increased load factor will cause the airplane to stall at a higher airspeed. MANEUVERING SPEED VA is defined as maneuvering speed. Section C - Aerodynamics of Maneuvering Flight 3-9 3-23 PLT243 In what flight condition is torque effect the greatest in a single-engine airplane? A-Low airspeed, high power, high angle of attack. B - Low airspeed, low power, low angle of attack. C - High airspeed, high power, high angle of attack. 3-24 PLT243 The left turning tendency of an airplane caused by P-factor is the result of the A-clockwise rotation of the engine and the propeller turning the airplane counter-clockwise. B - propeller blade descending on the right, producing more thrust than the ascending blade on the left. C - gyroscopic forces applied to the rotating propeller blades acting 90° in advance of the point the force was applied. 3-25 PLT243 When does P-factor cause the airplane to yaw to the left? A-W hen at low angles of attack. B - When at high angles of attack. C-W hen at high airspeeds. 3-26 PLT309 (Refer to figure 2 on page 3-10.) If an airplane weighs 2,300 pounds, what approximate weight would the airplane structure be required to support during a 60° banked turn while maintaining altitude?",
+    "id": "3-22"
+  },
+  {
     "plt": "PLT243",
     "category": "Aerodynamics",
     "text": "In what flight condition is torque effect the greatest in a single-engine airplane?",
@@ -1508,6 +1638,32 @@
     "explanation": "At 60 degrees of bank, 2 Gs are required to maintain level flight. This means that the airplane's wing structure must support twice the airplane's weight, or 2,300 x 2 = 4,600 pounds.",
     "figureRef": 2,
     "id": "3-26"
+  },
+  {
+    "plt": "PLT309",
+    "category": "Aerodynamics",
+    "text": "(Refer to figure 2 on page 3-10.) If an airplane weighs 3,300 pounds, what approximate weight would the airplane structure be required to support during a 30° banked turn while maintaining altitude?",
+    "options": {
+      "A": "1,200 pounds.",
+      "B": "3,100 pounds.",
+      "C": "3,960 pounds."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 3-60, PHB The load factor for 30 degrees of bank is 1.154, or about 1.2. The airplane weight (3,300) multiplied by the load factor (1.2) is 3,960 pounds which the wing structure must support.",
+    "id": "3-27"
+  },
+  {
+    "plt": "PLT309",
+    "category": "Aerodynamics",
+    "text": "(Refer to figure 2 on page 3-10.) If an airplane weighs 4,500 pounds, what approximate weight would the airplane structure be required to support during a 45° banked turn while maintaining altitude?",
+    "options": {
+      "A": "4,500 pounds.",
+      "B": "6,750 pounds.",
+      "C": "7,200 pounds."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 3-60, PHB At 45 degrees of bank the load factor is 1.414, or approximately 1.5, the wing loading would be 4,500 x 1.5, or 6,750 pounds. Section C - Aerodynamics of Maneuvering Flight 3-11 3-29 PLT311 The amount of excess load that can be imposed on the wing of an airplane depends upon the A-position of the CG. B - speed of the airplane. C - abruptness at which the load is applied.",
+    "id": "3-28"
   },
   {
     "plt": "PLT311",
@@ -1566,13 +1722,26 @@
     "category": "Aerodynamics",
     "text": "Select the four flight fundamentals involved in maneuvering an aircraft.",
     "options": {
-      "A": "Aircraft power, pitcb, bank, and trim.",
+      "A": "Aircraft power, pitch, bank, and trim.",
       "B": "Starting, taxiing, takeoff, and landing.",
       "C": "Straight-and-level flight, turns, climbs, and descents"
     },
     "correct": "C",
     "explanation": "All controlled flight consists of one of the four fundamental maneuvers or some combination of them.",
     "id": "3-33"
+  },
+  {
+    "plt": "PLT414",
+    "category": "Flight Environment",
+    "text": "Which aircraft has the right-of-way over all other air traffic?",
+    "options": {
+      "A": "A balloon.",
+      "B": "A n aircraft in distress.",
+      "C": "An aircraft on final approach to land."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 4-6, FAR 91.113C An aircraft in distress has the right-of-way over all other aircraft.",
+    "id": "4-1"
   },
   {
     "plt": "PLT414",
@@ -1584,7 +1753,7 @@
       "C": "Each aircraft shall give way to the right."
     },
     "correct": "B",
-    "explanation": "FAR 91.113 The aircraft on the right has the right-of-way and the aircraft on the left shall giye way.",
+    "explanation": "FAR 91.113 The aircraft on the right has the right-of-way and the aircraft on the left shall give way.",
     "id": "4-2"
   },
   {
@@ -1627,6 +1796,19 @@
     "id": "4-6"
   },
   {
+    "plt": "PLT414",
+    "category": "Flight Environment",
+    "text": "When two or more aircraft are approaching an airport for the purpose of landing, the right-of-way belongs to the aircraft",
+    "options": {
+      "A": "that has the other to its right.",
+      "B": "that is the least maneuverable.",
+      "C": "at the lower altitude, but it shall not take advantage of this rule to cut in front of or to overtake another."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 4-8, FAR 91.113 When two or more aircraft are approaching an airport for landing, the one at the lower altitude has the right-of-way, but you should not use this rule to cut in front of another aircraft.",
+    "id": "4-7"
+  },
+  {
     "plt": "PLT430",
     "category": "Flight Environment",
     "text": "Except when necessary for takeoff or landing, what is the minimum safe altitude for a pilot to operate an aircraft anywhere?",
@@ -1664,6 +1846,19 @@
     "correct": "B",
     "explanation": "FAR 91.119 The minimum safe altitude required is 500 feet AGL, except over open water or a sparsely populated area, which requires 500 feet from any person, vessel, vehicle, or structur",
     "id": "4-10"
+  },
+  {
+    "plt": "PLT430",
+    "category": "Flight Environment",
+    "text": "Except when necessary for takeoff or landing, an aircraft may not be operated closer than what distance from any person, vessel, vehicle, or structure?",
+    "options": {
+      "A": "500 feet.",
+      "B": "700 feet.",
+      "C": "1,000 feet."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 4-8, FAR 91.119 The words person, vessel, vehicle, or structure apply for operations over a sparsely populated or open water area, and the distance is 500 feet.",
+    "id": "4-11"
   },
   {
     "plt": "PLT485",
@@ -1981,6 +2176,19 @@
     "id": "4-35"
   },
   {
+    "plt": "PLT145",
+    "category": "Flight Environment",
+    "text": "To set the high intensity runway lights on medium intensity, the pilot should click the microphone seven times, then click it",
+    "options": {
+      "A": "one time within four seconds.",
+      "B": "three times within three seconds.",
+      "C": "five times within five seconds."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 4-36, AIM At airports with three-step pilot-controlled runway lighting system, seven clicks turns all the lights on to the maximum intensity. Five clicks turns the lights to medium. 4-12 Chapter 4 - The Flight Environment 4-37 PLT141 An airport's rotating beacon operated during daylight hours indicates A-there are obstructions on the airport. B - that weather at the airport located in Class D airspace is below basic VFR weather minimums. C-the Airport Traffic Control tower is not in operation. 4-38 PLT141 A military air station can be identified by a rotating beacon that emits A-white and green alternating flashes. B-tw o quick, white flashes between green flashes. C-green, yellow, and white flashes. 4-39 PLT141 How can a military airport be identified at night? A-Alternate white and green light flashes. B - Dual peaked (two quick) white flashes between green flashes. C - White flashing lights with steady green at the same location.",
+    "id": "4-36"
+  },
+  {
     "plt": "PLT147",
     "category": "Flight Environment",
     "text": "(Refer to figure 48.) VASI lights as shown by illustration C indicate that the airplane is",
@@ -2144,6 +2352,32 @@
     "id": "4-48"
   },
   {
+    "plt": "PLT039",
+    "category": "Flight Environment",
+    "text": "(Refer to figure 51 on page 4-16.) The traffic patterns indicated in the segmented circle have been arranged to avoid flights over an area to the",
+    "options": {
+      "A": "south of the airport.",
+      "B": "north of the airport.",
+      "C": "southeast of the airport."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 4-21, AIM Since the traffic pattern for the north-south runway is west of the field, and the pattern for the east-west runway is north of the field, there should be no flights southeast of the airport.",
+    "id": "4-49"
+  },
+  {
+    "plt": "PLT039",
+    "category": "Flight Environment",
+    "text": "(Refer to figure 51 on page 4-16.) The segmented circle indicates that a landing on Runway 26 will be with a",
+    "options": {
+      "A": "right-quartering headwind.",
+      "B": "left-quartering headwind.",
+      "C": "right-quartering tailwind."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 4-21, AIM Since the wind cone shows wind from the northwest, a landing to the west will provide a right-quartering headwind. 4-51 PLT039 (Refer to figure 51 on page 4-16.) Which runway and traffic pattern should be used as indicated by the wind cone in the segmented circle? A-Right-hand traffic on Runway 18. B ■ Left-hand traffic on Runway 36. C - Right-hand traffic on Runway 9.",
+    "id": "4-50"
+  },
+  {
     "plt": "PLT141",
     "category": "Flight Environment",
     "text": "(Refer to Figure 66, Item A) From the cockpit, this marking confirms the aircraft to be",
@@ -2227,6 +2461,19 @@
     "id": "4-56"
   },
   {
+    "plt": "PLT141",
+    "category": "Flight Environment",
+    "text": "When approaching taxiway holding lines from the side with the continuous lines, the pilot",
+    "options": {
+      "A": "may continue taxiing.",
+      "B": "should not cross the lines without ATC clearance.",
+      "C": "should continue taxiing until all parts of the aircraft have crossed the lines."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 4-26, AIM When approaching a taxiway hold line from the side with the continuous (solid) line at a towered airport, pilots should not cross the hold line without ATC clearance. At a non-towered airport, stop and check for traffic before crossing any hold line.",
+    "id": "4-57"
+  },
+  {
     "plt": "PLT039",
     "category": "Flight Environment",
     "text": "(Refer to figure 51.) The segmented circle indicates that a landing on Runway 26 will be with a",
@@ -2279,6 +2526,19 @@
     "correct": "A",
     "explanation": "The pilot in command (PIC) has the final authority to accept or decline any LAHSO clearances. The PIC should decline a LAHSO clearance if he/she determines It will compromise safety.",
     "id": "4-61"
+  },
+  {
+    "plt": "PLT435",
+    "category": "Flight Environment",
+    "text": "If a control tower and an FSS are located on the same airport, which function is provided by the FSS during those periods when the tower is closed?",
+    "options": {
+      "A": "Automatic closing of the IFR flight plan.",
+      "B": "Approach control services.",
+      "C": "Airport Advisory Service."
+    },
+    "correct": "C",
+    "explanation": "AIM Local Airport Advisory (LAA) service is one of several airport advisory/information services operated within 10 statute miles of an airport where a control tower is not operating but where a flight service station (FSS) is located on the airport. At such locations, the FSS provides a complete local airport advisory service to arriving and departing aircraft. During periods of fast-changing weather the FSS will automatically provide Final Guard (wind/altimeter monitoring service) from the time the aircraft reports “on-final” or “taking-the-active- runway” until the aircraft reports “on-the-ground” or “airborne.” Flight service stations do not provide air traffic control services, such as automatically closing flight plans and approach control. 4-63 PLT222 When should pilots state their position on the airport when calling the tower for takeoff? A-W hen visibility is less than 1 mile. B - When parallel runways are in use. C - When departing from a runway intersection.",
+    "id": "4-62"
   },
   {
     "plt": "PLT078",
@@ -2512,6 +2772,19 @@
   {
     "plt": "PLT064",
     "category": "Flight Environment",
+    "text": "(Refer to figure 24 on page 4-32.) (Area 3) The top of the group obstruction approximately 11 nautical miles from the Savannah VORTAC on the 340° radial is",
+    "options": {
+      "A": "400 feet AGL.",
+      "B": "455 feet MSL.",
+      "C": "432 feet MSL."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 4-51, Chart Legend The callout below the group obstruction at the Savannah 340° radial for 11 n.m. is 455 feet MSL. If there was a callout in parentheses, it would indicate an AGL altitude.",
+    "id": "4-82"
+  },
+  {
+    "plt": "PLT064",
+    "category": "Flight Environment",
     "text": "(Refer to figure 21.) {Area 5) The CAUTION box denotes what hazard to aircraft?",
     "options": {
       "A": "Unmarked balloon on cable to 3,008 feet MSL.",
@@ -2650,6 +2923,32 @@
     "id": "4-92"
   },
   {
+    "plt": "PLT163",
+    "category": "Flight Environment",
+    "text": "Normal VFR operations in Class D airspace with an operating control tower require the ceiling and visibility to be at least",
+    "options": {
+      "A": "1,000 feet and 1 mile",
+      "B": "1,000 feet and 3 miles",
+      "C": "2,500 feet and 3 miles"
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 4-82, FAR 91.155 In order to operate in Class D airspace, the VFR visibility minimum is three statute miles. In addition, the ceiling must be at least 1,000 feet.",
+    "id": "4-93"
+  },
+  {
+    "plt": "PLT163",
+    "category": "Flight Environment",
+    "text": "At what altitude shall the altimeter be set to 29.92, when climbing to cruising flight level?",
+    "options": {
+      "A": "14,500 feet MSL.",
+      "B": "18,000 feet MSL.",
+      "C": "24,000 feet MSL."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 4-71, FAR 91.121 To standardize altimeter settings in Class A airspace, all pilots are required to set their altimeters to 29.92 at and above 18,000 feet MSL.",
+    "id": "4-94"
+  },
+  {
     "plt": "PLT101",
     "category": "Flight Environment",
     "text": "(Refer to figure 26.) (Area 8) What minimum altitude is required to fly over the Cedar Hill TV towers in the congested area east of Joe Pool Lake?",
@@ -2689,6 +2988,19 @@
     "correct": "B",
     "explanation": "Pilots should fly no lower than 2,000 feet AGL over a national wildlife area.",
     "id": "4-97"
+  },
+  {
+    "plt": "PLT434",
+    "category": "Flight Environment",
+    "text": "Two-way radio communication must be established with the Air Traffic Control facility having jurisdiction over the area prior to entering which class airspace?",
+    "options": {
+      "A": "Class C",
+      "B": "Class E",
+      "C": "Class G"
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 4-65, FAR 91-130 You must establish two-way communications prior to entering a Class C airspace area, and maintain it while operating within the Class C airspace.",
+    "id": "4-98"
   },
   {
     "plt": "PLT064",
@@ -2848,6 +3160,19 @@
     "id": "4-110"
   },
   {
+    "plt": "PLT163",
+    "category": "Flight Environment",
+    "text": "During operations outside controlled airspace at altitudes of more than 1,200 feet AGL, but less than 10,000 feet MSL, the minimum flight visibility for VFR flight at night is",
+    "options": {
+      "A": "1 mile.",
+      "B": "3 miles.",
+      "C": "5 miles."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 4-82, FAR 91.155 In Class G airspace at these altitudes, night VFR operations require 3 miles visibility. 4-112 PLT163 Outside controlled airspace, the minimum flight visibility requirement for VFR flight above 1,200 feet AGL and below 10,000 feet MSL during daylight hours is A - 1 mile. B -3 miles. C -5 miles. 4-113 PLT163 During operations outside controlled airspace at altitudes of more than 1,200 feet AGL, but less than 10,000 feet MSL, the minimum distance below clouds requirement for VFR flight at night is",
+    "id": "4-111"
+  },
+  {
     "plt": "PLT161",
     "category": "Flight Environment",
     "text": "What minimum radio equipment is required for VFR operation within Class B airspace?",
@@ -2976,6 +3301,19 @@
     "correct": "B",
     "explanation": "FAR 91.155 In Class G airspace at these altitudes, night VFR operations require 3 miles visibility.",
     "id": "4-121"
+  },
+  {
+    "plt": "PLT161",
+    "category": "Flight Environment",
+    "text": "No person may operate an airplane within Class D airspace at night under special VFR unless the",
+    "options": {
+      "A": "flight can be conducted 500 feet below the clouds.",
+      "B": "airplane is equipped for instrument flight.",
+      "C": "flight visibility is at least 3 miles."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 4-72, FAR 91.157 For special VFR at night, you must have a current instrument rating, and the airplane must be equipped for IFR operations. 4-46 Chapter 4 - The Flight Environment 4-123 PLT161 An operable 4096-code transponder with an encoding altimeter is required in which airspace? A-Class A, Class B (and within 30 miles of the Class B primary airport), and Class C. B-Class D and Class E (below 10,000 feet MSL). C-Class D and Class G (below 10,000 feet MSL). 4-124 PLT161 With certain exceptions, all aircraft within 30 miles of a Class B primary airport from the surface upward to 10,000 feet MSL must be equipped with A -an operable VOR or TACAN receiver and an ADF receiver. B - instruments and equipment required for IFR operations. C - an operable transponder having either Mode S or 4096-code capability with Mode C automatic altitude reporting capability. 4-125 PLT040 (Refer to figure 26 on page 4-27.) (Area 4.) The floor of Class B airspace overlying Hicks Airport (T67) north-northwest of Fort Worth Meacham Field is A - at the surface B - 3,200 feet MSL C - 4,000 feet MSL 4-126 PLT040 (Refer to figure 26 on page 4-27.) (Area 2.) The floor of Class B airspace at Addison Airport is",
+    "id": "4-122"
   },
   {
     "plt": "PLT163",
@@ -3528,7 +3866,7 @@
   {
     "plt": "PLT196",
     "category": "Weather",
-    "text": "Automatic Terminal Information Service (ATIS) is the continuous broadcast of recorded information concern- 1ng",
+    "text": "Automatic Terminal Information Service (ATIS) is the continuous broadcast of recorded information concerning",
     "options": {
       "A": "pilots of radar-identified aircraft whose aircraft is in dangerous proximity to terrain or to an obstruction.",
       "B": "nonessential information to reduce frequency congestion.",
@@ -4466,6 +4804,19 @@
   {
     "plt": "PLT512",
     "category": "Flight Instruments",
+    "text": "What feature is associated with a temperature inversion?",
+    "options": {
+      "A": "A stable layer of air.",
+      "B": "An unstable layer of air.",
+      "C": "Chinook winds on mountain slopes."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 6-17, AW Temperature inversions occur in stable air. Inversions cannot form in unstable air. As Chinook winds descend, the temperature rises. This is the opposite of an inversion (cooler air under a warmer layer). In the U.S., the typical example of Chinook winds is the downslope, easterly flow from the Rocky Mountains. 6-21 PLT512 What is the approximate base of the cumulus clouds if the surface air temperature at 1,000 feet MSL is 70°F and the dewpoint is 48°F? A -4 ,000 feet MSL. B - 5,000 feet MSL. C - 6,000 feet MSL.",
+    "id": "6-20"
+  },
+  {
+    "plt": "PLT512",
+    "category": "Flight Instruments",
     "text": "What is the approximate base of the cumulus clouds if the surface air temperature at 1,000 feet MSL is 70°F and the dewpoint is 48°F?",
     "options": {
       "A": "4,000 feet MSL.",
@@ -4659,6 +5010,32 @@
     "id": "6-35"
   },
   {
+    "plt": "PLT226",
+    "category": "Flight Instruments",
+    "text": "Low-level turbulence can occur and icing can become hazardous in which type of fog?",
+    "options": {
+      "A": "Rain-induced fog.",
+      "B": "Upslope fog.",
+      "C": "Steam fog."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 6-23, AW Steam fog is formed by cold, dry air moving over warmer water. As the water particles evaporate and rise, they often freeze and fall back into the water. Icing and low-level turbulence can result. 6-12 Chapter 6 - Meteorology for Pilots SECTION C - WEATHER HAZARDS As a pilot, you can combine knowledge of the weather with respect for what it can do to avoid flying in the most hazardous conditions. This section covers such hazards as thunderstorms, turbulence, icing and restrictions to visibility, addressing cause, as well as hazardous effects. THUNDERSTORMS • Cumulonimbus clouds have the greatest turbulence. • The conditions necessary for the formation of cumulonimbus clouds are a lifting action and unstable, moist air. • Thunderstorms are formed when high humidity, lifting force and unstable conditions combine. TYPES • Thunderstorms which generally produce the most intense hazard to aircraft are squall line thunderstorms. • A non-frontal, narrow band of active thunderstorms that often develops ahead of a cold front is known as a squall line. LIFE CYCLE • The cumulus stage of a thunderstorm is associated with a continuous updraft. • The mature stage of a thunderstorm begins with precipitation beginning to fall. • Thunderstorms reach their greatest intensity during the mature stage. • The dissipating stage is characterized predominantly by downdrafts. HAZARDS » If there is thunderstorm activity in the vicinity of an airport at which you plan to land, you can expect to encounter wind-shear turbulence during the landing approach. ® Lightning is always associated with thunderstorms. TURBULENCE ® Upon encountering severe turbulence, the pilot should attempt to maintain a level flight attitude. o Towering cumulus clouds indicate convective turbulence. W AKE TURBULENCE o Wingtip vortices are created only when an aircraft is developing lift. o Lhe greatest vortex strength occurs when the generating aircraft is heavy, clean and slow. o Wingtip vortices created by a large aircraft tend to sink below the aircraft that is generating the turbulence. When taking off or landing at an airport where heavy aircraft are operating, one should be particularly alert to the hazards of wingtip vortices because this turbulence tends to sink into the flight path of the aircraft operating below the aircraft generating the turbulence. Hie wind condition that requires maximum caution when avoiding wake turbulence on landing is a light, • iuartering tailwind. ' . < , Wl WAVE TURBULENCE ,\\ii almond or lens-shaped cloud which appears stationary, bui which may contain winds of up io 00 knots or ! in re, is referred to as a lenticular cloud. ■rests of standing mountain waves may be marked try stationary, ions-shapod clouds known as standing : sicular clouds. possible mountain wave turbulence could bo anticipated when winds of 40 Imots or greater blow across a - ■ hriain ridge, when the ,-iii is stable. Section C - Weather Hazards WIND SHEAR 6-13 • Wind shear can occur at all altitudes, in all directions. • Hazardous wind shear may be expected in areas of low-level temperature inversion, frontal zones and clear air turbulence. • A pilot can expect a wind shear zone in a temperature inversion whenever the wind speed at 2000 to 4000 feet above the surface is at least 25 knots. ICING • Visible moisture is necessary for the formation of in-flight structural icing. • Areas of freezing rain create the environment in which structural icing is most likely to have the highest accumulation rate. 6-37 PLT192 An almond or lens-shaped cloud which appears stationary, but which may contain winds of 50 knots or more, is referred to as A -an inactive frontal cloud. B - a funnel cloud. C - a lenticular cloud.",
+    "id": "6-36"
+  },
+  {
+    "plt": "PLT192",
+    "category": "Flight Instruments",
+    "text": "An almond or lens-shaped cloud which appears stationary, but which may contain winds of 50 knots or more, is referred to as",
+    "options": {
+      "A": "an inactive frontal cloud.",
+      "B": "a funnel cloud.",
+      "C": "a lenticular cloud."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 6-50, AW Lenticular clouds are the lens-shaped clouds that form at the crests of mountain waves. 6-38 PLT192 Crests of standing mountain waves may be marked by stationary, lens-shaped clouds known as A-mammatocumulus clouds. B - standing lenticular clouds. C-roll clouds. 6-39 PLT192 What clouds have the greatest turbulence? A-Towering cumulus. B - Cumulonimbus. C - Nimbostratus. 6-40 PLT192 What cloud types would indicate convective turbulence? A-Cirrus clouds. B - Nimbostratus clouds. C-Towering cumulus clouds.",
+    "id": "6-37"
+  },
+  {
     "plt": "PLT192",
     "category": "Flight Instruments",
     "text": "Crests of standing mountain waves may be marked by stationary, lens-shaped clouds known as",
@@ -4685,6 +5062,19 @@
     "id": "6-39"
   },
   {
+    "plt": "PLT192",
+    "category": "Flight Instruments",
+    "text": "What cloud types would indicate convective turbulence?",
+    "options": {
+      "A": "Cirrus clouds.",
+      "B": "Nimbostratus clouds.",
+      "C": "Towering cumulus clouds."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 6-45, AW Towering cumulus clouds are formed by convective currents, caused by rising heated air. These rising air currents cause convective turbulence. 6-14 Chapter 6 - Meteorology for Pilots 6-41 PLT518 Possible mountain wave turbulence could be anticipated when winds of 40 knots or greater blow A-across a mountain ridge, and the air is stable. B - down a mountain valley, and the air is unstable. C-parallel to a mountain peak, and the air is stable.",
+    "id": "6-40"
+  },
+  {
     "plt": "PLT518",
     "category": "Flight Instruments",
     "text": "Possible mountain wave turbulence could be anticipated when winds of 40 knots or greater blow",
@@ -4700,6 +5090,32 @@
   {
     "plt": "PLT518",
     "category": "Flight Instruments",
+    "text": "Where does wind shear occur?",
+    "options": {
+      "A": "Only at higher altitudes.",
+      "B": "Only at lower altitudes.",
+      "C": "A t all altitudes, in all directions."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 6-51, AW Wind shear can occur at middle and high altitudes near thunderstorms or the jet stream, and near the ground in the vicinity of thunderstorms or temperature inversions. The shear can be either vertical or horizontal.",
+    "id": "6-42"
+  },
+  {
+    "plt": "PLT518",
+    "category": "Flight Instruments",
+    "text": "When may hazardous wind shear be expected?",
+    "options": {
+      "A": "W hen stable air crosses a mountain barrier where it tends to flow in layers forming lenticular clouds.",
+      "B": "In areas of low-level temperature inversion, frontal zones, and clear air turbulence.",
+      "C": "Following frontal passage when stratocumulus clouds form indicating mechanical mixing."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 6-50, 51, AW Wind shear can be found above a temperature inversion when the surface air is cold and calm, and the warmer layer above it is moving at 25 knots or more. Since frontal zones are identified by a shift in the wind, wind shear can be expected. Clear air turbulence can be associated with either vertical or horizontal wind shear.",
+    "id": "6-43"
+  },
+  {
+    "plt": "PLT518",
+    "category": "Flight Instruments",
     "text": "A pilot can expect a wind-shear zone in a temperature inversion whenever the windspeed at 2,000 to 4,000 feet above the surface is at least",
     "options": {
       "A": "10 knots.",
@@ -4709,6 +5125,19 @@
     "correct": "C",
     "explanation": "AW A temperature inversion with light surface winds may form near the surface on a clear night.You can expect a shear zone in the inversion If the winds at 2,000 to 4,000 feet are 25 knots or mor",
     "id": "6-44"
+  },
+  {
+    "plt": "PLT274",
+    "category": "Flight Instruments",
+    "text": "One in-flight condition necessary for structural icing to form is",
+    "options": {
+      "A": "small temperature/dewpoint spread.",
+      "B": "stratiform clouds.",
+      "C": "visible moisture."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 6-53, AW Structural icing requires two conditions to form: (1) visible moisture, such as rain or cloud droplets, and (2) temperature of the aircraft surface must be at or below freezing. A small temperature/dewpoint spread may be present without visible moisture. Stratiform clouds are riot the only cloud types in which icing can occur. Section C - Weather Hazards 6-15 6-46 PLT274 In which environment is aircraft structural ice most likely to have the highest accumulation rate? A-Cumulus clouds with below freezing temperatures. B - Freezing drizzle. C-Freezing rain.",
+    "id": "6-45"
   },
   {
     "plt": "PLT274",
@@ -4748,6 +5177,19 @@
     "correct": "A",
     "explanation": "AW Frost disrupts the smooth airflow over the wing and can cause early separation of the aJrflow, resulting in a loss of lift. By disrupting the airflow over the wings, frost can prevent an airplane from becoming airborne at the normal takeoff speed. 6-49. Answer e. GFDPP 6-38,42, AW Three conditions are normally required for the formation of cumulonimbus clouds. These are lifting action, instability, and moisture.",
     "id": "6-48"
+  },
+  {
+    "plt": "PLT192",
+    "category": "Flight Instruments",
+    "text": "The conditions necessary for the formation of cumulonimbus clouds are a lifting action and",
+    "options": {
+      "A": "unstable air containing an excess of condensation nuclei.",
+      "B": "unstable, moist air.",
+      "C": "either stable or unstable air."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 6-38,42, AW Three conditions are normally required for the formation of cumulonimbus clouds. These are lifting action, instability, and moisture.",
+    "id": "6-49"
   },
   {
     "plt": "PLT495",
@@ -4969,6 +5411,19 @@
     "correct": "A",
     "explanation": "Because wake turbulence tends to sink, an aircraft that is a large aircraft should stay above the large aircraft's flight path and land beyond Its touchdown point.",
     "id": "6-66"
+  },
+  {
+    "plt": "PLT509",
+    "category": "Flight Instruments",
+    "text": "When landing behind a large aircraft, which procedure should be followed for vortex avoidance?",
+    "options": {
+      "A": "Stay above its final approach flightpath all the way to touchdown.",
+      "B": "Stay below and to one side of its final approach flightpath.",
+      "C": "Stay well below its final approach flightpath and land at least 2,000 feet behind."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 6-47 Vortices (wake turbulence) are generated at an aircraft’s wingtips and develop when an aircraft is producing lift. Wingtip vortices tend to sink below the flight path of the generating aircraft. Therefore, remaining above the glide path and landing beyond the touchdown point of a large aircraft is a good way to avoid wake turbulence.",
+    "id": "6-67"
   },
   {
     "plt": "PLT509",
@@ -5730,6 +6185,19 @@
       "C": "ATIS frequencies."
     },
     "correct": "B",
+    "explanation": "GFDPPM 7-49, AWS TWEB's are broadcast over certain VOR and NDB frequencies. Airport advisory frequencies are used by an FSS at uncontrolled airports to provide general airport information to pilots. Automatic terminal information service (ATIS) frequencies are used to broadcast recorded airport information.",
+    "id": "7-54"
+  },
+  {
+    "plt": "PLT513",
+    "category": "Navigation",
+    "text": "Transcribed Weather Broadcasts (TWEBs) may be monitored by tuning the appropriate radio receiver to certain",
+    "options": {
+      "A": "airport advisory frequencies.",
+      "B": "VOR and NDB frequencies.",
+      "C": "ATIS frequencies."
+    },
+    "correct": "B",
     "explanation": "AWS TWEB's are broadcast over certain VOA and NOB frequencies. Airport advisory frequencies are used by an FSS at uncontrolled airports to provide general airport information to pilots. Automatic terminal information service (ATIS) frequencies are used to broadcast recorded airport information.",
     "id": "7-55"
   },
@@ -5756,7 +6224,7 @@
       "C": "a standard briefing."
     },
     "correct": "C",
-    "explanation": "A standard briefing is the most compete type of weather briefing.",
+    "explanation": "A standard briefing is the most complete type of weather briefing.",
     "id": "7-57"
   },
   {
@@ -5769,7 +6237,7 @@
       "C": "Standard briefing."
     },
     "correct": "C",
-    "explanation": "A standard briefing is the most compete type of weather briefing.",
+    "explanation": "A standard briefing is the most complete type of weather briefing.",
     "id": "7-58"
   },
   {
@@ -5782,20 +6250,20 @@
       "C": "An abbreviated briefing."
     },
     "correct": "C",
-    "explanation": "A standard briefing is the most compete type of weather briefing.",
+    "explanation": "A standard briefing is the most complete type of weather briefing.",
     "id": "7-59"
   },
   {
     "plt": "PLT514",
     "category": "Navigation",
-    "text": "To update a previous weather briefmg, a pilot should request",
+    "text": "To update a previous weather briefing, a pilot should request",
     "options": {
       "A": "an abbreviated briefing.",
-      "B": "a standard briefmg.",
-      "C": "an outlook briefing. Sources Of Weather Information."
+      "B": "a standard briefing.",
+      "C": "an outlook briefing."
     },
     "correct": "A",
-    "explanation": "A standard briefing is the most compete type of weather briefing.",
+    "explanation": "A standard briefing is the most complete type of weather briefing.",
     "id": "7-60"
   },
   {
@@ -5808,13 +6276,13 @@
       "C": "a prognostic briefing."
     },
     "correct": "A",
-    "explanation": "A standard briefing is the most compete type of weather briefing.",
+    "explanation": "A standard briefing is the most complete type of weather briefing.",
     "id": "7-61"
   },
   {
     "plt": "PLT514",
     "category": "Navigation",
-    "text": "When requesting weather information for the following morning, a pilot sl1ould request",
+    "text": "When requesting weather information for the following morning, a pilot should request",
     "options": {
       "A": "an outlook briefing.",
       "B": "a standard briefing.",
@@ -5853,7 +6321,7 @@
   {
     "plt": "PLT513",
     "category": "Navigation",
-    "text": "When telephoning a weather briefmg facility for preflight weather information, pilots should state",
+    "text": "When telephoning a weather briefing facility for preflight weather information, pilots should state",
     "options": {
       "A": "the full name and address of the formation commander.",
       "B": "that they possess a current pilot certificate.",
@@ -5901,6 +6369,18 @@
     "correct": "A",
     "explanation": "Below FL 180, EFAS Is contacted on 122.0. Actual weather and thunderstorm activity along the pilot's route is provided. 8-ti. Answer C. GFDPP 8-16, AFH Vx is the best angle of climb. This gives you the greatest gain in altitude for horizontal distance traveled.",
     "id": "7-68"
+  },
+  {
+    "plt": "PLT506",
+    "category": "Cross-Country Flying",
+    "text": "After takeoff, which airspeed would the pilot use to gain the most altitude in a given period of time?",
+    "options": {
+      "A": "V y",
+      "B": "Vx <■- V A"
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 8-16, AFH Use Vy, the best RATE of climb speed, to gain altitude in minimum time when nearby obstacles are not a factor. Use the slower Vx , the best ANGLE of climb speed to gain altitude in minimum horizontal distance and clear obstacles. VA , maneuvering speed, is not a climb speed.",
+    "id": "8-2"
   },
   {
     "plt": "PLT127",
@@ -5971,6 +6451,32 @@
   {
     "plt": "PLT012",
     "category": "Cross-Country Flying",
+    "text": "(Refer to figure 36 on page 8-4.) What is the expected fuel consumption for a 1,000-nautical mile flight under the following conditions? Pressure altitude.. .8,000 ft Temperature.. .22°C Manifold pressure.. .20.8 inches Hg. Wind...Calm.",
+    "options": {
+      "A": "60.2 gallons.",
+      "B": "70.1 gallons.",
+      "C": "73.2 gallons."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 8-22, PHB The temperature of 22°C is found on the right-hand portion of the table (ISA + 20°C) at 8,000 feet. Read across to find a fuel flow of 11.5 GPH, and TAS of 164 KTS (use knots because the distance is in nautical miles). Now, find the time enroute by dividing 1,000 n.m. by 164 KTS (Normally you would use groundspeed, but with a calm wind, TAS equals groundspeed.) The time enroute is approximately 6:06 hrs. Then multiply the time by fuel flow. The total fuel consumption is 70.1 gallons.",
+    "id": "8-8"
+  },
+  {
+    "plt": "PLT012",
+    "category": "Cross-Country Flying",
+    "text": "(Refer to figure 36 on page 8-4.) What fuel flow should a pilot expect at 11,000 feet on a standard day with 65 percent maximum continuous power?",
+    "options": {
+      "A": "10.6 gallons per hour.",
+      "B": "11.2 gallons per hour.",
+      "C": "11.8 gallons per hour."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 8-22, PHB Use the center portion of the table for a standard day. You will need to interpolate to find the fuel flow for 11,000 feet which is halfway between 12,000 and 10,000 feet. The answer is 11.2 (11.5 - 10.9 = .6 4- 2 = .3 + 10.9 = 11.2). Section A - Predicting Performance 8-5 8-10 PLT012 (Refer to figure 36 on page 8-4.) Determine the approximate manifold pressure setting with 2,450 RPM to achieve 65 percent maximum continuous power at 6,500 feet with a temperature of 36°F higher than standard. A - 19.8 inches Hg. B-20.8 inches Hg. C-21.0 inches Hg.",
+    "id": "8-9"
+  },
+  {
+    "plt": "PLT012",
+    "category": "Cross-Country Flying",
     "text": "(Refer to figure 36.) Determine the approximate manifold pressure setting with 2,450 RPM to achieve 65 percent maximum continuous power at 6,500 feet with a temperature of 36°F higher than standard.",
     "options": {
       "A": "19.8 inches Hg.",
@@ -5981,6 +6487,19 @@
     "explanation": "PH8 The RPM is the same for all altitudes. Therefore, to determine what manifold pressure (MP) is required to achieve 65% maximum continuous power, enter the table under ISA+ 36°F. The MP for 6,000 feet is 21.0: and for 8,000 feet it is 20.5. The Interpolated MP for 6,500 feet is 20.95. The closest answer is 21.0\" Hg. 8-11. Answer 8. GFDPP 8-12, PH8 First, compute the difference between the runway (180°) and the wind (220°). The result is an angle of 40 degrees. Find the intersection of the 40 degree line and the 30 knot wind velocity arc, then read across to the left side to find the headwind component of 23 knots.",
     "figureRef": 36,
     "id": "8-10"
+  },
+  {
+    "plt": "PLT013",
+    "category": "Cross-Country Flying",
+    "text": "(Refer to figure 37 on page 8-5.) What is the headwind component for a landing on Runway 18 if the tower reports the wind as 220° at 30 knots?",
+    "options": {
+      "A": "19 knots.",
+      "B": "23 knots.",
+      "C": "26 knots."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 8-12, PHB First, compute the difference between the runway (180°) and the wind (220°). The result is an angle of 40 degrees. Find the intersection of the 40 degree line and the 30 knot wind velocity arc, then read across to the left side to find the headwind component of 23 knots. 111'11II111II11II11444-144-1441111111-1 PL 14II till 111 111'1 EXAMPLE: 40 knot wind at 30 angle. Figure 37. Crosswind Component Graph. 8-6 Chapter 8 - Airplane Performance 8-12 PLT013 (Refer to figure 37 on page 8-5.) Determine the maximum wind velocity for a 45° crosswind if the maximum crosswind component for the airplane is 25 knots. A -25 knots. B - 29 knots. C - 35 knots. 8-13 PLT013 (Refer to figure 37 on page 8-5.) What is the maximum wind velocity for a 30° crosswind if the maximum crosswind component for the airplane is 12 knots? A - 16 knots. B - 20 knots. C - 24 knots. 8-14 PLT013 (Refer to figure 37 on page 8-5.) With a reported wind of north at 20 knots, which runway (6, 29, or 32) is acceptable for use for an airplane with a 13-knot maximum crosswind component? A-Runway 6. B-Runway 29. C - Runway 32.",
+    "id": "8-11"
   },
   {
     "plt": "PLT013",
@@ -6151,6 +6670,19 @@
   {
     "plt": "PLT011",
     "category": "Cross-Country Flying",
+    "text": "(Refer to figure 41 on page 8-12.) Determine the total distance required for takeoff to clear a 50-foot obstacle. OAT...Std Pressure altitude...Sea level Takeoff weight...2,700 lb Headwind component...Calm",
+    "options": {
+      "A": "1,000 feet.",
+      "B": "1,400 feet.",
+      "C": "1,700 feet."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 8-6, 7, PHB Since temperature is standard, start at the intersection of the ISA line and sea level (S.L.). Move right to the reference line and follow the guide line diagonally downward to the 2,700 pound line. Move straight across to the obstacle height reference line, since winds are calm. Follow the guide line upward to the 50 foot line. The takeoff distance is about 1,400 feet. Section A - Predicting Performance 8-13 8-27 PLT011 (Refer to figure 41 on page 8-12.) Determine the approximate ground roll distance required for takeoff. OAT...100°F Pressure altitude...2,000 ft Takeoff weight...2,750 lb Headwind component...Calm A - 1,150 feet. B - 1,300 feet. C - 1,800 feet.",
+    "id": "8-26"
+  },
+  {
+    "plt": "PLT011",
+    "category": "Cross-Country Flying",
     "text": "(Refer to figure 41.) Determine the approximate ground roll distance required for takeoff. OAT... 100°F Pressure altitude.. 2,000 ft Takeoffweight... 2,750 lb Headwind component... Calm",
     "options": {
       "A": "650 feet.",
@@ -6161,6 +6693,19 @@
     "explanation": "7, PH8 Start at 100°F, move up to the 2,000 foot pressure altitude line, then right to the reference line. Follow the guide line down to 2,750 pounds. Since winds are calm, and there is no obstacle, move straight across to the right-hand border. The ground roll is about 1, 150 feet.",
     "figureRef": 41,
     "id": "8-27"
+  },
+  {
+    "plt": "PLT011",
+    "category": "Cross-Country Flying",
+    "text": "(Refer to figure 41 on page 8-12.) Determine the approximate ground roll distance required for takeoff. OAT...90°F Pressure altitude...2,000 ft Takeoff weight...2,500 lb Headwind component...20 kts",
+    "options": {
+      "A": "650 feet.",
+      "B": "800 feet.",
+      "C": "1,000 feet."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 8-6, 7, PHB Start at 90°F, move up to the 2,000 foot pressure altitude line, then right to the reference line. Follow the guide line down to 2,500 pounds. Move across to the next reference line, and follow the headwind guide line down to 20 knots. Since there is no obstacle, move straight across to the right-hand border. The ground roll is about 650 feet. 8-29 If an emergency situation requires a downwind landing, pilots should expect a faster A-airspeed at touchdown, a longer ground roll, and better control throughout the landing roll. B - groundspeed at touchdown, a longer ground roll, and the likelihood of overshooting the desired touchdown point. C - groundspeed at touchdown, a shorter ground roll, and the likelihood of undershooting the desired touchdown point.",
+    "id": "8-28"
   },
   {
     "plt": "PLT328",
@@ -6174,6 +6719,19 @@
     "correct": "A",
     "explanation": "The empty weight of an aircraft includes unusable fuel. The term basic empty weight includes full engine oil. On older airplanes, the term licensed empty weight includes only undrainable oi",
     "id": "8-30"
+  },
+  {
+    "plt": "PLT328",
+    "category": "Cross-Country Flying",
+    "text": "An aircraft is loaded 110 pounds over maximum certificated gross weight. If fuel (gasoline) is drained to bring the aircraft weight within limits, how much fuel should be drained?",
+    "options": {
+      "A": "15.7 gallons.",
+      "B": "16.2 gallons.",
+      "C": "18.4 gallons."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 8-33, PHB This problem requires converting the weight of fuel to gallons. Since the standard weight of gasoline is 6 pounds per gallon, divide 110 pounds by 6, to find an answer of 18.33, or 18.4 gallons. 8-32 PLT328 GIVEN:",
+    "id": "8-31"
   },
   {
     "plt": "PLT328",
@@ -6216,6 +6774,19 @@
     "explanation": "Use figure 35 to convert oil and fuel to pounds. Add up the known weights, for a total of 2,195 pounds. Subtract 2, 195 pounds from 2,300 max weight to find the maximum possible baggage weight of 105 pounds. While it appears that choice A is the only correct answer, It is a good idea to check the CG limits. Use the LOADING GRAPH and find the moment for each weight.. WEIGHT (lb) MOMENT (lb-in/1000) Empty Weight 1,350 51.5 Front Seat 250 9.4 Rear Seat 400 29.3 Fuel 30 gal 180 8.7 Oil 8 qt 15 - 0.2 Subtotal 2,195 98.7 Baggage 105 10.0 Totals 2,300 108.7 Total the moments and locate the maximum weight on the CENTER OF GRAVITY MOMENT ENVELOPE graph. The intersection of the loaded weight and moment is at the upper right-hand corner of the normal category envelope, and is just barely within limits.",
     "figureRef": 35,
     "id": "8-35"
+  },
+  {
+    "plt": "PLT328",
+    "category": "Cross-Country Flying",
+    "text": "(Refer to figure 35 on page 8-20.) Calculate the moment of the airplane and determine which category is applicable. WEIGHT (LB) MOM/1000 Empty weight 1,350 51.5 Pilot and Front passenger 310 Rear passengers 96 Fuel, 38 gal Oil, 8 qt -0.2",
+    "options": {
+      "A": "79.2, utility category.",
+      "B": "80.8, utility category.",
+      "C": "81.2, normal category"
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 8-40, PHB Complete the table of weights and moments, using the LOADING GRAPH WEIGHT (lbs.) MOMENT (lb-in/1000) Empty wt. 1,350 51.5 Front seat 310 11.6 Rear seat 96 7.0 Fuel 38 gal 228 11.0 Oil 8 qts 15 -0.2 Totals 1,999 80.9 The total moment is 80.9. Use the CENTER OF GRAVITY MOMENT ENVELOPE graph to find the total weight and total moment. The intersection falls within the upper right-hand corner of the utility category envelope. 8-22 Chapter 8 - Airplane Performance 8-37 PLT328 (Refer to figure 35 on page 8-20.) What is the maximum amount of fuel that may be aboard the airplane on takeoff if loaded as follows? WEIGHT (LB) MOM/1000 Empty weight 1,350 51.5 Pilot and Front passenger 340 Rear passengers 310 Baggage 45 Oil, 8 qt A -24 gallons. B -32 gallons. C -40 gallons.",
+    "id": "8-36"
   },
   {
     "plt": "PLT328",
@@ -6438,6 +7009,32 @@
     "explanation": "NOTE: Use scale at top of chart for distance. This question requires you to calculate groundspeed and then estimated time of arrival. 1. Determine the actual groundspeed (GS) of the aircraft. a. Measure the distance between Hampton Roads Airport and Chesapeake Municipal (CPK)-10 NM. b. Determine the elapsed time (15:01 - 14:56 = 5 min). c. Determine the GS (10 NM in 5 min = 2 NM/min x 60 min= 120 knots groundspeed). 2. Determine the estimated time of arrival (ETA) at First Flight Airport. a. Measure the distance between Chesapeake Municipal and First Flight Airport (50 NM). b. Determine the time enroute between the two points (50 NM at 120 knots= approximately 25 minutes). c. If the aircraft was over Chesapeake Municipal at 15:01, the ETA at First Flight Airport is about 15:26. (15:01 + 25 min= 15:26). 3. Determine the groundspeed using your flight computer. a. Enter the wind direction and speed (330° True at 25 knots). b. Enter the TC (012°) c. Enter the True Air Speed (TAS) (100 knots) d. GS= 80 knots 4. Determine the time enroute using your flight computer (59 NM at 80 NM/hr = 44 min 15 sec) 5. Add departure and climbout time (3 min 30 sec + 44 min 15 sec= 47 min 45 sec) This is rounded to 48 minutes. 8-55. Answer 8. GFDPP 08-54, PHB This question requires you to calculate groundspeed and then complete a time-speed-distance problem. 1. Measure the distance from Sandpoint Airport Maries Airport (approximately 58 NM). 2. Determine the true course (TC = 181°). 3. Determine groundspeed using the flight computer. a. Enter the wind direction and speed (215° True at 25 knots). b. Enter the TC (181 °). c. Enter the True Airspeed (125 knots). d. GS=103 knots 4. Determine the time enroute using the flight computer (58 NM at 103 NM/hr= 34 min).",
     "figureRef": 21,
     "id": "8-53"
+  },
+  {
+    "plt": "PLT012",
+    "category": "Cross-Country Flying",
+    "text": "(Refer to figure 22 on page 4-23.) What is the estimated time en route from Mercer County Regional Airport (area 3) to Minot International (area 1)? The wind is from 330° at 25 knots and the true airspeed is 100 knots. Add 3-1/2 minutes for departure and climb-out.",
+    "options": {
+      "A": "44 minutes.",
+      "B": "48 minutes.",
+      "C": "52 minutes."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 8-54, PHB This question requires you to calculate groundspeed and then complete a time-speed-distance problem. 1. Measure the distance between Mercer County Regional Airport and Minot International (59 n.m.). 2. Determine the True Course (TC) (012°). 3. Determine the groundspeed using your flight computer. a. Enter the wind direction and speed (330° True at 25 kts.) b. Enter the TC (012°) c. Enter the True Air Speed (TAS) (100 kts.) d. GS = 80 kts. 4. Determine the time enroute using your flight computer (59 n.m. at 80 n.m./hr. = 44 min. 15 sec.) 5. Add departure and climb-out time (3 min. 30 sec. + 44 min. 15 sec. = 47 min. 45 sec.) This is rounded to 48 minutes. 8-55 PLT012 (Refer to figure 23 on page 4-25.) What is the estimated time en route from Sandpoint Airport (area 1) to St. Maries Airport (area 4)? The wind is from 215° at 25 knots and the true airspeed is 125 knots. A - 38 minutes. B - 34 minutes. C - 30 minutes.",
+    "id": "8-54"
+  },
+  {
+    "plt": "PLT012",
+    "category": "Cross-Country Flying",
+    "text": "(Refer to figure 23 on page 4-25.) What is the estimated time en route from Sandpoint Airport (area 1) to St. Maries Airport (area 4)? The wind is from 215° at 25 knots and the true airspeed is 125 knots.",
+    "options": {
+      "A": "38 minutes.",
+      "B": "34 minutes.",
+      "C": "30 minutes."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 08-54, PHB This question requires you to calculate groundspeed and then complete a time-speed-distance problem. 1. Measure the distance from Sandpoint Airport Maries Airport (approximately 58 n.m.). 2. Determine the true course (TC = 181°). 3. Determine groundspeed using the flight computer. a. Enter the wind direction and speed (215° True at 25 kts.). b. Enter the TC (181°). c. Enter the True Airspeed (125 kts.). d. GS=103kts. 4. Determine the time enroute using the flight computer (58 n.m. at 103 n.m./hr. 34 min.). 8-34 Chapter 8 - Airplane Performance 8-56 PLT012 (Refer to figure 23 on page 4-25.) Determine the estimated time en route for a flight from Priest River Airport (area 1) to Shoshone County Airport (area 3). The wind is from 030 at 12 knots and the true airspeed is 95 knots. Add 2 minutes for climb-out. A -27 minutes. B -29 minutes. C-31 minutes.",
+    "id": "8-55"
   },
   {
     "plt": "PLT012",
@@ -6769,6 +7366,19 @@
   {
     "plt": "PLT012",
     "category": "Night Flying",
+    "text": "(Refer to figure 25 on page 4-34.) Determine the magnetic course from Airpark East Airport (area 1) to Winnsboro Airport (area 2). Magnetic variation is 6°30'E.",
+    "options": {
+      "A": "O750.",
+      "B": "082°.",
+      "C": "091°."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 9-11, PHB This question requires you find the magnetic course by determining true course, then correcting it for magnetic variation. 1. Use your plotter to determine True Course (082°). 2. Locate the nearest isogonic line to the course (6°30'E). (Add West, Subtract East variation) 3. Convert TC to MC by correcting for variation. (Since this is an east variation, you must subtract it from true course.) TC ± Variation = MC (082° - 6°30 = 075°30') The closest answer is 075°. 9-13 PLT012 (Refer to figure 26 on page 4-27.) Determine the magnetic heading for a flight from Fort Worth Meacham (area 4) to Denton Muni (area 1). The wind is from 330° at 25 knots, the true airspeed is 110 knots, and the magnetic variation is 7° east. A -003°. B -0 1 7 °. C -023°.",
+    "id": "9-12"
+  },
+  {
+    "plt": "PLT012",
+    "category": "Night Flying",
     "text": "(Refer to figure 26.) Determine the magnetic heading for a flight from Fort Worth Meacham (area 4) to Denton Muni (area 1). The wind is from 330° at 25 knots, the true airspeed is 110 knots, and the magnetic variation is 7° east.",
     "options": {
       "A": "003°.",
@@ -6807,6 +7417,19 @@
     "explanation": "The initial cruising altitude should be entered on the flight plan. Any subsequent altitude changes should be requested from the enroutecontroller.",
     "figureRef": 52,
     "id": "9-15"
+  },
+  {
+    "plt": "PLT455",
+    "category": "Night Flying",
+    "text": "(Refer to figure 52 on page 9-7.) What information should be entered in block 9 for a VFR day flight?",
+    "options": {
+      "A": "The name of the airport of first intended landing.",
+      "B": "The name of destination airport if no stopover for more than 1 hour is anticipated.",
+      "C": "The name of the airport where the aircraft is based."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 9-16, PHB FAR 91.153 states that the flight plan shall include the point of first intended landing. However, the AIM says to enter the destination airport. It also recommends that for a stopover of more than 1 hour, a separate flight plan should be filed. 9-8 Chapter 9 - Navigation 9-17 PLT455 (Refer to figure 52 on page 9-7.) What information should be entered in block 12 for a VFR day flight? A-The estimated time en route plus 30 minutes. B-The estimated time en route plus 45 minutes. C-The amount of usable fuel on board expressed in time. 9-18 PLT455 How should a VFR flight plan be closed at the completion of the flight at a controlled airport? A-The tower will automatically close the flight plan when the aircraft turns off the runway. B - The pilot must close the flight plan with the nearest FSS or other FAA facility upon landing. C - The tower will relay the instructions to the nearest FSS when the aircraft contacts the tower for landing.",
+    "id": "9-16"
   },
   {
     "plt": "PLT455",
@@ -6908,6 +7531,31 @@
   {
     "plt": "PLT014",
     "category": "Night Flying",
+    "text": "(Refer to figure 25 on page 4-34.) On what course should the VOR receiver (OBS) be set in order to navigate direct from Majors Airport (area 1) to Quitman VORTAC (area 2)?",
+    "options": {
+      "A": "101 °.",
+      "B": "108°. 0-281°."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 9-27, PHB A direct course from Majors Airport to Quitman VORTAC crosses the compass rose at 283°. The inbound course to be set in the OBS is the reciprocal of 283°, or 103°. Section B - VOR Navigation 9-13 9-26 PLT014 (Refer to figure 25 on page 4-34 and figure 29 on page 9-11.) The VOR is tuned to Bonham VORTAC (area 3), and the aircraft is positioned over the town of Sulphur Springs (area 5). Which VOR indication is correct? A -l B -7 C -8",
+    "id": "9-25"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 26 on page 4-27.) (Area 5) The VOR is tuned to the Dallas/Fort Worth VORTAC. The omnibearing selector (OBS) is set on 253°, with a TO indication, and a right course deviation indicator (CDI) deflection. What is the aircraft's position from the VORTAC?",
+    "options": {
+      "A": "East-northeast.",
+      "B": "North-northeast.",
+      "C": "West-southwest."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 9-28, PHB A course of 253° will take the aircraft to the station. This means the aircraft is currently on the east side of the station near the 073° radial. A CDI deflection to the right places the aircraft to the left of the 073° radial.",
+    "id": "9-27"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
     "text": "(Refer to figure 29, illustration 1.) The VOR receiver has the indications shown. What is the aircraft's position relative to the station?",
     "options": {
       "A": "North.",
@@ -6961,6 +7609,32 @@
     "id": "9-32"
   },
   {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 30 on page 9-15.) (Illustration 1) Determine the magnetic bearing TO the station.",
+    "options": {
+      "A": "O3O0.",
+      "B": "180°.",
+      "C": "210°."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 9-42, PHB With a movable-card indicator, the magnetic heading of the aircraft is set under the top index. The bearing pointer indicates the magnetic bearing TO the station, and the tail of the needle indicates the magnetic bearing FROM the station. In this illustration, the needle is pointing to 210°, which is the magnetic bearing TO the station. 1 2 Figure 30. ADF (Movable Card). 9-16 Chapter 9 - Navigation 9-34 PLT014 (Refer to figure 30 on page 9-15.) (Illustration 2) What magnetic bearing should the pilot use to fly TO the station? A-010°. B-I45°. C-190°.",
+    "id": "9-33"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 30 on page 9-15.) (Illustration 2) What magnetic bearing should the pilot use to fly TO the station?",
+    "options": {
+      "A": "010°.",
+      "B": "I45°.",
+      "C": "190°."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 9-42, PHB With a movable-card indicator, the magnetic heading of the aircraft is set under the top index. The bearing pointer indicates the magnetic bearing TO the station, and the tail of the needle indicates the magnetic bearing FROM the station. The pointer is on the 190° magnetic bearing TO the station. 9-35 PLT014 (Refer to figure 30 on page 9-15.) (Illustration 2) Determine the approximate heading to intercept the 180° bearing TO the station. A -040°. B-16O 0. C-22O 0.",
+    "id": "9-34"
+  },
+  {
     "plt": "PLT354",
     "category": "Night Flying",
     "text": "If Receiver Autonomous Integrity Monitoring (RAIM) capability is lost in-flight,",
@@ -6972,6 +7646,109 @@
     "correct": "B",
     "explanation": "Receiver Autonomous Integrity Monitoring (RAIM) verifies that enough satellites are in view by your aircraft that if a satellite goes out of view or if the information from a satellite is corrupt, the information from the remaining satellites still provides an accurate position. RAIM provides the degree of reliability necessary for IFR operations. Without RAIM, the accuracy of the GPS position solution is questionable.",
     "id": "9-35"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 30 on page 9-15.) (Illustration 3) What is the magnetic bearing FROM the station?",
+    "options": {
+      "A": "O250.",
+      "B": "115°.",
+      "C": "295°."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 9-42, PHB With a movable-card indicator, the magnetic heading of the aircraft is set under the top index. The bearing pointer indicates the magnetic bearing TO the station, and the tail of the needle indicates the magnetic bearing FROM the station. The tail of the pointer is on the 115° magnetic bearing FROM the station. 9-37 PLT014 (Refer to figure 30 on page 9-15.) Which ADF indication represents the aircraft tracking TO the station with a right crosswind? A -l. B -2. C -4. 9-38 PLT014 (Refer to figure 30 on page 9-15.) (Illustration I) What outbound bearing is the aircraft crossing?",
+    "id": "9-36"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 31 on page 9-17.) (Illustration 1) The relative bearing TO the station is",
+    "options": {
+      "A": "045°.",
+      "B": "180°.",
+      "C": "315°."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 9-37, PHB (Note: With a fixed-card indicator, the relative bearing is read directly from the bearing pointer.) In this example, the needle is pointing to 315°. Figure 31. ADF (Fixed Card). 9-40 PLT014 (Refer to figure 31 on page 9-17.) (Illustration 4) On a magnetic heading of 320°, the magnetic bearing TO the station is A-005°. B - 185°. C-225°.",
+    "id": "9-39"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 31 on page 9-17.) (Illustration 4) On a magnetic heading of 320°, the magnetic bearing TO the station is",
+    "options": {
+      "A": "005°.",
+      "B": "185°.",
+      "C": "225°."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 9-37, PHB (Note: The relative bearing is the number of degrees between the aircraft’s magnetic heading and the magnetic bearing to the station, measured clockwise from the aircraft’s heading. The ADF formula is magnetic heading (MH) plus relative bearing (RB) equals magnetic bearing (MB).) To solve for magnetic bearing use the formula MH i- RB = MB. (If the number is hiqher than 360° subtract 360°.) In this problem Ml I 320° and RB - 225° 320° 225° 545° 360° 185° 9-18 Chapter 9 - Navigation 9-41 PLT014 (Refer to figure 31 on page 9-17.) (Illustration 5) On a magnetic heading of 035°, the magnetic bearing TO the station is A-035°. B-180°. C-215°.",
+    "id": "9-40"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 31 on page 9-17.) (Illustration 5) On a magnetic heading of 035°, the magnetic bearing TO the station is",
+    "options": {
+      "A": "035°.",
+      "B": "180°.",
+      "C": "215°."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 9-37, PHB To solve for magnetic bearing use the formula MH + RB = MB. (If the number is higher than 360° subtract 360°.) In this problem MH = 035° and RB = 000° 035° + 000° = 035°. 9-42 PLT014 (Refer to figure 31 on page 9-17.) (Illustration 6) On a magnetic heading of 120°, the magnetic bearing TO the station is A-045°. B - 1650. C-270°.",
+    "id": "9-41"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 31 on page 9-17.) (Illustration 6) On a magnetic heading of 120°, the magnetic bearing TO the station is",
+    "options": {
+      "A": "045°.",
+      "B": "1650.",
+      "C": "270°."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 9-37, PHB To solve for magnetic bearing use the formula MH + RB = MB. (If the number is higher than 360° subtract 360°.) In this problem MH = 120° and RB = 045° 120° + 045° = 165°. 9-43 PLT014 (Refer to figure 31 on page 9-17.) (Illustration 6) If the magnetic bearing TO the station is 240°, the magnetic heading is A-045°. B - 105°. C-195°.",
+    "id": "9-42"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 31 on page 9-17.) (Illustration 6) If the magnetic bearing TO the station is 240°, the magnetic heading is",
+    "options": {
+      "A": "045°.",
+      "B": "105°.",
+      "C": "195°."
+    },
+    "correct": "C",
+    "explanation": "GFDPPM 9-37, PHB The relative bearing is the number of degrees between the aircraft’s magnetic heading and the magnetic bearing to the station, measured clockwise from the aircraft’s heading. The ADF formula is magnetic heading (MH) plus relative bearing (RB) equals magnetic bearing (MB). To solve for magnetic heading use the formula MB - RB = MH. (If the number is negative, add 360°.) In this problem MB = 240° and RB = 045° 240°-045° - 195°. 9-44 PLT014 (Refer to figure 31 on page 9-17.) (Illustration 7) If the magnetic bearing TO the station is 030°, the magnetic heading is A-060°. B - 120°. 07-270°. A45 PLT014 (Refer to figure 31 on page 9 17.) (Illustration 8) If the magnetic bearing TO the station is 3j °, the magnetic heading is / I !5°. r 70°. ' ‘ 70°.",
+    "id": "9-43"
+  },
+  {
+    "plt": "PLT014",
+    "category": "Night Flying",
+    "text": "(Refer to figure 31 on page 9-17.) (Illustration 7) If the magnetic bearing TO the station is 030°, the magnetic heading is",
+    "options": {
+      "A": "060°.",
+      "B": "120°. 07-270°. A45 PLT014 (Refer to figure 31 on page 9 17.) (Illustration 8) If the magnetic bearing TO the station is 3j °, the magnetic heading is / I !5°. r 70°. ' ‘ 70°."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 9-37, PHB To solve for magnetic heading use the formula MB - RB = MH. (If the number is negative, add 360°.) In this problem MB = 030° and RB = 270° 030° - 270° - -240° + 360° - 120°. R45„ Answer C„ GFDPRVi 9-37, IPIHB To solve for magnetic heading use the formula MB ■ I IB MH. (If the number is negative, add 300°.) In this problem MR ;; 133° and I IB / l 35° 135° 135°:; 000° or 360°. Section D - Advanced Navigation 9-19 SECTION D - ADVANCED NAVIGATION The pace of technological advances has made it possible for astonishingly accurate and versatile navigation radios to be available at a relatively low cost. More and more aircraft are now equipped with global positioning system (GPS) receivers, long range navigation (LORAN), and area navigation (RNAV).You may also find advanced cockpit management systems, such as radio magnetic indicators (RMIs), horizontal situation indicators (HSIs) and heads-up displays (HUDs). At the present time, the FAA has no questions associated with this section. 9-46 PLT354 How many satellites make up the Global Positioning System (GPS)? A -25. B-24. C-22. 9-47 PLT354 How many Global Positioning System (GPS) satellites are required to yield a three dimensional position (latitude, longitude, and altitude) and time solution?",
+    "id": "9-44"
+  },
+  {
+    "plt": "PLT354",
+    "category": "Night Flying",
+    "text": "How many satellites make up the Global Positioning System (GPS)?",
+    "options": {
+      "A": "25.",
+      "B": "24.",
+      "C": "22."
+    },
+    "correct": "B",
+    "explanation": "GFDPPT 9-51 The GPS constellation of 24 satellites is arrayed in orbit so that a minimum of 5 are always observable by a user anywhere on earth.",
+    "id": "9-46"
   },
   {
     "plt": "PLT099",
@@ -7028,6 +7805,19 @@
   {
     "plt": "PLT119",
     "category": "Emergency Procedures",
+    "text": "During a night flight, you observe a steady white light and a flashing red light ahead and at the same altitude. What is the general direction of movement of the other aircraft?",
+    "options": {
+      "A": "The other aircraft is flying away from you.",
+      "B": "The other aircraft is crossing to the left.",
+      "C": "The other aircraft is crossing to the right."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 10-5, AFH The white position light is on the tail and the flashing red light is the anticollision light. Therefore, you would be looking at the rear of the aircraft, which indicates it is flying away from you.",
+    "id": "10-5"
+  },
+  {
+    "plt": "PLT119",
+    "category": "Emergency Procedures",
     "text": "During a night flight, you observe steady red and green lights ahead and at the same altitude. What is the general direction of movement of the other aircraft?",
     "options": {
       "A": "The other aircraft is crossing to the Jeft.",
@@ -7063,6 +7853,19 @@
     "correct": "B",
     "explanation": "20-32 The key word in this question is \"large\" accumulations. This condition can produce a loss of muscle power.",
     "id": "10-8"
+  },
+  {
+    "plt": "PLT332",
+    "category": "Emergency Procedures",
+    "text": "When a stressful situation is encountered in flight, an abnormal increase in the volume of air breathed in and out can cause a condition known as",
+    "options": {
+      "A": "hyperventilation.",
+      "B": "aerosinusitis.",
+      "C": "aerotitis."
+    },
+    "correct": "A",
+    "explanation": "GFDPPM 10-18, AIM Hyperventilation occurs when the breathing rate is too rapid or too deep. It usually occurs with stress and can occur with or without the use of supplemental oxygen. Aerosinusitis is an inflammation of the sinuses and aerotitis is an inflammation of the middle ear. Both are caused by changes in air pressure.",
+    "id": "10-10"
   },
   {
     "plt": "PLT332",
@@ -7364,6 +8167,19 @@
     "id": "11-3"
   },
   {
+    "plt": "PLT377",
+    "category": "Special Operations",
+    "text": "Who is primarily responsible for maintaining an aircraft in airworthy condition?",
+    "options": {
+      "A": "Pilot-in-command.",
+      "B": "Owner or operator.",
+      "C": "Mechanic."
+    },
+    "correct": "B",
+    "explanation": "GFDPPM 11-11, PHB The owner or operator is generally responsible to make sure that the required maintenance and inspections are performed. These tasks may be assigned to a certificated maintenance technician, but the responsibility for compliance remains with the owner or operator. Preflight inspection is the responsibility of the pilot in command (PIC). Prior to every flight, the PIC is required to accomplish a thorough and systematic preflight to ensure that the aircraft is safe for flight. The preflight inspection should be completed according to procedures recommended by the manufacturer. Normally, this means the PIC .should use a checklist for the preflight inspection. Section B - The Flight 11-3 SECTION B - THE FLIGHT Not every flight follows the carefully laid plans you’ve set during the flight planning process. However, this preparation allows you to better deal with any contingency that might arise. Although no FAA test questions specifically relate to this section, Chapter 11 of the Private Pilot Manual contains a valuable, detailed model of a typical crosscountry flight. 11-4 Chapter 11 - Flying Cross-Country CHAPTER FEDERAL AVIATION REGULATIONS SECTION A -14 CFR PART 1—DEFINITIONS AND ABBREVIATIONS As a private or recreational pilot, you should have a working understanding of Parts 1, 61, 91, and NTSB 830 of the Federal Aviation Regulations (FARs). Although some information regarding FARs is included in the Private Pilot Manual, you should include a current publication of the FARs in your test preparation, to ensure that you learn all appropriate flight regulations. A FAR/AIM book and CD-ROM, published by Jeppesen Sanderson, are available along with other private pilot training materials. These books include a recommended study list, along with exercises to assist you in preparing for the computer test. This section covers pertinent definitions and abbreviations from Part 1. NIGHT The definition of nighttime is the time between the end of evening civil twilight and the beginning of morning civil twilight. V-SPEEDS • VFErepresents the maximum flap operating speed. • VLErepresents the maximum landing gear extended speed. • VNOis defined as the maximum structural cruising speed. • Vs o is defined as the stalling speed or minimum steady flight speed in the landing configuration. PREVENTIVE MAINTENANCE Preventive maintenance includes such items as servicing landing gear wheel bearings and replenishing hydraulic fluid. 12-1 PLT383 The definition of nighttime is A-sunset to sunrise. B- 1 hour after sunset to 1 hour before sunrise. C - the time between the end of evening civil twilight and the beginning of morning civil twilight.",
+    "id": "11-4"
+  },
+  {
     "plt": "PLT383",
     "category": "Regulations & Airspace",
     "text": "The definition of nighttime is",
@@ -7429,6 +8245,19 @@
     "id": "12-5"
   },
   {
+    "plt": "PLT446",
+    "category": "Regulations & Airspace",
+    "text": "Which operation would be described as preventive maintenance?",
+    "options": {
+      "A": "Repair of landing gear brace struts.",
+      "B": "Replenishing hydraulic fluid.",
+      "C": "Repair of portions of skin sheets by making additional seams."
+    },
+    "correct": "B",
+    "explanation": "FAR 1.1, FAR 43 App A Preventive maintenance involves simple or minor preservation operations. Servicing landing gear is an example of preventive maintenance listed in FAR Pari 43, Appendix A. Section A - 14 CFR Part 1—Definitions and Abbreviations 12-3 12-7 PLT446 Which operation would be described as preventive maintenance?",
+    "id": "12-6"
+  },
+  {
     "plt": "PLT399",
     "category": "Regulations & Airspace",
     "text": "What document(s) must be in your personal possession or readily accessible in the aircraft while operating as pilot in command of an aircraft?",
@@ -7440,6 +8269,19 @@
     "correct": "C",
     "explanation": "FAR 61.3. Both an appropriate pilot certificate and an appropriate medical certificate if required, must be in your personal possession or readily accessible in the aircraft in order to act as pilot in command of an aircraft.",
     "id": "12-7"
+  },
+  {
+    "plt": "PLT399",
+    "category": "Regulations & Airspace",
+    "text": "What document(s) must be in your personal possession or readily accessible in the aircraft while operating as pilot in command of an aircraft?",
+    "options": {
+      "A": "A pilot certificate with an endorsement showing accomplishment of an annual flight review and a pilot logbook showing recency of experience.",
+      "B": "Certificates showing accomplishment of a checkout in the aircraft and a current biennial flight review.",
+      "C": "An appropriate pilot certificate and an appropriate current medical certificate if required."
+    },
+    "correct": "C",
+    "explanation": "FAR 61.3 Both an appropriate pilot certificate and an appropriate medical certificate if required, must be in your personal possession or readily accessible in the aircraft in order to act as pilot in command of an aircraft.",
+    "id": "12-8"
   },
   {
     "plt": "PLT399",
@@ -7518,6 +8360,19 @@
     "correct": "C",
     "explanation": "FAR 61.23 For pilots under 40 years of age, to exercise the privileges of an ATP, a first-class medical is good until the end of the 12th calendar month after the date of examination. From the beginning of the 13th month to the end of the 60th calendar month, a first-class medical is good only for operations requiring a third-class medical.",
     "id": "12-14"
+  },
+  {
+    "plt": "PLT447",
+    "category": "Regulations & Airspace",
+    "text": "For private pilot operations, a First-Class Medical Certificate issued to a 23-year-old pilot on October 21, this year, will expire at midnight on",
+    "options": {
+      "A": "October 21,2 years later.",
+      "B": "October 31, next year.",
+      "C": "October 31,5 years later."
+    },
+    "correct": "C",
+    "explanation": "FAR 61.23 For pilots under 40 years of age, to exercise the privileges of an ATP, a first-class medical is good until the end of the 12th calendar month after the date of examination. From the beginning of the 13th month to the end of the 60th calendar month, a first-class medical is good only for operations requiring a third-class medical. 12-8 Chapter 12 - Federal Aviation Regulations 12-16 PLT399 The pilot in command is required to hold a type rating in which aircraft? A-Aircraft involved in ferry flights, training flights, or test flights. B-Aircraft having a gross weight of more than 12,500 pounds. C - Aircraft operated under an authorization issued by the Administrator. 12-17 PLT399 What is the definition of a high-performance airplane? A -A n airplane with 180 horsepower, or retractable landing gear, flaps, and a fixed-pitch propeller. B - An airplane with a normal cruise speed in excess of 200 knots. C - An airplane with an engine of more than 200 horsepower. 12-18 PLT399 Before a person holding a private pilot certificate may act as pilot in command of a high-performance airplane, that person must have A-passed a flight test in that airplane from an FA A inspector. B - an endorsement in that person's logbook that he or she is competent to act as pilot in command. C - received ground and flight instruction from an authorized flight instructor who then endorses that person's logbook. 12-19 PLT448 In order to act as pilot in command of a high-performance airplane, a pilot must have A-received and logged ground and flight instruction in an airplane that has more than 200 horsepower. B-rnade and logged three solo takeoffs and landings in a high-performance airplane. C-passed a flight test in a high-performance airplane.",
+    "id": "12-15"
   },
   {
     "plt": "PLT399",
@@ -7715,6 +8570,19 @@
     "id": "12-30"
   },
   {
+    "plt": "PLT407",
+    "category": "Regulations & Airspace",
+    "text": "If a recreational or private pilot had a flight review on August 8, this year, when is the next flight review required?",
+    "options": {
+      "A": "August 31, next year.",
+      "B": "August 8, 2 years later.",
+      "C": "August 31,2 years later."
+    },
+    "correct": "C",
+    "explanation": "FAR 61.56 To act as pilot in command of an aircraft, a recreational or private pilot must have, within the preceding 24 calendar months, complied with the biennial flight review (BFR) requirement. (Calendar month means the review is good until the end of the month in which it expires.)",
+    "id": "12-32"
+  },
+  {
     "plt": "PLT448",
     "category": "Regulations & Airspace",
     "text": "In regard to pri,ileges and lin1itations. a pri,ate pilot mav - ",
@@ -7728,6 +8596,18 @@
     "id": "12-33"
   },
   {
+    "plt": "PLT448",
+    "category": "Regulations & Airspace",
+    "text": "According to regulations pertaining to privileges and limitations, a recreational pilot may",
+    "options": {
+      "A": "not be paid in any manner for the operating expenses of a flight.",
+      "B": "be paid for the operating expenses of a flight. C not pay less than the pro rata share of the operating expenses of a flight with a passenger."
+    },
+    "correct": "C",
+    "explanation": "FAR 61.101 A person who holds a recreational pilot certificate may not pay less than the pro rata share of the operating expenses of a flight with a passenger, provided the expenses involve only fuel, oil, airport expenses, or aircraft rental fees. Section B - 14 CFR Part 61—Certification: Pilots, Flight Instructors, and Ground Instructors 12-13 12-37 PLT448 In regard to privileges and limitations, a recreational pilot may A -not pay less than the pro rata share of the operating expenses of a flight with a passenger. B - fly for compensation or hire within 50 nautical miles from the departure airport with a logbook endorsement. C - not be paid in any manner for the operating expenses of a flight from a passenger. 12-38 PLT448 When may a recreational pilot act as pilot in command on a cross-country flight that exceeds 50 nautical miles from the departure airport? A -After receiving ground and flight instructions on cross-country training and a logbook endorsement. B -After attaining 100 hours of pilot-in-command time and a logbook endorsement. C - 12 calendar months after receiving his or her recreational pilot certificate and a logbook endorsement. 12-39 PLT448 A recreational pilot may act as pilot in command of an aircraft that is certificated for a maximum of how many occupants? A-Two. B - Three. C - Four. 12-40 PLT448 A recreational pilot may act as pilot in command of an aircraft with a maximum engine horsepower of",
+    "id": "12-36"
+  },
+  {
     "plt": "PLT377",
     "category": "Regulations & Airspace",
     "text": "May a pilot operate an aircraft that is not in compliance with an Airworthiness Directive (AD)?",
@@ -7739,6 +8619,19 @@
     "correct": "C",
     "explanation": "FAR 39 ADs are published as part of the FARs. You may not operate an aircraft to which an airworthiness directive applies, except in accordance with that airworthiness directive. Federal Aviation Regulations",
     "id": "12-37"
+  },
+  {
+    "plt": "PLT448",
+    "category": "Regulations & Airspace",
+    "text": "When may a recreational pilot act as pilot in command on a cross-country flight that exceeds 50 nautical miles from the departure airport?",
+    "options": {
+      "A": "After receiving ground and flight instructions on cross-country training and a logbook endorsement.",
+      "B": "After attaining 100 hours of pilot-in-command time and a logbook endorsement.",
+      "C": "12 calendar months after receiving his or her recreational pilot certificate and a logbook endorsement."
+    },
+    "correct": "A",
+    "explanation": "FAR 61.101 A person who holds a recreational pilot certificate may act as pilot in command of an aircraft on a flight that exceeds 50 nautical miles from the departure airport, provided that person has received ground and flight training from an authorized instructor on cross-country training and received a logbook endorsement which is carried on that person’s possession in the aircraft.",
+    "id": "12-38"
   },
   {
     "plt": "PLT446",
@@ -7778,6 +8671,19 @@
     "correct": "B",
     "explanation": "FAR 91.3 As clearly indicated in the regulation, the pilot in command of an aircraft is directly responsible for, and is the final authority as to, the operation of that aircraft.",
     "id": "12-41"
+  },
+  {
+    "plt": "PLT448",
+    "category": "Regulations & Airspace",
+    "text": "May a recreational pilot act as pilot in command of an aircraft in furtherance of a business?",
+    "options": {
+      "A": "Y es, if the flight is only incidental to that business.",
+      "B": "Y es, providing the aircraft does not carry a person or property for compensation or hire.",
+      "C": "No, it is not allowed."
+    },
+    "correct": "C",
+    "explanation": "FAR 61.101 The regulation specifically states that a recreational pilot is prohibited from flying in furtherance of a business. 12-43 PLT 448 With respect to daylight hours, what is the earliest time a recreational pilot may take off? A-O ne hour before sunrise. B -A t sunrise. C - At the beginning of morning civil twilight.",
+    "id": "12-42"
   },
   {
     "plt": "PLT444",
@@ -7830,6 +8736,45 @@
     "correct": "B",
     "explanation": "FAR 91.15 Objects can be dropped from an aircraft in flight, if reasonable precautions are taken to avoid injury or damage to persons or property. Federal Aviation Regulations",
     "id": "12-46"
+  },
+  {
+    "plt": "PLT448",
+    "category": "Regulations & Airspace",
+    "text": "When may a recreational pilot fly above 10,000 feet MSL?",
+    "options": {
+      "A": "W hen 2,000 feet AGL or below.",
+      "B": "When 2,500 feet AGL or below.",
+      "C": "When outside of controlled airspace."
+    },
+    "correct": "A",
+    "explanation": "FAR 61.101 A recreational pilot cannot fly above an altitude of 10,000 feet MSL, unless the aircraft is within 2,000 feet of the ground. 12-48 PLT448 During daytime, what is the minimum flight or surface visibility required for recreational pilots in Class G airspace below 10,000 feet MSL? A - 1 mile. B -3 miles. C -5 miles. 12-49 PLT448 During daytime, what is the minimum flight visibility required for recreational pilots in controlled airspace below 10,000 feet MSL? A - 1 mile. B - 3 miles. C -5 miles. 12-50 PLT448 Under what conditions, if any, may a recreational pilot demonstrate an aircraft in flight to a prospective buyer? A -The buyer pays all the operating expenses. A - The flight is not outside the United States. 22-- None.",
+    "id": "12-47"
+  },
+  {
+    "plt": "PLT448",
+    "category": "Regulations & Airspace",
+    "text": "During daytime, what is the minimum flight or surface visibility required for recreational pilots in Class G airspace below 10,000 feet MSL?",
+    "options": {
+      "A": "1 mile.",
+      "B": "3 miles.",
+      "C": "5 miles."
+    },
+    "correct": "B",
+    "explanation": "FAR 61.101 A recreational pilot may not act as pilot in command of an aircraft when the flight or surface visibility is less than three statute miles.",
+    "id": "12-48"
+  },
+  {
+    "plt": "PLT448",
+    "category": "Regulations & Airspace",
+    "text": "During daytime, what is the minimum flight visibility required for recreational pilots in controlled airspace below 10,000 feet MSL?",
+    "options": {
+      "A": "1 mile.",
+      "B": "3 miles.",
+      "C": "5 miles."
+    },
+    "correct": "B",
+    "explanation": "FAR 61.101 This question and the answer choices are almost identical to the previous question (12-48). A recreational pilot may not act as pilot in command of an aircraft when the flight or surface visibility is less than three statute miles. ‘12-50. Answer (A FAR 6T101 FAR 61.101 (b)(12) specifically prohibits iocroaiionaJ pilots from demonstrating an aircraft in flight to prospective buyers. 12-16 Chapter 12 - Federal Aviation Regulations 12-51 PLT448 When, if ever, may a recreational pilot act as pilot in command in an aircraft towing a banner? A -If the pilot has logged 100 hours of flight time in powered aircraft. B - If the pilot has an endorsement in his/her pilot logbook from an authorized flight instructor. C - It is not allowed. 12-52 PLT448 When must a recreational pilot have a pilot-in-command flight check? A-Every 400 hours. B-Every 180 days. C - If the pilot has less than 400 total flight hours and has not flown as pilot in command in an aircraft within the preceding 180 days. 12-53 PLT448 When may a recreational pilot act as pilot in command of an aircraft at night? A-W hen obtaining an additional certificate or rating under the supervision of an authorized instructor, provided the surface or flight visibility is at least 1 statute mile. B - When obtaining an additional certificate or rating under the supervision of an authorized instructor, provided the surface or flight visibility is at least 3 statute miles. C - When obtaining an additional certificate or rating under the supervision of an authorized instructor, provided the surface or flight visibility is at least 5 statute miles.",
+    "id": "12-49"
   },
   {
     "plt": "PLT440",
@@ -7897,6 +8842,19 @@
     "id": "12-54"
   },
   {
+    "plt": "PLT448",
+    "category": "Regulations & Airspace",
+    "text": "According to regulations pertaining to privileges and limitations, a private pilot may",
+    "options": {
+      "A": "not pay less than the pro rata share of the operating expenses of a flight with passengers provided the expenses involve only fuel, oil, airport expenditures, or rental fees.",
+      "B": "not be paid in any manner for the operating expenses of a flight.",
+      "C": "be paid for the operating expenses of a flight if at least three takeoffs and three landings were made by the pilot within the preceding 90 days."
+    },
+    "correct": "A",
+    "explanation": "FAR 61.113 A private pilot may not pay less than the pro rata share of the operating expenses of a flight with passengers, provided the expenses involve only fuel, oil, airport expenditures, or rental fees.",
+    "id": "12-55"
+  },
+  {
     "plt": "PLT465",
     "category": "Regulations & Airspace",
     "text": "With certain exceptions, safety belts are required to be secured about passengers during",
@@ -7908,6 +8866,19 @@
     "correct": "A",
     "explanation": "FAR 91.107 Passengers are only required to have safety belts (and shoulder harnesses, if installed) fastened during taxi, takeoff, and landing. 12-57. Answer e. FAR 91.107 Passengers are required to have safety belts (and shoulder harnesses, if installed) fastened during taxi, takeoff, and landing.",
     "id": "12-56"
+  },
+  {
+    "plt": "PLT378",
+    "category": "Regulations & Airspace",
+    "text": "What should an owner or operator know about Airworthiness Directives (ADs)?",
+    "options": {
+      "A": "For Informational purposes only.",
+      "B": "They are mandatory.",
+      "C": "They are voluntary."
+    },
+    "correct": "B",
+    "explanation": "FAR 39 ADs are published as part of the FARs. You may not operate an aircraft to which an airworthiness directive applies, except in accordance with that airworthiness directive. 12-58 PLT377 May a pilot operate an aircraft that is not in compliance with an Airworthiness Directive (AD)? A- Yes, under VFR conditions only. B~ Yes, ADs are only voluntary. C - Yes, if allowed by the AD.",
+    "id": "12-57"
   },
   {
     "plt": "PLT444",
@@ -8001,6 +8972,19 @@
     "id": "12-64"
   },
   {
+    "plt": "PLT444",
+    "category": "Regulations & Airspace",
+    "text": "When must a pilot who deviates from a regulation during an emergency send a written report of that deviation to the Administrator?",
+    "options": {
+      "A": "W ithin 7 days.",
+      "B": "W ithin 10 days.",
+      "C": "Upon request."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.3 The regulations clearly indicate that a written report is not required, unless a report is requested from the FAA.",
+    "id": "12-65"
+  },
+  {
     "plt": "PLT403",
     "category": "Regulations & Airspace",
     "text": "What action, if any, is appropriate if the pilot deviates from an A TC instruction during an emergency and is given priority?",
@@ -8053,6 +9037,19 @@
     "id": "12-69"
   },
   {
+    "plt": "PLT463",
+    "category": "Regulations & Airspace",
+    "text": "No person may attempt to act as a crewmember of a civil aircraft with",
+    "options": {
+      "A": ".008 percent by weight or more alcohol in the blood.",
+      "B": ".004 percent by weight or more alcohol in the blood.",
+      "C": ".04 percent by weight or more alcohol in the blood."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.17 No person may act or attempt to act as a crewmember of a civil aircraft while having .04 percent by weight or more alcohol in the blood.",
+    "id": "12-70"
+  },
+  {
     "plt": "PLT402",
     "category": "Regulations & Airspace",
     "text": "When must batteries in an emergency locator transmitter (EL T) be replaced or recharged, if rechargeable?",
@@ -8064,6 +9061,19 @@
     "correct": "B",
     "explanation": "FAR 91.207 Batteries used in the emergency locator transmitters must be replaced (or recharged, if the battery is rechargeable) when the transmitter has been in use for more than one cumulative hour.",
     "id": "12-71"
+  },
+  {
+    "plt": "PLT440",
+    "category": "Regulations & Airspace",
+    "text": "Preflight action, as required for all flights away from the vicinity of an airport, shall include",
+    "options": {
+      "A": "the designation of an alternate airport.",
+      "B": "a study of arrival procedures at airports/heliports of intended use.",
+      "C": "an alternate course of action if the flight cannot be completed as planned."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.103 The preflight action for flights away from the vicinity of an airport include checking weather reports and forecasts, fuel requirements, alternatives available if the flight cannot be completed as planned, and any known traffic delays. 12-24 Chapter 12 - Federal Aviation Regulations 12-73 PLT440 In addition to other preflight actions for a VFR flight away from the vicinity of the departure airport, regulations specifically require the pilot in command to A-review traffic control light signal procedures. B - check the accuracy of the navigation equipment and the emergency locator transmitter (ELT). C - determine runway lengths at airports of intended use and the aircraft's takeoff and landing distance data. 12-74 PLT465 Flight crewmembers are required to keep their safety belts and shoulder harnesses fastened during A-takeoffs and landings. B -all flight conditions. C - flight in turbulent air.",
+    "id": "12-72"
   },
   {
     "plt": "PLT461",
@@ -8092,6 +9102,19 @@
     "id": "12-74"
   },
   {
+    "plt": "PLT465",
+    "category": "Regulations & Airspace",
+    "text": "Which best describes the flight conditions under which flight crewmembers are specifically required to keep their safety belts and shoulder harnesses fastened?",
+    "options": {
+      "A": "Safety belts during takeoff and landing; shoulder harnesses during takeoff and landing.",
+      "B": "Safety belts during takeoff and landing; shoulder harnesses during takeoff and landing and while en route.",
+      "C": "Safety belts during takeoff and landing and while en route; shoulder harnesses during takeoff and landing."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.105 During takeoff and landing, and while enroute, each required flight crewmember shall keep the safety belt fastened while at the crewmember station. In addition, each required flight crewmember shall, during takeoff and landing, keep the shoulder harness fastened while at the crewmember station. 12=76 PLT465 With respect to passengers, what obligation, if any, does a pilot in command have concerning the use of safety belts? A -The pilot in command must instruct the passengers to keep safety belts fastened for the entire flight. B - The pilot in command must brief the passengers on the use of safety belts and notify them to fasten their safety belts during taxi, takeoff, and landing. C- The pilot in command has no obligation in regard to passengers' use of safety belts.",
+    "id": "12-75"
+  },
+  {
     "plt": "PLT369",
     "category": "Regulations & Airspace",
     "text": "No person may operate an aircraft in aerobatic flight when",
@@ -8105,6 +9128,19 @@
     "id": "12-76"
   },
   {
+    "plt": "PLT465",
+    "category": "Regulations & Airspace",
+    "text": "With certain exceptions, safety belts are required to be secured about passengers during",
+    "options": {
+      "A": "taxi, takeoffs, and landings.",
+      "B": "all flight conditions.",
+      "C": "flight in turbulent air."
+    },
+    "correct": "A",
+    "explanation": "FAR 91.107 Passengers are only required to have safety belts (and shoulder harnesses, if installed) fastened during taxi, takeoff, and landing.",
+    "id": "12-77"
+  },
+  {
     "plt": "PLT369",
     "category": "Regulations & Airspace",
     "text": "What is the lowest altitude permitted for aerobatic flight?",
@@ -8116,6 +9152,19 @@
     "correct": "B",
     "explanation": "FAR 91.303 No person may operate an aircraft in aerobatic ilight below an altitude of 1,500 feet above the surface.",
     "id": "12-78"
+  },
+  {
+    "plt": "PLT444",
+    "category": "Regulations & Airspace",
+    "text": "No person may operate an aircraft in formation flight",
+    "options": {
+      "A": "over a densely populated area.",
+      "B": "in Class D Airspace under special VFR.",
+      "C": "except by prior arrangement with the pilot in command of each aircraft."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.111 No person may operate an aircraft in formation flight except by arrangement with the pilot in command of each aircraft in the formation.",
+    "id": "12-79"
   },
   {
     "plt": "PLT405",
@@ -8170,6 +9219,32 @@
     "id": "12-83"
   },
   {
+    "plt": "PLT161",
+    "category": "Regulations & Airspace",
+    "text": "When flying in a VFR corridor designated through Class B airspace the maximum speed authorized is",
+    "options": {
+      "A": "180 knots.",
+      "B": "200 knots.",
+      "C": "250 knots."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.117 No person may operate an aircraft in a VFR corridor designated through a Class B airspace area, or in the airspace underlying a Class B airspace area, at an indicated airspeed of more than 200 knots.",
+    "id": "12-84"
+  },
+  {
+    "plt": "PLT370",
+    "category": "Regulations & Airspace",
+    "text": "When an ATC clearance has been obtained, no pilot in command may deviate from that clearance, unless that pilot obtains an amended clearance. The one exception to this regulation is",
+    "options": {
+      "A": "when the clearance states \"at pilot's discretion.\"",
+      "B": "an emergency.",
+      "C": "if the clearance contains a restriction."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.123 According the FAR 91.23(a), when an ATC clearance has been obtained, no pilot in command may deviate from that clearance, except in an emergency, unless an amended clearance is obtained. 12=86. Answer A. FAR 91.3, FAR 91.123 According to FAR 91.123(d), a pilot in command who deviates from a clearance and then is given priority by ATC because of that emergency, shall submit a detailed report of that emergency within 48 hours to the manager of that ATC facility, if requested by ATC. Section C - 14 CFR Part 91—General Operating and Flight Rules 12-27 12-87 PLT403 What action, if any, is appropriate if the pilot deviates from an ATC instruction during an emergency and is given priority? A-Take no special action since you are pilot in command. B - File a detailed report within 48 hours to the chief of the appropriate ATC facility, if requested. C - File a report to the FAA Administrator, as soon as possible. 12-88 PLT435 Which is the correct traffic pattern departure procedure to use at a noncontrolled airport? A-Depart in any direction consistent with safety, after crossing the airport boundary. B - Make all turns to the left. C - Comply with any FAA traffic pattern established for the airport. 12-89 PLT413 What is the specific fuel requirement for flight under VFR during daylight hours in an airplane? A -Enough to complete the flight at normal cruising speed with adverse wind conditions. B - Enough to fly to the first point of intended landing and to fly after that for 30 minutes at normal cruising speed. C - Enough to fly to the first point of intended landing and to fly after that for 45 minutes at normal cruising speed. 12-90 PLT413 What is the specific fuel requirement for flight under VFR at night in an airplane? A-Enough to complete the flight at normal cruising speed with adverse wind conditions. B - Enough to fly to the first point of intended landing and to fly after that for 30 minutes at normal cruising speed. C - Enough to fly to the first point of intended landing and to fly after that for 45 minutes at normal cruising speed.",
+    "id": "12-85"
+  },
+  {
     "plt": "PLT426",
     "category": "Regulations & Airspace",
     "text": "The responsibility for ensuring that maintenance personnel make the appropriate entries in the aircraft maintenance records indicating the aircraft has been approved for return to service lies with the",
@@ -8194,6 +9269,19 @@
     "correct": "C",
     "explanation": "FAR 91.405 Each owner or operator of an aircraft shall ensure that maintenance personnel make appropriate entries in the aircraft maintenance records indicating the aircraft has been approved for return to service. The owner or operator of an aircraft is primarily responsible for maintaining that aircraft in an airworthy condition, including compliance with 14 CFR Part 39 (ADs). Federal Aviation Regulations",
     "id": "12-88"
+  },
+  {
+    "plt": "PLT413",
+    "category": "Regulations & Airspace",
+    "text": "What is the specific fuel requirement for flight under VFR during daylight hours in an airplane?",
+    "options": {
+      "A": "Enough to complete the flight at normal cruising speed with adverse wind conditions.",
+      "B": "Enough to fly to the first point of intended landing and to fly after that for 30 minutes at normal cruising speed.",
+      "C": "Enough to fly to the first point of intended landing and to fly after that for 45 minutes at normal cruising speed."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.151 For day VFR flight in an airplane, there must be enough fuel (considering wind and forecast weather conditions) to fly to the first point of intended landing, and, assuming normal cruising speed, 30 minutes thereafter.",
+    "id": "12-89"
   },
   {
     "plt": "PLT375",
@@ -8259,6 +9347,32 @@
     "correct": "C",
     "explanation": "FAR 91.417 The registered owner or operator shall keep records of the maintenance, preventive maintenance, alterations, records of the 100-hour, annual, progressive, and other required or approved inspections, as appropriate, for each aircraft. This information is found in the aircraft's maintenance records.",
     "id": "12-94"
+  },
+  {
+    "plt": "PLT461",
+    "category": "Regulations & Airspace",
+    "text": "Except in Alaska, during what time period should lighted position lights be displayed on an aircraft?",
+    "options": {
+      "A": "End of evening civil twilight to the beginning of morning civil twilight.",
+      "B": "1 hour after sunset to 1 hour before sunrise.",
+      "C": "Sunset to sunrise."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.209 No person may, during the period from sunset to sunrise, operate an aircraft unless it has lighted position lights.",
+    "id": "12-96"
+  },
+  {
+    "plt": "PLT438",
+    "category": "Regulations & Airspace",
+    "text": "When operating an aircraft at cabin pressure altitudes above 12,500 feet MSL up to and including 14,000 feet MSL, supplemental oxygen shall be used during",
+    "options": {
+      "A": "the entire flight time at those altitudes.",
+      "B": "that flight time in excess of 10 minutes at those altitudes.",
+      "C": "that flight time in excess of 30 minutes at those altitudes."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.211 Between cabin pressure altitudes of 12,500 feet MSL and 14,000 feet MSL, the required minimum flight crew is required to use supplemental oxygen for any duration of the flight past 30 minutes. 12-98 PLT438 Unless each occupant is provided with supplemental oxygen, no person may operate a civil aircraft of U.S. registry above a maximum cabin pressure altitude of A - 12,500 feet MSL. B - 14,000 feet MSL. C - 15,000 feet MSL. 12-99 PLT369 No person may operate an aircraft in acrobatic flight when A-flight visibility is less than 5 miles. B - over any congested area of a city, town, or settlement. C - less than 2,500 feet AGL.",
+    "id": "12-97"
   },
   {
     "plt": "PLT372",
@@ -8363,5 +9477,291 @@
     "correct": "B",
     "explanation": "NTSB 830.10 Prior to the time the Board or its authorized representative takes custody of aircraft wreckage, mail, or cargo, such wreckage may not be disturbed or moved except to the extent necessary to protect the wreckage from further damage.",
     "id": "12-105"
+  },
+  {
+    "plt": "PLT373",
+    "category": "Regulations & Airspace",
+    "text": "Which is normally prohibited when operating a restricted category civil aircraft?",
+    "options": {
+      "A": "Flight under instrument flight rules.",
+      "B": "Flight over a densely populated area.",
+      "C": "Flight within Class D airspace."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.313 No person may operate a restricted category civil aircraft within the United States over a densely populated area.",
+    "id": "12-106"
+  },
+  {
+    "plt": "PLT373",
+    "category": "Regulations & Airspace",
+    "text": "Unless otherwise specifically authorized, no person may operate an aircraft that has an experimental certificate",
+    "options": {
+      "A": "beneath the floor of Class B airspace.",
+      "B": "over a densely populated area or in a congested airway.",
+      "C": "from the primary airport within Class D airspace."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.319 Unless otherwise authorized by the Administrator in special operating limitations, no person may operate an aircraft that has an experimental certificate over a densely populated area or in a congested airway.",
+    "id": "12-107"
+  },
+  {
+    "plt": "PLT374",
+    "category": "Regulations & Airspace",
+    "text": "The responsibility for ensuring that an aircraft is maintained in an airworthy condition is primarily that of the",
+    "options": {
+      "A": "pilot in command.",
+      "B": "owner or operator.",
+      "C": "mechanic who performs the work."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.403 The owner or operator of an aircraft is primarily responsible for maintaining that aircraft in an airworthy condition.",
+    "id": "12-108"
+  },
+  {
+    "plt": "PLT377",
+    "category": "Regulations & Airspace",
+    "text": "The airworthiness of an aircraft can be determined by a preflight inspection and a",
+    "options": {
+      "A": "statement from the owner or operator that the aircraft is airworthy.",
+      "B": "log book endorsement from a flight instructor.",
+      "C": "review of the maintenance records."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.403 The maintenance records document whether all of the required inspections have been completed, and whether all of the airworthiness directives (ADs) have been complied with.",
+    "id": "12-109"
+  },
+  {
+    "plt": "PLT426",
+    "category": "Regulations & Airspace",
+    "text": "The responsibility for ensuring that maintenance personnel make the appropriate entries in the aircraft maintenance records indicating the aircraft has been approved for return to service lies with the",
+    "options": {
+      "A": "owner or operator.",
+      "B": "pilot in command.",
+      "C": "mechanic who performed the work."
+    },
+    "correct": "A",
+    "explanation": "FAR 91.405 Each owner or operator of an aircraft shall ensure that maintenance personnel make appropriate entries in the aircraft maintenance record. 12-32 Chapter 12 - Federal Aviation Regulations 12-111 PLT374 Who is responsible for ensuring appropriate entries are made in maintenance records indicating the aircraft has been approved for return to service? A-Repair station. B - Certified mechanic. C - Owner or operator. 12-112 PLT374 Who is responsible for ensuring Airworthiness Directives (ADs) are complied with? A-Mechanic with inspection authorization (IA). B - Owner or operator. C-Repair station. 12-113 PLT375 Completion of an annual inspection and the return of the aircraft to service should always be indicated by A -the relicensing date on the Registration Certificate. B - an appropriate notation in the aircraft maintenance records. C - an inspection sticker placed on the instrument panel that lists the annual inspection completion date. 12-114 PLT375 If an alteration or repair substantially affects an aircraft's operation in flight, that aircraft must be test flown by an appropriately-rated pilot and approved for return to service prior to being operated A -by any private pilot. B - with passengers aboard. C -for compensation or hire.",
+    "id": "12-110"
+  },
+  {
+    "plt": "PLT374",
+    "category": "Regulations & Airspace",
+    "text": "Who is responsible for ensuring appropriate entries are made in maintenance records indicating the aircraft has been approved for return to service?",
+    "options": {
+      "A": "Repair station.",
+      "B": "Certified mechanic.",
+      "C": "Owner or operator."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.405 Each owner or operator of an aircraft shall ensure that maintenance personnel make appropriate entries in the aircraft maintenance records indicating the aircraft has been approved for return to service.",
+    "id": "12-111"
+  },
+  {
+    "plt": "PLT374",
+    "category": "Regulations & Airspace",
+    "text": "Who is responsible for ensuring Airworthiness Directives (ADs) are complied with?",
+    "options": {
+      "A": "Mechanic with inspection authorization (IA).",
+      "B": "Owner or operator.",
+      "C": "Repair station."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.403 The owner or operator of an aircraft is primarily responsible for maintaining that aircraft in an airworthy condition, including compliance with 14 CFR Part 39 (ADs).",
+    "id": "12-112"
+  },
+  {
+    "plt": "PLT375",
+    "category": "Regulations & Airspace",
+    "text": "Completion of an annual inspection and the return of the aircraft to service should always be indicated by",
+    "options": {
+      "A": "the relicensing date on the Registration Certificate.",
+      "B": "an appropriate notation in the aircraft maintenance records.",
+      "C": "an inspection sticker placed on the instrument panel that lists the annual inspection completion date."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.409 No person may operate an aircraft unless, within the preceding 12 calendar months it has had an annual inspection by a person authorized to do that type of inspection and is entered as an annual inspection in the required maintenance records.",
+    "id": "12-113"
+  },
+  {
+    "plt": "PLT375",
+    "category": "Regulations & Airspace",
+    "text": "If an alteration or repair substantially affects an aircraft's operation in flight, that aircraft must be test flown by an appropriately-rated pilot and approved for return to service prior to being operated",
+    "options": {
+      "A": "by any private pilot.",
+      "B": "with passengers aboard.",
+      "C": "for compensation or hire."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.407 Before any person (other than a crewmember) can fly in an aircraft that has been maintained, rebuilt, or altered in a manner that may have appreciably changed its flight characteristics or substantially affected the operation in flight, an appropriately rated pilot with at least a private pilot certificate must first conduct a test flight and log the flight in aircraft records. Section C - 14 CFR Part 91—General Operating and Flight Rules 12-33 12-115 PLT375 Before passengers can be carried in an aircraft that has been altered in a manner that may have appreciably changed its flight characteristics, it must be flight tested by an appropriately rated pilot who holds at least a A-Commercial Pilot Certificate with an instrument rating. B - Private Pilot Certificate. C - Commercial Pilot Certificate and a mechanic's certificate.",
+    "id": "12-114"
+  },
+  {
+    "plt": "PLT375",
+    "category": "Regulations & Airspace",
+    "text": "Before passengers can be carried in an aircraft that has been altered in a manner that may have appreciably changed its flight characteristics, it must be flight tested by an appropriately rated pilot who holds at least a",
+    "options": {
+      "A": "Commercial Pilot Certificate with an instrument rating.",
+      "B": "Private Pilot Certificate.",
+      "C": "Commercial Pilot Certificate and a mechanic's certificate."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.407 An appropriately rated pilot with at least a private pilot certificate is authorized to flight test the aircraft. 12-116 PLT372 An aircraft's annual inspection was performed on July 12, this year. The next annual inspection will be due no later than A-July 1, next year. B-July 13, next year. C-July 31, next year. 12-117 PLT372 To determine the expiration date of the last annual aircraft inspection, a person should refer to the A-Airworthiness Certificate. B - Registration Certificate. C - aircraft maintenance records.",
+    "id": "12-115"
+  },
+  {
+    "plt": "PLT372",
+    "category": "Regulations & Airspace",
+    "text": "An aircraft's annual inspection was performed on July 12, this year. The next annual inspection will be due no later than",
+    "options": {
+      "A": "July 1, next year.",
+      "B": "July 13, next year.",
+      "C": "July 31, next year."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.409 No person may operate an aircraft unless, within the preceding 12 calendar months, it has had an annual inspection. The term “calendar month” is defined as to the end of the month.",
+    "id": "12-116"
+  },
+  {
+    "plt": "PLT372",
+    "category": "Regulations & Airspace",
+    "text": "To determine the expiration date of the last annual aircraft inspection, a person should refer to the",
+    "options": {
+      "A": "Airworthiness Certificate.",
+      "B": "Registration Certificate.",
+      "C": "aircraft maintenance records."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.417 The registered owner or operator shall keep records of the maintenance, preventive maintenance, alterations, records of the 100-hour, annual, progressive, and other required or approved inspections, as appropriate, for each aircraft. This information is found in the aircraft’s maintenance records. 12-118 PLT372 What aircraft inspections are required for rental aircraft that are also used for flight instruction? A-Annual and 100-hour inspections. B-Biannual and 100-hour inspections. C - Annual and 50-hour inspections.",
+    "id": "12-117"
+  },
+  {
+    "plt": "PLT372",
+    "category": "Regulations & Airspace",
+    "text": "What aircraft inspections are required for rental aircraft that are also used for flight instruction?",
+    "options": {
+      "A": "Annual and 100-hour inspections.",
+      "B": "Biannual and 100-hour inspections.",
+      "C": "Annual and 50-hour inspections."
+    },
+    "correct": "A",
+    "explanation": "FAR 91.409 No person may operate an aircraft carrying any person (other than a crewmember) for hire, or give flight instruction for hire in an aircraft, which that person provides, unless within the preceding 100-hours of time in service, the aircraft has received an annual or 100-hour inspection. 12419 PLT372 An aircraft had a 100-hour inspection when the iachometer read 1259.6. When is the next 100-hour inspection clue? A 1349.6 hours. B- 1359.6 hours. A- ■ 1369.6 hours. 12419. Answer B. FAR 91.409 No person may operate an aircraft carrying any person (other than a crewmember) for hire, or give flight instruction for hire in an aircraft, which that person provides, unless within the preceding iOO-hours of time in service, the aircraft has received an annual or 100-hour inspection. 12-34 Chapter 12 - Federal Aviation Regulations 12-120 PLT372 A 100-hour inspection was due at 3302.5 hours on the tachometer. The 100-hour inspection was actually done at 3309.5 hours. When is the next 100-hour inspection due? A-3312.5 hours. B - 3402.5 hours. C - 3409.5 hours. 12-121 PLT372 Maintenance records show the last transponder inspection was performed on September 1, 2006. The next inspection will be due no later than A-September 1, 2008. B-September 30, 2007. C-September 30, 2008. 12-122 PLT374 Which records or documents shall the owner or operator of an aircraft keep to show compliance with an applicable Airworthiness Directive? A-Aircraft maintenance records. B - Airworthiness Certificate and Pilot's Operating Handbook. C-Airworthiness and Registration Certificates.",
+    "id": "12-118"
+  },
+  {
+    "plt": "PLT372",
+    "category": "Regulations & Airspace",
+    "text": "A 100-hour inspection was due at 3302.5 hours on the tachometer. The 100-hour inspection was actually done at 3309.5 hours. When is the next 100-hour inspection due?",
+    "options": {
+      "A": "3312.5 hours.",
+      "B": "3402.5 hours.",
+      "C": "3409.5 hours."
+    },
+    "correct": "B",
+    "explanation": "FAR 91.409 The 100-hour limitation may be exceeded by not more than 10 hours while enroute to reach a place where the inspection can be done. However, the excess time used to reach a place must be included in computing the next 100 hours of time in service.",
+    "id": "12-120"
+  },
+  {
+    "plt": "PLT372",
+    "category": "Regulations & Airspace",
+    "text": "Maintenance records show the last transponder inspection was performed on September 1, 2006. The next inspection will be due no later than",
+    "options": {
+      "A": "September 1, 2008.",
+      "B": "September 30, 2007.",
+      "C": "September 30, 2008."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.413 No person may use an ATC transponder unless, within the preceding 24 calendar months, that transponder has been tested and found to comply with the appropriate standards listed in Appendix F of 14 CFR Part 43. The term “calendar month” refers to the end of the month when an inspection is due.",
+    "id": "12-121"
+  },
+  {
+    "plt": "PLT374",
+    "category": "Regulations & Airspace",
+    "text": "Which records or documents shall the owner or operator of an aircraft keep to show compliance with an applicable Airworthiness Directive?",
+    "options": {
+      "A": "Aircraft maintenance records.",
+      "B": "Airworthiness Certificate and Pilot's Operating Handbook.",
+      "C": "Airworthiness and Registration Certificates."
+    },
+    "correct": "A",
+    "explanation": "FAR 91.417 The owner or operator of an aircraft shall keep a record of current status of applicable airworthiness directives (ADs) in the appropriate aircraft maintenance records. 12-123 PLT161 All operations within Class C airspace must be in A-accordance with instrument flight rules. B - compliance with ATC clearances and instructions. C— an aircraft equipped with a 4096-code transponder with Mode C encoding capability.",
+    "id": "12-122"
+  },
+  {
+    "plt": "PLT161",
+    "category": "Regulations & Airspace",
+    "text": "All operations within Class C airspace must be in",
+    "options": {
+      "A": "accordance with instrument flight rules.",
+      "B": "compliance with ATC clearances and instructions.",
+      "C": "an aircraft equipped with a 4096-code transponder with Mode C encoding capability."
+    },
+    "correct": "C",
+    "explanation": "FAR 91.215, FAR 91.130 All aircraft must have an altitude encoding transponder in order to operate within Class C airspace. Section D - NTSB 830—Aircraft Accident and Incident Reporting 12-35 SECTION D - NTSB 830—AIRCRAFT ACCIDENT AND INCIDENT REPORTING Pilots need to be familiar with the procedures and requirements for reporting aircraft accidents, incidents and overdue aircraft to the National Transportation Safety Board (NTSB). ACCIDENTS • If an aircraft is involved in an accident which results in substantial damage to the aircraft, the nearest NTSB field office should be notified immediately. • Aircraft wreckage may be moved prior to the time the NTSB takes custody, but only to protect the wreckage from further damage. • The owner of an aircraft that has been involved in an accident is required to file an accident report within 10 days. INCIDENTS • A flight control system malfunction or failure, and an in flight fire are two incidents that require immediate notification to the nearest NTSB field office. • An overdue aircraft that is believed to be involved in an accident must be immediately reported to the nearest NTSB field office. • The operator of an aircraft that has been involved in an incident is required to submit a report to the nearest NTSB field office when requested. 12-124 PLT366 If an aircraft is involved in an accident which results in substantial damage to the aircraft, the nearest NTSB field office should be notified A -immediately. B - within 48 hours. C - within 7 days. 12-125 PLT366 Which incident requires an immediate notification to the nearest NTSB field office? A -A forced landing due to engine failure. B-Landing gear damage, due to a hard landing. C - Flight control system malfunction or failure. 12-126 PLT366 Which incident would necessitate an immediate notification to the nearest NTSB field office? A -An in-flight generator/alternator failure. B -A n in-flight fire. C— An in-flight loss of VOR receiver capability.",
+    "id": "12-123"
+  },
+  {
+    "plt": "PLT366",
+    "category": "Regulations & Airspace",
+    "text": "If an aircraft is involved in an accident which results in substantial damage to the aircraft, the nearest NTSB field office should be notified",
+    "options": {
+      "A": "immediately.",
+      "B": "within 48 hours.",
+      "C": "within 7 days."
+    },
+    "correct": "A",
+    "explanation": "NTSB 830.5 The operator of an aircraft shall immediately, and by the most expeditious means available, notify the nearest National Transportation Safety Board field office when an aircraft accident occurs.",
+    "id": "12-124"
+  },
+  {
+    "plt": "PLT366",
+    "category": "Regulations & Airspace",
+    "text": "Which incident requires an immediate notification to the nearest NTSB field office?",
+    "options": {
+      "A": "A forced landing due to engine failure.",
+      "B": "Landing gear damage, due to a hard landing.",
+      "C": "Flight control system malfunction or failure."
+    },
+    "correct": "C",
+    "explanation": "NTSB 830.5 The operator of an aircraft shall immediately, and by the most expeditious means available, notify the nearest National Transportation Safety Board field office when a flight control system malfunction or failure occurs.",
+    "id": "12-125"
+  },
+  {
+    "plt": "PLT366",
+    "category": "Regulations & Airspace",
+    "text": "Which incident would necessitate an immediate notification to the nearest NTSB field office?",
+    "options": {
+      "A": "An in-flight generator/alternator failure.",
+      "B": "A n in-flight fire.",
+      "C": "An in-flight loss of VOR receiver capability."
+    },
+    "correct": "B",
+    "explanation": "NTSB 830.5 The operator of an aircraft shall immediately, and by the most expeditious means available, notify the nearest National Transportation Safety Board field office when a fire in flight occurs. 12-36 Chapter 12 - Federal Aviation Regulations 12-127 PLT366 Which incident requires an immediate notification be made to the nearest NTSB field office? A -A n overdue aircraft that is believed to be involved in an accident. B - An in-flight radio communications failure. C - An in-flight generator or alternator failure.",
+    "id": "12-126"
+  },
+  {
+    "plt": "PLT366",
+    "category": "Regulations & Airspace",
+    "text": "Which incident requires an immediate notification be made to the nearest NTSB field office?",
+    "options": {
+      "A": "A n overdue aircraft that is believed to be involved in an accident.",
+      "B": "An in-flight radio communications failure.",
+      "C": "An in-flight generator or alternator failure."
+    },
+    "correct": "A",
+    "explanation": "NTSB 830.5 The operator of an aircraft shall immediately, and by the most expeditious means available, notify the nearest National Transportation Safety Board field office when an overdue aircraft is believed to be involved in an accident. 12-128 PLT366 May aircraft wreckage be moved prior to the time the NTSB takes custody? A-Yes, but only if moved by a federal, state, or local law enforcement officer. B - Yes, but only to protect the wreckage from further damage. C -N o, it may not be moved under any circumstances.",
+    "id": "12-127"
+  },
+  {
+    "plt": "PLT366",
+    "category": "Regulations & Airspace",
+    "text": "May aircraft wreckage be moved prior to the time the NTSB takes custody?",
+    "options": {
+      "A": "Yes, but only if moved by a federal, state, or local law enforcement officer.",
+      "B": "Yes, but only to protect the wreckage from further damage.",
+      "C": "N o, it may not be moved under any circumstances."
+    },
+    "correct": "B",
+    "explanation": "NTSB 830.10 Prior to the time the Board or its authorized representative takes custody of aircraft wreckage, mail, or cargo, such wreckage may not be disturbed or moved except to the extent necessary to protect the wreckage from further damage. 12-129 PLT366 The operator of an aircraft that has been involved in an accident is required to file an accident report within how many days? A -5. B -7. C -10. 12-130 PLT366 The operator of an aircraft that has been involved in an incident is required to submit a report to the nearest field office of the NTSB",
+    "id": "12-128"
   }
 ]

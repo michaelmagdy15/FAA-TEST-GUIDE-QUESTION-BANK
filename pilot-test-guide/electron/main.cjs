@@ -29,6 +29,9 @@ function createWindow() {
   win.setWindowButtonVisibility(true);
 
   win.webContents.setWindowOpenHandler(({ url }) => {
+    if (url.startsWith('https://clerk.') || url.includes('.clerk.accounts.dev') || url.startsWith('http://localhost')) {
+      return { action: 'allow' };
+    }
     shell.openExternal(url);
     return { action: 'deny' };
   });

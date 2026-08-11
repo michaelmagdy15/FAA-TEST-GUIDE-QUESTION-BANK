@@ -3,6 +3,7 @@ import pplRaw from '../data/questions.json';
 import irRaw from '../data/ir_questions.json';
 import cplRaw from '../data/cpl_questions.json';
 import c172Raw from '../data/c172_questions.json';
+import airlineRaw from '../data/airline_questions.json';
 
 interface RawQuestion {
     id: string;
@@ -20,6 +21,7 @@ const RAW: Record<TestMode, RawQuestion[]> = {
     ir: irRaw as RawQuestion[],
     cpl: cplRaw as RawQuestion[],
     c172: c172Raw as RawQuestion[],
+    airline: airlineRaw as RawQuestion[],
 };
 
 const questionsCache: Partial<Record<TestMode, Question[]>> = {};

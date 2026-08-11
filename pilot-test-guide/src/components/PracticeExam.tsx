@@ -8,7 +8,7 @@ import { sfx } from '../utils/sfx';
 interface PracticeExamProps {
   questions: Question[];
   mode: string;
-  examType: 'ppl' | 'ir' | 'cpl';
+  examType: 'ppl' | 'ir' | 'cpl' | 'airline';
   onBack: () => void;
 }
 
@@ -16,6 +16,7 @@ const EXAM_CONFIG = {
   ppl: { title: 'PPL Knowledge Test', questionCount: 60, timeLimit: 150, passingScore: 70 },
   ir: { title: 'IR Knowledge Test', questionCount: 80, timeLimit: 180, passingScore: 70 },
   cpl: { title: 'CPL Knowledge Test', questionCount: 100, timeLimit: 240, passingScore: 70 },
+  airline: { title: 'ATPL Knowledge Test', questionCount: 50, timeLimit: 120, passingScore: 70 },
 };
 
 export const PracticeExam: React.FC<PracticeExamProps> = ({ questions, mode, examType, onBack }) => {

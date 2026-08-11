@@ -29,7 +29,7 @@ interface LandingViewProps {
     onResetChapter?: (chapterId: string) => void;
     onNavigateToQuestion?: (questionId: string) => void;
     onStartQuiz?: () => void;
-    onStartExam?: (type: 'ppl' | 'ir' | 'cpl') => void;
+    onStartExam?: (type: 'ppl' | 'ir' | 'cpl' | 'airline') => void;
     onStudyGuide?: () => void;
 }
 
@@ -38,12 +38,14 @@ const MODE_CONFIG: Record<TestMode, { label: string; shortLabel: string; icon: R
     ir: { label: 'Instrument Rating (IR)', shortLabel: 'IR', icon: <Navigation size={16} />, accent: '#10b981', accentRgb: '16, 185, 129' },
     cpl: { label: 'Commercial Pilot (CPL)', shortLabel: 'CPL', icon: <Zap size={16} />, accent: '#f59e0b', accentRgb: '245, 158, 11' },
     c172: { label: 'Cessna 172R', shortLabel: 'C172', icon: <Plane size={16} />, accent: '#06b6d4', accentRgb: '6, 182, 212' },
+    airline: { label: 'Airline Pilot (ATPL)', shortLabel: 'ATPL', icon: <Plane size={16} />, accent: '#a78bfa', accentRgb: '167, 139, 250' },
 };
 
 const EXAM_CONFIG = {
     ppl: { label: 'PPL Exam', questions: 60, time: '2h 30m', passing: '70%' },
     ir: { label: 'IR Exam', questions: 80, time: '3h 00m', passing: '70%' },
     cpl: { label: 'CPL Exam', questions: 100, time: '4h 00m', passing: '70%' },
+    airline: { label: 'ATPL Exam', questions: 50, time: '2h 00m', passing: '70%' },
 };
 
 export const LandingView: React.FC<LandingViewProps> = ({

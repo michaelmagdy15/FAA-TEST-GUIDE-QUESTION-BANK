@@ -191,7 +191,7 @@
       "C": "A \"restricted\" category airplane is limited to an operating radius of 25 miles from its home base."
     },
     "correct": "A",
-    "explanation": "FAR 91.313 As a commercial pilot, you may not operate these categories of airplanes for compensation or hire: Restricted category-special-purpose aircraft, such as agricultural spray planes or slurry bombers used to fight forest fires. Limited category-military aircraft that are now allowed to be used only for limited purposes in civil aviation. Experimental category-a wide range of aircraft, such as amateur homebuilt and racing airplanes, as well as research and development aircraft used to test new design concepts. Primary categoryaircraft of simple design that is. tended-exeltJ~e-anel-personal use.",
+    "explanation": "FAR 91.313 As a commercial pilot, you may not operate these categories of airplanes for compensation or hire: Restricted category-special-purpose aircraft, such as agricultural spray planes or slurry bombers used to fight forest fires. Limited category-military aircraft that are now allowed to be used only for limited purposes in civil aviation. Experimental category-a wide range of aircraft, such as amateur homebuilt and racing airplanes, as well as research and development aircraft used to test new design concepts. Primary category-aircraft of simple design that is intended exclusively for pleasure and personal use.",
     "id": "1-18"
   },
   {
@@ -357,7 +357,7 @@
     "options": {
       "A": "a logbook endorsement from an authorized glider instructor certifying receipt of ground and flight training in gliders, and be proficient with techniques and procedures for safe towing of gliders.",
       "B": "at least a private pilot certificate with a category rating for powered aircraft, and made and logged at least three flights as pilot or observer in a glider being towed by an airplane.",
-      "C": "2 ii: ni c I,,."
+      "C": "none of the above."
     },
     "correct": "A",
     "explanation": "FAR 61.69 As a private pilot, commercial pilot, or ATP, you must meet specific requirements outlined in FAR 61.69 to tow a glider or unpowered ultralight vehicle. You must have: Logged at least 100 hours of as PIC in the aircraft category, class and type that you are using for the tow. A logbook endorsement from an authorized instructor that you have received ground and flight training towing gliders or unpowered ultralight vehicles. Logged at least 3 flights while towing a glider or unpowered ultralight vehicle or have simulated towing flight procedures in an aircraft while accompanied by a qualified pilot and received a logbook endorsement. Within 24 calendar months before the flight, made at least 3 actual or simulated tows of a glider or unpowered ultralight vehicle while accompanied by a qualified pilot or made at least 3 flights as pilot in command of a glider or unpowered ultralight vehicle towed by an aircraft.",
@@ -366,14 +366,14 @@
   {
     "plt": "CA.I.A.K2",
     "category": "Pilot Qualifications",
-    "text": "To act as pilot in command of an airplane towing a glider, you must have accomplished, within the preceding 24 calendar months, at least 0 u",
+    "text": "To act as pilot in command of an airplane towing a glider, you must have accomplished, within the preceding 24 calendar months, at least",
     "options": {
-      "A": "three actual glider tows under the supervision of a qualified tow pilot. co z 0 t-u UJ (./).",
+      "A": "three actual glider tows under the supervision of a qualified tow pilot.",
       "B": "three actual or simulated glider tows while accompanied by a qualified tow pilot.",
       "C": "ten flights as pilot in command of an aircraft while towing a glider."
     },
     "correct": "B",
-    "explanation": "FAR 61.69 As a private pilot, commercial pilot, or ATP, you must meet specific requirements outlined in FAR 61.69 to tow a glider ar I mpawered I lltralight vehicle Yo,, m, 1st have: Logged at least 100 hours of as PIC in the aircraft category, class and type that you are using for the tow. A logbook endorsement from an authorized instructor that you have received ground and flight training towing gliders or unpowered ultralight vehicles. Logged at least 3 flights while towing a glider or unpowered ultralight vehicle or have simulated towing flight procedures in an aircraft while accompanied by a qualified pilot and received a logbook endorsement. Within 24 calendar months before the flight, made at least 3 actual or simulated tows of a glider or unpowered ultralight vehicle while accompanied by a qualified pilot or made at least 3 flights as pilot in command of a glider or unpowered ultralight vehicle towed by an aircraft.",
+    "explanation": "FAR 61.69 As a private pilot, commercial pilot, or ATP, you must meet specific requirements outlined in FAR 61.69 to tow a glider or unpowered ultralight vehicle. You must have: Logged at least 100 hours of as PIC in the aircraft category, class and type that you are using for the tow. A logbook endorsement from an authorized instructor that you have received ground and flight training towing gliders or unpowered ultralight vehicles. Logged at least 3 flights while towing a glider or unpowered ultralight vehicle or have simulated towing flight procedures in an aircraft while accompanied by a qualified pilot and received a logbook endorsement. Within 24 calendar months before the flight, made at least 3 actual or simulated tows of a glider or unpowered ultralight vehicle while accompanied by a qualified pilot or made at least 3 flights as pilot in command of a glider or unpowered ultralight vehicle towed by an aircraft.",
     "id": "1-34"
   },
   {
@@ -409,7 +409,7 @@
     "options": {
       "A": "received a medical exam from a statelicensed physician.",
       "B": "held at least a third class medical certificate.",
-      "C": "completed an approved medical education 0 u en z 0 t-u w V)."
+      "C": "completed an approved medical education course."
     },
     "correct": "C",
     "explanation": "AC 68-1 If you have previously held a medical certificate that was not suspended, revoked or withdrawn, you might qualify to act as pilot in command under the BasicMed rule. To qualify for the BasicMed rule, you must: Possess and carry a valid U.S. driver's license. of a physician for any diagnosed medical condition that could impact your ability to fly and that you are medically fit to fly. Agree to a National Driver Register check.",
@@ -652,10 +652,10 @@
   {
     "plt": "CA.I.B.K1c",
     "category": "Pilot Qualifications",
-    "text": "A new maintenance record being used for an aircraft engine rebuilt by the manufacturer must include previous C a, E a, I. s C",
+    "text": "A new maintenance record being used for an aircraft engine rebuilt by the manufacturer must include previous",
     "options": {
       "A": "operating hours of the engine.",
-      "B": "annual inspections performed on the engine. a: - n:s o I. a, E.",
+      "B": "annual inspections performed on the engine.",
       "C": "changes as required by Airworthiness Directives."
     },
     "correct": "C",
@@ -665,7 +665,7 @@
   {
     "plt": "CA.I.B.K2",
     "category": "Pilot Qualifications",
-    "text": "Which is required equipment for powered aircraft during VFR night flights? 0 u co z 0 t-u w V,",
+    "text": "Which is required equipment for powered aircraft during VFR night flights?",
     "options": {
       "A": "Anticollision light system.",
       "B": "Gyroscopic direction indicator.",
@@ -1892,14 +1892,14 @@
   {
     "plt": "CA.II.D.K5",
     "category": "Preflight Procedures",
-    "text": "During a night operation, the pilot of aircraft 'W.. #1 s eos-eH-l-y4tte-gre~i.ffiftl-~f-the... tA aircraft are converging, which pilot has the rightof-way? The pilot of aircraft 0 a.... <",
+    "text": "During a night operation, if two aircraft are converging, which pilot has the right-of-way? The pilot of aircraft",
     "options": {
       "A": "#2; aircraft #2 is to the left of aircraft #1.",
       "B": "#2; aircraft #2 is to the right of aircraft #1. <( z.",
       "C": "#1; aircraft #1 is to the right of aircraft #2."
     },
     "correct": "C",
-    "explanation": "FAR 91.113 The approved aircraft position lights for night op.ecatiaoS-are..agreeoJight on tba.i:lgh.t-Wing.tio,,__ _____ _ a red light wingtip, and a white light on the tail. If aircraft #1 sees only the green light of aircraft #2, the pilot would be looking at aircraft #2's right wingtip. Aircraft #1 has the right-of-way because it is to the right of aircraft #2.",
+    "explanation": "FAR 91.113 The approved aircraft position lights for night operations are: a green light on the right wingtip, a red light on the left wingtip, and a white light on the tail. If aircraft #1 sees only the green light of aircraft #2, the pilot would be looking at aircraft #2's right wingtip. Aircraft #1 has the right-of-way because it is to the right of aircraft #2.",
     "id": "3-26"
   },
   {
@@ -2350,7 +2350,7 @@
     "text": "(Refer to Figure 52, area 1.) The floor of the Class E airspace above Georgetown Airport (Q61) is at",
     "options": {
       "A": "3,823 feet MSL.",
-      "B": "the surface. <( z 0 t-u w l/).",
+      "B": "the surface.",
       "C": "700 feet AGL."
     },
     "correct": "A",
@@ -2708,10 +2708,10 @@
   {
     "plt": "CA.III.B.K3",
     "category": "Airport & Airspace Operations",
-    "text": "Two aircraft of the same category are approaching an airport for the purpose of landing. The right-ofway belongs to the aircraft 0 0. I. :.a:",
+    "text": "Two aircraft of the same category are approaching an airport for the purpose of landing. The right-of-way belongs to the aircraft",
     "options": {
       "A": "at the higher altitude.",
-      "B": "at the lower altitude, but the pilot shall not take advantage of this rule to cut in front of or to overtake the other aircraft. <( z 0 t-u w V,.",
+      "B": "at the lower altitude, but the pilot shall not take advantage of this rule to cut in front of or to overtake the other aircraft.",
       "C": "that is more maneuverable, and that aircraft may, with caution, move in front of or overtake the other aircraft."
     },
     "correct": "B",
@@ -3124,7 +3124,7 @@
   {
     "plt": "CA.I.C.K3c, f",
     "category": "Pilot Qualifications",
-    "text": "What is the approximate base of the cumulus clouds if the temperature at 2,000 feet MSL is 10°c and the dewpoint is 1 °C? <( z 0 t-u w ti)",
+    "text": "What is the approximate base of the cumulus clouds if the temperature at 2,000 feet MSL is 10°C and the dewpoint is 1°C?",
     "options": {
       "A": "3,000 feet MSL.",
       "B": "4,000 feet MSL.",
@@ -4327,7 +4327,7 @@
       "C": "particularly to light airplanes."
     },
     "correct": "A",
-    "explanation": "SIGMETs (WSs) are unscheduled forecasts that are valid for four hours. However, if the SIGMET relates to hurricanes, it is valid for six hours. SIGMETs are issued for hazardous weather ( other than convective activity) that is considered significant to all aircraft, including: Severe icing; Severe and extreme turbulence; Clear air turbulence (CAT); rrrrs1owenng v1si5iTity to less than 3 miles; Volcanic ash.",
+    "explanation": "SIGMETs (WSs) are unscheduled forecasts that are valid for four hours. However, if the SIGMET relates to hurricanes, it is valid for six hours. SIGMETs are issued for hazardous weather ( other than convective activity) that is considered significant to all aircraft, including: Severe icing; Severe and extreme turbulence; Clear air turbulence (CAT); Dust storms and sandstorms lowering visibility to less than 3 miles; Volcanic ash.",
     "id": "9-134"
   },
   {
@@ -4782,7 +4782,7 @@
       "C": "no change in RPM."
     },
     "correct": "A",
-    "explanation": "o~snmp1anes nave an alternate air source ma draws warmer, unfiltered air from inside the cowling to supply the engine intake. Depending on the aircraft design, the alternate air source might be automatic or manual. You can check the operation of a manual alternate air system during your preflight runup by observing an RPM drop when you switch to the alternate air source.",
+    "explanation": "Some airplanes have an alternate air source that draws warmer, unfiltered air from inside the cowling to supply the engine intake. Depending on the aircraft design, the alternate air source might be automatic or manual. You can check the operation of a manual alternate air system during your preflight runup by observing an RPM drop when you switch to the alternate air source.",
     "id": "11-22"
   },
   {
@@ -4866,11 +4866,11 @@
   {
     "plt": "CA.I.G.K1c, K2",
     "category": "Pilot Qualifications",
-    "text": "A detuning of engine crankshaft counterweights is a source of overstress that can be caused by <( z 0 t-u w V>",
+    "text": "A detuning of engine crankshaft counterweights is a source of overstress that can be caused by",
     "options": {
       "A": "rapid opening and closing of the throttle.",
       "B": "carburetor ice forming on the throttle valve.",
-      "C": "operating with an excessively rich fuel/air mixture. 11 - 12 Advanced Systems."
+      "C": "operating with an excessively rich fuel/air mixture."
     },
     "correct": "A",
     "explanation": "When you move the throttle too quickly, counterweights that are mounted on the engine crankshaft to damp out torsional vibration can shift out of place and begin hammering on their mountings. This detuning of the counterweights can damage the magnetos, oil pump, and other engine parts and in extreme cases, can cause the crankshaft to break.",
@@ -5826,12 +5826,12 @@
     "category": "Pilot Qualifications",
     "text": "What could be one result of exceeding critical Mach number?",
     "options": {
-      "A": "Propeller stall. <l: z 0 t-u w V).",
+      "A": "Propeller stall.",
       "B": "Reduction in drag.",
       "C": "Aircraft control difficulties."
     },
     "correct": "C",
-    "explanation": "Critical Mach number is the speed of an aircraft 3 'low over a11y part-otthe-aircraff'ft..,,01'1'\"1 - ------- structure first reaches (but does not exceed) Mach 1.0. The drag incurred in the transonic region due to shock wave formation and airflow separation is known as wave drag...... When speed exceeds the critical Mach number by about 10 percent, wave drag increases sharply. Associated with drag rise are Mach buffet, trim and stability changes, and a decrease in control force effectiveness.",
+    "explanation": "Critical Mach number is the speed of an aircraft structure first reaches (but does not exceed) Mach 1.0. The drag incurred in the transonic region due to shock wave formation and airflow separation is known as wave drag. When speed exceeds the critical Mach number by about 10 percent, wave drag increases sharply. Associated with drag rise are Mach buffet, trim and stability changes, and a decrease in control force effectiveness.",
     "id": "12-72"
   },
   {
@@ -6029,7 +6029,7 @@
   {
     "plt": "CA.I.F.K1",
     "category": "Pilot Qualifications",
-    "text": "(Refer to Figure 1 0.) GIVEN: Aircraft weight...3,200 lb Airport pressure altitude... 2,000 ft Tern perature... 2 7°C Using a maximum rate of climb, approximately how much fuel would be used from engine start to 6,000 feet pressure altitude?",
+    "text": "(Refer to Figure 10.) GIVEN: Aircraft weight...3,200 lb Airport pressure altitude... 2,000 ft Temperature... 27°C Using a maximum rate of climb, approximately how much fuel would be used from engine start to 6,000 feet pressure altitude?",
     "options": {
       "A": "10 pounds.",
       "B": "14 pounds.",
@@ -6583,7 +6583,7 @@
     "options": {
       "A": "Use do-lists to manage emergencies, such as an engine failure.",
       "B": "Use flow patterns for abnormal procedures, such as an equipment malfunction.",
-      "C": "Use flow patterns to perform normal procedures, such as configuring the airplane and avionics. :E V) +'..2 ii: - n, c."
+      "C": "Use flow patterns to perform normal procedures, such as configuring the airplane and avionics."
     },
     "correct": "C",
     "explanation": "D/13B, PHB You typically use one of these methods for following checklists: Do-list-use do-lists for abnormal procedures, such as addressing an electrical malfunction. Read the checklist item and the associated action and then perform the action. Use a do-list when you have time and completing each step in the correct order is critical. Flow pattern-use flow patterns to perform normal procedures when the checklist item sequence is not critical, such as configuring the airplane and the avionics for specific phases of flight. After completing the flow pattern, refer to the checklist and verify that you have accomplished each item. Emergency checklists-perform critical tasks from memory and then refer to the checklist to manage specific emergencies, such as an engine failure.",

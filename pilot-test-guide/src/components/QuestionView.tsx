@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Question } from '../types';
+import { Question, TestMode } from '../types';
 import { sfx } from '../utils/sfx';
 import ConfettiExplosion from 'react-confetti-explosion';
 import { Plane, Navigation, Zap, ArrowLeft, Bookmark, BookmarkCheck, Search, X } from 'lucide-react';
@@ -21,7 +21,7 @@ interface QuestionViewProps {
     chapter: string;
     questions: Question[];
     onBack: () => void;
-    mode?: 'ppl' | 'ir' | 'cpl';
+    mode?: TestMode;
     progressPrefix?: string;
 }
 

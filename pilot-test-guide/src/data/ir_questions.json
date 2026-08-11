@@ -368,11 +368,11 @@
     "category": "Pilot Qualifications",
     "text": "Which is an action that you can take to help a passenger overcome ear pain due to higher pressure in the auditory canal in the middle ear?",
     "options": {
-      "A": "Drowsiness. B - Decreased breathing rate.",
-      "B": "heightened awareness and feeling of wellbeing.",
-      "C": "A sense of well-being."
+      "A": "Yawn or swallow frequently.",
+      "B": "Increase altitude to equalize pressure.",
+      "C": "Descend as rapidly as possible."
     },
-    "correct": "C",
+    "correct": "A",
     "explanation": "During a descent, the outside air pressure in the auditory canal will become higher than the pressure in the middle ear. Slow descent rates can help prevent or reduce the severity of ear problems and the eustachian tube can sometimes be opened by yawning, swallowing, or chewing. Pressure can be equalized by performing the Valsalva maneuver-holding the nose and mouth shut and forcibly exhaling to force air up the eustachian tube into the middle ear.",
     "id": "1-86"
   },
@@ -381,12 +381,12 @@
     "category": "General",
     "text": "Which would most likely result in hyperventilation?",
     "options": {
-      "A": "below.04%.",
-      "B": "below.08%.",
-      "C": "0.0%."
+      "A": "Emotional stress.",
+      "B": "Excessive carbon dioxide in the blood.",
+      "C": "A decrease in oxygen in the blood."
     },
     "correct": "A",
-    "explanation": "AC 68-1 Under the BasicMed rule, you may conduct flight operations: In an aircraft certificated to carry no more than 6 occupants, including the pilot, and with a maximum certificated takeoff weight of no more than 6,000 pounds. Below 18,000 feet MSL. At a maximum airspeed of 250 knots. That are entirely within the United States. That are not for compensation or hire.",
+    "explanation": "Hyperventilation is the excessive rate and depth of breathing that results in the loss of carbon dioxide from the blood. It can be caused by emotional stress, anxiety, or fear. Symptoms include tingling of the lips and fingers, muscle spasms, and decreased consciousness.",
     "id": "1-40"
   },
   {
@@ -394,9 +394,9 @@
     "category": "Pilot Qualifications",
     "text": "Which is true regarding the presence of alcohol within the human body?",
     "options": {
-      "A": "Recognizing hypothermia is normally easy because symptoms occur rapidly.",
-      "B": "A body temperature below 98° is considered hypothermia.",
-      "C": "Hypothermia symptoms often begin gradually and can include confused thinking."
+      "A": "A small amount of alcohol increases vision acuity.",
+      "B": "An increase in altitude decreases the adverse effect of alcohol.",
+      "C": "Judgment and decision-making abilities can be adversely affected by even small amounts of alcohol."
     },
     "correct": "C",
     "explanation": "PHB, FAR 91.17 The FARs specifically state that you must not fly within 8 hours of using alcohol, or when you have a blood alcohol level of.04% or greater. Alcohol and other depressants cause decreased mental processing, slow motor and reaction responses, and even small amounts of alcohol impair your judgment and decision-making abilities.",
@@ -780,7 +780,7 @@
       "C": "authorized only if the ground visibility is observed to be at least 3 SM."
     },
     "correct": "C",
-    "explanation": "FAR 91.113 The approved aircraft position lights for night op.ecatiaoS-are..agreeoJight on tba.i:lgh.t-Wing.tio,,__ _____ _ a red light wingtip, and a white light on the tail. If aircraft #1 sees only the green light of aircraft #2, the pilot would be looking at aircraft #2's right wingtip. Aircraft #1 has the right-of-way because it is to the right of aircraft #2.",
+    "explanation": "FAR 91.113 The approved aircraft position lights for night operations are: a green light on the right wingtip, a red light on the left wingtip, and a white light on the tail. If aircraft #1 sees only the green light of aircraft #2, the pilot would be looking at aircraft #2's right wingtip. Aircraft #1 has the right-of-way because it is to the right of aircraft #2.",
     "id": "3-26"
   },
   {

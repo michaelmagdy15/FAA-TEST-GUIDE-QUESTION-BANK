@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Plane, Navigation, Zap, Gauge, Wind, Activity, Fuel, Siren, BookOpenCheck, Globe } from 'lucide-react';
+import { Plane, Navigation, Zap, Gauge, Wind, Activity, Fuel, Siren, BookOpenCheck, Globe, ArrowLeft } from 'lucide-react';
 import { sfx } from '../../utils/sfx';
 import { TestMode } from '../../types';
 import { AirspeedIndicator } from './AirspeedIndicator';
@@ -12,6 +12,7 @@ import { UnitSystem } from './c172Data';
 
 interface C172HubProps {
     onModeSwitch: (mode: TestMode) => void;
+    onBack?: () => void;
 }
 
 const SECTIONS = [
@@ -30,14 +31,25 @@ const MODES: { id: TestMode; label: string; icon: React.ReactNode; accent: strin
     { id: 'c172', label: 'C172', icon: <Plane size={15} />, accent: '#06b6d4', rgb: '6, 182, 212' },
 ];
 
-export const C172Hub: React.FC<C172HubProps> = ({ onModeSwitch }) => {
+export const C172Hub: React.FC<C172HubProps> = ({ onModeSwitch, onBack }) => {
     const [section, setSection] = useState<string>('airspeed');
     const [units, setUnits] = useState<UnitSystem>('imperial');
 
     return (
         <div className="animate-in" style={{ display: 'flex', flexDirection: 'column', flex: 1, minHeight: 0 }}>
             {/* Header */}
-            <div style={{ display: 'flex', justifyContent: 'flex-end', alignItems: 'center', marginBottom: '0.75rem', gap: '0.5rem', flexWrap: 'wrap' }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '0.75rem', gap: '0.5rem', flexWrap: 'wrap' }}>
+                {/* Back button */}
+                {onBack && (
+                    <button
+                        className="btn-secondary"
+                        style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', padding: '0.4rem 0.8rem' }}
+                        onClick={() => { sfx.playSelect(); onBack(); }}
+                        onMouseEnter={() => sfx.playHover()}
+                    >
+                        <ArrowLeft size={14} /> <span>Back</span>
+                    </button>
+                )}
                 {/* Unit toggle */}
                 <div style={{ display: 'flex', gap: '0.25rem', padding: '3px', borderRadius: '10px' }} className="glass-card">
                     <button

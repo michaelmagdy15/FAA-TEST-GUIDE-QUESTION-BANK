@@ -1,0 +1,653 @@
+{
+  "chapters": {
+    "1": {
+      "id": "1",
+      "title": "Performance",
+      "description": "Jet performance, takeoff speeds, climb, cruise, descent, and landing",
+      "sections": [
+        {
+          "title": "Basic Parameters - Temperature",
+          "content": "Understanding temperature measurements is crucial for jet operations.",
+          "key_points": [
+            "Total Air Temperature (TAT): Outside air temperature plus 100% Ram Rise",
+            "Ram Air Temperature (RAT): Outside air temperature plus a certain percentage of the ram rise",
+            "Static Air Temperature (SAT) or OAT: Free air temperature from ground sources or corrected TAT",
+            "Ram Rise: Increase in air temperature due to compressibility, negligible below 0.3 Mach"
+          ]
+        },
+        {
+          "title": "Basic Parameters - Speeds",
+          "content": "Different airspeed measurements serve different purposes in flight operations.",
+          "key_points": [
+            "Indicated Airspeed (IAS): Speed shown by aircraft instruments",
+            "Calibrated Airspeed (CAS): IAS corrected for position error",
+            "Equivalent Airspeed (EAS): CAS corrected for compressibility error",
+            "True Airspeed (TAS): EAS corrected for air density variation",
+            "Ground Speed (GS): TAS corrected for wind"
+          ]
+        },
+        {
+          "title": "Basic Parameters - Altitudes",
+          "content": "Altitude measurements are fundamental to flight operations and separation.",
+          "key_points": [
+            "Indicated Altitude: Altimeter reading with sub-scale set to QNH",
+            "Pressure Altitude: Height above Standard Datum Plane (29.92 inHg/1013.25 hPa)",
+            "Density Altitude: Pressure altitude corrected for nonstandard temperature",
+            "Absolute Altitude: Height above surface measured by radio altimeter",
+            "True Altitude: Actual height above sea level"
+          ]
+        },
+        {
+          "title": "Takeoff Speeds",
+          "content": "Takeoff speeds are critical for safe aircraft departure.",
+          "key_points": [
+            "VS (Stall Speed): Speed where airflow separates completely and wing fully stalls",
+            "VS1G: Speed at which airflow separation starts but not full wing stall",
+            "VMCA: Minimum inflight speed for control using aerodynamic controls only",
+            "VMCG: Minimum speed on ground for control using aerodynamic controls only",
+            "VMU: Lowest calibrated airspeed for safe liftoff without tail strike",
+            "VLOF: Speed at which airplane lifts off, depends on AoA, flaps, and weight",
+            "VMBE: Maximum speed for full braking to complete stop"
+          ]
+        },
+        {
+          "title": "V1 - Decision Speed",
+          "content": "V1 is the critical decision speed for takeoff.",
+          "key_points": [
+            "V1 is the speed used as reference whether to reject or continue takeoff",
+            "V1 is NOT a decision speed - it's the speed where first braking action must be applied",
+            "Decision to reject must be taken BEFORE V1",
+            "VMCG ≤ V1 ≤ VR and VMBE"
+          ]
+        },
+        {
+          "title": "Rotation and Takeoff Climb Speeds",
+          "content": "VR and V2 are essential for safe takeoff execution.",
+          "key_points": [
+            "VR: Speed at which airplane is rotated for liftoff, minimum 1.05 VMCA",
+            "V2: Takeoff climb speed at screen height, must be maintained with engine failure",
+            "V2 minimums: 1.2 VS or 1.13 VS1G, and VMCA",
+            "Screen height: 35ft for dry runway, 15ft for wet/contaminated"
+          ]
+        },
+        {
+          "title": "Takeoff Performance",
+          "content": "Understanding takeoff performance calculations is essential for safe operations.",
+          "key_points": [
+            "Critical Engine: Engine whose failure causes most adverse effects",
+            "Clearway: Area beyond runway with upward slope not exceeding 1.25%",
+            "Stopway: Area beyond runway able to support aircraft weight during aborted takeoff",
+            "TODR: Takeoff Distance Required - longest of engine failure or 115% all engines",
+            "ASDR: Accelerate-Stop Distance Required - accelerate to V1 then stop",
+            "TORR: Takeoff Run Required"
+          ]
+        },
+        {
+          "title": "Field Lengths",
+          "content": "Field length calculations determine maximum takeoff weights.",
+          "key_points": [
+            "Balanced Field Length: TODA equals ASDA (no clearway/stopway used)",
+            "Unbalanced Field Length: TODA not equal to ASDA (clearway/stopway used)",
+            "Balanced V1: Selected when TODR equals ASDR",
+            "RTOW: Regulated Takeoff Weight limited by structure, runway, tires, brakes, climb, obstacles"
+          ]
+        },
+        {
+          "title": "Takeoff Path Segments",
+          "content": "The takeoff path consists of four distinct segments.",
+          "key_points": [
+            "First Segment: From 35ft to gear retracted, using TO thrust and flaps at V2",
+            "Second Segment: From gear up to 400ft minimum, using TO thrust and flaps at V2",
+            "Third Segment: Horizontal distance to accelerate to final climb speed, retracting flaps",
+            "Fourth Segment: From end of third segment to 1500ft with flaps up, MCT"
+          ]
+        },
+        {
+          "title": "Climb Gradient",
+          "content": "Climb gradient affects maximum allowable takeoff weights.",
+          "key_points": [
+            "Climb gradient: Height gained per unit of horizontal distance",
+            "Second segment gross gradient: 2.4% for 2-engine aircraft",
+            "Second segment net gradient: 1.6% (gross minus 0.8%)",
+            "Factors: Configuration, V1, V2, engine thrust, gross weight"
+          ]
+        },
+        {
+          "title": "Engine Ratings",
+          "content": "Engine thrust ratings determine performance capabilities.",
+          "key_points": [
+            "Flat Rated Power: Maximum thrust based on ambient temperatures",
+            "TMAX: Maximum temperature for full thrust",
+            "TREF: Temperature where flat rated power begins to decrease",
+            "Factors affecting thrust: Pressure, temperature, humidity, airspeed"
+          ]
+        },
+        {
+          "title": "Thrust Management",
+          "content": "Thrust reduction methods protect engines and save fuel.",
+          "key_points": [
+            "Assumed Temperature Method (ATM/FLEX): Dictated temperature limits thrust",
+            "De-rate: Replacing full rated engine with lower thrust engine",
+            "Thrust reduction shall not exceed 25%",
+            "Benefits: Reduces cost, easy to calculate, always conservative"
+          ]
+        },
+        {
+          "title": "Thrust Ratings",
+          "content": "Different thrust settings for different flight phases.",
+          "key_points": [
+            "Takeoff Thrust: 5-10 minutes maximum, 10 minutes with engine failure",
+            "Go-Around Thrust: Same as max TO thrust, higher speeds",
+            "Maximum Continuous Thrust (MCT): Highest continuous thrust for engine failure",
+            "Maximum Climb Thrust: For en-route climb and step climb",
+            "Maximum Cruise Thrust: Maximum during cruise"
+          ]
+        },
+        {
+          "title": "Climb Performance",
+          "content": "Climb performance affects fuel efficiency and flight time.",
+          "key_points": [
+            "Best Angle of Climb (VX): Shortest distance to specific altitude",
+            "Best Rate of Climb (VY): Least time to specific altitude",
+            "Speed constraints: 250 KIAS below 10,000ft, 300 KIAS/0.78 Mach above",
+            "Emergency descent: 250 KIAS below 10,000ft"
+          ]
+        },
+        {
+          "title": "Cruise Performance",
+          "content": "Cruise phase represents about 90% of any flight.",
+          "key_points": [
+            "Load Factor: Lift produced relative to gross weight",
+            "Maneuver Margin: Ability of air to support aircraft weight at high altitudes",
+            "Buffet Boundaries: Speeds for low and high speed buffet",
+            "Coffin Corner: Altitude with no buffet margin and 1.0g load factor"
+          ]
+        },
+        {
+          "title": "Range and Endurance",
+          "content": "Fuel efficiency is critical for airline operations.",
+          "key_points": [
+            "Specific Range: Distance traveled per unit of fuel (SR = TAS/Total Fuel Flow)",
+            "Maximum Range Cruise (MRC): Speed for maximum fuel mileage",
+            "Long Range Cruise (LRC): Speed with 1% loss in SR but significant speed increase",
+            "Optimum Altitude: Altitude for best fuel mileage",
+            "Step Climb: Series of altitude gains to improve fuel economy"
+          ]
+        },
+        {
+          "title": "Descent Performance",
+          "content": "Efficient descent planning saves fuel and time.",
+          "key_points": [
+            "Method 1: Distance = altitude × 3 + 10 (NM)",
+            "Method 2: Altitude = distance × 3 - 30 (feet)",
+            "Wind correction: Add 3NM per 10 knots tailwind, subtract for headwind",
+            "Weight effect: Higher rate of descent for light weights at constant speed"
+          ]
+        },
+        {
+          "title": "Landing Performance",
+          "content": "Landing performance calculations ensure safe arrival.",
+          "key_points": [
+            "VREF: Landing reference speed = 1.3 × VS",
+            "Dry runway: Landing distance may not exceed 60% of effective runway length",
+            "Wet runway: At least 115% of dry runway landing distance",
+            "Approach climb gradient: 2.1% for 2-engine, 2.4% for 3-engine, 2.7% for 4-engine"
+          ]
+        }
+      ]
+    },
+    "2": {
+      "id": "2",
+      "title": "Meteorology",
+      "description": "Weather phenomena, atmospheric science, and weather services",
+      "sections": [
+        {
+          "title": "Atmosphere",
+          "content": "Understanding the atmosphere is fundamental to meteorology.",
+          "key_points": [
+            "Troposphere: Where weather occurs, temperature decreases with altitude",
+            "Stratosphere: Above troposphere, temperature increases with altitude",
+            "Standard atmosphere: 15°C at sea level, decreases 2°C per 1,000ft",
+            "Pressure decreases with altitude at different rates"
+          ]
+        },
+        {
+          "title": "Temperature Effects",
+          "content": "Temperature affects aircraft performance and weather patterns.",
+          "key_points": [
+            "Higher temperature reduces engine performance",
+            "Density altitude increases with temperature",
+            "Temperature inversions can trap pollutants and fog",
+            "Lapse rate: Rate of temperature change with altitude"
+          ]
+        },
+        {
+          "title": "Pressure Systems",
+          "content": "Pressure systems determine weather patterns.",
+          "key_points": [
+            "High pressure: Generally fair weather, sinking air",
+            "Low pressure: Generally cloudy, rising air, precipitation",
+            "Fronts: Boundaries between air masses",
+            "Jet streams: High-altitude wind patterns"
+          ]
+        },
+        {
+          "title": "Wind",
+          "content": "Wind patterns affect flight planning and operations.",
+          "key_points": [
+            "Wind shear: Sudden change in wind speed or direction",
+            "Clear air turbulence: Turbulence without visible clouds",
+            "Mountain waves: Oscillations downwind of mountains",
+            "Thermal winds: Caused by temperature differences"
+          ]
+        },
+        {
+          "title": "Clouds and Precipitation",
+          "content": "Cloud types indicate weather conditions.",
+          "key_points": [
+            "Cumulus: Fair weather clouds, can develop into thunderstorms",
+            "Stratus: Layer clouds, can indicate fog or low ceilings",
+            "Cumulonimbus: Thunderstorm clouds, avoid at all costs",
+            "Precipitation types: Rain, snow, sleet, hail"
+          ]
+        },
+        {
+          "title": "Thunderstorms",
+          "content": "Thunderstorms pose significant hazards to aviation.",
+          "key_points": [
+            "Three stages: Cumulus, mature, dissipating",
+            "Hazards: Turbulence, hail, lightning, wind shear, microbursts",
+            "Avoid by at least 20 NM from severe thunderstorms",
+            "Never fly through a thunderstorm"
+          ]
+        },
+        {
+          "title": "Icing",
+          "content": "Icing conditions require careful planning and awareness.",
+          "key_points": [
+            "Structural icing: Ice accumulation on aircraft surfaces",
+            "Carburetor icing: Can occur even in warm temperatures",
+            "Icing conditions: Temperature between -20°C and 0°C with visible moisture",
+            "Anti-ice and de-ice systems are critical for safety"
+          ]
+        },
+        {
+          "title": "Visibility",
+          "content": "Visibility affects takeoff, landing, and navigation.",
+          "key_points": [
+            "RVR: Runway Visual Range - measured visibility on runway",
+            "Ceiling: Height of lowest broken or overcast cloud layer",
+            "VMC: Visual Meteorological Conditions - sufficient visibility",
+            "IMC: Instrument Meteorological Conditions - insufficient visibility"
+          ]
+        },
+        {
+          "title": "Weather Services",
+          "content": "Various weather services provide information for flight planning.",
+          "key_points": [
+            "METAR: Aerodrome routine meteorological report",
+            "TAF: Terminal Aerodrome Forecast",
+            "SIGMET: Significant meteorological information",
+            "AIRMET: Airmen's meteorological information",
+            "PIREPS: Pilot weather reports"
+          ]
+        }
+      ]
+    },
+    "3": {
+      "id": "3",
+      "title": "Aerodynamics",
+      "description": "High-speed aerodynamics, flight principles, and aircraft performance",
+      "sections": [
+        {
+          "title": "Basic Aerodynamics",
+          "content": "Fundamental principles of flight.",
+          "key_points": [
+            "Bernoulli's principle: Pressure decreases as airspeed increases",
+            "Newton's third law: Every action has an equal and opposite reaction",
+            "Lift: Force perpendicular to relative wind",
+            "Drag: Force opposing aircraft motion"
+          ]
+        },
+        {
+          "title": "High Speed Aerodynamics",
+          "content": "Jet aircraft operate in compressible flow regime.",
+          "key_points": [
+            "Subsonic: Below Mach 0.8",
+            "Transonic: Mach 0.8 to 1.2",
+            "Supersonic: Above Mach 1.2",
+            "Shock waves form as aircraft approaches speed of sound"
+          ]
+        },
+        {
+          "title": "Mach Number",
+          "content": "Mach number is critical for jet operations.",
+          "key_points": [
+            "Mach = TAS / Speed of sound",
+            "Speed of sound varies with temperature",
+            "Critical Mach number: Where first supersonic flow appears",
+            "Mach buffet occurs above critical Mach number"
+          ]
+        },
+        {
+          "title": "Swept Wings",
+          "content": "Wing sweep delays compressibility effects.",
+          "key_points": [
+            "Effective airspeed reduced by cosine of sweep angle",
+            "Allows higher cruise Mach numbers",
+            "Can cause tip stall at high angles of attack",
+            "Variable sweep wings optimize for different flight phases"
+          ]
+        },
+        {
+          "title": "Boundary Layer",
+          "content": "Boundary layer characteristics affect drag and performance.",
+          "key_points": [
+            "Laminar flow: Smooth, low drag but unstable",
+            "Turbulent flow: Rough, higher drag but more stable",
+            "Flow separation causes stall",
+            "Boundary layer control can improve performance"
+          ]
+        }
+      ]
+    },
+    "4": {
+      "id": "4",
+      "title": "Flight Controls",
+      "description": "Primary and secondary flight controls, hydraulic and electronic systems",
+      "sections": [
+        {
+          "title": "Primary Flight Controls",
+          "content": "Primary controls maneuver the aircraft about its axes.",
+          "key_points": [
+            "Ailerons: Control roll about longitudinal axis",
+            "Elevator: Control pitch about lateral axis",
+            "Rudder: Control yaw about vertical axis",
+            "Modern aircraft use fly-by-wire systems"
+          ]
+        },
+        {
+          "title": "Secondary Flight Controls",
+          "content": "Secondary controls modify flight characteristics.",
+          "key_points": [
+            "Flaps: Increase lift for takeoff and landing",
+            "Slats: Delay stall at high angles of attack",
+            "Spoilers: Reduce lift and increase drag",
+            "Trim systems: Relieve control forces"
+          ]
+        },
+        {
+          "title": "Hydraulic Systems",
+          "content": "Hydraulic power operates most flight controls in large aircraft.",
+          "key_points": [
+            "Multiple redundant hydraulic systems",
+            "Hydraulic fluid transmits power",
+            "Pumps, actuators, and valves control flow",
+            "Emergency systems available if hydraulics fail"
+          ]
+        },
+        {
+          "title": "Fly-By-Wire Systems",
+          "content": "Electronic control systems replace mechanical linkages.",
+          "key_points": [
+            "Electrical signals replace mechanical cables",
+            "Flight computers process pilot inputs",
+            "Protection systems prevent dangerous maneuvers",
+            "Reduced weight and improved performance"
+          ]
+        }
+      ]
+    },
+    "5": {
+      "id": "5",
+      "title": "Instrument Navigation",
+      "description": "Navigation systems, ILS, VOR, GPS, and inertial navigation",
+      "sections": [
+        {
+          "title": "VOR Navigation",
+          "content": "VHF Omnidirectional Range is a primary navigation aid.",
+          "key_points": [
+            "Provides radial information from station",
+            "Can fly radials TO or FROM station",
+            "DME provides distance information",
+            "Used for en-route and approach navigation"
+          ]
+        },
+        {
+          "title": "ILS System",
+          "content": "Instrument Landing System provides precision approach guidance.",
+          "key_points": [
+            "Localizer: Horizontal guidance to runway centerline",
+            "Glideslope: Vertical guidance for descent path",
+            "Marker beacons: Distance information during approach",
+            "Can be used in low visibility conditions"
+          ]
+        },
+        {
+          "title": "GPS Navigation",
+          "content": "Global Positioning System provides precise positioning.",
+          "key_points": [
+            "Satellite-based navigation system",
+            "Provides position, velocity, and time",
+            "WAAS improves accuracy for approaches",
+            "Primary navigation for modern aircraft"
+          ]
+        },
+        {
+          "title": "Inertial Navigation",
+          "content": "Inertial Reference Systems provide autonomous navigation.",
+          "key_points": [
+            "Uses accelerometers and gyroscopes",
+            "No external references required",
+            "Accumulates error over time",
+            "Combined with GPS for accuracy"
+          ]
+        },
+        {
+          "title": "Area Navigation (RNAV)",
+          "content": "RNAV allows direct routing between waypoints.",
+          "key_points": [
+            "Does not require flying directly over navaids",
+            "Uses multiple navigation sources",
+            "Reduces flight distance and time",
+            "Foundation for modern air traffic management"
+          ]
+        }
+      ]
+    },
+    "6": {
+      "id": "6",
+      "title": "Weight and Balance",
+      "description": "Aircraft weight management, center of gravity, and loading",
+      "sections": [
+        {
+          "title": "Weight Concepts",
+          "content": "Understanding weight is fundamental to safe operations.",
+          "key_points": [
+            "Empty Weight: Aircraft with all permanent equipment",
+            "Basic Empty Weight: Empty weight plus unusable fuel and fluids",
+            "Maximum Ramp Weight: Maximum weight for ground operations",
+            "Maximum Takeoff Weight: Maximum weight for takeoff",
+            "Maximum Landing Weight: Maximum weight for landing"
+          ]
+        },
+        {
+          "title": "Center of Gravity",
+          "content": "CG position affects aircraft stability and control.",
+          "key_points": [
+            "CG must remain within approved limits",
+            "Forward CG: More stable but less maneuverable",
+            "Aft CG: Less stable but more maneuverable",
+            "CG changes with fuel burn and payload"
+          ]
+        },
+        {
+          "title": "Loading Calculations",
+          "content": "Proper loading ensures safe flight operations.",
+          "key_points": [
+            "Moment = Weight × Arm",
+            "Total moment divided by total weight = CG position",
+            "Balance chart simplifies calculations",
+            "Weight and balance must be verified before each flight"
+          ]
+        }
+      ]
+    },
+    "7": {
+      "id": "7",
+      "title": "Flight Planning",
+      "description": "Route planning, fuel planning, and flight documentation",
+      "sections": [
+        {
+          "title": "Route Planning",
+          "content": "Efficient route planning saves time and fuel.",
+          "key_points": [
+            "Direct routing when possible",
+            "Consider weather and winds",
+            "Avoid restricted airspace",
+            "Plan for contingencies"
+          ]
+        },
+        {
+          "title": "Fuel Planning",
+          "content": "Fuel planning is critical for flight safety.",
+          "key_points": [
+            "Trip fuel: Fuel for planned flight",
+            "Reserve fuel: Additional fuel for contingencies",
+            "Alternate fuel: Fuel to reach alternate airport",
+            "Final reserve: Fixed amount for emergency"
+          ]
+        },
+        {
+          "title": "Performance Planning",
+          "content": "Performance calculations ensure safe operations.",
+          "key_points": [
+            "Takeoff performance at departure airport",
+            "Landing performance at destination",
+            "Climb and descent planning",
+            "Altitude and speed selection"
+          ]
+        }
+      ]
+    },
+    "8": {
+      "id": "8",
+      "title": "Jeppesen",
+      "description": "Jeppesen charts, planning, and navigation materials",
+      "sections": [
+        {
+          "title": "Chart Types",
+          "content": "Jeppesen provides various chart types for flight operations.",
+          "key_points": [
+            "Airport diagrams: Layout and taxiways",
+            "Approach plates: Instrument approach procedures",
+            "En-route charts: Low and high altitude airways",
+            "Star charts: Standard Terminal Arrival Routes"
+          ]
+        },
+        {
+          "title": "Chart Interpretation",
+          "content": "Understanding chart symbols is essential.",
+          "key_points": [
+            "Colors indicate different information types",
+            "Symbols represent navigation aids and obstacles",
+            "Contours show terrain elevation",
+            "Holdings patterns and restrictions"
+          ]
+        }
+      ]
+    },
+    "9": {
+      "id": "9",
+      "title": "ATC",
+      "description": "Air traffic control procedures, communications, and regulations",
+      "sections": [
+        {
+          "title": "ATC Communications",
+          "content": "Clear communication with ATC is essential.",
+          "key_points": [
+            "Standard phraseology for clear communication",
+            "Readback of critical instructions",
+            "Use correct frequencies",
+            "Maintain situational awareness"
+          ]
+        },
+        {
+          "title": "Clearances",
+          "content": "ATC clearances authorize specific actions.",
+          "key_points": [
+            "Route clearance: Authorized route to fly",
+            "Approach clearance: Authorization for approach",
+            "Hold clearance: Instructions for holding",
+            "SID/STAR: Standard departures and arrivals"
+          ]
+        },
+        {
+          "title": "Airspace Classes",
+          "content": "Different airspace classes have different requirements.",
+          "key_points": [
+            "Class A: IFR only, FL180 and above",
+            "Class B: Busy airports, IFR and VFR with clearance",
+            "Class C: Towers with radar, IFR and VFR with radio contact",
+            "Class D: Towers without radar, VFR with radio contact",
+            "Class E: Controlled airspace, IFR and VFR",
+            "Class G: Uncontrolled airspace"
+          ]
+        }
+      ]
+    },
+    "10": {
+      "id": "10",
+      "title": "Propulsion System",
+      "description": "Gas turbine engines, fuel systems, and engine operations",
+      "sections": [
+        {
+          "title": "Gas Turbine Engine",
+          "content": "Jet engines operate on the Brayton cycle.",
+          "key_points": [
+            "Suck, squeeze, bang, blow - intake, compression, combustion, exhaust",
+            "Turbojet: Basic jet engine",
+            "Turbofan: Bypass air for efficiency and noise reduction",
+            "Turboprop: Turbine drives propeller"
+          ]
+        },
+        {
+          "title": "Engine Components",
+          "content": "Understanding engine components is essential for operations.",
+          "key_points": [
+            "Compressor: Increases air pressure",
+            "Combustion chamber: Fuel burns with compressed air",
+            "Turbine: Extracts energy to drive compressor",
+            "Nozzle: Accelerates exhaust gases"
+          ]
+        },
+        {
+          "title": "Engine Systems",
+          "content": "Various systems support engine operation.",
+          "key_points": [
+            "Fuel system: Delivers fuel to engines",
+            "Ignition system: Starts combustion process",
+            "Oil system: Lubricates and cools engine",
+            "Bleed air: Compressed air for various uses"
+          ]
+        },
+        {
+          "title": "Engine Monitoring",
+          "content": "Monitoring engine parameters ensures safe operation.",
+          "key_points": [
+            "EGT: Exhaust Gas Temperature",
+            "N1: Low pressure compressor speed",
+            "N2: High pressure compressor speed",
+            "Fuel flow: Rate of fuel consumption"
+          ]
+        }
+      ]
+    }
+  },
+  "metadata": {
+    "source": "Airline Basic Course Summary",
+    "total_chapters": 10,
+    "version": "1.0",
+    "description": "Comprehensive airline pilot training material covering all aspects of commercial aviation"
+  }
+}
